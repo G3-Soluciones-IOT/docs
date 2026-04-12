@@ -231,15 +231,84 @@ El impacto de esta problemática es significativo. Estudios recientes evidencian
 
 
 #### 1.2.2 Lean UX Process.
-
+El Lean UX Process es un enfoque ágil centrado en el usuario que permite validar de manera iterativa las decisiones de diseño mediante la formulación de hipótesis y la experimentación continua. Este enfoque se basa en el ciclo construir–medir–aprender, permitiendo al equipo reducir la incertidumbre y asegurar que la solución propuesta responda a necesidades reales del usuario.
 ##### 1.2.2.1. Lean UX Problem Statements.
+**Domain**  
+Gestión del monitoreo nutricional y seguimiento de la ingesta alimentaria en contextos personales y profesionales de salud.
+
+**Customer Segments**  
+- Usuarios orientados a la mejora de su alimentación  
+- Profesionales de la salud (nutricionistas, entrenadores)
+
+**Problem / Pain Points**  
+Se ha identificado que los usuarios presentan dificultades para registrar y monitorear su ingesta nutricional de manera precisa y constante, lo que genera:
+
+- Baja precisión en los datos registrados  
+- Abandono del uso de aplicaciones de nutrición  
+- Falta de visibilidad clara sobre hábitos alimenticios  
+- Dificultad para tomar decisiones informadas  
+- Limitada capacidad de seguimiento por parte de profesionales de la salud  
+
+**Gap**  
+Existe una brecha entre la necesidad de contar con información nutricional precisa, continua y confiable, y la disponibilidad de herramientas digitales que reduzcan la carga manual del usuario y mejoren la calidad de los datos recolectados.
+
+**Vision / Strategy**  
+Desarrollar una solución digital que permita automatizar y optimizar el monitoreo de la ingesta nutricional, reduciendo la intervención manual del usuario y mejorando la precisión de los datos, facilitando la toma de decisiones y promoviendo hábitos alimenticios sostenibles tanto en usuarios finales como en profesionales de la salud.
+
+**Initial Segment**  
+Usuarios urbanos en Perú interesados en mejorar su alimentación y que utilizan dispositivos móviles como principal medio de acceso digital.
+
+**Problem Statement**  
+¿Cómo podríamos facilitar el monitoreo preciso y constante de la ingesta nutricional de los usuarios, al mismo tiempo que brindamos información confiable a los profesionales de la salud, reduciendo la carga manual y mejorando la calidad de los datos para apoyar la toma de decisiones?
 
 ##### 1.2.2.2. Lean UX Assumptions.
+Las siguientes suposiciones han sido definidas en base al entendimiento preliminar del problema y serán validadas mediante el proceso iterativo del Lean UX.
+
+
+**Business Assumptions**
+
+- Se asume que existe una creciente demanda por soluciones digitales orientadas al monitoreo de la salud y la nutrición.  
+- Se asume que los usuarios perciben valor en herramientas que reduzcan el esfuerzo requerido para registrar su alimentación.  
+- Se asume que la automatización del registro nutricional puede mejorar la retención de usuarios.  
+- Se asume que los profesionales de la salud requieren herramientas más precisas para el seguimiento de sus pacientes.  
+- Se asume que los profesionales están dispuestos a adoptar herramientas digitales que mejoren la calidad del seguimiento nutricional.  
+- Se asume que el mercado peruano presenta oportunidades para soluciones digitales en el ámbito de la salud y bienestar.  
+- Se asume que una solución basada en datos puede generar valor tanto para usuarios finales como para profesionales.  
+
+
+**User Assumptions**
+
+- Se asume que los usuarios experimentan frustración al tener que registrar manualmente su alimentación.  
+- Se asume que los usuarios valoran la facilidad de uso y la rapidez en el registro de información.  
+- Se asume que los usuarios están dispuestos a adoptar herramientas digitales si estas son intuitivas.  
+- Se asume que los usuarios desean mejorar sus hábitos alimenticios pero carecen de herramientas eficientes.  
+- Se asume que los profesionales de la salud necesitan datos confiables para brindar recomendaciones adecuadas.  
+- Se asume que los profesionales valoran herramientas que optimicen su tiempo y mejoren el seguimiento de pacientes.  
+- Se asume que los usuarios prefieren soluciones que reduzcan el esfuerzo requerido para el monitoreo nutricional.  
 
 ##### 1.2.2.3. Lean UX Hypothesis Statements.
+Creemos que los usuarios orientados a la mejora de su alimentación podrán realizar un seguimiento más constante y preciso de su ingesta nutricional si se reduce la necesidad de registro manual, lo que mejorará su adherencia al uso de la herramienta.
 
+Sabremos que esto es cierto cuando al menos el 70% de los usuarios registre su alimentación de manera continua durante una semana.
+
+Creemos que los usuarios podrán tomar mejores decisiones sobre su alimentación si cuentan con información clara, precisa y accesible, lo que permitirá mejorar sus hábitos alimenticios.
+
+Sabremos que esto es cierto cuando más del 60% de los usuarios indique que comprende mejor su alimentación y realiza cambios en sus hábitos.
+
+Creemos que los profesionales de la salud podrán mejorar la calidad de sus recomendaciones si cuentan con datos más precisos y actualizados sobre la ingesta nutricional de sus pacientes, lo que permitirá un seguimiento más efectivo.
+
+Sabremos que esto es cierto cuando al menos el 70% de los profesionales indique que la herramienta mejora su capacidad de análisis y toma de decisiones.
+
+Creemos que los usuarios adoptarán la solución si esta ofrece una experiencia simple, rápida y accesible desde dispositivos móviles, lo que permitirá su uso continuo.
+
+Sabremos que esto es cierto cuando la tasa de retención supere el 60% después de la primera semana.
 ##### 1.2.2.4. Lean UX Canvas.
 
+<p align="center">
+    <img src="assets/recursos/Lean UX Canvas-IoT.png" alt="Lean-UX-Canvas" width="400px"/>
+</p>
+
+Link: https://canva.link/55j2m2akga2iwr8
 ### 1.3. Segmentos objetivo.
 
 Los siguientes segmentos han sido definidos a partir del análisis del dominio del problema y del contexto actual en el Perú, considerando tendencias en el uso de tecnologías digitales, hábitos de salud y necesidades de monitoreo nutricional. La selección de estos segmentos busca maximizar el impacto de la solución, abordando tanto la demanda de los usuarios finales como las necesidades de los profesionales del sector salud.
