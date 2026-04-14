@@ -459,6 +459,240 @@ Adicionalmente, se incorporaron eventos provenientes de dispositivos IoT, como e
 
 ##### 4.1.1.1 Candidate Context Discovery.
 
+#### **Unstructured Exploration**
+
+Iniciamos con una sesión de lluvia de ideas en la cual identificamos todos los eventos
+relevantes que podrían ocurrir dentro del sistema, sin ningún orden establecido. Este paso
+permitió tener una visión amplia del dominio y entender todas las posibles interacciones del
+usuario con el sistema.
+
+![alt text](assets/TB1/E1.jpg)
+
+![alt text](assets/TB1/E2.jpg)
+
+#### **Timeline Construction**
+
+Una vez identificados todos los eventos, los organizamos en una línea de tiempo que
+representa el flujo cronológico de interacción del usuario. Esto permitió entender el orden
+natural de los procesos y cómo se relacionan entre sí.
+
+---
+
+Este flujo de eventos permite a los usuarios registrarse completando un formulario con sus
+datos personales y preferencias nutricionales, o iniciar sesión si ya tienen cuenta. También
+contempla el manejo de intentos fallidos de inicio de sesión y ofrece una opción para
+recuperar el acceso mediante el envío de un correo si la cuenta no existe.
+
+![alt text](assets/TB1/T1.png)
+
+---
+
+Este flujo de eventos permite al usuario visualizar toda su información personal y, si lo desea,
+habilitar la edición de datos sensibles como correo y contraseña. Para ello, primero debe
+verificar su identidad a través del inicio de sesión. Al guardar los cambios, el sistema muestra
+un mensaje de confirmación que asegura que la actualización fue exitosa y segura.
+
+![alt text](assets/TB1/T2.png)
+
+---
+
+Este flujo de eventos está diseñado para permitir al usuario establecer y actualizar sus
+objetivos de salud. El usuario puede acceder a opciones para modificar su objetivo, peso,
+calorías, macros y tipo de dieta mediante menús desplegables. Estas acciones generan
+mensajes de confirmación que validan los cambios realizados, lo que asegura que las
+preferencias y metas del usuario se actualicen de manera secuencial y lógica, con un sistema
+de retroalimentación claro.
+
+![alt text](assets/TB1/T3.png)
+
+---
+
+Este flujo de eventos está diseñado para permitir al usuario interactuar de manera fluida con
+su alimentación: puede modificar la cantidad de comidas, lo que genera un mensaje de
+confirmación, así como acceder a sugerencias saludables y ver un listado de alimentos para
+actualizar sus preferencias
+
+![alt text](assets/TB1/T4.png)
+
+---
+
+Este flujo de eventos describe cómo el sistema gestiona la rutina alimentaria del usuario de manera completamente automática mediante dispositivos IoT, como la balanza y el bebedero inteligente. A partir de la captura de datos en tiempo real, el sistema registra el peso del alimento consumido y detecta automáticamente el tipo de alimento.
+
+Con esta información, se procesa y calcula la información nutricional correspondiente, incluyendo calorías y macronutrientes, permitiendo actualizar la rutina alimentaria del usuario de forma continua y precisa. El flujo contempla la sincronización en tiempo real y la generación de confirmaciones sobre los datos registrados, así como la gestión de posibles errores en la lectura o recepción de información, ofreciendo opciones de corrección cuando sea necesario.
+
+Finalmente, el usuario puede visualizar su rutina alimentaria actualizada junto con los datos registrados automáticamente, asegurando un seguimiento eficiente y sin intervención manual.
+
+
+![alt text](assets/TB1/T5.jpg)
+
+---
+
+Este flujo representa una secuencia lógica y centrada en el nutricionista, para la gestión de su
+perfil profesional, con énfasis en la edición de sus datos profesionales y la interacción con
+mensajes de confirmación.
+
+
+![alt text](assets/TB1/T6.png)
+
+---
+
+Este flujo de eventos está diseñado para guiar al profesional de nutrición en la creación,
+categorización, asignación y publicación de planes alimenticios, de manera ordenada y
+eficiente.
+
+
+![alt text](assets/TB1/T7.png)
+
+---
+
+Este flujo de eventos describe cómo el nutricionista puede gestionar y dar seguimiento a sus pacientes, accediendo a información relevante como la lista de usuarios asignados, el perfil de cada paciente y sus métricas de progreso nutricional. Además, el sistema permite la incorporación de nuevos pacientes mediante el envío y aceptación de solicitudes, facilitando una gestión organizada y una comunicación directa.
+
+De manera complementaria, el flujo integra un sistema de monitoreo inteligente que analiza en tiempo real la información nutricional del paciente, generando actualizaciones del progreso, niveles de hidratación y alertas automáticas ante situaciones como exceso o déficit calórico o bajo consumo de agua. Estas evaluaciones permiten enviar notificaciones y recordatorios automáticos al usuario, fortaleciendo el seguimiento continuo y personalizado de su estado de salud.
+
+
+![alt text](assets/TB1/T8.jpg)
+
+
+
+#### **Pivotal Points**
+
+![alt text](assets/TB1/P1.png)
+
+![alt text](assets/TB1/P2.png)
+
+![alt text](assets/TB1/P3.png)
+
+![alt text](assets/TB1/P4.png)
+
+![alt text](assets/TB1/P5.jpg)
+
+![alt text](assets/TB1/P6.png)
+
+![alt text](assets/TB1/P7.png)
+
+![alt text](assets/TB1/P8.jpg)
+
+
+#### **Commands**
+
+En esta etapa se establecen los comandos que representan las acciones que los usuarios
+pueden realizar dentro del sistema. Estos comandos son esenciales para provocar eventos y
+alterar el estado del sistema, y deben estar coherentemente relacionados con los eventos
+definidos previamente. A continuación, se presentan los comandos relevantes para nuestro
+dominio.
+
+---
+
+El diagrama muestra un sistema que guía al usuario en tres procesos: registro de cuenta con
+definición de objetivos nutricionales, inicio de sesión con verificación de credenciales y
+opción de recuperación ante fallos, y recuperación de contraseña mediante el envío de un
+correo para restablecerla.
+
+![alt text](assets/TB1/C1.png)
+
+---
+
+El diagrama muestra el flujo donde el usuario, al acceder a su ícono, puede editar su perfil
+—visualizando y modificando correo y contraseña con confirmación de cambios— o cerrar
+sesión, siendo redirigido al menú de inicio de sesión.
+
+![alt text](assets/TB1/C2.png)
+
+---
+
+El diagrama muestra cómo el usuario, desde su menú de objetivos, puede configurar su peso
+y calorías o ajustar su tipo de dieta y macros, recibiendo en ambos casos una confirmación al
+guardar los cambios.
+
+
+![alt text](assets/TB1/CO3.png)
+
+---
+
+El diagrama muestra cómo el usuario, desde su plan de comidas, puede modificar el número
+de comidas, ver sugerencias saludables o ajustar sus preferencias de alimentos, recibiendo
+confirmación al guardar los cambios.
+
+![alt text](assets/TB1/CO4.png)
+
+---
+
+El diagrama muestra cómo el sistema registra automáticamente los alimentos consumidos por el usuario mediante la interacción con un dispositivo IoT, el cual captura datos como el peso del alimento y los envía para su procesamiento. A partir de esta información, el sistema identifica el tipo de alimento y genera eventos como alimento detectado y peso registrado.
+
+El flujo contempla el cálculo automático de la información nutricional, incluyendo calorías y macronutrientes, lo que permite actualizar la rutina alimentaria del usuario en tiempo real. Finalmente, estos datos son mostrados en la aplicación, brindando al usuario una visualización clara y actualizada de su consumo alimenticio.
+
+
+![alt text](assets/TB1/CO5.jpg)
+
+---
+
+El diagrama muestra cómo el nutricionista puede monitorear el estado nutricional de sus pacientes, accediendo a información clave como métricas, progreso y alertas generadas automáticamente por el sistema. Este proceso es apoyado por un análisis inteligente que evalúa datos como calorías, macronutrientes y nivel de hidratación en tiempo real.
+
+El flujo contempla la visualización continua del progreso nutricional, permitiendo identificar situaciones como exceso o déficit calórico, así como cambios en el nivel de hidratación. Tanto el nutricionista como el usuario reciben notificaciones y actualizaciones que facilitan un seguimiento constante y personalizado del estado de salud del paciente.
+
+
+![alt text](assets/TB1/CO6.jpg)
+
+---
+
+El diagrama muestra cómo el nutricionista, desde su panel de gestión, puede crear nuevos
+planes alimenticios, organizarlos por categorías, asignarlos a usuarios y publicarlos, todo
+dentro de un flujo claro y estructurado. El proceso incluye opciones para cancelar o regresar
+en cualquier momento, y se refuerza con actualizaciones y confirmaciones inmediatas que
+aseguran una experiencia profesional eficiente.
+
+![alt text](assets/TB1/CO7.png)
+
+
+---
+
+![alt text](assets/TB1/CO8.png)
+
+El diagrama muestra cómo el nutricionista puede gestionar su perfil profesional, accediendo a
+su información personal, editando datos clave como especialidades y contacto, y actualizando
+su foto de perfil. El flujo contempla acciones de edición, cancelación, cierre de sesión y
+validación de datos, con mensajes de confirmación o error que refuerzan la experiencia de
+uso.
+
+
+#### **Bounded Contexts**
+
+Finalmente, agrupamos los eventos dentro de bounded contexts coherentes para definir
+límites claros entre módulos y facilitar su desarrollo independiente. Esto permitirá que cada
+contexto evolucione de forma desacoplada y con responsabilidades bien definidas.
+
+#### **Bounded Context: Inicio y Registro de sesión**
+
+![alt text](assets/TB1/BO1.png)
+
+#### **Bounded Context: Perfil del Usuario**
+
+![alt text](assets/TB1/BO2.png)
+
+#### **Bounded Context: Gestión de Objetivos**
+
+![alt text](assets/TB1/BO3.png)
+
+#### **Bounded Context: Preferencias de Alimentación**
+
+![alt text](assets/TB1/BO4.png)
+
+#### **Bounded Context: Rutina Alimentaria**
+
+![alt text](assets/TB1/BO5.jpg)
+
+#### **Bounded Context: Perfil Nutricionista**
+
+![alt text](assets/TB1/BO6.png)
+
+#### **Bounded Context: Creación y Gestión de Planes Alimenticios**
+
+![alt text](assets/TB1/BO7.png)
+
+#### **Bounded Context: Comunicación y Seguimiento**
+
+![alt text](assets/TB1/BO8.jpg)
+
 ##### 4.1.1.2 Domain Message Flows Modeling.
 
 El Modelado de Flujos de Mensajes de Dominio es una técnica fundamental para el análisis y diseño de sistemas complejos, ya que permite visualizar la transferencia de información y la orquestación entre componentes mediante el intercambio de mensajes. Este enfoque se centra en especificar las interacciones entre los diversos actores y componentes del sistema, facilitando la comprensión de sus dependencias y relaciones dinámicas.
@@ -487,15 +721,19 @@ Como resultado, se generan eventos como Alimento Detectado y Peso Registrado, lo
 
 Finalmente, se emite el evento Rutina Alimentaria Actualizada, actualizando automáticamente el registro diario del usuario en el sistema.
 
+![alt text](assets/TB1/D1.jpg)
+
 ### **Análisis nutricional y generación de alertas**
 
 Este es un escenario donde el sistema analiza la información nutricional del usuario para monitorear su progreso y generar alertas.
 
-El bounded context Rutina Alimentaria Inteligente envía los datos procesados, como la Información Nutricional Calculada, al bounded context Monitoreo y Seguimiento Nutricional.
+El bounded context Rutina Alimentaria Inteligente envía los datos procesados, como la Información Nutricional Calculada, al bounded context Comunicación y seguimiento.
 
 A partir de esta información, el sistema evalúa el progreso del usuario y genera eventos como Progreso Nutricional Actualizado, Alerta de Exceso Calórico, Alerta de Déficit Calórico o Nivel de Hidratación Actualizado.
 
 Finalmente, estas alertas son enviadas al usuario mediante notificaciones, permitiendo un seguimiento continuo y personalizado de su estado nutricional.
+
+![alt text](assets/TB1/D2.jpg)
 
 ##### 4.1.1.3 Bounded Context Canvases.
 
@@ -717,9 +955,9 @@ Asume el rol de **execution context**, al ejecutar automáticamente el registro 
 ● Manejo de errores en la captura de datos físicos.  
 ● Reducción de intervención manual del usuario.  
 
-![alt text](assets/TB1/B4.png)
+![alt text](assets/TB1/C1.jpg)
 
-##  **Bounded Context – Monitoreo y Seguimiento Nutricional**
+##  **Bounded Context – Comunicación y seguimiento**
 
 ### **Description**
 
@@ -761,6 +999,8 @@ Asume el rol de **analysis context**, al procesar métricas y generar alertas, y
 ● Comunicación directa nutricionista–paciente.  
 ● Gestión de relaciones entre nutricionistas y pacientes.  
 ● Soporte para toma de decisiones basadas en datos.
+
+![alt text](assets/TB1/c2.jpg)
 
 #### 4.1.2. Context Mapping.
 
