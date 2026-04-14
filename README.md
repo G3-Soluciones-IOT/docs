@@ -898,39 +898,160 @@ red, bases de datos, y cómo interactúan entre sí.
 
 #### 4.2.1. Bounded Context: Inicio y Registro de Sesión
 
+Este Bounded Context es el responsable de gestionar la seguridad y el control de acceso de la plataforma. Su propósito es centralizar la lógica de autenticación y autorización, permitiendo el registro de nuevos usuarios, la validación de credenciales para el inicio de sesión y la gestión de roles. Al aislar estas responsabilidades, se garantiza que la identidad de los distintos tipos de usuarios sea gestionada de forma consistente y protegida.
+
 ##### 4.2.1.1. Domain Layer.
+
+En esta capa se define el núcleo del negocio relacionado con la identidad y el acceso. Se utilizan patrones tácticos para encapsular las reglas de validación y la jerarquía de roles, asegurando la integridad de la cuenta del usuario desde su creación.
+
+| Clase               | Categoría         | Propósito                                                                 | Atributos / Métodos Principales                                                                 |
+|--------------------|------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| User               | Aggregate Root   | Representa la identidad del usuario en el sistema, vinculando sus credenciales con sus permisos. | Atributos: username, password, roles. Métodos: addRole(), addRoles().                          |
+| Role               | Entity           | Define las categorías de acceso disponibles (Nutricionista, Usuario, etc.) dentro de la aplicación. | Atributos: id, name (Roles). Métodos: getDefaultRole().                                         |
+| Roles              | Value Object     | Enumeración que define los tipos de roles permitidos para mantener la consistencia del dominio. | Valores: ROLE_USER, ROLE_NUTRITIONIST, ROLE_ADMIN.                                              |
+| UserCommandService | Domain Service   | Orquesta las operaciones de cambio de estado, como el registro y la autenticación. | Métodos: handle(SignUpCommand), handle(SignInCommand).                                          |
+| UserQueryService   | Domain Service   | Gestiona las consultas de información de usuarios sin afectar el estado de los datos. | Métodos: handle(GetUserByIdQuery), handle(GetUserByUsernameQuery).                              |
 
 ##### 4.2.1.2. Interface Layer.
 
+Esta capa actúa como el punto de entrada a la plataforma. Su responsabilidad es exponer las capacidades de autenticación y gestión de usuarios a través de una API REST, además de facilitar la comunicación con otros contextos mediante fachadas de servicios. Se encarga de transformar los datos externos en intenciones del dominio y viceversa.
+
+| Clase                                      | Tipo             | Propósito                                                                 | Atributos / Métodos Principales                                                                 |
+|-------------------------------------------|------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| AuthenticationController                  | Controller       | Gestiona las peticiones de ingreso y creación de cuentas en la aplicación. | signIn(), signUp().                                                                             |
+| UsersController                           | Controller       | Expone endpoints para la consulta y gestión de perfiles de usuario.       | getAllUsers(), getUserById().                                                                   |
+| IamContextFacade                          | ACL (Facade)     | Proporciona una interfaz simplificada para que otros contextos interactúen con IAM de forma segura. | createUser(), fetchUserIdByUsername().                                                          |
+| SignInResource / SignUpResource           | Resource (DTO)   | Define la estructura de datos que la aplicación espera recibir del cliente externo. | username, password, roles.                                                                     |
+| UserResource / AuthenticatedUserResource  | Resource (DTO)   | Define la estructura de respuesta enviada al cliente, incluyendo tokens de acceso cuando corresponde. | id, username, token, roles.                                                                    |
+| SignUpCommandFromResourceAssembler        | Assembler        | Transforma los recursos de entrada (DTO) en comandos de dominio válidos.  | toCommandFromResource().                                                                        |
+| UserResourceFromEntityAssembler           | Assembler        | Convierte las entidades de dominio en recursos (DTO) listos para la respuesta HTTP. | toResourceFromEntity().                                                                        |
+
 ##### 4.2.1.3. Application Layer.
+
+Esta capa coordina los flujos de trabajo de la aplicación y ejecuta los casos de uso del negocio. Actúa como un mediador que orquesta la interacción entre la capa de dominio y los servicios externos (como seguridad y persistencia), asegurando que se cumplan los requerimientos de autenticación y gestión de usuarios.
+
+| Clase                         | Tipo              | Propósito                                                                 | Atributos / Métodos Principales                                                                 |
+|------------------------------|-------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| UserCommandServiceImpl       | Command Handler   | Implementa la lógica para el registro de usuarios y el proceso de autenticación (Sign In). | handle(SignUpCommand), handle(SignInCommand).                                                   |
+| UserQueryServiceImpl         | Query Handler     | Procesa las consultas de lectura para obtener información detallada de los usuarios registrados. | handle(GetUserByIdQuery), handle(GetAllUsersQuery).                                             |
+| RoleCommandServiceImpl       | Command Handler   | Gestiona la creación inicial de roles en el sistema (Seeding) durante el arranque. | handle(SeedRolesCommand).                                                                       |
+| RoleQueryServiceImpl         | Query Handler     | Encargado de recuperar la información de los roles disponibles en la plataforma. | handle(GetAllRolesQuery), handle(GetRoleByNameQuery).                                           |
+| ApplicationReadyEventHandler | Event Handler     | Escucha el evento de inicio del sistema para disparar el proceso de carga de roles. | on(ApplicationReadyEvent).                                                                      |
+| HashingService               | Outbound Service  | Interfaz para delegar el cifrado y validación de contraseñas de forma segura. | encode(), matches().                                                                            |
+| TokenService                 | Outbound Service  | Interfaz para la gestión de tokens de seguridad (JWT) para sesiones activas. | generateToken(), validateToken().                                                               |
 
 ##### 4.2.1.4. Infrastructure Layer.
 
+En esta capa se presentan las implementaciones técnicas que permiten la operatividad del sistema sobre una infraestructura real. Se conectan las abstracciones del dominio y la aplicación con tecnologías específicas para la persistencia en bases de datos relacionales y la seguridad avanzada mediante estándares de la industria.
+
+| Clase / Componente                 | Tipo              | Propósito                                                                 | Atributos / Métodos Principales                                                                 |
+|----------------------------------|-------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| UserRepository                   | Repository        | Interfaz JPA para gestionar la persistencia y recuperación de agregados User. | findByUsername(), existsByUsername().                                                           |
+| RoleRepository                   | Repository        | Interfaz JPA para el acceso a datos de la entidad Role y sus enumeraciones. | findByName(), existsByName().                                                                   |
+| HashingServiceImpl               | Service Impl      | Implementación de seguridad que utiliza el algoritmo BCrypt para el manejo de contraseñas. | encode(), matches().                                                                            |
+| TokenServiceImpl                 | Service Impl      | Implementación de la gestión de tokens JWT, incluyendo generación, extracción y validación. | generateToken(), validateToken(), getBearerTokenFrom().                                         |
+| WebSecurityConfiguration         | Config            | Configuración central de Spring Security que define filtros, políticas stateless y reglas de acceso. | filterChain(), authenticationProvider().                                                        |
+| BearerAuthorizationRequestFilter | Security Filter   | Filtro de interceptación que valida la presencia y vigencia del token JWT en cada petición. | doFilterInternal().                                                                             |
+| UserDetailsServiceImpl           | Service Impl      | Puente entre Spring Security y el repositorio para cargar detalles del usuario durante la autenticación. | loadUserByUsername().                                                                           |
+| UnauthorizedRequestHandlerEntryPoint | Auth Entry Point | Manejador de excepciones que gestiona y responde ante intentos de acceso no autorizados. | commence().                                                                                     |
+
+
+
 ##### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.
+
+El diagrama de componentes del Bounded Context de Inicio y Registro de Sesión permite visualizar la arquitectura interna de este límite de dominio y cómo se orquestan los flujos de autenticación. En este nivel, se observa la interacción entre los controladores REST, que actúan como puntos de entrada para la Web Application y la Mobile App, y los servicios de aplicación que ejecutan la lógica de comandos y consultas definida para este contexto. Se destaca la integración del motor de seguridad para el manejo de JWT y el cifrado BCrypt, así como el uso de repositorios que abstraen la persistencia de datos en la base de datos PostgreSQL, garantizando un diseño modular, con responsabilidades delimitadas y altamente mantenible.
+
+![Component Level Diagram](assets/TB1/bc1_component_diagram.png)
 
 ##### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.
 
+En esta sección se detallan las especificaciones técnicas de bajo nivel que rigen el funcionamiento del contexto de IAM. Se presentan los diagramas que describen la estructura de código y la organización de los datos persistentes, permitiendo una transición clara entre el diseño arquitectónico y la implementación física.
+
 ###### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.
+
+El Domain Layer Class Diagram detalla la estructura lógica y técnica del bounded context de Inicio y Registro de Sesión, siguiendo los patrones tácticos de Domain-Driven Design (DDD) y la segregación de responsabilidades mediante CQRS. En el núcleo del modelo, se identifica al aggregate User y a el entity Role, cuya relación asegura una gestión de permisos consistente mediante el uso del Value Object Roles.
+
+Asimismo, el diagrama ilustra la separación entre las operaciones de escritura y lectura a través de Commands y Queries implementados como Records, los cuales son orquestados por sus respectivos servicios de dominio como UserCommandService, UserQueryService, entre otros. Esta organización garantiza un desacoplamiento efectivo, facilitando la mantenibilidad y escalabilidad del sistema de autenticación al separar la intención del negocio de la ejecución técnica.
+
+![Class Diagram](assets/TB1/bc1_class_diagram.png)
 
 ###### 4.2.1.6.2. Bounded Context Database Design Diagram.
 
+El diagrama de base de datos del bounded context utiliza un modelo normalizado con una tabla maestra de usuarios y una de roles, vinculadas mediante la tabla intermedia user_roles para resolver la relación de muchos a muchos. Esta configuración asegura la integridad de los datos mediante llaves primarias y foráneas, permitiendo gestionar los permisos de acceso y la trazabilidad de las cuentas de manera organizada y segura.
+
+![Database Design Diagram](assets/TB1/bc1_database_diagram.png)
+
 #### 4.2.2. Bounded Context: Perfil de Usuario
+
+Este Bounded Context se especializa en la gestión integral de la información personal y biométrica de los usuarios. Su propósito principal es centralizar y proteger los datos que definen el estado físico, los hábitos de actividad y las metas de salud individuales. Al gestionar entidades como los niveles de actividad y los objetivos nutricionales, este contexto permite que la plataforma adapte su comportamiento a las necesidades específicas de cada persona. Además, actúa como el repositorio central para las restricciones alimentarias y el seguimiento de variables físicas, asegurando que toda la información del perfil sea consistente y esté disponible para las funcionalidades de personalización de la aplicación.
 
 ##### 4.2.2.1. Domain Layer.
 
+En esta capa se define el núcleo de la aplicación relacionado con la información biométrica y las metas de salud del usuario. Se aplican patrones de Domain-Driven Design (DDD) para asegurar que las reglas de negocio (como el cálculo de necesidades calóricas o la gestión de restricciones alimentarias) estén protegidas y centralizadas en los agregados.
+
+| Clase                     | Categoría        | Propósito                                                                 | Atributos / Métodos Principales                                                                 |
+|--------------------------|------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| UserProfile              | Aggregate Root   | Entidad principal que centraliza los datos biométricos y coordina la lógica de salud del usuario. | Atributos: userId, gender, height, weight, birthDate. Métodos: calculateCalorieNeeds(), updateProfile(), addAllergy(). |
+| ActivityLevel            | Entity           | Define el nivel de actividad física del usuario, factor crítico para cálculos metabólicos. | Atributos: name, activityFactor. Métodos: calculateCalories().                                  |
+| Objective                | Entity           | Representa la meta de salud (ej. bajar peso, ganar músculo) que guía los planes de alimentación. | Atributos: objectiveName, score. Métodos: calculateScore().                                     |
+| Allergy                  | Entity           | Modela las restricciones alimentarias para evitar ingredientes peligrosos en los planes. | Atributos: name, relatedIngredients. Métodos: addIngredient().                                  |
+| Ingredient               | Value Object     | Objeto inmutable que representa un componente específico de una alergia o alimento. | Atributos: name.                                                                               |
+| UserProfileCommandService| Domain Service   | Interfaz que define las operaciones de cambio de estado en el perfil (Crear, Actualizar, Eliminar). | Métodos: handle(CreateUserProfileCommand), handle(UpdateUserProfileCommand).                   |
+
 ##### 4.2.2.2. Interface Layer.
+
+Esta capa actúa como el punto de entrada para todas las solicitudes externas al contexto de Perfil de Usuario. Su responsabilidad es gestionar las solicitudes HTTP, validar los datos de entrada y transformar los modelos internos del dominio en formatos legibles para los clientes (JSON). Un aspecto destacado es el uso de Facades, que actúan como una capa de protección (ACL) para desacoplar la lógica del dominio de los controladores REST.
+
+| Clase                                      | Categoría        | Propósito                                                                 | Atributos / Métodos Principales                                                                 |
+|-------------------------------------------|------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| UserProfileController                     | Controller       | Expone los endpoints REST para la gestión del ciclo de vida del perfil de usuario. | Métodos: listAll(), getById(), create(), update(), delete().                                   |
+| UserProfilesContextFacade                 | ACL Facade       | Actúa como mediador entre la capa de interfaz y el dominio, simplificando el acceso a los servicios. | Métodos: fetchById(), fetchObjectiveByProfileId(), create(), update().                         |
+| CreateUserProfileResource                 | DTO (Record)     | Define la estructura de datos necesaria para recibir la información de un nuevo perfil desde el cliente. | Atributos: userId, gender, height, weight, activityLevelId, objectiveId, allergyIds.           |
+| UserProfileResource                       | DTO (Record)     | Estructura de salida que consolida la información del perfil procesada para el frontend. | Atributos: id, gender, height, weight, activityLevelName, objectiveName, allergyNames.         |
+| UserProfileResourceFromEntityAssembler    | Assembler        | Contiene la lógica para transformar objetos de dominio (Entities/Aggregates) en recursos (DTOs). | Métodos: toResourceFromEntity(), toResources().                                                 |
+| CreateUserProfileCommandFromResourceAssembler | Assembler    | Transforma los datos de entrada del controlador en comandos válidos para el dominio. | Métodos: toCommandFromResource().                                                              |
 
 ##### 4.2.2.3. Application Layer.
 
+La capa de aplicación orquesta los casos de uso del Bounded Context de Perfil de Usuario, actuando como un mediador que dirige el flujo de datos entre la interfaz y el dominio. En esta sección se evidencia la implementación de Command y Query Handlers que coordinan la lógica de negocio, la persistencia y la validación cruzada con otros contextos sin comprometer la pureza del modelo de dominio.
+
+| Clase                         | Categoría                  | Propósito                                                                 | Atributos / Métodos Principales                                                                 |
+|------------------------------|---------------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| UserProfileCommandServiceImpl| Command Handler           | Orquesta la creación, actualización y eliminación de perfiles, coordinando repositorios y servicios externos. | Métodos: handle(CreateUserProfileCommand), handle(UpdateUserProfileCommand).                   |
+| UserProfileQueryServiceImpl  | Query Handler             | Gestiona la recuperación de información de perfiles de forma optimizada para consultas de lectura. | Métodos: handle(GetAllUserProfilesQuery), handle(GetUserProfileByIdQuery).                     |
+| ExternalUserService          | Outbound Service (ACL)    | Servicio que permite verificar la existencia de identidades en el contexto de IAM antes de crear un perfil. | Métodos: userExists(Long userId).                                                              |
+| CreateUserProfileCommand     | Command                   | Representa la intención inmutable del sistema de registrar un nuevo conjunto de datos biométricos. | Atributos: userId, gender, height, weight, activityLevelId, objectiveId.                      |
+| GetUserProfileByIdQuery      | Query                     | Define los parámetros necesarios para localizar la información de un perfil específico. | Atributos: userProfileId.                                                                      |
+
 ##### 4.2.2.4. Infrastructure Layer.
+
+Esta capa implementa la persistencia de datos mediante Spring Data JPA y el motor PostgreSQL. Contiene los repositorios que materializan las interfaces del dominio, permitiendo el almacenamiento y recuperación de perfiles, alergias y catálogos maestros. Gracias al uso de repositorios especializados, se garantiza que la lógica de acceso a datos sea eficiente y esté desacoplada de las reglas de negocio, facilitando el mantenimiento y la integridad de la información biométrica.
+
+| Clase                     | Categoría           | Propósito                                                                 | Atributos / Métodos Principales                                                                 |
+|--------------------------|--------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| UserProfileRepository    | Repository (JPA)   | Implementación de persistencia para el agregado de perfiles, permitiendo búsquedas por usuario de IAM. | Métodos: findByUserId(), existsByUserId(), findTopByOrderByIdDesc().                           |
+| AllergyRepository        | Repository (JPA)   | Gestiona el almacenamiento de alergias y permite consultas filtradas por ingredientes específicos. | Métodos: findByName(), findByRelatedIngredients_Name().                                         |
+| ProfileRepository        | Repository (JPA)   | Repositorio para la entidad de perfil extendida con soporte para búsqueda por credenciales. | Métodos: findByEmail(), save(), findById().                                                     |
+| ActivityLevelRepository  | Repository (JPA)   | Provee acceso al catálogo de niveles de actividad física configurados en el sistema. | Métodos: findAll(), findById(), save().                                                         |
+| ObjectiveRepository      | Repository (JPA)   | Encargado de la persistencia de las metas y objetivos de salud definidos por la aplicación. | Métodos: findAll(), findById(), save().                                                         |
 
 ##### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.
 
+En este diagrama se detalla la organización interna de los componentes para el manejo de perfiles. El flujo comienza en los controladores de User Profile y Allergy, los cuales reciben las solicitudes de las aplicaciones y delegan la ejecución a la User Profiles Context Facade. Este sirve como un punto de control que coordina los servicios de Commands para las acciones de escritura y Queries para las consultas de datos. Un punto importante es la integración del External User Service, que actúa como una capa de protección (ACL) para validar que el usuario realmente exista en el contexto de seguridad antes de procesar su perfil. Finalmente, el acceso a la base de datos se gestiona mediante repositorios que aseguran la persistencia correcta de la información biométrica.
+
+![Component Level Diagram](assets/TB1/bc2_component_diagram.png)
+
 ##### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.
+
+En esta sección se presentan los diagramas de bajo nivel que definen la implementación del contexto de Perfil de Usuario. El Diagrama de Clases muestra la estructura lógica de los agregados y entidades siguiendo el patrón DDD, mientras que el Diagrama de Base de Datos detalla el diseño de las tablas y sus relaciones en PostgreSQL. Ambos modelos aseguran que la información biométrica y las metas de salud se gestionen de forma íntegra y organizada.
 
 ###### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.
 
+![Class Diagram](assets/TB1/bc2_class_diagram.png)
+
 ###### 4.2.2.6.2. Bounded Context Database Design Diagram.
+
+![Database Diagram](assets/TB1/bc2_database_diagram.png)
 
 #### 4.2.3. Bounded Context: Gestión de Objetivos
 
