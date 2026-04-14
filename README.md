@@ -451,23 +451,448 @@ El sector salud en el Perú viene experimentando un proceso de digitalización p
 
 #### 4.1.1. Design-Level EventStorming.
 
+En esta sección se documenta el proceso de EventStorming realizado en la herramienta Miro, con el objetivo de construir una primera aproximación al modelado general del dominio del problema. Esta técnica colaborativa permitió al equipo identificar los eventos clave, actores, comandos y agregados del sistema, sirviendo como base para definir bounded contexts y facilitar el diseño de la arquitectura.
+
+La sesión tuvo una duración aproximada de 2 horas y permitió agrupar los eventos en cinco grandes bloques funcionales: Inicio y Registro de sesión, Perfil del usuario, Gestión de objetivos, Preferencias de alimentación y Rutina alimentaria.
+
+Adicionalmente, se incorporaron eventos provenientes de dispositivos IoT, como el registro automático de porciones de alimentos y el consumo de agua en tiempo real. Estos eventos permiten enriquecer el modelo del dominio al integrar fuentes de datos externas, facilitando un seguimiento más preciso y automatizado del progreso del usuario dentro del sistema.
+
 ##### 4.1.1.1 Candidate Context Discovery.
 
 ##### 4.1.1.2 Domain Message Flows Modeling.
 
+El Modelado de Flujos de Mensajes de Dominio es una técnica fundamental para el análisis y diseño de sistemas complejos, ya que permite visualizar la transferencia de información y la orquestación entre componentes mediante el intercambio de mensajes. Este enfoque se centra en especificar las interacciones entre los diversos actores y componentes del sistema, facilitando la comprensión de sus dependencias y relaciones dinámicas.
+
+La implementación de esta metodología proporciona una visión clara de las vías de comunicación, lo que resulta crucial para identificar cuellos de botella o posibles fallos en el diseño de manera temprana. A continuación, se presentan los diagramas de flujo de mensajes que ilustran cómo los Bounded Contexts cooperan entre sí para resolver los diferentes escenarios de negocio planteados en nuestra arquitectura.
+
+### **Registro e inicio de sesión**
+
+Este es un escenario donde el usuario desea registrarse o iniciar sesión en el sistema para acceder a su perfil nutricional.
+
+El usuario envía el comando Registrar Cuenta o Iniciar Sesión al bounded context Inicio y Registro de Sesión, proporcionando datos como correo electrónico, contraseña, usuario, objetivo nutricional y nivel de actividad física.
+
+Al confirmarse la operación, se emiten los eventos Cuenta Registrada o Sesión Iniciada, los cuales son recibidos por el bounded context Perfil del Usuario, donde se gestiona la información del usuario.
+
+Finalmente, el sistema muestra el perfil del usuario en la aplicación móvil, permitiendo el acceso a sus funcionalidades personalizadas.
+
+![alt text](assets/TB1/DO1.png)
+
+### **Registro automático de alimentos (IoT)**
+
+Este es un escenario donde el sistema registra automáticamente el consumo alimentario del usuario mediante el uso de un dispositivo IoT.
+
+El dispositivo IoT envía el comando Registrar Datos IoT al bounded context Rutina Alimentaria Inteligente, donde se procesan datos como el peso del alimento y se detecta automáticamente el tipo de alimento consumido.
+
+Como resultado, se generan eventos como Alimento Detectado y Peso Registrado, los cuales permiten calcular la información nutricional del alimento consumido.
+
+Finalmente, se emite el evento Rutina Alimentaria Actualizada, actualizando automáticamente el registro diario del usuario en el sistema.
+
+### **Análisis nutricional y generación de alertas**
+
+Este es un escenario donde el sistema analiza la información nutricional del usuario para monitorear su progreso y generar alertas.
+
+El bounded context Rutina Alimentaria Inteligente envía los datos procesados, como la Información Nutricional Calculada, al bounded context Monitoreo y Seguimiento Nutricional.
+
+A partir de esta información, el sistema evalúa el progreso del usuario y genera eventos como Progreso Nutricional Actualizado, Alerta de Exceso Calórico, Alerta de Déficit Calórico o Nivel de Hidratación Actualizado.
+
+Finalmente, estas alertas son enviadas al usuario mediante notificaciones, permitiendo un seguimiento continuo y personalizado de su estado nutricional.
+
 ##### 4.1.1.3 Bounded Context Canvases.
+
+El Bounded Context Canvas es un recurso gráfico dentro del enfoque Domain-Driven Design
+(DDD) que facilita la definición, comprensión y comunicación precisa de los límites,
+funciones y componentes esenciales de un Bounded Context. Su uso permite al equipo
+mantener una visión común del dominio, reconociendo entidades, eventos, comandos y
+conexiones con otros contextos. Asimismo, gracias a las convenciones que establece,
+posibilita construir un diseño modular y coherente del sistema.
+
+##  **Bounded Context –  INICIO Y REGISTRO DE SESION**
+
+### **Description**
+
+En este bounded context se gestionan los procesos de creación de cuentas de usuario,
+validación de credenciales durante el inicio de sesión y recuperación de contraseñas mediante
+correo electrónico.
+
+### **Strategic Classification**
+
+Su clasificación estratégica se divide en:
+
+**● Generic:**  
+Este bounded context es genérico porque, aunque no aporta directamente a
+la nutrición, es esencial como capa base de acceso a todos los demás contextos.
+
+**● Engagement:**  
+Su modelo de negocio está enfocado en garantizar la continuidad y
+acceso fluido del usuario al sistema.
+
+**● Genesis:**  
+Se considera genesis porque representa el punto inicial sobre el cual se
+construyen y habilitan los demás contextos.
+
+
+### **Domain Role**
+
+
+Asume el rol de execution context, validando credenciales y gestionando el registro, y de
+gateway context, al controlar el acceso al ecosistema de la aplicación.
+
+### **Inbound Communication**
+
+● El usuario puede registrar una cuenta, iniciar sesión o recuperar contraseña.
+
+**Outbound Communication**
+
+● Una CuentaRegistrada habilita la creación del perfil del usuario.
+
+● Un UsuarioAutenticado habilita el acceso a otros bounded contexts como Perfil del
+Usuario o Rutina Alimentaria.
+
+### **Capability Analysis**
+
+● Registro de cuenta: permite almacenar la identidad del usuario en el sistema.
+
+● Validación de credenciales: garantiza la seguridad y continuidad del acceso.
+
+● Recuperación de contraseña: facilita que el usuario recupere su sesión en caso de
+pérdida de acceso.
+
+● Integración con Perfil del Usuario: permite encadenar el registro de cuenta con la
+configuración inicial del perfil.
+
+![alt text](assets/TB1/B1.png)
+
+##  **Bounded Context –  PERFIL DE USUARIO**
+
+### **Description**
+
+En este bounded context se gestiona la información personal del usuario, como correo
+electrónico y contraseña, y se administra la acción de cerrar sesión.
+
+### **Strategic Classification**
+
+Su clasificación estratégica se divide en:
+
+**● Supporting:**  
+Es un contexto de soporte que facilita la personalización y continuidad
+de la experiencia.
+
+**● Engagement:**
+Favorece la interacción al permitir al usuario editar sus datos básicos.
+
+**● Product:** 
+Se considera un producto establecido que da valor al ecosistema al mantener
+la información actualizada.
+
+### **Domain Role**
+
+Asume el rol de execution context, pues ejecuta la gestión directa del perfil y los procesos de
+cierre de sesión.
+
+**Inbound Communication**
+
+● El usuario puede editar su perfil.
+
+● El usuario puede cerrar sesión.
+
+### **Outbound Communication**
+
+● PerfilActualizado → enviado al bounded context de comunicación y seguimiento del
+nutricionista (u otros contextos interesados en datos del usuario).
+
+**Capability Analysis**
+
+● Edición de datos básicos: correo y contraseña.
+
+● Validación de cambios críticos (ej. correos únicos).
+
+● Cierre de sesión con redirección al login.
+
+● Sincronización con otros bounded contexts que dependan del perfil actualizado del
+usuario.
+
+![alt text](assets/TB1/B2.png)
+
+
+## **Bounded Context -  GESTION DE OBJETIVOS**
+
+### **Description**
+Este *bounded context* permite configurar y administrar las **metas nutricionales** del usuario, incluyendo el peso objetivo, las calorías y la velocidad de progreso, asegurando su persistencia y confirmación dentro del sistema.
+
+### **Strategic Classification**
+La clasificación estratégica de este contexto se divide en tres pilares fundamentales:
+
+● **Core:** Es un contexto central, ya que define el eje de personalización nutricional del usuario.
+● **Engagement:** Fomenta la adherencia del usuario al permitirle establecer y seguir objetivos claros.
+*● **Custom Built:** Su evolución es a medida, debido a que cada usuario configura objetivos distintos que requieren una lógica personalizada.
+
+### **Domain Role**
+Asume el rol de **Execution Context**, ya que es el encargado de administrar y procesar directamente los datos de los objetivos nutricionales.
+
+### **Communication Flow**
+
+#### **Inbound Communication**
+● **Usuario:** El usuario puede configurar parámetros críticos como peso, calorías y macronutrientes.
+
+#### **Outbound Communication**
+● **ObjetivosActualizados:** Eventos enviados hacia el contexto de **Rutina Alimentaria** para ajustar dinámicamente las sugerencias y los cálculos de ingesta.
+
+### **Capability Analysis**
+● **Configuración inicial:** Establecimiento de metas nutricionales tras el registro del usuario.
+● **Ajuste dinámico:** Actualización de metas cuando ocurren cambios en el perfil del usuario.
+● **Reglas de cálculo:** Implementación de lógica para determinar calorías y macros de forma personalizada.
+● **Sincronización:** Asegurar la consistencia de los cambios mediante la comunicación con el contexto de Rutina Alimentaria.
+
+![alt text](assets/TB1/B3.png)
+
+## **Bounded Context - PREFERENCIAS DE ALIMENTACION**
+
+### **Description**
+Este *bounded context* gestiona las preferencias del usuario relacionadas con su alimentación, tales como la cantidad de comidas diarias y las restricciones de alimentos (alergias o intolerancias). Además, actúa como un motor de recomendaciones al proveer sugerencias saludables basadas en los gustos del usuario.
+
+### **Strategic Classification**
+La clasificación estratégica de este contexto se define bajo los siguientes criterios:
+
+● **Supporting:** Actúa como un dominio de soporte que complementa la lógica principal de los contextos de Objetivos y Rutina.
+● **Engagement:** Incrementa la retención y satisfacción al permitir que la dieta se adapte a los gustos específicos o necesidades médicas del usuario.
+● **Product:** Se considera una funcionalidad madura que evoluciona para refinar y mejorar continuamente la experiencia de personalización.
+
+### **Domain Role**
+Asume el rol de **Execution Context**, ya que es el responsable directo de la gestión, validación y persistencia de las preferencias alimenticias del usuario.
+
+### **Communication Flow**
+
+#### **Inbound Communication**
+● **Usuario:** Actualización de parámetros personales como el número de ingestas deseadas, restricciones específicas y tipos de sugerencias.
+
+#### **Outbound Communication**
+● **PreferenciasActualizadas:** Evento publicado hacia el contexto de **Rutina Alimentaria** para que este pueda recalcular y ajustar el plan diario de comidas según los nuevos filtros.
+
+### **Capability Analysis**
+● **Gestión de estructura diaria:** Definición del número de comidas por jornada.
+● **Control de restricciones:** Administración de listas de alimentos prohibidos o restringidos (ej. gluten, lactosa, mariscos).
+● **Curación de sugerencias:** Motor de recomendaciones de alimentos saludables alineados al perfil.
+● **Personalización de flujo:** Impacto directo en la lógica de generación de la rutina alimentaria para garantizar la adherencia del usuario.
+
+![alt text](assets/TB1/B3.png)
+
+##  **Bounded Context – Rutina Alimentaria**
+
+### **Description**
+
+Este bounded context permite gestionar de forma automatizada la rutina alimentaria del usuario mediante la integración con dispositivos IoT, registrando alimentos, detectando su tipo, calculando información nutricional y actualizando la rutina en tiempo real sin intervención manual.  
+
+### **Strategic Classification**
+
+Su clasificación estratégica se divide en:  
+● **Core:** Es central porque automatiza el registro y control de la alimentación mediante datos reales.  
+● **Engagement:** Fomenta la interacción continua del usuario a través de retroalimentación automática y visualización en tiempo real.  
+● **Custom Built:** Es evolutivo y adaptable según los hábitos del usuario y los datos capturados por dispositivos IoT.  
+
+### **Domain Role**
+
+Asume el rol de **execution context**, al ejecutar automáticamente el registro de alimentos, y de **analysis context**, al procesar datos y calcular información nutricional en tiempo real.
+
+### **Inbound Communication**
+
+● El sistema recibe datos desde dispositivos IoT.  
+● El sistema procesa datos nutricionales automáticamente.  
+● El sistema detecta alimentos de forma automática.  
+● El sistema registra el peso del alimento automáticamente.  
+● El usuario puede corregir alimentos detectados.  
+● El sistema gestiona errores en la recepción de datos IoT.  
+
+### **Outbound Communication**
+
+● DatosProcesados, AlimentoDetectado, PesoRegistrado → enviados al contexto de monitoreo nutricional.  
+● InformacionNutricionalCalculada → enviada para análisis y visualización.  
+● RutinaAlimentariaActualizada → enviada a la aplicación para visualización del usuario.  
+● ErroresIoTDetectados → enviados a sistemas de monitoreo y soporte.  
+
+### **Capability Analysis**
+
+● Registro automático de alimentos mediante dispositivos IoT.  
+● Detección inteligente de alimentos y cálculo nutricional en tiempo real.  
+● Sincronización de datos en tiempo real con la aplicación.  
+● Manejo de errores en la captura de datos físicos.  
+● Reducción de intervención manual del usuario.  
+
+![alt text](assets/TB1/B4.png)
+
+##  **Bounded Context – Monitoreo y Seguimiento Nutricional**
+
+### **Description**
+
+Este bounded context permite al nutricionista supervisar el estado nutricional de sus pacientes, analizar métricas en tiempo real, generar alertas automáticas y mantener comunicación directa para un seguimiento continuo y personalizado.
+
+### **Strategic Classification**
+
+Su clasificación estratégica se divide en:  
+● **Core:** Es central porque permite el análisis y control del estado nutricional de los pacientes.  
+● **Engagement:** Fomenta la interacción entre nutricionista y paciente mediante alertas, métricas y comunicación directa.  
+● **Custom Built:** Es evolutivo y se adapta a las necesidades de seguimiento de cada paciente.  
+
+### **Domain Role**
+
+Asume el rol de **analysis context**, al procesar métricas y generar alertas, y de **execution context**, al gestionar la comunicación y acciones del nutricionista sobre los pacientes.
+
+### **Inbound Communication**
+
+● El nutricionista puede visualizar lista de pacientes.  
+● El nutricionista puede ver perfiles y métricas de pacientes.  
+● El sistema genera métricas nutricionales automáticamente.  
+● El sistema evalúa niveles de hidratación.  
+● El sistema detecta condiciones críticas (exceso, déficit, hidratación).  
+● El nutricionista puede enviar mensajes y solicitudes a pacientes.  
+● El paciente puede aceptar o rechazar solicitudes.  
+
+### **Outbound Communication**
+
+● ProgresoNutricionalActualizado, NivelHidratacionActualizado → enviados para visualización.  
+● AlertasNutricionales (exceso, déficit, hidratación) → enviadas al sistema de notificaciones.  
+● NotificacionEnviada, RecordatorioHidratacion → enviados al usuario final.  
+● PacienteAgregado → actualizado en el sistema de gestión de usuarios. 
+
+### **Capability Analysis**
+
+● Monitoreo en tiempo real del progreso nutricional del paciente.  
+● Generación automática de alertas basadas en datos.  
+● Evaluación continua de hidratación y consumo.  
+● Comunicación directa nutricionista–paciente.  
+● Gestión de relaciones entre nutricionistas y pacientes.  
+● Soporte para toma de decisiones basadas en datos.
 
 #### 4.1.2. Context Mapping.
 
+El *Context Mapping* es una técnica fundamental dentro del enfoque **Domain-Driven Design (DDD)** que permite identificar, analizar y representar las relaciones e interacciones entre los distintos *bounded contexts* del sistema. A través de este proceso, se logra visualizar cómo fluye la información, qué contextos dependen de otros y qué tipo de relación existe entre ellos, facilitando así el diseño de una arquitectura clara, modular y escalable.
+
+En el caso de nuestro sistema de **gestión nutricional inteligente**, el Context Mapping permite comprender cómo los distintos dominios —desde la autenticación hasta el monitoreo nutricional— colaboran para ofrecer una experiencia integrada tanto para usuarios como para nutricionistas. Esta representación también ayuda a identificar responsabilidades, dependencias y posibles puntos de mejora en la comunicación entre contextos.
+
+Se identificaron los siguientes *bounded contexts* en el sistema:
+
+### **Bounded Contexts Identificados**
+
+**Inicio y Registro de Sesión (IAM)**
+Gestiona la autenticación, registro de usuarios y recuperación de contraseñas, actuando como punto de entrada al sistema.
+
+**Perfil del Usuario**
+Administra la información personal del usuario y permite la edición de sus datos y cierre de sesión.
+
+**Gestión de Objetivos**
+Permite definir metas nutricionales como peso objetivo, calorías y macronutrientes.
+
+**Preferencias de Alimentación**
+Gestiona restricciones alimenticias, alergias, tipo de dieta y número de comidas.
+
+**Rutina Alimentaria Inteligente (IoT)**
+Automatiza el registro de alimentos y cálculo nutricional mediante dispositivos IoT, actualizando la rutina en tiempo real.
+
+**Perfil Nutricionista**
+Administra la información profesional del nutricionista, incluyendo especialidades y disponibilidad.
+
+**Creación y Gestión de Planes Alimenticios**
+Permite a los nutricionistas diseñar, organizar y asignar planes alimenticios personalizados.
+
+**Comunicación y Seguimiento Nutricional**
+Facilita la interacción entre nutricionista y paciente, además del monitoreo del progreso nutricional.
+
+
+### **Relaciones entre Bounded Contexts**
+
+| **Destino (Downstream)**        | **Origen (Upstream)**           | **Tipo de Relación** | **Comentario**                                                                                               |
+| ------------------------------- | ------------------------------- | -------------------- | ------------------------------------------------------------------------------------------------------------ |
+| Perfil del Usuario              | Inicio y Registro de Sesión     | Customer/Supplier    | El contexto IAM provee los datos de autenticación necesarios para gestionar el perfil del usuario.           |
+| Gestión de Objetivos            | Perfil del Usuario              | Customer/Supplier    | Los datos del perfil alimentan la configuración inicial de objetivos nutricionales.                          |
+| Preferencias de Alimentación    | Perfil del Usuario              | Customer/Supplier    | Las preferencias dependen de la información básica del usuario para personalizar la dieta.                   |
+| Rutina Alimentaria              | Gestión de Objetivos            | Customer/Supplier    | La rutina se ajusta dinámicamente según las metas nutricionales definidas.                                   |
+| Rutina Alimentaria              | Preferencias de Alimentación    | Customer/Supplier    | Se utilizan las restricciones y gustos del usuario para generar una rutina adecuada.                         |
+| Comunicación y Seguimiento      | Rutina Alimentaria              | Customer/Supplier    | El progreso alimentario registrado se utiliza para monitoreo y análisis por parte del nutricionista.         |
+| Comunicación y Seguimiento      | Gestión de Objetivos            | Customer/Supplier    | Las metas nutricionales sirven como referencia para evaluar el progreso del usuario.                         |
+| Creación de Planes Alimenticios | Perfil Nutricionista            | Customer/Supplier    | El nutricionista provee la información necesaria para la creación de planes.                                 |
+| Rutina Alimentaria              | Creación de Planes Alimenticios | Customer/Supplier    | Los planes alimenticios definidos influyen en la rutina diaria del usuario.                                  |
+| Comunicación y Seguimiento      | Creación de Planes Alimenticios | Customer/Supplier    | Permite evaluar la efectividad de los planes asignados a los pacientes.                                      |
+| Gestión de Objetivos            | Comunicación y Seguimiento      | Partnership          | Ambos contextos colaboran para ajustar metas según el progreso del usuario.                                  |
+| Rutina Alimentaria              | Comunicación y Seguimiento      | Partnership          | Existe una relación bidireccional para monitoreo y ajuste continuo.                                          |
+| Todos los Contextos             | Inicio y Registro de Sesión     | Shared Kernel        | La autenticación y gestión de usuarios es compartida por todos los contextos para garantizar acceso seguro.  |
+| Sistemas IoT Externos           | Rutina Alimentaria              | Anticorruption Layer | Se utiliza una capa de anticorrupción para integrar datos de dispositivos IoT sin afectar el modelo interno. |
+
+![alt text](assets/TB1/tb1.png)
+
+
 #### 4.1.3. Software Architecture.
+
+En esta sección se presenta la arquitectura de software del sistema JameoFit, una solución integral orientada al seguimiento nutricional inteligente mediante el uso de tecnologías como IoT, procesamiento de datos en tiempo real e integración con servicios externos.
+
+Para su representación, se utiliza el modelo C4 (Context, Container, Component y Code), el cual permite describir la arquitectura del sistema en diferentes niveles de abstracción, facilitando la comprensión tanto técnica como funcional. A través de estos diagramas, se muestra cómo los distintos actores interactúan con el sistema, cómo se organizan los contenedores principales y cómo se estructuran los componentes internos.
+
+Asimismo, esta arquitectura refleja la evolución del sistema hacia un enfoque moderno basado en eventos, integración con dispositivos físicos y procesamiento automatizado de información nutricional, permitiendo ofrecer una experiencia más precisa, escalable y centrada en el usuario.
+
+El objetivo de esta sección es proporcionar una visión clara de cómo el sistema está diseñado, cómo fluye la información entre sus partes y cómo se soportan los requerimientos funcionales y no funcionales del proyecto.
 
 ##### 4.1.3.1. Software Architecture System Landscape Diagram.
 
+Este diagrama muestra que JameoFit opera en un ecosistema donde interactúan distintos actores como el Usuario/Paciente, el Nutricionista, el Owner/Admin y el IT Support, quienes utilizan el sistema para el seguimiento, supervisión y gestión de la plataforma.
+
+El sistema principal, JameoFit Core, centraliza la lógica de negocio y procesa datos provenientes de dispositivos IoT, permitiendo automatizar el registro y análisis nutricional.
+
+Además, se integra con servicios externos como Stripe API para pagos, un Servicio de Notificaciones para alertas en tiempo real y Bases de Datos Nutricionales para validar la información alimentaria.
+
+Este diagrama refleja cómo el sistema combina interacción de usuarios, dispositivos físicos y servicios externos para brindar una solución eficiente y automatizada.
+
+![Texto alternativo](assets/TB1/C42.png)
+
 ##### 4.1.3.2. Software Architecture Context Level Diagrams.
+
+Este diagrama muestra que JameoFit interactúa con distintos actores como el Usuario/Paciente, quien utiliza la aplicación y dispositivos IoT para el seguimiento nutricional; el Nutricionista, quien supervisa y valida la información; el Owner/Admin, encargado de la gestión del negocio; y el IT Support, responsable del mantenimiento técnico.
+
+El sistema también se integra con un Dispositivo IoT (sensores) que permite capturar datos en tiempo real sobre el consumo del usuario, automatizando el registro alimentario.
+
+Asimismo, se conecta con servicios externos como Stripe API para la gestión de pagos, el Servicio de Notificaciones para el envío de alertas en tiempo real y las Bases de Datos Nutricionales para validar la información alimentaria.
+
+Este diagrama proporciona una visión general del sistema, mostrando cómo JameoFit se integra con actores, dispositivos físicos y servicios externos.
+
+![Texto alternativo](assets/TB1/C41.png)
 
 ##### 4.1.3.2. Software Architecture Container Level Diagrams.
 
+El Diagrama de Contenedores de JameoFit App muestra la descomposición del sistema en sus principales contenedores de software, así como la interacción entre estos, los actores del sistema y los servicios externos.
+
+En este nivel, se identifican:
+
+● Landing Page: Portal web que permite el acceso al sistema, registro, autenticación y gestión de suscripciones por parte de los usuarios y nutricionistas.
+
+● Mobile Application: Aplicación móvil que permite al usuario visualizar su rutina alimentaria, métricas nutricionales y recibir notificaciones en tiempo real.
+
+● JameoFit Core: Backend central desarrollado en Spring Boot que procesa la lógica de negocio, gestiona APIs, integra procesamiento inteligente (IA) y orquesta la comunicación entre los diferentes componentes del sistema.
+
+● Database: Almacena información de usuarios, pacientes, métricas nutricionales, rutinas alimentarias y planes.
+
+● Módulos internos del backend:  
+○ Módulo de Seguimiento: Procesa métricas nutricionales y datos en tiempo real.  
+○ Módulo de Planes y Dietas: Gestiona la creación y asignación de planes personalizados.  
+○ Módulo de Usuarios: Administra autenticación, perfiles y roles.  
+○ Módulo de Logros: Gestiona metas, progreso e incentivos del usuario.  
+
+● Sistemas externos:  
+○ Dispositivo IoT: Captura datos físicos del usuario y los envía al sistema en tiempo real.  
+○ Stripe API: Gestiona pagos, suscripciones y facturación.  
+○ Servicio de Notificaciones: Envía alertas y recordatorios en tiempo real.  
+○ Bases de Datos Nutricionales: Proveen información externa para validar y enriquecer los datos alimentarios.  
+
+Este diagrama proporciona una visión técnica detallada del sistema, mostrando cómo los diferentes contenedores, dispositivos y servicios externos colaboran para cumplir los objetivos funcionales y no funcionales de la aplicación, destacando la integración con IoT y el procesamiento automatizado de información.
+
+
 ##### 4.1.3.3. Software Architecture Deployment Diagrams.
+
+Los Deployment Diagrams (diagramas de despliegue) forman parte de la arquitectura de
+software y son esenciales para representar cómo los componentes del sistema se distribuyen
+físicamente en el entorno de ejecución. Estos diagramas muestran la disposición de hardware
+(nodos) y la manera en que los artefactos de software se instalan en ellos, permitiendo
+visualizar la infraestructura que soporta la aplicación. Su propósito principal es ilustrar la
+relación entre el software y el hardware, detallando aspectos como servidores, dispositivos de
+red, bases de datos, y cómo interactúan entre sí.
+
+
 
 ### 4.2. Tactical-Level Domain-Driven Design
 
