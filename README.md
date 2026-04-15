@@ -548,12 +548,9 @@ eficiente.
 
 7. Bounded Context: Comunicación y Seguimiento
 
-Este flujo de eventos describe cómo el nutricionista puede gestionar y dar seguimiento a sus pacientes, accediendo a información relevante como la lista de usuarios asignados, el perfil de cada paciente y sus métricas de progreso nutricional. Además, el sistema permite la incorporación de nuevos pacientes mediante el envío y aceptación de solicitudes, facilitando una gestión organizada y una comunicación directa.
+Este flujo de eventos está diseñado para facilitar al nutricionista la visualización, incorporación y seguimiento de pacientes, asegurando una experiencia clara, ordenada y centrada en la interacción profesional. Cada paso permite mantener una comunicación efectiva y un control preciso del progreso nutricional.
 
-De manera complementaria, el flujo integra un sistema de monitoreo inteligente que analiza en tiempo real la información nutricional del paciente, generando actualizaciones del progreso, niveles de hidratación y alertas automáticas ante situaciones como exceso o déficit calórico o bajo consumo de agua. Estas evaluaciones permiten enviar notificaciones y recordatorios automáticos al usuario, fortaleciendo el seguimiento continuo y personalizado de su estado de salud.
-
-
-![alt text](assets/TB1/T8.jpg)
+![alt text](assets/TB1/T12.png)
 
 ---
 
