@@ -478,6 +478,8 @@ natural de los procesos y cómo se relacionan entre sí.
 
 ---
 
+1. Bounded Context: Inicio y Registro de Sesión 
+
 Este flujo de eventos permite a los usuarios registrarse completando un formulario con sus
 datos personales y preferencias nutricionales, o iniciar sesión si ya tienen cuenta. También
 contempla el manejo de intentos fallidos de inicio de sesión y ofrece una opción para
@@ -486,6 +488,8 @@ recuperar el acceso mediante el envío de un correo si la cuenta no existe.
 ![alt text](assets/TB1/T1.png)
 
 ---
+
+2. Bounded Context: Perfil de Usuario
 
 Este flujo de eventos permite al usuario visualizar toda su información personal y, si lo desea,
 habilitar la edición de datos sensibles como correo y contraseña. Para ello, primero debe
@@ -496,6 +500,8 @@ un mensaje de confirmación que asegura que la actualización fue exitosa y segu
 
 ---
 
+3. Bounded Context: Gestión de Objetivos
+
 Este flujo de eventos está diseñado para permitir al usuario establecer y actualizar sus
 objetivos de salud. El usuario puede acceder a opciones para modificar su objetivo, peso,
 calorías, macros y tipo de dieta mediante menús desplegables. Estas acciones generan
@@ -505,16 +511,10 @@ de retroalimentación claro.
 
 ![alt text](assets/TB1/T3.png)
 
----
-
-Este flujo de eventos está diseñado para permitir al usuario interactuar de manera fluida con
-su alimentación: puede modificar la cantidad de comidas, lo que genera un mensaje de
-confirmación, así como acceder a sugerencias saludables y ver un listado de alimentos para
-actualizar sus preferencias
-
-![alt text](assets/TB1/T4.png)
 
 ---
+
+4. Bounded Context: Rutina Alimentaria
 
 Este flujo de eventos describe cómo el sistema gestiona la rutina alimentaria del usuario de manera completamente automática mediante dispositivos IoT, como la balanza y el bebedero inteligente. A partir de la captura de datos en tiempo real, el sistema registra el peso del alimento consumido y detecta automáticamente el tipo de alimento.
 
@@ -527,14 +527,15 @@ Finalmente, el usuario puede visualizar su rutina alimentaria actualizada junto 
 
 ---
 
-Este flujo representa una secuencia lógica y centrada en el nutricionista, para la gestión de su
-perfil profesional, con énfasis en la edición de sus datos profesionales y la interacción con
-mensajes de confirmación.
+5. Bounded Context: IA Nutricional
 
+Este flujo de eventos detalla el proceso de análisis inteligente de datos, donde la información nutricional cargada por el especialista es procesada por una IA para generar resúmenes automáticos y visualizaciones enriquecidas mediante gráficos avanzados. El sistema facilita la comunicación directa al enviar reportes detallados al paciente y mantener un historial de análisis actualizado, cerrando el ciclo con un reentrenamiento continuo del modelo basado en la nueva información recopilada para optimizar la precisión de futuras evaluaciones.
 
-![alt text](assets/TB1/T6.png)
+![alt text](assets/TB1/S2.png)
 
 ---
+
+6. Bounded Context: Gestión de Planes Alimenticios 
 
 Este flujo de eventos está diseñado para guiar al profesional de nutrición en la creación,
 categorización, asignación y publicación de planes alimenticios, de manera ordenada y
@@ -545,6 +546,8 @@ eficiente.
 
 ---
 
+7. Bounded Context: Comunicación y Seguimiento
+
 Este flujo de eventos describe cómo el nutricionista puede gestionar y dar seguimiento a sus pacientes, accediendo a información relevante como la lista de usuarios asignados, el perfil de cada paciente y sus métricas de progreso nutricional. Además, el sistema permite la incorporación de nuevos pacientes mediante el envío y aceptación de solicitudes, facilitando una gestión organizada y una comunicación directa.
 
 De manera complementaria, el flujo integra un sistema de monitoreo inteligente que analiza en tiempo real la información nutricional del paciente, generando actualizaciones del progreso, niveles de hidratación y alertas automáticas ante situaciones como exceso o déficit calórico o bajo consumo de agua. Estas evaluaciones permiten enviar notificaciones y recordatorios automáticos al usuario, fortaleciendo el seguimiento continuo y personalizado de su estado de salud.
@@ -552,25 +555,49 @@ De manera complementaria, el flujo integra un sistema de monitoreo inteligente q
 
 ![alt text](assets/TB1/T8.jpg)
 
+---
+
+8. Bounded Context: Pagos
+
+Este flujo de eventos describe el proceso integral de gestión de suscripciones y pagos, permitiendo a los usuarios seleccionar planes, procesar transacciones de manera segura y recibir confirmaciones automáticas sobre la activación o renovación de su servicio. El sistema integra un control detallado de estados que abarca desde la validación exitosa del pago hasta la gestión de errores y solicitudes de cancelación, garantizando que el usuario mantenga siempre visibilidad sobre su historial financiero y el estado actual de su membresía dentro de la plataforma.
+
+![alt text](assets/TB1/S1.png)
 
 
 #### **Pivotal Points**
 
+1
+
 ![alt text](assets/TB1/P1.png)
+
+2
 
 ![alt text](assets/TB1/P2.png)
 
+3
+
 ![alt text](assets/TB1/P3.png)
 
-![alt text](assets/TB1/P4.png)
+4
 
 ![alt text](assets/TB1/P5.jpg)
 
+5
+
+![alt text](assets/TB1/I2.png)
+
+6
+
 ![alt text](assets/TB1/P6.png)
 
-![alt text](assets/TB1/P7.png)
 
-![alt text](assets/TB1/P8.jpg)
+7
+
+![alt text](assets/TB1/IA.png)
+
+8
+
+![alt text](assets/TB1/I1.png)
 
 
 #### **Commands**
@@ -582,6 +609,7 @@ definidos previamente. A continuación, se presentan los comandos relevantes par
 dominio.
 
 ---
+1. Bounded Context: Inicio y Registro de Sesión
 
 El diagrama muestra un sistema que guía al usuario en tres procesos: registro de cuenta con
 definición de objetivos nutricionales, inicio de sesión con verificación de credenciales y
@@ -592,6 +620,8 @@ correo para restablecerla.
 
 ---
 
+2. Bounded Context: Perfil de Usuario
+
 El diagrama muestra el flujo donde el usuario, al acceder a su ícono, puede editar su perfil
 —visualizando y modificando correo y contraseña con confirmación de cambios— o cerrar
 sesión, siendo redirigido al menú de inicio de sesión.
@@ -599,6 +629,8 @@ sesión, siendo redirigido al menú de inicio de sesión.
 ![alt text](assets/TB1/C2.png)
 
 ---
+
+3. Bounded Context: Gestión de Objetivos 
 
 El diagrama muestra cómo el usuario, desde su menú de objetivos, puede configurar su peso
 y calorías o ajustar su tipo de dieta y macros, recibiendo en ambos casos una confirmación al
@@ -609,13 +641,7 @@ guardar los cambios.
 
 ---
 
-El diagrama muestra cómo el usuario, desde su plan de comidas, puede modificar el número
-de comidas, ver sugerencias saludables o ajustar sus preferencias de alimentos, recibiendo
-confirmación al guardar los cambios.
-
-![alt text](assets/TB1/CO4.png)
-
----
+4. Bounded Context: Rutina Alimentaria 
 
 El diagrama muestra cómo el sistema registra automáticamente los alimentos consumidos por el usuario mediante la interacción con un dispositivo IoT, el cual captura datos como el peso del alimento y los envía para su procesamiento. A partir de esta información, el sistema identifica el tipo de alimento y genera eventos como alimento detectado y peso registrado.
 
@@ -626,14 +652,16 @@ El flujo contempla el cálculo automático de la información nutricional, inclu
 
 ---
 
-El diagrama muestra cómo el nutricionista puede monitorear el estado nutricional de sus pacientes, accediendo a información clave como métricas, progreso y alertas generadas automáticamente por el sistema. Este proceso es apoyado por un análisis inteligente que evalúa datos como calorías, macronutrientes y nivel de hidratación en tiempo real.
+5. Bounded Context: IA Nutricional 
 
-El flujo contempla la visualización continua del progreso nutricional, permitiendo identificar situaciones como exceso o déficit calórico, así como cambios en el nivel de hidratación. Tanto el nutricionista como el usuario reciben notificaciones y actualizaciones que facilitan un seguimiento constante y personalizado del estado de salud del paciente.
+Este diagrama de flujo detalla el proceso mediante el cual un nutricionista gestiona el análisis de datos de sus pacientes, comenzando con la selección del usuario y la carga de su archivo nutricional para ser procesado por una IA especializada. El sistema guía al profesional a través de la solicitud de análisis y visualización de resultados, permitiendo generar resúmenes automáticos y gráficos enriquecidos que facilitan la interpretación de las métricas. Finalmente, el flujo concluye con el envío del reporte nutricional directamente al paciente y la actualización automática del historial de análisis, asegurando un seguimiento clínico organizado, eficiente y basado en datos precisos.
 
+![alt text](assets/TB1/H2.png)
 
-![alt text](assets/TB1/CO6.jpg)
 
 ---
+
+6. Bounded Context: Gestión de Planes Alimenticios 
 
 El diagrama muestra cómo el nutricionista, desde su panel de gestión, puede crear nuevos
 planes alimenticios, organizarlos por categorías, asignarlos a usuarios y publicarlos, todo
@@ -646,13 +674,19 @@ aseguran una experiencia profesional eficiente.
 
 ---
 
-![alt text](assets/TB1/CO8.png)
+7. Bounded Context: Comunicación y Seguimiento
 
-El diagrama muestra cómo el nutricionista puede gestionar su perfil profesional, accediendo a
-su información personal, editando datos clave como especialidades y contacto, y actualizando
-su foto de perfil. El flujo contempla acciones de edición, cancelación, cierre de sesión y
-validación de datos, con mensajes de confirmación o error que refuerzan la experiencia de
-uso.
+El diagrama muestra cómo el nutricionista puede gestionar su relación con los pacientes, accediendo a información clave, comunicándose directamente y agregando nuevos usuarios a su lista. El flujo contempla tanto la interacción con pacientes ya asignados como el proceso de incorporación de nuevos, con confirmaciones inmediatas que refuerzan la experiencia profesional.
+
+![alt text](assets/TB1/H1.png)
+
+---
+
+8. Bounded Context: Pagos
+
+Este diagrama detalla el flujo de suscripción y gestión de pagos, el cual comienza cuando el usuario explora los planes disponibles y selecciona un método de pago para iniciar la validación de la transacción. El sistema gestiona de manera lógica dos vertientes: el éxito del pago, que deriva en la activación o renovación de la membresía y el envío de confirmaciones; y el escenario de pago fallido, que ofrece al usuario opciones inmediatas para reintentar la operación o cambiar el método de pago. Finalmente, el proceso asegura la integridad de la cuenta al actualizar el historial de pagos y permitir la gestión del ciclo de vida de la suscripción, incluyendo la solicitud de cancelación cuando sea necesario.
+
+![alt text](assets/TB1/H3.png)
 
 
 #### **Bounded Contexts**
@@ -673,25 +707,26 @@ contexto evolucione de forma desacoplada y con responsabilidades bien definidas.
 
 ![alt text](assets/TB1/BO3.png)
 
-#### **Bounded Context: Preferencias de Alimentación**
-
-![alt text](assets/TB1/BO4.png)
-
 #### **Bounded Context: Rutina Alimentaria**
 
 ![alt text](assets/TB1/BO5.jpg)
 
-#### **Bounded Context: Perfil Nutricionista**
+#### **Bounded Context: IA Nutricional**
 
-![alt text](assets/TB1/BO6.png)
+![alt text](assets/TB1/BC2.png)
 
-#### **Bounded Context: Creación y Gestión de Planes Alimenticios**
+#### **Bounded Context: Gestión de Planes Alimenticios**
 
 ![alt text](assets/TB1/BO7.png)
 
 #### **Bounded Context: Comunicación y Seguimiento**
 
-![alt text](assets/TB1/BO8.jpg)
+![alt text](assets/TB1/O1.png)
+
+#### **Bounded Context: Pagos**
+
+![alt text](assets/TB1/BC1.png)
+
 
 ##### 4.1.1.2 Domain Message Flows Modeling.
 
@@ -723,17 +758,15 @@ Finalmente, se emite el evento Rutina Alimentaria Actualizada, actualizando auto
 
 ![alt text](assets/TB1/D1.jpg)
 
-### **Análisis nutricional y generación de alertas**
+### **Análisis inteligente y seguimiento proactivo**
 
-Este es un escenario donde el sistema analiza la información nutricional del usuario para monitorear su progreso y generar alertas.
+Este es un escenario donde el sistema utiliza inteligencia artificial para procesar la información nutricional del usuario, monitorear su evolución y generar alertas automáticas.
 
-El bounded context Rutina Alimentaria Inteligente envía los datos procesados, como la Información Nutricional Calculada, al bounded context Comunicación y seguimiento.
+El Bounded Context Rutina Alimentaria envía los datos de consumo diario, como las métricas de ingesta y macronutrientes, al Bounded Context IA Nutricional. A partir de esta información, el motor de IA evalúa el progreso del usuario comparándolo con sus metas y genera hechos inmutables como Progreso Nutricional Actualizado, Alerta de Exceso Calórico, Alerta de Déficit Calórico o Nivel de Hidratación Actualizado.
 
-A partir de esta información, el sistema evalúa el progreso del usuario y genera eventos como Progreso Nutricional Actualizado, Alerta de Exceso Calórico, Alerta de Déficit Calórico o Nivel de Hidratación Actualizado.
+Estos eventos son recibidos por el Bounded Context Comunicación y Seguimiento, el cual organiza la información para la supervisión del nutricionista. Finalmente, las alertas y resúmenes son enviados al usuario mediante notificaciones en la App JameoFit, permitiendo un seguimiento continuo, preventivo y altamente personalizado de su estado nutricional.
 
-Finalmente, estas alertas son enviadas al usuario mediante notificaciones, permitiendo un seguimiento continuo y personalizado de su estado nutricional.
-
-![alt text](assets/TB1/D2.jpg)
+![alt text](assets/TB1/A3.png)
 
 ##### 4.1.1.3 Bounded Context Canvases.
 
@@ -883,37 +916,6 @@ Asume el rol de **Execution Context**, ya que es el encargado de administrar y p
 
 ![alt text](assets/TB1/B3.png)
 
-## **Bounded Context - PREFERENCIAS DE ALIMENTACION**
-
-### **Description**
-Este *bounded context* gestiona las preferencias del usuario relacionadas con su alimentación, tales como la cantidad de comidas diarias y las restricciones de alimentos (alergias o intolerancias). Además, actúa como un motor de recomendaciones al proveer sugerencias saludables basadas en los gustos del usuario.
-
-### **Strategic Classification**
-La clasificación estratégica de este contexto se define bajo los siguientes criterios:
-
-● **Supporting:** Actúa como un dominio de soporte que complementa la lógica principal de los contextos de Objetivos y Rutina.
-● **Engagement:** Incrementa la retención y satisfacción al permitir que la dieta se adapte a los gustos específicos o necesidades médicas del usuario.
-● **Product:** Se considera una funcionalidad madura que evoluciona para refinar y mejorar continuamente la experiencia de personalización.
-
-### **Domain Role**
-Asume el rol de **Execution Context**, ya que es el responsable directo de la gestión, validación y persistencia de las preferencias alimenticias del usuario.
-
-### **Communication Flow**
-
-#### **Inbound Communication**
-● **Usuario:** Actualización de parámetros personales como el número de ingestas deseadas, restricciones específicas y tipos de sugerencias.
-
-#### **Outbound Communication**
-● **PreferenciasActualizadas:** Evento publicado hacia el contexto de **Rutina Alimentaria** para que este pueda recalcular y ajustar el plan diario de comidas según los nuevos filtros.
-
-### **Capability Analysis**
-● **Gestión de estructura diaria:** Definición del número de comidas por jornada.
-● **Control de restricciones:** Administración de listas de alimentos prohibidos o restringidos (ej. gluten, lactosa, mariscos).
-● **Curación de sugerencias:** Motor de recomendaciones de alimentos saludables alineados al perfil.
-● **Personalización de flujo:** Impacto directo en la lógica de generación de la rutina alimentaria para garantizar la adherencia del usuario.
-
-![alt text](assets/TB1/B3.png)
-
 ##  **Bounded Context – Rutina Alimentaria**
 
 ### **Description**
@@ -957,50 +959,91 @@ Asume el rol de **execution context**, al ejecutar automáticamente el registro 
 
 ![alt text](assets/TB1/C1.jpg)
 
+## **Bounded Context – IA Nutricional**
+
+### **Description**
+Este Bounded Context representa el motor de inteligencia del sistema, especializado en el procesamiento y análisis avanzado de datos nutricionales. Su función principal es transformar archivos y métricas crudas en información estructurada, resúmenes automáticos y visualizaciones analíticas. Además, gestiona el ciclo de vida del modelo de aprendizaje, permitiendo su reentrenamiento para mejorar la precisión de las recomendaciones y diagnósticos preventivos.
+
+### **Strategic Classification**
+Su clasificación estratégica se divide en:  
+● **Core:** Es la ventaja competitiva tecnológica, ya que automatiza el análisis denso que un nutricionista realizaría manualmente.  
+● **Custom Built:** Desarrollado a medida para adaptarse a los algoritmos específicos de nutrición y salud del sistema.
+
+### **Domain Role**
+Asume el rol de **Analysis Context**, al interpretar datos complejos para generar *insights*, y de **Service Context**, al proveer servicios de procesamiento inteligente a otros módulos del ecosistema.
+
+### **Inbound Communication**
+● **Recepción de Archivos:** Obtiene los documentos nutricionales cargados por el profesional para su lectura.  
+● **Solicitud de Análisis:** Comando disparado por el nutricionista para iniciar el procesamiento de la IA.  
+● **Ingesta de Métricas:** Recibe datos de hidratación y consumo calórico para su evaluación en tiempo real.  
+● **Retroalimentación de Datos:** Entrada de nueva información validada para el proceso de reentrenamiento del modelo.
+
+### **Outbound Communication**
+● **ContenidoProcesado:** Evento que indica que la IA ha terminado de extraer la información relevante.  
+● **ResumenGenerado:** Notifica la disponibilidad de una síntesis textual sobre el estado del paciente.  
+● **AnalisisVisualListo:** Envía los datos estructurados necesarios para renderizar gráficos y tablas.  
+● **ModeloActualizado:** Informa que el sistema ha completado un ciclo de reentrenamiento con nuevos datos.
+
+### **Capability Analysis**
+● **Procesamiento de Datos no Estructurados:** Capacidad de extraer información clínica desde diversos formatos de archivos.  
+● **Generación de Insights Automáticos:** Creación de resúmenes diagnósticos basados en patrones detectados.  
+● **Modelado Predictivo:** Identificación de tendencias en el peso o salud del paciente a largo plazo.  
+● **Aprendizaje Continuo (Reentrenamiento):** Mejora constante del algoritmo basada en la acumulación de nuevos casos y datos históricos.  
+● **Soporte Analítico de Decisiones:** Provee la base técnica para que el nutricionista valide sus planes alimenticios.
+
+![alt text](assets/TB1/A2.png)
+
 ##  **Bounded Context – Comunicación y seguimiento**
 
 ### **Description**
 
-Este bounded context permite al nutricionista supervisar el estado nutricional de sus pacientes, analizar métricas en tiempo real, generar alertas automáticas y mantener comunicación directa para un seguimiento continuo y personalizado.
+Bounded Context centralizado en la gestión operativa de la relación médico-paciente. Permite al nutricionista administrar su cartera de clientes, supervisar perfiles individuales y mantener un canal de comunicación directo y organizado. Su objetivo es facilitar el flujo de información administrativa y clínica, asegurando que la incorporación de nuevos pacientes y el seguimiento de los actuales sea fluido y profesional.
 
 ### **Strategic Classification**
 
 Su clasificación estratégica se divide en:  
-● **Core:** Es central porque permite el análisis y control del estado nutricional de los pacientes.  
-● **Engagement:** Fomenta la interacción entre nutricionista y paciente mediante alertas, métricas y comunicación directa.  
-● **Custom Built:** Es evolutivo y se adapta a las necesidades de seguimiento de cada paciente.  
+● **Core:** Es fundamental para la operación del negocio, ya que gestiona el activo más importante: la relación y los datos del paciente.  
+● **Engagement:** Fortalece la retención mediante la comunicación directa y el feedback constante entre el profesional y el usuario.
 
 ### **Domain Role**
 
-Asume el rol de **analysis context**, al procesar métricas y generar alertas, y de **execution context**, al gestionar la comunicación y acciones del nutricionista sobre los pacientes.
+Asume el rol de Management Context, al organizar la jerarquía y asignación de pacientes, y de Communication Context, al servir como el puente de mensajes y solicitudes entre los actores del sistema.
 
 ### **Inbound Communication**
 
-● El nutricionista puede visualizar lista de pacientes.  
-● El nutricionista puede ver perfiles y métricas de pacientes.  
-● El sistema genera métricas nutricionales automáticamente.  
-● El sistema evalúa niveles de hidratación.  
-● El sistema detecta condiciones críticas (exceso, déficit, hidratación).  
-● El nutricionista puede enviar mensajes y solicitudes a pacientes.  
-● El paciente puede aceptar o rechazar solicitudes.  
+● Gestión de Cartera: El nutricionista visualiza y filtra su lista de pacientes asignados.
+
+● Consulta de Expediente: Acceso a perfiles, métricas históricas y datos de contacto.
+
+● Gestión de Solicitudes: Envío de invitaciones para vincular a nuevos pacientes al sistema.
+
+● Interacción Directa: Envío de mensajes, recomendaciones manuales y recordatorios.
+
+● Respuesta del Paciente: Aceptación o rechazo de vinculación al nutricionista.
 
 ### **Outbound Communication**
 
-● ProgresoNutricionalActualizado, NivelHidratacionActualizado → enviados para visualización.  
-● AlertasNutricionales (exceso, déficit, hidratación) → enviadas al sistema de notificaciones.  
-● NotificacionEnviada, RecordatorioHidratacion → enviados al usuario final.  
-● PacienteAgregado → actualizado en el sistema de gestión de usuarios. 
+● PacienteVinculado: Notifica al sistema de gestión que un nuevo usuario ha sido aceptado con éxito.
+
+● MensajeEntregado: Confirma que la comunicación ha llegado al dispositivo del paciente.
+
+● SolicitudDeSeguimientoEnviada: Notifica al sistema de notificaciones para disparar un correo o alerta al cliente.
+
+● PerfilActualizado: Informa sobre cambios realizados en la información base del paciente.
 
 ### **Capability Analysis**
 
-● Monitoreo en tiempo real del progreso nutricional del paciente.  
-● Generación automática de alertas basadas en datos.  
-● Evaluación continua de hidratación y consumo.  
-● Comunicación directa nutricionista–paciente.  
-● Gestión de relaciones entre nutricionistas y pacientes.  
-● Soporte para toma de decisiones basadas en datos.
+● Administración de Pacientes: Control total sobre la lista de usuarios y su estado (activo/inactivo).
 
-![alt text](assets/TB1/c2.jpg)
+● Gestión de Solicitudes de Vinculación: Flujo de trabajo para expandir la base de clientes de forma organizada.
+
+● Centralización de Información Clínica: Visualización consolidada de métricas y perfiles de usuario.
+
+● Comunicación Bidireccional: Canal seguro para el intercambio de información y resolución de dudas.
+
+● Soporte a la Toma de Decisiones: Acceso rápido a la historia del paciente para ajustar el tratamiento de forma manual.
+
+![alt text](assets/TB1/A1.png)
 
 #### 4.1.2. Context Mapping.
 
@@ -1010,53 +1053,40 @@ En el caso de nuestro sistema de **gestión nutricional inteligente**, el Contex
 
 Se identificaron los siguientes *bounded contexts* en el sistema:
 
-### **Bounded Contexts Identificados**
+Aquí tienes la actualización completa de tus **Bounded Contexts** y sus **Relaciones**, ajustada a la lógica actual donde la IA procesa información y la Comunicación se centra en la gestión profesional.
 
-**Inicio y Registro de Sesión (IAM)**
-Gestiona la autenticación, registro de usuarios y recuperación de contraseñas, actuando como punto de entrada al sistema.
+---
 
-**Perfil del Usuario**
-Administra la información personal del usuario y permite la edición de sus datos y cierre de sesión.
+## **Bounded Contexts Identificados**
 
-**Gestión de Objetivos**
-Permite definir metas nutricionales como peso objetivo, calorías y macronutrientes.
+1.  **Inicio y Registro de Sesión (IAM):** Gestiona la autenticación, el registro de diferentes roles (paciente/nutricionista) y la seguridad de acceso a la plataforma.
+2.  **Perfil de Usuario:** Administra la información personal, datos demográficos y la configuración de cuenta de los usuarios.
+3.  **Gestión de Objetivos:** Permite definir metas nutricionales específicas (peso, macronutrientes, calorías) que sirven como base para el análisis.
+4.  **Rutina Alimentaria:** Registra el consumo diario de alimentos y agua, funcionando como la fuente de datos en tiempo real sobre el comportamiento del usuario.
+5.  **IA Nutricional:** Motor de procesamiento que analiza archivos, links y métricas de rutina para generar resúmenes automáticos y visualizaciones enriquecidas.
+6.  **Gestión de Planes Alimenticios:** Permite a los nutricionistas diseñar y asignar estructuras de alimentación personalizadas a sus pacientes.
+7.  **Comunicación y Seguimiento:** Gestiona la relación profesional, permitiendo la vinculación de pacientes, el envío de mensajes y la supervisión del estado clínico.
+8.  **Pagos:** Administra las suscripciones a los planes de la plataforma, procesando transacciones y gestionando el acceso a funciones premium.
 
-**Preferencias de Alimentación**
-Gestiona restricciones alimenticias, alergias, tipo de dieta y número de comidas.
+---
 
-**Rutina Alimentaria Inteligente (IoT)**
-Automatiza el registro de alimentos y cálculo nutricional mediante dispositivos IoT, actualizando la rutina en tiempo real.
+## **Relaciones entre Bounded Contexts**
 
-**Perfil Nutricionista**
-Administra la información profesional del nutricionista, incluyendo especialidades y disponibilidad.
+| Destino (Downstream) | Origen (Upstream) | Tipo de Relación | Comentario |
+| :--- | :--- | :--- | :--- |
+| **Perfil de Usuario** | **Inicio y Registro** | Customer/Supplier | IAM provee la identidad necesaria para crear y gestionar el perfil. |
+| **IA Nutricional** | **Rutina Alimentaria** | Customer/Supplier | La IA consume los logs diarios de consumo para generar análisis de tendencias. |
+| **IA Nutricional** | **Gestión de Objetivos** | Customer/Supplier | Utiliza las metas definidas como referencia para evaluar si el progreso es positivo. |
+| **Comunicación y Seguimiento** | **IA Nutricional** | Customer/Supplier | Recibe los resúmenes e insights generados por la IA para que el nutricionista los valide. |
+| **Comunicación y Seguimiento** | **Perfil de Usuario** | Customer/Supplier | Obtiene los datos básicos de los pacientes para organizar la cartera del nutricionista. |
+| **Gestión de Planes** | **Gestión de Objetivos** | Customer/Supplier | Los planes se diseñan en función de los objetivos nutricionales del paciente. |
+| **Rutina Alimentaria** | **Gestión de Planes** | Customer/Supplier | La rutina diaria del usuario se guía por el plan alimenticio asignado. |
+| **Comunicación y Seguimiento** | **Gestión de Objetivos** | Partnership | Colaboran para ajustar metas manualmente según la evolución del paciente. |
+| **Pagos** | **Inicio y Registro** | Customer/Supplier | El acceso a los servicios de pago depende de una sesión de usuario válida. |
+| **Todos los Contextos** | **Inicio y Registro** | Shared Kernel | La autenticación es un núcleo compartido que garantiza la seguridad en todo el sistema. |
+| **IA Nutricional** | **Fuentes Externas (Links/PDF)** | Anticorruption Layer | La IA usa una capa de traducción para procesar datos externos sin ensuciar el modelo interno. |
 
-**Creación y Gestión de Planes Alimenticios**
-Permite a los nutricionistas diseñar, organizar y asignar planes alimenticios personalizados.
-
-**Comunicación y Seguimiento Nutricional**
-Facilita la interacción entre nutricionista y paciente, además del monitoreo del progreso nutricional.
-
-
-### **Relaciones entre Bounded Contexts**
-
-| **Destino (Downstream)**        | **Origen (Upstream)**           | **Tipo de Relación** | **Comentario**                                                                                               |
-| ------------------------------- | ------------------------------- | -------------------- | ------------------------------------------------------------------------------------------------------------ |
-| Perfil del Usuario              | Inicio y Registro de Sesión     | Customer/Supplier    | El contexto IAM provee los datos de autenticación necesarios para gestionar el perfil del usuario.           |
-| Gestión de Objetivos            | Perfil del Usuario              | Customer/Supplier    | Los datos del perfil alimentan la configuración inicial de objetivos nutricionales.                          |
-| Preferencias de Alimentación    | Perfil del Usuario              | Customer/Supplier    | Las preferencias dependen de la información básica del usuario para personalizar la dieta.                   |
-| Rutina Alimentaria              | Gestión de Objetivos            | Customer/Supplier    | La rutina se ajusta dinámicamente según las metas nutricionales definidas.                                   |
-| Rutina Alimentaria              | Preferencias de Alimentación    | Customer/Supplier    | Se utilizan las restricciones y gustos del usuario para generar una rutina adecuada.                         |
-| Comunicación y Seguimiento      | Rutina Alimentaria              | Customer/Supplier    | El progreso alimentario registrado se utiliza para monitoreo y análisis por parte del nutricionista.         |
-| Comunicación y Seguimiento      | Gestión de Objetivos            | Customer/Supplier    | Las metas nutricionales sirven como referencia para evaluar el progreso del usuario.                         |
-| Creación de Planes Alimenticios | Perfil Nutricionista            | Customer/Supplier    | El nutricionista provee la información necesaria para la creación de planes.                                 |
-| Rutina Alimentaria              | Creación de Planes Alimenticios | Customer/Supplier    | Los planes alimenticios definidos influyen en la rutina diaria del usuario.                                  |
-| Comunicación y Seguimiento      | Creación de Planes Alimenticios | Customer/Supplier    | Permite evaluar la efectividad de los planes asignados a los pacientes.                                      |
-| Gestión de Objetivos            | Comunicación y Seguimiento      | Partnership          | Ambos contextos colaboran para ajustar metas según el progreso del usuario.                                  |
-| Rutina Alimentaria              | Comunicación y Seguimiento      | Partnership          | Existe una relación bidireccional para monitoreo y ajuste continuo.                                          |
-| Todos los Contextos             | Inicio y Registro de Sesión     | Shared Kernel        | La autenticación y gestión de usuarios es compartida por todos los contextos para garantizar acceso seguro.  |
-| Sistemas IoT Externos           | Rutina Alimentaria              | Anticorruption Layer | Se utiliza una capa de anticorrupción para integrar datos de dispositivos IoT sin afectar el modelo interno. |
-
-![alt text](assets/TB1/tb1.png)
+![alt text](assets/TB1/K1.png)
 
 
 #### 4.1.3. Software Architecture.
