@@ -248,30 +248,6 @@ Ser una startup referente en el desarrollo de productos digitales orientados a l
 |![alt text](assets/fotos/jhonfoto.jpg) | Jhon Alexander Galvez Chambi | u202323270  |Soy una persona responsable y comprometida con la consecución de los mejores resultados en trabajo en equipo. Poseo experiencia en diversos lenguajes de programación, incluyendo Python, JavaScript y C++, así como en varios de los frameworks asociados a estos lenguajes. Además, tengo conocimientos en tecnologías emergentes como Cloud Computing e Internet de las Cosas (IoT), y estoy dispuesto a aportar mi experiencia en estas áreas para contribuir al éxito de los proyectos en los que participo. |
 |![alt text](assets/fotos/fabriziofoto.jpg) | Fabrizio Alberto Paredes Santos | u202310914  |Profesional en formación con experiencia en desarrollo de aplicaciones web y móviles utilizando stacks modernos como Vue.js y .NET, Angular y Spring Boot, además de desarrollo móvil con Flutter y Kotlin. También he trabajado en la creación de páginas web con React, Next.js y Tailwind CSS, enfocadas en rendimiento y experiencia de usuario. Me caracterizo por ser proactivo, responsable y orientado a resultados, con capacidad para adaptarme a entornos dinámicos y contribuir eficazmente en equipos de desarrollo. |
 
-- Mathias Bueno Perales - u202313433 (Ingeniería de Software)
-
-<p align="center">
-    <img src="assets/fotos/foto-mathias.png" alt="foto-mathias" width="170px"/>
-</p>
-
-Soy una persona optimista y responsable al cumplir mis labores para-con el grupo. Tengo experiencia respecto a proyectos previamente hechos en la rama de Ingenieria de Software y conocimientos en programacion como en HTML y CSS. Siempre procuro lo mejor para el equipo y ayudar en todo lo que este en mi alcance.
-
-- Jhon Alexander Galvez Chambi - u202323270 (Ingeniería de Software)
-
-<p align="center">
-    <img src="assets/fotos/jhonfoto.jpg" alt="foto-jhon" width="170px"/>
-</p>
-
-Soy una persona responsable y comprometida con la consecución de los mejores resultados en trabajo en equipo. Poseo experiencia en diversos lenguajes de programación, incluyendo Python, JavaScript y C++, así como en varios de los frameworks asociados a estos lenguajes. Además, tengo conocimientos en tecnologías emergentes como Cloud Computing e Internet de las Cosas (IoT), y estoy dispuesto a aportar mi experiencia en estas áreas para contribuir al éxito de los proyectos en los que participo.
-
-- Fabrizio Alberto Paredes Santos - u202310914 (Ingeniería de Software)
-
-<p align="center">
-    <img src="assets/fotos/fabriziofoto.jpg" alt="foto-fabrizio" width="170px"/>
-</p>
-
-Profesional en formación con experiencia en desarrollo de aplicaciones web y móviles utilizando stacks modernos como Vue.js y .NET, Angular y Spring Boot, además de desarrollo móvil con Flutter y Kotlin. También he trabajado en la creación de páginas web con React, Next.js y Tailwind CSS, enfocadas en rendimiento y experiencia de usuario. Me caracterizo por ser proactivo, responsable y orientado a resultados, con capacidad para adaptarme a entornos dinámicos y contribuir eficazmente en equipos de desarrollo.
-
 
 ### 1.2. Solution Profile
 
