@@ -403,7 +403,32 @@ El sector salud en el Perú viene experimentando un proceso de digitalización p
 
 ### 2.1. Competidores.
 
+# Competitive analysis landscape
+
+**¿Cuál es el análisis de las ventajas y desventajas de las empresas que compiten con nosotros? ¿Cómo nos comparamos en términos de fortalezas y debilidades respecto a ellos? ¿Se vislumbran oportunidades para destacarnos de la competencia y de qué manera podríamos sacar provecho de ellas?**  
+_El propósito de este análisis competitivo es evaluar las ventajas y desventajas de la startup y nuestro producto en comparación con los competidores, con el fin de crear estrategias y diseños que nos permitan competir de manera efectiva en el mercado.
+
+
 #### 2.1.1. Análisis competitivo.
+
+|                           |  |  |  |  |
+|---------------------------|------------|--------------|--------------|--------------|
+| **Perfil**                |    JF Technologies        |     Fitia         |   MyFitnessPal           |       Nutrium       |
+| Overview                  |  Startup tecnológica que automatiza el monitoreo nutricional mediante IA y modelos de datos, reduciendo la carga operativa para usuarios y profesionales de la salud.        | App peruana de nutrición líder en LATAM. Utiliza algoritmos para crear planes de alimentación personalizados y facilitar el conteo de calorías.          | La plataforma global más grande de registro de alimentos y ejercicio, basada en una base de datos masiva de productos. |    Software de nutrición centrado en el profesional, que conecta a nutricionistas con pacientes para seguimiento clínico.       |
+| Ventaja competitiva <br> ¿Qué valor ofrece a los clientes? | **Automatización del registro:** Enfoque en reducir la fricción manual mediante tecnologías emergentes (IA/Visión), mejorando la fidelidad de los datos. | **Localización extrema:** Base de datos de productos peruanos/LATAM y recetas locales altamente optimizadas. | **Efecto de red:** Base de datos de alimentos alimentada por usuarios más grande del mundo y comunidad global.  | **Gestión clínica:** Herramientas de análisis antropométrico y planes de alimentación médicos de alta precisión.  |
+| **Perfil de Marketing**   |            |              |              |              |
+| Mercado objetivo          | - Usuarios urbanos en Perú (18-35 años) pro-tecnología. <br> - Nutricionistas que buscan datos precisos y automáticos.     |  Personas en LATAM que buscan bajar de peso o ganar masa muscular de forma autónoma.         |  Usuarios globales enfocados en el conteo de calorías y control de peso general.        | Clínicas de nutrición, consultorios privados y sus pacientes que requieren dieta estricta. |
+| Estrategias de marketing  |   - Alianzas con centros de salud y gimnasios. <br> - Marketing de contenido sobre "bienestar sin esfuerzo" y eficiencia.        |   - Fuerte presencia en redes sociales (TikTok/IG) con influencers fitness. <br> - Modelo Freemium agresivo.        |   - SEO global masivo. <br> - Integración nativa con dispositivos wearables (Apple Health, Garmin, etc.).      |    - Marketing B2B dirigido a congresos de nutrición y salud. <br> - Certificaciones profesionales.         |
+| **Perfil de Producto**    |            |              |              |              |
+| Productos & Servicios     | Registro automático de ingesta, dashboard para profesionales, alertas de hábitos, integración de datos biométricos.          |   Planes de comidas, lista de compras, contador de macros, seguimiento de peso.          |    Diario de alimentos, contador de pasos, comunidad, planes de entrenamiento premium.         |  Software de gestión de consultas, app para el paciente con chat directo y recordatorios de comidas.          |
+| Precios & Costos          |  - Plan Usuario: Freemium / Premium (estimado S/. 45/mes). <br> - Plan Pro: Suscripción por volumen de pacientes.       |  - Gratuito con anuncios. <br> - Premium: aprox. S/. 20 - S/. 30 al mes.            | - Gratuito limitado. <br> - Premium: USD 19.99/mes (aprox. S/. 75).            |   Planes para profesionales desde USD 30/mes hasta USD 100/mes según el número de pacientes.      |
+| Canales de distribución <br> (Web y/o Móvil) | App móvil (iOS/Android) y Dashboard Web para profesionales de la salud. | Principalmente App Móvil (iOS/Android). | App Móvil, Web y dispositivos integrados (Smartwatches). | Plataforma Web para el profesional y App Móvil para el paciente. |
+| **Análisis SWOT**         |            |              |              |              |
+| Fortalezas                | - Soluciona la fricción del registro manual. <br> - Enfoque dual (B2C y B2B). <br> - Datos de alta confiabilidad.       | - Producto local nacido en Perú. <br> - UX/UI muy intuitiva y motivadora. <br> - Gran penetración en el mercado hispano.       |  - Reconocimiento de marca mundial. <br> - Base de datos imbatible (más de 14 millones de alimentos).      | - Alta fidelidad clínica. <br> - Mejora la retención de pacientes para el profesional.        |
+| Debilidades               | - Costo tecnológico de implementar automatización (IA). <br> - Marca aún no posicionada frente a gigantes.       |  - Depende todavía de mucho registro manual por parte del usuario. <br> - Enfoque limitado al fitness, menos clínico.      | - Interfaz saturada de anuncios en versión gratuita. <br> - Muchos datos de alimentos son erróneos (cargados por usuarios).       | - Curva de aprendizaje alta para el profesional. <br> - Menos enfoque en la "experiencia diaria" del usuario común.        |
+| Oportunidades             |  - Integración con Vision AI para reconocimiento de platos mediante fotos. <br> - Alianzas con seguros de salud (EPS).      |  - Expansión a mercados fuera de habla hispana. <br> - Incorporación de venta de suplementos.      |   - Uso de IA generativa para coaching nutricional personalizado.     |  - Telemedicina integrada y monitoreo de biomarcadores en tiempo real.       |
+| Amenazas                  |   - Fitia dominando el mercado local antes de que JF escale. <br> - Resistencia al cambio de profesionales tradicionales.     |   - Apps globales mejorando su base de datos local <br> - Competidores con mayor automatización (como JF).     | - Regulación de privacidad de datos de salud cada vez más estricta. <br> - Fatiga del usuario por registro manual.       |  - Aplicaciones gratuitas que empiezan a incluir herramientas para profesionales.     |
+
 
 #### 2.1.2. Estrategias y tácticas frente a competidores.
 
