@@ -904,11 +904,11 @@ Este Bounded Context es el responsable de gestionar la seguridad y el control de
 
 En esta capa se define el núcleo del negocio relacionado con la identidad y el acceso. Se utilizan patrones tácticos para encapsular las reglas de validación y la jerarquía de roles, asegurando la integridad de la cuenta del usuario desde su creación.
 
-| Clase               | Categoría         | Propósito                                                                 | Atributos / Métodos Principales                                                                 |
+| Clase               | Tipo         | Propósito                                                                 | Atributos / Métodos Principales                                                                 |
 |--------------------|------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
 | User               | Aggregate Root   | Representa la identidad del usuario en el sistema, vinculando sus credenciales con sus permisos. | Atributos: username, password, roles. Métodos: addRole(), addRoles().                          |
-| Role               | Entity           | Define las categorías de acceso disponibles (Nutricionista, Usuario, etc.) dentro de la aplicación. | Atributos: id, name (Roles). Métodos: getDefaultRole().                                         |
-| Roles              | Value Object     | Enumeración que define los tipos de roles permitidos para mantener la consistencia del dominio. | Valores: ROLE_USER, ROLE_NUTRITIONIST, ROLE_ADMIN.                                              |
+| Role               | Entity           | Define las categorías de acceso disponibles (Admin, Nutricionista, Cliente) dentro de la aplicación. | Atributos: id, name (Roles). Métodos: getDefaultRole().                                         |
+| Roles              | Value Object     | Enumeración que define los tipos de roles permitidos para mantener la consistencia del dominio. | Valores: ROLE_ADMIN, ROLE_CUSTOMER, ROLE_NUTRITIONIST.                                              |
 | UserCommandService | Domain Service   | Orquesta las operaciones de cambio de estado, como el registro y la autenticación. | Métodos: handle(SignUpCommand), handle(SignInCommand).                                          |
 | UserQueryService   | Domain Service   | Gestiona las consultas de información de usuarios sin afectar el estado de los datos. | Métodos: handle(GetUserByIdQuery), handle(GetUserByUsernameQuery).                              |
 
@@ -989,7 +989,7 @@ Este Bounded Context se especializa en la gestión integral de la información p
 
 En esta capa se define el núcleo de la aplicación relacionado con la información biométrica y las metas de salud del usuario. Se aplican patrones de Domain-Driven Design (DDD) para asegurar que las reglas de negocio (como el cálculo de necesidades calóricas o la gestión de restricciones alimentarias) estén protegidas y centralizadas en los agregados.
 
-| Clase                     | Categoría        | Propósito                                                                 | Atributos / Métodos Principales                                                                 |
+| Clase                     | Tipo        | Propósito                                                                 | Atributos / Métodos Principales                                                                 |
 |--------------------------|------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
 | UserProfile              | Aggregate Root   | Entidad principal que centraliza los datos biométricos y coordina la lógica de salud del usuario. | Atributos: userId, gender, height, weight, birthDate. Métodos: calculateCalorieNeeds(), updateProfile(), addAllergy(). |
 | ActivityLevel            | Entity           | Define el nivel de actividad física del usuario, factor crítico para cálculos metabólicos. | Atributos: name, activityFactor. Métodos: calculateCalories().                                  |
@@ -1002,7 +1002,7 @@ En esta capa se define el núcleo de la aplicación relacionado con la informaci
 
 Esta capa actúa como el punto de entrada para todas las solicitudes externas al contexto de Perfil de Usuario. Su responsabilidad es gestionar las solicitudes HTTP, validar los datos de entrada y transformar los modelos internos del dominio en formatos legibles para los clientes (JSON). Un aspecto destacado es el uso de Facades, que actúan como una capa de protección (ACL) para desacoplar la lógica del dominio de los controladores REST.
 
-| Clase                                      | Categoría        | Propósito                                                                 | Atributos / Métodos Principales                                                                 |
+| Clase                                      | Tipo        | Propósito                                                                 | Atributos / Métodos Principales                                                                 |
 |-------------------------------------------|------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
 | UserProfileController                     | Controller       | Expone los endpoints REST para la gestión del ciclo de vida del perfil de usuario. | Métodos: listAll(), getById(), create(), update(), delete().                                   |
 | UserProfilesContextFacade                 | ACL Facade       | Actúa como mediador entre la capa de interfaz y el dominio, simplificando el acceso a los servicios. | Métodos: fetchById(), fetchObjectiveByProfileId(), create(), update().                         |
@@ -1015,7 +1015,7 @@ Esta capa actúa como el punto de entrada para todas las solicitudes externas al
 
 La capa de aplicación orquesta los casos de uso del Bounded Context de Perfil de Usuario, actuando como un mediador que dirige el flujo de datos entre la interfaz y el dominio. En esta sección se evidencia la implementación de Command y Query Handlers que coordinan la lógica de negocio, la persistencia y la validación cruzada con otros contextos sin comprometer la pureza del modelo de dominio.
 
-| Clase                         | Categoría                  | Propósito                                                                 | Atributos / Métodos Principales                                                                 |
+| Clase                         | Tipo                  | Propósito                                                                 | Atributos / Métodos Principales                                                                 |
 |------------------------------|---------------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
 | UserProfileCommandServiceImpl| Command Handler           | Orquesta la creación, actualización y eliminación de perfiles, coordinando repositorios y servicios externos. | Métodos: handle(CreateUserProfileCommand), handle(UpdateUserProfileCommand).                   |
 | UserProfileQueryServiceImpl  | Query Handler             | Gestiona la recuperación de información de perfiles de forma optimizada para consultas de lectura. | Métodos: handle(GetAllUserProfilesQuery), handle(GetUserProfileByIdQuery).                     |
@@ -1027,7 +1027,7 @@ La capa de aplicación orquesta los casos de uso del Bounded Context de Perfil d
 
 Esta capa implementa la persistencia de datos mediante Spring Data JPA y el motor PostgreSQL. Contiene los repositorios que materializan las interfaces del dominio, permitiendo el almacenamiento y recuperación de perfiles, alergias y catálogos maestros. Gracias al uso de repositorios especializados, se garantiza que la lógica de acceso a datos sea eficiente y esté desacoplada de las reglas de negocio, facilitando el mantenimiento y la integridad de la información biométrica.
 
-| Clase                     | Categoría           | Propósito                                                                 | Atributos / Métodos Principales                                                                 |
+| Clase                     | Tipo           | Propósito                                                                 | Atributos / Métodos Principales                                                                 |
 |--------------------------|--------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
 | UserProfileRepository    | Repository (JPA)   | Implementación de persistencia para el agregado de perfiles, permitiendo búsquedas por usuario de IAM. | Métodos: findByUserId(), existsByUserId(), findTopByOrderByIdDesc().                           |
 | AllergyRepository        | Repository (JPA)   | Gestiona el almacenamiento de alergias y permite consultas filtradas por ingredientes específicos. | Métodos: findByName(), findByRelatedIngredients_Name().                                         |
@@ -1047,29 +1047,103 @@ En esta sección se presentan los diagramas de bajo nivel que definen la impleme
 
 ###### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.
 
+El Domain Layer Class Diagram ilustra la estructura lógica del contexto de Perfil de Usuario, centrada en el Aggregate Root UserProfile. Este agregado encapsula la información biométrica esencial y coordina las reglas de negocio para el cálculo de salud. Se observa una relación de asociación con las entidades ActivityLevel y Objective, las cuales proveen los parámetros necesarios para la personalización de planes. Asimismo, se detalla la gestión de restricciones mediante la entidad Allergy y su relación con el Value Object Ingredient. El diagrama también refleja el uso de patrones de mensajería interna mediante Commands y Queries, los cuales aseguran que las operaciones de modificación y lectura sigan el principio de segregación de responsabilidades (CQRS), manteniendo el núcleo del dominio desacoplado de las implementaciones tecnológicas.
+
 ![Class Diagram](assets/TB1/bc2_class_diagram.png)
 
 ###### 4.2.2.6.2. Bounded Context Database Design Diagram.
+
+El diseño de la base de datos para el contexto de Perfil de Usuario implementa una arquitectura de datos normalizada que separa la identidad de acceso de la información biométrica. El eje central es la tabla user_profiles, la cual funciona como el Aggregate Root que vincula las métricas físicas (estatura, peso, género) con los catálogos de activity_levels y objectives.
+
+La seguridad alimentaria se gestiona mediante un modelo de muchos a muchos con user_profile_allergies, permitiendo un seguimiento riguroso de las restricciones del usuario. Además, se incluye un desglose nutricional detallado mediante la relación entre ingredients y macronutrient_values, asegurando que el sistema pueda calcular con precisión las necesidades energéticas basadas en los factores de actividad y objetivos registrados. Esta estructura garantiza la escalabilidad para futuras funcionalidades de planes nutricionales automatizados.
 
 ![Database Diagram](assets/TB1/bc2_database_diagram.png)
 
 #### 4.2.3. Bounded Context: Gestión de Objetivos
 
+Este Bounded Context actúa como el núcleo analítico y de seguimiento de metas dentro de JameoFit. Su propósito es definir los parámetros maestros de salud del usuario, como el peso objetivo, el ritmo de progreso y el tipo de dieta predominante. Con el nuevo enfoque tecnológico, este contexto evoluciona de ser un registro estático a un sistema dinámico que integra datos en tiempo real provenientes de hardware IoT (Botella Inteligente). El contexto procesa de manera automática el consumo de hidratación y lo contrasta con los objetivos nutricionales definidos por el nutricionista o el propio usuario, permitiendo una visibilidad inmediata del progreso y asegurando la adherencia al plan de salud.
+
 ##### 4.2.3.1. Domain Layer.
+
+En la capa de dominio se encapsula la lógica de negocio y las reglas fundamentales para la administración de metas. Se ha diseñado siguiendo un patrón de DDD, donde el Agregado Goal centraliza la toma de decisiones. Para la integración con IoT, se han extendido los modelos para permitir que el hardware (ESP32 de la botella inteligente) pueda influir en las métricas de progreso sin intervención manual del usuario.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|---------------------|
+| Goal | Aggregate Root | Entidad raíz que centraliza el objetivo de peso, ritmo y dieta del usuario. | userId, objective, targetWeightKg, pace, dietPreset, macrosPcts, updatedAt |
+| UserId | Value Object | Identificador único del usuario, validando que sea un ID positivo. | value: int |
+| ObjectiveType | Value Object (Enum) | Define la meta principal del usuario. | LOSE_WEIGHT, MAINTAIN_WEIGHT, GAIN_MUSCLE |
+| PaceType | Value Object (Enum) | Define la velocidad esperada del cambio físico. | SLOW, MODERATE, FAST |
+| DietPreset | Value Object (Enum) | Pre-configuraciones de tipos de dieta. | OMNIVORE, VEGAN, LOW_CARB, HIGH_PROTEIN, etc. |
+| HydrationPulse | Value Object | Representa un pulso de agua detectado por el sensor de flujo. | amountMl: Double, timestamp: Date |
+| MacroPolicyService | Domain Service | Calcula la distribución de macronutrientes basada en el DietPreset. | macrosFor(preset): int[] |
+| IGoalRepository | Repository (Interface) | Define el contrato para persistir y recuperar los objetivos del usuario. | findByUserId(userId), save(goal) |
+| UpdateGoalCaloriesCommand | Command | Encapsula la intención de modificar las calorías y peso objetivo. | userId, objective, targetWeightKg, pace |
+| UpdateDietTypeCommand | Command | Encapsula la intención de cambiar el tipo de dieta y sus macros. | userId, preset |
+| GetGoalByUserQuery | Query | Consulta para obtener el estado actual del objetivo del usuario. | userId |
 
 ##### 4.2.3.2. Interface Layer.
 
+Esta capa actúa como el puente de comunicación entre los actores externos (usuarios a través de la aplicación y dispositivos hardware mediante protocolos de mensajería) y la lógica de negocio del dominio. En esta capa se exponen endpoints RESTful para la gestión administrativa de los objetivos y se implementan consumidores de eventos para la ingesta de datos en tiempo real provenientes del componente IoT (Botella Inteligente). Esta estructura asegura que el sistema sea accesible, escalable y capaz de procesar información tanto síncrona como asíncrona de manera eficiente.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|---------------------|
+| GoalsController | Controller | Expone los endpoints HTTP para la gestión de objetivos y configuración de dietas. | updateGoalCalories, updateDietType, getByUser |
+| GoalResource | DTO | Representa la estructura de datos enviada al cliente con el estado actual de las metas y macros. | userId, objective, targetWeightKg, pace, dietPreset, macrosPct |
+| GoalCalorieConfigResource | DTO | Recurso para recibir actualizaciones de configuración física y ritmo de progreso. | objective, targetWeightKg, pace |
+| DietTypeConfigResource | DTO | Recurso para recibir el cambio de tipo de dieta (Preset). | preset |
+| IoTGoalEventConsumer | Consumer | Escucha los mensajes MQTT de la botella inteligente para actualizar el progreso. | onHydrationPulse(event) |
+| GoalResourceFromEntityAssembler | Assembler | Transforma la entidad de dominio Goal en un recurso GoalResource. | toResourceFromEntity(entity) |
+| UpdateGoalCaloriesCommandFromResourceAssembler | Assembler | Convierte un recurso de configuración en un comando de actualización de calorías. | toCommand(userId, resource) |
+| UpdateDietTypeCommandFromResourceAssembler | Assembler | Convierte el recurso de dieta en un comando de cambio de tipo de dieta. | toCommand(userId, resource) |
+
 ##### 4.2.3.3. Application Layer.
+
+La capa de aplicación actúa como la orquestadora de los casos de uso del sistema. Su función principal es coordinar la ejecución de las reglas de negocio presentes en el dominio, gestionando las transacciones y la comunicación con servicios externos o capas de infraestructura. En este contexto, la capa de aplicación traduce las intenciones del usuario (comandos) y los eventos del hardware IoT en cambios de estado persistentes, asegurando que el flujo de datos entre la botella inteligente y el perfil del usuario sea coherente y seguro.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|---------------------|
+| GoalCommandServiceImpl | Command Service | Orquesta la creación y actualización de objetivos, coordinando con el repositorio y el servicio de políticas de macros. | handle(UpdateGoalCaloriesCommand), handle(UpdateDietTypeCommand) |
+| GoalQueryServiceImpl | Query Service | Gestiona la recuperación de información de objetivos de forma optimizada. | handle(GetGoalByUserQuery) |
+| ExternalProfilesService | ACL (Outbound) | Capa de Anticorrupción que valida la existencia de perfiles en otros contextos antes de asignar objetivos. | existsProfile(profileId) |
+| FeignClientInterceptor | Infrastructure Config | Asegura la comunicación autenticada entre servicios para mantener la integridad de los datos. | apply(template) |
+| HydrationIOTCommandHandler | Command Handler | Procesa los datos automáticos de la botella inteligente para actualizar el progreso diario. | handle(RecordHydrationCommand) |
 
 ##### 4.2.3.4. Infrastructure Layer.
 
+Esta capa proporciona las herramientas técnicas y el soporte tecnológico necesario para materializar los modelos definidos en las capas superiores. En este contexto, la capa de infraestructura se encarga de la persistencia de los objetivos en una base de datos relacional mediante un ORM y de establecer los canales de comunicación de bajo nivel para el hardware. Para cumplir con el nuevo enfoque, se integra un cliente de mensajería que permite recibir los datos de la Botella Inteligente, asegurando que la infraestructura técnica soporte la alta frecuencia de datos que generan los sensores IoT.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|---------------------|
+| GoalRepository | Repository Impl | Implementación basada en Spring Data JPA para la persistencia del agregado Goal. | findByUserId_Value(userId) |
+| MqttClientConfig | Configuración | Configura la conexión técnica con el Broker MQTT para recibir datos de la botella. | mqttClient(), connectOptions() |
+| JpaGoalStore | Persistence | Gestiona el mapeo físico entre los objetos de dominio y las tablas de la base de datos. | @Table(name = "goals") |
+| MqttHydrationSubscriber | IoT Infrastructure | Suscriptor de bajo nivel que escucha el tópico del sensor de flujo del ESP32. | subscribe(topic), messageArrived() |
+
 ##### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams.
+
+El diagrama ilustra la descomposición interna del contenedor, detallando cómo la arquitectura de capas interactúa para gestionar las metas de salud. En este nivel de abstracción, se destaca la integración del IoT Goal Event Consumer, el cual actúa como el punto de enlace asíncrono para recibir la telemetría proveniente de la botella inteligente vía MQTT. Se observa cómo los servicios de aplicación orquestan la lógica de negocio apoyándose en servicios de dominio especializados para el cálculo de macronutrientes y en una capa de anticorrupción (ACL) para validar la integridad de los datos de usuario, garantizando así un sistema robusto, escalable y capaz de procesar datos en tiempo real.
+
+![Component Level Diagram](assets/TB1/bc3_component_diagram.png)
 
 ##### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams.
 
+En esta sección se detalla la estructura interna y técnica del Bounded Context de Gestión de Objetivos. A través de diagramas de clases y de diseño de base de datos, se exponen los componentes tácticos del dominio, sus interacciones y la estrategia de persistencia, garantizando una implementación fiel a las reglas de negocio y a los requerimientos de integración tecnológica con dispositivos externos.
+
 ###### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams.
 
+El Domain Layer Class Diagram ilustra la arquitectura técnica del contexto de Gestión de Objetivos, centrada en el Aggregate Root Goal. Este agregado actúa como la unidad de consistencia para los parámetros físicos y nutricionales del usuario, encapsulando atributos clave como el peso objetivo y el ritmo de progreso. El diagrama refleja una relación de composición con el Value Object UserId y asociaciones con enumeraciones críticas como ObjectiveType y DietPreset, las cuales definen el comportamiento del dominio.
+
+Se destaca la inclusión del MacroPolicyService como un Domain Service que provee la lógica de cálculo para la distribución de macronutrientes, asegurando que el estado del agregado se mantenga alineado con las políticas nutricionales vigentes. Asimismo, el diseño incorpora el patrón de comandos y consultas para soportar tanto la interacción humana como la automatización mediante el comando RecordHydrationCommand, facilitando la ingesta de datos en tiempo real provenientes de la Botella Inteligente (IoT). Esta estructura garantiza que el núcleo del negocio sea robusto, testeable y capaz de evolucionar de manera independiente a la infraestructura.
+
+![Class Diagram](assets/TB1/bc3_class_diagram.png)
+
 ###### 4.2.3.6.2. Bounded Context Database Design Diagram.
+
+El diseño de la base de datos para el contexto de Gestión de Objetivos sigue un modelo relacional optimizado para garantizar la integridad y trazabilidad del progreso del usuario. La estructura se apoya en la tabla principal goals, la cual centraliza la configuración nutricional, objetivos de peso y distribución de macronutrientes, utilizando una restricción de clave única en user_id para asegurar la correspondencia con el perfil del usuario.
+
+Para integrar de manera eficiente el enfoque IoT, el modelo incorpora la tabla hydration_logs, vinculada mediante una relación de uno a muchos. Esta tabla permite registrar de forma granular cada evento de ingesta detectado por los sensores de la botella inteligente, almacenando el volumen específico y la marca temporal exacta. Esta separación permite mantener el estado actual del objetivo desacoplado del historial de eventos, facilitando el cálculo de métricas de progreso diario y el análisis de tendencias de hidratación sin comprometer el rendimiento del sistema.
+
+![Database Diagram](assets/TB1/bc3_database_diagram.png)
 
 #### 4.2.4. Bounded Context: Rutina Alimentaria
 
