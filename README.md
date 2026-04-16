@@ -534,6 +534,12 @@ Cada historia está estructurada para facilitar desarrollo ágil y validación i
 - **EP-12: IA Coach Nutricional e IoT Integrado** – US-41 a US-46
 
 ### 3.2. Impact Mapping.
+El **Impact Map** es una herramienta visual que permite relacionar los objetivos de negocio con las personas involucradas, los impactos esperados, los entregables y las historias de usuario asociadas.  
+Su objetivo es **visualizar de manera clara y estructurada cómo cada acción contribuye a los objetivos de la plataforma**, facilitando la planificación de funcionalidades y la alineación del equipo.
+
+A continuación se presenta el Impact Map de **JameoFit**:
+
+![Impact Map Plataforma de Gestión Personalizada](assets/impact_map.png)
 
 ### 3.3. Product Backlog.
 
