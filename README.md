@@ -537,6 +537,79 @@ Cada historia está estructurada para facilitar desarrollo ágil y validación i
 
 ### 3.3. Product Backlog.
 
+El **Product Backlog** es la lista priorizada de todas las funcionalidades, mejoras, correcciones y características previstas para la aplicación **JameoFit**, incluyendo integración con dispositivos IoT (bebedor y báscula inteligentes) y el módulo de IA tipo coach nutricional.  
+
+Este backlog permite al equipo de desarrollo:  
+
+- Tener claridad sobre **qué funcionalidades se deben implementar** y en qué orden.  
+- **Planificar sprints ágiles**, asignando tareas según prioridad y complejidad.  
+- Mantener un registro del **estado de cada User Story** (Por Hacer, En Progreso, Hecho).  
+
+**Columnas del Product Backlog:**
+
+- **#Orden:** Número secuencial para organización de las historias.  
+- **User Story ID:** Identificador único de la historia de usuario.  
+- **Título:** Nombre resumido de la funcionalidad.  
+- **Descripción:** Detalle de la necesidad desde la perspectiva del usuario o profesional de salud.  
+- **Story Points:** Estimación de complejidad o esfuerzo requerido (1,2,3,5,8).  
+- **Prioridad:** Alta / Media / Baja, para guiar la planificación de sprints.  
+- **Estado:** Indica si la historia está *Por Hacer*, *En Progreso* o *Hecho*.  
+
+A continuación se presenta el backlog completo con todas las User Stories definidas hasta el momento:
+
+| #Orden | User Story ID | Título | Descripción | Story Points | Prioridad | Estado |
+|--------|---------------|--------|-------------|--------------|-----------|--------|
+| 1 | US-01 | Registro de Usuario | Como visitante, quiero registrarme en la aplicación para empezar a gestionar mis necesidades alimenticias. | 2 | Alta | Por Hacer |
+| 2 | US-02 | Recuperación de Contraseña | Como usuario, quiero recuperar mi contraseña en caso de olvidarla. | 2 | Alta | Por Hacer |
+| 3 | US-03 | Personalización de Perfil | Como usuario registrado, quiero completar y editar mis preferencias alimenticias. | 3 | Alta | Por Hacer |
+| 4 | US-04 | Plan Alimenticio Personalizado | Como usuario, quiero recibir un plan alimenticio personalizado. | 5 | Alta | Por Hacer |
+| 5 | US-05 | Edición de Plan Alimenticio | Como usuario, quiero modificar o sustituir comidas del plan. | 3 | Media | Por Hacer |
+| 6 | US-06 | Registro Diario de Alimentos | Como usuario, quiero registrar lo que como diariamente. | 5 | Alta | Por Hacer |
+| 7 | US-07 | Recordatorios de Comidas | Como usuario, quiero recibir recordatorios para registrar mis comidas. | 3 | Media | Por Hacer |
+| 8 | US-08 | Visualización del Progreso | Como usuario, quiero visualizar mi progreso nutricional. | 5 | Alta | Por Hacer |
+| 9 | US-09 | Feedback Diario | Como usuario, quiero recibir comentarios diarios sobre mi alimentación. | 5 | Alta | Por Hacer |
+| 10 | US-10 | Registro de Logros | Como usuario, quiero ver avances y logros alcanzados. | 3 | Media | Por Hacer |
+| 11 | US-11 | Alertas de Objetivos no Alcanzados | Como usuario, quiero recibir alertas cuando no cumpla objetivos diarios. | 3 | Media | Por Hacer |
+| 12 | US-12 | Panel de Pacientes | Como nutricionista, quiero ver un panel con estado de pacientes. | 5 | Alta | Por Hacer |
+| 13 | US-13 | Envío de Sugerencias | Como nutricionista, quiero enviar recomendaciones a los usuarios. | 3 | Media | Por Hacer |
+| 14 | US-14 | Personalización de Metas | Como usuario, quiero definir metas específicas. | 3 | Media | Por Hacer |
+| 15 | US-15 | Visualización de Logros | Como usuario, quiero ver mis logros completados. | 2 | Media | Por Hacer |
+| 16 | US-16 | Notificaciones de Actividad | Como usuario, quiero recibir notificaciones sobre novedades de la app y dispositivos IoT. | 2 | Media | Por Hacer |
+| 17 | US-17 | Soporte en Tiempo Real | Como usuario, quiero chatear en tiempo real con soporte técnico. | 8 | Alta | Por Hacer |
+| 18 | US-18 | Conocer la propuesta de valor | Como visitante, quiero entender cómo me beneficia la app. | 2 | Baja | Por Hacer |
+| 19 | US-19 | Acceder al registro o inicio de sesión | Como visitante, quiero iniciar sesión o registrarme desde la barra superior. | 3 | Alta | Por Hacer |
+| 20 | US-20 | Navegar entre secciones desde la barra | Como visitante, quiero usar la barra superior para explorar secciones. | 3 | Media | Por Hacer |
+| 21 | US-21 | Ver resumen de beneficios | Como visitante, quiero ver los beneficios que ofrece la app. | 2 | Baja | Por Hacer |
+| 22 | US-22 | Navegar por los beneficios principales | Como visitante, quiero navegar por la sección de beneficios. | 3 | Media | Por Hacer |
+| 23 | US-23 | Visualizar testimonios | Como visitante, quiero leer testimonios de usuarios. | 5 | Media | Por Hacer |
+| 24 | US-24 | Navegar desde el footer | Como visitante, quiero que enlaces del footer funcionen correctamente. | 3 | Baja | Por Hacer |
+| 25 | US-25 | Acceder desde distintos dispositivos | Como visitante, quiero que la landing page funcione en cualquier dispositivo. | 5 | Media | Por Hacer |
+| 26 | US-26 | Ver recetas preestablecidas | Como usuario, quiero ver recetas ya creadas para guardar las que me interesen. | 5 | Media | Por Hacer |
+| 27 | US-27 | Hacer tracking del plan | Como usuario, quiero saber si la app sigue mi plan. | 5 | Alta | Por Hacer |
+| 28 | US-28 | Ver recomendaciones | Como usuario, quiero que la app muestre recomendaciones durante el día. | 5 | Alta | Por Hacer |
+| 29 | US-29 | Registro de Nutricionista | Como nutricionista, quiero registrarme con credenciales profesionales. | 3 | Alta | Por Hacer |
+| 30 | US-30 | Perfil Detallado de Nutricionista | Como nutricionista, quiero gestionar mi perfil profesional detallado. | 3 | Media | Por Hacer |
+| 31 | US-31 | Publicación de Consejos de Nutrición | Como nutricionista, quiero publicar artículos y consejos. | 5 | Media | Por Hacer |
+| 32 | US-32 | Gestión de Contenido Educativo | Como nutricionista, quiero organizar artículos por categorías y temáticas. | 5 | Media | Por Hacer |
+| 33 | US-33 | Chat Directo con Usuarios | Como nutricionista, quiero chatear con usuarios. | 5 | Media | Por Hacer |
+| 34 | US-34 | Gestión de Consultas | Como nutricionista, quiero organizar consultas y conversaciones. | 5 | Media | Por Hacer |
+| 35 | US-35 | Configuración de Suscripciones | Como nutricionista, quiero configurar suscripciones a mi contenido. | 8 | Alta | Por Hacer |
+| 36 | US-36 | Panel de Suscriptores | Como nutricionista, quiero ver un panel de mis suscriptores. | 5 | Media | Por Hacer |
+| 37 | US-37 | Notificaciones de Actividad Profesional | Como nutricionista, quiero recibir notificaciones sobre actividad en mi perfil. | 3 | Media | Por Hacer |
+| 38 | US-38 | Herramientas de Seguimiento de Pacientes | Como nutricionista, quiero herramientas para monitorear progreso de usuarios, incluyendo IoT. | 8 | Alta | Por Hacer |
+| 39 | US-39 | Biblioteca de Recursos Profesionales | Como nutricionista, quiero acceder a recursos científicos actualizados. | 5 | Media | Por Hacer |
+| 40 | US-40 | Estadísticas y Analytics | Como nutricionista, quiero ver estadísticas detalladas de mi actividad en la plataforma. | 5 | Alta | Por Hacer |
+| 41 | US-41 | Registro de Hidratación por Bebedor Inteligente | Como usuario, quiero que el bebedor inteligente registre mi consumo de agua automáticamente. | 5 | Alta | Por Hacer |
+| 42 | US-42 | Registro de Peso por Balanza Inteligente | Como usuario, quiero que la balanza inteligente sincronice mi peso automáticamente. | 5 | Alta | Por Hacer |
+| 43 | US-43 | Recomendaciones automáticas de alimentación (IA) | Como usuario, quiero recibir recomendaciones automáticas basadas en mis registros diarios. | 5 | Alta | Por Hacer |
+| 44 | US-44 | Interacción con coach virtual | Como usuario, quiero interactuar con un coach virtual para obtener sugerencias guiadas. | 5 | Alta | Por Hacer |
+| 45 | US-45 | Entrenamiento supervisado por nutricionista | Como nutricionista, quiero entrenar la IA con ejemplos de mis pacientes. | 5 | Alta | Por Hacer |
+| 46 | US-46 | Limitar interacción IA | Como usuario, quiero que la IA me envíe solo sugerencias resumidas y limitadas. | 3 | Alta | Por Hacer |
+
+A continuación se proporciona el link del Trello donde se puede visualizar de mejor forma el Product Backlog:
+
+[Product Backlog en Trello](https://trello.com/invite/b/69e066b886a5da9121cc7c78/ATTI01bec2006d16cd472b53e993911124889AFC839B/product-backlog-jameofit-iot)
+
 ## Capítulo IV: Solution Software Design
 
 ### 4.1. Strategic-Level Domain-Driven Design.
