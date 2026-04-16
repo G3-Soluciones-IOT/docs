@@ -457,6 +457,105 @@ _El propósito de este análisis competitivo es evaluar las ventajas y desventaj
 ## Capítulo III: Requirements Specification
 
 ### 3.1. User Stories.
+En esta sección se detallan las **User Stories** identificadas para la aplicación JameoFit. Cada historia representa una necesidad o funcionalidad desde la perspectiva del usuario o profesional de la salud, y está estructurada para facilitar su desarrollo ágil en sprints.  
+
+Las User Stories se organizan de la siguiente manera:
+
+- **Epic / Story ID:** Identificador único de la historia de usuario.  
+- **Título:** Breve descripción de la funcionalidad o necesidad.  
+- **Descripción:** Explicación detallada del objetivo desde la perspectiva del usuario.  
+- **Criterios de Aceptación:** Escenarios que permiten validar que la funcionalidad cumple con los requerimientos.  
+- **Relacionado con (Epic ID):** Referencia a la épica a la que pertenece la historia, agrupando funcionalidades similares.
+
+Estas historias fueron priorizadas considerando la **importancia para el usuario**, la **complejidad técnica**, y la **contribución al valor del producto**, siguiendo un enfoque ágil basado en Lean UX. La información permitirá al equipo de desarrollo implementar las funcionalidades de manera iterativa y validarlas con usuarios reales.
+
+| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+|-----------------|--------|-------------|------------------------|---------------------------|
+| US-01 | Registro de Usuario | Como visitante, quiero registrarme en la aplicación para empezar a gestionar mis necesidades alimenticias. | Escenario 01: Dado que soy un nuevo usuario y accedo por primera vez a la aplicación, cuando completo mi información inicial en el registro, entonces la app debe mostrarme sugerencias alimenticias adaptadas a mis datos. <br> Escenario 02: Dado que omití algunos datos en el registro, cuando ingreso luego a mi perfil y los completo, entonces la app debe ajustar automáticamente las sugerencias alimenticias. | EP-01 |
+| US-02 | Recuperación de Contraseña | Como usuario, quiero recuperar mi contraseña en caso de olvidarla. | Escenario 01: Dado que olvidé mi contraseña, cuando solicito la recuperación, entonces la app debe enviarme un correo con las instrucciones para restablecerla. <br> Escenario 02: Dado que no recibí el correo de recuperación, cuando solicito reenviarlo, entonces la app debe permitir reenviar el enlace correspondiente. | EP-01 |
+| US-03 | Personalización de Perfil | Como usuario registrado, quiero completar y editar mis preferencias alimenticias para recibir planes adecuados. | Escenario 01: Dado que ingreso mis alergias o restricciones, cuando guardo los cambios, entonces la app debe excluir esos alimentos del plan alimenticio. <br> Escenario 02: Dado que modifico mi objetivo de salud, cuando actualizo el perfil, entonces la app debe adaptar automáticamente mi plan alimenticio. | EP-01 |
+| US-04 | Plan Alimenticio Personalizado | Como usuario, quiero recibir un plan alimenticio personalizado basado en mis datos para tener una guía clara. | Escenario 01: Dado que he completado todos los campos de mi perfil, cuando solicito un plan alimenticio, entonces la app debe generar uno personalizado según mis necesidades. <br> Escenario 02: Dado que ya tengo un plan activo, cuando cambio mi nivel de actividad física, entonces la app debe generar una nueva propuesta de plan. | EP-02 |
+| US-05 | Edición de Plan Alimenticio | Como usuario, quiero modificar o sustituir comidas del plan sugerido para adaptarlo a mis gustos. | Escenario 01: Dado que no me agrada una comida del plan, cuando selecciono la opción "sustituir", entonces la app debe mostrar alternativas saludables equivalentes. <br> Escenario 02: Dado que agrego nuevas restricciones alimenticias, cuando las registro en mi perfil, entonces la app debe actualizar automáticamente el plan. | EP-02 |
+| US-06 | Registro Diario de Alimentos | Como usuario, quiero registrar lo que como diariamente para llevar un control de mi progreso. | Escenario 01: Dado que estoy en el día actual, cuando ingreso mis comidas, entonces la app debe guardar y analizar los datos registrados. <br> Escenario 02: Dado que olvidé registrar una comida, cuando ingreso al día anterior, entonces la app debe permitirme editar los registros pasados. | EP-03 |
+| US-07 | Recordatorios de Comidas | Como usuario, quiero recibir recordatorios para registrar mis comidas. | Escenario 01: Dado que soy un usuario activo, cuando configuro los recordatorios, entonces la app debe enviarme notificaciones en los horarios seleccionados. <br> Escenario 02: Dado que ignoro varios recordatorios, cuando accedo a la aplicación, entonces la app debe mostrar una advertencia para completar los registros faltantes. | EP-03 |
+| US-08 | Visualización del Progreso | Como usuario, quiero visualizar mi progreso nutricional para mantener mis hábitos positivos. | Escenario 01: Dado que he registrado mis comidas, cuando accedo a la sección de progreso, entonces la app debe mostrar mis estadísticas de alimentación y progreso. <br> Escenario 02: Dado que hubo días sin registro, cuando visualizo mi progreso, entonces la app debe indicar en qué días no se ingresaron datos. | EP-03 |
+| US-09 | Feedback Diario | Como usuario, quiero recibir comentarios sobre mi alimentación diaria para saber si estoy cumpliendo mis metas. | Escenario 01: Dado que registré todas mis comidas del día, cuando llega el final de la jornada, entonces la app debe mostrarme un resumen nutricional con retroalimentación. <br> Escenario 02: Dado que superé mi meta calórica, cuando reviso el feedback diario, entonces la app debe darme recomendaciones para equilibrar mi consumo al día siguiente. | EP-03 |
+| US-10 | Registro de Logros | Como usuario, quiero ver mis avances y logros alcanzados para mantenerme motivado. | Escenario 01: Dado que cumplo un objetivo semanal, cuando ingreso a mi perfil, entonces la app debe mostrar una insignia o notificación de logro. <br> Escenario 02: Dado que reviso mis estadísticas mensuales, cuando hubo progreso, entonces la app debe resaltar mis avances con mensajes motivacionales. | EP-04 |
+| US-11 | Alertas de Objetivos no Alcanzados | Como usuario, quiero recibir alertas para cuando no cumpla los objetivos diarios. | Escenario 01: Dado que tengo un dispositivo compatible, cuando lo vinculo mediante la app, entonces esta debe sincronizar mis datos de forma segura. <br> Escenario 02: Dado que desvinculo un dispositivo, cuando confirmo la acción, entonces la app debe dejar de recibir datos automáticamente. | EP-03 |
+| US-12 | Panel de Pacientes | Como nutricionista, quiero ver un panel con el estado de mis pacientes para optimizar mi seguimiento. | Escenario 01: Dado que la app ha registrado mi nivel de actividad física, cuando ingreso a mi panel, entonces debe mostrar sugerencias de comidas adaptadas. <br> Escenario 02: Dado que mi nivel de actividad varía, cuando la app detecta cambios significativos, entonces debe alertarme sobre ajustes recomendados. | EP-05 |
+| US-13 | Envío de Sugerencias | Como nutricionista, quiero enviar recomendaciones directamente a los usuarios para orientarlos. | Escenario 01: Dado que tengo una suscripción activa, cuando accedo al chat con el usuario, entonces la app debe permitir enviar y recibir mensajes en tiempo real. <br> Escenario 02: Dado que tengo una duda urgente y el usuario no está disponible, entonces la app debe permitir dejar un mensaje para respuesta posterior. | EP-05 |
+| US-14 | Personalización de Metas | Como usuario, quiero definir metas específicas. | Escenario 01: Dado que accedo a la sección de citas, cuando selecciono fecha y hora disponibles, entonces la app debe confirmar la reserva. <br> Escenario 02: Dado que no puedo asistir a una cita, cuando cancelo con anticipación, entonces la app debe notificar al nutricionista y liberar el horario. | EP-02 |
+| US-15 | Visualización de Logros | Como usuario, quiero ver una sección con los logros para ver cuáles he completado. | Escenario 01: Dado que establezco una meta nueva, cuando la guardo, entonces la app debe registrarla y mostrar mi progreso asociado. <br> Escenario 02: Dado que alcanzo una meta establecida, cuando esto ocurre, entonces la app debe notificarme con una felicitación y permitir definir una nueva. | EP-04 |
+| US-16 | Notificaciones de Actividad | Como usuario, quiero recibir notificaciones sobre actualizaciones relevantes de la app. | Escenario 01: Dado que selecciono una app externa compatible, cuando autorizo la conexión, entonces NutriSmart debe importar los datos relevantes. <br> Escenario 02: Dado que revoco el acceso, cuando retiro el permiso, entonces NutriSmart debe dejar de sincronizar y eliminar los datos vinculados. | EP-05 |
+| US-17 | Soporte en Tiempo Real | Como usuario, quiero chatear en tiempo real con el soporte técnico para resolver dudas. | Escenario 01: Dado que la app detecta que superé el límite diario, cuando registro una nueva comida, entonces debe mostrar una advertencia de exceso calórico. <br> Escenario 02: Dado que superé el límite semanal, cuando accedo a mi progreso, entonces la app debe ofrecer sugerencias para equilibrar mi dieta. | EP-05 |
+| US-18 | Conocer la propuesta de valor | Como visitante, quiero entender rápidamente qué hace la app y cómo me beneficia. | Escenario 01: Dado que finaliza la semana, cuando abro la app, entonces esta debe mostrar un resumen con estadísticas y sugerencias. | EP-06 |
+| US-19 | Acceder al registro o inicio de sesión | Como visitante, quiero poder iniciar sesión o registrarme desde la barra superior para empezar a usar la app. | Escenario 01: Dado que ingreso a la configuración de notificaciones, cuando desactivo una categoría, entonces la app debe dejar de enviarme alertas de ese tipo. <br> Escenario 02: Dado que cambio mis preferencias, cuando guardo la configuración, entonces la app debe aplicarlas de inmediato. | EP-06 |
+| US-20 | Navegar entre secciones desde la barra | Como visitante, quiero usar la barra superior para moverme a distintas secciones de la landing para explorar el contenido rápidamente. | Escenario 01: Dado que accedo a la sección de comunidad, cuando publico un mensaje, entonces este debe mostrarse en el muro general. | EP-06 |
+| US-21 | Ver resumen de beneficios | Como visitante, quiero ver los beneficios que ofrece la app para entender cómo me puede ayudar. | Escenario 01: Dado que experimento un error técnico, cuando ingreso a la sección de soporte, entonces la app debe mostrar opciones de contacto (chat, correo o formulario). | EP-06 |
+| US-22 | Navegar por los beneficios principales | Como visitante, quiero navegar fácilmente por la sección de beneficios para conocer todas las ventajas. | Escenario 01: Dado que tengo una suscripción activa, cuando accedo a mi perfil, entonces la app debe mostrar los detalles y la fecha de vencimiento. | EP-06 |
+| US-23 | Visualizar testimonios | Como visitante, quiero leer testimonios de usuarios para confiar en la app. | Escenario 01: Dado que selecciono un plan de pago, cuando ingreso mis datos de tarjeta, entonces la app debe procesar la transacción de manera cifrada. | EP-06 |
+| US-24 | Navegar desde el footer | Como visitante, quiero que los enlaces del pie de página funcionen correctamente para poder acceder a información adicional sobre la app. | Escenario 01: Dado que accedo a la sección de historial, cuando selecciono un período específico, entonces la app debe mostrar las transacciones realizadas. | EP-06 |
+| US-25 | Acceder desde distintos dispositivos | Como visitante, quiero que la landing page se vea bien en cualquier dispositivo para poder explorarla cómodamente. | Escenario 01: Dado que registro información sensible, cuando la guardo, entonces la app debe almacenarla de manera cifrada. <br> Escenario 02: Dado que reviso la política de privacidad, cuando accedo al enlace correspondiente, entonces la app debe mostrar el documento actualizado con los términos vigentes. | EP-06 |
+| US-26 | Ver recetas preestablecidas | Como usuario, quiero ver algunas recetas ya creadas para guardar las que me interesen. | Escenario 01: Dado que la app detecta inactividad, cuando transcurre el tiempo configurado, entonces debe cerrar la sesión automáticamente. <br> Escenario 02: Dado que se cerró mi sesión, cuando intento acceder a funciones protegidas, entonces la app debe pedirme nuevamente iniciar sesión. | EP-07 |
+| US-27 | Hacer tracking del plan | Como usuario, quiero saber si la app sigue lo que yo hago con respecto al plan. | Escenario 01: Dado que no tengo conexión, cuando abro la app, entonces debe permitirme visualizar mi plan y los datos guardados localmente. <br> Escenario 02: Dado que vuelvo a tener conexión, cuando la app se sincroniza, entonces debe actualizar mis registros con los cambios locales. | EP-07 |
+| US-28 | Ver recomendaciones | Como usuario, quiero que la app me muestre recomendaciones para seguirlas en distintos momentos del día. | Escenario 01: Dado que finalizo una semana de uso, cuando aparece la encuesta de evaluación, entonces puedo calificar mi experiencia y dejar comentarios. <br> Escenario 02: Dado que envío mi evaluación, cuando se registra, entonces la app debe mostrar resultados de manera resumida. | EP-07 |
+| US-32 | Gestión de Contenido Educativo | Como nutricionista, quiero organizar mis artículos por categorías y temáticas para que los usuarios encuentren fácilmente el contenido relevante. | Escenario 01: Dado que inicio sesión en otro dispositivo, cuando sincronizo mi cuenta, entonces la app debe mostrar los mismos datos y progreso. <br> Escenario 02: Dado que cierro sesión en uno de mis dispositivos, cuando lo hago, entonces la app debe garantizar que no se pierdan los registros sincronizados. | EP-09 |
+| US-33 | Chat Directo con Usuarios | Como nutricionista, quiero chatear directamente con los usuarios para brindar asesoramiento personalizado y seguimiento continuo. | Escenario 01: Dado que accedo a la sección de recetas, cuando aplico filtros de búsqueda, entonces la app debe mostrar solo las recetas compatibles con mis preferencias. <br> Escenario 02: Dado que agrego nuevos filtros, cuando los guardo, entonces la app debe actualizar automáticamente las sugerencias de recetas. | EP-10 |
+| US-34 | Gestión de Consultas | Como nutricionista, quiero organizar mis consultas y conversaciones para mantener un seguimiento eficiente de cada usuario. | Escenario 01: Dado que configuro un objetivo diario de consumo de agua, cuando registro mis vasos bebidos, entonces la app debe mostrar el progreso del día. <br> Escenario 02: Dado que no he registrado agua en varias horas, cuando se cumple el intervalo configurado, entonces la app debe enviarme una notificación recordatoria. | EP-10 |
+| US-35 | Configuración de Suscripciones | Como nutricionista, quiero configurar suscripciones a mi contenido para generar ingresos recurrentes y fidelizar usuarios. | Escenario 01: Dado que registro mis comidas, cuando accedo al análisis nutricional, entonces la app debe mostrar los valores de calorías, proteínas, carbohidratos y grasas. <br> Escenario 02: Dado que modifico un registro, cuando actualizo la comida, entonces el análisis debe recalcularse automáticamente. | EP-11 |
+| US-36 | Panel de Suscriptores | Como nutricionista, quiero ver un panel con mis suscriptores para conocer mi audiencia y engagement. | Escenario 01: Dado que alcanzo un logro importante, cuando selecciono “Compartir”, entonces la app debe generar una publicación con mis resultados. <br> Escenario 02: Dado que no deseo compartir públicamente, cuando selecciono “Solo para mí”, entonces la app debe guardar el logro sin publicarlo. | EP-11 |
+| US-37 | Notificaciones de Actividad Profesional | Como nutricionista, quiero recibir notificaciones sobre actividad en mi perfil para responder oportunamente a consultas y engagement. | Escenario 01: Dado que ingreso a la configuración de idioma, cuando selecciono una nueva opción, entonces la app debe actualizar todo el contenido al idioma elegido. <br> Escenario 02: Dado que cierro y reabro la app, cuando lo hago, entonces esta debe conservar el idioma configurado previamente. | EP-08 |
+| US-38 | Herramientas de Seguimiento de Pacientes | Como nutricionista, quiero herramientas especializadas para monitorear el progreso de usuarios que siguen mis recomendaciones para brindar un acompañamiento más efectivo. | Escenario 01: Dado que accedo a la sección de calendario, cuando selecciono un día, entonces la app debe mostrar el resumen de comidas y progreso de esa fecha. <br> Escenario 02: Dado que deseo ver el historial mensual, cuando cambio la vista, entonces la app debe mostrar un resumen de mis hábitos alimenticios del mes. | EP-10 |
+| US-39 | Biblioteca de Recursos Profesionales | Como nutricionista, quiero acceder a una biblioteca de recursos científicos actualizados para mantenerme al día y mejorar la calidad de mi contenido. | Escenario 01: Dado que accedo a la sección de consejos, cuando selecciono un tema, entonces la app debe mostrar artículos o tips relacionados. <br> Escenario 02: Dado que completo la lectura de un artículo, cuando lo marco como leído, entonces la app debe recomendarme contenido complementario. | EP-09 |
+| US-40 | Estadísticas y Analytics | Como nutricionista, quiero ver estadísticas detalladas de mi actividad en la plataforma para optimizar mi estrategia de contenido y consultas. | Escenario 01: Dado que cumplo una meta nutricional, cuando la app la registra como completada, entonces debe mostrar un mensaje de felicitación y un resumen del logro. <br> Escenario 02: Dado que deseo definir un nuevo objetivo, cuando lo selecciono, entonces la app debe sugerirme metas progresivas relacionadas. | EP-11 |
+
+---
+
+## Épicas
+
+- **Épica 01: Registro y Gestión de Cuenta**  
+  Todo lo relacionado al acceso, recuperación, y gestión del perfil del usuario.  
+  Historias relacionadas: US-01, US-02, US-03
+
+- **Épica 02: Personalización y Generación de Planes**  
+  Creación y adaptación de planes alimenticios personalizados según datos y preferencias del usuario.  
+  Historias relacionadas: US-04, US-05, US-14, US-15
+
+- **Épica 03: Registro y Seguimiento**  
+  Funcionalidades de seguimiento diario, visualización de progreso, recordatorios y feedback.  
+  Historias relacionadas: US-06, US-07, US-08, US-09, US-11
+
+- **Épica 04: Comunidad y Motivación**  
+  Todo lo que permite interacción social, motivación por logros, y participación en comunidad.  
+  Historias relacionadas: US-10, US-16
+
+- **Épica 05: Soporte y Experiencia del Usuario**  
+  Funcionalidades para soporte técnico, notificaciones, y herramientas del profesional para seguimiento de usuarios.  
+  Historias relacionadas: US-12, US-13, US-17, US-18
+
+- **Épica 06: Landing Page**  
+  Funcionalidades para la visualización de la landing page, navegación a través de ella e información.  
+  Historias relacionadas: US-19, US-20, US-21, US-22, US-23, US-24, US-25, US-26
+
+- **Épica 07: Visualización Detallada**  
+  Funcionalidades para ver diversas secciones fundamentales respecto a nuestro core de negocio.  
+  Historias relacionadas: US-27, US-28
+
+- **Épica 08: Registro y Gestión Profesional**  
+  Gestión del perfil profesional, credenciales y configuración de la cuenta de nutricionista.  
+  Historias relacionadas: US-30, US-31, US-37
+
+- **Épica 09: Creación y Gestión de Contenido Educativo**  
+  Publicación, organización y gestión de artículos, consejos y contenido educativo.  
+  Historias relacionadas: US-32, US-39, US-40
+
+- **Épica 10: Comunicación y Seguimiento de Usuarios**  
+  Chat directo, seguimiento de usuarios y herramientas de monitoreo personalizado.  
+  Historias relacionadas: US-33, US-34, US-38
+
+- **Épica 11: Monetización y Analytics**  
+  Gestión de suscripciones, métricas de performance y análisis de audiencia.  
+  Historias relacionadas: US-35, US-36
 
 ### 3.2. Impact Mapping.
 
