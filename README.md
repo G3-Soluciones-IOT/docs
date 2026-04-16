@@ -76,7 +76,7 @@
 | Versión | Fecha      | Autor                         | Descripción                                                                  |
 |---------|------------|-------------------------------|------------------------------------------------------------------------------|
 | AV1     | 05/04/2026 | Jhon Alexander Galvez Chambi  | Desarrollo de la carátula, tabla de contenidos y estructura general del informe. |
-| AV1     | /04/2026   |                               |                                                                              |
+| AV1     | 15/04/2026   |   Ramiro Alexander Guzmán Chávez   |  Desarrollo de User Stories, Product Backlog, Impact Mapping y adaptación a dispositivos inteligentes e IA.     |
 | AV1     | /04/2025   |                               |                                                                              |
 | AV1     | /04/2025   |                               |                                                                              |
 | AV1     | /04/2025   |                               |                                                                              |
