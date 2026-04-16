@@ -432,7 +432,21 @@ _El propósito de este análisis competitivo es evaluar las ventajas y desventaj
 
 #### 2.1.2. Estrategias y tácticas frente a competidores.
 
+#### Para que JF Technologies se posicione con éxito frente a gigantes establecidos como Fitia o MyFitnessPal, la estrategia no debe ser "hacer lo mismo pero mejor", sino atacar los puntos donde ellos son lentos o burocráticos.
+
+#### Mientras MyFitnessPal y Fitia obligan al usuario a buscar y anotar cada gramo, JF automatiza el proceso. Tu fortaleza es el tiempo ahorrado del usuario.
+
+
+#### Respecto a las debilidades,  MyFitnessPal tiene 15 años de datos. JF empieza de cero. La debilidad es la precisión inicial de la base de datos de alimentos comparada con los catálogos globales.
+
+#### Ahora, las oportunidades que presenta nuestro producto, si bien Nutrium es bueno para el nutricionista es aburrido para un usuario; Fitia es bueno para el usuario pero ignorado por el médico. JF puede ser el puente de datos en tiempo real.
+
+#### Finalmente factores que representan amenazas, si Fitia implementa una función de "foto-reconocimiento" mañana, la ventaja tecnológica de JF se reduce. La amenaza es la velocidad de copia de los incumbentes con más capital.
+
+
 ### 2.2. Entrevistas.
+
+La sección abarca el proceso de investigación de nuestros segmentos objetivos mediante la recolección de información en base a entrevistas.
 
 #### 2.2.1. Diseño de entrevistas.
 
