@@ -1688,21 +1688,70 @@ La relación entre trackings y tracking_entries es de composición (1 a N), lo q
 
 #### 4.2.6. Bounded Context: Gestión de Planes Alimenticios
 
+Este Bounded Context es el responsable de definir la estructura, composición y vigencia de las prescripciones nutricionales. Su rol arquitectónico es el de un Repositorio de Conocimiento Normativo; suministra los planes que los nutricionistas diseñan para los pacientes. En la arquitectura distribuida, este contexto provee los rangos y metas nutricionales (macronutrientes y horarios) que alimentan al motor de inferencia de la IA para validar el cumplimiento de la dieta en tiempo real.
+
 ##### 4.2.6.1. Domain Layer.
+
+La capa de dominio reúne las entidades, objetos de valor y reglas que permiten construir, clasificar y validar planes alimenticios dentro del sistema. En esta capa se concentra la lógica esencial para garantizar la integridad del plan y su coherencia con los objetivos nutricionales definidos.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|----------------------------------|
+| `MealPlan` | `Aggregate Root` | Entidad raíz que garantiza la integridad del plan (template o asignado). | `userId`, `nutritionistId`, `status` / `calculateTotalMacros()`, `assignToUser()` |
+| `MealPlanEntry` | `Entity` | Representa una comida específica dentro del plan vinculada a una receta. | `recipeId`, `scheduledTime`, `portionSize` / `getNutritionalProjection()` |
+| `MealPlanMacros` | `Value Object` | Encapsula los totales nutricionales proyectados del plan para su comparación. | `calories`, `protein`, `carbs`, `fat` / `isWithinRange()` |
+| `MealPlanType` | `Entity` | Clasifica el plan según su objetivo (ej. Volumen, Definición, Vegano). | `name`, `description` / `validateCompatibility()` |
 
 ##### 4.2.6.2. Interface Layer.
 
+La capa de interfaz expone las operaciones necesarias para que nutricionistas y usuarios interactúen con los planes alimenticios desde los distintos canales del sistema. Aquí se ubican los controladores y recursos encargados de traducir solicitudes externas en operaciones comprensibles para la aplicación.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|----------------------------------|
+| `MealPlanController` | `REST Controller` | Expone la API para que nutricionistas creen planes y usuarios los consulten. | `createMealPlan()`, `getMealPlanByUserId()` |
+| `MealPlanEntriesController` | `REST Controller` | Gestiona las entradas individuales de alimentos dentro de un plan activo. | `addEntryToPlan()`, `updateEntryTime()` |
+| `MealPlanResource` | `DTO` | Representación estructurada del plan para el consumo de las aplicaciones móviles. | `id`, `items[]`, `totalCalories` |
+
 ##### 4.2.6.3. Application Layer.
+
+La capa de aplicación coordina los casos de uso relacionados con la creación, modificación, consulta y activación de planes alimenticios. Su responsabilidad es orquestar el flujo entre la interfaz, el dominio y las dependencias necesarias para ejecutar cada operación de forma consistente.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|----------------------------------|
+| `MealPlanCommandService` | `Command Handler` | Orquesta la creación y modificación de planes, validando reglas de negocio. | `handle(CreateMealPlanCommand)` |
+| `MealPlanQueryService` | `Query Service` | Recupera planes optimizados, incluyendo información cruzada de recetas. | `getDetailedMealPlan(planId)` |
+| `MealPlanReadyEventHandler` | `Event Handler` | Dispara eventos cuando un plan es activado para sincronizar con el BC de Tracking. | `on(MealPlanAssignedEvent)` |
 
 ##### 4.2.6.4. Infrastructure Layer.
 
+La capa de infraestructura implementa los mecanismos técnicos que permiten persistir planes, consultar información externa y validar dependencias con otros bounded contexts. En esta capa se encapsulan los detalles de integración para mantener desacoplada la lógica de negocio de las decisiones tecnológicas.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|----------------------------------|
+| `JpaMealPlanRepository` | `Repository Impl` | Implementación de persistencia para los planes nutricionales en PostgreSQL. | `save()`, `findByUserProfileId()` |
+| `ExternalRecipeACL` | `ACL Client` | Adapta los modelos del servicio de Recipes para obtener los macros de las recetas. | `getRecipeMacros(recipeId)` |
+| `ProfileServiceClient` | `ACL Client` | Valida la existencia y estado del perfil del usuario antes de la asignación. | `validateProfileStatus(profileId)` |
+
 ##### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams.
+
+Este diagrama resalta el flujo de prescripción nutricional. Se observa cómo el componente de dominio se apoya en una ACL para obtener datos de recetas sin acoplarse al modelo de persistencia del microservicio de Recipes.
+
+![Component Level Diagram](./assets/TB1/bc6_component_diagram.png)
 
 ##### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams.
 
+Esta sección presenta los diagramas de nivel de código del Bounded Context, los cuales permiten visualizar con mayor detalle la organización interna de sus clases, servicios, interfaces y relaciones. A diferencia de los diagramas de contenedores y componentes, que muestran la estructura general de la solución, este nivel se enfoca en cómo se materializa técnicamente el diseño dentro del código. Su construcción se apoya en los principios de Clean Architecture y en el diseño táctico de DDD, con el objetivo de mantener una separación clara entre dominio, aplicación, interfaces e infraestructura. De este modo, se busca que las reglas de negocio permanezcan desacopladas de decisiones técnicas específicas, que la comunicación entre capas se mantenga clara y consistente, y que el sistema pueda evolucionar sin comprometer la lógica central del contexto
+
 ###### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams.
 
+El diagrama de clases del dominio para Gestión de Planes Alimenticios representa la estructura conceptual y las relaciones internas que sostienen el comportamiento del bounded context, por lo que su propósito no es reflejar el diseño de la base de datos, sino modelar las reglas de negocio y la consistencia del sistema. En este nivel, el diseño se organiza alrededor del agregado MealPlan, que actúa como entidad raíz y concentra la responsabilidad de definir el objetivo calórico y coordinar las ingestas programadas del día. A su alrededor se definen entidades como MealPlanEntry y value objects como MealPlanMacros que encapsulan el estado y la lógica propia del dominio, como el cálculo proyectado de nutrientes y la validación de compatibilidad de horarios, evitando dispersar estas responsabilidades en capas externas. Asimismo, los servicios del dominio se expresan mediante contratos que describen capacidades necesarias para el negocio, permitiendo que las integraciones técnicas (como el acceso a catálogos de recetas) se adapten al modelo definido y preservando así la independencia y claridad del núcleo del sistema.
+
+![Class Diagram](./assets/TB1/bc6_class_diagram.png)
+
 ###### 4.2.6.6.2. Bounded Context Database Design Diagram.
+
+La estrategia de modelado para el contexto de Planes Alimenticios se basa en un Esquema de Plantillas y Asignaciones. Se diseñó una estructura que permite desacoplar la receta (referenciada por ID) de la entrada del plan, permitiendo que el nutricionista ajuste porciones específicas para el paciente sin modificar la receta original. Se incluyen índices en user_profile_id para acelerar la recuperación del plan activo del usuario, esencial para la concurrencia que exige la validación IoT.
+
+![Database Diagram](./assets/TB1/bc6_database_diagram.png)
 
 #### 4.2.7. Bounded Context: Comunicación y Seguimiento
 
