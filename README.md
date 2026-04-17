@@ -1755,21 +1755,71 @@ La estrategia de modelado para el contexto de Planes Alimenticios se basa en un 
 
 #### 4.2.7. Bounded Context: Comunicación y Seguimiento
 
+Este Bounded Context actúa como el puente humano y técnico entre el paciente y el especialista. Su rol arquitectónico es el de un Facilitador de Interacción Síncrona y Asíncrona. En esta iteración, se integra con el flujo de telemetría para permitir que el nutricionista actúe como un monitor activo, accediendo a instantáneas de métricas nutricionales directamente desde la sesión de seguimiento. La arquitectura está diseñada para ser ligera en persistencia de negocio, pero robusta en la gestión de estados de conexión y flujo de datos masivos.
+
 ##### 4.2.7.1. Domain Layer.
+
+La capa de dominio define las reglas que gobiernan la comunicación entre el usuario y el nutricionista, así como las condiciones de acceso y visibilidad de la información de seguimiento. En esta capa se modelan las conversaciones, los mensajes y las políticas que aseguran una interacción controlada, consistente y alineada con las restricciones del negocio.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|----------------------------------|
+| `ChatRoom` | `Aggregate Root` | Unidad de consistencia que vincula a un usuario con su nutricionista asignado. | `roomId`, `participantIds`, `status` / `canAccessMetrics()`, `closeSession()` |
+| `ChatMessage` | `Entity` | Representa un evento de comunicación individual (texto, alerta de sistema o métrica compartida). | `senderId`, `content`, `timestamp` / `markAsRead()` |
+| `UserStatus` | `Value Object` | Representa el estado de disponibilidad del usuario en el canal. | `isOnline`, `lastSeen` / `updateStatus()` |
+| `MonitoringSnapshot` | `Value Object` | Estructura inmutable que captura las métricas de seguimiento para visualización del experto. | `currentCalories`, `proteinDelta`, `hydrationLevel` |
+| `CommunicationPolicy` | `Domain Service` | Define las reglas de privacidad y los permisos de acceso a métricas según el rol del participante. | `authorizeMetricView(nutritionistId, userId)` |
 
 ##### 4.2.7.2. Interface Layer.
 
+La capa de interfaz expone los mecanismos mediante los cuales las aplicaciones cliente interactúan con el bounded context, combinando operaciones REST para la gestión de salas y recursos con comunicación bidireccional en tiempo real para el intercambio de mensajes. Esta capa traduce la interacción del usuario en operaciones coherentes para la aplicación.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|----------------------------------|
+| `ChatController` | `REST Controller` | Expone endpoints para la creación de salas y recuperación de historial. | `getChatRoomsByUserId()`, `getMessagesByRoomId()` |
+| `MessageSocketHandler` | `WebSocket Handler` | Gestiona la conexión persistente para el envío de mensajes en tiempo real. | `handleTextMessage()`, `broadcastToRoom()` |
+| `MonitoringResource` | `DTO` | Representación de las métricas IoT formateadas para la interfaz de chat del nutricionista. | `userId`, `metricType`, `value`, `timestamp` |
+
 ##### 4.2.7.3. Application Layer.
+
+La capa de aplicación coordina el flujo operativo de mensajes, validaciones de acceso y recuperación de métricas externas necesarias para el seguimiento clínico. Su objetivo es orquestar la interacción entre las solicitudes de las interfaces, las reglas del dominio y los servicios requeridos para cada caso de uso.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|----------------------------------|
+| `SendMessageCommandHandler` | `Command Handler` | Procesa el envío de un mensaje, validando la existencia de la sala y notificando al receptor. | `handle(SendMessageCommand)` |
+| `FetchUserMetricsQueryHandler` | `Query Service` | Orquesta la petición de métricas actuales al BC de Tracking para presentarlas al nutricionista. | `handle(GetUserMetricsQuery)` |
+| `ChatAccessService` | `Application Service` | Valida que la relación entre paciente y nutri sea vigente antes de permitir la comunicación. | `validateAccess(userId, nutritionistId)` |
 
 ##### 4.2.7.4. Infrastructure Layer.
 
+La capa de infraestructura implementa los mecanismos técnicos de persistencia e integración requeridos por el bounded context, priorizando el rendimiento en la gestión de mensajes y el desacoplamiento respecto a los servicios de telemetría y notificaciones. Aquí se concretan las dependencias tecnológicas necesarias para soportar la operación en tiempo real.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|----------------------------------|
+| `MongoChatMessageRepository` | `Repository Impl` | Persistencia de mensajes en MongoDB para soportar alta escritura y consultas por documentos. | `save()`, `findByChatRoomIdOrderByTimestamp()` |
+| `TrackingServiceACL` | `ACL Client` | Adaptador para consumir las métricas de Rutina Alimentaria sin acoplar modelos. | `getCurrentMetrics(userId)` |
+| `FirebaseNotificationService` | `Client` | Envía notificaciones push cuando se recibe un mensaje y la aplicación está en segundo plano. | `sendPushNotification(recipientId, payload)` |
+
 ##### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams.
+
+Este diagrama resalta el Canal de Observación. El microservicio de Chat no solo mueve mensajes, sino que utiliza una ACL para "espiar" el estado del seguimiento en el microservicio de Tracking, permitiendo que el nutricionista tome decisiones sin salir de la conversación.
+
+![Component Level Diagram](./assets/TB1/bc7_component_diagram.png)
 
 ##### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams.
 
+Esta sección presenta los diagramas de nivel de código del Bounded Context, los cuales permiten visualizar con mayor detalle la organización interna de sus clases, servicios, interfaces y relaciones. A diferencia de los diagramas de contenedores y componentes, que muestran la estructura general de la solución, este nivel se enfoca en cómo se materializa técnicamente el diseño dentro del código. Su construcción se apoya en los principios de Clean Architecture y en el diseño táctico de DDD, con el objetivo de mantener una separación clara entre dominio, aplicación, interfaces e infraestructura. De este modo, se busca que las reglas de negocio permanezcan desacopladas de decisiones técnicas específicas, que la comunicación entre capas se mantenga clara y consistente, y que el sistema pueda evolucionar sin comprometer la lógica central del contexto.
+
 ###### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams.
 
+El diagrama de clases del dominio para Comunicación y Seguimiento representa la estructura conceptual y las relaciones internas que sostienen el comportamiento del bounded context, por lo que su propósito no es reflejar el diseño de la base de datos, sino modelar las reglas de negocio y la consistencia del sistema. En este nivel, el diseño se organiza alrededor del agregado ChatRoom, que actúa como entidad raíz y concentra la responsabilidad de garantizar que la sesión de comunicación sea válida y segura. A su alrededor se definen entidades como ChatMessage y value objects como MonitoringSnapshot que encapsulan el estado y la lógica propia del dominio, como la representación de métricas IoT compartidas y el historial de interacción, evitando dispersar estas responsabilidades en capas externas. Asimismo, los servicios del dominio se expresan mediante contratos que describen capacidades necesarias para el negocio (como la validación de acceso clínico), permitiendo que las integraciones técnicas se adapten al modelo definido y preservando así la independencia y claridad del núcleo del sistema.
+
+![Class Diagram](./assets/TB1/bc7_class_diagram.png)
+
 ###### 4.2.7.6.2. Bounded Context Database Design Diagram.
+
+La estrategia de modelado para el contexto de Comunicación utiliza un Enfoque de Almacenamiento Documental (NoSQL). Dado que los mensajes de chat son datos semi-estructurados con alta frecuencia de inserción, MongoDB es la opción óptima. Las colecciones se organizan alrededor del chat_room_id, permitiendo recuperaciones de historial extremadamente rápidas mediante índices compuestos por sala y tiempo. Las métricas no se duplican, sino que se referencian mediante instantáneas (Snapshots) incrustadas en mensajes de sistema cuando el nutricionista solicita un reporte en la conversación.
+
+![Database Diagram](./assets/TB1/bc7_database_diagram.png)
 
 #### 4.2.8. Bounded Context: Pagos
 
