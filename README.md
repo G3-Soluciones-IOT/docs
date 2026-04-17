@@ -76,10 +76,12 @@
 | Versión | Fecha      | Autor                         | Descripción                                                                  |
 |---------|------------|-------------------------------|------------------------------------------------------------------------------|
 | AV1     | 05/04/2026 | Jhon Alexander Galvez Chambi  | Desarrollo de la carátula, tabla de contenidos y estructura general del informe. |
-| AV1     | 15/04/2026   |   Valentino Sandoval Paiva                            | Para esta entrega, lideré el diseño estratégico mediante EventStorming, el descubrimiento de contextos y la elaboración de los Bounded Context Canvases y el Context Mapping. Asimismo, definí la arquitectura de software a través de los diagramas de Landscape, Context, Container y Deployment, complementándolo con el análisis competitivo, las historias de usuario y el desarrollo integral de las capas del Bounded Context IAM.                                                                             |
-| AV1     | /04/2025   |                               |                                                                              |
-| AV1     | /04/2025   |                               |                                                                              |
-| AV1     | /04/2025   |                               |                                                                              |
+| AV1     | 1x/04/2026 | Omar Luquillas Asto  |              |
+| AV1     | 1x/04/2026 | Mathias Eduardo Bueno Perales  |              |
+| AV1     | 15/04/2026 |   Valentino Sandoval Paiva  | Para esta entrega, lideré el diseño estratégico mediante EventStorming, el descubrimiento de contextos y la elaboración de los Bounded Context Canvases y el Context Mapping. Asimismo, definí la arquitectura de software a través de los diagramas de Landscape, Context, Container y Deployment, complementándolo con el análisis competitivo, las historias de usuario y el desarrollo integral de las capas del Bounded Context IAM.   |
+| AV1     | 15/04/2026 | Ramiro Alexander Guzmán Chávez   |  Desarrollo de User Stories, Product Backlog, Impact Mapping y adaptación a dispositivos inteligentes e IA.      |
+| AV1     | 17/04/2026 | Jhon Alexander Galvez Chambi  | Desarrollo de secciones correspondientes a los Bounded Context: Rutina Alimentaria, Nutricionista, Gestion de Planes Alimenticios, Comunicacion y Pagos   |
+| AV1     | /04/2026   |                               |           
 
 ## Project Report Collaboration Insights
 
