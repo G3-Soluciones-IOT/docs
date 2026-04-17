@@ -407,7 +407,8 @@ El sector salud en el Perú viene experimentando un proceso de digitalización p
 # Competitive analysis landscape
 
 **¿Cuál es el análisis de las ventajas y desventajas de las empresas que compiten con nosotros? ¿Cómo nos comparamos en términos de fortalezas y debilidades respecto a ellos? ¿Se vislumbran oportunidades para destacarnos de la competencia y de qué manera podríamos sacar provecho de ellas?**  
-_El propósito de este análisis competitivo es evaluar las ventajas y desventajas de la startup y nuestro producto en comparación con los competidores, con el fin de crear estrategias y diseños que nos permitan competir de manera efectiva en el mercado.
+
+El propósito de este análisis competitivo es evaluar las ventajas y desventajas de la startup y nuestro producto en comparación con los competidores, con el fin de crear estrategias y diseños que nos permitan competir de manera efectiva en el mercado.
 
 
 #### 2.1.1. Análisis competitivo.
@@ -433,16 +434,16 @@ _El propósito de este análisis competitivo es evaluar las ventajas y desventaj
 
 #### 2.1.2. Estrategias y tácticas frente a competidores.
 
-#### Para que JF Technologies se posicione con éxito frente a gigantes establecidos como Fitia o MyFitnessPal, la estrategia no debe ser "hacer lo mismo pero mejor", sino atacar los puntos donde ellos son lentos o burocráticos.
+Para que JF Technologies se posicione con éxito frente a gigantes establecidos como Fitia o MyFitnessPal, la estrategia no debe ser "hacer lo mismo pero mejor", sino atacar los puntos donde ellos son lentos o burocráticos.
 
-#### Mientras MyFitnessPal y Fitia obligan al usuario a buscar y anotar cada gramo, JF automatiza el proceso. Tu fortaleza es el tiempo ahorrado del usuario.
+Mientras MyFitnessPal y Fitia obligan al usuario a buscar y anotar cada gramo, JF automatiza el proceso. Tu fortaleza es el tiempo ahorrado del usuario.
 
 
-#### Respecto a las debilidades,  MyFitnessPal tiene 15 años de datos. JF empieza de cero. La debilidad es la precisión inicial de la base de datos de alimentos comparada con los catálogos globales.
+Respecto a las debilidades,  MyFitnessPal tiene 15 años de datos. JF empieza de cero. La debilidad es la precisión inicial de la base de datos de alimentos comparada con los catálogos globales.
 
-#### Ahora, las oportunidades que presenta nuestro producto, si bien Nutrium es bueno para el nutricionista es aburrido para un usuario; Fitia es bueno para el usuario pero ignorado por el médico. JF puede ser el puente de datos en tiempo real.
+Ahora, las oportunidades que presenta nuestro producto, si bien Nutrium es bueno para el nutricionista es aburrido para un usuario; Fitia es bueno para el usuario pero ignorado por el médico. JF puede ser el puente de datos en tiempo real.
 
-#### Finalmente factores que representan amenazas, si Fitia implementa una función de "foto-reconocimiento" mañana, la ventaja tecnológica de JF se reduce. La amenaza es la velocidad de copia de los incumbentes con más capital.
+Finalmente factores que representan amenazas, si Fitia implementa una función de "foto-reconocimiento" mañana, la ventaja tecnológica de JF se reduce. La amenaza es la velocidad de copia de los incumbentes con más capital.
 
 
 ### 2.2. Entrevistas.
@@ -1602,19 +1603,70 @@ Para integrar de manera eficiente el enfoque IoT, el modelo incorpora la tabla h
 
 ##### 4.2.4.1. Domain Layer.
 
+Es la capa de máxima jerarquía donde residen las reglas de negocio agnósticas a la tecnología. Con la incorporación de la IA, el dominio ahora no solo contiene datos, sino lógica de validación probabilística para determinar la veracidad de la ingesta.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|----------------------------------|
+| `Tracking` | `Aggregate Root` | Entidad principal que garantiza la consistencia del progreso diario y la suma de macronutrientes. | `userId`, `date`, `status` / `calculateDailyProgress()`, `verifyThresholds()` |
+| `MacronutrientValues` | `Value Object` | Representa la composición química inmutable de los alimentos. | `protein`, `fat`, `carbs`, `energy` / `add()`, `isZero()` |
+| `TrackingMealPlanEntry` | `Entity` | Representa un registro de ingesta capturado. Incluye el flag de verificación por IA. | `foodName`, `recordedWeight`, `isAiVerified` / `updateNutritionalValues()` |
+| `AIInferenceService` | `Domain Service` | Interfaz que define el contrato para la validación de telemetría mediante modelos de IA. | `verifyIngesta(telemetryData) : InferenceResult` |
+| `NutritionalPolicy` | `Domain Service` | Contiene las reglas de negocio para determinar si una desviación en la dieta es "crítica" o "aceptable". | `evaluateDeviation(planned, actual)` |
+
 ##### 4.2.4.2. Interface Layer.
+
+Actúa como la frontera del microservicio. En esta iteración, la capa se expande para soportar protocolos de mensajería ligera necesarios para la comunicación con sensores.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|----------------------------------|
+| `TrackingController` | `REST Controller` | Expone la API para que las aplicaciones Mobile y Web consulten el estado nutricional. | `getDailyTrackingByUserId()`, `manualIngestaEntry()` |
+| `TelemetryMqttConsumer` | `Message Consumer` | Punto de entrada asíncrono que escucha los "pulses" de los dispositivos ESP32. | `onMessageReceived(topic, payload)`, `parseSensorData()` |
+| `TrackingResource` | `DTO` | Representación externa del agregado Tracking para consumo de las interfaces de usuario. | `totalCalories`, `progressPercentage`, `entries[]` |
 
 ##### 4.2.4.3. Application Layer.
 
+Orquesta el flujo de información. Es la encargada de tomar el dato crudo del sensor, enviarlo al motor de IA y, según el resultado, actualizar el dominio o disparar eventos hacia otros contextos.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|----------------------------------|
+| `ProcessTelemetryCommandHandler` | `Command Handler` | Coordina el flujo: Recibir telemetría -> Consultar IA -> Actualizar Tracking -> Persistir. | `handle(ProcessTelemetryCommand)` |
+| `TrackingQueryService` | `Query Service` | Maneja la recuperación de datos optimizada para los dashboards del nutricionista y usuario. | `getTrackingStatusByUser(userId)` |
+| `TrackingReadyEventHandler` | `Event Handler` | Reacciona ante la finalización de una meta diaria para notificar al usuario vía Firebase. | `on(TrackingCompletedEvent)` |
+
 ##### 4.2.4.4. Infrastructure Layer.
+
+Provee las implementaciones técnicas de los contratos definidos en el dominio. Aquí es donde se gestiona la complejidad de la nube y la conectividad física.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|----------------------------------|
+| `JpaTrackingRepository` | `Repository Impl` | Implementación de persistencia utilizando Spring Data JPA y PostgreSQL. | `save()`, `findByUserIdAndDate()` |
+| `AwsIotCoreClient` | `Client` | Gestiona la conexión segura con el broker MQTT de AWS para recibir datos del ESP32. | `subscribeToTopic()`, `publishAck()` |
+| `TensorFlowInferenceClient` | `AI Client` | Implementa la comunicación con el modelo de IA alojado en AWS SageMaker o un contenedor interno. | `invokeModel(payload)`, `mapToDomainInference()` |
+| `StripeIntegrationService` | `Client` | Valida el estado de la suscripción del usuario para habilitar/deshabilitar la telemetría IoT. | `checkSubscriptionStatus(userId)` |
 
 ##### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams.
 
+En este nivel de descomposición, se visualiza cómo el Bounded Context de Rutina Alimentaria organiza sus responsabilidades internas. Hemos aplicado el patrón CQRS para separar las mutaciones de estado (Comandos) de las consultas (Queries), optimizando así el rendimiento de la aplicación móvil. Asimismo, se destaca la ACL (Anti-Corruption Layer), representada por los clientes de integración (Feign), que aíslan nuestro modelo nutricional de los cambios en servicios externos como Profiles o Recipes.
+
+![Component Level Diagram](assets/TB1/bc4_component_diagram.png)
+
 ##### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.
+
+Esta sección presenta los diagramas de nivel de código del Bounded Context, los cuales permiten visualizar con mayor detalle la organización interna de sus clases, servicios, interfaces y relaciones. A diferencia de los diagramas de contenedores y componentes, que muestran la estructura general de la solución, este nivel se enfoca en cómo se materializa técnicamente el diseño dentro del código. Su construcción se apoya en los principios de Clean Architecture y en el diseño táctico de DDD, con el objetivo de mantener una separación clara entre dominio, aplicación, interfaces e infraestructura. De este modo, se busca que las reglas de negocio permanezcan desacopladas de decisiones técnicas específicas, que la comunicación entre capas se mantenga clara y consistente, y que el sistema pueda evolucionar sin comprometer la lógica central del contexto.
 
 ###### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams.
 
+El diagrama de clases del dominio para Rutina Alimentaria representa la estructura conceptual y las relaciones internas que sostienen el comportamiento del bounded context, por lo que su propósito no es reflejar el diseño de la base de datos, sino modelar las reglas de negocio y la consistencia del sistema. En este nivel, el diseño se organiza alrededor del agregado Tracking, que actúa como entidad raíz y concentra la responsabilidad de mantener la coherencia del progreso diario y de los valores nutricionales registrados. A su alrededor se definen entidades y value objects que encapsulan el estado y la lógica propia del dominio, como el cálculo de macronutrientes y la validación de desviaciones alimentarias, evitando dispersar estas responsabilidades en capas externas. Asimismo, los servicios del dominio se expresan mediante contratos que describen capacidades necesarias para el negocio, permitiendo que las integraciones técnicas se adapten al modelo definido y preservando así la independencia y claridad del núcleo del sistema.
+
+![Class Diagram](assets/TB1/bc4_class_diagram.png)
+
 ###### 4.2.4.6.2. Bounded Context Database Design Diagram.
+
+La estrategia de modelado para la base de datos sigue un enfoque Relacional Orientado a Agregados. En lugar de normalizar excesivamente, el diseño se centra en la integridad del Agregado Raíz trackings. Las tablas están diseñadas para soportar el almacenamiento eficiente de series temporales (registros de telemetría IoT) vinculadas a la planificación nutricional del usuario.
+
+La relación entre trackings y tracking_entries es de composición (1 a N), lo que permite que una consulta simple recupere todo el contexto diario de un usuario para la inferencia de la IA. Se han incluido columnas de auditoría técnica y banderas de verificación para soportar el flujo de excepciones escaladas al nutricionista.
+
+![Database Diagram](assets/TB1/bc4_database_diagram.png)
 
 #### 4.2.5. Bounded Context: Nutricionista
 
