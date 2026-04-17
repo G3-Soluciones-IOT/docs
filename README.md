@@ -76,12 +76,20 @@
 | Versión | Fecha      | Autor                         | Descripción                                                                  |
 |---------|------------|-------------------------------|------------------------------------------------------------------------------|
 | AV1     | 05/04/2026 | Jhon Alexander Galvez Chambi  | Desarrollo de la carátula, tabla de contenidos y estructura general del informe. |
-| AV1     | /04/2026   |                               |                                                                              |
+| AV1     | 15/04/2026   |   Valentino Sandoval Paiva                            | Para esta entrega, lideré el diseño estratégico mediante EventStorming, el descubrimiento de contextos y la elaboración de los Bounded Context Canvases y el Context Mapping. Asimismo, definí la arquitectura de software a través de los diagramas de Landscape, Context, Container y Deployment, complementándolo con el análisis competitivo, las historias de usuario y el desarrollo integral de las capas del Bounded Context IAM.                                                                             |
 | AV1     | /04/2025   |                               |                                                                              |
 | AV1     | /04/2025   |                               |                                                                              |
 | AV1     | /04/2025   |                               |                                                                              |
 
 ## Project Report Collaboration Insights
+
+|  URL del repositorio del reporte  |
+| :-----------------------------------: |
+| [https://github.com/G3-Soluciones-IOT/docs.git](https://github.com/G3-Soluciones-IOT/docs.git) |
+
+**TB1:**
+
+**REPORT:** 
 
 ## Contenido
 
@@ -232,29 +240,14 @@ Desarrollar soluciones tecnológicas innovadoras que integren datos y herramient
 Ser una startup referente en el desarrollo de productos digitales orientados a la salud y el bienestar, destacando por su capacidad de innovación, escalabilidad y aplicación de tecnologías emergentes para generar impacto sostenible en la calidad de vida de las personas.
 #### 1.1.2. Perfiles de integrantes del equipo
 
-- Mathias Bueno Perales - u202313433 (Ingeniería de Software)
-
-<p align="center">
-    <img src="assets/fotos/foto-mathias.png" alt="foto-mathias" width="170px"/>
-</p>
-
-Soy una persona optimista y responsable al cumplir mis labores para-con el grupo. Tengo experiencia respecto a proyectos previamente hechos en la rama de Ingenieria de Software y conocimientos en programacion como en HTML y CSS. Siempre procuro lo mejor para el equipo y ayudar en todo lo que este en mi alcance.
-
-- Jhon Alexander Galvez Chambi - u202323270 (Ingeniería de Software)
-
-<p align="center">
-    <img src="assets/fotos/jhonfoto.jpg" alt="foto-jhon" width="170px"/>
-</p>
-
-Soy una persona responsable y comprometida con la consecución de los mejores resultados en trabajo en equipo. Poseo experiencia en diversos lenguajes de programación, incluyendo Python, JavaScript y C++, así como en varios de los frameworks asociados a estos lenguajes. Además, tengo conocimientos en tecnologías emergentes como Cloud Computing e Internet de las Cosas (IoT), y estoy dispuesto a aportar mi experiencia en estas áreas para contribuir al éxito de los proyectos en los que participo.
-
-- Fabrizio Alberto Paredes Santos - u202310914 (Ingeniería de Software)
-
-<p align="center">
-    <img src="assets/fotos/fabriziofoto.jpg" alt="foto-fabrizio" width="170px"/>
-</p>
-
-Profesional en formación con experiencia en desarrollo de aplicaciones web y móviles utilizando stacks modernos como Vue.js y .NET, Angular y Spring Boot, además de desarrollo móvil con Flutter y Kotlin. También he trabajado en la creación de páginas web con React, Next.js y Tailwind CSS, enfocadas en rendimiento y experiencia de usuario. Me caracterizo por ser proactivo, responsable y orientado a resultados, con capacidad para adaptarme a entornos dinámicos y contribuir eficazmente en equipos de desarrollo.
+| Foto | Miembros del equipo | Código de Estudiante | Descripción |
+| :---: | :--- | :--- | :--- |
+|![alt text](assets/fotos/foto-mathias.png) | Mathias Bueno Perales  | u202313433 |Soy una persona optimista y responsable al cumplir mis labores para-con el grupo. Tengo experiencia respecto a proyectos previamente hechos en la rama de Ingenieria de Software y conocimientos en programacion como en HTML y CSS. Siempre procuro lo mejor para el equipo y ayudar en todo lo que este en mi alcance. |
+| ![alt text](assets/fotos/OMAR.png)| Omar Luquillas Asto | U20211G641 | Soy Valentino Sandoval, tengo 20 años y soy estudiante de la carrera de Ingeniería de Software. Tengo conocimiento en lenguajes de programación como python y c++, y bases de datos como SQLServer y MongoDB. Desde pequeño me sentí atraído por la tecnología, por lo que me decidí a estudiar la carrera, además disfruto de jugar videojuegos con amigos en mi tiempo libre. |
+|![alt text](assets/fotos/VALENTINO.png) | Valentino Sandoval Paiva | U20211A962 |Soy Valentino Sandoval, tengo 22 años y soy estudiante de la carrera de Ingeniería de Software. Tengo conocimiento en lenguajes de programación como python y c++, y bases de datos como SQLServer y MongoDB. Desde pequeño me sentí atraído por la tecnología, por lo que me decidí a estudiar la carrera, además disfruto de jugar videojuegos con amigos en mi tiempo libre. |
+|![alt text](assets/fotos/jhonfoto.jpg) | Jhon Alexander Galvez Chambi | U202323270  |Soy una persona responsable y comprometida con la consecución de los mejores resultados en trabajo en equipo. Poseo experiencia en diversos lenguajes de programación, incluyendo Python, JavaScript y C++, así como en varios de los frameworks asociados a estos lenguajes. Además, tengo conocimientos en tecnologías emergentes como Cloud Computing e Internet de las Cosas (IoT), y estoy dispuesto a aportar mi experiencia en estas áreas para contribuir al éxito de los proyectos en los que participo. |
+|![alt text](assets/fotos/fabriziofoto.jpg) | Fabrizio Alberto Paredes Santos | U202310914  |Profesional en formación con experiencia en desarrollo de aplicaciones web y móviles utilizando stacks modernos como Vue.js y .NET, Angular y Spring Boot, además de desarrollo móvil con Flutter y Kotlin. También he trabajado en la creación de páginas web con React, Next.js y Tailwind CSS, enfocadas en rendimiento y experiencia de usuario. Me caracterizo por ser proactivo, responsable y orientado a resultados, con capacidad para adaptarme a entornos dinámicos y contribuir eficazmente en equipos de desarrollo. |
+|![alt text](assets/fotos/Ramiro.png) | Ramiro Alexander Guzmán Chávez | U202217062  |Mi perfil se basa en ser una persona responsable, disciplinada en todo aspecto y comprometida con las actividades que me puedan tocar. Considero que tengo una experiencia altamente capacitada para este tipo de tareas. Suelo desarrollarme de manera positiva en los trabajos grupales y tengo conocimientos en bases de datos, lo cual puede aportar de manera importante al equipo. Además, cuento con conocimientos en lenguajes de programación como Java y JavaScript, lo que me permite desarrollar soluciones tanto del lado del backend como del frontend, contribuyendo a proyectos de desarrollo de software de manera integral. |
 
 
 ### 1.2. Solution Profile
@@ -411,11 +404,50 @@ El sector salud en el Perú viene experimentando un proceso de digitalización p
 
 ### 2.1. Competidores.
 
+# Competitive analysis landscape
+
+**¿Cuál es el análisis de las ventajas y desventajas de las empresas que compiten con nosotros? ¿Cómo nos comparamos en términos de fortalezas y debilidades respecto a ellos? ¿Se vislumbran oportunidades para destacarnos de la competencia y de qué manera podríamos sacar provecho de ellas?**  
+_El propósito de este análisis competitivo es evaluar las ventajas y desventajas de la startup y nuestro producto en comparación con los competidores, con el fin de crear estrategias y diseños que nos permitan competir de manera efectiva en el mercado.
+
+
 #### 2.1.1. Análisis competitivo.
+
+|                           |  |  |  |  |
+|---------------------------|------------|--------------|--------------|--------------|
+| **Perfil**                |    JF Technologies        |     Fitia         |   MyFitnessPal           |       Nutrium       |
+| Overview                  |  Startup tecnológica que automatiza el monitoreo nutricional mediante IA y modelos de datos, reduciendo la carga operativa para usuarios y profesionales de la salud.        | App peruana de nutrición líder en LATAM. Utiliza algoritmos para crear planes de alimentación personalizados y facilitar el conteo de calorías.          | La plataforma global más grande de registro de alimentos y ejercicio, basada en una base de datos masiva de productos. |    Software de nutrición centrado en el profesional, que conecta a nutricionistas con pacientes para seguimiento clínico.       |
+| Ventaja competitiva <br> ¿Qué valor ofrece a los clientes? | **Automatización del registro:** Enfoque en reducir la fricción manual mediante tecnologías emergentes (IA/Visión), mejorando la fidelidad de los datos. | **Localización extrema:** Base de datos de productos peruanos/LATAM y recetas locales altamente optimizadas. | **Efecto de red:** Base de datos de alimentos alimentada por usuarios más grande del mundo y comunidad global.  | **Gestión clínica:** Herramientas de análisis antropométrico y planes de alimentación médicos de alta precisión.  |
+| **Perfil de Marketing**   |            |              |              |              |
+| Mercado objetivo          | - Usuarios urbanos en Perú (18-35 años) pro-tecnología. <br> - Nutricionistas que buscan datos precisos y automáticos.     |  Personas en LATAM que buscan bajar de peso o ganar masa muscular de forma autónoma.         |  Usuarios globales enfocados en el conteo de calorías y control de peso general.        | Clínicas de nutrición, consultorios privados y sus pacientes que requieren dieta estricta. |
+| Estrategias de marketing  |   - Alianzas con centros de salud y gimnasios. <br> - Marketing de contenido sobre "bienestar sin esfuerzo" y eficiencia.        |   - Fuerte presencia en redes sociales (TikTok/IG) con influencers fitness. <br> - Modelo Freemium agresivo.        |   - SEO global masivo. <br> - Integración nativa con dispositivos wearables (Apple Health, Garmin, etc.).      |    - Marketing B2B dirigido a congresos de nutrición y salud. <br> - Certificaciones profesionales.         |
+| **Perfil de Producto**    |            |              |              |              |
+| Productos & Servicios     | Registro automático de ingesta, dashboard para profesionales, alertas de hábitos, integración de datos biométricos.          |   Planes de comidas, lista de compras, contador de macros, seguimiento de peso.          |    Diario de alimentos, contador de pasos, comunidad, planes de entrenamiento premium.         |  Software de gestión de consultas, app para el paciente con chat directo y recordatorios de comidas.          |
+| Precios & Costos          |  - Plan Usuario: Freemium / Premium (estimado S/. 45/mes). <br> - Plan Pro: Suscripción por volumen de pacientes.       |  - Gratuito con anuncios. <br> - Premium: aprox. S/. 20 - S/. 30 al mes.            | - Gratuito limitado. <br> - Premium: USD 19.99/mes (aprox. S/. 75).            |   Planes para profesionales desde USD 30/mes hasta USD 100/mes según el número de pacientes.      |
+| Canales de distribución <br> (Web y/o Móvil) | App móvil (iOS/Android) y Dashboard Web para profesionales de la salud. | Principalmente App Móvil (iOS/Android). | App Móvil, Web y dispositivos integrados (Smartwatches). | Plataforma Web para el profesional y App Móvil para el paciente. |
+| **Análisis SWOT**         |            |              |              |              |
+| Fortalezas                | - Soluciona la fricción del registro manual. <br> - Enfoque dual (B2C y B2B). <br> - Datos de alta confiabilidad.       | - Producto local nacido en Perú. <br> - UX/UI muy intuitiva y motivadora. <br> - Gran penetración en el mercado hispano.       |  - Reconocimiento de marca mundial. <br> - Base de datos imbatible (más de 14 millones de alimentos).      | - Alta fidelidad clínica. <br> - Mejora la retención de pacientes para el profesional.        |
+| Debilidades               | - Costo tecnológico de implementar automatización (IA). <br> - Marca aún no posicionada frente a gigantes.       |  - Depende todavía de mucho registro manual por parte del usuario. <br> - Enfoque limitado al fitness, menos clínico.      | - Interfaz saturada de anuncios en versión gratuita. <br> - Muchos datos de alimentos son erróneos (cargados por usuarios).       | - Curva de aprendizaje alta para el profesional. <br> - Menos enfoque en la "experiencia diaria" del usuario común.        |
+| Oportunidades             |  - Integración con Vision AI para reconocimiento de platos mediante fotos. <br> - Alianzas con seguros de salud (EPS).      |  - Expansión a mercados fuera de habla hispana. <br> - Incorporación de venta de suplementos.      |   - Uso de IA generativa para coaching nutricional personalizado.     |  - Telemedicina integrada y monitoreo de biomarcadores en tiempo real.       |
+| Amenazas                  |   - Fitia dominando el mercado local antes de que JF escale. <br> - Resistencia al cambio de profesionales tradicionales.     |   - Apps globales mejorando su base de datos local <br> - Competidores con mayor automatización (como JF).     | - Regulación de privacidad de datos de salud cada vez más estricta. <br> - Fatiga del usuario por registro manual.       |  - Aplicaciones gratuitas que empiezan a incluir herramientas para profesionales.     |
+
 
 #### 2.1.2. Estrategias y tácticas frente a competidores.
 
+#### Para que JF Technologies se posicione con éxito frente a gigantes establecidos como Fitia o MyFitnessPal, la estrategia no debe ser "hacer lo mismo pero mejor", sino atacar los puntos donde ellos son lentos o burocráticos.
+
+#### Mientras MyFitnessPal y Fitia obligan al usuario a buscar y anotar cada gramo, JF automatiza el proceso. Tu fortaleza es el tiempo ahorrado del usuario.
+
+
+#### Respecto a las debilidades,  MyFitnessPal tiene 15 años de datos. JF empieza de cero. La debilidad es la precisión inicial de la base de datos de alimentos comparada con los catálogos globales.
+
+#### Ahora, las oportunidades que presenta nuestro producto, si bien Nutrium es bueno para el nutricionista es aburrido para un usuario; Fitia es bueno para el usuario pero ignorado por el médico. JF puede ser el puente de datos en tiempo real.
+
+#### Finalmente factores que representan amenazas, si Fitia implementa una función de "foto-reconocimiento" mañana, la ventaja tecnológica de JF se reduce. La amenaza es la velocidad de copia de los incumbentes con más capital.
+
+
 ### 2.2. Entrevistas.
+
+La sección abarca el proceso de investigación de nuestros segmentos objetivos mediante la recolección de información en base a entrevistas.
 
 #### 2.2.1. Diseño de entrevistas.
 
@@ -440,10 +472,164 @@ El sector salud en el Perú viene experimentando un proceso de digitalización p
 ## Capítulo III: Requirements Specification
 
 ### 3.1. User Stories.
+En esta sección se detallan todas las **User Stories** identificadas para la aplicación JameoFit. Incluyen:  
+
+- Funcionalidades básicas de la app  
+- Integración con dispositivos IoT: bebedor inteligente y báscula inteligente  
+- IA tipo coach nutricional para recomendaciones guiadas  
+
+Cada historia está estructurada para facilitar desarrollo ágil y validación iterativa.
+
+---
+
+| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+|-----------------|--------|-------------|------------------------|---------------------------|
+| US-01 | Registro de Usuario | Como visitante, quiero registrarme en la aplicación para empezar a gestionar mis necesidades alimenticias. | Escenario 01: Dado que soy un nuevo usuario, al completar registro, la app muestra sugerencias iniciales. <br> Escenario 02: Dado que completé datos después, la app actualiza las sugerencias automáticamente. | EP-01 |
+| US-02 | Recuperación de Contraseña | Como usuario, quiero recuperar mi contraseña en caso de olvidarla. | Escenario 01: La app envía correo con instrucciones. <br> Escenario 02: Permite reenviar correo si no se recibió. | EP-01 |
+| US-03 | Personalización de Perfil | Como usuario registrado, quiero completar y editar mis preferencias alimenticias. | Escenario 01: Al ingresar alergias o restricciones, se excluyen alimentos del plan. <br> Escenario 02: Al cambiar objetivo de salud, se ajusta plan automáticamente. | EP-01 |
+| US-04 | Plan Alimenticio Personalizado | Como usuario, quiero recibir un plan alimenticio personalizado. | Escenario 01: Genera plan adaptado al perfil del usuario. <br> Escenario 02: Al cambiar nivel de actividad, se genera nueva propuesta. | EP-02 |
+| US-05 | Edición de Plan Alimenticio | Como usuario, quiero modificar o sustituir comidas del plan. | Escenario 01: Sustituir comida no deseada con alternativas saludables. <br> Escenario 02: Actualizar plan tras registrar nuevas restricciones. | EP-02 |
+| US-06 | Registro Diario de Alimentos | Como usuario, quiero registrar lo que como diariamente. | Escenario 01: Guardar y analizar los registros diarios. <br> Escenario 02: Permitir editar registros pasados. | EP-03 |
+| US-07 | Recordatorios de Comidas | Como usuario, quiero recibir recordatorios de registro de comidas. | Escenario 01: Notificaciones según horarios seleccionados. <br> Escenario 02: Advertencias por registros faltantes. | EP-03 |
+| US-08 | Visualización del Progreso | Como usuario, quiero visualizar mi progreso nutricional. | Escenario 01: Mostrar estadísticas y tendencias. <br> Escenario 02: Indicar días sin registro. | EP-03 |
+| US-09 | Feedback Diario | Como usuario, quiero recibir comentarios diarios sobre alimentación. | Escenario 01: Mostrar resumen nutricional al final del día. <br> Escenario 02: Recomendar ajustes si se supera meta calórica. | EP-03 |
+| US-10 | Registro de Logros | Como usuario, quiero ver mis avances y logros. | Escenario 01: Mostrar insignias al cumplir objetivos. <br> Escenario 02: Resaltar progresos mensuales con mensajes motivacionales. | EP-04 |
+| US-11 | Alertas de Objetivos no Alcanzados | Como usuario, quiero recibir alertas de metas no cumplidas. | Escenario 01: Sincronización con dispositivos IoT. <br> Escenario 02: Al desvincular IoT, dejar de recibir datos. | EP-03 |
+| US-12 | Panel de Pacientes | Como nutricionista, quiero ver panel con estado de pacientes. | Escenario 01: Mostrar progreso incluyendo datos de IoT. <br> Escenario 02: Generar alertas ante cambios significativos. | EP-05 |
+| US-13 | Envío de Sugerencias | Como nutricionista, quiero enviar recomendaciones a usuarios. | Escenario 01: Enviar mensajes en tiempo real. <br> Escenario 02: Dejar mensaje si usuario no está disponible. | EP-05 |
+| US-14 | Personalización de Metas | Como usuario, quiero definir metas específicas. | Escenario 01: Confirmar ajustes de metas. <br> Escenario 02: Notificar cancelaciones y actualizar plan. | EP-02 |
+| US-15 | Visualización de Logros | Como usuario, quiero ver mis logros completados. | Escenario 01: Registrar nuevas metas y progreso. <br> Escenario 02: Felicitaciones al alcanzar objetivos. | EP-04 |
+| US-16 | Notificaciones de Actividad | Como usuario, quiero recibir notificaciones sobre novedades de la app y dispositivos IoT. | Escenario 01: Importar datos relevantes de IoT. <br> Escenario 02: Revocar acceso elimina datos sincronizados. | EP-05 |
+| US-17 | Soporte en Tiempo Real | Como usuario, quiero chatear con soporte técnico. | Escenario 01: Mostrar advertencias de exceso calórico/metas no cumplidas. <br> Escenario 02: Recomendar ajustes basados en datos de IoT. | EP-05 |
+| US-18 | Conocer la propuesta de valor | Como visitante, quiero entender cómo me beneficia la app. | Escenario 01: Mostrar resumen de estadísticas y sugerencias al abrir la app. | EP-06 |
+| US-19 | Acceder al registro o inicio de sesión | Como visitante, quiero iniciar sesión o registrarme desde la barra superior. | Escenario 01: Aplicar cambios de configuración inmediatamente. | EP-06 |
+| US-20 | Navegar entre secciones desde la barra | Como visitante, quiero usar la barra superior para explorar secciones. | Escenario 01: Mensajes y publicaciones visibles en secciones correspondientes. | EP-06 |
+| US-21 | Ver resumen de beneficios | Como visitante, quiero ver los beneficios que ofrece la app. | Escenario 01: Mostrar opciones de contacto y ayuda. | EP-06 |
+| US-22 | Navegar por los beneficios principales | Como visitante, quiero navegar por la sección de beneficios. | Escenario 01: Mostrar detalles de planes, beneficios y suscripciones. | EP-06 |
+| US-23 | Visualizar testimonios | Como visitante, quiero leer testimonios de usuarios. | Escenario 01: Mostrar testimonios verificados. | EP-06 |
+| US-24 | Navegar desde el footer | Como visitante, quiero que enlaces del footer funcionen correctamente. | Escenario 01: Mostrar información y transacciones correctamente. | EP-06 |
+| US-25 | Acceder desde distintos dispositivos | Como visitante, quiero que la landing page funcione en cualquier dispositivo. | Escenario 01: Datos sensibles guardados cifrados. <br> Escenario 02: Mostrar términos de privacidad actualizados. | EP-06 |
+| US-26 | Ver recetas preestablecidas | Como usuario, quiero ver recetas ya creadas para guardar las que me interesen. | Escenario 01: Sesión cierra por inactividad automáticamente. <br> Escenario 02: Solicita inicio de sesión para funciones protegidas. | EP-07 |
+| US-27 | Hacer tracking del plan | Como usuario, quiero saber si la app sigue mi plan. | Escenario 01: Datos locales offline disponibles. <br> Escenario 02: Sincronización automática al reconectar. | EP-07 |
+| US-28 | Ver recomendaciones | Como usuario, quiero que la app muestre recomendaciones durante el día. | Escenario 01: Encuesta semanal permite calificar experiencia. | EP-07 |
+| US-29 | Registro de Nutricionista | Como nutricionista, quiero registrarme con credenciales profesionales. | Escenario 01: Registro completo y seguro. | EP-08 |
+| US-30 | Perfil Detallado de Nutricionista | Como nutricionista, quiero gestionar mi perfil profesional detallado. | Escenario 01: Visualizar y actualizar información profesional. | EP-08 |
+| US-31 | Publicación de Consejos de Nutrición | Como nutricionista, quiero publicar artículos y consejos. | Escenario 01: Publicación visible para usuarios. | EP-09 |
+| US-32 | Gestión de Contenido Educativo | Como nutricionista, quiero organizar artículos por categorías y temáticas. | Escenario 01: Sincronización entre dispositivos y preservación de progreso. | EP-09 |
+| US-33 | Chat Directo con Usuarios | Como nutricionista, quiero chatear con usuarios. | Escenario 01: Mostrar solo recetas compatibles con preferencias. <br> Escenario 02: Actualizar sugerencias automáticamente. | EP-10 |
+| US-34 | Gestión de Consultas | Como nutricionista, quiero organizar consultas y conversaciones. | Escenario 01: Configurar recordatorios de agua/consumo IoT para pacientes. | EP-10 |
+| US-35 | Configuración de Suscripciones | Como nutricionista, quiero configurar suscripciones a mi contenido. | Escenario 01: Calcular métricas automáticamente según registros IoT. | EP-11 |
+| US-36 | Panel de Suscriptores | Como nutricionista, quiero ver un panel de mis suscriptores. | Escenario 01: Compartir o guardar logros de suscriptores. | EP-11 |
+| US-37 | Notificaciones de Actividad Profesional | Como nutricionista, quiero recibir notificaciones sobre actividad en mi perfil. | Escenario 01: Mantener idioma configurado tras reinicio. | EP-08 |
+| US-38 | Herramientas de Seguimiento de Pacientes | Como nutricionista, quiero herramientas para monitorear progreso de usuarios, incluyendo IoT. | Escenario 01: Mostrar historial mensual, semanal y datos de IoT. | EP-10 |
+| US-39 | Biblioteca de Recursos Profesionales | Como nutricionista, quiero acceder a recursos científicos actualizados. | Escenario 01: Mostrar artículos relacionados y contenido complementario. | EP-09 |
+| US-40 | Estadísticas y Analytics | Como nutricionista, quiero ver estadísticas detalladas de mi actividad en la plataforma. | Escenario 01: Sugerir metas progresivas según registros IoT y metas. | EP-11 |
+| US-41 | Registro de Hidratación por Bebedor Inteligente | Como usuario, quiero que el bebedor inteligente registre mi consumo de agua automáticamente. | Escenario 01: Sincronización automática con la app al beber agua. <br> Escenario 02: Mostrar alertas si consumo bajo o sobrepasa meta. | EP-12 |
+| US-42 | Registro de Peso por Balanza Inteligente | Como usuario, quiero que la balanza inteligente sincronice mi peso automáticamente. | Escenario 01: Sincronización automática al pesarse. <br> Escenario 02: Mostrar evolución semanal y mensual. | EP-12 |
+| US-43 | Recomendaciones automáticas de alimentación (IA) | Como usuario, quiero recibir recomendaciones automáticas basadas en mis registros diarios. | Escenario 01: La IA analiza historial y sugiere ajustes diarios. <br> Escenario 02: Las sugerencias se muestran resumidas. | EP-12 |
+| US-44 | Interacción con coach virtual | Como usuario, quiero interactuar con un coach virtual para obtener sugerencias guiadas. | Escenario 01: Responde solo dentro de opciones predefinidas. <br> Escenario 02: Máximo 1–2 interacciones/día. | EP-12 |
+| US-45 | Entrenamiento supervisado por nutricionista | Como nutricionista, quiero entrenar la IA con ejemplos de mis pacientes. | Escenario 01: IA ajusta recomendaciones con datasets supervisados. <br> Escenario 02: Aplicación incremental y controlada de mejoras. | EP-12 |
+| US-46 | Limitar interacción IA | Como usuario, quiero que la IA me envíe solo sugerencias resumidas y limitadas. | Escenario 01: Prioriza recomendaciones importantes. <br> Escenario 02: Máximo 1–2 alertas/día. | EP-12 |
+
+---
+
+## Épicas
+
+- **EP-01: Registro y Gestión de Cuenta** – US-01 a US-03  
+- **EP-02: Personalización y Generación de Planes** – US-04, US-05, US-14  
+- **EP-03: Registro y Seguimiento** – US-06, US-07, US-08, US-09, US-11  
+- **EP-04: Comunidad y Motivación** – US-10, US-15  
+- **EP-05: Soporte y Experiencia del Usuario** – US-12, US-13, US-16, US-17  
+- **EP-06: Landing Page** – US-18 a US-25  
+- **EP-07: Visualización Detallada** – US-26 a US-28  
+- **EP-08: Registro y Gestión Profesional** – US-29, US-30, US-37  
+- **EP-09: Creación y Gestión de Contenido Educativo** – US-31, US-32, US-39  
+- **EP-10: Comunicación y Seguimiento de Usuarios** – US-33, US-34, US-38  
+- **EP-11: Monetización y Analytics** – US-35, US-36, US-40  
+- **EP-12: IA Coach Nutricional e IoT Integrado** – US-41 a US-46
 
 ### 3.2. Impact Mapping.
+El **Impact Map** es una herramienta visual que permite relacionar los objetivos de negocio con las personas involucradas, los impactos esperados, los entregables y las historias de usuario asociadas.  
+Su objetivo es **visualizar de manera clara y estructurada cómo cada acción contribuye a los objetivos de la plataforma**, facilitando la planificación de funcionalidades y la alineación del equipo.
+
+A continuación se presenta el Impact Map de **JameoFit**:
+
+![Impact Map Plataforma de Gestión Personalizada](assets/impact_map.png)
 
 ### 3.3. Product Backlog.
+
+El **Product Backlog** es la lista priorizada de todas las funcionalidades, mejoras, correcciones y características previstas para la aplicación **JameoFit**, incluyendo integración con dispositivos IoT (bebedor y báscula inteligentes) y el módulo de IA tipo coach nutricional.  
+
+Este backlog permite al equipo de desarrollo:  
+
+- Tener claridad sobre **qué funcionalidades se deben implementar** y en qué orden.  
+- **Planificar sprints ágiles**, asignando tareas según prioridad y complejidad.  
+- Mantener un registro del **estado de cada User Story** (Por Hacer, En Progreso, Hecho).  
+
+**Columnas del Product Backlog:**
+
+- **#Orden:** Número secuencial para organización de las historias.  
+- **User Story ID:** Identificador único de la historia de usuario.  
+- **Título:** Nombre resumido de la funcionalidad.  
+- **Descripción:** Detalle de la necesidad desde la perspectiva del usuario o profesional de salud.  
+- **Story Points:** Estimación de complejidad o esfuerzo requerido (1,2,3,5,8).  
+- **Prioridad:** Alta / Media / Baja, para guiar la planificación de sprints.  
+- **Estado:** Indica si la historia está *Por Hacer*, *En Progreso* o *Hecho*.  
+
+A continuación se presenta el backlog completo con todas las User Stories definidas hasta el momento:
+
+| #Orden | User Story ID | Título | Descripción | Story Points | Prioridad | Estado |
+|--------|---------------|--------|-------------|--------------|-----------|--------|
+| 1 | US-01 | Registro de Usuario | Como visitante, quiero registrarme en la aplicación para empezar a gestionar mis necesidades alimenticias. | 2 | Alta | Por Hacer |
+| 2 | US-02 | Recuperación de Contraseña | Como usuario, quiero recuperar mi contraseña en caso de olvidarla. | 2 | Alta | Por Hacer |
+| 3 | US-03 | Personalización de Perfil | Como usuario registrado, quiero completar y editar mis preferencias alimenticias. | 3 | Alta | Por Hacer |
+| 4 | US-04 | Plan Alimenticio Personalizado | Como usuario, quiero recibir un plan alimenticio personalizado. | 5 | Alta | Por Hacer |
+| 5 | US-05 | Edición de Plan Alimenticio | Como usuario, quiero modificar o sustituir comidas del plan. | 3 | Media | Por Hacer |
+| 6 | US-06 | Registro Diario de Alimentos | Como usuario, quiero registrar lo que como diariamente. | 5 | Alta | Por Hacer |
+| 7 | US-07 | Recordatorios de Comidas | Como usuario, quiero recibir recordatorios para registrar mis comidas. | 3 | Media | Por Hacer |
+| 8 | US-08 | Visualización del Progreso | Como usuario, quiero visualizar mi progreso nutricional. | 5 | Alta | Por Hacer |
+| 9 | US-09 | Feedback Diario | Como usuario, quiero recibir comentarios diarios sobre mi alimentación. | 5 | Alta | Por Hacer |
+| 10 | US-10 | Registro de Logros | Como usuario, quiero ver avances y logros alcanzados. | 3 | Media | Por Hacer |
+| 11 | US-11 | Alertas de Objetivos no Alcanzados | Como usuario, quiero recibir alertas cuando no cumpla objetivos diarios. | 3 | Media | Por Hacer |
+| 12 | US-12 | Panel de Pacientes | Como nutricionista, quiero ver un panel con estado de pacientes. | 5 | Alta | Por Hacer |
+| 13 | US-13 | Envío de Sugerencias | Como nutricionista, quiero enviar recomendaciones a los usuarios. | 3 | Media | Por Hacer |
+| 14 | US-14 | Personalización de Metas | Como usuario, quiero definir metas específicas. | 3 | Media | Por Hacer |
+| 15 | US-15 | Visualización de Logros | Como usuario, quiero ver mis logros completados. | 2 | Media | Por Hacer |
+| 16 | US-16 | Notificaciones de Actividad | Como usuario, quiero recibir notificaciones sobre novedades de la app y dispositivos IoT. | 2 | Media | Por Hacer |
+| 17 | US-17 | Soporte en Tiempo Real | Como usuario, quiero chatear en tiempo real con soporte técnico. | 8 | Alta | Por Hacer |
+| 18 | US-18 | Conocer la propuesta de valor | Como visitante, quiero entender cómo me beneficia la app. | 2 | Baja | Por Hacer |
+| 19 | US-19 | Acceder al registro o inicio de sesión | Como visitante, quiero iniciar sesión o registrarme desde la barra superior. | 3 | Alta | Por Hacer |
+| 20 | US-20 | Navegar entre secciones desde la barra | Como visitante, quiero usar la barra superior para explorar secciones. | 3 | Media | Por Hacer |
+| 21 | US-21 | Ver resumen de beneficios | Como visitante, quiero ver los beneficios que ofrece la app. | 2 | Baja | Por Hacer |
+| 22 | US-22 | Navegar por los beneficios principales | Como visitante, quiero navegar por la sección de beneficios. | 3 | Media | Por Hacer |
+| 23 | US-23 | Visualizar testimonios | Como visitante, quiero leer testimonios de usuarios. | 5 | Media | Por Hacer |
+| 24 | US-24 | Navegar desde el footer | Como visitante, quiero que enlaces del footer funcionen correctamente. | 3 | Baja | Por Hacer |
+| 25 | US-25 | Acceder desde distintos dispositivos | Como visitante, quiero que la landing page funcione en cualquier dispositivo. | 5 | Media | Por Hacer |
+| 26 | US-26 | Ver recetas preestablecidas | Como usuario, quiero ver recetas ya creadas para guardar las que me interesen. | 5 | Media | Por Hacer |
+| 27 | US-27 | Hacer tracking del plan | Como usuario, quiero saber si la app sigue mi plan. | 5 | Alta | Por Hacer |
+| 28 | US-28 | Ver recomendaciones | Como usuario, quiero que la app muestre recomendaciones durante el día. | 5 | Alta | Por Hacer |
+| 29 | US-29 | Registro de Nutricionista | Como nutricionista, quiero registrarme con credenciales profesionales. | 3 | Alta | Por Hacer |
+| 30 | US-30 | Perfil Detallado de Nutricionista | Como nutricionista, quiero gestionar mi perfil profesional detallado. | 3 | Media | Por Hacer |
+| 31 | US-31 | Publicación de Consejos de Nutrición | Como nutricionista, quiero publicar artículos y consejos. | 5 | Media | Por Hacer |
+| 32 | US-32 | Gestión de Contenido Educativo | Como nutricionista, quiero organizar artículos por categorías y temáticas. | 5 | Media | Por Hacer |
+| 33 | US-33 | Chat Directo con Usuarios | Como nutricionista, quiero chatear con usuarios. | 5 | Media | Por Hacer |
+| 34 | US-34 | Gestión de Consultas | Como nutricionista, quiero organizar consultas y conversaciones. | 5 | Media | Por Hacer |
+| 35 | US-35 | Configuración de Suscripciones | Como nutricionista, quiero configurar suscripciones a mi contenido. | 8 | Alta | Por Hacer |
+| 36 | US-36 | Panel de Suscriptores | Como nutricionista, quiero ver un panel de mis suscriptores. | 5 | Media | Por Hacer |
+| 37 | US-37 | Notificaciones de Actividad Profesional | Como nutricionista, quiero recibir notificaciones sobre actividad en mi perfil. | 3 | Media | Por Hacer |
+| 38 | US-38 | Herramientas de Seguimiento de Pacientes | Como nutricionista, quiero herramientas para monitorear progreso de usuarios, incluyendo IoT. | 8 | Alta | Por Hacer |
+| 39 | US-39 | Biblioteca de Recursos Profesionales | Como nutricionista, quiero acceder a recursos científicos actualizados. | 5 | Media | Por Hacer |
+| 40 | US-40 | Estadísticas y Analytics | Como nutricionista, quiero ver estadísticas detalladas de mi actividad en la plataforma. | 5 | Alta | Por Hacer |
+| 41 | US-41 | Registro de Hidratación por Bebedor Inteligente | Como usuario, quiero que el bebedor inteligente registre mi consumo de agua automáticamente. | 5 | Alta | Por Hacer |
+| 42 | US-42 | Registro de Peso por Balanza Inteligente | Como usuario, quiero que la balanza inteligente sincronice mi peso automáticamente. | 5 | Alta | Por Hacer |
+| 43 | US-43 | Recomendaciones automáticas de alimentación (IA) | Como usuario, quiero recibir recomendaciones automáticas basadas en mis registros diarios. | 5 | Alta | Por Hacer |
+| 44 | US-44 | Interacción con coach virtual | Como usuario, quiero interactuar con un coach virtual para obtener sugerencias guiadas. | 5 | Alta | Por Hacer |
+| 45 | US-45 | Entrenamiento supervisado por nutricionista | Como nutricionista, quiero entrenar la IA con ejemplos de mis pacientes. | 5 | Alta | Por Hacer |
+| 46 | US-46 | Limitar interacción IA | Como usuario, quiero que la IA me envíe solo sugerencias resumidas y limitadas. | 3 | Alta | Por Hacer |
+
+A continuación se proporciona el link del Trello donde se puede visualizar de mejor forma el Product Backlog:
+
+[Product Backlog en Trello](https://trello.com/invite/b/69e066b886a5da9121cc7c78/ATTI01bec2006d16cd472b53e993911124889AFC839B/product-backlog-jameofit-iot)
 
 ## Capítulo IV: Solution Software Design
 
@@ -478,6 +664,8 @@ natural de los procesos y cómo se relacionan entre sí.
 
 ---
 
+1. Bounded Context: Inicio y Registro de Sesión 
+
 Este flujo de eventos permite a los usuarios registrarse completando un formulario con sus
 datos personales y preferencias nutricionales, o iniciar sesión si ya tienen cuenta. También
 contempla el manejo de intentos fallidos de inicio de sesión y ofrece una opción para
@@ -486,6 +674,8 @@ recuperar el acceso mediante el envío de un correo si la cuenta no existe.
 ![alt text](assets/TB1/T1.png)
 
 ---
+
+2. Bounded Context: Perfil de Usuario
 
 Este flujo de eventos permite al usuario visualizar toda su información personal y, si lo desea,
 habilitar la edición de datos sensibles como correo y contraseña. Para ello, primero debe
@@ -496,6 +686,8 @@ un mensaje de confirmación que asegura que la actualización fue exitosa y segu
 
 ---
 
+3. Bounded Context: Gestión de Objetivos
+
 Este flujo de eventos está diseñado para permitir al usuario establecer y actualizar sus
 objetivos de salud. El usuario puede acceder a opciones para modificar su objetivo, peso,
 calorías, macros y tipo de dieta mediante menús desplegables. Estas acciones generan
@@ -505,16 +697,10 @@ de retroalimentación claro.
 
 ![alt text](assets/TB1/T3.png)
 
----
-
-Este flujo de eventos está diseñado para permitir al usuario interactuar de manera fluida con
-su alimentación: puede modificar la cantidad de comidas, lo que genera un mensaje de
-confirmación, así como acceder a sugerencias saludables y ver un listado de alimentos para
-actualizar sus preferencias
-
-![alt text](assets/TB1/T4.png)
 
 ---
+
+4. Bounded Context: Rutina Alimentaria
 
 Este flujo de eventos describe cómo el sistema gestiona la rutina alimentaria del usuario de manera completamente automática mediante dispositivos IoT, como la balanza y el bebedero inteligente. A partir de la captura de datos en tiempo real, el sistema registra el peso del alimento consumido y detecta automáticamente el tipo de alimento.
 
@@ -527,14 +713,15 @@ Finalmente, el usuario puede visualizar su rutina alimentaria actualizada junto 
 
 ---
 
-Este flujo representa una secuencia lógica y centrada en el nutricionista, para la gestión de su
-perfil profesional, con énfasis en la edición de sus datos profesionales y la interacción con
-mensajes de confirmación.
+5. Bounded Context: IA Nutricional
 
+Este flujo de eventos detalla el proceso de análisis inteligente de datos, donde la información nutricional cargada por el especialista es procesada por una IA para generar resúmenes automáticos y visualizaciones enriquecidas mediante gráficos avanzados. El sistema facilita la comunicación directa al enviar reportes detallados al paciente y mantener un historial de análisis actualizado, cerrando el ciclo con un reentrenamiento continuo del modelo basado en la nueva información recopilada para optimizar la precisión de futuras evaluaciones.
 
-![alt text](assets/TB1/T6.png)
+![alt text](assets/TB1/S2.png)
 
 ---
+
+6. Bounded Context: Gestión de Planes Alimenticios 
 
 Este flujo de eventos está diseñado para guiar al profesional de nutrición en la creación,
 categorización, asignación y publicación de planes alimenticios, de manera ordenada y
@@ -545,32 +732,55 @@ eficiente.
 
 ---
 
-Este flujo de eventos describe cómo el nutricionista puede gestionar y dar seguimiento a sus pacientes, accediendo a información relevante como la lista de usuarios asignados, el perfil de cada paciente y sus métricas de progreso nutricional. Además, el sistema permite la incorporación de nuevos pacientes mediante el envío y aceptación de solicitudes, facilitando una gestión organizada y una comunicación directa.
+7. Bounded Context: Comunicación y Seguimiento
 
-De manera complementaria, el flujo integra un sistema de monitoreo inteligente que analiza en tiempo real la información nutricional del paciente, generando actualizaciones del progreso, niveles de hidratación y alertas automáticas ante situaciones como exceso o déficit calórico o bajo consumo de agua. Estas evaluaciones permiten enviar notificaciones y recordatorios automáticos al usuario, fortaleciendo el seguimiento continuo y personalizado de su estado de salud.
+Este flujo de eventos está diseñado para facilitar al nutricionista la visualización, incorporación y seguimiento de pacientes, asegurando una experiencia clara, ordenada y centrada en la interacción profesional. Cada paso permite mantener una comunicación efectiva y un control preciso del progreso nutricional.
 
+![alt text](assets/TB1/T12.png)
 
-![alt text](assets/TB1/T8.jpg)
+---
 
+8. Bounded Context: Pagos
+
+Este flujo de eventos describe el proceso integral de gestión de suscripciones y pagos, permitiendo a los usuarios seleccionar planes, procesar transacciones de manera segura y recibir confirmaciones automáticas sobre la activación o renovación de su servicio. El sistema integra un control detallado de estados que abarca desde la validación exitosa del pago hasta la gestión de errores y solicitudes de cancelación, garantizando que el usuario mantenga siempre visibilidad sobre su historial financiero y el estado actual de su membresía dentro de la plataforma.
+
+![alt text](assets/TB1/S1.png)
 
 
 #### **Pivotal Points**
 
+1
+
 ![alt text](assets/TB1/P1.png)
+
+2
 
 ![alt text](assets/TB1/P2.png)
 
+3
+
 ![alt text](assets/TB1/P3.png)
 
-![alt text](assets/TB1/P4.png)
+4
 
 ![alt text](assets/TB1/P5.jpg)
 
+5
+
+![alt text](assets/TB1/I2.png)
+
+6
+
 ![alt text](assets/TB1/P6.png)
 
-![alt text](assets/TB1/P7.png)
 
-![alt text](assets/TB1/P8.jpg)
+7
+
+![alt text](assets/TB1/IA.png)
+
+8
+
+![alt text](assets/TB1/I1.png)
 
 
 #### **Commands**
@@ -582,6 +792,7 @@ definidos previamente. A continuación, se presentan los comandos relevantes par
 dominio.
 
 ---
+1. Bounded Context: Inicio y Registro de Sesión
 
 El diagrama muestra un sistema que guía al usuario en tres procesos: registro de cuenta con
 definición de objetivos nutricionales, inicio de sesión con verificación de credenciales y
@@ -592,6 +803,8 @@ correo para restablecerla.
 
 ---
 
+2. Bounded Context: Perfil de Usuario
+
 El diagrama muestra el flujo donde el usuario, al acceder a su ícono, puede editar su perfil
 —visualizando y modificando correo y contraseña con confirmación de cambios— o cerrar
 sesión, siendo redirigido al menú de inicio de sesión.
@@ -599,6 +812,8 @@ sesión, siendo redirigido al menú de inicio de sesión.
 ![alt text](assets/TB1/C2.png)
 
 ---
+
+3. Bounded Context: Gestión de Objetivos 
 
 El diagrama muestra cómo el usuario, desde su menú de objetivos, puede configurar su peso
 y calorías o ajustar su tipo de dieta y macros, recibiendo en ambos casos una confirmación al
@@ -609,13 +824,7 @@ guardar los cambios.
 
 ---
 
-El diagrama muestra cómo el usuario, desde su plan de comidas, puede modificar el número
-de comidas, ver sugerencias saludables o ajustar sus preferencias de alimentos, recibiendo
-confirmación al guardar los cambios.
-
-![alt text](assets/TB1/CO4.png)
-
----
+4. Bounded Context: Rutina Alimentaria 
 
 El diagrama muestra cómo el sistema registra automáticamente los alimentos consumidos por el usuario mediante la interacción con un dispositivo IoT, el cual captura datos como el peso del alimento y los envía para su procesamiento. A partir de esta información, el sistema identifica el tipo de alimento y genera eventos como alimento detectado y peso registrado.
 
@@ -626,14 +835,16 @@ El flujo contempla el cálculo automático de la información nutricional, inclu
 
 ---
 
-El diagrama muestra cómo el nutricionista puede monitorear el estado nutricional de sus pacientes, accediendo a información clave como métricas, progreso y alertas generadas automáticamente por el sistema. Este proceso es apoyado por un análisis inteligente que evalúa datos como calorías, macronutrientes y nivel de hidratación en tiempo real.
+5. Bounded Context: IA Nutricional 
 
-El flujo contempla la visualización continua del progreso nutricional, permitiendo identificar situaciones como exceso o déficit calórico, así como cambios en el nivel de hidratación. Tanto el nutricionista como el usuario reciben notificaciones y actualizaciones que facilitan un seguimiento constante y personalizado del estado de salud del paciente.
+Este diagrama de flujo detalla el proceso mediante el cual un nutricionista gestiona el análisis de datos de sus pacientes, comenzando con la selección del usuario y la carga de su archivo nutricional para ser procesado por una IA especializada. El sistema guía al profesional a través de la solicitud de análisis y visualización de resultados, permitiendo generar resúmenes automáticos y gráficos enriquecidos que facilitan la interpretación de las métricas. Finalmente, el flujo concluye con el envío del reporte nutricional directamente al paciente y la actualización automática del historial de análisis, asegurando un seguimiento clínico organizado, eficiente y basado en datos precisos.
 
+![alt text](assets/TB1/H2.png)
 
-![alt text](assets/TB1/CO6.jpg)
 
 ---
+
+6. Bounded Context: Gestión de Planes Alimenticios 
 
 El diagrama muestra cómo el nutricionista, desde su panel de gestión, puede crear nuevos
 planes alimenticios, organizarlos por categorías, asignarlos a usuarios y publicarlos, todo
@@ -646,13 +857,19 @@ aseguran una experiencia profesional eficiente.
 
 ---
 
-![alt text](assets/TB1/CO8.png)
+7. Bounded Context: Comunicación y Seguimiento
 
-El diagrama muestra cómo el nutricionista puede gestionar su perfil profesional, accediendo a
-su información personal, editando datos clave como especialidades y contacto, y actualizando
-su foto de perfil. El flujo contempla acciones de edición, cancelación, cierre de sesión y
-validación de datos, con mensajes de confirmación o error que refuerzan la experiencia de
-uso.
+El diagrama muestra cómo el nutricionista puede gestionar su relación con los pacientes, accediendo a información clave, comunicándose directamente y agregando nuevos usuarios a su lista. El flujo contempla tanto la interacción con pacientes ya asignados como el proceso de incorporación de nuevos, con confirmaciones inmediatas que refuerzan la experiencia profesional.
+
+![alt text](assets/TB1/H1.png)
+
+---
+
+8. Bounded Context: Pagos
+
+Este diagrama detalla el flujo de suscripción y gestión de pagos, el cual comienza cuando el usuario explora los planes disponibles y selecciona un método de pago para iniciar la validación de la transacción. El sistema gestiona de manera lógica dos vertientes: el éxito del pago, que deriva en la activación o renovación de la membresía y el envío de confirmaciones; y el escenario de pago fallido, que ofrece al usuario opciones inmediatas para reintentar la operación o cambiar el método de pago. Finalmente, el proceso asegura la integridad de la cuenta al actualizar el historial de pagos y permitir la gestión del ciclo de vida de la suscripción, incluyendo la solicitud de cancelación cuando sea necesario.
+
+![alt text](assets/TB1/H3.png)
 
 
 #### **Bounded Contexts**
@@ -673,25 +890,26 @@ contexto evolucione de forma desacoplada y con responsabilidades bien definidas.
 
 ![alt text](assets/TB1/BO3.png)
 
-#### **Bounded Context: Preferencias de Alimentación**
-
-![alt text](assets/TB1/BO4.png)
-
 #### **Bounded Context: Rutina Alimentaria**
 
 ![alt text](assets/TB1/BO5.jpg)
 
-#### **Bounded Context: Perfil Nutricionista**
+#### **Bounded Context: IA Nutricional**
 
-![alt text](assets/TB1/BO6.png)
+![alt text](assets/TB1/BC2.png)
 
-#### **Bounded Context: Creación y Gestión de Planes Alimenticios**
+#### **Bounded Context: Gestión de Planes Alimenticios**
 
 ![alt text](assets/TB1/BO7.png)
 
 #### **Bounded Context: Comunicación y Seguimiento**
 
-![alt text](assets/TB1/BO8.jpg)
+![alt text](assets/TB1/O1.png)
+
+#### **Bounded Context: Pagos**
+
+![alt text](assets/TB1/BC1.png)
+
 
 ##### 4.1.1.2 Domain Message Flows Modeling.
 
@@ -723,17 +941,15 @@ Finalmente, se emite el evento Rutina Alimentaria Actualizada, actualizando auto
 
 ![alt text](assets/TB1/D1.jpg)
 
-### **Análisis nutricional y generación de alertas**
+### **Análisis inteligente y seguimiento proactivo**
 
-Este es un escenario donde el sistema analiza la información nutricional del usuario para monitorear su progreso y generar alertas.
+Este es un escenario donde el sistema utiliza inteligencia artificial para procesar la información nutricional del usuario, monitorear su evolución y generar alertas automáticas.
 
-El bounded context Rutina Alimentaria Inteligente envía los datos procesados, como la Información Nutricional Calculada, al bounded context Comunicación y seguimiento.
+El Bounded Context Rutina Alimentaria envía los datos de consumo diario, como las métricas de ingesta y macronutrientes, al Bounded Context IA Nutricional. A partir de esta información, el motor de IA evalúa el progreso del usuario comparándolo con sus metas y genera hechos inmutables como Progreso Nutricional Actualizado, Alerta de Exceso Calórico, Alerta de Déficit Calórico o Nivel de Hidratación Actualizado.
 
-A partir de esta información, el sistema evalúa el progreso del usuario y genera eventos como Progreso Nutricional Actualizado, Alerta de Exceso Calórico, Alerta de Déficit Calórico o Nivel de Hidratación Actualizado.
+Estos eventos son recibidos por el Bounded Context Comunicación y Seguimiento, el cual organiza la información para la supervisión del nutricionista. Finalmente, las alertas y resúmenes son enviados al usuario mediante notificaciones en la App JameoFit, permitiendo un seguimiento continuo, preventivo y altamente personalizado de su estado nutricional.
 
-Finalmente, estas alertas son enviadas al usuario mediante notificaciones, permitiendo un seguimiento continuo y personalizado de su estado nutricional.
-
-![alt text](assets/TB1/D2.jpg)
+![alt text](assets/TB1/A3.png)
 
 ##### 4.1.1.3 Bounded Context Canvases.
 
@@ -883,37 +1099,6 @@ Asume el rol de **Execution Context**, ya que es el encargado de administrar y p
 
 ![alt text](assets/TB1/B3.png)
 
-## **Bounded Context - PREFERENCIAS DE ALIMENTACION**
-
-### **Description**
-Este *bounded context* gestiona las preferencias del usuario relacionadas con su alimentación, tales como la cantidad de comidas diarias y las restricciones de alimentos (alergias o intolerancias). Además, actúa como un motor de recomendaciones al proveer sugerencias saludables basadas en los gustos del usuario.
-
-### **Strategic Classification**
-La clasificación estratégica de este contexto se define bajo los siguientes criterios:
-
-● **Supporting:** Actúa como un dominio de soporte que complementa la lógica principal de los contextos de Objetivos y Rutina.
-● **Engagement:** Incrementa la retención y satisfacción al permitir que la dieta se adapte a los gustos específicos o necesidades médicas del usuario.
-● **Product:** Se considera una funcionalidad madura que evoluciona para refinar y mejorar continuamente la experiencia de personalización.
-
-### **Domain Role**
-Asume el rol de **Execution Context**, ya que es el responsable directo de la gestión, validación y persistencia de las preferencias alimenticias del usuario.
-
-### **Communication Flow**
-
-#### **Inbound Communication**
-● **Usuario:** Actualización de parámetros personales como el número de ingestas deseadas, restricciones específicas y tipos de sugerencias.
-
-#### **Outbound Communication**
-● **PreferenciasActualizadas:** Evento publicado hacia el contexto de **Rutina Alimentaria** para que este pueda recalcular y ajustar el plan diario de comidas según los nuevos filtros.
-
-### **Capability Analysis**
-● **Gestión de estructura diaria:** Definición del número de comidas por jornada.
-● **Control de restricciones:** Administración de listas de alimentos prohibidos o restringidos (ej. gluten, lactosa, mariscos).
-● **Curación de sugerencias:** Motor de recomendaciones de alimentos saludables alineados al perfil.
-● **Personalización de flujo:** Impacto directo en la lógica de generación de la rutina alimentaria para garantizar la adherencia del usuario.
-
-![alt text](assets/TB1/B3.png)
-
 ##  **Bounded Context – Rutina Alimentaria**
 
 ### **Description**
@@ -957,50 +1142,91 @@ Asume el rol de **execution context**, al ejecutar automáticamente el registro 
 
 ![alt text](assets/TB1/C1.jpg)
 
+## **Bounded Context – IA Nutricional**
+
+### **Description**
+Este Bounded Context representa el motor de inteligencia del sistema, especializado en el procesamiento y análisis avanzado de datos nutricionales. Su función principal es transformar archivos y métricas crudas en información estructurada, resúmenes automáticos y visualizaciones analíticas. Además, gestiona el ciclo de vida del modelo de aprendizaje, permitiendo su reentrenamiento para mejorar la precisión de las recomendaciones y diagnósticos preventivos.
+
+### **Strategic Classification**
+Su clasificación estratégica se divide en:  
+● **Core:** Es la ventaja competitiva tecnológica, ya que automatiza el análisis denso que un nutricionista realizaría manualmente.  
+● **Custom Built:** Desarrollado a medida para adaptarse a los algoritmos específicos de nutrición y salud del sistema.
+
+### **Domain Role**
+Asume el rol de **Analysis Context**, al interpretar datos complejos para generar *insights*, y de **Service Context**, al proveer servicios de procesamiento inteligente a otros módulos del ecosistema.
+
+### **Inbound Communication**
+● **Recepción de Archivos:** Obtiene los documentos nutricionales cargados por el profesional para su lectura.  
+● **Solicitud de Análisis:** Comando disparado por el nutricionista para iniciar el procesamiento de la IA.  
+● **Ingesta de Métricas:** Recibe datos de hidratación y consumo calórico para su evaluación en tiempo real.  
+● **Retroalimentación de Datos:** Entrada de nueva información validada para el proceso de reentrenamiento del modelo.
+
+### **Outbound Communication**
+● **ContenidoProcesado:** Evento que indica que la IA ha terminado de extraer la información relevante.  
+● **ResumenGenerado:** Notifica la disponibilidad de una síntesis textual sobre el estado del paciente.  
+● **AnalisisVisualListo:** Envía los datos estructurados necesarios para renderizar gráficos y tablas.  
+● **ModeloActualizado:** Informa que el sistema ha completado un ciclo de reentrenamiento con nuevos datos.
+
+### **Capability Analysis**
+● **Procesamiento de Datos no Estructurados:** Capacidad de extraer información clínica desde diversos formatos de archivos.  
+● **Generación de Insights Automáticos:** Creación de resúmenes diagnósticos basados en patrones detectados.  
+● **Modelado Predictivo:** Identificación de tendencias en el peso o salud del paciente a largo plazo.  
+● **Aprendizaje Continuo (Reentrenamiento):** Mejora constante del algoritmo basada en la acumulación de nuevos casos y datos históricos.  
+● **Soporte Analítico de Decisiones:** Provee la base técnica para que el nutricionista valide sus planes alimenticios.
+
+![alt text](assets/TB1/A2.png)
+
 ##  **Bounded Context – Comunicación y seguimiento**
 
 ### **Description**
 
-Este bounded context permite al nutricionista supervisar el estado nutricional de sus pacientes, analizar métricas en tiempo real, generar alertas automáticas y mantener comunicación directa para un seguimiento continuo y personalizado.
+Bounded Context centralizado en la gestión operativa de la relación médico-paciente. Permite al nutricionista administrar su cartera de clientes, supervisar perfiles individuales y mantener un canal de comunicación directo y organizado. Su objetivo es facilitar el flujo de información administrativa y clínica, asegurando que la incorporación de nuevos pacientes y el seguimiento de los actuales sea fluido y profesional.
 
 ### **Strategic Classification**
 
 Su clasificación estratégica se divide en:  
-● **Core:** Es central porque permite el análisis y control del estado nutricional de los pacientes.  
-● **Engagement:** Fomenta la interacción entre nutricionista y paciente mediante alertas, métricas y comunicación directa.  
-● **Custom Built:** Es evolutivo y se adapta a las necesidades de seguimiento de cada paciente.  
+● **Core:** Es fundamental para la operación del negocio, ya que gestiona el activo más importante: la relación y los datos del paciente.  
+● **Engagement:** Fortalece la retención mediante la comunicación directa y el feedback constante entre el profesional y el usuario.
 
 ### **Domain Role**
 
-Asume el rol de **analysis context**, al procesar métricas y generar alertas, y de **execution context**, al gestionar la comunicación y acciones del nutricionista sobre los pacientes.
+Asume el rol de Management Context, al organizar la jerarquía y asignación de pacientes, y de Communication Context, al servir como el puente de mensajes y solicitudes entre los actores del sistema.
 
 ### **Inbound Communication**
 
-● El nutricionista puede visualizar lista de pacientes.  
-● El nutricionista puede ver perfiles y métricas de pacientes.  
-● El sistema genera métricas nutricionales automáticamente.  
-● El sistema evalúa niveles de hidratación.  
-● El sistema detecta condiciones críticas (exceso, déficit, hidratación).  
-● El nutricionista puede enviar mensajes y solicitudes a pacientes.  
-● El paciente puede aceptar o rechazar solicitudes.  
+● Gestión de Cartera: El nutricionista visualiza y filtra su lista de pacientes asignados.
+
+● Consulta de Expediente: Acceso a perfiles, métricas históricas y datos de contacto.
+
+● Gestión de Solicitudes: Envío de invitaciones para vincular a nuevos pacientes al sistema.
+
+● Interacción Directa: Envío de mensajes, recomendaciones manuales y recordatorios.
+
+● Respuesta del Paciente: Aceptación o rechazo de vinculación al nutricionista.
 
 ### **Outbound Communication**
 
-● ProgresoNutricionalActualizado, NivelHidratacionActualizado → enviados para visualización.  
-● AlertasNutricionales (exceso, déficit, hidratación) → enviadas al sistema de notificaciones.  
-● NotificacionEnviada, RecordatorioHidratacion → enviados al usuario final.  
-● PacienteAgregado → actualizado en el sistema de gestión de usuarios. 
+● PacienteVinculado: Notifica al sistema de gestión que un nuevo usuario ha sido aceptado con éxito.
+
+● MensajeEntregado: Confirma que la comunicación ha llegado al dispositivo del paciente.
+
+● SolicitudDeSeguimientoEnviada: Notifica al sistema de notificaciones para disparar un correo o alerta al cliente.
+
+● PerfilActualizado: Informa sobre cambios realizados en la información base del paciente.
 
 ### **Capability Analysis**
 
-● Monitoreo en tiempo real del progreso nutricional del paciente.  
-● Generación automática de alertas basadas en datos.  
-● Evaluación continua de hidratación y consumo.  
-● Comunicación directa nutricionista–paciente.  
-● Gestión de relaciones entre nutricionistas y pacientes.  
-● Soporte para toma de decisiones basadas en datos.
+● Administración de Pacientes: Control total sobre la lista de usuarios y su estado (activo/inactivo).
 
-![alt text](assets/TB1/c2.jpg)
+● Gestión de Solicitudes de Vinculación: Flujo de trabajo para expandir la base de clientes de forma organizada.
+
+● Centralización de Información Clínica: Visualización consolidada de métricas y perfiles de usuario.
+
+● Comunicación Bidireccional: Canal seguro para el intercambio de información y resolución de dudas.
+
+● Soporte a la Toma de Decisiones: Acceso rápido a la historia del paciente para ajustar el tratamiento de forma manual.
+
+![alt text](assets/TB1/A1.png)
 
 #### 4.1.2. Context Mapping.
 
@@ -1010,53 +1236,40 @@ En el caso de nuestro sistema de **gestión nutricional inteligente**, el Contex
 
 Se identificaron los siguientes *bounded contexts* en el sistema:
 
-### **Bounded Contexts Identificados**
+Aquí tienes la actualización completa de tus **Bounded Contexts** y sus **Relaciones**, ajustada a la lógica actual donde la IA procesa información y la Comunicación se centra en la gestión profesional.
 
-**Inicio y Registro de Sesión (IAM)**
-Gestiona la autenticación, registro de usuarios y recuperación de contraseñas, actuando como punto de entrada al sistema.
+---
 
-**Perfil del Usuario**
-Administra la información personal del usuario y permite la edición de sus datos y cierre de sesión.
+## **Bounded Contexts Identificados**
 
-**Gestión de Objetivos**
-Permite definir metas nutricionales como peso objetivo, calorías y macronutrientes.
+1.  **Inicio y Registro de Sesión (IAM):** Gestiona la autenticación, el registro de diferentes roles (paciente/nutricionista) y la seguridad de acceso a la plataforma.
+2.  **Perfil de Usuario:** Administra la información personal, datos demográficos y la configuración de cuenta de los usuarios.
+3.  **Gestión de Objetivos:** Permite definir metas nutricionales específicas (peso, macronutrientes, calorías) que sirven como base para el análisis.
+4.  **Rutina Alimentaria:** Registra el consumo diario de alimentos y agua, funcionando como la fuente de datos en tiempo real sobre el comportamiento del usuario.
+5.  **IA Nutricional:** Motor de procesamiento que analiza archivos, links y métricas de rutina para generar resúmenes automáticos y visualizaciones enriquecidas.
+6.  **Gestión de Planes Alimenticios:** Permite a los nutricionistas diseñar y asignar estructuras de alimentación personalizadas a sus pacientes.
+7.  **Comunicación y Seguimiento:** Gestiona la relación profesional, permitiendo la vinculación de pacientes, el envío de mensajes y la supervisión del estado clínico.
+8.  **Pagos:** Administra las suscripciones a los planes de la plataforma, procesando transacciones y gestionando el acceso a funciones premium.
 
-**Preferencias de Alimentación**
-Gestiona restricciones alimenticias, alergias, tipo de dieta y número de comidas.
+---
 
-**Rutina Alimentaria Inteligente (IoT)**
-Automatiza el registro de alimentos y cálculo nutricional mediante dispositivos IoT, actualizando la rutina en tiempo real.
+## **Relaciones entre Bounded Contexts**
 
-**Perfil Nutricionista**
-Administra la información profesional del nutricionista, incluyendo especialidades y disponibilidad.
+| Destino (Downstream) | Origen (Upstream) | Tipo de Relación | Comentario |
+| :--- | :--- | :--- | :--- |
+| **Perfil de Usuario** | **Inicio y Registro** | Customer/Supplier | IAM provee la identidad necesaria para crear y gestionar el perfil. |
+| **IA Nutricional** | **Rutina Alimentaria** | Customer/Supplier | La IA consume los logs diarios de consumo para generar análisis de tendencias. |
+| **IA Nutricional** | **Gestión de Objetivos** | Customer/Supplier | Utiliza las metas definidas como referencia para evaluar si el progreso es positivo. |
+| **Comunicación y Seguimiento** | **IA Nutricional** | Customer/Supplier | Recibe los resúmenes e insights generados por la IA para que el nutricionista los valide. |
+| **Comunicación y Seguimiento** | **Perfil de Usuario** | Customer/Supplier | Obtiene los datos básicos de los pacientes para organizar la cartera del nutricionista. |
+| **Gestión de Planes** | **Gestión de Objetivos** | Customer/Supplier | Los planes se diseñan en función de los objetivos nutricionales del paciente. |
+| **Rutina Alimentaria** | **Gestión de Planes** | Customer/Supplier | La rutina diaria del usuario se guía por el plan alimenticio asignado. |
+| **Comunicación y Seguimiento** | **Gestión de Objetivos** | Partnership | Colaboran para ajustar metas manualmente según la evolución del paciente. |
+| **Pagos** | **Inicio y Registro** | Customer/Supplier | El acceso a los servicios de pago depende de una sesión de usuario válida. |
+| **Todos los Contextos** | **Inicio y Registro** | Shared Kernel | La autenticación es un núcleo compartido que garantiza la seguridad en todo el sistema. |
+| **IA Nutricional** | **Fuentes Externas (Links/PDF)** | Anticorruption Layer | La IA usa una capa de traducción para procesar datos externos sin ensuciar el modelo interno. |
 
-**Creación y Gestión de Planes Alimenticios**
-Permite a los nutricionistas diseñar, organizar y asignar planes alimenticios personalizados.
-
-**Comunicación y Seguimiento Nutricional**
-Facilita la interacción entre nutricionista y paciente, además del monitoreo del progreso nutricional.
-
-
-### **Relaciones entre Bounded Contexts**
-
-| **Destino (Downstream)**        | **Origen (Upstream)**           | **Tipo de Relación** | **Comentario**                                                                                               |
-| ------------------------------- | ------------------------------- | -------------------- | ------------------------------------------------------------------------------------------------------------ |
-| Perfil del Usuario              | Inicio y Registro de Sesión     | Customer/Supplier    | El contexto IAM provee los datos de autenticación necesarios para gestionar el perfil del usuario.           |
-| Gestión de Objetivos            | Perfil del Usuario              | Customer/Supplier    | Los datos del perfil alimentan la configuración inicial de objetivos nutricionales.                          |
-| Preferencias de Alimentación    | Perfil del Usuario              | Customer/Supplier    | Las preferencias dependen de la información básica del usuario para personalizar la dieta.                   |
-| Rutina Alimentaria              | Gestión de Objetivos            | Customer/Supplier    | La rutina se ajusta dinámicamente según las metas nutricionales definidas.                                   |
-| Rutina Alimentaria              | Preferencias de Alimentación    | Customer/Supplier    | Se utilizan las restricciones y gustos del usuario para generar una rutina adecuada.                         |
-| Comunicación y Seguimiento      | Rutina Alimentaria              | Customer/Supplier    | El progreso alimentario registrado se utiliza para monitoreo y análisis por parte del nutricionista.         |
-| Comunicación y Seguimiento      | Gestión de Objetivos            | Customer/Supplier    | Las metas nutricionales sirven como referencia para evaluar el progreso del usuario.                         |
-| Creación de Planes Alimenticios | Perfil Nutricionista            | Customer/Supplier    | El nutricionista provee la información necesaria para la creación de planes.                                 |
-| Rutina Alimentaria              | Creación de Planes Alimenticios | Customer/Supplier    | Los planes alimenticios definidos influyen en la rutina diaria del usuario.                                  |
-| Comunicación y Seguimiento      | Creación de Planes Alimenticios | Customer/Supplier    | Permite evaluar la efectividad de los planes asignados a los pacientes.                                      |
-| Gestión de Objetivos            | Comunicación y Seguimiento      | Partnership          | Ambos contextos colaboran para ajustar metas según el progreso del usuario.                                  |
-| Rutina Alimentaria              | Comunicación y Seguimiento      | Partnership          | Existe una relación bidireccional para monitoreo y ajuste continuo.                                          |
-| Todos los Contextos             | Inicio y Registro de Sesión     | Shared Kernel        | La autenticación y gestión de usuarios es compartida por todos los contextos para garantizar acceso seguro.  |
-| Sistemas IoT Externos           | Rutina Alimentaria              | Anticorruption Layer | Se utiliza una capa de anticorrupción para integrar datos de dispositivos IoT sin afectar el modelo interno. |
-
-![alt text](assets/TB1/tb1.png)
+![alt text](assets/TB1/K1.png)
 
 
 #### 4.1.3. Software Architecture.
@@ -1138,57 +1351,252 @@ red, bases de datos, y cómo interactúan entre sí.
 
 #### 4.2.1. Bounded Context: Inicio y Registro de Sesión
 
+Este Bounded Context es el responsable de gestionar la seguridad y el control de acceso de la plataforma. Su propósito es centralizar la lógica de autenticación y autorización, permitiendo el registro de nuevos usuarios, la validación de credenciales para el inicio de sesión y la gestión de roles. Al aislar estas responsabilidades, se garantiza que la identidad de los distintos tipos de usuarios sea gestionada de forma consistente y protegida.
+
 ##### 4.2.1.1. Domain Layer.
+
+En esta capa se define el núcleo del negocio relacionado con la identidad y el acceso. Se utilizan patrones tácticos para encapsular las reglas de validación y la jerarquía de roles, asegurando la integridad de la cuenta del usuario desde su creación.
+
+| Clase               | Tipo         | Propósito                                                                 | Atributos / Métodos Principales                                                                 |
+|--------------------|------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| User               | Aggregate Root   | Representa la identidad del usuario en el sistema, vinculando sus credenciales con sus permisos. | Atributos: username, password, roles. Métodos: addRole(), addRoles().                          |
+| Role               | Entity           | Define las categorías de acceso disponibles (Admin, Nutricionista, Cliente) dentro de la aplicación. | Atributos: id, name (Roles). Métodos: getDefaultRole().                                         |
+| Roles              | Value Object     | Enumeración que define los tipos de roles permitidos para mantener la consistencia del dominio. | Valores: ROLE_ADMIN, ROLE_CUSTOMER, ROLE_NUTRITIONIST.                                              |
+| UserCommandService | Domain Service   | Orquesta las operaciones de cambio de estado, como el registro y la autenticación. | Métodos: handle(SignUpCommand), handle(SignInCommand).                                          |
+| UserQueryService   | Domain Service   | Gestiona las consultas de información de usuarios sin afectar el estado de los datos. | Métodos: handle(GetUserByIdQuery), handle(GetUserByUsernameQuery).                              |
 
 ##### 4.2.1.2. Interface Layer.
 
+Esta capa actúa como el punto de entrada a la plataforma. Su responsabilidad es exponer las capacidades de autenticación y gestión de usuarios a través de una API REST, además de facilitar la comunicación con otros contextos mediante fachadas de servicios. Se encarga de transformar los datos externos en intenciones del dominio y viceversa.
+
+| Clase                                      | Tipo             | Propósito                                                                 | Atributos / Métodos Principales                                                                 |
+|-------------------------------------------|------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| AuthenticationController                  | Controller       | Gestiona las peticiones de ingreso y creación de cuentas en la aplicación. | signIn(), signUp().                                                                             |
+| UsersController                           | Controller       | Expone endpoints para la consulta y gestión de perfiles de usuario.       | getAllUsers(), getUserById().                                                                   |
+| IamContextFacade                          | ACL (Facade)     | Proporciona una interfaz simplificada para que otros contextos interactúen con IAM de forma segura. | createUser(), fetchUserIdByUsername().                                                          |
+| SignInResource / SignUpResource           | Resource (DTO)   | Define la estructura de datos que la aplicación espera recibir del cliente externo. | username, password, roles.                                                                     |
+| UserResource / AuthenticatedUserResource  | Resource (DTO)   | Define la estructura de respuesta enviada al cliente, incluyendo tokens de acceso cuando corresponde. | id, username, token, roles.                                                                    |
+| SignUpCommandFromResourceAssembler        | Assembler        | Transforma los recursos de entrada (DTO) en comandos de dominio válidos.  | toCommandFromResource().                                                                        |
+| UserResourceFromEntityAssembler           | Assembler        | Convierte las entidades de dominio en recursos (DTO) listos para la respuesta HTTP. | toResourceFromEntity().                                                                        |
+
 ##### 4.2.1.3. Application Layer.
+
+Esta capa coordina los flujos de trabajo de la aplicación y ejecuta los casos de uso del negocio. Actúa como un mediador que orquesta la interacción entre la capa de dominio y los servicios externos (como seguridad y persistencia), asegurando que se cumplan los requerimientos de autenticación y gestión de usuarios.
+
+| Clase                         | Tipo              | Propósito                                                                 | Atributos / Métodos Principales                                                                 |
+|------------------------------|-------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| UserCommandServiceImpl       | Command Handler   | Implementa la lógica para el registro de usuarios y el proceso de autenticación (Sign In). | handle(SignUpCommand), handle(SignInCommand).                                                   |
+| UserQueryServiceImpl         | Query Handler     | Procesa las consultas de lectura para obtener información detallada de los usuarios registrados. | handle(GetUserByIdQuery), handle(GetAllUsersQuery).                                             |
+| RoleCommandServiceImpl       | Command Handler   | Gestiona la creación inicial de roles en el sistema (Seeding) durante el arranque. | handle(SeedRolesCommand).                                                                       |
+| RoleQueryServiceImpl         | Query Handler     | Encargado de recuperar la información de los roles disponibles en la plataforma. | handle(GetAllRolesQuery), handle(GetRoleByNameQuery).                                           |
+| ApplicationReadyEventHandler | Event Handler     | Escucha el evento de inicio del sistema para disparar el proceso de carga de roles. | on(ApplicationReadyEvent).                                                                      |
+| HashingService               | Outbound Service  | Interfaz para delegar el cifrado y validación de contraseñas de forma segura. | encode(), matches().                                                                            |
+| TokenService                 | Outbound Service  | Interfaz para la gestión de tokens de seguridad (JWT) para sesiones activas. | generateToken(), validateToken().                                                               |
 
 ##### 4.2.1.4. Infrastructure Layer.
 
+En esta capa se presentan las implementaciones técnicas que permiten la operatividad del sistema sobre una infraestructura real. Se conectan las abstracciones del dominio y la aplicación con tecnologías específicas para la persistencia en bases de datos relacionales y la seguridad avanzada mediante estándares de la industria.
+
+| Clase / Componente                 | Tipo              | Propósito                                                                 | Atributos / Métodos Principales                                                                 |
+|----------------------------------|-------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| UserRepository                   | Repository        | Interfaz JPA para gestionar la persistencia y recuperación de agregados User. | findByUsername(), existsByUsername().                                                           |
+| RoleRepository                   | Repository        | Interfaz JPA para el acceso a datos de la entidad Role y sus enumeraciones. | findByName(), existsByName().                                                                   |
+| HashingServiceImpl               | Service Impl      | Implementación de seguridad que utiliza el algoritmo BCrypt para el manejo de contraseñas. | encode(), matches().                                                                            |
+| TokenServiceImpl                 | Service Impl      | Implementación de la gestión de tokens JWT, incluyendo generación, extracción y validación. | generateToken(), validateToken(), getBearerTokenFrom().                                         |
+| WebSecurityConfiguration         | Config            | Configuración central de Spring Security que define filtros, políticas stateless y reglas de acceso. | filterChain(), authenticationProvider().                                                        |
+| BearerAuthorizationRequestFilter | Security Filter   | Filtro de interceptación que valida la presencia y vigencia del token JWT en cada petición. | doFilterInternal().                                                                             |
+| UserDetailsServiceImpl           | Service Impl      | Puente entre Spring Security y el repositorio para cargar detalles del usuario durante la autenticación. | loadUserByUsername().                                                                           |
+| UnauthorizedRequestHandlerEntryPoint | Auth Entry Point | Manejador de excepciones que gestiona y responde ante intentos de acceso no autorizados. | commence().                                                                                     |
+
+
+
 ##### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.
+
+El diagrama de componentes del Bounded Context de Inicio y Registro de Sesión permite visualizar la arquitectura interna de este límite de dominio y cómo se orquestan los flujos de autenticación. En este nivel, se observa la interacción entre los controladores REST, que actúan como puntos de entrada para la Web Application y la Mobile App, y los servicios de aplicación que ejecutan la lógica de comandos y consultas definida para este contexto. Se destaca la integración del motor de seguridad para el manejo de JWT y el cifrado BCrypt, así como el uso de repositorios que abstraen la persistencia de datos en la base de datos PostgreSQL, garantizando un diseño modular, con responsabilidades delimitadas y altamente mantenible.
+
+![Component Level Diagram](assets/TB1/bc1_component_diagram.png)
 
 ##### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.
 
+En esta sección se detallan las especificaciones técnicas de bajo nivel que rigen el funcionamiento del contexto de IAM. Se presentan los diagramas que describen la estructura de código y la organización de los datos persistentes, permitiendo una transición clara entre el diseño arquitectónico y la implementación física.
+
 ###### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.
+
+El Domain Layer Class Diagram detalla la estructura lógica y técnica del bounded context de Inicio y Registro de Sesión, siguiendo los patrones tácticos de Domain-Driven Design (DDD) y la segregación de responsabilidades mediante CQRS. En el núcleo del modelo, se identifica al aggregate User y a el entity Role, cuya relación asegura una gestión de permisos consistente mediante el uso del Value Object Roles.
+
+Asimismo, el diagrama ilustra la separación entre las operaciones de escritura y lectura a través de Commands y Queries implementados como Records, los cuales son orquestados por sus respectivos servicios de dominio como UserCommandService, UserQueryService, entre otros. Esta organización garantiza un desacoplamiento efectivo, facilitando la mantenibilidad y escalabilidad del sistema de autenticación al separar la intención del negocio de la ejecución técnica.
+
+![Class Diagram](assets/TB1/bc1_class_diagram.png)
 
 ###### 4.2.1.6.2. Bounded Context Database Design Diagram.
 
+El diagrama de base de datos del bounded context utiliza un modelo normalizado con una tabla maestra de usuarios y una de roles, vinculadas mediante la tabla intermedia user_roles para resolver la relación de muchos a muchos. Esta configuración asegura la integridad de los datos mediante llaves primarias y foráneas, permitiendo gestionar los permisos de acceso y la trazabilidad de las cuentas de manera organizada y segura.
+
+![Database Design Diagram](assets/TB1/bc1_database_diagram.png)
+
 #### 4.2.2. Bounded Context: Perfil de Usuario
+
+Este Bounded Context se especializa en la gestión integral de la información personal y biométrica de los usuarios. Su propósito principal es centralizar y proteger los datos que definen el estado físico, los hábitos de actividad y las metas de salud individuales. Al gestionar entidades como los niveles de actividad y los objetivos nutricionales, este contexto permite que la plataforma adapte su comportamiento a las necesidades específicas de cada persona. Además, actúa como el repositorio central para las restricciones alimentarias y el seguimiento de variables físicas, asegurando que toda la información del perfil sea consistente y esté disponible para las funcionalidades de personalización de la aplicación.
 
 ##### 4.2.2.1. Domain Layer.
 
+En esta capa se define el núcleo de la aplicación relacionado con la información biométrica y las metas de salud del usuario. Se aplican patrones de Domain-Driven Design (DDD) para asegurar que las reglas de negocio (como el cálculo de necesidades calóricas o la gestión de restricciones alimentarias) estén protegidas y centralizadas en los agregados.
+
+| Clase                     | Tipo        | Propósito                                                                 | Atributos / Métodos Principales                                                                 |
+|--------------------------|------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| UserProfile              | Aggregate Root   | Entidad principal que centraliza los datos biométricos y coordina la lógica de salud del usuario. | Atributos: userId, gender, height, weight, birthDate. Métodos: calculateCalorieNeeds(), updateProfile(), addAllergy(). |
+| ActivityLevel            | Entity           | Define el nivel de actividad física del usuario, factor crítico para cálculos metabólicos. | Atributos: name, activityFactor. Métodos: calculateCalories().                                  |
+| Objective                | Entity           | Representa la meta de salud (ej. bajar peso, ganar músculo) que guía los planes de alimentación. | Atributos: objectiveName, score. Métodos: calculateScore().                                     |
+| Allergy                  | Entity           | Modela las restricciones alimentarias para evitar ingredientes peligrosos en los planes. | Atributos: name, relatedIngredients. Métodos: addIngredient().                                  |
+| Ingredient               | Value Object     | Objeto inmutable que representa un componente específico de una alergia o alimento. | Atributos: name.                                                                               |
+| UserProfileCommandService| Domain Service   | Interfaz que define las operaciones de cambio de estado en el perfil (Crear, Actualizar, Eliminar). | Métodos: handle(CreateUserProfileCommand), handle(UpdateUserProfileCommand).                   |
+
 ##### 4.2.2.2. Interface Layer.
+
+Esta capa actúa como el punto de entrada para todas las solicitudes externas al contexto de Perfil de Usuario. Su responsabilidad es gestionar las solicitudes HTTP, validar los datos de entrada y transformar los modelos internos del dominio en formatos legibles para los clientes (JSON). Un aspecto destacado es el uso de Facades, que actúan como una capa de protección (ACL) para desacoplar la lógica del dominio de los controladores REST.
+
+| Clase                                      | Tipo        | Propósito                                                                 | Atributos / Métodos Principales                                                                 |
+|-------------------------------------------|------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| UserProfileController                     | Controller       | Expone los endpoints REST para la gestión del ciclo de vida del perfil de usuario. | Métodos: listAll(), getById(), create(), update(), delete().                                   |
+| UserProfilesContextFacade                 | ACL Facade       | Actúa como mediador entre la capa de interfaz y el dominio, simplificando el acceso a los servicios. | Métodos: fetchById(), fetchObjectiveByProfileId(), create(), update().                         |
+| CreateUserProfileResource                 | DTO (Record)     | Define la estructura de datos necesaria para recibir la información de un nuevo perfil desde el cliente. | Atributos: userId, gender, height, weight, activityLevelId, objectiveId, allergyIds.           |
+| UserProfileResource                       | DTO (Record)     | Estructura de salida que consolida la información del perfil procesada para el frontend. | Atributos: id, gender, height, weight, activityLevelName, objectiveName, allergyNames.         |
+| UserProfileResourceFromEntityAssembler    | Assembler        | Contiene la lógica para transformar objetos de dominio (Entities/Aggregates) en recursos (DTOs). | Métodos: toResourceFromEntity(), toResources().                                                 |
+| CreateUserProfileCommandFromResourceAssembler | Assembler    | Transforma los datos de entrada del controlador en comandos válidos para el dominio. | Métodos: toCommandFromResource().                                                              |
 
 ##### 4.2.2.3. Application Layer.
 
+La capa de aplicación orquesta los casos de uso del Bounded Context de Perfil de Usuario, actuando como un mediador que dirige el flujo de datos entre la interfaz y el dominio. En esta sección se evidencia la implementación de Command y Query Handlers que coordinan la lógica de negocio, la persistencia y la validación cruzada con otros contextos sin comprometer la pureza del modelo de dominio.
+
+| Clase                         | Tipo                  | Propósito                                                                 | Atributos / Métodos Principales                                                                 |
+|------------------------------|---------------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| UserProfileCommandServiceImpl| Command Handler           | Orquesta la creación, actualización y eliminación de perfiles, coordinando repositorios y servicios externos. | Métodos: handle(CreateUserProfileCommand), handle(UpdateUserProfileCommand).                   |
+| UserProfileQueryServiceImpl  | Query Handler             | Gestiona la recuperación de información de perfiles de forma optimizada para consultas de lectura. | Métodos: handle(GetAllUserProfilesQuery), handle(GetUserProfileByIdQuery).                     |
+| ExternalUserService          | Outbound Service (ACL)    | Servicio que permite verificar la existencia de identidades en el contexto de IAM antes de crear un perfil. | Métodos: userExists(Long userId).                                                              |
+| CreateUserProfileCommand     | Command                   | Representa la intención inmutable del sistema de registrar un nuevo conjunto de datos biométricos. | Atributos: userId, gender, height, weight, activityLevelId, objectiveId.                      |
+| GetUserProfileByIdQuery      | Query                     | Define los parámetros necesarios para localizar la información de un perfil específico. | Atributos: userProfileId.                                                                      |
+
 ##### 4.2.2.4. Infrastructure Layer.
+
+Esta capa implementa la persistencia de datos mediante Spring Data JPA y el motor PostgreSQL. Contiene los repositorios que materializan las interfaces del dominio, permitiendo el almacenamiento y recuperación de perfiles, alergias y catálogos maestros. Gracias al uso de repositorios especializados, se garantiza que la lógica de acceso a datos sea eficiente y esté desacoplada de las reglas de negocio, facilitando el mantenimiento y la integridad de la información biométrica.
+
+| Clase                     | Tipo           | Propósito                                                                 | Atributos / Métodos Principales                                                                 |
+|--------------------------|--------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| UserProfileRepository    | Repository (JPA)   | Implementación de persistencia para el agregado de perfiles, permitiendo búsquedas por usuario de IAM. | Métodos: findByUserId(), existsByUserId(), findTopByOrderByIdDesc().                           |
+| AllergyRepository        | Repository (JPA)   | Gestiona el almacenamiento de alergias y permite consultas filtradas por ingredientes específicos. | Métodos: findByName(), findByRelatedIngredients_Name().                                         |
+| ProfileRepository        | Repository (JPA)   | Repositorio para la entidad de perfil extendida con soporte para búsqueda por credenciales. | Métodos: findByEmail(), save(), findById().                                                     |
+| ActivityLevelRepository  | Repository (JPA)   | Provee acceso al catálogo de niveles de actividad física configurados en el sistema. | Métodos: findAll(), findById(), save().                                                         |
+| ObjectiveRepository      | Repository (JPA)   | Encargado de la persistencia de las metas y objetivos de salud definidos por la aplicación. | Métodos: findAll(), findById(), save().                                                         |
 
 ##### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.
 
+En este diagrama se detalla la organización interna de los componentes para el manejo de perfiles. El flujo comienza en los controladores de User Profile y Allergy, los cuales reciben las solicitudes de las aplicaciones y delegan la ejecución a la User Profiles Context Facade. Este sirve como un punto de control que coordina los servicios de Commands para las acciones de escritura y Queries para las consultas de datos. Un punto importante es la integración del External User Service, que actúa como una capa de protección (ACL) para validar que el usuario realmente exista en el contexto de seguridad antes de procesar su perfil. Finalmente, el acceso a la base de datos se gestiona mediante repositorios que aseguran la persistencia correcta de la información biométrica.
+
+![Component Level Diagram](assets/TB1/bc2_component_diagram.png)
+
 ##### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.
+
+En esta sección se presentan los diagramas de bajo nivel que definen la implementación del contexto de Perfil de Usuario. El Diagrama de Clases muestra la estructura lógica de los agregados y entidades siguiendo el patrón DDD, mientras que el Diagrama de Base de Datos detalla el diseño de las tablas y sus relaciones en PostgreSQL. Ambos modelos aseguran que la información biométrica y las metas de salud se gestionen de forma íntegra y organizada.
 
 ###### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.
 
+El Domain Layer Class Diagram ilustra la estructura lógica del contexto de Perfil de Usuario, centrada en el Aggregate Root UserProfile. Este agregado encapsula la información biométrica esencial y coordina las reglas de negocio para el cálculo de salud. Se observa una relación de asociación con las entidades ActivityLevel y Objective, las cuales proveen los parámetros necesarios para la personalización de planes. Asimismo, se detalla la gestión de restricciones mediante la entidad Allergy y su relación con el Value Object Ingredient. El diagrama también refleja el uso de patrones de mensajería interna mediante Commands y Queries, los cuales aseguran que las operaciones de modificación y lectura sigan el principio de segregación de responsabilidades (CQRS), manteniendo el núcleo del dominio desacoplado de las implementaciones tecnológicas.
+
+![Class Diagram](assets/TB1/bc2_class_diagram.png)
+
 ###### 4.2.2.6.2. Bounded Context Database Design Diagram.
+
+El diseño de la base de datos para el contexto de Perfil de Usuario implementa una arquitectura de datos normalizada que separa la identidad de acceso de la información biométrica. El eje central es la tabla user_profiles, la cual funciona como el Aggregate Root que vincula las métricas físicas (estatura, peso, género) con los catálogos de activity_levels y objectives.
+
+La seguridad alimentaria se gestiona mediante un modelo de muchos a muchos con user_profile_allergies, permitiendo un seguimiento riguroso de las restricciones del usuario. Además, se incluye un desglose nutricional detallado mediante la relación entre ingredients y macronutrient_values, asegurando que el sistema pueda calcular con precisión las necesidades energéticas basadas en los factores de actividad y objetivos registrados. Esta estructura garantiza la escalabilidad para futuras funcionalidades de planes nutricionales automatizados.
+
+![Database Diagram](assets/TB1/bc2_database_diagram.png)
 
 #### 4.2.3. Bounded Context: Gestión de Objetivos
 
+Este Bounded Context actúa como el núcleo analítico y de seguimiento de metas dentro de JameoFit. Su propósito es definir los parámetros maestros de salud del usuario, como el peso objetivo, el ritmo de progreso y el tipo de dieta predominante. Con el nuevo enfoque tecnológico, este contexto evoluciona de ser un registro estático a un sistema dinámico que integra datos en tiempo real provenientes de hardware IoT (Botella Inteligente). El contexto procesa de manera automática el consumo de hidratación y lo contrasta con los objetivos nutricionales definidos por el nutricionista o el propio usuario, permitiendo una visibilidad inmediata del progreso y asegurando la adherencia al plan de salud.
+
 ##### 4.2.3.1. Domain Layer.
+
+En la capa de dominio se encapsula la lógica de negocio y las reglas fundamentales para la administración de metas. Se ha diseñado siguiendo un patrón de DDD, donde el Agregado Goal centraliza la toma de decisiones. Para la integración con IoT, se han extendido los modelos para permitir que el hardware (ESP32 de la botella inteligente) pueda influir en las métricas de progreso sin intervención manual del usuario.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|---------------------|
+| Goal | Aggregate Root | Entidad raíz que centraliza el objetivo de peso, ritmo y dieta del usuario. | userId, objective, targetWeightKg, pace, dietPreset, macrosPcts, updatedAt |
+| UserId | Value Object | Identificador único del usuario, validando que sea un ID positivo. | value: int |
+| ObjectiveType | Value Object (Enum) | Define la meta principal del usuario. | LOSE_WEIGHT, MAINTAIN_WEIGHT, GAIN_MUSCLE |
+| PaceType | Value Object (Enum) | Define la velocidad esperada del cambio físico. | SLOW, MODERATE, FAST |
+| DietPreset | Value Object (Enum) | Pre-configuraciones de tipos de dieta. | OMNIVORE, VEGAN, LOW_CARB, HIGH_PROTEIN, etc. |
+| HydrationPulse | Value Object | Representa un pulso de agua detectado por el sensor de flujo. | amountMl: Double, timestamp: Date |
+| MacroPolicyService | Domain Service | Calcula la distribución de macronutrientes basada en el DietPreset. | macrosFor(preset): int[] |
+| IGoalRepository | Repository (Interface) | Define el contrato para persistir y recuperar los objetivos del usuario. | findByUserId(userId), save(goal) |
+| UpdateGoalCaloriesCommand | Command | Encapsula la intención de modificar las calorías y peso objetivo. | userId, objective, targetWeightKg, pace |
+| UpdateDietTypeCommand | Command | Encapsula la intención de cambiar el tipo de dieta y sus macros. | userId, preset |
+| GetGoalByUserQuery | Query | Consulta para obtener el estado actual del objetivo del usuario. | userId |
 
 ##### 4.2.3.2. Interface Layer.
 
+Esta capa actúa como el puente de comunicación entre los actores externos (usuarios a través de la aplicación y dispositivos hardware mediante protocolos de mensajería) y la lógica de negocio del dominio. En esta capa se exponen endpoints RESTful para la gestión administrativa de los objetivos y se implementan consumidores de eventos para la ingesta de datos en tiempo real provenientes del componente IoT (Botella Inteligente). Esta estructura asegura que el sistema sea accesible, escalable y capaz de procesar información tanto síncrona como asíncrona de manera eficiente.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|---------------------|
+| GoalsController | Controller | Expone los endpoints HTTP para la gestión de objetivos y configuración de dietas. | updateGoalCalories, updateDietType, getByUser |
+| GoalResource | DTO | Representa la estructura de datos enviada al cliente con el estado actual de las metas y macros. | userId, objective, targetWeightKg, pace, dietPreset, macrosPct |
+| GoalCalorieConfigResource | DTO | Recurso para recibir actualizaciones de configuración física y ritmo de progreso. | objective, targetWeightKg, pace |
+| DietTypeConfigResource | DTO | Recurso para recibir el cambio de tipo de dieta (Preset). | preset |
+| IoTGoalEventConsumer | Consumer | Escucha los mensajes MQTT de la botella inteligente para actualizar el progreso. | onHydrationPulse(event) |
+| GoalResourceFromEntityAssembler | Assembler | Transforma la entidad de dominio Goal en un recurso GoalResource. | toResourceFromEntity(entity) |
+| UpdateGoalCaloriesCommandFromResourceAssembler | Assembler | Convierte un recurso de configuración en un comando de actualización de calorías. | toCommand(userId, resource) |
+| UpdateDietTypeCommandFromResourceAssembler | Assembler | Convierte el recurso de dieta en un comando de cambio de tipo de dieta. | toCommand(userId, resource) |
+
 ##### 4.2.3.3. Application Layer.
+
+La capa de aplicación actúa como la orquestadora de los casos de uso del sistema. Su función principal es coordinar la ejecución de las reglas de negocio presentes en el dominio, gestionando las transacciones y la comunicación con servicios externos o capas de infraestructura. En este contexto, la capa de aplicación traduce las intenciones del usuario (comandos) y los eventos del hardware IoT en cambios de estado persistentes, asegurando que el flujo de datos entre la botella inteligente y el perfil del usuario sea coherente y seguro.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|---------------------|
+| GoalCommandServiceImpl | Command Service | Orquesta la creación y actualización de objetivos, coordinando con el repositorio y el servicio de políticas de macros. | handle(UpdateGoalCaloriesCommand), handle(UpdateDietTypeCommand) |
+| GoalQueryServiceImpl | Query Service | Gestiona la recuperación de información de objetivos de forma optimizada. | handle(GetGoalByUserQuery) |
+| ExternalProfilesService | ACL (Outbound) | Capa de Anticorrupción que valida la existencia de perfiles en otros contextos antes de asignar objetivos. | existsProfile(profileId) |
+| FeignClientInterceptor | Infrastructure Config | Asegura la comunicación autenticada entre servicios para mantener la integridad de los datos. | apply(template) |
+| HydrationIOTCommandHandler | Command Handler | Procesa los datos automáticos de la botella inteligente para actualizar el progreso diario. | handle(RecordHydrationCommand) |
 
 ##### 4.2.3.4. Infrastructure Layer.
 
+Esta capa proporciona las herramientas técnicas y el soporte tecnológico necesario para materializar los modelos definidos en las capas superiores. En este contexto, la capa de infraestructura se encarga de la persistencia de los objetivos en una base de datos relacional mediante un ORM y de establecer los canales de comunicación de bajo nivel para el hardware. Para cumplir con el nuevo enfoque, se integra un cliente de mensajería que permite recibir los datos de la Botella Inteligente, asegurando que la infraestructura técnica soporte la alta frecuencia de datos que generan los sensores IoT.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|---------------------|
+| GoalRepository | Repository Impl | Implementación basada en Spring Data JPA para la persistencia del agregado Goal. | findByUserId_Value(userId) |
+| MqttClientConfig | Configuración | Configura la conexión técnica con el Broker MQTT para recibir datos de la botella. | mqttClient(), connectOptions() |
+| JpaGoalStore | Persistence | Gestiona el mapeo físico entre los objetos de dominio y las tablas de la base de datos. | @Table(name = "goals") |
+| MqttHydrationSubscriber | IoT Infrastructure | Suscriptor de bajo nivel que escucha el tópico del sensor de flujo del ESP32. | subscribe(topic), messageArrived() |
+
 ##### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams.
+
+El diagrama ilustra la descomposición interna del contenedor, detallando cómo la arquitectura de capas interactúa para gestionar las metas de salud. En este nivel de abstracción, se destaca la integración del IoT Goal Event Consumer, el cual actúa como el punto de enlace asíncrono para recibir la telemetría proveniente de la botella inteligente vía MQTT. Se observa cómo los servicios de aplicación orquestan la lógica de negocio apoyándose en servicios de dominio especializados para el cálculo de macronutrientes y en una capa de anticorrupción (ACL) para validar la integridad de los datos de usuario, garantizando así un sistema robusto, escalable y capaz de procesar datos en tiempo real.
+
+![Component Level Diagram](assets/TB1/bc3_component_diagram.png)
 
 ##### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams.
 
+En esta sección se detalla la estructura interna y técnica del Bounded Context de Gestión de Objetivos. A través de diagramas de clases y de diseño de base de datos, se exponen los componentes tácticos del dominio, sus interacciones y la estrategia de persistencia, garantizando una implementación fiel a las reglas de negocio y a los requerimientos de integración tecnológica con dispositivos externos.
+
 ###### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams.
 
+El Domain Layer Class Diagram ilustra la arquitectura técnica del contexto de Gestión de Objetivos, centrada en el Aggregate Root Goal. Este agregado actúa como la unidad de consistencia para los parámetros físicos y nutricionales del usuario, encapsulando atributos clave como el peso objetivo y el ritmo de progreso. El diagrama refleja una relación de composición con el Value Object UserId y asociaciones con enumeraciones críticas como ObjectiveType y DietPreset, las cuales definen el comportamiento del dominio.
+
+Se destaca la inclusión del MacroPolicyService como un Domain Service que provee la lógica de cálculo para la distribución de macronutrientes, asegurando que el estado del agregado se mantenga alineado con las políticas nutricionales vigentes. Asimismo, el diseño incorpora el patrón de comandos y consultas para soportar tanto la interacción humana como la automatización mediante el comando RecordHydrationCommand, facilitando la ingesta de datos en tiempo real provenientes de la Botella Inteligente (IoT). Esta estructura garantiza que el núcleo del negocio sea robusto, testeable y capaz de evolucionar de manera independiente a la infraestructura.
+
+![Class Diagram](assets/TB1/bc3_class_diagram.png)
+
 ###### 4.2.3.6.2. Bounded Context Database Design Diagram.
+
+El diseño de la base de datos para el contexto de Gestión de Objetivos sigue un modelo relacional optimizado para garantizar la integridad y trazabilidad del progreso del usuario. La estructura se apoya en la tabla principal goals, la cual centraliza la configuración nutricional, objetivos de peso y distribución de macronutrientes, utilizando una restricción de clave única en user_id para asegurar la correspondencia con el perfil del usuario.
+
+Para integrar de manera eficiente el enfoque IoT, el modelo incorpora la tabla hydration_logs, vinculada mediante una relación de uno a muchos. Esta tabla permite registrar de forma granular cada evento de ingesta detectado por los sensores de la botella inteligente, almacenando el volumen específico y la marca temporal exacta. Esta separación permite mantener el estado actual del objetivo desacoplado del historial de eventos, facilitando el cálculo de métricas de progreso diario y el análisis de tendencias de hidratación sin comprometer el rendimiento del sistema.
+
+![Database Diagram](assets/TB1/bc3_database_diagram.png)
 
 #### 4.2.4. Bounded Context: Rutina Alimentaria
 
