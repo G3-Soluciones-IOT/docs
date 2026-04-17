@@ -455,6 +455,82 @@ La sección abarca el proceso de investigación de nuestros segmentos objetivos 
 
 #### 2.2.1. Diseño de entrevistas.
 
+### Segmento Objetivo #1: Usuarios finales (Enfoque en bienestar y nutrición)
+##### *Preguntas dirigidas a personas que buscan mejorar sus hábitos alimenticios, deportistas o quienes necesitan controlar su ingesta por salud.*
+
+**Características demográficas:**
+
+1. ¿Cuál es tu edad?
+
+2. ¿En qué ciudad resides actualmente?
+
+3. ¿Sigues actualmente algún plan nutricional específico o utilizas alguna herramienta de salud?
+
+**Preguntas Principales:**
+
+1. ¿Qué sueles hacer actualmente para llevar un control de lo que comes en el día?
+
+2. ¿Has intentado usar aplicaciones para contar calorías o macros antes? Si es así, ¿qué fue lo que más te costó o por qué dejaste de usarlas?
+
+3. ¿Cómo manejas el registro de tus comidas cuando comes fuera de casa o estás en un día muy ajetreado?
+
+4. ¿Qué tan preciso crees que es tu registro actual cuando lo haces de manera manual o por estimación?
+
+5. ¿Sientes que el tiempo que inviertes en registrar tus alimentos interfiere con tu disfrute de la comida o tu rutina diaria?
+
+6. ¿Qué tan cómodo/a te sentirías si una aplicación analizara tus fotos de comida o datos de compras para sugerirte mejoras en tu dieta?
+
+**Preguntas sobre el Proyecto (JF Technologies):**
+
+1. ¿Qué te parecería una solución que registre tu ingesta nutricional casi automáticamente (por ejemplo, mediante fotos), reduciendo la necesidad de escribir cada ingrediente?
+
+2. ¿Qué información considerarías indispensable ver en tu pantalla principal? (ej. calorías restantes, alertas de nutrientes, hidratación, progreso semanal).
+
+3. ¿Considerarías útil que estos datos se compartan automáticamente con tu nutricionista o entrenador para que él/ella ajuste tu plan en tiempo real?
+
+4. Si la aplicación te diera recomendaciones personalizadas basadas en IA sobre qué comer según tus metas del día, ¿qué nivel de confianza te generaría?
+
+5. ¿Estarías dispuesto/a a pagar una suscripción mensual si la herramienta te ahorra el 80% del tiempo que hoy dedicas a registrar tu alimentación?
+<br>
+
+### Segmento Objetivo #2: Profesionales de la Salud (Nutricionistas y Entrenadores)
+
+##### *Preguntas dirigidas a especialistas que requieren datos confiables de sus pacientes/clientes.*
+
+**Características demográficas:**
+
+1. ¿Cuál es tu especialidad y cuántos años de experiencia tienes?
+
+2. ¿En qué entorno trabajas principalmente (consulta privada, clínica, remoto)?
+
+3. ¿Cuántos pacientes o clientes manejas activamente al mes?
+
+**Preguntas Principales:**
+
+1. ¿Cómo verificas actualmente que tus pacientes están cumpliendo con el plan nutricional que les asignaste?
+
+2. ¿Qué tan confiables consideras que son los reportes manuales que te entregan tus pacientes (diarios de comida, excels, mensajes)?
+
+3. ¿Cuál es el mayor obstáculo que enfrentas al intentar ajustar un plan nutricional entre una cita y la siguiente?
+
+4. ¿Has detectado casos donde el paciente abandona el tratamiento debido a la dificultad de registrar sus hábitos?
+
+5. ¿Qué tipo de datos biométricos o nutricionales te gustaría tener "en vivo" para tomar mejores decisiones clínicas?
+
+6. ¿Qué herramientas digitales utilizas hoy para gestionar a tus pacientes y qué les falta para ser ideales?
+
+**Preguntas sobre el Proyecto (JF Technologies):**
+
+1. ¿Qué opinas de contar con un dashboard profesional que te muestre el comportamiento real de ingesta de tus pacientes sin que ellos tengan que llenar formularios tediosos?
+
+2. ¿Qué funcionalidades serían más valiosas para tu práctica? (ej. alertas de consumo excesivo de ciertos nutrientes, gráficos de adherencia semanal, exportación de reportes para historia clínica).
+
+3. ¿Cómo cambiaría tu forma de trabajar si pudieras ver fotos reales de lo que come tu paciente validadas por una IA nutricional?
+
+4. Respecto a la seguridad de la información: ¿Qué requisitos mínimos de privacidad de datos exigirías para vincular a tus pacientes a una plataforma así?
+
+5. ¿Estarías dispuesto/a a recomendar o incluir el costo de esta herramienta como parte de tus servicios profesionales?
+
 #### 2.2.2. Registro de entrevistas.
 
 #### 2.2.3. Análisis de entrevistas.
