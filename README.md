@@ -1601,6 +1601,8 @@ Para integrar de manera eficiente el enfoque IoT, el modelo incorpora la tabla h
 
 #### 4.2.4. Bounded Context: Rutina Alimentaria
 
+Este Bounded Context representa el núcleo operativo y de inteligencia del sistema. Su rol arquitectónico ha evolucionado de ser un simple gestor de persistencia a un Sistema de Procesamiento de Eventos en Tiempo Real. Bajo la nueva arquitectura, es el responsable de orquestar la telemetría proveniente del hardware (Edge), someterla a juicios de valor mediante modelos de Machine Learning (Inferencia) y consolidar la realidad nutricional del usuario para el seguimiento profesional.
+
 ##### 4.2.4.1. Domain Layer.
 
 Es la capa de máxima jerarquía donde residen las reglas de negocio agnósticas a la tecnología. Con la incorporación de la IA, el dominio ahora no solo contiene datos, sino lógica de validación probabilística para determinar la veracidad de la ingesta.
