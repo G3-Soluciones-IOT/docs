@@ -1823,22 +1823,70 @@ La estrategia de modelado para el contexto de Comunicación utiliza un Enfoque d
 
 #### 4.2.8. Bounded Context: Pagos
 
+Este Bounded Context es el facilitador financiero y de acceso del ecosistema. Su rol arquitectónico es el de un Gatekeeper de Capacidades. No solo gestiona el ciclo de vida de los pagos (suscripciones, facturas, reembolsos), sino que emite los eventos necesarios para que el resto del sistema habilite las funcionalidades avanzadas de IoT e IA. Se apoya en una integración profunda con Stripe para garantizar la escalabilidad global y la seguridad normativa.
+
 ##### 4.2.8.1. Domain Layer.
+
+La capa de dominio reúne las entidades y políticas que permiten modelar la suscripción del usuario, la vigencia de su acceso y las reglas asociadas a los planes disponibles. En esta capa se concentra la lógica que garantiza la consistencia del ciclo de vida de una suscripción y la habilitación de capacidades según el nivel contratado.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|----------------------------------|
+| `Subscription` | `Aggregate Root` | Gestiona el vínculo entre el usuario y su plan actual, controlando su vigencia. | `userId`, `stripeSubscriptionId`, `status` / `activate()`, `renew()`, `cancel()` |
+| `PaymentPlan` | `Entity` | Define los niveles de servicio (Free, Pro, Expert) y sus costos asociados. | `name`, `price`, `featuresIncluded` / `isFeatureAllowed(featureId)` |
+| `SubscriptionPeriod` | `Value Object` | Representa el intervalo de tiempo pagado y la fecha de expiración. | `startDate`, `endDate` / `isActive()`, `isExpiringSoon()` |
+| `BillingPolicy` | `Domain Service` | Contiene las reglas para el cálculo de prorrateos y aplicación de impuestos según región. | `calculateFinalAmount(basePrice, taxRate)` |
 
 ##### 4.2.8.2. Interface Layer.
 
+La capa de interfaz expone los mecanismos mediante los cuales el usuario puede suscribirse, consultar su plan actual y gestionar cambios sobre su servicio. Además, incorpora el punto de entrada para eventos asíncronos provenientes de Stripe, permitiendo sincronizar el estado local del sistema con el proveedor de pagos.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|----------------------------------|
+| `SubscriptionController` | `REST Controller` | Expone la API para que los usuarios seleccionen y gestionen sus planes. | `subscribe()`, `getCurrentSubscription()`, `updatePlan()` |
+| `StripeWebhookHandler` | `Message Consumer` | Punto crítico de entrada que recibe notificaciones asíncronas de Stripe (pagos exitosos, fallos). | `handleEvent(payload)`, `onPaymentSucceeded()`, `onSubscriptionDeleted()` |
+| `PaymentIntentResource` | `DTO` | Objeto utilizado para iniciar el flujo seguro de pago en el frontend/mobile. | `clientSecret`, `publishableKey`, `amount` |
+
 ##### 4.2.8.3. Application Layer.
+
+La capa de aplicación coordina los casos de uso relacionados con la activación, cancelación y consulta de suscripciones. Su función es orquestar la interacción entre las solicitudes externas, las reglas del dominio y las integraciones necesarias para mantener actualizado el estado de acceso del usuario dentro del ecosistema.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|----------------------------------|
+| `ProcessPaymentCommandHandler` | `Command Handler` | Orquesta la creación del cliente en Stripe y la persistencia de la suscripción local. | `handle(SubscribeUserCommand)` |
+| `CancelSubscriptionCommandHandler` | `Command Handler` | Gestiona la terminación de servicios y notifica al usuario. | `handle(CancelSubscriptionCommand)` |
+| `SubscriptionStatusQueryService` | `Query Service` | Provee el estado de acceso rápido para que otros BC verifiquen permisos. | `isUserPremium(userId)` |
 
 ##### 4.2.8.4. Infrastructure Layer.
 
+La capa de infraestructura implementa los mecanismos técnicos para persistir suscripciones, comunicarse con Stripe y proteger las credenciales sensibles asociadas al proceso de cobro. En esta capa se encapsulan las dependencias tecnológicas para mantener desacoplado el modelo de pagos respecto a los servicios externos.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|----------------------------------|
+| `JpaSubscriptionRepository` | `Repository Impl` | Persistencia de los estados de suscripción en PostgreSQL. | `save()`, `findByUserId()` |
+| `StripeServiceACL` | `ACL Client` | Adaptador que traduce el SDK de Stripe a nuestro modelo de dominio (`Subscription`). | `createStripeCustomer()`, `syncSubscriptionState()` |
+| `VaultSecretsManager` | `Security Client` | Gestiona las API Keys y Webhook Secrets de forma segura (AWS Secrets Manager). | `getStripeSecretKey()` |
+
 ##### 4.2.8.5. Bounded Context Software Architecture Component Level Diagrams.
+
+Este diagrama destaca la Capa de Anticorrupción (ACL) hacia Stripe y el manejo de Webhooks como mecanismo de sincronización de estado.
+
+![Component Level Diagram](./assets/TB1/bc8_component_diagram.png)
 
 ##### 4.2.8.6. Bounded Context Software Architecture Code Level Diagrams.
 
+Esta sección presenta los diagramas de nivel de código del Bounded Context, los cuales permiten visualizar con mayor detalle la organización interna de sus clases, servicios, interfaces y relaciones. A diferencia de los diagramas de contenedores y componentes, que muestran la estructura general de la solución, este nivel se enfoca en cómo se materializa técnicamente el diseño dentro del código. Su construcción se apoya en los principios de Clean Architecture y en el diseño táctico de DDD, con el objetivo de mantener una separación clara entre dominio, aplicación, interfaces e infraestructura. De este modo, se busca que las reglas de negocio permanezcan desacopladas de decisiones técnicas específicas, que la comunicación entre capas se mantenga clara y consistente, y que el sistema pueda evolucionar sin comprometer la lógica central del contexto.
+
 ###### 4.2.8.6.1. Bounded Context Domain Layer Class Diagrams.
+
+El diagrama de clases del dominio para Pagos representa la estructura conceptual y las relaciones internas que sostienen el comportamiento del bounded context, por lo que su propósito no es reflejar el diseño de la base de datos, sino modelar las reglas de negocio y la consistencia del sistema. En este nivel, el diseño se organiza alrededor del agregado Subscription, que actúa como entidad raíz y concentra la responsabilidad de sincronizar el estado comercial del usuario con el acceso técnico a la plataforma. A su alrededor se definen entidades como PaymentPlan y value objects como SubscriptionPeriod que encapsulan el estado y la lógica propia del dominio, como la validación de vigencia y la segregación de funcionalidades permitidas, evitando dispersar estas responsabilidades en capas externas. Asimismo, los servicios del dominio se expresan mediante contratos que describen capacidades necesarias para el negocio (como la sincronización con pasarelas), permitiendo que las integraciones técnicas (Stripe) se adapten al modelo definido y preservando así la independencia y claridad del núcleo del sistema.
+
+![Class Diagram](./assets/TB1/bc8_class_diagram.png)
 
 ###### 4.2.8.6.2. Bounded Context Database Design Diagram.
 
+La estrategia de modelado para el contexto de Pagos se centra en la Trazabilidad de Acceso. Se mantiene una réplica local ligera del estado de Stripe (stripe_subscription_id) para evitar latencias de red en cada validación de permisos de IA/IoT. Se implementan índices sobre user_id y status para optimizar los procesos de verificación de "Entitlement" que realizan otros microservicios antes de permitir el procesamiento de datos de los sensores.
+
+![Database Diagram](./assets/TB1/bc8_database_diagram.png)
 
 ### 4.3 Referencias Bibliográficas
 
