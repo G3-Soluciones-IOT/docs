@@ -81,7 +81,7 @@
 | AV1     | 15/04/2026 | Ramiro Alexander Guzmán Chávez   |  Desarrollo de User Stories, Product Backlog, Impact Mapping y adaptación a dispositivos inteligentes e IA.      |
 | AV1     | 16/04/2026 | Omar Luquillas Asto  | Desarrollo de secciones correspondientes a los Bounded Context: Inicio y Registro de Sesión, Perfil de Usuario y Gestión de Objetivos   |
 | AV1     | 17/04/2026 | Jhon Alexander Galvez Chambi  | Desarrollo de secciones correspondientes a los Bounded Context: Rutina Alimentaria, Nutricionista, Gestion de Planes Alimenticios, Comunicacion y Pagos   |
-| AV1     | /04/2026   |                               |           
+| AV1     | 17/04/2026   | Pablo Antonio Geronimo Quispe  |        Desarrollo del needfinding agregando los respectivos User Persona ,Empathy Map,JourneyMap y documentacion del Ubiquitous Language agregando       |         
 
 ## Project Report Collaboration Insights
 
