@@ -81,7 +81,7 @@
 | AV1     | 15/04/2026 | Ramiro Alexander Guzmán Chávez   |  Desarrollo de User Stories, Product Backlog, Impact Mapping y adaptación a dispositivos inteligentes e IA.      |
 | AV1     | 16/04/2026 | Omar Luquillas Asto  | Desarrollo de secciones correspondientes a los Bounded Context: Inicio y Registro de Sesión, Perfil de Usuario y Gestión de Objetivos   |
 | AV1     | 17/04/2026 | Jhon Alexander Galvez Chambi  | Desarrollo de secciones correspondientes a los Bounded Context: Rutina Alimentaria, Nutricionista, Gestion de Planes Alimenticios, Comunicacion y Pagos   |
-| AV1     | /04/2026   |                               |           
+| AV1     | 17/04/2026   | Pablo Antonio Geronimo Quispe  |        Desarrollo del needfinding agregando los respectivos User Persona ,Empathy Map,JourneyMap y documentacion del Ubiquitous Language agregando       |         
 
 ## Project Report Collaboration Insights
 
@@ -250,6 +250,7 @@ Ser una startup referente en el desarrollo de productos digitales orientados a l
 |![alt text](assets/fotos/jhonfoto.jpg) | Jhon Alexander Galvez Chambi | U202323270  |Soy una persona responsable y comprometida con la consecución de los mejores resultados en trabajo en equipo. Poseo experiencia en diversos lenguajes de programación, incluyendo Python, JavaScript y C++, así como en varios de los frameworks asociados a estos lenguajes. Además, tengo conocimientos en tecnologías emergentes como Cloud Computing e Internet de las Cosas (IoT), y estoy dispuesto a aportar mi experiencia en estas áreas para contribuir al éxito de los proyectos en los que participo. |
 |![alt text](assets/fotos/fabriziofoto.jpg) | Fabrizio Alberto Paredes Santos | U202310914  |Profesional en formación con experiencia en desarrollo de aplicaciones web y móviles utilizando stacks modernos como Vue.js y .NET, Angular y Spring Boot, además de desarrollo móvil con Flutter y Kotlin. También he trabajado en la creación de páginas web con React, Next.js y Tailwind CSS, enfocadas en rendimiento y experiencia de usuario. Me caracterizo por ser proactivo, responsable y orientado a resultados, con capacidad para adaptarme a entornos dinámicos y contribuir eficazmente en equipos de desarrollo. |
 |![alt text](assets/fotos/Ramiro.png) | Ramiro Alexander Guzmán Chávez | U202217062  |Mi perfil se basa en ser una persona responsable, disciplinada en todo aspecto y comprometida con las actividades que me puedan tocar. Considero que tengo una experiencia altamente capacitada para este tipo de tareas. Suelo desarrollarme de manera positiva en los trabajos grupales y tengo conocimientos en bases de datos, lo cual puede aportar de manera importante al equipo. Además, cuento con conocimientos en lenguajes de programación como Java y JavaScript, lo que me permite desarrollar soluciones tanto del lado del backend como del frontend, contribuyendo a proyectos de desarrollo de software de manera integral. |
+|![alt text](assets/fotos/pablo-photo.png) | Pablo Antonio Geronimo Quispe | U202314304 |Soy Pablo, estudiante de Ingeniería de Software en el séptimo ciclo. Me caracterizo por ser una persona responsable, disciplinada y comprometida con cada actividad que asumo, manteniendo siempre un enfoque orientado a resultados y mejora continua. Asimismo, tengo interés y conocimientos en ciberseguridad, especialmente en el ámbito de redes móviles, lo que me permite comprender riesgos, aplicar buenas prácticas de seguridad y aportar en la protección de la información y los sistemas dentro de entornos digitales. |
 
 
 ### 1.2. Solution Profile
@@ -462,15 +463,222 @@ La sección abarca el proceso de investigación de nuestros segmentos objetivos 
 
 #### 2.3.1. User Personas.
 
+
+Para la creación de los User Persona de cada segmento, partimos de las entrevistas realizadas, las cuales nos sirvieron como base para identificar patrones, necesidades y motivaciones reales de los usuarios. A partir de estos hallazgos, construimos representaciones ficticias pero fundamentadas en la realidad, que reflejan el perfil, objetivos y frustraciones de cada segmento clave.
+
+
+**Segmento 1: Usuarios orientados a la mejora de su alimentación**
+
+<p align="center" >
+  <img src="assets/TB1/CarlosRamirezup.png" alt="CarlosRamirezuser-persona" width="500"/>
+</p>
+
+**Segmento 2: Profesionales de la salud (nutrición y bienestar)**
+
+<p align="center">
+  <img src="assets/TB1/AndreaTorresUP.png" alt="AndreaTorresuser-persona" width="500"/>
+</p>
+
+
 #### 2.3.2. User Task Matrix.
+
+El siguiente User Task Matrix presenta las principales tareas que tanto jóvenes adultos interesados en mejorar su alimentación como profesionales de la salud (nutricionistas) realizan actualmente de manera natural, sin el uso de la aplicación JameoFit. Se identifican actividades comunes entre ambos segmentos, evaluadas según su frecuencia e importancia específicas para cada grupo.
+| Tarea | Usuario (Joven Adulto) | Usuario (Nutricionista) |
+|------|----------------------|------------------------|
+| Registrar alimentos consumidos | Alta frecuencia / Alta importancia | Alta frecuencia / Alta importancia |
+| Recordar qué alimentos consumió | Alta / Media | Media / Alta |
+| Estimar porciones y calorías | Media / Alta | Alta / Alta |
+| Consultar información nutricional | Media / Alta | Alta / Alta |
+| Monitorear hábitos alimenticios | Media / Alta | Alta / Alta |
+| Identificar patrones de alimentación | Baja / Media | Alta / Alta |
+| Tomar decisiones sobre la dieta | Alta / Alta | Alta / Alta |
+| Mantener constancia en el seguimiento | Alta / Alta | Alta / Alta |
+| Evaluar progreso nutricional | Media / Alta | Alta / Alta |
+| Detectar problemas en la alimentación | Baja / Media | Alta / Alta |
+
+
+
+Registrar alimentos consumidos:
+Es una de las actividades más críticas en ambos usuarios. En jóvenes adultos, se realiza con alta frecuencia pero de manera inconsistente debido al esfuerzo que implica el registro manual. En nutricionistas, esta tarea es fundamental para el seguimiento de pacientes, aunque depende de la información proporcionada, lo que afecta su precisión.
+
+Recordar qué alimentos consumió:
+Los jóvenes adultos suelen depender de la memoria para reconstruir su ingesta diaria, lo que genera imprecisiones. Para los nutricionistas, esta tarea tiene menor frecuencia directa, pero es relevante al momento de validar la información reportada por sus pacientes.
+
+Estimar porciones y calorías:
+Los jóvenes adultos realizan estimaciones aproximadas, generalmente con bajo nivel de precisión. En contraste, los nutricionistas aplican conocimientos técnicos para realizar estimaciones más exactas, siendo una actividad clave en su práctica.
+
+Consultar información nutricional:
+Los jóvenes consultan esta información de manera moderada para mejorar sus hábitos, mientras que los nutricionistas lo hacen con mayor frecuencia, basándose en fuentes confiables para sustentar sus recomendaciones.
+
+Monitorear hábitos alimenticios:
+En jóvenes adultos, esta actividad es irregular y depende de su motivación. En nutricionistas, es una tarea constante que forma parte del seguimiento profesional de sus pacientes.
+
+Identificar patrones de alimentación:
+Los jóvenes adultos rara vez identifican patrones de forma consciente. Por otro lado, los nutricionistas analizan estos patrones de manera sistemática para detectar problemas o áreas de mejora en la alimentación.
+
+Tomar decisiones sobre la dieta:
+Ambos usuarios realizan esta tarea con alta frecuencia. Los jóvenes lo hacen basados en información limitada o percepciones, mientras que los nutricionistas toman decisiones fundamentadas en datos y conocimiento profesional.
+
+Mantener constancia en el seguimiento:
+Para los jóvenes adultos, mantener la constancia representa un desafío importante debido a la falta de automatización y motivación. En nutricionistas, la constancia es esencial como parte de su trabajo, aunque depende del compromiso del paciente.
+
+Evaluar progreso nutricional:
+Los jóvenes realizan esta evaluación de manera ocasional y poco estructurada. En nutricionistas, es una actividad clave que permite medir resultados y ajustar los planes alimenticios.
+
+Detectar problemas en la alimentación:
+Los jóvenes adultos tienen dificultades para identificar problemas en sus hábitos. En cambio, los nutricionistas están capacitados para detectar deficiencias, excesos o patrones negativos de manera efectiva.
+
 
 #### 2.3.3. User Journey Mapping.
 
+**Segmento 1: Usuarios orientados a la mejora de su alimentación**
+
+<p align="center" >
+  <img src="assets/TB1/Customerjourneymap 1.png" alt="Customerjourneymap 1" width="500"/>
+</p>
+
+**Segmento 2: Profesionales de la salud (nutrición y bienestar)**
+
+<p align="center">
+  <img src="assets/TB1/Customerjourneymap 2.png" alt="Customerjourneymap 2" width="500"/>
+</p>
+
+
+
+
+
 #### 2.3.4. Empathy Mapping.
+
+**Segmento 1: Usuarios orientados a la mejora de su alimentación**
+
+<p align="center" >
+  <img src="assets/TB1/carlosramirezempathy.png" alt="empathymap 1" width="500"/>
+</p>
+
+**Segmento 2: Profesionales de la salud (nutrición y bienestar)**
+
+<p align="center">
+  <img src="assets/TB1/andreatorresempathymap.png" alt="empathymap 2" width="500"/>
+</p>
+
 
 ### 2.4. Big Picture EventStorming.
 
 ### 2.5. Ubiquitous Language.
+
+El Ubiquitous Language define un lenguaje común entre todos los actores del sistema, permitiendo una comunicación clara y consistente durante el desarrollo de la solución. En este proyecto, se integran conceptos relacionados con salud digital, nutrición, IoT e inteligencia artificial.
+
+
+ Usuarios y Segmentos
+
+- **Usuario Individual:**  
+  Persona que utiliza la aplicación para gestionar su alimentación personal. Generalmente jóvenes adultos que buscan mejorar su salud mediante planes nutricionales personalizados, con apoyo de automatización (IoT) y recomendaciones inteligentes (IA).
+
+- **Nutricionista:**  
+  Profesional de la salud certificado que utiliza la plataforma para gestionar pacientes, crear contenido educativo, realizar seguimiento nutricional y brindar asesoría basada en datos.
+
+- **Usuario Premium:**  
+  Usuario individual o nutricionista que accede a funcionalidades avanzadas mediante una suscripción, incluyendo análisis más profundos con IA e integración completa con dispositivos IoT.
+
+---
+
+ Funcionalidades Core para Usuarios Individuales
+
+- **Plan de Alimentación:**  
+  Conjunto personalizado de recomendaciones nutricionales generadas mediante algoritmos de IA, adaptadas al perfil, preferencias y objetivos del usuario.
+
+- **Preferencias Alimentarias:**  
+  Restricciones o elecciones del usuario (alergias, dietas, etc.), utilizadas por la IA para personalizar recomendaciones.
+
+- **Objetivo de Salud:**  
+  Meta del usuario (bajar peso, ganar masa muscular, etc.), utilizada como input para modelos de IA.
+
+- **Resumen Nutricional:**  
+  Visualización automática del consumo de calorías y nutrientes, generada a partir de datos recolectados mediante dispositivos IoT o interacción mínima del usuario.
+
+- **Receta Saludable:**  
+  Sugerencia generada por IA basada en el plan nutricional y los datos del usuario.
+
+- **Indicador de Progreso:**  
+  Métricas visuales que muestran el avance del usuario hacia sus objetivos, alimentadas por datos en tiempo real.
+
+---
+
+ Funcionalidades IoT + IA (NÚCLEO DEL PROYECTO)
+
+- **Registro Automatizado de Alimentos (IoT):**  
+  Captura automática de la ingesta alimentaria mediante sensores o dispositivos inteligentes.
+
+- **Análisis Inteligente (IA):**  
+  Procesamiento de datos nutricionales para generar insights, detectar patrones y predecir comportamientos.
+
+- **Recomendaciones Inteligentes:**  
+  Sugerencias personalizadas generadas en tiempo real según hábitos, objetivos y datos históricos.
+
+- **Alertas Inteligentes:**  
+  Notificaciones automáticas cuando se detectan desviaciones en la alimentación o progreso.
+
+---
+
+ Funcionalidades Core para Nutricionistas
+
+- **Perfil Profesional:**  
+  Información del nutricionista, incluyendo credenciales y especialidades.
+
+- **Contenido Educativo:**  
+  Material creado por nutricionistas para usuarios, validado y distribuido en la plataforma.
+
+- **Suscripción de Contenido:**  
+  Modelo que permite monetizar contenido exclusivo.
+
+- **Chat Profesional:**  
+  Canal de comunicación directa entre nutricionista y usuario.
+
+- **Panel de Gestión:**  
+  Dashboard donde el nutricionista administra pacientes, contenido y métricas.
+
+- **Analytics Profesional (IA):**  
+  Análisis avanzado del comportamiento de pacientes mediante inteligencia artificial.
+
+---
+
+ Funcionalidades Compartidas
+
+- **Notificación Inteligente:**  
+  Mensajes automatizados generados por IA según comportamiento del usuario.
+
+- **Biblioteca de Recursos:**  
+  Contenido educativo accesible según tipo de usuario.
+
+- **Sistema de Seguimiento:**  
+  Monitoreo continuo basado en datos recolectados automáticamente (IoT).
+
+---
+
+Interacciones Entre Segmentos
+
+- **Consulta Nutricional:**  
+  Interacción entre usuario y nutricionista basada en datos reales recolectados por el sistema.
+
+- **Conexión Profesional:**  
+  Relación continua entre usuario y nutricionista para seguimiento.
+
+- **Recomendación Profesional:**  
+  Sugerencias personalizadas basadas en análisis de datos del usuario.
+
+---
+
+ Soporte y Gestión
+
+- **Soporte Técnico:**  
+  Sistema de ayuda automatizado (chatbot IA) y soporte especializado.
+
+- **Verificación Profesional:**  
+  Validación de credenciales de nutricionistas.
+
+- **Moderación de Contenido:**  
+  Control de calidad del contenido publicado.
+
 
 ## Capítulo III: Requirements Specification
 
