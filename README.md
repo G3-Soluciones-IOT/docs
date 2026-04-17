@@ -245,8 +245,9 @@ Ser una startup referente en el desarrollo de productos digitales orientados a l
 |![alt text](assets/fotos/foto-mathias.png) | Mathias Bueno Perales  | u202313433 |Soy una persona optimista y responsable al cumplir mis labores para-con el grupo. Tengo experiencia respecto a proyectos previamente hechos en la rama de Ingenieria de Software y conocimientos en programacion como en HTML y CSS. Siempre procuro lo mejor para el equipo y ayudar en todo lo que este en mi alcance. |
 | ![alt text](assets/fotos/OMAR.png)| Omar Luquillas Asto | U20211G641 | Soy Valentino Sandoval, tengo 20 años y soy estudiante de la carrera de Ingeniería de Software. Tengo conocimiento en lenguajes de programación como python y c++, y bases de datos como SQLServer y MongoDB. Desde pequeño me sentí atraído por la tecnología, por lo que me decidí a estudiar la carrera, además disfruto de jugar videojuegos con amigos en mi tiempo libre. |
 |![alt text](assets/fotos/VALENTINO.png) | Valentino Sandoval Paiva | U20211A962 |Soy Valentino Sandoval, tengo 22 años y soy estudiante de la carrera de Ingeniería de Software. Tengo conocimiento en lenguajes de programación como python y c++, y bases de datos como SQLServer y MongoDB. Desde pequeño me sentí atraído por la tecnología, por lo que me decidí a estudiar la carrera, además disfruto de jugar videojuegos con amigos en mi tiempo libre. |
-|![alt text](assets/fotos/jhonfoto.jpg) | Jhon Alexander Galvez Chambi | u202323270  |Soy una persona responsable y comprometida con la consecución de los mejores resultados en trabajo en equipo. Poseo experiencia en diversos lenguajes de programación, incluyendo Python, JavaScript y C++, así como en varios de los frameworks asociados a estos lenguajes. Además, tengo conocimientos en tecnologías emergentes como Cloud Computing e Internet de las Cosas (IoT), y estoy dispuesto a aportar mi experiencia en estas áreas para contribuir al éxito de los proyectos en los que participo. |
-|![alt text](assets/fotos/fabriziofoto.jpg) | Fabrizio Alberto Paredes Santos | u202310914  |Profesional en formación con experiencia en desarrollo de aplicaciones web y móviles utilizando stacks modernos como Vue.js y .NET, Angular y Spring Boot, además de desarrollo móvil con Flutter y Kotlin. También he trabajado en la creación de páginas web con React, Next.js y Tailwind CSS, enfocadas en rendimiento y experiencia de usuario. Me caracterizo por ser proactivo, responsable y orientado a resultados, con capacidad para adaptarme a entornos dinámicos y contribuir eficazmente en equipos de desarrollo. |
+|![alt text](assets/fotos/jhonfoto.jpg) | Jhon Alexander Galvez Chambi | U202323270  |Soy una persona responsable y comprometida con la consecución de los mejores resultados en trabajo en equipo. Poseo experiencia en diversos lenguajes de programación, incluyendo Python, JavaScript y C++, así como en varios de los frameworks asociados a estos lenguajes. Además, tengo conocimientos en tecnologías emergentes como Cloud Computing e Internet de las Cosas (IoT), y estoy dispuesto a aportar mi experiencia en estas áreas para contribuir al éxito de los proyectos en los que participo. |
+|![alt text](assets/fotos/fabriziofoto.jpg) | Fabrizio Alberto Paredes Santos | U202310914  |Profesional en formación con experiencia en desarrollo de aplicaciones web y móviles utilizando stacks modernos como Vue.js y .NET, Angular y Spring Boot, además de desarrollo móvil con Flutter y Kotlin. También he trabajado en la creación de páginas web con React, Next.js y Tailwind CSS, enfocadas en rendimiento y experiencia de usuario. Me caracterizo por ser proactivo, responsable y orientado a resultados, con capacidad para adaptarme a entornos dinámicos y contribuir eficazmente en equipos de desarrollo. |
+|![alt text](assets/fotos/Ramiro.png) | Ramiro Alexander Guzmán Chávez | U202217062  |Mi perfil se basa en ser una persona responsable, disciplinada en todo aspecto y comprometida con las actividades que me puedan tocar. Considero que tengo una experiencia altamente capacitada para este tipo de tareas. Suelo desarrollarme de manera positiva en los trabajos grupales y tengo conocimientos en bases de datos, lo cual puede aportar de manera importante al equipo. Además, cuento con conocimientos en lenguajes de programación como Java y JavaScript, lo que me permite desarrollar soluciones tanto del lado del backend como del frontend, contribuyendo a proyectos de desarrollo de software de manera integral. |
 
 
 ### 1.2. Solution Profile
@@ -471,10 +472,164 @@ La sección abarca el proceso de investigación de nuestros segmentos objetivos 
 ## Capítulo III: Requirements Specification
 
 ### 3.1. User Stories.
+En esta sección se detallan todas las **User Stories** identificadas para la aplicación JameoFit. Incluyen:  
+
+- Funcionalidades básicas de la app  
+- Integración con dispositivos IoT: bebedor inteligente y báscula inteligente  
+- IA tipo coach nutricional para recomendaciones guiadas  
+
+Cada historia está estructurada para facilitar desarrollo ágil y validación iterativa.
+
+---
+
+| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+|-----------------|--------|-------------|------------------------|---------------------------|
+| US-01 | Registro de Usuario | Como visitante, quiero registrarme en la aplicación para empezar a gestionar mis necesidades alimenticias. | Escenario 01: Dado que soy un nuevo usuario, al completar registro, la app muestra sugerencias iniciales. <br> Escenario 02: Dado que completé datos después, la app actualiza las sugerencias automáticamente. | EP-01 |
+| US-02 | Recuperación de Contraseña | Como usuario, quiero recuperar mi contraseña en caso de olvidarla. | Escenario 01: La app envía correo con instrucciones. <br> Escenario 02: Permite reenviar correo si no se recibió. | EP-01 |
+| US-03 | Personalización de Perfil | Como usuario registrado, quiero completar y editar mis preferencias alimenticias. | Escenario 01: Al ingresar alergias o restricciones, se excluyen alimentos del plan. <br> Escenario 02: Al cambiar objetivo de salud, se ajusta plan automáticamente. | EP-01 |
+| US-04 | Plan Alimenticio Personalizado | Como usuario, quiero recibir un plan alimenticio personalizado. | Escenario 01: Genera plan adaptado al perfil del usuario. <br> Escenario 02: Al cambiar nivel de actividad, se genera nueva propuesta. | EP-02 |
+| US-05 | Edición de Plan Alimenticio | Como usuario, quiero modificar o sustituir comidas del plan. | Escenario 01: Sustituir comida no deseada con alternativas saludables. <br> Escenario 02: Actualizar plan tras registrar nuevas restricciones. | EP-02 |
+| US-06 | Registro Diario de Alimentos | Como usuario, quiero registrar lo que como diariamente. | Escenario 01: Guardar y analizar los registros diarios. <br> Escenario 02: Permitir editar registros pasados. | EP-03 |
+| US-07 | Recordatorios de Comidas | Como usuario, quiero recibir recordatorios de registro de comidas. | Escenario 01: Notificaciones según horarios seleccionados. <br> Escenario 02: Advertencias por registros faltantes. | EP-03 |
+| US-08 | Visualización del Progreso | Como usuario, quiero visualizar mi progreso nutricional. | Escenario 01: Mostrar estadísticas y tendencias. <br> Escenario 02: Indicar días sin registro. | EP-03 |
+| US-09 | Feedback Diario | Como usuario, quiero recibir comentarios diarios sobre alimentación. | Escenario 01: Mostrar resumen nutricional al final del día. <br> Escenario 02: Recomendar ajustes si se supera meta calórica. | EP-03 |
+| US-10 | Registro de Logros | Como usuario, quiero ver mis avances y logros. | Escenario 01: Mostrar insignias al cumplir objetivos. <br> Escenario 02: Resaltar progresos mensuales con mensajes motivacionales. | EP-04 |
+| US-11 | Alertas de Objetivos no Alcanzados | Como usuario, quiero recibir alertas de metas no cumplidas. | Escenario 01: Sincronización con dispositivos IoT. <br> Escenario 02: Al desvincular IoT, dejar de recibir datos. | EP-03 |
+| US-12 | Panel de Pacientes | Como nutricionista, quiero ver panel con estado de pacientes. | Escenario 01: Mostrar progreso incluyendo datos de IoT. <br> Escenario 02: Generar alertas ante cambios significativos. | EP-05 |
+| US-13 | Envío de Sugerencias | Como nutricionista, quiero enviar recomendaciones a usuarios. | Escenario 01: Enviar mensajes en tiempo real. <br> Escenario 02: Dejar mensaje si usuario no está disponible. | EP-05 |
+| US-14 | Personalización de Metas | Como usuario, quiero definir metas específicas. | Escenario 01: Confirmar ajustes de metas. <br> Escenario 02: Notificar cancelaciones y actualizar plan. | EP-02 |
+| US-15 | Visualización de Logros | Como usuario, quiero ver mis logros completados. | Escenario 01: Registrar nuevas metas y progreso. <br> Escenario 02: Felicitaciones al alcanzar objetivos. | EP-04 |
+| US-16 | Notificaciones de Actividad | Como usuario, quiero recibir notificaciones sobre novedades de la app y dispositivos IoT. | Escenario 01: Importar datos relevantes de IoT. <br> Escenario 02: Revocar acceso elimina datos sincronizados. | EP-05 |
+| US-17 | Soporte en Tiempo Real | Como usuario, quiero chatear con soporte técnico. | Escenario 01: Mostrar advertencias de exceso calórico/metas no cumplidas. <br> Escenario 02: Recomendar ajustes basados en datos de IoT. | EP-05 |
+| US-18 | Conocer la propuesta de valor | Como visitante, quiero entender cómo me beneficia la app. | Escenario 01: Mostrar resumen de estadísticas y sugerencias al abrir la app. | EP-06 |
+| US-19 | Acceder al registro o inicio de sesión | Como visitante, quiero iniciar sesión o registrarme desde la barra superior. | Escenario 01: Aplicar cambios de configuración inmediatamente. | EP-06 |
+| US-20 | Navegar entre secciones desde la barra | Como visitante, quiero usar la barra superior para explorar secciones. | Escenario 01: Mensajes y publicaciones visibles en secciones correspondientes. | EP-06 |
+| US-21 | Ver resumen de beneficios | Como visitante, quiero ver los beneficios que ofrece la app. | Escenario 01: Mostrar opciones de contacto y ayuda. | EP-06 |
+| US-22 | Navegar por los beneficios principales | Como visitante, quiero navegar por la sección de beneficios. | Escenario 01: Mostrar detalles de planes, beneficios y suscripciones. | EP-06 |
+| US-23 | Visualizar testimonios | Como visitante, quiero leer testimonios de usuarios. | Escenario 01: Mostrar testimonios verificados. | EP-06 |
+| US-24 | Navegar desde el footer | Como visitante, quiero que enlaces del footer funcionen correctamente. | Escenario 01: Mostrar información y transacciones correctamente. | EP-06 |
+| US-25 | Acceder desde distintos dispositivos | Como visitante, quiero que la landing page funcione en cualquier dispositivo. | Escenario 01: Datos sensibles guardados cifrados. <br> Escenario 02: Mostrar términos de privacidad actualizados. | EP-06 |
+| US-26 | Ver recetas preestablecidas | Como usuario, quiero ver recetas ya creadas para guardar las que me interesen. | Escenario 01: Sesión cierra por inactividad automáticamente. <br> Escenario 02: Solicita inicio de sesión para funciones protegidas. | EP-07 |
+| US-27 | Hacer tracking del plan | Como usuario, quiero saber si la app sigue mi plan. | Escenario 01: Datos locales offline disponibles. <br> Escenario 02: Sincronización automática al reconectar. | EP-07 |
+| US-28 | Ver recomendaciones | Como usuario, quiero que la app muestre recomendaciones durante el día. | Escenario 01: Encuesta semanal permite calificar experiencia. | EP-07 |
+| US-29 | Registro de Nutricionista | Como nutricionista, quiero registrarme con credenciales profesionales. | Escenario 01: Registro completo y seguro. | EP-08 |
+| US-30 | Perfil Detallado de Nutricionista | Como nutricionista, quiero gestionar mi perfil profesional detallado. | Escenario 01: Visualizar y actualizar información profesional. | EP-08 |
+| US-31 | Publicación de Consejos de Nutrición | Como nutricionista, quiero publicar artículos y consejos. | Escenario 01: Publicación visible para usuarios. | EP-09 |
+| US-32 | Gestión de Contenido Educativo | Como nutricionista, quiero organizar artículos por categorías y temáticas. | Escenario 01: Sincronización entre dispositivos y preservación de progreso. | EP-09 |
+| US-33 | Chat Directo con Usuarios | Como nutricionista, quiero chatear con usuarios. | Escenario 01: Mostrar solo recetas compatibles con preferencias. <br> Escenario 02: Actualizar sugerencias automáticamente. | EP-10 |
+| US-34 | Gestión de Consultas | Como nutricionista, quiero organizar consultas y conversaciones. | Escenario 01: Configurar recordatorios de agua/consumo IoT para pacientes. | EP-10 |
+| US-35 | Configuración de Suscripciones | Como nutricionista, quiero configurar suscripciones a mi contenido. | Escenario 01: Calcular métricas automáticamente según registros IoT. | EP-11 |
+| US-36 | Panel de Suscriptores | Como nutricionista, quiero ver un panel de mis suscriptores. | Escenario 01: Compartir o guardar logros de suscriptores. | EP-11 |
+| US-37 | Notificaciones de Actividad Profesional | Como nutricionista, quiero recibir notificaciones sobre actividad en mi perfil. | Escenario 01: Mantener idioma configurado tras reinicio. | EP-08 |
+| US-38 | Herramientas de Seguimiento de Pacientes | Como nutricionista, quiero herramientas para monitorear progreso de usuarios, incluyendo IoT. | Escenario 01: Mostrar historial mensual, semanal y datos de IoT. | EP-10 |
+| US-39 | Biblioteca de Recursos Profesionales | Como nutricionista, quiero acceder a recursos científicos actualizados. | Escenario 01: Mostrar artículos relacionados y contenido complementario. | EP-09 |
+| US-40 | Estadísticas y Analytics | Como nutricionista, quiero ver estadísticas detalladas de mi actividad en la plataforma. | Escenario 01: Sugerir metas progresivas según registros IoT y metas. | EP-11 |
+| US-41 | Registro de Hidratación por Bebedor Inteligente | Como usuario, quiero que el bebedor inteligente registre mi consumo de agua automáticamente. | Escenario 01: Sincronización automática con la app al beber agua. <br> Escenario 02: Mostrar alertas si consumo bajo o sobrepasa meta. | EP-12 |
+| US-42 | Registro de Peso por Balanza Inteligente | Como usuario, quiero que la balanza inteligente sincronice mi peso automáticamente. | Escenario 01: Sincronización automática al pesarse. <br> Escenario 02: Mostrar evolución semanal y mensual. | EP-12 |
+| US-43 | Recomendaciones automáticas de alimentación (IA) | Como usuario, quiero recibir recomendaciones automáticas basadas en mis registros diarios. | Escenario 01: La IA analiza historial y sugiere ajustes diarios. <br> Escenario 02: Las sugerencias se muestran resumidas. | EP-12 |
+| US-44 | Interacción con coach virtual | Como usuario, quiero interactuar con un coach virtual para obtener sugerencias guiadas. | Escenario 01: Responde solo dentro de opciones predefinidas. <br> Escenario 02: Máximo 1–2 interacciones/día. | EP-12 |
+| US-45 | Entrenamiento supervisado por nutricionista | Como nutricionista, quiero entrenar la IA con ejemplos de mis pacientes. | Escenario 01: IA ajusta recomendaciones con datasets supervisados. <br> Escenario 02: Aplicación incremental y controlada de mejoras. | EP-12 |
+| US-46 | Limitar interacción IA | Como usuario, quiero que la IA me envíe solo sugerencias resumidas y limitadas. | Escenario 01: Prioriza recomendaciones importantes. <br> Escenario 02: Máximo 1–2 alertas/día. | EP-12 |
+
+---
+
+## Épicas
+
+- **EP-01: Registro y Gestión de Cuenta** – US-01 a US-03  
+- **EP-02: Personalización y Generación de Planes** – US-04, US-05, US-14  
+- **EP-03: Registro y Seguimiento** – US-06, US-07, US-08, US-09, US-11  
+- **EP-04: Comunidad y Motivación** – US-10, US-15  
+- **EP-05: Soporte y Experiencia del Usuario** – US-12, US-13, US-16, US-17  
+- **EP-06: Landing Page** – US-18 a US-25  
+- **EP-07: Visualización Detallada** – US-26 a US-28  
+- **EP-08: Registro y Gestión Profesional** – US-29, US-30, US-37  
+- **EP-09: Creación y Gestión de Contenido Educativo** – US-31, US-32, US-39  
+- **EP-10: Comunicación y Seguimiento de Usuarios** – US-33, US-34, US-38  
+- **EP-11: Monetización y Analytics** – US-35, US-36, US-40  
+- **EP-12: IA Coach Nutricional e IoT Integrado** – US-41 a US-46
 
 ### 3.2. Impact Mapping.
+El **Impact Map** es una herramienta visual que permite relacionar los objetivos de negocio con las personas involucradas, los impactos esperados, los entregables y las historias de usuario asociadas.  
+Su objetivo es **visualizar de manera clara y estructurada cómo cada acción contribuye a los objetivos de la plataforma**, facilitando la planificación de funcionalidades y la alineación del equipo.
+
+A continuación se presenta el Impact Map de **JameoFit**:
+
+![Impact Map Plataforma de Gestión Personalizada](assets/impact_map.png)
 
 ### 3.3. Product Backlog.
+
+El **Product Backlog** es la lista priorizada de todas las funcionalidades, mejoras, correcciones y características previstas para la aplicación **JameoFit**, incluyendo integración con dispositivos IoT (bebedor y báscula inteligentes) y el módulo de IA tipo coach nutricional.  
+
+Este backlog permite al equipo de desarrollo:  
+
+- Tener claridad sobre **qué funcionalidades se deben implementar** y en qué orden.  
+- **Planificar sprints ágiles**, asignando tareas según prioridad y complejidad.  
+- Mantener un registro del **estado de cada User Story** (Por Hacer, En Progreso, Hecho).  
+
+**Columnas del Product Backlog:**
+
+- **#Orden:** Número secuencial para organización de las historias.  
+- **User Story ID:** Identificador único de la historia de usuario.  
+- **Título:** Nombre resumido de la funcionalidad.  
+- **Descripción:** Detalle de la necesidad desde la perspectiva del usuario o profesional de salud.  
+- **Story Points:** Estimación de complejidad o esfuerzo requerido (1,2,3,5,8).  
+- **Prioridad:** Alta / Media / Baja, para guiar la planificación de sprints.  
+- **Estado:** Indica si la historia está *Por Hacer*, *En Progreso* o *Hecho*.  
+
+A continuación se presenta el backlog completo con todas las User Stories definidas hasta el momento:
+
+| #Orden | User Story ID | Título | Descripción | Story Points | Prioridad | Estado |
+|--------|---------------|--------|-------------|--------------|-----------|--------|
+| 1 | US-01 | Registro de Usuario | Como visitante, quiero registrarme en la aplicación para empezar a gestionar mis necesidades alimenticias. | 2 | Alta | Por Hacer |
+| 2 | US-02 | Recuperación de Contraseña | Como usuario, quiero recuperar mi contraseña en caso de olvidarla. | 2 | Alta | Por Hacer |
+| 3 | US-03 | Personalización de Perfil | Como usuario registrado, quiero completar y editar mis preferencias alimenticias. | 3 | Alta | Por Hacer |
+| 4 | US-04 | Plan Alimenticio Personalizado | Como usuario, quiero recibir un plan alimenticio personalizado. | 5 | Alta | Por Hacer |
+| 5 | US-05 | Edición de Plan Alimenticio | Como usuario, quiero modificar o sustituir comidas del plan. | 3 | Media | Por Hacer |
+| 6 | US-06 | Registro Diario de Alimentos | Como usuario, quiero registrar lo que como diariamente. | 5 | Alta | Por Hacer |
+| 7 | US-07 | Recordatorios de Comidas | Como usuario, quiero recibir recordatorios para registrar mis comidas. | 3 | Media | Por Hacer |
+| 8 | US-08 | Visualización del Progreso | Como usuario, quiero visualizar mi progreso nutricional. | 5 | Alta | Por Hacer |
+| 9 | US-09 | Feedback Diario | Como usuario, quiero recibir comentarios diarios sobre mi alimentación. | 5 | Alta | Por Hacer |
+| 10 | US-10 | Registro de Logros | Como usuario, quiero ver avances y logros alcanzados. | 3 | Media | Por Hacer |
+| 11 | US-11 | Alertas de Objetivos no Alcanzados | Como usuario, quiero recibir alertas cuando no cumpla objetivos diarios. | 3 | Media | Por Hacer |
+| 12 | US-12 | Panel de Pacientes | Como nutricionista, quiero ver un panel con estado de pacientes. | 5 | Alta | Por Hacer |
+| 13 | US-13 | Envío de Sugerencias | Como nutricionista, quiero enviar recomendaciones a los usuarios. | 3 | Media | Por Hacer |
+| 14 | US-14 | Personalización de Metas | Como usuario, quiero definir metas específicas. | 3 | Media | Por Hacer |
+| 15 | US-15 | Visualización de Logros | Como usuario, quiero ver mis logros completados. | 2 | Media | Por Hacer |
+| 16 | US-16 | Notificaciones de Actividad | Como usuario, quiero recibir notificaciones sobre novedades de la app y dispositivos IoT. | 2 | Media | Por Hacer |
+| 17 | US-17 | Soporte en Tiempo Real | Como usuario, quiero chatear en tiempo real con soporte técnico. | 8 | Alta | Por Hacer |
+| 18 | US-18 | Conocer la propuesta de valor | Como visitante, quiero entender cómo me beneficia la app. | 2 | Baja | Por Hacer |
+| 19 | US-19 | Acceder al registro o inicio de sesión | Como visitante, quiero iniciar sesión o registrarme desde la barra superior. | 3 | Alta | Por Hacer |
+| 20 | US-20 | Navegar entre secciones desde la barra | Como visitante, quiero usar la barra superior para explorar secciones. | 3 | Media | Por Hacer |
+| 21 | US-21 | Ver resumen de beneficios | Como visitante, quiero ver los beneficios que ofrece la app. | 2 | Baja | Por Hacer |
+| 22 | US-22 | Navegar por los beneficios principales | Como visitante, quiero navegar por la sección de beneficios. | 3 | Media | Por Hacer |
+| 23 | US-23 | Visualizar testimonios | Como visitante, quiero leer testimonios de usuarios. | 5 | Media | Por Hacer |
+| 24 | US-24 | Navegar desde el footer | Como visitante, quiero que enlaces del footer funcionen correctamente. | 3 | Baja | Por Hacer |
+| 25 | US-25 | Acceder desde distintos dispositivos | Como visitante, quiero que la landing page funcione en cualquier dispositivo. | 5 | Media | Por Hacer |
+| 26 | US-26 | Ver recetas preestablecidas | Como usuario, quiero ver recetas ya creadas para guardar las que me interesen. | 5 | Media | Por Hacer |
+| 27 | US-27 | Hacer tracking del plan | Como usuario, quiero saber si la app sigue mi plan. | 5 | Alta | Por Hacer |
+| 28 | US-28 | Ver recomendaciones | Como usuario, quiero que la app muestre recomendaciones durante el día. | 5 | Alta | Por Hacer |
+| 29 | US-29 | Registro de Nutricionista | Como nutricionista, quiero registrarme con credenciales profesionales. | 3 | Alta | Por Hacer |
+| 30 | US-30 | Perfil Detallado de Nutricionista | Como nutricionista, quiero gestionar mi perfil profesional detallado. | 3 | Media | Por Hacer |
+| 31 | US-31 | Publicación de Consejos de Nutrición | Como nutricionista, quiero publicar artículos y consejos. | 5 | Media | Por Hacer |
+| 32 | US-32 | Gestión de Contenido Educativo | Como nutricionista, quiero organizar artículos por categorías y temáticas. | 5 | Media | Por Hacer |
+| 33 | US-33 | Chat Directo con Usuarios | Como nutricionista, quiero chatear con usuarios. | 5 | Media | Por Hacer |
+| 34 | US-34 | Gestión de Consultas | Como nutricionista, quiero organizar consultas y conversaciones. | 5 | Media | Por Hacer |
+| 35 | US-35 | Configuración de Suscripciones | Como nutricionista, quiero configurar suscripciones a mi contenido. | 8 | Alta | Por Hacer |
+| 36 | US-36 | Panel de Suscriptores | Como nutricionista, quiero ver un panel de mis suscriptores. | 5 | Media | Por Hacer |
+| 37 | US-37 | Notificaciones de Actividad Profesional | Como nutricionista, quiero recibir notificaciones sobre actividad en mi perfil. | 3 | Media | Por Hacer |
+| 38 | US-38 | Herramientas de Seguimiento de Pacientes | Como nutricionista, quiero herramientas para monitorear progreso de usuarios, incluyendo IoT. | 8 | Alta | Por Hacer |
+| 39 | US-39 | Biblioteca de Recursos Profesionales | Como nutricionista, quiero acceder a recursos científicos actualizados. | 5 | Media | Por Hacer |
+| 40 | US-40 | Estadísticas y Analytics | Como nutricionista, quiero ver estadísticas detalladas de mi actividad en la plataforma. | 5 | Alta | Por Hacer |
+| 41 | US-41 | Registro de Hidratación por Bebedor Inteligente | Como usuario, quiero que el bebedor inteligente registre mi consumo de agua automáticamente. | 5 | Alta | Por Hacer |
+| 42 | US-42 | Registro de Peso por Balanza Inteligente | Como usuario, quiero que la balanza inteligente sincronice mi peso automáticamente. | 5 | Alta | Por Hacer |
+| 43 | US-43 | Recomendaciones automáticas de alimentación (IA) | Como usuario, quiero recibir recomendaciones automáticas basadas en mis registros diarios. | 5 | Alta | Por Hacer |
+| 44 | US-44 | Interacción con coach virtual | Como usuario, quiero interactuar con un coach virtual para obtener sugerencias guiadas. | 5 | Alta | Por Hacer |
+| 45 | US-45 | Entrenamiento supervisado por nutricionista | Como nutricionista, quiero entrenar la IA con ejemplos de mis pacientes. | 5 | Alta | Por Hacer |
+| 46 | US-46 | Limitar interacción IA | Como usuario, quiero que la IA me envíe solo sugerencias resumidas y limitadas. | 3 | Alta | Por Hacer |
+
+A continuación se proporciona el link del Trello donde se puede visualizar de mejor forma el Product Backlog:
+
+[Product Backlog en Trello](https://trello.com/invite/b/69e066b886a5da9121cc7c78/ATTI01bec2006d16cd472b53e993911124889AFC839B/product-backlog-jameofit-iot)
 
 ## Capítulo IV: Solution Software Design
 
