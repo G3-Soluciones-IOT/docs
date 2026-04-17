@@ -1672,21 +1672,71 @@ La relación entre trackings y tracking_entries es de composición (1 a N), lo q
 
 #### 4.2.5. Bounded Context: Nutricionista
 
+Este contexto se encarga de la gestión del perfil profesional de los especialistas y de la supervisión estratégica de los pacientes. Su rol ha evolucionado para integrarse con el modelo de IA: el nutricionista actúa como el "validador final" y "entrenador" del sistema. En lugar de monitorizar cada dato, el contexto se enfoca en la gestión de excepciones y en la retroalimentación técnica que permite mejorar la precisión de las inferencias nutricionales.
+
 ##### 4.2.5.1. Domain Layer.
+
+La capa de dominio reúne las entidades y reglas que definen las capacidades profesionales del nutricionista dentro del sistema. En esta capa se modela la supervisión experta, la relación clínica con los pacientes y los criterios especializados que permiten validar excepciones y retroalimentar el comportamiento del motor de IA.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|----------------------------------|
+| `Nutritionist` | `Aggregate Root` | Entidad raíz que gestiona la identidad profesional, especialidad y la lógica de validación global. | `userId`, `specialty`, `experience` / `validateAnomaly()`, `updateClinicalProfile()` |
+| `NutritionistPatient` | `Entity` | Representa la relación clínica con un paciente y el estado de su adherencia supervisada. | `patientId`, `status`, `assignedAt` / `escalateToSpecialist()`, `approveRecord()` |
+| `Specialty` | `Value Object` | Clasificación inmutable de la rama técnica del nutricionista (ej. Deportiva, Clínica). | `name`, `description` / `matchesWith(GoalType)` |
+| `ExpertValidationService` | `Domain Service` | Interfaz que define cómo el criterio del especialista se traduce en correcciones para el modelo de IA. | `provideFeedback(InferenceException)` |
 
 ##### 4.2.5.2. Interface Layer.
 
+La capa de interfaz expone los puntos de acceso necesarios para que el nutricionista interactúe con su perfil profesional, supervise pacientes y atienda eventos de validación manual. En esta capa se ubican los controladores y consumidores encargados de recibir solicitudes desde el portal web y eventos provenientes de otros bounded contexts.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|----------------------------------|
+| `NutritionistsController` | `REST Controller` | Expone los servicios de gestión de perfil y dashboards para la aplicación web. | `getNutritionistProfile()`, `registerSpecialty()` |
+| `PatientReviewController` | `REST Controller` | Punto de entrada para que el especialista valide manualmente las ingestas marcadas como "Excepción". | `getPendingReviews()`, `confirmValidation()` |
+| `InferenceAnomalyConsumer` | `Message Consumer` | Escucha eventos asíncronos provenientes de Rutina Alimentaria sobre datos que la IA no pudo procesar. | `onAnomalyDetected(payload)` |
+
 ##### 4.2.5.3. Application Layer.
+
+La capa de aplicación coordina los flujos de trabajo profesionales vinculados con la admisión de pacientes, la revisión de anomalías y la consulta de indicadores de seguimiento. Su función es orquestar las operaciones entre la interfaz, el dominio y las integraciones requeridas para sostener la supervisión especializada.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|----------------------------------|
+| `ApprovePatientCommandHandler` | `Command Handler` | Gestiona la admisión de un nuevo usuario al plan de seguimiento profesional. | `handle(ApprovePatientCommand)` |
+| `ReviewAnomalyCommandHandler` | `Command Handler` | Procesa la decisión del nutricionista sobre una alerta de IA y actualiza el aprendizaje del sistema. | `handle(ReviewAnomalyCommand)` |
+| `NutritionistQueryService` | `Query Service` | Provee vistas optimizadas del rendimiento de los pacientes asignados para toma de decisiones rápida. | `getPatientAdherenceSummary(nutritionistId)` |
 
 ##### 4.2.5.4. Infrastructure Layer.
 
+La capa de infraestructura encapsula los mecanismos técnicos de persistencia e integración que permiten sostener la operación del bounded context. En esta capa se concretan los accesos a almacenamiento relacional y las conexiones con servicios externos necesarios para obtener contexto clínico y verificar la habilitación profesional del especialista.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|----------------------------------|
+| `JpaNutritionistRepository` | `Repository Impl` | Persistencia relacional de los perfiles profesionales en PostgreSQL. | `save()`, `findByUserId()` |
+| `ExternalProfilesACL` | `ACL Client` | Adapta los datos antropométricos del BC de Perfiles para que el nutricionista tenga contexto clínico. | `getPatientDetails(patientId)` |
+| `StripeBillingClient` | `Client` | Verifica que el nutricionista tenga habilitada su licencia de uso profesional de la plataforma. | `verifyProfessionalSubscription()` |
+
 ##### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams.
+
+En este diagrama se resalta la segregación entre las consultas de perfiles y la gestión de alertas expertas. Se utiliza una ACL (Anti-Corruption Layer) para evitar que cambios en el servicio de Profiles afecten la lógica de supervisión del nutricionista.
+
+![Component Level Diagram](./assets/TB1/bc5_component_diagram.png)
 
 ##### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams.
 
+Esta sección presenta los diagramas de nivel de código del Bounded Context, los cuales permiten visualizar con mayor detalle la organización interna de sus clases, servicios, interfaces y relaciones. A diferencia de los diagramas de contenedores y componentes, que muestran la estructura general de la solución, este nivel se enfoca en cómo se materializa técnicamente el diseño dentro del código. Su construcción se apoya en los principios de Clean Architecture y en el diseño táctico de DDD, con el objetivo de mantener una separación clara entre dominio, aplicación, interfaces e infraestructura. De este modo, se busca que las reglas de negocio permanezcan desacopladas de decisiones técnicas específicas, que la comunicación entre capas se mantenga clara y consistente, y que el sistema pueda evolucionar sin comprometer la lógica central del contexto.
+
+
 ###### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams.
 
+El diagrama de clases del dominio para Nutricionista representa la estructura conceptual y las relaciones internas que sostienen el comportamiento del bounded context, por lo que su propósito no es reflejar el diseño de la base de datos, sino modelar las reglas de negocio y la consistencia del sistema. En este nivel, el diseño se organiza alrededor del agregado Nutritionist, que actúa como entidad raíz y concentra la responsabilidad de supervisar la adherencia clínica y gestionar el feedback experto sobre las inferencias del sistema. A su alrededor se definen entidades como NutritionistPatient y value objects como Specialty que encapsulan el estado y la lógica propia del dominio, como la categorización profesional y la validación de alertas, evitando dispersar estas responsabilidades en capas externas. Asimismo, los servicios del dominio se expresan mediante contratos que describen capacidades necesarias para el negocio (como la validación experta), permitiendo que las integraciones técnicas se adapten al modelo definido y preservando así la independencia y claridad del núcleo del sistema.
+
+![Class Diagram](./assets/TB1/bc5_class_diagram.png)
+
 ###### 4.2.5.6.2. Bounded Context Database Design Diagram.
+
+La estrategia de modelado para el contexto de Nutricionista sigue un enfoque de Aislamiento Profesional. Se prioriza la relación entre el experto y su base de pacientes asignados. El diseño incluye tablas de auditoría para registrar cada vez que un nutricionista corrige una decisión de la IA, lo cual es vital para el cumplimiento normativo en salud y para el re-entrenamiento del modelo. La integridad referencial se asegura mediante el uso de user_id como enlace con el sistema de identidad, pero manteniendo los datos clínicos encapsulados en este contexto.
+
+![Database Diagram](./assets/TB1/bc5_database_diagram.png)
 
 #### 4.2.6. Bounded Context: Gestión de Planes Alimenticios
 
