@@ -76,10 +76,12 @@
 | Versión | Fecha      | Autor                         | Descripción                                                                  |
 |---------|------------|-------------------------------|------------------------------------------------------------------------------|
 | AV1     | 05/04/2026 | Jhon Alexander Galvez Chambi  | Desarrollo de la carátula, tabla de contenidos y estructura general del informe. |
-| AV1     | 15/04/2026   |   Valentino Sandoval Paiva                            | Para esta entrega, lideré el diseño estratégico mediante EventStorming, el descubrimiento de contextos y la elaboración de los Bounded Context Canvases y el Context Mapping. Asimismo, definí la arquitectura de software a través de los diagramas de Landscape, Context, Container y Deployment, complementándolo con el análisis competitivo, las historias de usuario y el desarrollo integral de las capas del Bounded Context IAM.                                                                             |
-| AV1     | /04/2025   |                               |                                                                              |
-| AV1     | /04/2025   |                               |                                                                              |
-| AV1     | /04/2025   |                               |                                                                              |
+| AV1     | 1x/04/2026 | Mathias Eduardo Bueno Perales  |              |
+| AV1     | 15/04/2026 |   Valentino Sandoval Paiva  | Para esta entrega, lideré el diseño estratégico mediante EventStorming, el descubrimiento de contextos y la elaboración de los Bounded Context Canvases y el Context Mapping. Asimismo, definí la arquitectura de software a través de los diagramas de Landscape, Context, Container y Deployment, complementándolo con el análisis competitivo, las historias de usuario y el desarrollo integral de las capas del Bounded Context IAM.   |
+| AV1     | 15/04/2026 | Ramiro Alexander Guzmán Chávez   |  Desarrollo de User Stories, Product Backlog, Impact Mapping y adaptación a dispositivos inteligentes e IA.      |
+| AV1     | 16/04/2026 | Omar Luquillas Asto  | Desarrollo de secciones correspondientes a los Bounded Context: Inicio y Registro de Sesión, Perfil de Usuario y Gestión de Objetivos   |
+| AV1     | 17/04/2026 | Jhon Alexander Galvez Chambi  | Desarrollo de secciones correspondientes a los Bounded Context: Rutina Alimentaria, Nutricionista, Gestion de Planes Alimenticios, Comunicacion y Pagos   |
+| AV1     | 17/04/2026   | Pablo Antonio Geronimo Quispe  |        Desarrollo del needfinding agregando los respectivos User Persona ,Empathy Map,JourneyMap y documentacion del Ubiquitous Language agregando       |         
 
 ## Project Report Collaboration Insights
 
@@ -243,11 +245,12 @@ Ser una startup referente en el desarrollo de productos digitales orientados a l
 | Foto | Miembros del equipo | Código de Estudiante | Descripción |
 | :---: | :--- | :--- | :--- |
 |![alt text](assets/fotos/foto-mathias.png) | Mathias Bueno Perales  | u202313433 |Soy una persona optimista y responsable al cumplir mis labores para-con el grupo. Tengo experiencia respecto a proyectos previamente hechos en la rama de Ingenieria de Software y conocimientos en programacion como en HTML y CSS. Siempre procuro lo mejor para el equipo y ayudar en todo lo que este en mi alcance. |
-| ![alt text](assets/fotos/OMAR.png)| Omar Luquillas Asto | U20211G641 | Soy Valentino Sandoval, tengo 20 años y soy estudiante de la carrera de Ingeniería de Software. Tengo conocimiento en lenguajes de programación como python y c++, y bases de datos como SQLServer y MongoDB. Desde pequeño me sentí atraído por la tecnología, por lo que me decidí a estudiar la carrera, además disfruto de jugar videojuegos con amigos en mi tiempo libre. |
+| ![alt text](assets/fotos/OMAR.png)| Omar Luquillas Asto | U20211G641 | Soy estudiante de la carrera de Ingeniería de Software. Elegí esta carrera porque me apasiona la tecnología, el desarrollo de software y la programación. Tengo conocimientos en lenguajes de programación como C++, Python y Java. Me considero una persona investigadora, ya que me gusta aprender cosas nuevas y siempre estoy en busca de soluciones creativas e innovadoras que generen un impacto positivo en la vida de las personas. Además, valoro el trabajo en equipo, soy responsable y me comprometo a cumplir con mis tareas de manera eficiente. |
 |![alt text](assets/fotos/VALENTINO.png) | Valentino Sandoval Paiva | U20211A962 |Soy Valentino Sandoval, tengo 22 años y soy estudiante de la carrera de Ingeniería de Software. Tengo conocimiento en lenguajes de programación como python y c++, y bases de datos como SQLServer y MongoDB. Desde pequeño me sentí atraído por la tecnología, por lo que me decidí a estudiar la carrera, además disfruto de jugar videojuegos con amigos en mi tiempo libre. |
 |![alt text](assets/fotos/jhonfoto.jpg) | Jhon Alexander Galvez Chambi | U202323270  |Soy una persona responsable y comprometida con la consecución de los mejores resultados en trabajo en equipo. Poseo experiencia en diversos lenguajes de programación, incluyendo Python, JavaScript y C++, así como en varios de los frameworks asociados a estos lenguajes. Además, tengo conocimientos en tecnologías emergentes como Cloud Computing e Internet de las Cosas (IoT), y estoy dispuesto a aportar mi experiencia en estas áreas para contribuir al éxito de los proyectos en los que participo. |
 |![alt text](assets/fotos/fabriziofoto.jpg) | Fabrizio Alberto Paredes Santos | U202310914  |Profesional en formación con experiencia en desarrollo de aplicaciones web y móviles utilizando stacks modernos como Vue.js y .NET, Angular y Spring Boot, además de desarrollo móvil con Flutter y Kotlin. También he trabajado en la creación de páginas web con React, Next.js y Tailwind CSS, enfocadas en rendimiento y experiencia de usuario. Me caracterizo por ser proactivo, responsable y orientado a resultados, con capacidad para adaptarme a entornos dinámicos y contribuir eficazmente en equipos de desarrollo. |
 |![alt text](assets/fotos/Ramiro.png) | Ramiro Alexander Guzmán Chávez | U202217062  |Mi perfil se basa en ser una persona responsable, disciplinada en todo aspecto y comprometida con las actividades que me puedan tocar. Considero que tengo una experiencia altamente capacitada para este tipo de tareas. Suelo desarrollarme de manera positiva en los trabajos grupales y tengo conocimientos en bases de datos, lo cual puede aportar de manera importante al equipo. Además, cuento con conocimientos en lenguajes de programación como Java y JavaScript, lo que me permite desarrollar soluciones tanto del lado del backend como del frontend, contribuyendo a proyectos de desarrollo de software de manera integral. |
+|![alt text](assets/fotos/pablo-photo.png) | Pablo Antonio Geronimo Quispe | U202314304 |Soy Pablo, estudiante de Ingeniería de Software en el séptimo ciclo. Me caracterizo por ser una persona responsable, disciplinada y comprometida con cada actividad que asumo, manteniendo siempre un enfoque orientado a resultados y mejora continua. Asimismo, tengo interés y conocimientos en ciberseguridad, especialmente en el ámbito de redes móviles, lo que me permite comprender riesgos, aplicar buenas prácticas de seguridad y aportar en la protección de la información y los sistemas dentro de entornos digitales. |
 
 
 ### 1.2. Solution Profile
@@ -407,7 +410,8 @@ El sector salud en el Perú viene experimentando un proceso de digitalización p
 # Competitive analysis landscape
 
 **¿Cuál es el análisis de las ventajas y desventajas de las empresas que compiten con nosotros? ¿Cómo nos comparamos en términos de fortalezas y debilidades respecto a ellos? ¿Se vislumbran oportunidades para destacarnos de la competencia y de qué manera podríamos sacar provecho de ellas?**  
-_El propósito de este análisis competitivo es evaluar las ventajas y desventajas de la startup y nuestro producto en comparación con los competidores, con el fin de crear estrategias y diseños que nos permitan competir de manera efectiva en el mercado.
+
+El propósito de este análisis competitivo es evaluar las ventajas y desventajas de la startup y nuestro producto en comparación con los competidores, con el fin de crear estrategias y diseños que nos permitan competir de manera efectiva en el mercado.
 
 
 #### 2.1.1. Análisis competitivo.
@@ -433,16 +437,16 @@ _El propósito de este análisis competitivo es evaluar las ventajas y desventaj
 
 #### 2.1.2. Estrategias y tácticas frente a competidores.
 
-#### Para que JF Technologies se posicione con éxito frente a gigantes establecidos como Fitia o MyFitnessPal, la estrategia no debe ser "hacer lo mismo pero mejor", sino atacar los puntos donde ellos son lentos o burocráticos.
+Para que JF Technologies se posicione con éxito frente a gigantes establecidos como Fitia o MyFitnessPal, la estrategia no debe ser "hacer lo mismo pero mejor", sino atacar los puntos donde ellos son lentos o burocráticos.
 
-#### Mientras MyFitnessPal y Fitia obligan al usuario a buscar y anotar cada gramo, JF automatiza el proceso. Tu fortaleza es el tiempo ahorrado del usuario.
+Mientras MyFitnessPal y Fitia obligan al usuario a buscar y anotar cada gramo, JF automatiza el proceso. Tu fortaleza es el tiempo ahorrado del usuario.
 
 
-#### Respecto a las debilidades,  MyFitnessPal tiene 15 años de datos. JF empieza de cero. La debilidad es la precisión inicial de la base de datos de alimentos comparada con los catálogos globales.
+Respecto a las debilidades,  MyFitnessPal tiene 15 años de datos. JF empieza de cero. La debilidad es la precisión inicial de la base de datos de alimentos comparada con los catálogos globales.
 
-#### Ahora, las oportunidades que presenta nuestro producto, si bien Nutrium es bueno para el nutricionista es aburrido para un usuario; Fitia es bueno para el usuario pero ignorado por el médico. JF puede ser el puente de datos en tiempo real.
+Ahora, las oportunidades que presenta nuestro producto, si bien Nutrium es bueno para el nutricionista es aburrido para un usuario; Fitia es bueno para el usuario pero ignorado por el médico. JF puede ser el puente de datos en tiempo real.
 
-#### Finalmente factores que representan amenazas, si Fitia implementa una función de "foto-reconocimiento" mañana, la ventaja tecnológica de JF se reduce. La amenaza es la velocidad de copia de los incumbentes con más capital.
+Finalmente factores que representan amenazas, si Fitia implementa una función de "foto-reconocimiento" mañana, la ventaja tecnológica de JF se reduce. La amenaza es la velocidad de copia de los incumbentes con más capital.
 
 
 ### 2.2. Entrevistas.
@@ -450,6 +454,82 @@ _El propósito de este análisis competitivo es evaluar las ventajas y desventaj
 La sección abarca el proceso de investigación de nuestros segmentos objetivos mediante la recolección de información en base a entrevistas.
 
 #### 2.2.1. Diseño de entrevistas.
+
+### Segmento Objetivo #1: Usuarios finales (Enfoque en bienestar y nutrición)
+##### *Preguntas dirigidas a personas que buscan mejorar sus hábitos alimenticios, deportistas o quienes necesitan controlar su ingesta por salud.*
+
+**Características demográficas:**
+
+1. ¿Cuál es tu edad?
+
+2. ¿En qué ciudad resides actualmente?
+
+3. ¿Sigues actualmente algún plan nutricional específico o utilizas alguna herramienta de salud?
+
+**Preguntas Principales:**
+
+1. ¿Qué sueles hacer actualmente para llevar un control de lo que comes en el día?
+
+2. ¿Has intentado usar aplicaciones para contar calorías o macros antes? Si es así, ¿qué fue lo que más te costó o por qué dejaste de usarlas?
+
+3. ¿Cómo manejas el registro de tus comidas cuando comes fuera de casa o estás en un día muy ajetreado?
+
+4. ¿Qué tan preciso crees que es tu registro actual cuando lo haces de manera manual o por estimación?
+
+5. ¿Sientes que el tiempo que inviertes en registrar tus alimentos interfiere con tu disfrute de la comida o tu rutina diaria?
+
+6. ¿Qué tan cómodo/a te sentirías si una aplicación analizara tus fotos de comida o datos de compras para sugerirte mejoras en tu dieta?
+
+**Preguntas sobre el Proyecto (JF Technologies):**
+
+1. ¿Qué te parecería una solución que registre tu ingesta nutricional casi automáticamente (por ejemplo, mediante fotos), reduciendo la necesidad de escribir cada ingrediente?
+
+2. ¿Qué información considerarías indispensable ver en tu pantalla principal? (ej. calorías restantes, alertas de nutrientes, hidratación, progreso semanal).
+
+3. ¿Considerarías útil que estos datos se compartan automáticamente con tu nutricionista o entrenador para que él/ella ajuste tu plan en tiempo real?
+
+4. Si la aplicación te diera recomendaciones personalizadas basadas en IA sobre qué comer según tus metas del día, ¿qué nivel de confianza te generaría?
+
+5. ¿Estarías dispuesto/a a pagar una suscripción mensual si la herramienta te ahorra el 80% del tiempo que hoy dedicas a registrar tu alimentación?
+<br>
+
+### Segmento Objetivo #2: Profesionales de la Salud (Nutricionistas y Entrenadores)
+
+##### *Preguntas dirigidas a especialistas que requieren datos confiables de sus pacientes/clientes.*
+
+**Características demográficas:**
+
+1. ¿Cuál es tu especialidad y cuántos años de experiencia tienes?
+
+2. ¿En qué entorno trabajas principalmente (consulta privada, clínica, remoto)?
+
+3. ¿Cuántos pacientes o clientes manejas activamente al mes?
+
+**Preguntas Principales:**
+
+1. ¿Cómo verificas actualmente que tus pacientes están cumpliendo con el plan nutricional que les asignaste?
+
+2. ¿Qué tan confiables consideras que son los reportes manuales que te entregan tus pacientes (diarios de comida, excels, mensajes)?
+
+3. ¿Cuál es el mayor obstáculo que enfrentas al intentar ajustar un plan nutricional entre una cita y la siguiente?
+
+4. ¿Has detectado casos donde el paciente abandona el tratamiento debido a la dificultad de registrar sus hábitos?
+
+5. ¿Qué tipo de datos biométricos o nutricionales te gustaría tener "en vivo" para tomar mejores decisiones clínicas?
+
+6. ¿Qué herramientas digitales utilizas hoy para gestionar a tus pacientes y qué les falta para ser ideales?
+
+**Preguntas sobre el Proyecto (JF Technologies):**
+
+1. ¿Qué opinas de contar con un dashboard profesional que te muestre el comportamiento real de ingesta de tus pacientes sin que ellos tengan que llenar formularios tediosos?
+
+2. ¿Qué funcionalidades serían más valiosas para tu práctica? (ej. alertas de consumo excesivo de ciertos nutrientes, gráficos de adherencia semanal, exportación de reportes para historia clínica).
+
+3. ¿Cómo cambiaría tu forma de trabajar si pudieras ver fotos reales de lo que come tu paciente validadas por una IA nutricional?
+
+4. Respecto a la seguridad de la información: ¿Qué requisitos mínimos de privacidad de datos exigirías para vincular a tus pacientes a una plataforma así?
+
+5. ¿Estarías dispuesto/a a recomendar o incluir el costo de esta herramienta como parte de tus servicios profesionales?
 
 #### 2.2.2. Registro de entrevistas.
 
@@ -459,15 +539,222 @@ La sección abarca el proceso de investigación de nuestros segmentos objetivos 
 
 #### 2.3.1. User Personas.
 
+
+Para la creación de los User Persona de cada segmento, partimos de las entrevistas realizadas, las cuales nos sirvieron como base para identificar patrones, necesidades y motivaciones reales de los usuarios. A partir de estos hallazgos, construimos representaciones ficticias pero fundamentadas en la realidad, que reflejan el perfil, objetivos y frustraciones de cada segmento clave.
+
+
+**Segmento 1: Usuarios orientados a la mejora de su alimentación**
+
+<p align="center" >
+  <img src="assets/TB1/CarlosRamirezup.png" alt="CarlosRamirezuser-persona" width="500"/>
+</p>
+
+**Segmento 2: Profesionales de la salud (nutrición y bienestar)**
+
+<p align="center">
+  <img src="assets/TB1/AndreaTorresUP.png" alt="AndreaTorresuser-persona" width="500"/>
+</p>
+
+
 #### 2.3.2. User Task Matrix.
+
+El siguiente User Task Matrix presenta las principales tareas que tanto jóvenes adultos interesados en mejorar su alimentación como profesionales de la salud (nutricionistas) realizan actualmente de manera natural, sin el uso de la aplicación JameoFit. Se identifican actividades comunes entre ambos segmentos, evaluadas según su frecuencia e importancia específicas para cada grupo.
+| Tarea | Usuario (Joven Adulto) | Usuario (Nutricionista) |
+|------|----------------------|------------------------|
+| Registrar alimentos consumidos | Alta frecuencia / Alta importancia | Alta frecuencia / Alta importancia |
+| Recordar qué alimentos consumió | Alta / Media | Media / Alta |
+| Estimar porciones y calorías | Media / Alta | Alta / Alta |
+| Consultar información nutricional | Media / Alta | Alta / Alta |
+| Monitorear hábitos alimenticios | Media / Alta | Alta / Alta |
+| Identificar patrones de alimentación | Baja / Media | Alta / Alta |
+| Tomar decisiones sobre la dieta | Alta / Alta | Alta / Alta |
+| Mantener constancia en el seguimiento | Alta / Alta | Alta / Alta |
+| Evaluar progreso nutricional | Media / Alta | Alta / Alta |
+| Detectar problemas en la alimentación | Baja / Media | Alta / Alta |
+
+
+
+Registrar alimentos consumidos:
+Es una de las actividades más críticas en ambos usuarios. En jóvenes adultos, se realiza con alta frecuencia pero de manera inconsistente debido al esfuerzo que implica el registro manual. En nutricionistas, esta tarea es fundamental para el seguimiento de pacientes, aunque depende de la información proporcionada, lo que afecta su precisión.
+
+Recordar qué alimentos consumió:
+Los jóvenes adultos suelen depender de la memoria para reconstruir su ingesta diaria, lo que genera imprecisiones. Para los nutricionistas, esta tarea tiene menor frecuencia directa, pero es relevante al momento de validar la información reportada por sus pacientes.
+
+Estimar porciones y calorías:
+Los jóvenes adultos realizan estimaciones aproximadas, generalmente con bajo nivel de precisión. En contraste, los nutricionistas aplican conocimientos técnicos para realizar estimaciones más exactas, siendo una actividad clave en su práctica.
+
+Consultar información nutricional:
+Los jóvenes consultan esta información de manera moderada para mejorar sus hábitos, mientras que los nutricionistas lo hacen con mayor frecuencia, basándose en fuentes confiables para sustentar sus recomendaciones.
+
+Monitorear hábitos alimenticios:
+En jóvenes adultos, esta actividad es irregular y depende de su motivación. En nutricionistas, es una tarea constante que forma parte del seguimiento profesional de sus pacientes.
+
+Identificar patrones de alimentación:
+Los jóvenes adultos rara vez identifican patrones de forma consciente. Por otro lado, los nutricionistas analizan estos patrones de manera sistemática para detectar problemas o áreas de mejora en la alimentación.
+
+Tomar decisiones sobre la dieta:
+Ambos usuarios realizan esta tarea con alta frecuencia. Los jóvenes lo hacen basados en información limitada o percepciones, mientras que los nutricionistas toman decisiones fundamentadas en datos y conocimiento profesional.
+
+Mantener constancia en el seguimiento:
+Para los jóvenes adultos, mantener la constancia representa un desafío importante debido a la falta de automatización y motivación. En nutricionistas, la constancia es esencial como parte de su trabajo, aunque depende del compromiso del paciente.
+
+Evaluar progreso nutricional:
+Los jóvenes realizan esta evaluación de manera ocasional y poco estructurada. En nutricionistas, es una actividad clave que permite medir resultados y ajustar los planes alimenticios.
+
+Detectar problemas en la alimentación:
+Los jóvenes adultos tienen dificultades para identificar problemas en sus hábitos. En cambio, los nutricionistas están capacitados para detectar deficiencias, excesos o patrones negativos de manera efectiva.
+
 
 #### 2.3.3. User Journey Mapping.
 
+**Segmento 1: Usuarios orientados a la mejora de su alimentación**
+
+<p align="center" >
+  <img src="assets/TB1/Customerjourneymap 1.png" alt="Customerjourneymap 1" width="500"/>
+</p>
+
+**Segmento 2: Profesionales de la salud (nutrición y bienestar)**
+
+<p align="center">
+  <img src="assets/TB1/Customerjourneymap 2.png" alt="Customerjourneymap 2" width="500"/>
+</p>
+
+
+
+
+
 #### 2.3.4. Empathy Mapping.
+
+**Segmento 1: Usuarios orientados a la mejora de su alimentación**
+
+<p align="center" >
+  <img src="assets/TB1/carlosramirezempathy.png" alt="empathymap 1" width="500"/>
+</p>
+
+**Segmento 2: Profesionales de la salud (nutrición y bienestar)**
+
+<p align="center">
+  <img src="assets/TB1/andreatorresempathymap.png" alt="empathymap 2" width="500"/>
+</p>
+
 
 ### 2.4. Big Picture EventStorming.
 
 ### 2.5. Ubiquitous Language.
+
+El Ubiquitous Language define un lenguaje común entre todos los actores del sistema, permitiendo una comunicación clara y consistente durante el desarrollo de la solución. En este proyecto, se integran conceptos relacionados con salud digital, nutrición, IoT e inteligencia artificial.
+
+
+ Usuarios y Segmentos
+
+- **Usuario Individual:**  
+  Persona que utiliza la aplicación para gestionar su alimentación personal. Generalmente jóvenes adultos que buscan mejorar su salud mediante planes nutricionales personalizados, con apoyo de automatización (IoT) y recomendaciones inteligentes (IA).
+
+- **Nutricionista:**  
+  Profesional de la salud certificado que utiliza la plataforma para gestionar pacientes, crear contenido educativo, realizar seguimiento nutricional y brindar asesoría basada en datos.
+
+- **Usuario Premium:**  
+  Usuario individual o nutricionista que accede a funcionalidades avanzadas mediante una suscripción, incluyendo análisis más profundos con IA e integración completa con dispositivos IoT.
+
+---
+
+ Funcionalidades Core para Usuarios Individuales
+
+- **Plan de Alimentación:**  
+  Conjunto personalizado de recomendaciones nutricionales generadas mediante algoritmos de IA, adaptadas al perfil, preferencias y objetivos del usuario.
+
+- **Preferencias Alimentarias:**  
+  Restricciones o elecciones del usuario (alergias, dietas, etc.), utilizadas por la IA para personalizar recomendaciones.
+
+- **Objetivo de Salud:**  
+  Meta del usuario (bajar peso, ganar masa muscular, etc.), utilizada como input para modelos de IA.
+
+- **Resumen Nutricional:**  
+  Visualización automática del consumo de calorías y nutrientes, generada a partir de datos recolectados mediante dispositivos IoT o interacción mínima del usuario.
+
+- **Receta Saludable:**  
+  Sugerencia generada por IA basada en el plan nutricional y los datos del usuario.
+
+- **Indicador de Progreso:**  
+  Métricas visuales que muestran el avance del usuario hacia sus objetivos, alimentadas por datos en tiempo real.
+
+---
+
+ Funcionalidades IoT + IA (NÚCLEO DEL PROYECTO)
+
+- **Registro Automatizado de Alimentos (IoT):**  
+  Captura automática de la ingesta alimentaria mediante sensores o dispositivos inteligentes.
+
+- **Análisis Inteligente (IA):**  
+  Procesamiento de datos nutricionales para generar insights, detectar patrones y predecir comportamientos.
+
+- **Recomendaciones Inteligentes:**  
+  Sugerencias personalizadas generadas en tiempo real según hábitos, objetivos y datos históricos.
+
+- **Alertas Inteligentes:**  
+  Notificaciones automáticas cuando se detectan desviaciones en la alimentación o progreso.
+
+---
+
+ Funcionalidades Core para Nutricionistas
+
+- **Perfil Profesional:**  
+  Información del nutricionista, incluyendo credenciales y especialidades.
+
+- **Contenido Educativo:**  
+  Material creado por nutricionistas para usuarios, validado y distribuido en la plataforma.
+
+- **Suscripción de Contenido:**  
+  Modelo que permite monetizar contenido exclusivo.
+
+- **Chat Profesional:**  
+  Canal de comunicación directa entre nutricionista y usuario.
+
+- **Panel de Gestión:**  
+  Dashboard donde el nutricionista administra pacientes, contenido y métricas.
+
+- **Analytics Profesional (IA):**  
+  Análisis avanzado del comportamiento de pacientes mediante inteligencia artificial.
+
+---
+
+ Funcionalidades Compartidas
+
+- **Notificación Inteligente:**  
+  Mensajes automatizados generados por IA según comportamiento del usuario.
+
+- **Biblioteca de Recursos:**  
+  Contenido educativo accesible según tipo de usuario.
+
+- **Sistema de Seguimiento:**  
+  Monitoreo continuo basado en datos recolectados automáticamente (IoT).
+
+---
+
+Interacciones Entre Segmentos
+
+- **Consulta Nutricional:**  
+  Interacción entre usuario y nutricionista basada en datos reales recolectados por el sistema.
+
+- **Conexión Profesional:**  
+  Relación continua entre usuario y nutricionista para seguimiento.
+
+- **Recomendación Profesional:**  
+  Sugerencias personalizadas basadas en análisis de datos del usuario.
+
+---
+
+ Soporte y Gestión
+
+- **Soporte Técnico:**  
+  Sistema de ayuda automatizado (chatbot IA) y soporte especializado.
+
+- **Verificación Profesional:**  
+  Validación de credenciales de nutricionistas.
+
+- **Moderación de Contenido:**  
+  Control de calidad del contenido publicado.
+
 
 ## Capítulo III: Requirements Specification
 
@@ -1600,94 +1887,344 @@ Para integrar de manera eficiente el enfoque IoT, el modelo incorpora la tabla h
 
 #### 4.2.4. Bounded Context: Rutina Alimentaria
 
+Este Bounded Context representa el núcleo operativo y de inteligencia del sistema. Su rol arquitectónico ha evolucionado de ser un simple gestor de persistencia a un Sistema de Procesamiento de Eventos en Tiempo Real. Bajo la nueva arquitectura, es el responsable de orquestar la telemetría proveniente del hardware (Edge), someterla a juicios de valor mediante modelos de Machine Learning (Inferencia) y consolidar la realidad nutricional del usuario para el seguimiento profesional.
+
 ##### 4.2.4.1. Domain Layer.
+
+Es la capa de máxima jerarquía donde residen las reglas de negocio agnósticas a la tecnología. Con la incorporación de la IA, el dominio ahora no solo contiene datos, sino lógica de validación probabilística para determinar la veracidad de la ingesta.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|----------------------------------|
+| `Tracking` | `Aggregate Root` | Entidad principal que garantiza la consistencia del progreso diario y la suma de macronutrientes. | `userId`, `date`, `status` / `calculateDailyProgress()`, `verifyThresholds()` |
+| `MacronutrientValues` | `Value Object` | Representa la composición química inmutable de los alimentos. | `protein`, `fat`, `carbs`, `energy` / `add()`, `isZero()` |
+| `TrackingMealPlanEntry` | `Entity` | Representa un registro de ingesta capturado. Incluye el flag de verificación por IA. | `foodName`, `recordedWeight`, `isAiVerified` / `updateNutritionalValues()` |
+| `AIInferenceService` | `Domain Service` | Interfaz que define el contrato para la validación de telemetría mediante modelos de IA. | `verifyIngesta(telemetryData) : InferenceResult` |
+| `NutritionalPolicy` | `Domain Service` | Contiene las reglas de negocio para determinar si una desviación en la dieta es "crítica" o "aceptable". | `evaluateDeviation(planned, actual)` |
 
 ##### 4.2.4.2. Interface Layer.
 
+Actúa como la frontera del microservicio. En esta iteración, la capa se expande para soportar protocolos de mensajería ligera necesarios para la comunicación con sensores.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|----------------------------------|
+| `TrackingController` | `REST Controller` | Expone la API para que las aplicaciones Mobile y Web consulten el estado nutricional. | `getDailyTrackingByUserId()`, `manualIngestaEntry()` |
+| `TelemetryMqttConsumer` | `Message Consumer` | Punto de entrada asíncrono que escucha los "pulses" de los dispositivos ESP32. | `onMessageReceived(topic, payload)`, `parseSensorData()` |
+| `TrackingResource` | `DTO` | Representación externa del agregado Tracking para consumo de las interfaces de usuario. | `totalCalories`, `progressPercentage`, `entries[]` |
+
 ##### 4.2.4.3. Application Layer.
+
+Orquesta el flujo de información. Es la encargada de tomar el dato crudo del sensor, enviarlo al motor de IA y, según el resultado, actualizar el dominio o disparar eventos hacia otros contextos.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|----------------------------------|
+| `ProcessTelemetryCommandHandler` | `Command Handler` | Coordina el flujo: Recibir telemetría -> Consultar IA -> Actualizar Tracking -> Persistir. | `handle(ProcessTelemetryCommand)` |
+| `TrackingQueryService` | `Query Service` | Maneja la recuperación de datos optimizada para los dashboards del nutricionista y usuario. | `getTrackingStatusByUser(userId)` |
+| `TrackingReadyEventHandler` | `Event Handler` | Reacciona ante la finalización de una meta diaria para notificar al usuario vía Firebase. | `on(TrackingCompletedEvent)` |
 
 ##### 4.2.4.4. Infrastructure Layer.
 
+Provee las implementaciones técnicas de los contratos definidos en el dominio. Aquí es donde se gestiona la complejidad de la nube y la conectividad física.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|----------------------------------|
+| `JpaTrackingRepository` | `Repository Impl` | Implementación de persistencia utilizando Spring Data JPA y PostgreSQL. | `save()`, `findByUserIdAndDate()` |
+| `AwsIotCoreClient` | `Client` | Gestiona la conexión segura con el broker MQTT de AWS para recibir datos del ESP32. | `subscribeToTopic()`, `publishAck()` |
+| `TensorFlowInferenceClient` | `AI Client` | Implementa la comunicación con el modelo de IA alojado en AWS SageMaker o un contenedor interno. | `invokeModel(payload)`, `mapToDomainInference()` |
+| `StripeIntegrationService` | `Client` | Valida el estado de la suscripción del usuario para habilitar/deshabilitar la telemetría IoT. | `checkSubscriptionStatus(userId)` |
+
 ##### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams.
+
+En este nivel de descomposición, se visualiza cómo el Bounded Context de Rutina Alimentaria organiza sus responsabilidades internas. Hemos aplicado el patrón CQRS para separar las mutaciones de estado (Comandos) de las consultas (Queries), optimizando así el rendimiento de la aplicación móvil. Asimismo, se destaca la ACL (Anti-Corruption Layer), representada por los clientes de integración (Feign), que aíslan nuestro modelo nutricional de los cambios en servicios externos como Profiles o Recipes.
+
+![Component Level Diagram](assets/TB1/bc4_component_diagram.png)
 
 ##### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.
 
+Esta sección presenta los diagramas de nivel de código del Bounded Context, los cuales permiten visualizar con mayor detalle la organización interna de sus clases, servicios, interfaces y relaciones. A diferencia de los diagramas de contenedores y componentes, que muestran la estructura general de la solución, este nivel se enfoca en cómo se materializa técnicamente el diseño dentro del código. Su construcción se apoya en los principios de Clean Architecture y en el diseño táctico de DDD, con el objetivo de mantener una separación clara entre dominio, aplicación, interfaces e infraestructura. De este modo, se busca que las reglas de negocio permanezcan desacopladas de decisiones técnicas específicas, que la comunicación entre capas se mantenga clara y consistente, y que el sistema pueda evolucionar sin comprometer la lógica central del contexto.
+
 ###### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams.
+
+El diagrama de clases del dominio para Rutina Alimentaria representa la estructura conceptual y las relaciones internas que sostienen el comportamiento del bounded context, por lo que su propósito no es reflejar el diseño de la base de datos, sino modelar las reglas de negocio y la consistencia del sistema. En este nivel, el diseño se organiza alrededor del agregado Tracking, que actúa como entidad raíz y concentra la responsabilidad de mantener la coherencia del progreso diario y de los valores nutricionales registrados. A su alrededor se definen entidades y value objects que encapsulan el estado y la lógica propia del dominio, como el cálculo de macronutrientes y la validación de desviaciones alimentarias, evitando dispersar estas responsabilidades en capas externas. Asimismo, los servicios del dominio se expresan mediante contratos que describen capacidades necesarias para el negocio, permitiendo que las integraciones técnicas se adapten al modelo definido y preservando así la independencia y claridad del núcleo del sistema.
+
+![Class Diagram](assets/TB1/bc4_class_diagram.png)
 
 ###### 4.2.4.6.2. Bounded Context Database Design Diagram.
 
+La estrategia de modelado para la base de datos sigue un enfoque Relacional Orientado a Agregados. En lugar de normalizar excesivamente, el diseño se centra en la integridad del Agregado Raíz trackings. Las tablas están diseñadas para soportar el almacenamiento eficiente de series temporales (registros de telemetría IoT) vinculadas a la planificación nutricional del usuario.
+
+La relación entre trackings y tracking_entries es de composición (1 a N), lo que permite que una consulta simple recupere todo el contexto diario de un usuario para la inferencia de la IA. Se han incluido columnas de auditoría técnica y banderas de verificación para soportar el flujo de excepciones escaladas al nutricionista.
+
+![Database Diagram](assets/TB1/bc4_database_diagram.png)
+
 #### 4.2.5. Bounded Context: Nutricionista
+
+Este contexto se encarga de la gestión del perfil profesional de los especialistas y de la supervisión estratégica de los pacientes. Su rol ha evolucionado para integrarse con el modelo de IA: el nutricionista actúa como el "validador final" y "entrenador" del sistema. En lugar de monitorizar cada dato, el contexto se enfoca en la gestión de excepciones y en la retroalimentación técnica que permite mejorar la precisión de las inferencias nutricionales.
 
 ##### 4.2.5.1. Domain Layer.
 
+La capa de dominio reúne las entidades y reglas que definen las capacidades profesionales del nutricionista dentro del sistema. En esta capa se modela la supervisión experta, la relación clínica con los pacientes y los criterios especializados que permiten validar excepciones y retroalimentar el comportamiento del motor de IA.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|----------------------------------|
+| `Nutritionist` | `Aggregate Root` | Entidad raíz que gestiona la identidad profesional, especialidad y la lógica de validación global. | `userId`, `specialty`, `experience` / `validateAnomaly()`, `updateClinicalProfile()` |
+| `NutritionistPatient` | `Entity` | Representa la relación clínica con un paciente y el estado de su adherencia supervisada. | `patientId`, `status`, `assignedAt` / `escalateToSpecialist()`, `approveRecord()` |
+| `Specialty` | `Value Object` | Clasificación inmutable de la rama técnica del nutricionista (ej. Deportiva, Clínica). | `name`, `description` / `matchesWith(GoalType)` |
+| `ExpertValidationService` | `Domain Service` | Interfaz que define cómo el criterio del especialista se traduce en correcciones para el modelo de IA. | `provideFeedback(InferenceException)` |
+
 ##### 4.2.5.2. Interface Layer.
+
+La capa de interfaz expone los puntos de acceso necesarios para que el nutricionista interactúe con su perfil profesional, supervise pacientes y atienda eventos de validación manual. En esta capa se ubican los controladores y consumidores encargados de recibir solicitudes desde el portal web y eventos provenientes de otros bounded contexts.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|----------------------------------|
+| `NutritionistsController` | `REST Controller` | Expone los servicios de gestión de perfil y dashboards para la aplicación web. | `getNutritionistProfile()`, `registerSpecialty()` |
+| `PatientReviewController` | `REST Controller` | Punto de entrada para que el especialista valide manualmente las ingestas marcadas como "Excepción". | `getPendingReviews()`, `confirmValidation()` |
+| `InferenceAnomalyConsumer` | `Message Consumer` | Escucha eventos asíncronos provenientes de Rutina Alimentaria sobre datos que la IA no pudo procesar. | `onAnomalyDetected(payload)` |
 
 ##### 4.2.5.3. Application Layer.
 
+La capa de aplicación coordina los flujos de trabajo profesionales vinculados con la admisión de pacientes, la revisión de anomalías y la consulta de indicadores de seguimiento. Su función es orquestar las operaciones entre la interfaz, el dominio y las integraciones requeridas para sostener la supervisión especializada.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|----------------------------------|
+| `ApprovePatientCommandHandler` | `Command Handler` | Gestiona la admisión de un nuevo usuario al plan de seguimiento profesional. | `handle(ApprovePatientCommand)` |
+| `ReviewAnomalyCommandHandler` | `Command Handler` | Procesa la decisión del nutricionista sobre una alerta de IA y actualiza el aprendizaje del sistema. | `handle(ReviewAnomalyCommand)` |
+| `NutritionistQueryService` | `Query Service` | Provee vistas optimizadas del rendimiento de los pacientes asignados para toma de decisiones rápida. | `getPatientAdherenceSummary(nutritionistId)` |
+
 ##### 4.2.5.4. Infrastructure Layer.
+
+La capa de infraestructura encapsula los mecanismos técnicos de persistencia e integración que permiten sostener la operación del bounded context. En esta capa se concretan los accesos a almacenamiento relacional y las conexiones con servicios externos necesarios para obtener contexto clínico y verificar la habilitación profesional del especialista.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|----------------------------------|
+| `JpaNutritionistRepository` | `Repository Impl` | Persistencia relacional de los perfiles profesionales en PostgreSQL. | `save()`, `findByUserId()` |
+| `ExternalProfilesACL` | `ACL Client` | Adapta los datos antropométricos del BC de Perfiles para que el nutricionista tenga contexto clínico. | `getPatientDetails(patientId)` |
+| `StripeBillingClient` | `Client` | Verifica que el nutricionista tenga habilitada su licencia de uso profesional de la plataforma. | `verifyProfessionalSubscription()` |
 
 ##### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams.
 
+En este diagrama se resalta la segregación entre las consultas de perfiles y la gestión de alertas expertas. Se utiliza una ACL (Anti-Corruption Layer) para evitar que cambios en el servicio de Profiles afecten la lógica de supervisión del nutricionista.
+
+![Component Level Diagram](./assets/TB1/bc5_component_diagram.png)
+
 ##### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams.
+
+Esta sección presenta los diagramas de nivel de código del Bounded Context, los cuales permiten visualizar con mayor detalle la organización interna de sus clases, servicios, interfaces y relaciones. A diferencia de los diagramas de contenedores y componentes, que muestran la estructura general de la solución, este nivel se enfoca en cómo se materializa técnicamente el diseño dentro del código. Su construcción se apoya en los principios de Clean Architecture y en el diseño táctico de DDD, con el objetivo de mantener una separación clara entre dominio, aplicación, interfaces e infraestructura. De este modo, se busca que las reglas de negocio permanezcan desacopladas de decisiones técnicas específicas, que la comunicación entre capas se mantenga clara y consistente, y que el sistema pueda evolucionar sin comprometer la lógica central del contexto.
+
 
 ###### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams.
 
+El diagrama de clases del dominio para Nutricionista representa la estructura conceptual y las relaciones internas que sostienen el comportamiento del bounded context, por lo que su propósito no es reflejar el diseño de la base de datos, sino modelar las reglas de negocio y la consistencia del sistema. En este nivel, el diseño se organiza alrededor del agregado Nutritionist, que actúa como entidad raíz y concentra la responsabilidad de supervisar la adherencia clínica y gestionar el feedback experto sobre las inferencias del sistema. A su alrededor se definen entidades como NutritionistPatient y value objects como Specialty que encapsulan el estado y la lógica propia del dominio, como la categorización profesional y la validación de alertas, evitando dispersar estas responsabilidades en capas externas. Asimismo, los servicios del dominio se expresan mediante contratos que describen capacidades necesarias para el negocio (como la validación experta), permitiendo que las integraciones técnicas se adapten al modelo definido y preservando así la independencia y claridad del núcleo del sistema.
+
+![Class Diagram](./assets/TB1/bc5_class_diagram.png)
+
 ###### 4.2.5.6.2. Bounded Context Database Design Diagram.
+
+La estrategia de modelado para el contexto de Nutricionista sigue un enfoque de Aislamiento Profesional. Se prioriza la relación entre el experto y su base de pacientes asignados. El diseño incluye tablas de auditoría para registrar cada vez que un nutricionista corrige una decisión de la IA, lo cual es vital para el cumplimiento normativo en salud y para el re-entrenamiento del modelo. La integridad referencial se asegura mediante el uso de user_id como enlace con el sistema de identidad, pero manteniendo los datos clínicos encapsulados en este contexto.
+
+![Database Diagram](./assets/TB1/bc5_database_diagram.png)
 
 #### 4.2.6. Bounded Context: Gestión de Planes Alimenticios
 
+Este Bounded Context es el responsable de definir la estructura, composición y vigencia de las prescripciones nutricionales. Su rol arquitectónico es el de un Repositorio de Conocimiento Normativo; suministra los planes que los nutricionistas diseñan para los pacientes. En la arquitectura distribuida, este contexto provee los rangos y metas nutricionales (macronutrientes y horarios) que alimentan al motor de inferencia de la IA para validar el cumplimiento de la dieta en tiempo real.
+
 ##### 4.2.6.1. Domain Layer.
+
+La capa de dominio reúne las entidades, objetos de valor y reglas que permiten construir, clasificar y validar planes alimenticios dentro del sistema. En esta capa se concentra la lógica esencial para garantizar la integridad del plan y su coherencia con los objetivos nutricionales definidos.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|----------------------------------|
+| `MealPlan` | `Aggregate Root` | Entidad raíz que garantiza la integridad del plan (template o asignado). | `userId`, `nutritionistId`, `status` / `calculateTotalMacros()`, `assignToUser()` |
+| `MealPlanEntry` | `Entity` | Representa una comida específica dentro del plan vinculada a una receta. | `recipeId`, `scheduledTime`, `portionSize` / `getNutritionalProjection()` |
+| `MealPlanMacros` | `Value Object` | Encapsula los totales nutricionales proyectados del plan para su comparación. | `calories`, `protein`, `carbs`, `fat` / `isWithinRange()` |
+| `MealPlanType` | `Entity` | Clasifica el plan según su objetivo (ej. Volumen, Definición, Vegano). | `name`, `description` / `validateCompatibility()` |
 
 ##### 4.2.6.2. Interface Layer.
 
+La capa de interfaz expone las operaciones necesarias para que nutricionistas y usuarios interactúen con los planes alimenticios desde los distintos canales del sistema. Aquí se ubican los controladores y recursos encargados de traducir solicitudes externas en operaciones comprensibles para la aplicación.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|----------------------------------|
+| `MealPlanController` | `REST Controller` | Expone la API para que nutricionistas creen planes y usuarios los consulten. | `createMealPlan()`, `getMealPlanByUserId()` |
+| `MealPlanEntriesController` | `REST Controller` | Gestiona las entradas individuales de alimentos dentro de un plan activo. | `addEntryToPlan()`, `updateEntryTime()` |
+| `MealPlanResource` | `DTO` | Representación estructurada del plan para el consumo de las aplicaciones móviles. | `id`, `items[]`, `totalCalories` |
+
 ##### 4.2.6.3. Application Layer.
+
+La capa de aplicación coordina los casos de uso relacionados con la creación, modificación, consulta y activación de planes alimenticios. Su responsabilidad es orquestar el flujo entre la interfaz, el dominio y las dependencias necesarias para ejecutar cada operación de forma consistente.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|----------------------------------|
+| `MealPlanCommandService` | `Command Handler` | Orquesta la creación y modificación de planes, validando reglas de negocio. | `handle(CreateMealPlanCommand)` |
+| `MealPlanQueryService` | `Query Service` | Recupera planes optimizados, incluyendo información cruzada de recetas. | `getDetailedMealPlan(planId)` |
+| `MealPlanReadyEventHandler` | `Event Handler` | Dispara eventos cuando un plan es activado para sincronizar con el BC de Tracking. | `on(MealPlanAssignedEvent)` |
 
 ##### 4.2.6.4. Infrastructure Layer.
 
+La capa de infraestructura implementa los mecanismos técnicos que permiten persistir planes, consultar información externa y validar dependencias con otros bounded contexts. En esta capa se encapsulan los detalles de integración para mantener desacoplada la lógica de negocio de las decisiones tecnológicas.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|----------------------------------|
+| `JpaMealPlanRepository` | `Repository Impl` | Implementación de persistencia para los planes nutricionales en PostgreSQL. | `save()`, `findByUserProfileId()` |
+| `ExternalRecipeACL` | `ACL Client` | Adapta los modelos del servicio de Recipes para obtener los macros de las recetas. | `getRecipeMacros(recipeId)` |
+| `ProfileServiceClient` | `ACL Client` | Valida la existencia y estado del perfil del usuario antes de la asignación. | `validateProfileStatus(profileId)` |
+
 ##### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams.
+
+Este diagrama resalta el flujo de prescripción nutricional. Se observa cómo el componente de dominio se apoya en una ACL para obtener datos de recetas sin acoplarse al modelo de persistencia del microservicio de Recipes.
+
+![Component Level Diagram](./assets/TB1/bc6_component_diagram.png)
 
 ##### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams.
 
+Esta sección presenta los diagramas de nivel de código del Bounded Context, los cuales permiten visualizar con mayor detalle la organización interna de sus clases, servicios, interfaces y relaciones. A diferencia de los diagramas de contenedores y componentes, que muestran la estructura general de la solución, este nivel se enfoca en cómo se materializa técnicamente el diseño dentro del código. Su construcción se apoya en los principios de Clean Architecture y en el diseño táctico de DDD, con el objetivo de mantener una separación clara entre dominio, aplicación, interfaces e infraestructura. De este modo, se busca que las reglas de negocio permanezcan desacopladas de decisiones técnicas específicas, que la comunicación entre capas se mantenga clara y consistente, y que el sistema pueda evolucionar sin comprometer la lógica central del contexto
+
 ###### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams.
+
+El diagrama de clases del dominio para Gestión de Planes Alimenticios representa la estructura conceptual y las relaciones internas que sostienen el comportamiento del bounded context, por lo que su propósito no es reflejar el diseño de la base de datos, sino modelar las reglas de negocio y la consistencia del sistema. En este nivel, el diseño se organiza alrededor del agregado MealPlan, que actúa como entidad raíz y concentra la responsabilidad de definir el objetivo calórico y coordinar las ingestas programadas del día. A su alrededor se definen entidades como MealPlanEntry y value objects como MealPlanMacros que encapsulan el estado y la lógica propia del dominio, como el cálculo proyectado de nutrientes y la validación de compatibilidad de horarios, evitando dispersar estas responsabilidades en capas externas. Asimismo, los servicios del dominio se expresan mediante contratos que describen capacidades necesarias para el negocio, permitiendo que las integraciones técnicas (como el acceso a catálogos de recetas) se adapten al modelo definido y preservando así la independencia y claridad del núcleo del sistema.
+
+![Class Diagram](./assets/TB1/bc6_class_diagram.png)
 
 ###### 4.2.6.6.2. Bounded Context Database Design Diagram.
 
+La estrategia de modelado para el contexto de Planes Alimenticios se basa en un Esquema de Plantillas y Asignaciones. Se diseñó una estructura que permite desacoplar la receta (referenciada por ID) de la entrada del plan, permitiendo que el nutricionista ajuste porciones específicas para el paciente sin modificar la receta original. Se incluyen índices en user_profile_id para acelerar la recuperación del plan activo del usuario, esencial para la concurrencia que exige la validación IoT.
+
+![Database Diagram](./assets/TB1/bc6_database_diagram.png)
+
 #### 4.2.7. Bounded Context: Comunicación y Seguimiento
+
+Este Bounded Context actúa como el puente humano y técnico entre el paciente y el especialista. Su rol arquitectónico es el de un Facilitador de Interacción Síncrona y Asíncrona. En esta iteración, se integra con el flujo de telemetría para permitir que el nutricionista actúe como un monitor activo, accediendo a instantáneas de métricas nutricionales directamente desde la sesión de seguimiento. La arquitectura está diseñada para ser ligera en persistencia de negocio, pero robusta en la gestión de estados de conexión y flujo de datos masivos.
 
 ##### 4.2.7.1. Domain Layer.
 
+La capa de dominio define las reglas que gobiernan la comunicación entre el usuario y el nutricionista, así como las condiciones de acceso y visibilidad de la información de seguimiento. En esta capa se modelan las conversaciones, los mensajes y las políticas que aseguran una interacción controlada, consistente y alineada con las restricciones del negocio.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|----------------------------------|
+| `ChatRoom` | `Aggregate Root` | Unidad de consistencia que vincula a un usuario con su nutricionista asignado. | `roomId`, `participantIds`, `status` / `canAccessMetrics()`, `closeSession()` |
+| `ChatMessage` | `Entity` | Representa un evento de comunicación individual (texto, alerta de sistema o métrica compartida). | `senderId`, `content`, `timestamp` / `markAsRead()` |
+| `UserStatus` | `Value Object` | Representa el estado de disponibilidad del usuario en el canal. | `isOnline`, `lastSeen` / `updateStatus()` |
+| `MonitoringSnapshot` | `Value Object` | Estructura inmutable que captura las métricas de seguimiento para visualización del experto. | `currentCalories`, `proteinDelta`, `hydrationLevel` |
+| `CommunicationPolicy` | `Domain Service` | Define las reglas de privacidad y los permisos de acceso a métricas según el rol del participante. | `authorizeMetricView(nutritionistId, userId)` |
+
 ##### 4.2.7.2. Interface Layer.
+
+La capa de interfaz expone los mecanismos mediante los cuales las aplicaciones cliente interactúan con el bounded context, combinando operaciones REST para la gestión de salas y recursos con comunicación bidireccional en tiempo real para el intercambio de mensajes. Esta capa traduce la interacción del usuario en operaciones coherentes para la aplicación.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|----------------------------------|
+| `ChatController` | `REST Controller` | Expone endpoints para la creación de salas y recuperación de historial. | `getChatRoomsByUserId()`, `getMessagesByRoomId()` |
+| `MessageSocketHandler` | `WebSocket Handler` | Gestiona la conexión persistente para el envío de mensajes en tiempo real. | `handleTextMessage()`, `broadcastToRoom()` |
+| `MonitoringResource` | `DTO` | Representación de las métricas IoT formateadas para la interfaz de chat del nutricionista. | `userId`, `metricType`, `value`, `timestamp` |
 
 ##### 4.2.7.3. Application Layer.
 
+La capa de aplicación coordina el flujo operativo de mensajes, validaciones de acceso y recuperación de métricas externas necesarias para el seguimiento clínico. Su objetivo es orquestar la interacción entre las solicitudes de las interfaces, las reglas del dominio y los servicios requeridos para cada caso de uso.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|----------------------------------|
+| `SendMessageCommandHandler` | `Command Handler` | Procesa el envío de un mensaje, validando la existencia de la sala y notificando al receptor. | `handle(SendMessageCommand)` |
+| `FetchUserMetricsQueryHandler` | `Query Service` | Orquesta la petición de métricas actuales al BC de Tracking para presentarlas al nutricionista. | `handle(GetUserMetricsQuery)` |
+| `ChatAccessService` | `Application Service` | Valida que la relación entre paciente y nutri sea vigente antes de permitir la comunicación. | `validateAccess(userId, nutritionistId)` |
+
 ##### 4.2.7.4. Infrastructure Layer.
+
+La capa de infraestructura implementa los mecanismos técnicos de persistencia e integración requeridos por el bounded context, priorizando el rendimiento en la gestión de mensajes y el desacoplamiento respecto a los servicios de telemetría y notificaciones. Aquí se concretan las dependencias tecnológicas necesarias para soportar la operación en tiempo real.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|----------------------------------|
+| `MongoChatMessageRepository` | `Repository Impl` | Persistencia de mensajes en MongoDB para soportar alta escritura y consultas por documentos. | `save()`, `findByChatRoomIdOrderByTimestamp()` |
+| `TrackingServiceACL` | `ACL Client` | Adaptador para consumir las métricas de Rutina Alimentaria sin acoplar modelos. | `getCurrentMetrics(userId)` |
+| `FirebaseNotificationService` | `Client` | Envía notificaciones push cuando se recibe un mensaje y la aplicación está en segundo plano. | `sendPushNotification(recipientId, payload)` |
 
 ##### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams.
 
+Este diagrama resalta el Canal de Observación. El microservicio de Chat no solo mueve mensajes, sino que utiliza una ACL para "espiar" el estado del seguimiento en el microservicio de Tracking, permitiendo que el nutricionista tome decisiones sin salir de la conversación.
+
+![Component Level Diagram](./assets/TB1/bc7_component_diagram.png)
+
 ##### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams.
+
+Esta sección presenta los diagramas de nivel de código del Bounded Context, los cuales permiten visualizar con mayor detalle la organización interna de sus clases, servicios, interfaces y relaciones. A diferencia de los diagramas de contenedores y componentes, que muestran la estructura general de la solución, este nivel se enfoca en cómo se materializa técnicamente el diseño dentro del código. Su construcción se apoya en los principios de Clean Architecture y en el diseño táctico de DDD, con el objetivo de mantener una separación clara entre dominio, aplicación, interfaces e infraestructura. De este modo, se busca que las reglas de negocio permanezcan desacopladas de decisiones técnicas específicas, que la comunicación entre capas se mantenga clara y consistente, y que el sistema pueda evolucionar sin comprometer la lógica central del contexto.
 
 ###### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams.
 
+El diagrama de clases del dominio para Comunicación y Seguimiento representa la estructura conceptual y las relaciones internas que sostienen el comportamiento del bounded context, por lo que su propósito no es reflejar el diseño de la base de datos, sino modelar las reglas de negocio y la consistencia del sistema. En este nivel, el diseño se organiza alrededor del agregado ChatRoom, que actúa como entidad raíz y concentra la responsabilidad de garantizar que la sesión de comunicación sea válida y segura. A su alrededor se definen entidades como ChatMessage y value objects como MonitoringSnapshot que encapsulan el estado y la lógica propia del dominio, como la representación de métricas IoT compartidas y el historial de interacción, evitando dispersar estas responsabilidades en capas externas. Asimismo, los servicios del dominio se expresan mediante contratos que describen capacidades necesarias para el negocio (como la validación de acceso clínico), permitiendo que las integraciones técnicas se adapten al modelo definido y preservando así la independencia y claridad del núcleo del sistema.
+
+![Class Diagram](./assets/TB1/bc7_class_diagram.png)
+
 ###### 4.2.7.6.2. Bounded Context Database Design Diagram.
+
+La estrategia de modelado para el contexto de Comunicación utiliza un Enfoque de Almacenamiento Documental (NoSQL). Dado que los mensajes de chat son datos semi-estructurados con alta frecuencia de inserción, MongoDB es la opción óptima. Las colecciones se organizan alrededor del chat_room_id, permitiendo recuperaciones de historial extremadamente rápidas mediante índices compuestos por sala y tiempo. Las métricas no se duplican, sino que se referencian mediante instantáneas (Snapshots) incrustadas en mensajes de sistema cuando el nutricionista solicita un reporte en la conversación.
+
+![Database Diagram](./assets/TB1/bc7_database_diagram.png)
 
 #### 4.2.8. Bounded Context: Pagos
 
+Este Bounded Context es el facilitador financiero y de acceso del ecosistema. Su rol arquitectónico es el de un Gatekeeper de Capacidades. No solo gestiona el ciclo de vida de los pagos (suscripciones, facturas, reembolsos), sino que emite los eventos necesarios para que el resto del sistema habilite las funcionalidades avanzadas de IoT e IA. Se apoya en una integración profunda con Stripe para garantizar la escalabilidad global y la seguridad normativa.
+
 ##### 4.2.8.1. Domain Layer.
+
+La capa de dominio reúne las entidades y políticas que permiten modelar la suscripción del usuario, la vigencia de su acceso y las reglas asociadas a los planes disponibles. En esta capa se concentra la lógica que garantiza la consistencia del ciclo de vida de una suscripción y la habilitación de capacidades según el nivel contratado.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|----------------------------------|
+| `Subscription` | `Aggregate Root` | Gestiona el vínculo entre el usuario y su plan actual, controlando su vigencia. | `userId`, `stripeSubscriptionId`, `status` / `activate()`, `renew()`, `cancel()` |
+| `PaymentPlan` | `Entity` | Define los niveles de servicio (Free, Pro, Expert) y sus costos asociados. | `name`, `price`, `featuresIncluded` / `isFeatureAllowed(featureId)` |
+| `SubscriptionPeriod` | `Value Object` | Representa el intervalo de tiempo pagado y la fecha de expiración. | `startDate`, `endDate` / `isActive()`, `isExpiringSoon()` |
+| `BillingPolicy` | `Domain Service` | Contiene las reglas para el cálculo de prorrateos y aplicación de impuestos según región. | `calculateFinalAmount(basePrice, taxRate)` |
 
 ##### 4.2.8.2. Interface Layer.
 
+La capa de interfaz expone los mecanismos mediante los cuales el usuario puede suscribirse, consultar su plan actual y gestionar cambios sobre su servicio. Además, incorpora el punto de entrada para eventos asíncronos provenientes de Stripe, permitiendo sincronizar el estado local del sistema con el proveedor de pagos.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|----------------------------------|
+| `SubscriptionController` | `REST Controller` | Expone la API para que los usuarios seleccionen y gestionen sus planes. | `subscribe()`, `getCurrentSubscription()`, `updatePlan()` |
+| `StripeWebhookHandler` | `Message Consumer` | Punto crítico de entrada que recibe notificaciones asíncronas de Stripe (pagos exitosos, fallos). | `handleEvent(payload)`, `onPaymentSucceeded()`, `onSubscriptionDeleted()` |
+| `PaymentIntentResource` | `DTO` | Objeto utilizado para iniciar el flujo seguro de pago en el frontend/mobile. | `clientSecret`, `publishableKey`, `amount` |
+
 ##### 4.2.8.3. Application Layer.
+
+La capa de aplicación coordina los casos de uso relacionados con la activación, cancelación y consulta de suscripciones. Su función es orquestar la interacción entre las solicitudes externas, las reglas del dominio y las integraciones necesarias para mantener actualizado el estado de acceso del usuario dentro del ecosistema.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|----------------------------------|
+| `ProcessPaymentCommandHandler` | `Command Handler` | Orquesta la creación del cliente en Stripe y la persistencia de la suscripción local. | `handle(SubscribeUserCommand)` |
+| `CancelSubscriptionCommandHandler` | `Command Handler` | Gestiona la terminación de servicios y notifica al usuario. | `handle(CancelSubscriptionCommand)` |
+| `SubscriptionStatusQueryService` | `Query Service` | Provee el estado de acceso rápido para que otros BC verifiquen permisos. | `isUserPremium(userId)` |
 
 ##### 4.2.8.4. Infrastructure Layer.
 
+La capa de infraestructura implementa los mecanismos técnicos para persistir suscripciones, comunicarse con Stripe y proteger las credenciales sensibles asociadas al proceso de cobro. En esta capa se encapsulan las dependencias tecnológicas para mantener desacoplado el modelo de pagos respecto a los servicios externos.
+
+| Clase | Tipo | Propósito | Atributos / Métodos Principales |
+|-------|------|-----------|----------------------------------|
+| `JpaSubscriptionRepository` | `Repository Impl` | Persistencia de los estados de suscripción en PostgreSQL. | `save()`, `findByUserId()` |
+| `StripeServiceACL` | `ACL Client` | Adaptador que traduce el SDK de Stripe a nuestro modelo de dominio (`Subscription`). | `createStripeCustomer()`, `syncSubscriptionState()` |
+| `VaultSecretsManager` | `Security Client` | Gestiona las API Keys y Webhook Secrets de forma segura (AWS Secrets Manager). | `getStripeSecretKey()` |
+
 ##### 4.2.8.5. Bounded Context Software Architecture Component Level Diagrams.
+
+Este diagrama destaca la Capa de Anticorrupción (ACL) hacia Stripe y el manejo de Webhooks como mecanismo de sincronización de estado.
+
+![Component Level Diagram](./assets/TB1/bc8_component_diagram.png)
 
 ##### 4.2.8.6. Bounded Context Software Architecture Code Level Diagrams.
 
+Esta sección presenta los diagramas de nivel de código del Bounded Context, los cuales permiten visualizar con mayor detalle la organización interna de sus clases, servicios, interfaces y relaciones. A diferencia de los diagramas de contenedores y componentes, que muestran la estructura general de la solución, este nivel se enfoca en cómo se materializa técnicamente el diseño dentro del código. Su construcción se apoya en los principios de Clean Architecture y en el diseño táctico de DDD, con el objetivo de mantener una separación clara entre dominio, aplicación, interfaces e infraestructura. De este modo, se busca que las reglas de negocio permanezcan desacopladas de decisiones técnicas específicas, que la comunicación entre capas se mantenga clara y consistente, y que el sistema pueda evolucionar sin comprometer la lógica central del contexto.
+
 ###### 4.2.8.6.1. Bounded Context Domain Layer Class Diagrams.
+
+El diagrama de clases del dominio para Pagos representa la estructura conceptual y las relaciones internas que sostienen el comportamiento del bounded context, por lo que su propósito no es reflejar el diseño de la base de datos, sino modelar las reglas de negocio y la consistencia del sistema. En este nivel, el diseño se organiza alrededor del agregado Subscription, que actúa como entidad raíz y concentra la responsabilidad de sincronizar el estado comercial del usuario con el acceso técnico a la plataforma. A su alrededor se definen entidades como PaymentPlan y value objects como SubscriptionPeriod que encapsulan el estado y la lógica propia del dominio, como la validación de vigencia y la segregación de funcionalidades permitidas, evitando dispersar estas responsabilidades en capas externas. Asimismo, los servicios del dominio se expresan mediante contratos que describen capacidades necesarias para el negocio (como la sincronización con pasarelas), permitiendo que las integraciones técnicas (Stripe) se adapten al modelo definido y preservando así la independencia y claridad del núcleo del sistema.
+
+![Class Diagram](./assets/TB1/bc8_class_diagram.png)
 
 ###### 4.2.8.6.2. Bounded Context Database Design Diagram.
 
+La estrategia de modelado para el contexto de Pagos se centra en la Trazabilidad de Acceso. Se mantiene una réplica local ligera del estado de Stripe (stripe_subscription_id) para evitar latencias de red en cada validación de permisos de IA/IoT. Se implementan índices sobre user_id y status para optimizar los procesos de verificación de "Entitlement" que realizan otros microservicios antes de permitir el procesamiento de datos de los sensores.
+
+![Database Diagram](./assets/TB1/bc8_database_diagram.png)
 
 ### 4.3 Referencias Bibliográficas
 
