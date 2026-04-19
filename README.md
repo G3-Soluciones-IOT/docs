@@ -13,7 +13,7 @@
   NRC: 17756 <br>  
   Profesor: David Carlos Vera Olivera <br><br>
   "Informe de Trabajo Final" <br>
-  Startup:  - Producto: 
+  Startup: JF Technologies  - Producto: JameoFit
 </p>
 
 <br>
@@ -85,13 +85,33 @@
 
 ## Project Report Collaboration Insights
 
-|  URL del repositorio del reporte  |
+| URL del repositorio del reporte |
 | :-----------------------------------: |
 | [https://github.com/G3-Soluciones-IOT/docs.git](https://github.com/G3-Soluciones-IOT/docs.git) |
 
-**TB1:**
+**AV1:**
 
-**REPORT:** 
+Para la elaboración de la entrega AV1 de este informe, el equipo se organizó mediante reuniones de coordinación a través de un canal de Discord. En estas reuniones se definió la distribución de actividades, se asignaron responsables por capítulo y se establecieron fechas de revisión periódica para asegurar el avance progresivo de cada integrante.
+
+| Integrante | Usuario Github | Detalle de avance |
+|------------|----------------|-------------------|
+| Fabrizio Alberto Paredes Santos | `psfa29` | Desarrollo del Capítulo I. |
+| Mathias Eduardo Bueno Perales | `MathiasBueno` | Desarrollo del Capítulo II, secciones 2.1 y 2.2. |
+| Pablo Antonio Geronimo Quispe | `Phatogram` | Desarrollo del Capítulo II, secciones 2.3, 2.4 y 2.5. |
+| Ramiro Alexander Guzmán Chávez | `RamiroGuzmanCh` | Desarrollo del Capítulo III. |
+| Valentino Sandoval Paiva | `ValentinoSandovalP` | Desarrollo del Capítulo IV, secciones 4.1 y 4.2. |
+| Omar Luquillas Asto | `OmarLLA` | Desarrollo del Capítulo IV, secciones 4.2.1 hasta 4.2.3. |
+| Jhon Alexander Galvez Chambi | `Chaomeum` | Desarrollo del Capítulo IV, secciones 4.2.4 hasta 4.2.8. |
+
+**Report Repository Insights:** 
+
+En esta sección se presentan los analíticos de colaboración y los commits realizados en GitHub por los miembros del equipo dentro del repositorio del informe durante la fase AV1. Esta evidencia permite visualizar la participación de los integrantes y la evolución del trabajo colaborativo a lo largo del desarrollo del reporte.
+
+- Report Contributors:
+![Report Contributors](./assets/TB1/report_contributors.png)
+
+- Report Network:
+![Report Network](./assets/TB1/report_network.png)
 
 ## Contenido
 
@@ -221,6 +241,17 @@
 
 ## Student Outcome
 
+### ABET – EAC - Student Outcome 5
+
+**Criterio:** La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
+
+En el siguiente cuadro se describen las acciones realizadas y enunciados de conclusiones por parte del equipo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
+
+| Criterio específico | Acciones realizadas | Conclusiones |
+|----------------------|---------------------|--------------|
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | | |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | | |
+
 ## Capítulo I: Introducción
 
 ### 1.1. Startup Profile
@@ -240,6 +271,7 @@ Desarrollar soluciones tecnológicas innovadoras que integren datos y herramient
 ## Visión
 
 Ser una startup referente en el desarrollo de productos digitales orientados a la salud y el bienestar, destacando por su capacidad de innovación, escalabilidad y aplicación de tecnologías emergentes para generar impacto sostenible en la calidad de vida de las personas.
+
 #### 1.1.2. Perfiles de integrantes del equipo
 
 | Foto | Miembros del equipo | Código de Estudiante | Descripción |
