@@ -1028,7 +1028,6 @@ natural de los procesos y cómo se relacionan entre sí.
 
 ---
 
-1. Bounded Context: Inicio y Registro de Sesión 
 
 Este flujo de eventos permite a los usuarios registrarse completando un formulario con sus
 datos personales y preferencias nutricionales, o iniciar sesión si ya tienen cuenta. También
@@ -1039,7 +1038,6 @@ recuperar el acceso mediante el envío de un correo si la cuenta no existe.
 
 ---
 
-2. Bounded Context: Perfil de Usuario
 
 Este flujo de eventos permite al usuario visualizar toda su información personal y, si lo desea,
 habilitar la edición de datos sensibles como correo y contraseña. Para ello, primero debe
@@ -1050,7 +1048,6 @@ un mensaje de confirmación que asegura que la actualización fue exitosa y segu
 
 ---
 
-3. Bounded Context: Gestión de Objetivos
 
 Este flujo de eventos está diseñado para permitir al usuario establecer y actualizar sus
 objetivos de salud. El usuario puede acceder a opciones para modificar su objetivo, peso,
@@ -1064,7 +1061,6 @@ de retroalimentación claro.
 
 ---
 
-4. Bounded Context: Rutina Alimentaria
 
 Este flujo de eventos describe cómo el sistema gestiona la rutina alimentaria del usuario de manera completamente automática mediante dispositivos IoT, como la balanza y el bebedero inteligente. A partir de la captura de datos en tiempo real, el sistema registra el peso del alimento consumido y detecta automáticamente el tipo de alimento.
 
@@ -1077,7 +1073,6 @@ Finalmente, el usuario puede visualizar su rutina alimentaria actualizada junto 
 
 ---
 
-5. Bounded Context: IA Nutricional
 
 Este flujo de eventos detalla el proceso de análisis inteligente de datos, donde la información nutricional cargada por el especialista es procesada por una IA para generar resúmenes automáticos y visualizaciones enriquecidas mediante gráficos avanzados. El sistema facilita la comunicación directa al enviar reportes detallados al paciente y mantener un historial de análisis actualizado, cerrando el ciclo con un reentrenamiento continuo del modelo basado en la nueva información recopilada para optimizar la precisión de futuras evaluaciones.
 
@@ -1085,7 +1080,6 @@ Este flujo de eventos detalla el proceso de análisis inteligente de datos, dond
 
 ---
 
-6. Bounded Context: Gestión de Planes Alimenticios 
 
 Este flujo de eventos está diseñado para guiar al profesional de nutrición en la creación,
 categorización, asignación y publicación de planes alimenticios, de manera ordenada y
@@ -1096,7 +1090,6 @@ eficiente.
 
 ---
 
-7. Bounded Context: Comunicación y Seguimiento
 
 Este flujo de eventos está diseñado para facilitar al nutricionista la visualización, incorporación y seguimiento de pacientes, asegurando una experiencia clara, ordenada y centrada en la interacción profesional. Cada paso permite mantener una comunicación efectiva y un control preciso del progreso nutricional.
 
@@ -1104,7 +1097,6 @@ Este flujo de eventos está diseñado para facilitar al nutricionista la visuali
 
 ---
 
-8. Bounded Context: Pagos
 
 Este flujo de eventos describe el proceso integral de gestión de suscripciones y pagos, permitiendo a los usuarios seleccionar planes, procesar transacciones de manera segura y recibir confirmaciones automáticas sobre la activación o renovación de su servicio. El sistema integra un control detallado de estados que abarca desde la validación exitosa del pago hasta la gestión de errores y solicitudes de cancelación, garantizando que el usuario mantenga siempre visibilidad sobre su historial financiero y el estado actual de su membresía dentro de la plataforma.
 
@@ -1113,36 +1105,27 @@ Este flujo de eventos describe el proceso integral de gestión de suscripciones 
 
 #### **Pivotal Points**
 
-1
 
 ![alt text](assets/TB1/P1.png)
 
-2
 
 ![alt text](assets/TB1/P2.png)
 
-3
 
 ![alt text](assets/TB1/P3.png)
 
-4
 
 ![alt text](assets/TB1/P5.jpg)
 
-5
 
 ![alt text](assets/TB1/I2.png)
 
-6
 
 ![alt text](assets/TB1/P6.png)
 
 
-7
-
 ![alt text](assets/TB1/IA.png)
 
-8
 
 ![alt text](assets/TB1/I1.png)
 
@@ -1156,7 +1139,6 @@ definidos previamente. A continuación, se presentan los comandos relevantes par
 dominio.
 
 ---
-1. Bounded Context: Inicio y Registro de Sesión
 
 El diagrama muestra un sistema que guía al usuario en tres procesos: registro de cuenta con
 definición de objetivos nutricionales, inicio de sesión con verificación de credenciales y
@@ -1167,7 +1149,6 @@ correo para restablecerla.
 
 ---
 
-2. Bounded Context: Perfil de Usuario
 
 El diagrama muestra el flujo donde el usuario, al acceder a su ícono, puede editar su perfil
 —visualizando y modificando correo y contraseña con confirmación de cambios— o cerrar
@@ -1177,7 +1158,6 @@ sesión, siendo redirigido al menú de inicio de sesión.
 
 ---
 
-3. Bounded Context: Gestión de Objetivos 
 
 El diagrama muestra cómo el usuario, desde su menú de objetivos, puede configurar su peso
 y calorías o ajustar su tipo de dieta y macros, recibiendo en ambos casos una confirmación al
@@ -1188,7 +1168,6 @@ guardar los cambios.
 
 ---
 
-4. Bounded Context: Rutina Alimentaria 
 
 El diagrama muestra cómo el sistema registra automáticamente los alimentos consumidos por el usuario mediante la interacción con un dispositivo IoT, el cual captura datos como el peso del alimento y los envía para su procesamiento. A partir de esta información, el sistema identifica el tipo de alimento y genera eventos como alimento detectado y peso registrado.
 
@@ -1199,7 +1178,6 @@ El flujo contempla el cálculo automático de la información nutricional, inclu
 
 ---
 
-5. Bounded Context: IA Nutricional 
 
 Este diagrama de flujo detalla el proceso mediante el cual un nutricionista gestiona el análisis de datos de sus pacientes, comenzando con la selección del usuario y la carga de su archivo nutricional para ser procesado por una IA especializada. El sistema guía al profesional a través de la solicitud de análisis y visualización de resultados, permitiendo generar resúmenes automáticos y gráficos enriquecidos que facilitan la interpretación de las métricas. Finalmente, el flujo concluye con el envío del reporte nutricional directamente al paciente y la actualización automática del historial de análisis, asegurando un seguimiento clínico organizado, eficiente y basado en datos precisos.
 
@@ -1208,7 +1186,6 @@ Este diagrama de flujo detalla el proceso mediante el cual un nutricionista gest
 
 ---
 
-6. Bounded Context: Gestión de Planes Alimenticios 
 
 El diagrama muestra cómo el nutricionista, desde su panel de gestión, puede crear nuevos
 planes alimenticios, organizarlos por categorías, asignarlos a usuarios y publicarlos, todo
@@ -1221,7 +1198,6 @@ aseguran una experiencia profesional eficiente.
 
 ---
 
-7. Bounded Context: Comunicación y Seguimiento
 
 El diagrama muestra cómo el nutricionista puede gestionar su relación con los pacientes, accediendo a información clave, comunicándose directamente y agregando nuevos usuarios a su lista. El flujo contempla tanto la interacción con pacientes ya asignados como el proceso de incorporación de nuevos, con confirmaciones inmediatas que refuerzan la experiencia profesional.
 
@@ -1229,7 +1205,6 @@ El diagrama muestra cómo el nutricionista puede gestionar su relación con los 
 
 ---
 
-8. Bounded Context: Pagos
 
 Este diagrama detalla el flujo de suscripción y gestión de pagos, el cual comienza cuando el usuario explora los planes disponibles y selecciona un método de pago para iniciar la validación de la transacción. El sistema gestiona de manera lógica dos vertientes: el éxito del pago, que deriva en la activación o renovación de la membresía y el envío de confirmaciones; y el escenario de pago fallido, que ofrece al usuario opciones inmediatas para reintentar la operación o cambiar el método de pago. Finalmente, el proceso asegura la integridad de la cuenta al actualizar el historial de pagos y permitir la gestión del ciclo de vida de la suscripción, incluyendo la solicitud de cancelación cuando sea necesario.
 
@@ -1672,44 +1647,96 @@ Este diagrama proporciona una visión general del sistema, mostrando cómo Jameo
 
 ##### 4.1.3.2. Software Architecture Container Level Diagrams.
 
-El Diagrama de Contenedores de JameoFit App muestra la descomposición del sistema en sus principales contenedores de software, así como la interacción entre estos, los actores del sistema y los servicios externos.
+El Diagrama de Contenedores de JameoFit App muestra la descomposición del sistema en múltiples contenedores de software distribuidos, siguiendo una arquitectura de microservicios. Este diagrama permite visualizar la interacción entre los actores, las aplicaciones cliente, los servicios backend y los sistemas externos.
 
 En este nivel, se identifican:
 
-● Landing Page: Portal web que permite el acceso al sistema, registro, autenticación y gestión de suscripciones por parte de los usuarios y nutricionistas.
+● Landing Page: Portal web orientado a marketing y acceso inicial, que permite el registro y redirección hacia la aplicación principal.
 
-● Mobile Application: Aplicación móvil que permite al usuario visualizar su rutina alimentaria, métricas nutricionales y recibir notificaciones en tiempo real.
+● Web Application: Aplicación web para usuarios autenticados (pacientes, nutricionistas y administradores), desde donde se gestionan perfiles, planes, seguimiento y métricas.
 
-● JameoFit Core: Backend central desarrollado en Spring Boot que procesa la lógica de negocio, gestiona APIs, integra procesamiento inteligente (IA) y orquesta la comunicación entre los diferentes componentes del sistema.
+● Mobile Application: Aplicación móvil que permite registrar la rutina alimentaria, visualizar métricas nutricionales y recibir notificaciones en tiempo real.
 
-● Database: Almacena información de usuarios, pacientes, métricas nutricionales, rutinas alimentarias y planes.
+● API Gateway: Punto de entrada único que enruta las solicitudes hacia los diferentes microservicios y valida los tokens de autenticación.
 
-● Módulos internos del backend:  
-○ Módulo de Seguimiento: Procesa métricas nutricionales y datos en tiempo real.  
-○ Módulo de Planes y Dietas: Gestiona la creación y asignación de planes personalizados.  
-○ Módulo de Usuarios: Administra autenticación, perfiles y roles.  
-○ Módulo de Logros: Gestiona metas, progreso e incentivos del usuario.  
+● Microservicios backend:
 
-● Sistemas externos:  
-○ Dispositivo IoT: Captura datos físicos del usuario y los envía al sistema en tiempo real.  
-○ Stripe API: Gestiona pagos, suscripciones y facturación.  
-○ Servicio de Notificaciones: Envía alertas y recordatorios en tiempo real.  
-○ Bases de Datos Nutricionales: Proveen información externa para validar y enriquecer los datos alimentarios.  
+User Service: Gestiona la autenticación (IAM), perfiles y roles de usuario.
 
-Este diagrama proporciona una visión técnica detallada del sistema, mostrando cómo los diferentes contenedores, dispositivos y servicios externos colaboran para cumplir los objetivos funcionales y no funcionales de la aplicación, destacando la integración con IoT y el procesamiento automatizado de información.
+Goal Service: Administra los objetivos nutricionales del usuario, como peso, calorías y macronutrientes.
+
+Meal Plan Service: Permite la creación y gestión de planes alimenticios personalizados.
+
+Tracking Service: Registra el consumo diario de alimentos, agua y métricas en tiempo real.
+
+AI Nutrition Service: Procesa datos, archivos y métricas para generar análisis e insights automatizados.
+
+Communication Service: Gestiona la comunicación entre pacientes y nutricionistas, así como el seguimiento del progreso.
+
+Payment Service: Administra suscripciones, pagos y acceso a funcionalidades premium.
+
+● Bases de datos:
+Cada microservicio cuenta con su propia base de datos, garantizando independencia, bajo acoplamiento y escalabilidad del sistema.
+
+● Sistemas externos:
+
+Dispositivo IoT: Captura datos físicos del usuario y los envía al Tracking Service.
+
+Stripe API: Gestiona pagos, suscripciones y facturación.
+
+Servicio de Notificaciones: Envía alertas y recordatorios en tiempo real.
+
+Bases de Datos Nutricionales: Proveen información externa para enriquecer el análisis nutricional.
+
+Este diagrama proporciona una visión técnica del sistema basada en microservicios, destacando la separación de responsabilidades, la escalabilidad y la integración con servicios externos e inteligencia artificial para el procesamiento avanzado de información.
+
+![Texto alternativo](assets/TB1/CONTA12.png)
 
 
 ##### 4.1.3.3. Software Architecture Deployment Diagrams.
 
-Los Deployment Diagrams (diagramas de despliegue) forman parte de la arquitectura de
-software y son esenciales para representar cómo los componentes del sistema se distribuyen
-físicamente en el entorno de ejecución. Estos diagramas muestran la disposición de hardware
-(nodos) y la manera en que los artefactos de software se instalan en ellos, permitiendo
-visualizar la infraestructura que soporta la aplicación. Su propósito principal es ilustrar la
-relación entre el software y el hardware, detallando aspectos como servidores, dispositivos de
-red, bases de datos, y cómo interactúan entre sí.
+El Deployment Diagram de JameoFit App representa la distribución física de los componentes del sistema dentro de una infraestructura cloud, mostrando cómo los diferentes contenedores de software se despliegan, comunican y escalan en un entorno distribuido.
 
+En este nivel, se identifican los siguientes elementos:
 
+● Clientes:
+Incluyen el navegador web y la aplicación móvil, desde donde los usuarios (pacientes, nutricionistas y administradores) interactúan con el sistema mediante solicitudes seguras a través de HTTPS.
+
+● Infraestructura Cloud:
+El sistema se despliega en un entorno cloud (AWS, Azure o GCP), utilizando contenedores Docker para garantizar portabilidad, escalabilidad y aislamiento de los servicios.
+
+● API Gateway:
+Actúa como punto de entrada único al sistema, gestionando el enrutamiento de solicitudes hacia los microservicios correspondientes y validando los tokens de autenticación.
+
+● Microservicios Backend:
+Cada funcionalidad principal del sistema se implementa como un microservicio independiente:
+
+User Service: Gestiona autenticación, perfiles y roles.
+
+Goal Service: Administra los objetivos nutricionales del usuario.
+
+Meal Plan Service: Gestiona los planes alimenticios personalizados.
+
+Tracking Service: Registra el consumo diario y métricas en tiempo real.
+
+Communication Service: Permite la interacción entre pacientes y nutricionistas.
+
+Payment Service: Maneja suscripciones y pagos.
+
+AI Nutrition Service: Procesa datos y genera análisis automatizados.
+
+● Bases de Datos:
+Cada microservicio cuenta con su propia base de datos, siguiendo el principio de “database per service”, lo que permite mantener independencia, reducir el acoplamiento y mejorar la escalabilidad del sistema.
+
+● Sistemas Externos:
+El sistema se integra con diversos servicios externos:
+
+Stripe API para la gestión de pagos.
+Dispositivo IoT (ESP32) para la captura de datos físicos.
+Servicio de Notificaciones para el envío de alertas en tiempo real.
+Bases de Datos Nutricionales para enriquecer el análisis de alimentos.
+
+![Texto alternativo](assets/TB1/DEPLO1.png)
 
 ### 4.2. Tactical-Level Domain-Driven Design
 
