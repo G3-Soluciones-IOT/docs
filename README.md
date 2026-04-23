@@ -1239,7 +1239,7 @@ contexto evolucione de forma desacoplada y con responsabilidades bien definidas.
 
 #### **Bounded Context: Gestión de Planes Alimenticios**
 
-![alt text](assets/TB1/BO7.png)
+![alt text](assets/TB1/IOT.jpg)
 
 #### **Bounded Context: Comunicación y Seguimiento**
 
