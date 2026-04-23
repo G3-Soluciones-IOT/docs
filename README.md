@@ -76,7 +76,7 @@
 | Versión | Fecha      | Autor                         | Descripción                                                                  |
 |---------|------------|-------------------------------|------------------------------------------------------------------------------|
 | AV1     | 05/04/2026 | Jhon Alexander Galvez Chambi  | Desarrollo de la carátula, tabla de contenidos y estructura general del informe. |
-| AV1     | 1x/04/2026 | Mathias Eduardo Bueno Perales  |              |
+| AV1     | 17/04/2026 | Mathias Eduardo Bueno Perales  |   Apliqué la metodología Lean UX para estructurar un análisis competitivo y estratégico exhaustivo frente a actores clave como Fitia y MyFitnessPal. Finalmente, se diseñaron los protocolos de investigación cualitativa para los segmentos de usuarios finales y profesionales de la salud, ademas de resaltar su diferenciación en el mercado a través de la automatización y la inteligencia artificial.           |
 | AV1     | 15/04/2026 |   Valentino Sandoval Paiva  | Para esta entrega, lideré el diseño estratégico mediante EventStorming, el descubrimiento de contextos y la elaboración de los Bounded Context Canvases y el Context Mapping. Asimismo, definí la arquitectura de software a través de los diagramas de Landscape, Context, Container y Deployment, complementándolo con el análisis competitivo, las historias de usuario y el desarrollo integral de las capas del Bounded Context IAM.   |
 | AV1     | 15/04/2026 | Ramiro Alexander Guzmán Chávez   |  Desarrollo de User Stories, Product Backlog, Impact Mapping y adaptación a dispositivos inteligentes e IA.      |
 | AV1     | 16/04/2026 | Omar Luquillas Asto  | Desarrollo de secciones correspondientes a los Bounded Context: Inicio y Registro de Sesión, Perfil de Usuario y Gestión de Objetivos   |
@@ -564,6 +564,51 @@ La sección abarca el proceso de investigación de nuestros segmentos objetivos 
 5. ¿Estarías dispuesto/a a recomendar o incluir el costo de esta herramienta como parte de tus servicios profesionales?
 
 #### 2.2.2. Registro de entrevistas.
+
+### Segmento 1: 
+| Entrevistado 1 |  |
+| :---- | :---- |
+| Edad |  años |
+| Distrito/Ciudad | |
+| Foto de entrevista* | Resumen* |
+| Timing: : – : min | [Entrevista 1 JF Technologies.mp4]  |
+
+| Entrevistado 2 |  |
+| :---- | :---- |
+| Edad |  años |
+| Distrito/Ciudad |  |
+|    |  |
+| Timing: : – : min | [Entrevista 2 JF Technologies.mp4] |
+
+| Entrevistado 3 |   |
+| :---- | :---- |
+| Edad |  años |
+| Distrito/Ciudad |  |
+|   |  |
+| Timing: : – : min | [Entrevista 3 JF Technologies.mp4] |
+
+
+### Segmento 2: 
+| Entrevistado 4 |  |
+| :---- | :---- |
+| Edad |  años |
+| Distrito/Ciudad |  |
+| |   |
+| Timing: : – : min | [Entrevista 4 JF Technologies.mp4] |
+
+| Entrevistado 5 |  |
+| :---- | :---- |
+| Edad |  años |
+| Distrito/Ciudad |  |
+| |  |
+| Timing: : – : min | [Entrevista 5 JF Technologies.mp4] |
+
+| Entrevistado 6 |  |
+| :---- | :---- |
+| Edad |  años |
+| Distrito/Ciudad |  |
+|  |  |
+| Timing:: – : min | [Entrevista 6 JF Technologies.mp4] |
 
 #### 2.2.3. Análisis de entrevistas.
 
