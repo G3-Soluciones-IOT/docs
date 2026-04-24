@@ -717,6 +717,14 @@ Los jóvenes adultos tienen dificultades para identificar problemas en sus hábi
 
 ### 2.4. Big Picture EventStorming.
 
+En esta seccción se presenta el trabajo realizado durante la sesion de Big Picture event storming enfocada en comprender el dominio general del negocio. Para ello se utilizaran post-its en Lucichart para mapear los eventos significativos que ocurre en el flujo operativo actual.Esta actividad permite agrupar las interacciones en bloques funcionales lógicos (como el registro de usuarios, gestión de planes o monitoreo de dispositivos IoT), asegurando que la solución tecnológica satisfaga los requisitos reales del flujo operativo
+
+
+<p >
+  <img src="assets/big event storming.png" alt="big event storming " />
+</p>
+
+
 ### 2.5. Ubiquitous Language.
 
 El Ubiquitous Language define un lenguaje común entre todos los actores del sistema, permitiendo una comunicación clara y consistente durante el desarrollo de la solución. En este proyecto, se integran conceptos relacionados con salud digital, nutrición, IoT e inteligencia artificial.
