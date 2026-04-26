@@ -567,56 +567,116 @@ La sección abarca el proceso de investigación de nuestros segmentos objetivos 
 #### 2.2.2. Registro de entrevistas.
 
 ### Segmento 1: 
-|Entrevistado 1 |  |
+|Entrevistado 1 | Giorgio Awad Vargas |
 | :------------- | :------------------------------------------------------------ |
 | Edad | 23 años |
 | Distrito/Ciudad | San Miguel, Lima |
 | Imagen | <p align="center"><img src="./assets/entrevistas/Entrevista1.png" width="200"/></p> |
 | Resumen | Giorgio Awad Vargas es un joven de 23 años residente en Lima que no sigue un plan nutricional ni utiliza actualmente herramientas de control, aunque intenta mantener una alimentación saludable. Ha usado aplicaciones de conteo de calorías, pero las abandonó por la incomodidad del registro manual y la falta de constancia, evidenciando preferencia por soluciones rápidas y automatizadas.<br><br>Su estilo de vida implica comer frecuentemente fuera de casa, lo que dificulta el seguimiento y reduce la precisión de su control. A nivel conductual, prioriza la practicidad y muestra baja tolerancia a procesos repetitivos, aunque reconoce la importancia de cuidar su alimentación.<br><br>En cuanto a tecnología, está familiarizado con apps móviles y muestra alta apertura a soluciones innovadoras como el registro automático mediante dispositivos inteligentes. Valora funcionalidades como alertas, notificaciones y visualización de progreso. Además, estaría dispuesto a compartir datos con una IA entrenada por nutricionistas y confía moderadamente en recomendaciones basadas en inteligencia artificial.<br><br>En síntesis, es un usuario interesado en mejorar sus hábitos, pero que requiere herramientas simples, automáticas y adaptadas a su rutina diaria. |
-| Duración | 00:00 – 05:16 min |
+| Duración | 00:00 – 06-10 min |
 
-| Entrevistado 2 |  |
+| Entrevistado 2 | Loreley Sarmiento Medina |
 | :---- | :---- |
 | Edad | 20 años |
 | Distrito/Ciudad | San Miguel, Lima |
 | Imagen | <p align="center"><img src="./assets/entrevistas/Entrevista2.png" width="200"/></p> |
 | Resumen | Loreley Sarmiento Medina, de 20 años, es una joven que actualmente no sigue un plan nutricional estructurado ni mantiene un registro constante de su alimentación. Aunque anteriormente utilizó aplicaciones similares, dejó de usarlas debido a la falta de precisión en los datos y lo genérico de las estimaciones, lo cual le generaba frustración.<br><br>Uno de los principales problemas que enfrenta es la falta de constancia, especialmente en días ocupados o cuando come fuera de casa, lo que ocasiona que olvide registrar su consumo. <br><br>En cuanto a soluciones tecnológicas, muestra interés por herramientas automatizadas que utilicen sensores o telemetría para registrar datos sin intervención manual, siempre que sean accesibles económicamente. También valora funciones como visualización de progreso y alertas, las cuales podrían ayudarle a mantener la constancia.<br><br>Finalmente, presenta una actitud positiva hacia el uso de inteligencia artificial, siempre que esté respaldada por profesionales. Estaría dispuesta a compartir sus datos con nutricionistas y considerar un pago por el servicio, pero solo después de probar su efectividad de la aplicación previamente. |
-| Duración | 00:00 – 05:35 min |
+| Duración | 06:15 – 11:50 min |
 
-| Entrevistado 3 |   |
+| Entrevistado 3 | Anyelo Alejos |
 | :---- | :---- |
 | Edad |  21 años |
 | Distrito/Ciudad | Independencia Lima, Lima  |
 |  Imagen  | <p align="center"><img src="./assets/entrevistas/Entrevista3.png" width="200"/></p> |
 | Resumen | Anyelo Alejos , de 21 años, es un joven que vive en Lima y mantiene un estilo de vida enfocado en el equilibrio entre alimentación y ejercicio por temas de salud. No sigue un plan nutricional estructurado ni registra constantemente su ingesta, ya que gestiona su alimentación de forma empírica basándose en su experiencia y en información de internet.<br><br>Anteriormente utilizó aplicaciones de conteo nutricional, pero dejó de usarlas debido a la incomodidad del registro manual y el tiempo que requería, lo que le generaba frustración y afectaba su constancia, especialmente en días ocupados o cuando repetía comidas.<br><br>Uno de sus principales problemas es la falta de seguimiento continuo, sobre todo cuando come fuera de casa o en horarios irregulares. Aunque puede estimar calorías en productos envasados, tiene dificultades para calcular con precisión lo que consume en comidas caseras o de restaurantes.<br><br>En cuanto a soluciones tecnológicas, muestra interés en herramientas automatizadas que eliminen el registro manual mediante sensores o telemetría. Valora funciones como monitoreo en tiempo real, alertas y visualización de progreso, siempre que sean prácticas y no invasivas.<br><br>Finalmente, tiene una actitud positiva hacia el uso de inteligencia artificial en nutrición, especialmente si está respaldada por profesionales. Estaría dispuesto a compartir sus datos con nutricionistas y pagar una suscripción, siempre que el servicio demuestre efectividad y justifique su valor. |
-| Duración | 00:00 – 11:52 min |
+| Duración | 11:55 – 24:05 min |
 
 
 ### Segmento 2: 
-| Entrevistado 4 |   |
+| Entrevistado 4 | Joaquín Reyna |
 | :---- | :---- |
 | Edad | 28 años |
 | Distrito/Ciudad | Lima, Lima |
-| Imagen | <p align="center"><img src="./assets/entrevistas/entrevistaIOT.png" width="200"/></p> |
+| Imagen | <p align="center"><img src="./assets/entrevistas/Entrevista4.png" width="200"/></p> |
 | Resumen | Joaquín Reyna es un nutricionista clínico de 28 años que ejerce en Lima, principalmente en consulta privada y también de forma remota, atendiendo un alto volumen de pacientes mensualmente.<br><br>Actualmente, enfrenta dificultades en el seguimiento de sus pacientes debido a la dependencia de reportes manuales, los cuales considera poco confiables, incompletos y muchas veces inexactos. Esto limita su capacidad para evaluar correctamente la adherencia a los planes nutricionales.<br><br>Uno de los principales problemas que identifica es la falta de datos precisos entre consultas, lo que complica la toma de decisiones y el ajuste oportuno de los tratamientos. Además, ha observado que muchos pacientes abandonan el proceso debido al cansancio que genera registrar manualmente su alimentación y hábitos.<br><br>En cuanto a soluciones, muestra un alto interés en herramientas tecnológicas que automaticen la recolección y validación de datos, especialmente aquellas que ofrezcan métricas en tiempo real. Considera que funcionalidades como dashboards inteligentes, alertas de desviaciones y análisis automatizado mejorarían significativamente su eficiencia profesional.<br><br>Asimismo, valora positivamente el uso de inteligencia artificial como apoyo en la validación de datos, siempre que mantenga su rol como decisor final. Finalmente, destaca la importancia de la seguridad y confidencialidad de la información, y considera que una solución como JameoFit le permitiría escalar su atención a más pacientes sin comprometer la calidad del servicio. |
-| Duración | 12:00 – 17:00 min |
+| Duración | 24:15 – 29:50 min |
 
-|Entrevistado 5 |  |
+|Entrevistado 5 | Franco García |
 | :------------- | :------------------------------------------------------------ |
 | Edad | 30 años |
 | Distrito/Ciudad | Miraflores, Lima |
-| Imagen | <p align="center"><img src="assets/TB1/image.png" width="200"/></p> |
+| Imagen | <p align="center"><img src="assets/entrevistas/Entrevista5.png" width="200"/></p> |
 | Resumen | Franco García es un nutricionista con varios años de experiencia en consulta clínica y asesoría personalizada, que atiende a un volumen considerable de pacientes y busca optimizar su tiempo mediante herramientas más eficientes; actualmente depende de reportes manuales de sus pacientes, los cuales considera poco confiables por errores, omisiones y falta de constancia, lo que dificulta ajustar planes nutricionales entre consultas y tomar decisiones oportunas con información incompleta; además, ha identificado que muchos pacientes abandonan el seguimiento por la fatiga del registro manual, afectando directamente la adherencia y la efectividad del tratamiento; por ello, muestra un alto interés en soluciones tecnológicas que automaticen la recolección de datos, como sistemas con telemetría, métricas en tiempo real y dashboards inteligentes que filtren información relevante y alerten sobre anomalías, valorando especialmente aquellas que integren inteligencia artificial como apoyo para pre-validar datos sin reemplazar su criterio profesional; asimismo, considera fundamental que estas plataformas cumplan con altos estándares de privacidad y seguridad de la información, y ve en este tipo de soluciones una oportunidad para escalar su capacidad de atención sin comprometer la calidad clínica. |
-| Duración | 00:00 – 06:06 min |
+| Duración | 29:55 – 36:05 min |
 
-| Entrevistado 6 |  |
+| Entrevistado 6 | Joaquin Pedraza |
 | :---- | :---- |
-| Edad |  años |
-| Distrito/Ciudad |  |
-|  |  |
-| Timing:: – : min | [Entrevista 6 JF Technologies.mp4] |
+| Edad | 26 años |
+| Distrito/Ciudad | San Miguel, Lima |
+| Imagen | <p align="center"><img src="assets/entrevistas/Entrevista6.png" width="200"/></p> |
+| Resumen | Joaquin Pedraza, nutricionista deportivo, identifica el registro manual como la principal barrera para la adherencia del paciente debido a su falta de precisión y a la fatiga que genera. Muestra un alto interés en la telemetría IoT y la validación por IA para obtener datos objetivos en tiempo real, permitiéndole realizar ajustes proactivos entre consultas. Al automatizar la captura de datos, Joaquin busca evolucionar de supervisor de registros a un estratega nutricional, logrando escalar su capacidad de atención con una base científica sólida y garantizando la seguridad de la información clínica. |
+| Duración | 36:10 – 41:40 min |
+
+Enlace de las entrevistas en Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323270_upc_edu_pe/IQAzMzdoOqH1QY-ZOGX7dtb0AahI_ticCRpNbYTjgzQb0hc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=VcaDuu
 
 #### 2.2.3. Análisis de entrevistas.
+
+El análisis de entrevistas se realizó a partir de los registros y resúmenes obtenidos en la sección anterior. Para cada segmento objetivo se identificaron patrones comunes, tanto objetivos como subjetivos, considerando una muestra de tres entrevistados por segmento. Los porcentajes presentados se calcularon en función del total de entrevistados de cada segmento.
+
+### Segmento 1: Usuarios finales orientados a la mejora de su alimentación
+
+Este segmento está conformado por tres jóvenes adultos residentes en Lima: Giorgio Awad Vargas, Loreley Sarmiento Medina y Anyelo Alejos. Sus edades se encuentran entre los 20 y 23 años, lo que evidencia que el segmento entrevistado corresponde a usuarios jóvenes con familiaridad en el uso de aplicaciones móviles y apertura hacia soluciones digitales para el control nutricional.
+
+| Característica identificada | Tipo | Evidencia en entrevistas | Frecuencia | Porcentaje |
+|---|---|---|---:|---:|
+| Jóvenes adultos entre 20 y 23 años | Objetiva | Giorgio tiene 23 años, Loreley 20 años y Anyelo 21 años. | 3/3 | 100% |
+| Residentes en Lima | Objetiva | Los tres entrevistados residen en distritos de Lima: San Miguel e Independencia. | 3/3 | 100% |
+| No siguen un plan nutricional estructurado | Objetiva | Los tres entrevistados indican que no siguen actualmente un plan nutricional formal. | 3/3 | 100% |
+| Han tenido dificultades con aplicaciones de registro nutricional | Objetiva/Subjetiva | Giorgio, Loreley y Anyelo usaron o intentaron usar aplicaciones, pero las abandonaron por incomodidad, falta de precisión o tiempo requerido. | 3/3 | 100% |
+| Baja constancia en el registro de alimentos | Subjetiva | Los resúmenes mencionan falta de constancia, olvido del registro o abandono del seguimiento manual. | 3/3 | 100% |
+| Dificultad para registrar comidas fuera de casa o en días ocupados | Objetiva/Subjetiva | Los tres entrevistados señalan que comer fuera de casa, tener horarios irregulares o días ocupados afecta el seguimiento. | 3/3 | 100% |
+| Preferencia por soluciones rápidas y automatizadas | Subjetiva | Los entrevistados muestran interés por sensores, telemetría o registro automático para reducir la intervención manual. | 3/3 | 100% |
+| Valoración de alertas, notificaciones o visualización de progreso | Subjetiva | Giorgio valora alertas y progreso; Loreley menciona visualización de progreso y alertas; Anyelo valora monitoreo, alertas y progreso. | 3/3 | 100% |
+| Apertura hacia inteligencia artificial respaldada por profesionales | Subjetiva | Los tres entrevistados muestran una actitud positiva hacia IA si está respaldada por nutricionistas o profesionales. | 3/3 | 100% |
+| Disposición condicionada a pagar por la solución | Subjetiva | Loreley y Anyelo considerarían pagar si la solución demuestra efectividad o justifica su valor. En Giorgio no se registra una disposición explícita al pago. | 2/3 | 66.7% |
+
+A partir de estos resultados, se observa que el usuario representativo de este segmento es una persona joven, familiarizada con aplicaciones móviles, interesada en mejorar sus hábitos alimenticios, pero con dificultades para mantener un registro manual constante. El principal problema identificado es la fricción generada por el registro manual, especialmente cuando el usuario come fuera de casa o tiene una rutina ocupada.
+
+En términos subjetivos, el segmento muestra frustración frente a herramientas que demandan mucho tiempo o entregan datos poco precisos. Por ello, el arquetipo de este segmento debe reflejar a un usuario que valora la practicidad, la automatización, la visualización clara de progreso y las recomendaciones confiables. Asimismo, la confianza en inteligencia artificial depende de que esta sea percibida como una herramienta respaldada por profesionales, no como una fuente aislada de recomendaciones.
+
+### Segmento 2: Profesionales de la salud: nutricionistas y entrenadores
+
+Este segmento está conformado por tres profesionales de la nutrición: Joaquín Reyna, Franco García y Joaquin Pedraza. Sus edades se encuentran entre los 26 y 30 años, todos residentes en Lima. Los entrevistados ejercen en contextos de consulta clínica, asesoría personalizada, atención remota o nutrición deportiva, por lo que representan perfiles profesionales que requieren información confiable para tomar decisiones sobre sus pacientes.
+
+| Característica identificada | Tipo | Evidencia en entrevistas | Frecuencia | Porcentaje |
+|---|---|---|---:|---:|
+| Profesionales de nutrición entre 26 y 30 años | Objetiva | Joaquín Reyna tiene 28 años, Franco García 30 años y Joaquin Pedraza 26 años. | 3/3 | 100% |
+| Residentes o trabajadores en Lima | Objetiva | Los tres entrevistados se ubican en Lima, incluyendo Lima y Miraflores. | 3/3 | 100% |
+| Experiencia en atención nutricional personalizada | Objetiva | Los resúmenes indican consulta privada, asesoría personalizada, atención clínica, remota o nutrición deportiva. | 3/3 | 100% |
+| Dependencia actual de reportes manuales de pacientes | Objetiva | Joaquín Reyna y Franco García dependen de reportes manuales; Joaquin Pedraza identifica el registro manual como barrera principal. | 3/3 | 100% |
+| Baja confianza en la precisión de los reportes manuales | Subjetiva | Los tres entrevistados consideran que los registros manuales son poco confiables, incompletos, inexactos o imprecisos. | 3/3 | 100% |
+| Dificultad para ajustar planes entre consultas | Objetiva/Subjetiva | Joaquín Reyna y Franco García mencionan falta de datos precisos entre consultas; Joaquin Pedraza busca ajustes proactivos con datos en tiempo real. | 3/3 | 100% |
+| Identificación de abandono o baja adherencia por fatiga del registro | Subjetiva | Joaquín Reyna y Franco García mencionan abandono por cansancio del registro; Joaquin Pedraza identifica la fatiga del registro como barrera de adherencia. | 3/3 | 100% |
+| Alto interés en automatización, telemetría o datos en tiempo real | Subjetiva | Los tres entrevistados valoran herramientas que automaticen la recolección de datos y ofrezcan métricas en tiempo real. | 3/3 | 100% |
+| Valoración de dashboards, alertas o análisis automatizado | Subjetiva | Joaquín Reyna y Franco García mencionan dashboards inteligentes y alertas; Joaquin Pedraza destaca datos objetivos para ajustes proactivos. | 3/3 | 100% |
+| Aceptación de IA como apoyo, sin reemplazar el criterio profesional | Subjetiva | Joaquín Reyna y Franco García valoran IA como apoyo manteniendo al profesional como decisor; Joaquin Pedraza menciona validación por IA con base científica. | 3/3 | 100% |
+| Importancia de privacidad y seguridad de datos | Objetiva/Subjetiva | Los tres entrevistados resaltan la confidencialidad, seguridad o protección de información clínica. | 3/3 | 100% |
+| Interés en escalar la atención sin perder calidad | Subjetiva | Joaquín Reyna y Franco García mencionan escalar atención; Joaquin Pedraza busca evolucionar su rol y atender con base científica sólida. | 3/3 | 100% |
+
+El análisis evidencia que el profesional representativo de este segmento enfrenta una limitación crítica: la calidad de sus decisiones depende de información reportada manualmente por los pacientes, la cual suele ser incompleta, imprecisa o inconsistente. Esta situación afecta el seguimiento nutricional, dificulta los ajustes entre consultas y reduce la capacidad del profesional para intervenir oportunamente.
+
+Desde una perspectiva subjetiva, los entrevistados muestran alta valoración por herramientas que automaticen la recolección de datos y permitan visualizar información confiable mediante dashboards, alertas y métricas en tiempo real. Sin embargo, también establecen una condición importante: la inteligencia artificial debe funcionar como apoyo para validar o preprocesar información, pero no debe reemplazar el criterio profesional.
+
+Por ello, el arquetipo de este segmento debe representar a un nutricionista que busca mejorar la eficiencia de su práctica, reducir la dependencia de reportes manuales, tomar decisiones basadas en datos objetivos y escalar su atención sin comprometer la calidad clínica ni la seguridad de la información del paciente.
+
+### Conclusiones del análisis
+
+En ambos segmentos se identifica un problema común: el registro manual de alimentos genera fricción, imprecisión y pérdida de continuidad. En el Segmento 1, esta fricción se manifiesta como falta de constancia, abandono de aplicaciones y dificultad para registrar comidas en contextos cotidianos. En el Segmento 2, el mismo problema impacta en la calidad del seguimiento profesional, la toma de decisiones y la adherencia de los pacientes.
+
+Asimismo, ambos segmentos muestran una valoración positiva hacia la automatización, el uso de datos en tiempo real y la inteligencia artificial, siempre que esta sea confiable y esté respaldada por profesionales. Estos hallazgos sustentan la necesidad de construir arquetipos centrados en la practicidad, confiabilidad, automatización, visualización clara de datos y protección de la información.
+
+
+
 
 ### 2.3. Needfinding.
 
@@ -850,81 +910,71 @@ Interacciones Entre Segmentos
 ## Capítulo III: Requirements Specification
 
 ### 3.1. User Stories.
-En esta sección se detallan todas las **User Stories** identificadas para la aplicación JameoFit. Incluyen:  
 
-- Funcionalidades básicas de la app  
-- Integración con dispositivos IoT: bebedor inteligente y báscula inteligente  
-- IA tipo coach nutricional para recomendaciones guiadas  
+En esta sección se presentan las épicas y user stories del sistema. Cada historia incluye criterios de aceptación en formato Gherkin (Given–When–Then), redactados en tercera persona, tiempo presente y verificables. También se incluyen historias para la landing page (rol visitante) y technical stories (rol developer).
 
-Cada historia está estructurada para facilitar desarrollo ágil y validación iterativa.
-
----
-
-| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
-|-----------------|--------|-------------|------------------------|---------------------------|
-| US-01 | Registro de Usuario | Como visitante, quiero registrarme en la aplicación para empezar a gestionar mis necesidades alimenticias. | Escenario 01: Dado que soy un nuevo usuario, al completar registro, la app muestra sugerencias iniciales. <br> Escenario 02: Dado que completé datos después, la app actualiza las sugerencias automáticamente. | EP-01 |
-| US-02 | Recuperación de Contraseña | Como usuario, quiero recuperar mi contraseña en caso de olvidarla. | Escenario 01: La app envía correo con instrucciones. <br> Escenario 02: Permite reenviar correo si no se recibió. | EP-01 |
-| US-03 | Personalización de Perfil | Como usuario registrado, quiero completar y editar mis preferencias alimenticias. | Escenario 01: Al ingresar alergias o restricciones, se excluyen alimentos del plan. <br> Escenario 02: Al cambiar objetivo de salud, se ajusta plan automáticamente. | EP-01 |
-| US-04 | Plan Alimenticio Personalizado | Como usuario, quiero recibir un plan alimenticio personalizado. | Escenario 01: Genera plan adaptado al perfil del usuario. <br> Escenario 02: Al cambiar nivel de actividad, se genera nueva propuesta. | EP-02 |
-| US-05 | Edición de Plan Alimenticio | Como usuario, quiero modificar o sustituir comidas del plan. | Escenario 01: Sustituir comida no deseada con alternativas saludables. <br> Escenario 02: Actualizar plan tras registrar nuevas restricciones. | EP-02 |
-| US-06 | Registro Diario de Alimentos | Como usuario, quiero registrar lo que como diariamente. | Escenario 01: Guardar y analizar los registros diarios. <br> Escenario 02: Permitir editar registros pasados. | EP-03 |
-| US-07 | Recordatorios de Comidas | Como usuario, quiero recibir recordatorios de registro de comidas. | Escenario 01: Notificaciones según horarios seleccionados. <br> Escenario 02: Advertencias por registros faltantes. | EP-03 |
-| US-08 | Visualización del Progreso | Como usuario, quiero visualizar mi progreso nutricional. | Escenario 01: Mostrar estadísticas y tendencias. <br> Escenario 02: Indicar días sin registro. | EP-03 |
-| US-09 | Feedback Diario | Como usuario, quiero recibir comentarios diarios sobre alimentación. | Escenario 01: Mostrar resumen nutricional al final del día. <br> Escenario 02: Recomendar ajustes si se supera meta calórica. | EP-03 |
-| US-10 | Registro de Logros | Como usuario, quiero ver mis avances y logros. | Escenario 01: Mostrar insignias al cumplir objetivos. <br> Escenario 02: Resaltar progresos mensuales con mensajes motivacionales. | EP-04 |
-| US-11 | Alertas de Objetivos no Alcanzados | Como usuario, quiero recibir alertas de metas no cumplidas. | Escenario 01: Sincronización con dispositivos IoT. <br> Escenario 02: Al desvincular IoT, dejar de recibir datos. | EP-03 |
-| US-12 | Panel de Pacientes | Como nutricionista, quiero ver panel con estado de pacientes. | Escenario 01: Mostrar progreso incluyendo datos de IoT. <br> Escenario 02: Generar alertas ante cambios significativos. | EP-05 |
-| US-13 | Envío de Sugerencias | Como nutricionista, quiero enviar recomendaciones a usuarios. | Escenario 01: Enviar mensajes en tiempo real. <br> Escenario 02: Dejar mensaje si usuario no está disponible. | EP-05 |
-| US-14 | Personalización de Metas | Como usuario, quiero definir metas específicas. | Escenario 01: Confirmar ajustes de metas. <br> Escenario 02: Notificar cancelaciones y actualizar plan. | EP-02 |
-| US-15 | Visualización de Logros | Como usuario, quiero ver mis logros completados. | Escenario 01: Registrar nuevas metas y progreso. <br> Escenario 02: Felicitaciones al alcanzar objetivos. | EP-04 |
-| US-16 | Notificaciones de Actividad | Como usuario, quiero recibir notificaciones sobre novedades de la app y dispositivos IoT. | Escenario 01: Importar datos relevantes de IoT. <br> Escenario 02: Revocar acceso elimina datos sincronizados. | EP-05 |
-| US-17 | Soporte en Tiempo Real | Como usuario, quiero chatear con soporte técnico. | Escenario 01: Mostrar advertencias de exceso calórico/metas no cumplidas. <br> Escenario 02: Recomendar ajustes basados en datos de IoT. | EP-05 |
-| US-18 | Conocer la propuesta de valor | Como visitante, quiero entender cómo me beneficia la app. | Escenario 01: Mostrar resumen de estadísticas y sugerencias al abrir la app. | EP-06 |
-| US-19 | Acceder al registro o inicio de sesión | Como visitante, quiero iniciar sesión o registrarme desde la barra superior. | Escenario 01: Aplicar cambios de configuración inmediatamente. | EP-06 |
-| US-20 | Navegar entre secciones desde la barra | Como visitante, quiero usar la barra superior para explorar secciones. | Escenario 01: Mensajes y publicaciones visibles en secciones correspondientes. | EP-06 |
-| US-21 | Ver resumen de beneficios | Como visitante, quiero ver los beneficios que ofrece la app. | Escenario 01: Mostrar opciones de contacto y ayuda. | EP-06 |
-| US-22 | Navegar por los beneficios principales | Como visitante, quiero navegar por la sección de beneficios. | Escenario 01: Mostrar detalles de planes, beneficios y suscripciones. | EP-06 |
-| US-23 | Visualizar testimonios | Como visitante, quiero leer testimonios de usuarios. | Escenario 01: Mostrar testimonios verificados. | EP-06 |
-| US-24 | Navegar desde el footer | Como visitante, quiero que enlaces del footer funcionen correctamente. | Escenario 01: Mostrar información y transacciones correctamente. | EP-06 |
-| US-25 | Acceder desde distintos dispositivos | Como visitante, quiero que la landing page funcione en cualquier dispositivo. | Escenario 01: Datos sensibles guardados cifrados. <br> Escenario 02: Mostrar términos de privacidad actualizados. | EP-06 |
-| US-26 | Ver recetas preestablecidas | Como usuario, quiero ver recetas ya creadas para guardar las que me interesen. | Escenario 01: Sesión cierra por inactividad automáticamente. <br> Escenario 02: Solicita inicio de sesión para funciones protegidas. | EP-07 |
-| US-27 | Hacer tracking del plan | Como usuario, quiero saber si la app sigue mi plan. | Escenario 01: Datos locales offline disponibles. <br> Escenario 02: Sincronización automática al reconectar. | EP-07 |
-| US-28 | Ver recomendaciones | Como usuario, quiero que la app muestre recomendaciones durante el día. | Escenario 01: Encuesta semanal permite calificar experiencia. | EP-07 |
-| US-29 | Registro de Nutricionista | Como nutricionista, quiero registrarme con credenciales profesionales. | Escenario 01: Registro completo y seguro. | EP-08 |
-| US-30 | Perfil Detallado de Nutricionista | Como nutricionista, quiero gestionar mi perfil profesional detallado. | Escenario 01: Visualizar y actualizar información profesional. | EP-08 |
-| US-31 | Publicación de Consejos de Nutrición | Como nutricionista, quiero publicar artículos y consejos. | Escenario 01: Publicación visible para usuarios. | EP-09 |
-| US-32 | Gestión de Contenido Educativo | Como nutricionista, quiero organizar artículos por categorías y temáticas. | Escenario 01: Sincronización entre dispositivos y preservación de progreso. | EP-09 |
-| US-33 | Chat Directo con Usuarios | Como nutricionista, quiero chatear con usuarios. | Escenario 01: Mostrar solo recetas compatibles con preferencias. <br> Escenario 02: Actualizar sugerencias automáticamente. | EP-10 |
-| US-34 | Gestión de Consultas | Como nutricionista, quiero organizar consultas y conversaciones. | Escenario 01: Configurar recordatorios de agua/consumo IoT para pacientes. | EP-10 |
-| US-35 | Configuración de Suscripciones | Como nutricionista, quiero configurar suscripciones a mi contenido. | Escenario 01: Calcular métricas automáticamente según registros IoT. | EP-11 |
-| US-36 | Panel de Suscriptores | Como nutricionista, quiero ver un panel de mis suscriptores. | Escenario 01: Compartir o guardar logros de suscriptores. | EP-11 |
-| US-37 | Notificaciones de Actividad Profesional | Como nutricionista, quiero recibir notificaciones sobre actividad en mi perfil. | Escenario 01: Mantener idioma configurado tras reinicio. | EP-08 |
-| US-38 | Herramientas de Seguimiento de Pacientes | Como nutricionista, quiero herramientas para monitorear progreso de usuarios, incluyendo IoT. | Escenario 01: Mostrar historial mensual, semanal y datos de IoT. | EP-10 |
-| US-39 | Biblioteca de Recursos Profesionales | Como nutricionista, quiero acceder a recursos científicos actualizados. | Escenario 01: Mostrar artículos relacionados y contenido complementario. | EP-09 |
-| US-40 | Estadísticas y Analytics | Como nutricionista, quiero ver estadísticas detalladas de mi actividad en la plataforma. | Escenario 01: Sugerir metas progresivas según registros IoT y metas. | EP-11 |
-| US-41 | Registro de Hidratación por Bebedor Inteligente | Como usuario, quiero que el bebedor inteligente registre mi consumo de agua automáticamente. | Escenario 01: Sincronización automática con la app al beber agua. <br> Escenario 02: Mostrar alertas si consumo bajo o sobrepasa meta. | EP-12 |
-| US-42 | Registro de Peso por Balanza Inteligente | Como usuario, quiero que la balanza inteligente sincronice mi peso automáticamente. | Escenario 01: Sincronización automática al pesarse. <br> Escenario 02: Mostrar evolución semanal y mensual. | EP-12 |
-| US-43 | Recomendaciones automáticas de alimentación (IA) | Como usuario, quiero recibir recomendaciones automáticas basadas en mis registros diarios. | Escenario 01: La IA analiza historial y sugiere ajustes diarios. <br> Escenario 02: Las sugerencias se muestran resumidas. | EP-12 |
-| US-44 | Interacción con coach virtual | Como usuario, quiero interactuar con un coach virtual para obtener sugerencias guiadas. | Escenario 01: Responde solo dentro de opciones predefinidas. <br> Escenario 02: Máximo 1–2 interacciones/día. | EP-12 |
-| US-45 | Entrenamiento supervisado por nutricionista | Como nutricionista, quiero entrenar la IA con ejemplos de mis pacientes. | Escenario 01: IA ajusta recomendaciones con datasets supervisados. <br> Escenario 02: Aplicación incremental y controlada de mejoras. | EP-12 |
-| US-46 | Limitar interacción IA | Como usuario, quiero que la IA me envíe solo sugerencias resumidas y limitadas. | Escenario 01: Prioriza recomendaciones importantes. <br> Escenario 02: Máximo 1–2 alertas/día. | EP-12 |
-
----
-
-## Épicas
-
-- **EP-01: Registro y Gestión de Cuenta** – US-01 a US-03  
-- **EP-02: Personalización y Generación de Planes** – US-04, US-05, US-14  
-- **EP-03: Registro y Seguimiento** – US-06, US-07, US-08, US-09, US-11  
-- **EP-04: Comunidad y Motivación** – US-10, US-15  
-- **EP-05: Soporte y Experiencia del Usuario** – US-12, US-13, US-16, US-17  
-- **EP-06: Landing Page** – US-18 a US-25  
-- **EP-07: Visualización Detallada** – US-26 a US-28  
-- **EP-08: Registro y Gestión Profesional** – US-29, US-30, US-37  
-- **EP-09: Creación y Gestión de Contenido Educativo** – US-31, US-32, US-39  
-- **EP-10: Comunicación y Seguimiento de Usuarios** – US-33, US-34, US-38  
-- **EP-11: Monetización y Analytics** – US-35, US-36, US-40  
-- **EP-12: IA Coach Nutricional e IoT Integrado** – US-41 a US-46
+| Epic/Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+|---------------|--------|-------------|-------------------------|---------------------------|
+| EP-01 | Registro y Gestión de Cuenta | Gestión de registro, autenticación y perfil de usuario. | N/A | - |
+| US-01 | Registro de Usuario | Como visitante, quiere registrarse para usar el sistema. | Given datos válidos, When se registra, Then el sistema crea la cuenta. <br> Given perfil completo, When guarda datos, Then genera sugerencias. | EP-01 |
+| US-02 | Recuperación de Contraseña | Como usuario, quiere recuperar su contraseña. | Given solicitud válida, When ingresa correo, Then recibe instrucciones. <br> Given reenvío, When lo solicita, Then el sistema envía nuevamente. | EP-01 |
+| US-03 | Personalización de Perfil | Como usuario, quiere definir preferencias. | Given restricciones, When guarda, Then excluye alimentos. <br> Given objetivos, When actualiza, Then ajusta plan. | EP-01 |
+| TS-01 | API Autenticación | Como developer, quiere autenticar usuarios vía API. | Given credenciales válidas, When se envían, Then retorna token. <br> Given inválidas, When se envían, Then retorna error. | EP-01 |
+| EP-02 | Personalización de Planes | Generación y edición de planes alimenticios. | N/A | - |
+| US-04 | Plan Personalizado | Como usuario, quiere plan adaptado. | Given perfil completo, When solicita, Then genera plan. <br> Given cambios, When actualiza, Then ajusta plan. | EP-02 |
+| US-05 | Edición de Plan | Como usuario, quiere modificar comidas. | Given selección, When reemplaza, Then muestra alternativas. <br> Given cambios, When actualiza, Then el sistema guarda modificaciones. | EP-02 |
+| US-14 | Personalización de Metas | Como usuario, quiere definir metas. | Given metas nuevas, When guarda, Then el sistema confirma. <br> Given cancelación, When ejecuta acción, Then el sistema actualiza plan. | EP-02 |
+| TS-02 | API Planes | Como developer, quiere gestionar planes. | Given solicitud válida, When consulta, Then retorna datos. <br> Given solicitud inválida, When procesa, Then retorna error. | EP-02 |
+| EP-03 | Registro y Seguimiento | Seguimiento de hábitos y progreso. | N/A | - |
+| US-06 | Registro Diario | Como usuario, quiere registrar alimentos. | Given datos, When guarda, Then el sistema almacena información. <br> Given edición, When guarda cambios, Then actualiza registro. | EP-03 |
+| US-07 | Recordatorios | Como usuario, quiere recordatorios. | Given horarios configurados, When llega la hora, Then el sistema notifica. <br> Given registros faltantes, When termina el día, Then alerta. | EP-03 |
+| US-08 | Progreso | Como usuario, quiere ver progreso. | Given datos disponibles, When consulta, Then muestra estadísticas. <br> Given ausencia de datos, When consulta historial, Then indica faltantes. | EP-03 |
+| US-09 | Feedback Diario | Como usuario, quiere retroalimentación. | Given datos diarios, When finaliza el día, Then muestra resumen. <br> Given exceso calórico, When detecta, Then recomienda ajustes. | EP-03 |
+| US-11 | Alertas | Como usuario, quiere alertas de metas. | Given meta no cumplida, When detecta condición, Then alerta. <br> Given integración IoT, When recibe datos, Then los procesa. | EP-03 |
+| EP-04 | Comunidad y Motivación | Logros y motivación del usuario. | N/A | - |
+| US-10 | Logros | Como usuario, quiere ver logros. | Given objetivo cumplido, When valida, Then muestra logro. <br> Given progreso continuo, When analiza, Then resalta avances. | EP-04 |
+| US-15 | Visualización de Logros | Como usuario, quiere ver logros completos. | Given metas alcanzadas, When consulta, Then lista logros. <br> Given nuevo logro, When ocurre, Then notifica. | EP-04 |
+| EP-05 | Soporte y Experiencia | Comunicación y soporte. | N/A | - |
+| US-12 | Panel Pacientes | Como nutricionista, quiere ver pacientes. | Given datos disponibles, When consulta, Then muestra estado. <br> Given cambios relevantes, When detecta, Then alerta. | EP-05 |
+| US-13 | Sugerencias | Como nutricionista, quiere enviar recomendaciones. | Given usuario disponible, When envía mensaje, Then entrega. <br> Given usuario no disponible, When envía, Then almacena. | EP-05 |
+| US-16 | Notificaciones | Como usuario, quiere notificaciones. | Given evento relevante, When ocurre, Then notifica. <br> Given revocación, When ejecuta, Then elimina acceso. | EP-05 |
+| US-17 | Soporte | Como usuario, quiere soporte. | Given solicitud, When envía, Then registra caso. <br> Given seguimiento, When consulta, Then muestra estado. | EP-05 |
+| EP-06 | Landing Page | Sitio web informativo para visitantes. | N/A | - |
+| US-18 | Propuesta de Valor | Como visitante, quiere entender beneficios. | Given acceso, When navega, Then muestra propuesta de valor. | EP-06 |
+| US-19 | Acceso | Como visitante, quiere iniciar sesión. | Given acción, When ejecuta, Then redirige correctamente. | EP-06 |
+| US-20 | Navegación | Como visitante, quiere navegar secciones. | Given selección, When navega, Then muestra contenido. | EP-06 |
+| US-21 | Beneficios | Como visitante, quiere ver beneficios. | Given acceso, When consulta, Then muestra información. | EP-06 |
+| US-22 | Exploración | Como visitante, quiere explorar beneficios. | Given navegación, When interactúa, Then muestra detalles. | EP-06 |
+| US-23 | Testimonios | Como visitante, quiere ver testimonios. | Given acceso, When consulta, Then muestra testimonios. | EP-06 |
+| US-24 | Footer | Como visitante, quiere usar enlaces. | Given selección, When accede, Then redirige correctamente. | EP-06 |
+| US-25 | Responsive | Como visitante, quiere acceso multidispositivo. | Given dispositivo, When accede, Then adapta contenido. | EP-06 |
+| EP-07 | Visualización Detallada | Funciones avanzadas de visualización. | N/A | - |
+| US-26 | Recetas | Como usuario, quiere ver recetas. | Given acceso, When consulta, Then muestra recetas. <br> Given selección, When guarda, Then registra preferencia. | EP-07 |
+| US-27 | Tracking | Como usuario, quiere seguimiento. | Given datos, When consulta, Then muestra estado. | EP-07 |
+| US-28 | Recomendaciones | Como usuario, quiere recomendaciones. | Given actividad, When analiza, Then sugiere. | EP-07 |
+| EP-08 | Gestión Profesional | Registro de nutricionistas. | N/A | - |
+| US-29 | Registro Nutricionista | Como nutricionista, quiere registrarse. | Given datos válidos, When envía, Then crea cuenta. | EP-08 |
+| US-30 | Perfil Profesional | Como nutricionista, quiere gestionar perfil. | Given cambios, When guarda, Then actualiza perfil. | EP-08 |
+| US-37 | Notificaciones Profesionales | Como nutricionista, quiere notificaciones. | Given actividad, When ocurre, Then notifica. | EP-08 |
+| EP-09 | Contenido Educativo | Gestión de contenido. | N/A | - |
+| US-31 | Publicación | Como nutricionista, quiere publicar contenido. | Given contenido válido, When publica, Then es visible. | EP-09 |
+| US-32 | Gestión Contenido | Como nutricionista, quiere organizar contenido. | Given categorías, When asigna, Then clasifica contenido. | EP-09 |
+| US-39 | Biblioteca | Como nutricionista, quiere recursos. | Given búsqueda, When consulta, Then muestra resultados. | EP-09 |
+| EP-10 | Comunicación | Interacción usuario-nutricionista. | N/A | - |
+| US-33 | Chat | Como nutricionista, quiere comunicarse. | Given mensaje, When envía, Then entrega. | EP-10 |
+| US-34 | Gestión Consultas | Como nutricionista, quiere organizar consultas. | Given consulta, When gestiona, Then actualiza estado. | EP-10 |
+| US-38 | Seguimiento | Como nutricionista, quiere monitorear usuarios. | Given datos, When analiza, Then muestra progreso. | EP-10 |
+| EP-11 | Monetización | Suscripciones y analytics. | N/A | - |
+| US-35 | Suscripciones | Como nutricionista, quiere configurar planes. | Given configuración, When guarda, Then aplica cambios. | EP-11 |
+| US-36 | Suscriptores | Como nutricionista, quiere ver suscriptores. | Given datos, When consulta, Then muestra lista. | EP-11 |
+| US-40 | Analytics | Como nutricionista, quiere estadísticas. | Given datos, When consulta, Then muestra métricas. | EP-11 |
+| EP-12 | IA e IoT | Integración con IA y dispositivos. | N/A | - |
+| US-41 | Hidratación IoT | Como usuario, quiere registro automático. | Given consumo, When detecta, Then sincroniza. <br> Given bajo consumo, When evalúa, Then alerta. | EP-12 |
+| US-42 | Peso IoT | Como usuario, quiere registro de peso. | Given medición, When detecta, Then sincroniza. | EP-12 |
+| US-43 | IA Recomendaciones | Como usuario, quiere recomendaciones IA. | Given datos, When analiza, Then sugiere ajustes. | EP-12 |
+| US-44 | Coach Virtual | Como usuario, quiere guía. | Given consulta, When interactúa, Then responde. | EP-12 |
+| US-45 | Entrenamiento IA | Como nutricionista, quiere entrenar IA. | Given datos, When entrena, Then mejora modelo. | EP-12 |
+| US-46 | Límite IA | Como usuario, quiere control de IA. | Given límite alcanzado, When detecta, Then restringe interacción. | EP-12 |
 
 ### 3.2. Impact Mapping.
 El **Impact Map** es una herramienta visual que permite relacionar los objetivos de negocio con las personas involucradas, los impactos esperados, los entregables y las historias de usuario asociadas.  
@@ -2359,3 +2409,8 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10337248/
 Instituto Nacional de Estadística e Informática (INEI). (2023).  
 Las Tecnologías de Información y Comunicación en los Hogares: Oct-Nov-Dic 2023.  
 https://www.gob.pe/institucion/inei/informes-publicaciones/5408920-las-tecnologias-de 
+
+### Videos de Exposiciones
+
+AV1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323270_upc_edu_pe/IQA-8Ea3XJJ4SKV4BOhLQeF3AaoSDORI-u2m4FrHy1KFbKc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=r9G8pP
+
