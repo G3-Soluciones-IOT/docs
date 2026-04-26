@@ -305,7 +305,7 @@ What:
 El problema principal radica en la dificultad que tienen muchas personas para realizar un seguimiento preciso y constante de su ingesta nutricional. Las herramientas digitales actuales suelen depender del registro manual, lo que introduce errores y limita la precisión de los datos, además de generar fricción en la experiencia del usuario.
 
 Who:  
-La problemática afecta a dos segmentos principales. Por un lado, usuarios finales que buscan mejorar su alimentación, incluyendo personas interesadas en optimizar sus hábitos nutricionales, deportistas o individuos con rutinas laborales que requieren controlar su ingesta. Por otro lado, profesionales de la salud, como nutricionistas o entrenadores, que necesitan información confiable para realizar seguimiento y brindar recomendaciones a sus pacientes o clientes.
+La problemática afecta a dos segmentos principales. Por un lado, usuarios finales que buscan mejorar su alimentación, incluyendo personas interesadas en optimizar sus hábitos nutricionales, deportistas o individuos con rutinas laborales que requieren controlar su ingesta. Por otro lado, profesionales de la salud, como nutricionistas, que aportan conocimiento especializado para el entrenamiento y validación de sistemas de recomendación nutricional.
 
 When:  
 El problema se presenta de manera constante en la vida diaria, especialmente cada vez que el usuario consume alimentos y debe registrar dicha información. Su relevancia ha aumentado en los últimos años debido al mayor interés en el autocuidado y el uso de herramientas digitales para la gestión de la salud.
@@ -340,19 +340,19 @@ Se ha identificado que los usuarios presentan dificultades para registrar y moni
 - Abandono del uso de aplicaciones de nutrición  
 - Falta de visibilidad clara sobre hábitos alimenticios  
 - Dificultad para tomar decisiones informadas  
-- Limitada capacidad de seguimiento por parte de profesionales de la salud  
+- Limitada capacidad del sistema para generar recomendaciones nutricionales precisas basadas en datos confiables 
 
 **Gap**  
 Existe una brecha entre la necesidad de contar con información nutricional precisa, continua y confiable, y la disponibilidad de herramientas digitales que reduzcan la carga manual del usuario y mejoren la calidad de los datos recolectados.
 
 **Vision / Strategy**  
-Desarrollar una solución digital que permita automatizar y optimizar el monitoreo de la ingesta nutricional, reduciendo la intervención manual del usuario y mejorando la precisión de los datos, facilitando la toma de decisiones y promoviendo hábitos alimenticios sostenibles tanto en usuarios finales como en profesionales de la salud.
+Desarrollar una solución digital que permita automatizar y optimizar el monitoreo de la ingesta nutricional, reduciendo la intervención manual del usuario y mejorando la precisión de los datos, facilitando la toma de decisiones y promoviendo hábitos alimenticios sostenibles en usuarios finales, apoyándose en conocimiento experto para mejorar la calidad de las recomendaciones nutricionales.
 
 **Initial Segment**  
 Usuarios urbanos en Perú interesados en mejorar su alimentación y que utilizan dispositivos móviles como principal medio de acceso digital.
 
 **Problem Statement**  
-¿Cómo podríamos facilitar el monitoreo preciso y constante de la ingesta nutricional de los usuarios, al mismo tiempo que brindamos información confiable a los profesionales de la salud, reduciendo la carga manual y mejorando la calidad de los datos para apoyar la toma de decisiones?
+¿Cómo podríamos facilitar el monitoreo preciso y constante de la ingesta nutricional de los usuarios, al mismo tiempo que mejoramos la calidad de las recomendaciones nutricionales mediante datos precisos y conocimiento experto, reduciendo la carga manual y mejorando la calidad de los datos para apoyar la toma de decisiones?
 
 ##### 1.2.2.2. Lean UX Assumptions.
 Las siguientes suposiciones han sido definidas en base al entendimiento preliminar del problema y serán validadas mediante el proceso iterativo del Lean UX.
@@ -363,8 +363,8 @@ Las siguientes suposiciones han sido definidas en base al entendimiento prelimin
 - Se asume que existe una creciente demanda por soluciones digitales orientadas al monitoreo de la salud y la nutrición.  
 - Se asume que los usuarios perciben valor en herramientas que reduzcan el esfuerzo requerido para registrar su alimentación.  
 - Se asume que la automatización del registro nutricional puede mejorar la retención de usuarios.  
-- Se asume que los profesionales de la salud requieren herramientas más precisas para el seguimiento de sus pacientes.  
-- Se asume que los profesionales están dispuestos a adoptar herramientas digitales que mejoren la calidad del seguimiento nutricional.  
+- Se asume que los profesionales están dispuestos a contribuir al entrenamiento de modelos basados en datos. 
+- Se asume que la integración de conocimiento experto puede mejorar la precisión de sistemas de recomendación nutricional. 
 - Se asume que el mercado peruano presenta oportunidades para soluciones digitales en el ámbito de la salud y bienestar.  
 - Se asume que una solución basada en datos puede generar valor tanto para usuarios finales como para profesionales.  
 
@@ -375,8 +375,7 @@ Las siguientes suposiciones han sido definidas en base al entendimiento prelimin
 - Se asume que los usuarios valoran la facilidad de uso y la rapidez en el registro de información.  
 - Se asume que los usuarios están dispuestos a adoptar herramientas digitales si estas son intuitivas.  
 - Se asume que los usuarios desean mejorar sus hábitos alimenticios pero carecen de herramientas eficientes.  
-- Se asume que los profesionales de la salud necesitan datos confiables para brindar recomendaciones adecuadas.  
-- Se asume que los profesionales valoran herramientas que optimicen su tiempo y mejoren el seguimiento de pacientes.  
+- Se asume que los profesionales de la salud están dispuestos a aportar conocimiento experto para mejorar sistemas automatizados de recomendación.
 - Se asume que los usuarios prefieren soluciones que reduzcan el esfuerzo requerido para el monitoreo nutricional.  
 
 ##### 1.2.2.3. Lean UX Hypothesis Statements.
@@ -388,9 +387,9 @@ Creemos que los usuarios podrán tomar mejores decisiones sobre su alimentación
 
 Sabremos que esto es cierto cuando más del 60% de los usuarios indique que comprende mejor su alimentación y realiza cambios en sus hábitos.
 
-Creemos que los profesionales de la salud podrán mejorar la calidad de sus recomendaciones si cuentan con datos más precisos y actualizados sobre la ingesta nutricional de sus pacientes, lo que permitirá un seguimiento más efectivo.
+Creemos que las recomendaciones nutricionales generadas por el sistema serán más precisas y confiables si son entrenadas y validadas con conocimiento experto de nutricionistas.
 
-Sabremos que esto es cierto cuando al menos el 70% de los profesionales indique que la herramienta mejora su capacidad de análisis y toma de decisiones.
+Sabremos que esto es cierto cuando al menos el 65% de los usuarios perciba las recomendaciones como útiles y confiables y se observe una mayor adherencia a las sugerencias nutricionales.
 
 Creemos que los usuarios adoptarán la solución si esta ofrece una experiencia simple, rápida y accesible desde dispositivos móviles, lo que permitirá su uso continuo.
 
@@ -398,7 +397,7 @@ Sabremos que esto es cierto cuando la tasa de retención supere el 60% después 
 ##### 1.2.2.4. Lean UX Canvas.
 
 <p align="center">
-    <img src="assets/recursos/Lean UX Canvas-IoT.png" alt="Lean-UX-Canvas" width="400px"/>
+    <img src="assets/recursos/Lean UX Canvas-IoT (1).png" alt="Lean-UX-Canvas" width="400px"/>
 </p>
 
 Link: https://canva.link/55j2m2akga2iwr8
@@ -426,7 +425,7 @@ En el Perú, el acceso a tecnologías digitales ha crecido de manera significati
 
 | Aspectos demográficos | Aspectos geográficos | Aspectos psicográficos |
 |----------------------|--------------------|------------------------|
-| Sexo: Masculino y Femenino | Nacionalidad: Peruana | Motivaciones: Mejorar la calidad de atención y seguimiento de sus pacientes |
+| Sexo: Masculino y Femenino | Nacionalidad: Peruana | Motivaciones: Mejorar la calidad de las recomendaciones nutricionales mediante el uso de herramientas tecnológicas, contribuir con conocimiento experto al entrenamiento de sistemas inteligentes y apoyar la generación de recomendaciones basadas en evidencia|
 | Edades: 25 – 60 años | Ubicación: Zonas urbanas con presencia de clínicas y consultorios (Lima, Arequipa, Trujillo) | Estilo de vida: Profesional orientado al servicio y bienestar de terceros |
 | Nivel socioeconómico: B y C | Acceso a tecnología: Alto acceso a herramientas digitales e internet | Preocupaciones: Falta de datos confiables y herramientas eficientes para el monitoreo de pacientes |
 | Ocupación: Nutricionistas, médicos generales, entrenadores, profesionales de salud | | Adaptación a la tecnología: Media-alta, con interés en herramientas que optimicen su trabajo |
