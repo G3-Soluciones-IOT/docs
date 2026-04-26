@@ -593,12 +593,13 @@ La sección abarca el proceso de investigación de nuestros segmentos objetivos 
 
 
 ### Segmento 2: 
-| Entrevistado 4 |  |
+| Entrevistado 4 |   |
 | :---- | :---- |
-| Edad |  años |
-| Distrito/Ciudad |  |
-| |   |
-| Timing: : – : min | [Entrevista 4 JF Technologies.mp4] |
+| Edad | 28 años |
+| Distrito/Ciudad | Lima, Lima |
+| Imagen | <p align="center"><img src="./assets/entrevistas/entrevistaIOT.png" width="200"/></p> |
+| Resumen | Joaquín Reyna es un nutricionista clínico de 28 años que ejerce en Lima, principalmente en consulta privada y también de forma remota, atendiendo un alto volumen de pacientes mensualmente.<br><br>Actualmente, enfrenta dificultades en el seguimiento de sus pacientes debido a la dependencia de reportes manuales, los cuales considera poco confiables, incompletos y muchas veces inexactos. Esto limita su capacidad para evaluar correctamente la adherencia a los planes nutricionales.<br><br>Uno de los principales problemas que identifica es la falta de datos precisos entre consultas, lo que complica la toma de decisiones y el ajuste oportuno de los tratamientos. Además, ha observado que muchos pacientes abandonan el proceso debido al cansancio que genera registrar manualmente su alimentación y hábitos.<br><br>En cuanto a soluciones, muestra un alto interés en herramientas tecnológicas que automaticen la recolección y validación de datos, especialmente aquellas que ofrezcan métricas en tiempo real. Considera que funcionalidades como dashboards inteligentes, alertas de desviaciones y análisis automatizado mejorarían significativamente su eficiencia profesional.<br><br>Asimismo, valora positivamente el uso de inteligencia artificial como apoyo en la validación de datos, siempre que mantenga su rol como decisor final. Finalmente, destaca la importancia de la seguridad y confidencialidad de la información, y considera que una solución como JameoFit le permitiría escalar su atención a más pacientes sin comprometer la calidad del servicio. |
+| Duración | 12:00 – 17:00 min |
 
 | Entrevistado 5 |  |
 | :---- | :---- |
