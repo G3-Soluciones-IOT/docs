@@ -76,12 +76,14 @@
 | Versión | Fecha      | Autor                         | Descripción                                                                  |
 |---------|------------|-------------------------------|------------------------------------------------------------------------------|
 | AV1     | 05/04/2026 | Jhon Alexander Galvez Chambi  | Desarrollo de la carátula, tabla de contenidos y estructura general del informe. |
+| AV1     | 08/04/2026 | Fabrizio Alberto Paredes Santos  | Desarrollo del Capítulo I, organización de la estructura del informe y elaboración de las referencias bibliográficas. |
 | AV1     | 17/04/2026 | Mathias Eduardo Bueno Perales  |   Apliqué la metodología Lean UX para estructurar un análisis competitivo y estratégico exhaustivo frente a actores clave como Fitia y MyFitnessPal. Finalmente, se diseñaron los protocolos de investigación cualitativa para los segmentos de usuarios finales y profesionales de la salud, ademas de resaltar su diferenciación en el mercado a través de la automatización y la inteligencia artificial.           |
 | AV1     | 15/04/2026 |   Valentino Sandoval Paiva  | Para esta entrega, lideré el diseño estratégico mediante EventStorming, el descubrimiento de contextos y la elaboración de los Bounded Context Canvases y el Context Mapping. Asimismo, definí la arquitectura de software a través de los diagramas de Landscape, Context, Container y Deployment, complementándolo con el análisis competitivo, las historias de usuario y el desarrollo integral de las capas del Bounded Context IAM.   |
 | AV1     | 15/04/2026 | Ramiro Alexander Guzmán Chávez   |  Desarrollo de User Stories, Product Backlog, Impact Mapping y adaptación a dispositivos inteligentes e IA.      |
 | AV1     | 16/04/2026 | Omar Luquillas Asto  | Desarrollo de secciones correspondientes a los Bounded Context: Inicio y Registro de Sesión, Perfil de Usuario y Gestión de Objetivos   |
 | AV1     | 17/04/2026 | Jhon Alexander Galvez Chambi  | Desarrollo de secciones correspondientes a los Bounded Context: Rutina Alimentaria, Nutricionista, Gestion de Planes Alimenticios, Comunicacion y Pagos   |
 | AV1     | 17/04/2026   | Pablo Antonio Geronimo Quispe  |        Desarrollo del needfinding agregando los respectivos User Persona ,Empathy Map,JourneyMap y documentacion del Ubiquitous Language agregando       |         
+| AV1     | 25/04/2026   | Fabrizio Alberto Paredes Santos  |        Desarrollo de la entrevista del segmento 1, definición de la estructura de entrevistas y corrección del diseño de las mismas.     | 
 
 ## Project Report Collaboration Insights
 
@@ -510,17 +512,17 @@ La sección abarca el proceso de investigación de nuestros segmentos objetivos 
 
 5. ¿Sientes que el tiempo que inviertes en registrar tus alimentos interfiere con tu disfrute de la comida o tu rutina diaria?
 
-6. ¿Qué tan cómodo/a te sentirías si una aplicación analizara tus fotos de comida o datos de compras para sugerirte mejoras en tu dieta?
+6. 6. ¿Qué tan cómodo/a te sentirías si el registro de tu alimentación se realizara automáticamente mediante dispositivos inteligentes?
 
 **Preguntas sobre el Proyecto (JF Technologies):**
 
-1. ¿Qué te parecería una solución que registre tu ingesta nutricional casi automáticamente (por ejemplo, mediante fotos), reduciendo la necesidad de escribir cada ingrediente?
+1. ¿Qué te parecería una solución que registre tu ingesta nutricional de forma automática mediante dispositivos inteligentes, reduciendo la necesidad de ingresar datos manualmente?
 
 2. ¿Qué información considerarías indispensable ver en tu pantalla principal? (ej. calorías restantes, alertas de nutrientes, hidratación, progreso semanal).
 
 3. ¿Considerarías útil que estos datos se compartan automáticamente con tu nutricionista o entrenador para que él/ella ajuste tu plan en tiempo real?
 
-4. Si la aplicación te diera recomendaciones personalizadas basadas en IA sobre qué comer según tus metas del día, ¿qué nivel de confianza te generaría?
+4. Si la aplicación te diera recomendaciones personalizadas basadas en inteligencia artificial, ¿qué nivel de confianza te generaría?
 
 5. ¿Estarías dispuesto/a a pagar una suscripción mensual si la herramienta te ahorra el 80% del tiempo que hoy dedicas a registrar tu alimentación?
 <br>
@@ -566,12 +568,13 @@ La sección abarca el proceso de investigación de nuestros segmentos objetivos 
 #### 2.2.2. Registro de entrevistas.
 
 ### Segmento 1: 
-| Entrevistado 1 |  |
-| :---- | :---- |
-| Edad |  años |
-| Distrito/Ciudad | |
-| Foto de entrevista* | Resumen* |
-| Timing: : – : min | [Entrevista 1 JF Technologies.mp4]  |
+|Entrevistado 1 |  |
+| :------------- | :------------------------------------------------------------ |
+| Edad | 23 años |
+| Distrito/Ciudad | San Miguel, Lima |
+| Imagen | <p align="center"><img src="./assets/entrevistas/Entrevista1.png" width="200"/></p> |
+| Resumen | Giorgio Awad Vargas es un joven de 23 años residente en Lima que no sigue un plan nutricional ni utiliza actualmente herramientas de control, aunque intenta mantener una alimentación saludable. Ha usado aplicaciones de conteo de calorías, pero las abandonó por la incomodidad del registro manual y la falta de constancia, evidenciando preferencia por soluciones rápidas y automatizadas.<br><br>Su estilo de vida implica comer frecuentemente fuera de casa, lo que dificulta el seguimiento y reduce la precisión de su control. A nivel conductual, prioriza la practicidad y muestra baja tolerancia a procesos repetitivos, aunque reconoce la importancia de cuidar su alimentación.<br><br>En cuanto a tecnología, está familiarizado con apps móviles y muestra alta apertura a soluciones innovadoras como el registro automático mediante dispositivos inteligentes. Valora funcionalidades como alertas, notificaciones y visualización de progreso. Además, estaría dispuesto a compartir datos con una IA entrenada por nutricionistas y confía moderadamente en recomendaciones basadas en inteligencia artificial.<br><br>En síntesis, es un usuario interesado en mejorar sus hábitos, pero que requiere herramientas simples, automáticas y adaptadas a su rutina diaria. |
+| Duración | 00:00 – 05:16 min |
 
 | Entrevistado 2 |  |
 | :---- | :---- |
