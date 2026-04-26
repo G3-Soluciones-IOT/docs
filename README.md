@@ -567,56 +567,116 @@ La sección abarca el proceso de investigación de nuestros segmentos objetivos 
 #### 2.2.2. Registro de entrevistas.
 
 ### Segmento 1: 
-|Entrevistado 1 |  |
+|Entrevistado 1 | Giorgio Awad Vargas |
 | :------------- | :------------------------------------------------------------ |
 | Edad | 23 años |
 | Distrito/Ciudad | San Miguel, Lima |
 | Imagen | <p align="center"><img src="./assets/entrevistas/Entrevista1.png" width="200"/></p> |
 | Resumen | Giorgio Awad Vargas es un joven de 23 años residente en Lima que no sigue un plan nutricional ni utiliza actualmente herramientas de control, aunque intenta mantener una alimentación saludable. Ha usado aplicaciones de conteo de calorías, pero las abandonó por la incomodidad del registro manual y la falta de constancia, evidenciando preferencia por soluciones rápidas y automatizadas.<br><br>Su estilo de vida implica comer frecuentemente fuera de casa, lo que dificulta el seguimiento y reduce la precisión de su control. A nivel conductual, prioriza la practicidad y muestra baja tolerancia a procesos repetitivos, aunque reconoce la importancia de cuidar su alimentación.<br><br>En cuanto a tecnología, está familiarizado con apps móviles y muestra alta apertura a soluciones innovadoras como el registro automático mediante dispositivos inteligentes. Valora funcionalidades como alertas, notificaciones y visualización de progreso. Además, estaría dispuesto a compartir datos con una IA entrenada por nutricionistas y confía moderadamente en recomendaciones basadas en inteligencia artificial.<br><br>En síntesis, es un usuario interesado en mejorar sus hábitos, pero que requiere herramientas simples, automáticas y adaptadas a su rutina diaria. |
-| Duración | 00:00 – 05:16 min |
+| Duración | 00:00 – 06-10 min |
 
-| Entrevistado 2 |  |
+| Entrevistado 2 | Loreley Sarmiento Medina |
 | :---- | :---- |
 | Edad | 20 años |
 | Distrito/Ciudad | San Miguel, Lima |
 | Imagen | <p align="center"><img src="./assets/entrevistas/Entrevista2.png" width="200"/></p> |
 | Resumen | Loreley Sarmiento Medina, de 20 años, es una joven que actualmente no sigue un plan nutricional estructurado ni mantiene un registro constante de su alimentación. Aunque anteriormente utilizó aplicaciones similares, dejó de usarlas debido a la falta de precisión en los datos y lo genérico de las estimaciones, lo cual le generaba frustración.<br><br>Uno de los principales problemas que enfrenta es la falta de constancia, especialmente en días ocupados o cuando come fuera de casa, lo que ocasiona que olvide registrar su consumo. <br><br>En cuanto a soluciones tecnológicas, muestra interés por herramientas automatizadas que utilicen sensores o telemetría para registrar datos sin intervención manual, siempre que sean accesibles económicamente. También valora funciones como visualización de progreso y alertas, las cuales podrían ayudarle a mantener la constancia.<br><br>Finalmente, presenta una actitud positiva hacia el uso de inteligencia artificial, siempre que esté respaldada por profesionales. Estaría dispuesta a compartir sus datos con nutricionistas y considerar un pago por el servicio, pero solo después de probar su efectividad de la aplicación previamente. |
-| Duración | 00:00 – 05:35 min |
+| Duración | 06:15 – 11:50 min |
 
-| Entrevistado 3 |   |
+| Entrevistado 3 | Anyelo Alejos |
 | :---- | :---- |
 | Edad |  21 años |
 | Distrito/Ciudad | Independencia Lima, Lima  |
 |  Imagen  | <p align="center"><img src="./assets/entrevistas/Entrevista3.png" width="200"/></p> |
 | Resumen | Anyelo Alejos , de 21 años, es un joven que vive en Lima y mantiene un estilo de vida enfocado en el equilibrio entre alimentación y ejercicio por temas de salud. No sigue un plan nutricional estructurado ni registra constantemente su ingesta, ya que gestiona su alimentación de forma empírica basándose en su experiencia y en información de internet.<br><br>Anteriormente utilizó aplicaciones de conteo nutricional, pero dejó de usarlas debido a la incomodidad del registro manual y el tiempo que requería, lo que le generaba frustración y afectaba su constancia, especialmente en días ocupados o cuando repetía comidas.<br><br>Uno de sus principales problemas es la falta de seguimiento continuo, sobre todo cuando come fuera de casa o en horarios irregulares. Aunque puede estimar calorías en productos envasados, tiene dificultades para calcular con precisión lo que consume en comidas caseras o de restaurantes.<br><br>En cuanto a soluciones tecnológicas, muestra interés en herramientas automatizadas que eliminen el registro manual mediante sensores o telemetría. Valora funciones como monitoreo en tiempo real, alertas y visualización de progreso, siempre que sean prácticas y no invasivas.<br><br>Finalmente, tiene una actitud positiva hacia el uso de inteligencia artificial en nutrición, especialmente si está respaldada por profesionales. Estaría dispuesto a compartir sus datos con nutricionistas y pagar una suscripción, siempre que el servicio demuestre efectividad y justifique su valor. |
-| Duración | 00:00 – 11:52 min |
+| Duración | 11:55 – 24:05 min |
 
 
 ### Segmento 2: 
-| Entrevistado 4 |   |
+| Entrevistado 4 | Joaquín Reyna |
 | :---- | :---- |
 | Edad | 28 años |
 | Distrito/Ciudad | Lima, Lima |
-| Imagen | <p align="center"><img src="./assets/entrevistas/entrevistaIOT.png" width="200"/></p> |
+| Imagen | <p align="center"><img src="./assets/entrevistas/Entrevista4.png" width="200"/></p> |
 | Resumen | Joaquín Reyna es un nutricionista clínico de 28 años que ejerce en Lima, principalmente en consulta privada y también de forma remota, atendiendo un alto volumen de pacientes mensualmente.<br><br>Actualmente, enfrenta dificultades en el seguimiento de sus pacientes debido a la dependencia de reportes manuales, los cuales considera poco confiables, incompletos y muchas veces inexactos. Esto limita su capacidad para evaluar correctamente la adherencia a los planes nutricionales.<br><br>Uno de los principales problemas que identifica es la falta de datos precisos entre consultas, lo que complica la toma de decisiones y el ajuste oportuno de los tratamientos. Además, ha observado que muchos pacientes abandonan el proceso debido al cansancio que genera registrar manualmente su alimentación y hábitos.<br><br>En cuanto a soluciones, muestra un alto interés en herramientas tecnológicas que automaticen la recolección y validación de datos, especialmente aquellas que ofrezcan métricas en tiempo real. Considera que funcionalidades como dashboards inteligentes, alertas de desviaciones y análisis automatizado mejorarían significativamente su eficiencia profesional.<br><br>Asimismo, valora positivamente el uso de inteligencia artificial como apoyo en la validación de datos, siempre que mantenga su rol como decisor final. Finalmente, destaca la importancia de la seguridad y confidencialidad de la información, y considera que una solución como JameoFit le permitiría escalar su atención a más pacientes sin comprometer la calidad del servicio. |
-| Duración | 12:00 – 17:00 min |
+| Duración | 24:15 – 29:50 min |
 
-|Entrevistado 5 |  |
+|Entrevistado 5 | Franco García |
 | :------------- | :------------------------------------------------------------ |
 | Edad | 30 años |
 | Distrito/Ciudad | Miraflores, Lima |
-| Imagen | <p align="center"><img src="assets/TB1/image.png" width="200"/></p> |
+| Imagen | <p align="center"><img src="assets/entrevistas/Entrevista5.png" width="200"/></p> |
 | Resumen | Franco García es un nutricionista con varios años de experiencia en consulta clínica y asesoría personalizada, que atiende a un volumen considerable de pacientes y busca optimizar su tiempo mediante herramientas más eficientes; actualmente depende de reportes manuales de sus pacientes, los cuales considera poco confiables por errores, omisiones y falta de constancia, lo que dificulta ajustar planes nutricionales entre consultas y tomar decisiones oportunas con información incompleta; además, ha identificado que muchos pacientes abandonan el seguimiento por la fatiga del registro manual, afectando directamente la adherencia y la efectividad del tratamiento; por ello, muestra un alto interés en soluciones tecnológicas que automaticen la recolección de datos, como sistemas con telemetría, métricas en tiempo real y dashboards inteligentes que filtren información relevante y alerten sobre anomalías, valorando especialmente aquellas que integren inteligencia artificial como apoyo para pre-validar datos sin reemplazar su criterio profesional; asimismo, considera fundamental que estas plataformas cumplan con altos estándares de privacidad y seguridad de la información, y ve en este tipo de soluciones una oportunidad para escalar su capacidad de atención sin comprometer la calidad clínica. |
-| Duración | 00:00 – 06:06 min |
+| Duración | 29:55 – 36:05 min |
 
-| Entrevistado 6 |  |
+| Entrevistado 6 | Joaquin Pedraza |
 | :---- | :---- |
-| Edad |  años |
-| Distrito/Ciudad |  |
-|  |  |
-| Timing:: – : min | [Entrevista 6 JF Technologies.mp4] |
+| Edad | 26 años |
+| Distrito/Ciudad | San Miguel, Lima |
+| Imagen | <p align="center"><img src="assets/entrevistas/Entrevista6.png" width="200"/></p> |
+| Resumen | Joaquin Pedraza, nutricionista deportivo, identifica el registro manual como la principal barrera para la adherencia del paciente debido a su falta de precisión y a la fatiga que genera. Muestra un alto interés en la telemetría IoT y la validación por IA para obtener datos objetivos en tiempo real, permitiéndole realizar ajustes proactivos entre consultas. Al automatizar la captura de datos, Joaquin busca evolucionar de supervisor de registros a un estratega nutricional, logrando escalar su capacidad de atención con una base científica sólida y garantizando la seguridad de la información clínica. |
+| Duración | 36:10 – 41:40 min |
+
+Enlace de las entrevistas en Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323270_upc_edu_pe/IQAzMzdoOqH1QY-ZOGX7dtb0AahI_ticCRpNbYTjgzQb0hc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=VcaDuu
 
 #### 2.2.3. Análisis de entrevistas.
+
+El análisis de entrevistas se realizó a partir de los registros y resúmenes obtenidos en la sección anterior. Para cada segmento objetivo se identificaron patrones comunes, tanto objetivos como subjetivos, considerando una muestra de tres entrevistados por segmento. Los porcentajes presentados se calcularon en función del total de entrevistados de cada segmento.
+
+### Segmento 1: Usuarios finales orientados a la mejora de su alimentación
+
+Este segmento está conformado por tres jóvenes adultos residentes en Lima: Giorgio Awad Vargas, Loreley Sarmiento Medina y Anyelo Alejos. Sus edades se encuentran entre los 20 y 23 años, lo que evidencia que el segmento entrevistado corresponde a usuarios jóvenes con familiaridad en el uso de aplicaciones móviles y apertura hacia soluciones digitales para el control nutricional.
+
+| Característica identificada | Tipo | Evidencia en entrevistas | Frecuencia | Porcentaje |
+|---|---|---|---:|---:|
+| Jóvenes adultos entre 20 y 23 años | Objetiva | Giorgio tiene 23 años, Loreley 20 años y Anyelo 21 años. | 3/3 | 100% |
+| Residentes en Lima | Objetiva | Los tres entrevistados residen en distritos de Lima: San Miguel e Independencia. | 3/3 | 100% |
+| No siguen un plan nutricional estructurado | Objetiva | Los tres entrevistados indican que no siguen actualmente un plan nutricional formal. | 3/3 | 100% |
+| Han tenido dificultades con aplicaciones de registro nutricional | Objetiva/Subjetiva | Giorgio, Loreley y Anyelo usaron o intentaron usar aplicaciones, pero las abandonaron por incomodidad, falta de precisión o tiempo requerido. | 3/3 | 100% |
+| Baja constancia en el registro de alimentos | Subjetiva | Los resúmenes mencionan falta de constancia, olvido del registro o abandono del seguimiento manual. | 3/3 | 100% |
+| Dificultad para registrar comidas fuera de casa o en días ocupados | Objetiva/Subjetiva | Los tres entrevistados señalan que comer fuera de casa, tener horarios irregulares o días ocupados afecta el seguimiento. | 3/3 | 100% |
+| Preferencia por soluciones rápidas y automatizadas | Subjetiva | Los entrevistados muestran interés por sensores, telemetría o registro automático para reducir la intervención manual. | 3/3 | 100% |
+| Valoración de alertas, notificaciones o visualización de progreso | Subjetiva | Giorgio valora alertas y progreso; Loreley menciona visualización de progreso y alertas; Anyelo valora monitoreo, alertas y progreso. | 3/3 | 100% |
+| Apertura hacia inteligencia artificial respaldada por profesionales | Subjetiva | Los tres entrevistados muestran una actitud positiva hacia IA si está respaldada por nutricionistas o profesionales. | 3/3 | 100% |
+| Disposición condicionada a pagar por la solución | Subjetiva | Loreley y Anyelo considerarían pagar si la solución demuestra efectividad o justifica su valor. En Giorgio no se registra una disposición explícita al pago. | 2/3 | 66.7% |
+
+A partir de estos resultados, se observa que el usuario representativo de este segmento es una persona joven, familiarizada con aplicaciones móviles, interesada en mejorar sus hábitos alimenticios, pero con dificultades para mantener un registro manual constante. El principal problema identificado es la fricción generada por el registro manual, especialmente cuando el usuario come fuera de casa o tiene una rutina ocupada.
+
+En términos subjetivos, el segmento muestra frustración frente a herramientas que demandan mucho tiempo o entregan datos poco precisos. Por ello, el arquetipo de este segmento debe reflejar a un usuario que valora la practicidad, la automatización, la visualización clara de progreso y las recomendaciones confiables. Asimismo, la confianza en inteligencia artificial depende de que esta sea percibida como una herramienta respaldada por profesionales, no como una fuente aislada de recomendaciones.
+
+### Segmento 2: Profesionales de la salud: nutricionistas y entrenadores
+
+Este segmento está conformado por tres profesionales de la nutrición: Joaquín Reyna, Franco García y Joaquin Pedraza. Sus edades se encuentran entre los 26 y 30 años, todos residentes en Lima. Los entrevistados ejercen en contextos de consulta clínica, asesoría personalizada, atención remota o nutrición deportiva, por lo que representan perfiles profesionales que requieren información confiable para tomar decisiones sobre sus pacientes.
+
+| Característica identificada | Tipo | Evidencia en entrevistas | Frecuencia | Porcentaje |
+|---|---|---|---:|---:|
+| Profesionales de nutrición entre 26 y 30 años | Objetiva | Joaquín Reyna tiene 28 años, Franco García 30 años y Joaquin Pedraza 26 años. | 3/3 | 100% |
+| Residentes o trabajadores en Lima | Objetiva | Los tres entrevistados se ubican en Lima, incluyendo Lima y Miraflores. | 3/3 | 100% |
+| Experiencia en atención nutricional personalizada | Objetiva | Los resúmenes indican consulta privada, asesoría personalizada, atención clínica, remota o nutrición deportiva. | 3/3 | 100% |
+| Dependencia actual de reportes manuales de pacientes | Objetiva | Joaquín Reyna y Franco García dependen de reportes manuales; Joaquin Pedraza identifica el registro manual como barrera principal. | 3/3 | 100% |
+| Baja confianza en la precisión de los reportes manuales | Subjetiva | Los tres entrevistados consideran que los registros manuales son poco confiables, incompletos, inexactos o imprecisos. | 3/3 | 100% |
+| Dificultad para ajustar planes entre consultas | Objetiva/Subjetiva | Joaquín Reyna y Franco García mencionan falta de datos precisos entre consultas; Joaquin Pedraza busca ajustes proactivos con datos en tiempo real. | 3/3 | 100% |
+| Identificación de abandono o baja adherencia por fatiga del registro | Subjetiva | Joaquín Reyna y Franco García mencionan abandono por cansancio del registro; Joaquin Pedraza identifica la fatiga del registro como barrera de adherencia. | 3/3 | 100% |
+| Alto interés en automatización, telemetría o datos en tiempo real | Subjetiva | Los tres entrevistados valoran herramientas que automaticen la recolección de datos y ofrezcan métricas en tiempo real. | 3/3 | 100% |
+| Valoración de dashboards, alertas o análisis automatizado | Subjetiva | Joaquín Reyna y Franco García mencionan dashboards inteligentes y alertas; Joaquin Pedraza destaca datos objetivos para ajustes proactivos. | 3/3 | 100% |
+| Aceptación de IA como apoyo, sin reemplazar el criterio profesional | Subjetiva | Joaquín Reyna y Franco García valoran IA como apoyo manteniendo al profesional como decisor; Joaquin Pedraza menciona validación por IA con base científica. | 3/3 | 100% |
+| Importancia de privacidad y seguridad de datos | Objetiva/Subjetiva | Los tres entrevistados resaltan la confidencialidad, seguridad o protección de información clínica. | 3/3 | 100% |
+| Interés en escalar la atención sin perder calidad | Subjetiva | Joaquín Reyna y Franco García mencionan escalar atención; Joaquin Pedraza busca evolucionar su rol y atender con base científica sólida. | 3/3 | 100% |
+
+El análisis evidencia que el profesional representativo de este segmento enfrenta una limitación crítica: la calidad de sus decisiones depende de información reportada manualmente por los pacientes, la cual suele ser incompleta, imprecisa o inconsistente. Esta situación afecta el seguimiento nutricional, dificulta los ajustes entre consultas y reduce la capacidad del profesional para intervenir oportunamente.
+
+Desde una perspectiva subjetiva, los entrevistados muestran alta valoración por herramientas que automaticen la recolección de datos y permitan visualizar información confiable mediante dashboards, alertas y métricas en tiempo real. Sin embargo, también establecen una condición importante: la inteligencia artificial debe funcionar como apoyo para validar o preprocesar información, pero no debe reemplazar el criterio profesional.
+
+Por ello, el arquetipo de este segmento debe representar a un nutricionista que busca mejorar la eficiencia de su práctica, reducir la dependencia de reportes manuales, tomar decisiones basadas en datos objetivos y escalar su atención sin comprometer la calidad clínica ni la seguridad de la información del paciente.
+
+### Conclusiones del análisis
+
+En ambos segmentos se identifica un problema común: el registro manual de alimentos genera fricción, imprecisión y pérdida de continuidad. En el Segmento 1, esta fricción se manifiesta como falta de constancia, abandono de aplicaciones y dificultad para registrar comidas en contextos cotidianos. En el Segmento 2, el mismo problema impacta en la calidad del seguimiento profesional, la toma de decisiones y la adherencia de los pacientes.
+
+Asimismo, ambos segmentos muestran una valoración positiva hacia la automatización, el uso de datos en tiempo real y la inteligencia artificial, siempre que esta sea confiable y esté respaldada por profesionales. Estos hallazgos sustentan la necesidad de construir arquetipos centrados en la practicidad, confiabilidad, automatización, visualización clara de datos y protección de la información.
+
+
+
 
 ### 2.3. Needfinding.
 
@@ -2359,3 +2419,8 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10337248/
 Instituto Nacional de Estadística e Informática (INEI). (2023).  
 Las Tecnologías de Información y Comunicación en los Hogares: Oct-Nov-Dic 2023.  
 https://www.gob.pe/institucion/inei/informes-publicaciones/5408920-las-tecnologias-de 
+
+### Videos de Exposiciones
+
+AV1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323270_upc_edu_pe/IQA-8Ea3XJJ4SKV4BOhLQeF3AaoSDORI-u2m4FrHy1KFbKc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=r9G8pP
+
