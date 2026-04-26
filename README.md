@@ -240,6 +240,10 @@ En esta sección se presentan los analíticos de colaboración y los commits rea
         - [4.2.8.6. Bounded Context Software Architecture Code Level Diagrams.](#4286-bounded-context-software-architecture-code-level-diagrams)
             - [4.2.8.6.1. Bounded Context Domain Layer Class Diagrams.](#42861-bounded-context-domain-layer-class-diagrams)
             - [4.2.8.6.2. Bounded Context Database Design Diagram.](#42862-bounded-context-database-design-diagram)
+- [Conclusiones](#conclusiones)
+    - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
+- [Videos de Exposiciones](#videos-de-exposiciones)
+- [Referencias Bibliográficas](#referencias-bibliográficas)
 
 ## Student Outcome
 
@@ -2394,7 +2398,31 @@ La estrategia de modelado para el contexto de Pagos se centra en la Trazabilidad
 
 ![Database Diagram](./assets/TB1/bc8_database_diagram.png)
 
-### 4.3 Referencias Bibliográficas
+
+# Conclusiones 
+
+## Conclusiones y Recomendaciones
+
+A partir del proceso Lean UX y del análisis de entrevistas, se concluye que el problema central identificado en el Problem Statement se mantiene válido para ambos segmentos objetivo. Los usuarios finales entrevistados evidencian dificultades para sostener un registro nutricional manual, especialmente cuando comen fuera de casa, tienen rutinas ocupadas o perciben que las aplicaciones demandan demasiado tiempo. En paralelo, los profesionales de la salud entrevistados confirman que la dependencia de reportes manuales limita la precisión del seguimiento, dificulta los ajustes entre consultas y reduce la capacidad de intervenir oportunamente.
+
+Las validaciones realizadas mediante entrevistas respaldan varias de las assumptions iniciales. Se confirma que los usuarios valoran soluciones rápidas, intuitivas y automatizadas, y que existe frustración frente al registro manual de alimentos. También se valida que los profesionales perciben valor en la automatización, los dashboards, las alertas y los datos en tiempo real, siempre que la información sea confiable y respete la seguridad de los datos. Sin embargo, la disposición de pago todavía debe considerarse una assumption parcialmente validada, porque solo dos de los tres usuarios finales manifestaron una disposición condicionada al valor demostrado por la solución.
+
+Respecto a los Hypothesis Statements, la evidencia cualitativa obtenida respalda la dirección de las hipótesis, pero todavía no permite afirmar el cumplimiento de los criterios de éxito cuantitativos definidos en Lean UX. Los criterios relacionados con continuidad de registro durante una semana, comprensión de hábitos alimenticios, percepción de utilidad de recomendaciones y retención posterior a la primera semana requieren validaciones posteriores con prototipos funcionales o versiones desplegadas del producto. Por ello, el trabajo actual reduce incertidumbre sobre el problema y las necesidades de los segmentos, pero aún no valida completamente el comportamiento real de uso.
+
+También se concluye que la inteligencia artificial debe ser presentada como un apoyo a la toma de decisiones, no como reemplazo del criterio profesional. Esta conclusión se sostiene en ambos segmentos: los usuarios finales muestran mayor confianza cuando la IA está respaldada por profesionales, mientras que los nutricionistas aceptan su uso como herramienta de análisis, validación o preprocesamiento, manteniendo al profesional como responsable de la recomendación nutricional.
+
+Como recomendación para el siguiente sprint, el equipo debe priorizar el desarrollo y validación de los prototipos correspondientes a la primera versión de la Landing Page y de la Frontend Web Application. La Landing Page debe enfocarse en comunicar claramente la propuesta de valor, beneficios, navegación principal, acceso al registro o inicio de sesión, testimonios y adaptación responsive, en coherencia con las historias US-18 a US-25. Esta versión debe permitir validar si los visitantes comprenden el valor de JameoFit y si la propuesta responde a los problemas detectados en entrevistas.
+
+Para la primera versión desplegada de la Frontend Web Application, se recomienda priorizar los flujos base que habilitan futuras validaciones de producto: registro e inicio de sesión, personalización de perfil, definición de metas, registro diario de alimentos y visualización inicial de progreso. Estos flujos se relacionan directamente con las hipótesis de adherencia, facilidad de uso y comprensión de hábitos alimenticios, por lo que deben instrumentarse con métricas de uso que permitan contrastar los criterios de éxito definidos en Lean UX.
+
+Finalmente, se recomienda que el roadmap mantenga una evolución incremental: primero validar atracción y comprensión mediante la Landing Page; luego validar usabilidad y continuidad de registro en la aplicación web; posteriormente incorporar dashboards para profesionales, integración IoT e IA supervisada. Cada avance debe conservar trazabilidad entre entrevistas, personas, journey maps, user stories, bounded contexts y criterios de éxito, evitando incorporar funcionalidades que no estén respaldadas por evidencia de usuario o por necesidades explícitas del modelo de negocio digital.
+
+
+# Videos de Exposiciones
+
+AV1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323270_upc_edu_pe/IQA-8Ea3XJJ4SKV4BOhLQeF3AaoSDORI-u2m4FrHy1KFbKc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=r9G8pP
+
+# Referencias Bibliográficas
 
 Organización Mundial de la Salud. (2025). Noncommunicable diseases.  
 https://www.who.int/news-room/fact-sheets/detail/noncommunicable-diseases  
@@ -2409,8 +2437,3 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10337248/
 Instituto Nacional de Estadística e Informática (INEI). (2023).  
 Las Tecnologías de Información y Comunicación en los Hogares: Oct-Nov-Dic 2023.  
 https://www.gob.pe/institucion/inei/informes-publicaciones/5408920-las-tecnologias-de 
-
-### Videos de Exposiciones
-
-AV1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323270_upc_edu_pe/IQA-8Ea3XJJ4SKV4BOhLQeF3AaoSDORI-u2m4FrHy1KFbKc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=r9G8pP
-
