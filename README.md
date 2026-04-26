@@ -910,81 +910,82 @@ Interacciones Entre Segmentos
 ## Capítulo III: Requirements Specification
 
 ### 3.1. User Stories.
-En esta sección se detallan todas las **User Stories** identificadas para la aplicación JameoFit. Incluyen:  
 
-- Funcionalidades básicas de la app  
-- Integración con dispositivos IoT: bebedor inteligente y báscula inteligente  
-- IA tipo coach nutricional para recomendaciones guiadas  
+En esta sección se presentan las épicas y user stories del sistema. Cada historia incluye criterios de aceptación en formato Gherkin (Given–When–Then), redactados en tercera persona, tiempo presente y verificables. También se incluyen historias para la landing page (rol visitante) y technical stories (rol developer).
 
-Cada historia está estructurada para facilitar desarrollo ágil y validación iterativa.
+| Epic/Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+|---------------|--------|-------------|-------------------------|---------------------------|
+| EP-01 | Registro y Gestión de Cuenta | Gestión de registro, autenticación y perfil de usuario. | N/A | - |
+| US-01 | Registro de Usuario | Como visitante, quiere registrarse para usar el sistema. | Given datos válidos, When se registra, Then el sistema crea la cuenta. <br> Given perfil completo, When guarda datos, Then genera sugerencias. | EP-01 |
+| US-02 | Recuperación de Contraseña | Como usuario, quiere recuperar su contraseña. | Given solicitud válida, When ingresa correo, Then recibe instrucciones. <br> Given reenvío, When lo solicita, Then sistema envía nuevamente. | EP-01 |
+| US-03 | Personalización de Perfil | Como usuario, quiere definir preferencias. | Given restricciones, When guarda, Then excluye alimentos. <br> Given objetivos, When actualiza, Then ajusta plan. | EP-01 |
+| TS-01 | API Autenticación | Como developer, quiere autenticar usuarios vía API. | Given credenciales válidas, When se envían, Then retorna token. <br> Given inválidas, Then retorna error. | EP-01 |
 
----
+| EP-02 | Personalización de Planes | Generación y edición de planes alimenticios. | N/A | - |
+| US-04 | Plan Personalizado | Como usuario, quiere plan adaptado. | Given perfil completo, When solicita, Then genera plan. <br> Given cambios, When actualiza, Then ajusta plan. | EP-02 |
+| US-05 | Edición de Plan | Como usuario, quiere modificar comidas. | Given selección, When reemplaza, Then muestra alternativas. <br> Given cambios, Then actualiza plan. | EP-02 |
+| US-14 | Personalización de Metas | Como usuario, quiere definir metas. | Given metas nuevas, When guarda, Then sistema confirma. <br> Given cancelación, Then actualiza plan. | EP-02 |
+| TS-02 | API Planes | Como developer, quiere gestionar planes. | Given solicitud válida, When consulta, Then retorna datos. <br> Given inválida, Then error. | EP-02 |
 
-| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
-|-----------------|--------|-------------|------------------------|---------------------------|
-| US-01 | Registro de Usuario | Como visitante, quiero registrarme en la aplicación para empezar a gestionar mis necesidades alimenticias. | Escenario 01: Dado que soy un nuevo usuario, al completar registro, la app muestra sugerencias iniciales. <br> Escenario 02: Dado que completé datos después, la app actualiza las sugerencias automáticamente. | EP-01 |
-| US-02 | Recuperación de Contraseña | Como usuario, quiero recuperar mi contraseña en caso de olvidarla. | Escenario 01: La app envía correo con instrucciones. <br> Escenario 02: Permite reenviar correo si no se recibió. | EP-01 |
-| US-03 | Personalización de Perfil | Como usuario registrado, quiero completar y editar mis preferencias alimenticias. | Escenario 01: Al ingresar alergias o restricciones, se excluyen alimentos del plan. <br> Escenario 02: Al cambiar objetivo de salud, se ajusta plan automáticamente. | EP-01 |
-| US-04 | Plan Alimenticio Personalizado | Como usuario, quiero recibir un plan alimenticio personalizado. | Escenario 01: Genera plan adaptado al perfil del usuario. <br> Escenario 02: Al cambiar nivel de actividad, se genera nueva propuesta. | EP-02 |
-| US-05 | Edición de Plan Alimenticio | Como usuario, quiero modificar o sustituir comidas del plan. | Escenario 01: Sustituir comida no deseada con alternativas saludables. <br> Escenario 02: Actualizar plan tras registrar nuevas restricciones. | EP-02 |
-| US-06 | Registro Diario de Alimentos | Como usuario, quiero registrar lo que como diariamente. | Escenario 01: Guardar y analizar los registros diarios. <br> Escenario 02: Permitir editar registros pasados. | EP-03 |
-| US-07 | Recordatorios de Comidas | Como usuario, quiero recibir recordatorios de registro de comidas. | Escenario 01: Notificaciones según horarios seleccionados. <br> Escenario 02: Advertencias por registros faltantes. | EP-03 |
-| US-08 | Visualización del Progreso | Como usuario, quiero visualizar mi progreso nutricional. | Escenario 01: Mostrar estadísticas y tendencias. <br> Escenario 02: Indicar días sin registro. | EP-03 |
-| US-09 | Feedback Diario | Como usuario, quiero recibir comentarios diarios sobre alimentación. | Escenario 01: Mostrar resumen nutricional al final del día. <br> Escenario 02: Recomendar ajustes si se supera meta calórica. | EP-03 |
-| US-10 | Registro de Logros | Como usuario, quiero ver mis avances y logros. | Escenario 01: Mostrar insignias al cumplir objetivos. <br> Escenario 02: Resaltar progresos mensuales con mensajes motivacionales. | EP-04 |
-| US-11 | Alertas de Objetivos no Alcanzados | Como usuario, quiero recibir alertas de metas no cumplidas. | Escenario 01: Sincronización con dispositivos IoT. <br> Escenario 02: Al desvincular IoT, dejar de recibir datos. | EP-03 |
-| US-12 | Panel de Pacientes | Como nutricionista, quiero ver panel con estado de pacientes. | Escenario 01: Mostrar progreso incluyendo datos de IoT. <br> Escenario 02: Generar alertas ante cambios significativos. | EP-05 |
-| US-13 | Envío de Sugerencias | Como nutricionista, quiero enviar recomendaciones a usuarios. | Escenario 01: Enviar mensajes en tiempo real. <br> Escenario 02: Dejar mensaje si usuario no está disponible. | EP-05 |
-| US-14 | Personalización de Metas | Como usuario, quiero definir metas específicas. | Escenario 01: Confirmar ajustes de metas. <br> Escenario 02: Notificar cancelaciones y actualizar plan. | EP-02 |
-| US-15 | Visualización de Logros | Como usuario, quiero ver mis logros completados. | Escenario 01: Registrar nuevas metas y progreso. <br> Escenario 02: Felicitaciones al alcanzar objetivos. | EP-04 |
-| US-16 | Notificaciones de Actividad | Como usuario, quiero recibir notificaciones sobre novedades de la app y dispositivos IoT. | Escenario 01: Importar datos relevantes de IoT. <br> Escenario 02: Revocar acceso elimina datos sincronizados. | EP-05 |
-| US-17 | Soporte en Tiempo Real | Como usuario, quiero chatear con soporte técnico. | Escenario 01: Mostrar advertencias de exceso calórico/metas no cumplidas. <br> Escenario 02: Recomendar ajustes basados en datos de IoT. | EP-05 |
-| US-18 | Conocer la propuesta de valor | Como visitante, quiero entender cómo me beneficia la app. | Escenario 01: Mostrar resumen de estadísticas y sugerencias al abrir la app. | EP-06 |
-| US-19 | Acceder al registro o inicio de sesión | Como visitante, quiero iniciar sesión o registrarme desde la barra superior. | Escenario 01: Aplicar cambios de configuración inmediatamente. | EP-06 |
-| US-20 | Navegar entre secciones desde la barra | Como visitante, quiero usar la barra superior para explorar secciones. | Escenario 01: Mensajes y publicaciones visibles en secciones correspondientes. | EP-06 |
-| US-21 | Ver resumen de beneficios | Como visitante, quiero ver los beneficios que ofrece la app. | Escenario 01: Mostrar opciones de contacto y ayuda. | EP-06 |
-| US-22 | Navegar por los beneficios principales | Como visitante, quiero navegar por la sección de beneficios. | Escenario 01: Mostrar detalles de planes, beneficios y suscripciones. | EP-06 |
-| US-23 | Visualizar testimonios | Como visitante, quiero leer testimonios de usuarios. | Escenario 01: Mostrar testimonios verificados. | EP-06 |
-| US-24 | Navegar desde el footer | Como visitante, quiero que enlaces del footer funcionen correctamente. | Escenario 01: Mostrar información y transacciones correctamente. | EP-06 |
-| US-25 | Acceder desde distintos dispositivos | Como visitante, quiero que la landing page funcione en cualquier dispositivo. | Escenario 01: Datos sensibles guardados cifrados. <br> Escenario 02: Mostrar términos de privacidad actualizados. | EP-06 |
-| US-26 | Ver recetas preestablecidas | Como usuario, quiero ver recetas ya creadas para guardar las que me interesen. | Escenario 01: Sesión cierra por inactividad automáticamente. <br> Escenario 02: Solicita inicio de sesión para funciones protegidas. | EP-07 |
-| US-27 | Hacer tracking del plan | Como usuario, quiero saber si la app sigue mi plan. | Escenario 01: Datos locales offline disponibles. <br> Escenario 02: Sincronización automática al reconectar. | EP-07 |
-| US-28 | Ver recomendaciones | Como usuario, quiero que la app muestre recomendaciones durante el día. | Escenario 01: Encuesta semanal permite calificar experiencia. | EP-07 |
-| US-29 | Registro de Nutricionista | Como nutricionista, quiero registrarme con credenciales profesionales. | Escenario 01: Registro completo y seguro. | EP-08 |
-| US-30 | Perfil Detallado de Nutricionista | Como nutricionista, quiero gestionar mi perfil profesional detallado. | Escenario 01: Visualizar y actualizar información profesional. | EP-08 |
-| US-31 | Publicación de Consejos de Nutrición | Como nutricionista, quiero publicar artículos y consejos. | Escenario 01: Publicación visible para usuarios. | EP-09 |
-| US-32 | Gestión de Contenido Educativo | Como nutricionista, quiero organizar artículos por categorías y temáticas. | Escenario 01: Sincronización entre dispositivos y preservación de progreso. | EP-09 |
-| US-33 | Chat Directo con Usuarios | Como nutricionista, quiero chatear con usuarios. | Escenario 01: Mostrar solo recetas compatibles con preferencias. <br> Escenario 02: Actualizar sugerencias automáticamente. | EP-10 |
-| US-34 | Gestión de Consultas | Como nutricionista, quiero organizar consultas y conversaciones. | Escenario 01: Configurar recordatorios de agua/consumo IoT para pacientes. | EP-10 |
-| US-35 | Configuración de Suscripciones | Como nutricionista, quiero configurar suscripciones a mi contenido. | Escenario 01: Calcular métricas automáticamente según registros IoT. | EP-11 |
-| US-36 | Panel de Suscriptores | Como nutricionista, quiero ver un panel de mis suscriptores. | Escenario 01: Compartir o guardar logros de suscriptores. | EP-11 |
-| US-37 | Notificaciones de Actividad Profesional | Como nutricionista, quiero recibir notificaciones sobre actividad en mi perfil. | Escenario 01: Mantener idioma configurado tras reinicio. | EP-08 |
-| US-38 | Herramientas de Seguimiento de Pacientes | Como nutricionista, quiero herramientas para monitorear progreso de usuarios, incluyendo IoT. | Escenario 01: Mostrar historial mensual, semanal y datos de IoT. | EP-10 |
-| US-39 | Biblioteca de Recursos Profesionales | Como nutricionista, quiero acceder a recursos científicos actualizados. | Escenario 01: Mostrar artículos relacionados y contenido complementario. | EP-09 |
-| US-40 | Estadísticas y Analytics | Como nutricionista, quiero ver estadísticas detalladas de mi actividad en la plataforma. | Escenario 01: Sugerir metas progresivas según registros IoT y metas. | EP-11 |
-| US-41 | Registro de Hidratación por Bebedor Inteligente | Como usuario, quiero que el bebedor inteligente registre mi consumo de agua automáticamente. | Escenario 01: Sincronización automática con la app al beber agua. <br> Escenario 02: Mostrar alertas si consumo bajo o sobrepasa meta. | EP-12 |
-| US-42 | Registro de Peso por Balanza Inteligente | Como usuario, quiero que la balanza inteligente sincronice mi peso automáticamente. | Escenario 01: Sincronización automática al pesarse. <br> Escenario 02: Mostrar evolución semanal y mensual. | EP-12 |
-| US-43 | Recomendaciones automáticas de alimentación (IA) | Como usuario, quiero recibir recomendaciones automáticas basadas en mis registros diarios. | Escenario 01: La IA analiza historial y sugiere ajustes diarios. <br> Escenario 02: Las sugerencias se muestran resumidas. | EP-12 |
-| US-44 | Interacción con coach virtual | Como usuario, quiero interactuar con un coach virtual para obtener sugerencias guiadas. | Escenario 01: Responde solo dentro de opciones predefinidas. <br> Escenario 02: Máximo 1–2 interacciones/día. | EP-12 |
-| US-45 | Entrenamiento supervisado por nutricionista | Como nutricionista, quiero entrenar la IA con ejemplos de mis pacientes. | Escenario 01: IA ajusta recomendaciones con datasets supervisados. <br> Escenario 02: Aplicación incremental y controlada de mejoras. | EP-12 |
-| US-46 | Limitar interacción IA | Como usuario, quiero que la IA me envíe solo sugerencias resumidas y limitadas. | Escenario 01: Prioriza recomendaciones importantes. <br> Escenario 02: Máximo 1–2 alertas/día. | EP-12 |
+| EP-03 | Registro y Seguimiento | Seguimiento de hábitos y progreso. | N/A | - |
+| US-06 | Registro Diario | Como usuario, quiere registrar alimentos. | Given datos, When guarda, Then almacena. <br> Given edición, Then actualiza. | EP-03 |
+| US-07 | Recordatorios | Como usuario, quiere recordatorios. | Given horarios, When llega hora, Then notifica. <br> Given faltantes, Then alerta. | EP-03 |
+| US-08 | Progreso | Como usuario, quiere ver progreso. | Given datos, When consulta, Then muestra estadísticas. <br> Given faltantes, Then indica. | EP-03 |
+| US-09 | Feedback Diario | Como usuario, quiere retroalimentación. | Given datos diarios, When finaliza día, Then muestra resumen. <br> Given exceso, Then recomienda ajuste. | EP-03 |
+| US-11 | Alertas | Como usuario, quiere alertas de metas. | Given meta no cumplida, When detecta, Then alerta. <br> Given IoT activo, Then usa datos. | EP-03 |
 
----
+| EP-04 | Comunidad y Motivación | Logros y motivación del usuario. | N/A | - |
+| US-10 | Logros | Como usuario, quiere ver logros. | Given objetivo cumplido, When verifica, Then muestra logro. <br> Given progreso, Then resalta avances. | EP-04 |
+| US-15 | Visualización de Logros | Como usuario, quiere ver logros completos. | Given metas alcanzadas, When consulta, Then lista logros. <br> Given nuevo logro, Then notifica. | EP-04 |
 
-## Épicas
+| EP-05 | Soporte y Experiencia | Comunicación y soporte. | N/A | - |
+| US-12 | Panel Pacientes | Como nutricionista, quiere ver pacientes. | Given datos disponibles, When consulta, Then muestra estado. <br> Given cambios, Then alerta. | EP-05 |
+| US-13 | Sugerencias | Como nutricionista, quiere enviar recomendaciones. | Given usuario activo, When envía, Then entrega mensaje. <br> Given inactivo, Then almacena. | EP-05 |
+| US-16 | Notificaciones | Como usuario, quiere notificaciones. | Given eventos, When ocurren, Then notifica. <br> Given revocación, Then elimina datos. | EP-05 |
+| US-17 | Soporte | Como usuario, quiere soporte. | Given solicitud, When envía, Then recibe respuesta. <br> Given seguimiento, Then actualiza estado. | EP-05 |
 
-- **EP-01: Registro y Gestión de Cuenta** – US-01 a US-03  
-- **EP-02: Personalización y Generación de Planes** – US-04, US-05, US-14  
-- **EP-03: Registro y Seguimiento** – US-06, US-07, US-08, US-09, US-11  
-- **EP-04: Comunidad y Motivación** – US-10, US-15  
-- **EP-05: Soporte y Experiencia del Usuario** – US-12, US-13, US-16, US-17  
-- **EP-06: Landing Page** – US-18 a US-25  
-- **EP-07: Visualización Detallada** – US-26 a US-28  
-- **EP-08: Registro y Gestión Profesional** – US-29, US-30, US-37  
-- **EP-09: Creación y Gestión de Contenido Educativo** – US-31, US-32, US-39  
-- **EP-10: Comunicación y Seguimiento de Usuarios** – US-33, US-34, US-38  
-- **EP-11: Monetización y Analytics** – US-35, US-36, US-40  
-- **EP-12: IA Coach Nutricional e IoT Integrado** – US-41 a US-46
+| EP-06 | Landing Page | Sitio web informativo para visitantes. | N/A | - |
+| US-18 | Propuesta de Valor | Como visitante, quiere entender beneficios. | Given acceso, When navega, Then muestra valor. | EP-06 |
+| US-19 | Acceso | Como visitante, quiere iniciar sesión. | Given acción, When ejecuta, Then redirige correctamente. | EP-06 |
+| US-20 | Navegación | Como visitante, quiere navegar secciones. | Given selección, When navega, Then muestra contenido. | EP-06 |
+| US-21 | Beneficios | Como visitante, quiere ver beneficios. | Given acceso, When consulta, Then muestra información. | EP-06 |
+| US-22 | Exploración | Como visitante, quiere explorar beneficios. | Given navegación, When interactúa, Then muestra detalles. | EP-06 |
+| US-23 | Testimonios | Como visitante, quiere ver testimonios. | Given acceso, When consulta, Then muestra testimonios. | EP-06 |
+| US-24 | Footer | Como visitante, quiere usar enlaces. | Given selección, When accede, Then redirige correctamente. | EP-06 |
+| US-25 | Responsive | Como visitante, quiere acceso multidispositivo. | Given dispositivo, When accede, Then adapta contenido. | EP-06 |
+
+| EP-07 | Visualización Detallada | Funciones avanzadas de visualización. | N/A | - |
+| US-26 | Recetas | Como usuario, quiere ver recetas. | Given acceso, When consulta, Then muestra recetas. <br> Given selección, Then guarda. | EP-07 |
+| US-27 | Tracking | Como usuario, quiere seguimiento. | Given datos, When consulta, Then muestra estado. | EP-07 |
+| US-28 | Recomendaciones | Como usuario, quiere recomendaciones. | Given actividad, When analiza, Then sugiere. | EP-07 |
+
+| EP-08 | Gestión Profesional | Registro de nutricionistas. | N/A | - |
+| US-29 | Registro Nutricionista | Como nutricionista, quiere registrarse. | Given datos válidos, When envía, Then crea cuenta. | EP-08 |
+| US-30 | Perfil Profesional | Como nutricionista, quiere gestionar perfil. | Given cambios, When guarda, Then actualiza perfil. | EP-08 |
+| US-37 | Notificaciones Profesionales | Como nutricionista, quiere notificaciones. | Given actividad, When ocurre, Then notifica. | EP-08 |
+
+| EP-09 | Contenido Educativo | Gestión de contenido. | N/A | - |
+| US-31 | Publicación | Como nutricionista, quiere publicar contenido. | Given contenido, When publica, Then visible. | EP-09 |
+| US-32 | Gestión Contenido | Como nutricionista, quiere organizar contenido. | Given categorías, When asigna, Then clasifica. | EP-09 |
+| US-39 | Biblioteca | Como nutricionista, quiere recursos. | Given consulta, When busca, Then muestra resultados. | EP-09 |
+
+| EP-10 | Comunicación | Interacción usuario-nutricionista. | N/A | - |
+| US-33 | Chat | Como nutricionista, quiere chatear. | Given conversación, When envía, Then entrega mensaje. | EP-10 |
+| US-34 | Gestión Consultas | Como nutricionista, quiere organizar consultas. | Given consulta, When gestiona, Then actualiza estado. | EP-10 |
+| US-38 | Seguimiento | Como nutricionista, quiere monitorear usuarios. | Given datos, When analiza, Then muestra progreso. | EP-10 |
+
+| EP-11 | Monetización | Suscripciones y analytics. | N/A | - |
+| US-35 | Suscripciones | Como nutricionista, quiere configurar planes. | Given configuración, When guarda, Then aplica cambios. | EP-11 |
+| US-36 | Suscriptores | Como nutricionista, quiere ver suscriptores. | Given datos, When consulta, Then muestra lista. | EP-11 |
+| US-40 | Analytics | Como nutricionista, quiere estadísticas. | Given datos, When consulta, Then muestra métricas. | EP-11 |
+
+| EP-12 | IA e IoT | Integración con IA y dispositivos. | N/A | - |
+| US-41 | Hidratación IoT | Como usuario, quiere registro automático. | Given consumo, When detecta, Then sincroniza. <br> Given bajo consumo, Then alerta. | EP-12 |
+| US-42 | Peso IoT | Como usuario, quiere registro de peso. | Given medición, When detecta, Then sincroniza. | EP-12 |
+| US-43 | IA Recomendaciones | Como usuario, quiere recomendaciones IA. | Given datos, When analiza, Then sugiere ajustes. | EP-12 |
+| US-44 | Coach Virtual | Como usuario, quiere guía. | Given interacción, When consulta, Then responde. | EP-12 |
+| US-45 | Entrenamiento IA | Como nutricionista, quiere entrenar IA. | Given datos, When entrena, Then mejora modelo. | EP-12 |
+| US-46 | Límite IA | Como usuario, quiere control de IA. | Given límite, When alcanza, Then restringe. | EP-12 |
 
 ### 3.2. Impact Mapping.
 El **Impact Map** es una herramienta visual que permite relacionar los objetivos de negocio con las personas involucradas, los impactos esperados, los entregables y las historias de usuario asociadas.  
