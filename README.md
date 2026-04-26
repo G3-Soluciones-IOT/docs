@@ -600,12 +600,13 @@ La sección abarca el proceso de investigación de nuestros segmentos objetivos 
 | |   |
 | Timing: : – : min | [Entrevista 4 JF Technologies.mp4] |
 
-| Entrevistado 5 |  |
-| :---- | :---- |
-| Edad |  años |
-| Distrito/Ciudad |  |
-| |  |
-| Timing: : – : min | [Entrevista 5 JF Technologies.mp4] |
+|Entrevistado 5 |  |
+| :------------- | :------------------------------------------------------------ |
+| Edad | 30 años |
+| Distrito/Ciudad | Miraflores, Lima |
+| Imagen | <p align="center"><img src="assets/TB1/image.png" width="200"/></p> |
+| Resumen | Franco García es un nutricionista con varios años de experiencia en consulta clínica y asesoría personalizada, que atiende a un volumen considerable de pacientes y busca optimizar su tiempo mediante herramientas más eficientes; actualmente depende de reportes manuales de sus pacientes, los cuales considera poco confiables por errores, omisiones y falta de constancia, lo que dificulta ajustar planes nutricionales entre consultas y tomar decisiones oportunas con información incompleta; además, ha identificado que muchos pacientes abandonan el seguimiento por la fatiga del registro manual, afectando directamente la adherencia y la efectividad del tratamiento; por ello, muestra un alto interés en soluciones tecnológicas que automaticen la recolección de datos, como sistemas con telemetría, métricas en tiempo real y dashboards inteligentes que filtren información relevante y alerten sobre anomalías, valorando especialmente aquellas que integren inteligencia artificial como apoyo para pre-validar datos sin reemplazar su criterio profesional; asimismo, considera fundamental que estas plataformas cumplan con altos estándares de privacidad y seguridad de la información, y ve en este tipo de soluciones una oportunidad para escalar su capacidad de atención sin comprometer la calidad clínica. |
+| Duración | 00:00 – 06:06 min |
 
 | Entrevistado 6 |  |
 | :---- | :---- |
