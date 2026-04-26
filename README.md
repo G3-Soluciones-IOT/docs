@@ -917,35 +917,30 @@ En esta sección se presentan las épicas y user stories del sistema. Cada histo
 |---------------|--------|-------------|-------------------------|---------------------------|
 | EP-01 | Registro y Gestión de Cuenta | Gestión de registro, autenticación y perfil de usuario. | N/A | - |
 | US-01 | Registro de Usuario | Como visitante, quiere registrarse para usar el sistema. | Given datos válidos, When se registra, Then el sistema crea la cuenta. <br> Given perfil completo, When guarda datos, Then genera sugerencias. | EP-01 |
-| US-02 | Recuperación de Contraseña | Como usuario, quiere recuperar su contraseña. | Given solicitud válida, When ingresa correo, Then recibe instrucciones. <br> Given reenvío, When lo solicita, Then sistema envía nuevamente. | EP-01 |
+| US-02 | Recuperación de Contraseña | Como usuario, quiere recuperar su contraseña. | Given solicitud válida, When ingresa correo, Then recibe instrucciones. <br> Given reenvío, When lo solicita, Then el sistema envía nuevamente. | EP-01 |
 | US-03 | Personalización de Perfil | Como usuario, quiere definir preferencias. | Given restricciones, When guarda, Then excluye alimentos. <br> Given objetivos, When actualiza, Then ajusta plan. | EP-01 |
-| TS-01 | API Autenticación | Como developer, quiere autenticar usuarios vía API. | Given credenciales válidas, When se envían, Then retorna token. <br> Given inválidas, Then retorna error. | EP-01 |
-
+| TS-01 | API Autenticación | Como developer, quiere autenticar usuarios vía API. | Given credenciales válidas, When se envían, Then retorna token. <br> Given inválidas, When se envían, Then retorna error. | EP-01 |
 | EP-02 | Personalización de Planes | Generación y edición de planes alimenticios. | N/A | - |
 | US-04 | Plan Personalizado | Como usuario, quiere plan adaptado. | Given perfil completo, When solicita, Then genera plan. <br> Given cambios, When actualiza, Then ajusta plan. | EP-02 |
-| US-05 | Edición de Plan | Como usuario, quiere modificar comidas. | Given selección, When reemplaza, Then muestra alternativas. <br> Given cambios, Then actualiza plan. | EP-02 |
-| US-14 | Personalización de Metas | Como usuario, quiere definir metas. | Given metas nuevas, When guarda, Then sistema confirma. <br> Given cancelación, Then actualiza plan. | EP-02 |
-| TS-02 | API Planes | Como developer, quiere gestionar planes. | Given solicitud válida, When consulta, Then retorna datos. <br> Given inválida, Then error. | EP-02 |
-
+| US-05 | Edición de Plan | Como usuario, quiere modificar comidas. | Given selección, When reemplaza, Then muestra alternativas. <br> Given cambios, When actualiza, Then el sistema guarda modificaciones. | EP-02 |
+| US-14 | Personalización de Metas | Como usuario, quiere definir metas. | Given metas nuevas, When guarda, Then el sistema confirma. <br> Given cancelación, When ejecuta acción, Then el sistema actualiza plan. | EP-02 |
+| TS-02 | API Planes | Como developer, quiere gestionar planes. | Given solicitud válida, When consulta, Then retorna datos. <br> Given solicitud inválida, When procesa, Then retorna error. | EP-02 |
 | EP-03 | Registro y Seguimiento | Seguimiento de hábitos y progreso. | N/A | - |
-| US-06 | Registro Diario | Como usuario, quiere registrar alimentos. | Given datos, When guarda, Then almacena. <br> Given edición, Then actualiza. | EP-03 |
-| US-07 | Recordatorios | Como usuario, quiere recordatorios. | Given horarios, When llega hora, Then notifica. <br> Given faltantes, Then alerta. | EP-03 |
-| US-08 | Progreso | Como usuario, quiere ver progreso. | Given datos, When consulta, Then muestra estadísticas. <br> Given faltantes, Then indica. | EP-03 |
-| US-09 | Feedback Diario | Como usuario, quiere retroalimentación. | Given datos diarios, When finaliza día, Then muestra resumen. <br> Given exceso, Then recomienda ajuste. | EP-03 |
-| US-11 | Alertas | Como usuario, quiere alertas de metas. | Given meta no cumplida, When detecta, Then alerta. <br> Given IoT activo, Then usa datos. | EP-03 |
-
+| US-06 | Registro Diario | Como usuario, quiere registrar alimentos. | Given datos, When guarda, Then el sistema almacena información. <br> Given edición, When guarda cambios, Then actualiza registro. | EP-03 |
+| US-07 | Recordatorios | Como usuario, quiere recordatorios. | Given horarios configurados, When llega la hora, Then el sistema notifica. <br> Given registros faltantes, When termina el día, Then alerta. | EP-03 |
+| US-08 | Progreso | Como usuario, quiere ver progreso. | Given datos disponibles, When consulta, Then muestra estadísticas. <br> Given ausencia de datos, When consulta historial, Then indica faltantes. | EP-03 |
+| US-09 | Feedback Diario | Como usuario, quiere retroalimentación. | Given datos diarios, When finaliza el día, Then muestra resumen. <br> Given exceso calórico, When detecta, Then recomienda ajustes. | EP-03 |
+| US-11 | Alertas | Como usuario, quiere alertas de metas. | Given meta no cumplida, When detecta condición, Then alerta. <br> Given integración IoT, When recibe datos, Then los procesa. | EP-03 |
 | EP-04 | Comunidad y Motivación | Logros y motivación del usuario. | N/A | - |
-| US-10 | Logros | Como usuario, quiere ver logros. | Given objetivo cumplido, When verifica, Then muestra logro. <br> Given progreso, Then resalta avances. | EP-04 |
-| US-15 | Visualización de Logros | Como usuario, quiere ver logros completos. | Given metas alcanzadas, When consulta, Then lista logros. <br> Given nuevo logro, Then notifica. | EP-04 |
-
+| US-10 | Logros | Como usuario, quiere ver logros. | Given objetivo cumplido, When valida, Then muestra logro. <br> Given progreso continuo, When analiza, Then resalta avances. | EP-04 |
+| US-15 | Visualización de Logros | Como usuario, quiere ver logros completos. | Given metas alcanzadas, When consulta, Then lista logros. <br> Given nuevo logro, When ocurre, Then notifica. | EP-04 |
 | EP-05 | Soporte y Experiencia | Comunicación y soporte. | N/A | - |
-| US-12 | Panel Pacientes | Como nutricionista, quiere ver pacientes. | Given datos disponibles, When consulta, Then muestra estado. <br> Given cambios, Then alerta. | EP-05 |
-| US-13 | Sugerencias | Como nutricionista, quiere enviar recomendaciones. | Given usuario activo, When envía, Then entrega mensaje. <br> Given inactivo, Then almacena. | EP-05 |
-| US-16 | Notificaciones | Como usuario, quiere notificaciones. | Given eventos, When ocurren, Then notifica. <br> Given revocación, Then elimina datos. | EP-05 |
-| US-17 | Soporte | Como usuario, quiere soporte. | Given solicitud, When envía, Then recibe respuesta. <br> Given seguimiento, Then actualiza estado. | EP-05 |
-
+| US-12 | Panel Pacientes | Como nutricionista, quiere ver pacientes. | Given datos disponibles, When consulta, Then muestra estado. <br> Given cambios relevantes, When detecta, Then alerta. | EP-05 |
+| US-13 | Sugerencias | Como nutricionista, quiere enviar recomendaciones. | Given usuario disponible, When envía mensaje, Then entrega. <br> Given usuario no disponible, When envía, Then almacena. | EP-05 |
+| US-16 | Notificaciones | Como usuario, quiere notificaciones. | Given evento relevante, When ocurre, Then notifica. <br> Given revocación, When ejecuta, Then elimina acceso. | EP-05 |
+| US-17 | Soporte | Como usuario, quiere soporte. | Given solicitud, When envía, Then registra caso. <br> Given seguimiento, When consulta, Then muestra estado. | EP-05 |
 | EP-06 | Landing Page | Sitio web informativo para visitantes. | N/A | - |
-| US-18 | Propuesta de Valor | Como visitante, quiere entender beneficios. | Given acceso, When navega, Then muestra valor. | EP-06 |
+| US-18 | Propuesta de Valor | Como visitante, quiere entender beneficios. | Given acceso, When navega, Then muestra propuesta de valor. | EP-06 |
 | US-19 | Acceso | Como visitante, quiere iniciar sesión. | Given acción, When ejecuta, Then redirige correctamente. | EP-06 |
 | US-20 | Navegación | Como visitante, quiere navegar secciones. | Given selección, When navega, Then muestra contenido. | EP-06 |
 | US-21 | Beneficios | Como visitante, quiere ver beneficios. | Given acceso, When consulta, Then muestra información. | EP-06 |
@@ -953,39 +948,33 @@ En esta sección se presentan las épicas y user stories del sistema. Cada histo
 | US-23 | Testimonios | Como visitante, quiere ver testimonios. | Given acceso, When consulta, Then muestra testimonios. | EP-06 |
 | US-24 | Footer | Como visitante, quiere usar enlaces. | Given selección, When accede, Then redirige correctamente. | EP-06 |
 | US-25 | Responsive | Como visitante, quiere acceso multidispositivo. | Given dispositivo, When accede, Then adapta contenido. | EP-06 |
-
 | EP-07 | Visualización Detallada | Funciones avanzadas de visualización. | N/A | - |
-| US-26 | Recetas | Como usuario, quiere ver recetas. | Given acceso, When consulta, Then muestra recetas. <br> Given selección, Then guarda. | EP-07 |
+| US-26 | Recetas | Como usuario, quiere ver recetas. | Given acceso, When consulta, Then muestra recetas. <br> Given selección, When guarda, Then registra preferencia. | EP-07 |
 | US-27 | Tracking | Como usuario, quiere seguimiento. | Given datos, When consulta, Then muestra estado. | EP-07 |
 | US-28 | Recomendaciones | Como usuario, quiere recomendaciones. | Given actividad, When analiza, Then sugiere. | EP-07 |
-
 | EP-08 | Gestión Profesional | Registro de nutricionistas. | N/A | - |
 | US-29 | Registro Nutricionista | Como nutricionista, quiere registrarse. | Given datos válidos, When envía, Then crea cuenta. | EP-08 |
 | US-30 | Perfil Profesional | Como nutricionista, quiere gestionar perfil. | Given cambios, When guarda, Then actualiza perfil. | EP-08 |
 | US-37 | Notificaciones Profesionales | Como nutricionista, quiere notificaciones. | Given actividad, When ocurre, Then notifica. | EP-08 |
-
 | EP-09 | Contenido Educativo | Gestión de contenido. | N/A | - |
-| US-31 | Publicación | Como nutricionista, quiere publicar contenido. | Given contenido, When publica, Then visible. | EP-09 |
-| US-32 | Gestión Contenido | Como nutricionista, quiere organizar contenido. | Given categorías, When asigna, Then clasifica. | EP-09 |
-| US-39 | Biblioteca | Como nutricionista, quiere recursos. | Given consulta, When busca, Then muestra resultados. | EP-09 |
-
+| US-31 | Publicación | Como nutricionista, quiere publicar contenido. | Given contenido válido, When publica, Then es visible. | EP-09 |
+| US-32 | Gestión Contenido | Como nutricionista, quiere organizar contenido. | Given categorías, When asigna, Then clasifica contenido. | EP-09 |
+| US-39 | Biblioteca | Como nutricionista, quiere recursos. | Given búsqueda, When consulta, Then muestra resultados. | EP-09 |
 | EP-10 | Comunicación | Interacción usuario-nutricionista. | N/A | - |
-| US-33 | Chat | Como nutricionista, quiere chatear. | Given conversación, When envía, Then entrega mensaje. | EP-10 |
+| US-33 | Chat | Como nutricionista, quiere comunicarse. | Given mensaje, When envía, Then entrega. | EP-10 |
 | US-34 | Gestión Consultas | Como nutricionista, quiere organizar consultas. | Given consulta, When gestiona, Then actualiza estado. | EP-10 |
 | US-38 | Seguimiento | Como nutricionista, quiere monitorear usuarios. | Given datos, When analiza, Then muestra progreso. | EP-10 |
-
 | EP-11 | Monetización | Suscripciones y analytics. | N/A | - |
 | US-35 | Suscripciones | Como nutricionista, quiere configurar planes. | Given configuración, When guarda, Then aplica cambios. | EP-11 |
 | US-36 | Suscriptores | Como nutricionista, quiere ver suscriptores. | Given datos, When consulta, Then muestra lista. | EP-11 |
 | US-40 | Analytics | Como nutricionista, quiere estadísticas. | Given datos, When consulta, Then muestra métricas. | EP-11 |
-
 | EP-12 | IA e IoT | Integración con IA y dispositivos. | N/A | - |
-| US-41 | Hidratación IoT | Como usuario, quiere registro automático. | Given consumo, When detecta, Then sincroniza. <br> Given bajo consumo, Then alerta. | EP-12 |
+| US-41 | Hidratación IoT | Como usuario, quiere registro automático. | Given consumo, When detecta, Then sincroniza. <br> Given bajo consumo, When evalúa, Then alerta. | EP-12 |
 | US-42 | Peso IoT | Como usuario, quiere registro de peso. | Given medición, When detecta, Then sincroniza. | EP-12 |
 | US-43 | IA Recomendaciones | Como usuario, quiere recomendaciones IA. | Given datos, When analiza, Then sugiere ajustes. | EP-12 |
-| US-44 | Coach Virtual | Como usuario, quiere guía. | Given interacción, When consulta, Then responde. | EP-12 |
+| US-44 | Coach Virtual | Como usuario, quiere guía. | Given consulta, When interactúa, Then responde. | EP-12 |
 | US-45 | Entrenamiento IA | Como nutricionista, quiere entrenar IA. | Given datos, When entrena, Then mejora modelo. | EP-12 |
-| US-46 | Límite IA | Como usuario, quiere control de IA. | Given límite, When alcanza, Then restringe. | EP-12 |
+| US-46 | Límite IA | Como usuario, quiere control de IA. | Given límite alcanzado, When detecta, Then restringe interacción. | EP-12 |
 
 ### 3.2. Impact Mapping.
 El **Impact Map** es una herramienta visual que permite relacionar los objetivos de negocio con las personas involucradas, los impactos esperados, los entregables y las historias de usuario asociadas.  
