@@ -426,13 +426,13 @@ En el Perú, el acceso a tecnologías digitales ha crecido de manera significati
 | Aspectos demográficos | Aspectos geográficos | Aspectos psicográficos |
 |----------------------|--------------------|------------------------|
 | Sexo: Masculino y Femenino | Nacionalidad: Peruana | Motivaciones: Mejorar la calidad de las recomendaciones nutricionales mediante el uso de herramientas tecnológicas, contribuir con conocimiento experto al entrenamiento de sistemas inteligentes y apoyar la generación de recomendaciones basadas en evidencia|
-| Edades: 25 – 60 años | Ubicación: Zonas urbanas con presencia de clínicas y consultorios (Lima, Arequipa, Trujillo) | Estilo de vida: Profesional orientado al servicio y bienestar de terceros |
-| Nivel socioeconómico: B y C | Acceso a tecnología: Alto acceso a herramientas digitales e internet | Preocupaciones: Falta de datos confiables y herramientas eficientes para el monitoreo de pacientes |
-| Ocupación: Nutricionistas, médicos generales, entrenadores, profesionales de salud | | Adaptación a la tecnología: Media-alta, con interés en herramientas que optimicen su trabajo |
-| Educación: Formación técnica o universitaria en salud o bienestar | | Interés por la personalización: Alto interés en soluciones que permitan seguimiento individualizado |
+| Edades: 25 – 60 años | Ubicación: Zonas urbanas con presencia de clínicas y consultorios (Lima, Arequipa, Trujillo) | Estilo de vida: Profesional orientado al servicio, bienestar de terceros y generación de conocimiento en salud |
+| Nivel socioeconómico: B y C | Acceso a tecnología: Alto acceso a herramientas digitales e internet | Preocupaciones: Limitada participación en el desarrollo de soluciones tecnológicas que integren conocimiento nutricional validado y falta de herramientas que permitan transferir su expertise a sistemas digitales |
+| Ocupación: Nutricionistas, profesionales de salud | | Adaptación a la tecnología: Media-alta, con interés en herramientas que potencien el impacto de su conocimiento |
+| Educación: Formación técnica o universitaria en salud o bienestar | | Interés por la personalización: Alto interés en soluciones que permitan generar recomendaciones nutricionales más precisas y basadas en evidencia |
 
 **Sustento:**  
-El sector salud en el Perú viene experimentando un proceso de digitalización progresiva, impulsado por la necesidad de mejorar la eficiencia en la atención y el seguimiento de pacientes. En este contexto, los profesionales de la salud muestran una creciente apertura hacia el uso de herramientas tecnológicas que les permitan optimizar su práctica, especialmente en entornos urbanos con mayor acceso a infraestructura digital (INEI, 2023; OMS, 2025).
+El sector salud en el Perú viene experimentando un proceso de digitalización progresiva, impulsado por la necesidad de integrar conocimiento especializado en soluciones tecnológicas que mejoren la calidad de los servicios de salud. En este contexto, los profesionales de la salud muestran una creciente apertura hacia el uso de herramientas digitales que permitan trasladar su expertise a sistemas automatizados, contribuyendo al desarrollo de soluciones basadas en datos y evidencia (INEI, 2023; OMS, 2025).
 
 
 
