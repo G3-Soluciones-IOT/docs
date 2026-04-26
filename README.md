@@ -585,10 +585,11 @@ La sección abarca el proceso de investigación de nuestros segmentos objetivos 
 
 | Entrevistado 3 |   |
 | :---- | :---- |
-| Edad |  años |
-| Distrito/Ciudad |  |
-|   |  |
-| Timing: : – : min | [Entrevista 3 JF Technologies.mp4] |
+| Edad |  21 años |
+| Distrito/Ciudad | Independencia Lima, Lima  |
+|  Imagen  | <p align="center"><img src="./assets/entrevistas/Entrevista3.png" width="200"/></p> |
+| Resumen | Anyelo Alejos , de 21 años, es un joven que vive en Lima y mantiene un estilo de vida enfocado en el equilibrio entre alimentación y ejercicio por temas de salud. No sigue un plan nutricional estructurado ni registra constantemente su ingesta, ya que gestiona su alimentación de forma empírica basándose en su experiencia y en información de internet.<br><br>Anteriormente utilizó aplicaciones de conteo nutricional, pero dejó de usarlas debido a la incomodidad del registro manual y el tiempo que requería, lo que le generaba frustración y afectaba su constancia, especialmente en días ocupados o cuando repetía comidas.<br><br>Uno de sus principales problemas es la falta de seguimiento continuo, sobre todo cuando come fuera de casa o en horarios irregulares. Aunque puede estimar calorías en productos envasados, tiene dificultades para calcular con precisión lo que consume en comidas caseras o de restaurantes.<br><br>En cuanto a soluciones tecnológicas, muestra interés en herramientas automatizadas que eliminen el registro manual mediante sensores o telemetría. Valora funciones como monitoreo en tiempo real, alertas y visualización de progreso, siempre que sean prácticas y no invasivas.<br><br>Finalmente, tiene una actitud positiva hacia el uso de inteligencia artificial en nutrición, especialmente si está respaldada por profesionales. Estaría dispuesto a compartir sus datos con nutricionistas y pagar una suscripción, siempre que el servicio demuestre efectividad y justifique su valor. |
+| Duración | 00:00 – 11:52 min |
 
 
 ### Segmento 2: 
