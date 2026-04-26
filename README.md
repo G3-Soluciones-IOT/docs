@@ -601,12 +601,13 @@ La sección abarca el proceso de investigación de nuestros segmentos objetivos 
 | Resumen | Joaquín Reyna es un nutricionista clínico de 28 años que ejerce en Lima, principalmente en consulta privada y también de forma remota, atendiendo un alto volumen de pacientes mensualmente.<br><br>Actualmente, enfrenta dificultades en el seguimiento de sus pacientes debido a la dependencia de reportes manuales, los cuales considera poco confiables, incompletos y muchas veces inexactos. Esto limita su capacidad para evaluar correctamente la adherencia a los planes nutricionales.<br><br>Uno de los principales problemas que identifica es la falta de datos precisos entre consultas, lo que complica la toma de decisiones y el ajuste oportuno de los tratamientos. Además, ha observado que muchos pacientes abandonan el proceso debido al cansancio que genera registrar manualmente su alimentación y hábitos.<br><br>En cuanto a soluciones, muestra un alto interés en herramientas tecnológicas que automaticen la recolección y validación de datos, especialmente aquellas que ofrezcan métricas en tiempo real. Considera que funcionalidades como dashboards inteligentes, alertas de desviaciones y análisis automatizado mejorarían significativamente su eficiencia profesional.<br><br>Asimismo, valora positivamente el uso de inteligencia artificial como apoyo en la validación de datos, siempre que mantenga su rol como decisor final. Finalmente, destaca la importancia de la seguridad y confidencialidad de la información, y considera que una solución como JameoFit le permitiría escalar su atención a más pacientes sin comprometer la calidad del servicio. |
 | Duración | 12:00 – 17:00 min |
 
-| Entrevistado 5 |  |
-| :---- | :---- |
-| Edad |  años |
-| Distrito/Ciudad |  |
-| |  |
-| Timing: : – : min | [Entrevista 5 JF Technologies.mp4] |
+|Entrevistado 5 |  |
+| :------------- | :------------------------------------------------------------ |
+| Edad | 30 años |
+| Distrito/Ciudad | Miraflores, Lima |
+| Imagen | <p align="center"><img src="assets/TB1/image.png" width="200"/></p> |
+| Resumen | Franco García es un nutricionista con varios años de experiencia en consulta clínica y asesoría personalizada, que atiende a un volumen considerable de pacientes y busca optimizar su tiempo mediante herramientas más eficientes; actualmente depende de reportes manuales de sus pacientes, los cuales considera poco confiables por errores, omisiones y falta de constancia, lo que dificulta ajustar planes nutricionales entre consultas y tomar decisiones oportunas con información incompleta; además, ha identificado que muchos pacientes abandonan el seguimiento por la fatiga del registro manual, afectando directamente la adherencia y la efectividad del tratamiento; por ello, muestra un alto interés en soluciones tecnológicas que automaticen la recolección de datos, como sistemas con telemetría, métricas en tiempo real y dashboards inteligentes que filtren información relevante y alerten sobre anomalías, valorando especialmente aquellas que integren inteligencia artificial como apoyo para pre-validar datos sin reemplazar su criterio profesional; asimismo, considera fundamental que estas plataformas cumplan con altos estándares de privacidad y seguridad de la información, y ve en este tipo de soluciones una oportunidad para escalar su capacidad de atención sin comprometer la calidad clínica. |
+| Duración | 00:00 – 06:06 min |
 
 | Entrevistado 6 |  |
 | :---- | :---- |
