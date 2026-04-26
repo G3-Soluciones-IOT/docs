@@ -577,10 +577,11 @@ La sección abarca el proceso de investigación de nuestros segmentos objetivos 
 
 | Entrevistado 2 |  |
 | :---- | :---- |
-| Edad |  años |
-| Distrito/Ciudad |  |
-|    |  |
-| Timing: : – : min | [Entrevista 2 JF Technologies.mp4] |
+| Edad | 20 años |
+| Distrito/Ciudad | San Miguel, Lima |
+| Imagen | <p align="center"><img src="./assets/entrevistas/Entrevista2.png" width="200"/></p> |
+| Resumen | Loreley Sarmiento Medina, de 20 años, es una joven que actualmente no sigue un plan nutricional estructurado ni mantiene un registro constante de su alimentación. Aunque anteriormente utilizó aplicaciones similares, dejó de usarlas debido a la falta de precisión en los datos y lo genérico de las estimaciones, lo cual le generaba frustración.<br><br>Uno de los principales problemas que enfrenta es la falta de constancia, especialmente en días ocupados o cuando come fuera de casa, lo que ocasiona que olvide registrar su consumo. <br><br>En cuanto a soluciones tecnológicas, muestra interés por herramientas automatizadas que utilicen sensores o telemetría para registrar datos sin intervención manual, siempre que sean accesibles económicamente. También valora funciones como visualización de progreso y alertas, las cuales podrían ayudarle a mantener la constancia.<br><br>Finalmente, presenta una actitud positiva hacia el uso de inteligencia artificial, siempre que esté respaldada por profesionales. Estaría dispuesta a compartir sus datos con nutricionistas y considerar un pago por el servicio, pero solo después de probar su efectividad de la aplicación previamente. |
+| Duración | 00:00 – 05:35 min |
 
 | Entrevistado 3 |   |
 | :---- | :---- |
