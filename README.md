@@ -13,7 +13,7 @@
   NRC: 17756 <br>  
   Profesor: David Carlos Vera Olivera <br><br>
   "Informe de Trabajo Final" <br>
-  Startup:  - Producto: 
+  Startup: JF Technologies  - Producto: JameoFit
 </p>
 
 <br>
@@ -76,22 +76,44 @@
 | Versión | Fecha      | Autor                         | Descripción                                                                  |
 |---------|------------|-------------------------------|------------------------------------------------------------------------------|
 | AV1     | 05/04/2026 | Jhon Alexander Galvez Chambi  | Desarrollo de la carátula, tabla de contenidos y estructura general del informe. |
-| AV1     | 1x/04/2026 | Mathias Eduardo Bueno Perales  |              |
+| AV1     | 08/04/2026 | Fabrizio Alberto Paredes Santos  | Desarrollo del Capítulo I, organización de la estructura del informe y elaboración de las referencias bibliográficas. |
+| AV1     | 17/04/2026 | Mathias Eduardo Bueno Perales  |   Apliqué la metodología Lean UX para estructurar un análisis competitivo y estratégico exhaustivo frente a actores clave como Fitia y MyFitnessPal. Finalmente, se diseñaron los protocolos de investigación cualitativa para los segmentos de usuarios finales y profesionales de la salud, ademas de resaltar su diferenciación en el mercado a través de la automatización y la inteligencia artificial.           |
 | AV1     | 15/04/2026 |   Valentino Sandoval Paiva  | Para esta entrega, lideré el diseño estratégico mediante EventStorming, el descubrimiento de contextos y la elaboración de los Bounded Context Canvases y el Context Mapping. Asimismo, definí la arquitectura de software a través de los diagramas de Landscape, Context, Container y Deployment, complementándolo con el análisis competitivo, las historias de usuario y el desarrollo integral de las capas del Bounded Context IAM.   |
 | AV1     | 15/04/2026 | Ramiro Alexander Guzmán Chávez   |  Desarrollo de User Stories, Product Backlog, Impact Mapping y adaptación a dispositivos inteligentes e IA.      |
 | AV1     | 16/04/2026 | Omar Luquillas Asto  | Desarrollo de secciones correspondientes a los Bounded Context: Inicio y Registro de Sesión, Perfil de Usuario y Gestión de Objetivos   |
 | AV1     | 17/04/2026 | Jhon Alexander Galvez Chambi  | Desarrollo de secciones correspondientes a los Bounded Context: Rutina Alimentaria, Nutricionista, Gestion de Planes Alimenticios, Comunicacion y Pagos   |
 | AV1     | 17/04/2026   | Pablo Antonio Geronimo Quispe  |        Desarrollo del needfinding agregando los respectivos User Persona ,Empathy Map,JourneyMap y documentacion del Ubiquitous Language agregando       |         
+| AV1     | 25/04/2026   | Fabrizio Alberto Paredes Santos  |        Desarrollo de la entrevista del segmento 1, definición de la estructura de entrevistas y corrección del diseño de las mismas.     | 
 
 ## Project Report Collaboration Insights
 
-|  URL del repositorio del reporte  |
+| URL del repositorio del reporte |
 | :-----------------------------------: |
 | [https://github.com/G3-Soluciones-IOT/docs.git](https://github.com/G3-Soluciones-IOT/docs.git) |
 
-**TB1:**
+**AV1:**
 
-**REPORT:** 
+Para la elaboración de la entrega AV1 de este informe, el equipo se organizó mediante reuniones de coordinación a través de un canal de Discord. En estas reuniones se definió la distribución de actividades, se asignaron responsables por capítulo y se establecieron fechas de revisión periódica para asegurar el avance progresivo de cada integrante.
+
+| Integrante | Usuario Github | Detalle de avance |
+|------------|----------------|-------------------|
+| Fabrizio Alberto Paredes Santos | `psfa29` | Desarrollo del Capítulo I. |
+| Mathias Eduardo Bueno Perales | `MathiasBueno` | Desarrollo del Capítulo II, secciones 2.1 y 2.2. |
+| Pablo Antonio Geronimo Quispe | `Phatogram` | Desarrollo del Capítulo II, secciones 2.3, 2.4 y 2.5. |
+| Ramiro Alexander Guzmán Chávez | `RamiroGuzmanCh` | Desarrollo del Capítulo III. |
+| Valentino Sandoval Paiva | `ValentinoSandovalP` | Desarrollo del Capítulo IV, secciones 4.1 y 4.2. |
+| Omar Luquillas Asto | `OmarLLA` | Desarrollo del Capítulo IV, secciones 4.2.1 hasta 4.2.3. |
+| Jhon Alexander Galvez Chambi | `Chaomeum` | Desarrollo del Capítulo IV, secciones 4.2.4 hasta 4.2.8. |
+
+**Report Repository Insights:** 
+
+En esta sección se presentan los analíticos de colaboración y los commits realizados en GitHub por los miembros del equipo dentro del repositorio del informe durante la fase AV1. Esta evidencia permite visualizar la participación de los integrantes y la evolución del trabajo colaborativo a lo largo del desarrollo del reporte.
+
+- Report Contributors:
+![Report Contributors](./assets/TB1/report_contributors.png)
+
+- Report Network:
+![Report Network](./assets/TB1/report_network.png)
 
 ## Contenido
 
@@ -221,6 +243,17 @@
 
 ## Student Outcome
 
+### ABET – EAC - Student Outcome 5
+
+**Criterio:** La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
+
+En el siguiente cuadro se describen las acciones realizadas y enunciados de conclusiones por parte del equipo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
+
+| Criterio específico | Acciones realizadas | Conclusiones |
+|----------------------|---------------------|--------------|
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **AV1**<br><br> Bueno Perales, Mathias Eduardo: asumí el desarrollo del Capítulo II, específicamente las secciones 2.1 y 2.2, aportando al análisis inicial del problema, los competidores y el levantamiento de información base para el informe. <br><br> Galvez Chambi, Jhon Alexander: desarrollé las secciones 4.2.4 a 4.2.8 del Capítulo IV y también participé en la elaboración inicial de la carátula, la tabla de contenidos y la estructura general del informe. <br><br> Geronimo Quispe, Pablo Antonio: desarrollé las secciones 2.3, 2.4 y 2.5 del Capítulo II, incluyendo el needfinding, los user personas, el empathy map, el journey map y la documentación del ubiquitous language. <br><br> Guzmán Chávez, Ramiro Alexander: lideré el desarrollo del Capítulo III mediante la elaboración de user stories, product backlog e impact mapping, contribuyendo a la definición y organización de los requerimientos del producto. <br><br> Luquillas Asto, Omar: desarrollé las secciones 4.2.1 a 4.2.3 del Capítulo IV, correspondientes a los bounded contexts de Inicio y Registro de Sesión, Perfil de Usuario y Gestión de Objetivos. <br><br> Paredes Santos, Fabrizio Alberto: desarrollé el Capítulo I, aportando a la construcción del perfil de la startup, la introducción general y la base conceptual del informe. <br><br> Sandoval Paiva, Valentino: lideré el diseño estratégico del sistema mediante EventStorming, Candidate Context Discovery, Bounded Context Canvases, Context Mapping y diagramas de arquitectura de software como Landscape, Context, Container y Deployment. Además, aporté al análisis competitivo y a la formulación de historias de usuario. | **AV1**<br><br> Durante esta entrega, trabajamos de manera articulada para asumir responsabilidades complementarias dentro del informe. La distribución de capítulos, bounded contexts y artefactos de análisis permitió que cada integrante aportara desde un frente específico, combinando liderazgo en requerimientos, diseño estratégico, arquitectura, investigación y documentación. Como resultado, evidenciamos una participación conjunta en la que el liderazgo no recayó en una sola persona, sino que se manifestó de forma distribuida según las necesidades de cada sección del trabajo. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **AV1**<br><br> Bueno Perales, Mathias Eduardo: desarrollé las actividades asignadas para las secciones 2.1 y 2.2 dentro de la planificación establecida para el Capítulo II. <br><br> Galvez Chambi, Jhon Alexander: participé en la estructuración inicial del informe y luego desarrollé las secciones 4.2.4 a 4.2.8 del Capítulo IV, en concordancia con la distribución de tareas acordada por el equipo. <br><br> Geronimo Quispe, Pablo Antonio: ejecuté las actividades asignadas en las secciones 2.3, 2.4 y 2.5, desarrollando los artefactos de needfinding y lenguaje ubicuo definidos en la planificación grupal. <br><br> Guzmán Chávez, Ramiro Alexander: desarrollé el Capítulo III, enfocándome en artefactos clave para la especificación y priorización del trabajo, como user stories, impact mapping y product backlog. <br><br> Luquillas Asto, Omar: desarrollé los bounded contexts 4.2.1 a 4.2.3 del Capítulo IV, cumpliendo con la asignación establecida para la parte inicial del diseño táctico. <br><br> Paredes Santos, Fabrizio Alberto: avancé el Capítulo I de acuerdo con la distribución inicial de contenidos del informe. <br><br> Sandoval Paiva, Valentino: desarrollé los artefactos de diseño estratégico y arquitectura de software en coherencia con la estructura general del documento y con las metas trazadas para la entrega. | **AV1**<br><br> En esta entrega generamos un entorno de trabajo colaborativo mediante reuniones de coordinación en Discord, distribución explícita de actividades y revisiones periódicas de avance. Esta organización permitió establecer metas concretas por capítulo y por integrante, dar seguimiento al cumplimiento de tareas y sostener una dinámica ordenada de trabajo grupal. A partir de ello, logramos avanzar de manera progresiva en la construcción del informe, manteniendo coherencia entre los aportes individuales y el objetivo común de la entrega AV1. |
+
 ## Capítulo I: Introducción
 
 ### 1.1. Startup Profile
@@ -240,6 +273,7 @@ Desarrollar soluciones tecnológicas innovadoras que integren datos y herramient
 ## Visión
 
 Ser una startup referente en el desarrollo de productos digitales orientados a la salud y el bienestar, destacando por su capacidad de innovación, escalabilidad y aplicación de tecnologías emergentes para generar impacto sostenible en la calidad de vida de las personas.
+
 #### 1.1.2. Perfiles de integrantes del equipo
 
 | Foto | Miembros del equipo | Código de Estudiante | Descripción |
@@ -271,7 +305,7 @@ What:
 El problema principal radica en la dificultad que tienen muchas personas para realizar un seguimiento preciso y constante de su ingesta nutricional. Las herramientas digitales actuales suelen depender del registro manual, lo que introduce errores y limita la precisión de los datos, además de generar fricción en la experiencia del usuario.
 
 Who:  
-La problemática afecta a dos segmentos principales. Por un lado, usuarios finales que buscan mejorar su alimentación, incluyendo personas interesadas en optimizar sus hábitos nutricionales, deportistas o individuos con rutinas laborales que requieren controlar su ingesta. Por otro lado, profesionales de la salud, como nutricionistas o entrenadores, que necesitan información confiable para realizar seguimiento y brindar recomendaciones a sus pacientes o clientes.
+La problemática afecta a dos segmentos principales. Por un lado, usuarios finales que buscan mejorar su alimentación, incluyendo personas interesadas en optimizar sus hábitos nutricionales, deportistas o individuos con rutinas laborales que requieren controlar su ingesta. Por otro lado, profesionales de la salud, como nutricionistas, que aportan conocimiento especializado para el entrenamiento y validación de sistemas de recomendación nutricional.
 
 When:  
 El problema se presenta de manera constante en la vida diaria, especialmente cada vez que el usuario consume alimentos y debe registrar dicha información. Su relevancia ha aumentado en los últimos años debido al mayor interés en el autocuidado y el uso de herramientas digitales para la gestión de la salud.
@@ -306,19 +340,19 @@ Se ha identificado que los usuarios presentan dificultades para registrar y moni
 - Abandono del uso de aplicaciones de nutrición  
 - Falta de visibilidad clara sobre hábitos alimenticios  
 - Dificultad para tomar decisiones informadas  
-- Limitada capacidad de seguimiento por parte de profesionales de la salud  
+- Limitada capacidad del sistema para generar recomendaciones nutricionales precisas basadas en datos confiables 
 
 **Gap**  
 Existe una brecha entre la necesidad de contar con información nutricional precisa, continua y confiable, y la disponibilidad de herramientas digitales que reduzcan la carga manual del usuario y mejoren la calidad de los datos recolectados.
 
 **Vision / Strategy**  
-Desarrollar una solución digital que permita automatizar y optimizar el monitoreo de la ingesta nutricional, reduciendo la intervención manual del usuario y mejorando la precisión de los datos, facilitando la toma de decisiones y promoviendo hábitos alimenticios sostenibles tanto en usuarios finales como en profesionales de la salud.
+Desarrollar una solución digital que permita automatizar y optimizar el monitoreo de la ingesta nutricional, reduciendo la intervención manual del usuario y mejorando la precisión de los datos, facilitando la toma de decisiones y promoviendo hábitos alimenticios sostenibles en usuarios finales, apoyándose en conocimiento experto para mejorar la calidad de las recomendaciones nutricionales.
 
 **Initial Segment**  
 Usuarios urbanos en Perú interesados en mejorar su alimentación y que utilizan dispositivos móviles como principal medio de acceso digital.
 
 **Problem Statement**  
-¿Cómo podríamos facilitar el monitoreo preciso y constante de la ingesta nutricional de los usuarios, al mismo tiempo que brindamos información confiable a los profesionales de la salud, reduciendo la carga manual y mejorando la calidad de los datos para apoyar la toma de decisiones?
+¿Cómo podríamos facilitar el monitoreo preciso y constante de la ingesta nutricional de los usuarios, al mismo tiempo que mejoramos la calidad de las recomendaciones nutricionales mediante datos precisos y conocimiento experto, reduciendo la carga manual y mejorando la calidad de los datos para apoyar la toma de decisiones?
 
 ##### 1.2.2.2. Lean UX Assumptions.
 Las siguientes suposiciones han sido definidas en base al entendimiento preliminar del problema y serán validadas mediante el proceso iterativo del Lean UX.
@@ -329,8 +363,8 @@ Las siguientes suposiciones han sido definidas en base al entendimiento prelimin
 - Se asume que existe una creciente demanda por soluciones digitales orientadas al monitoreo de la salud y la nutrición.  
 - Se asume que los usuarios perciben valor en herramientas que reduzcan el esfuerzo requerido para registrar su alimentación.  
 - Se asume que la automatización del registro nutricional puede mejorar la retención de usuarios.  
-- Se asume que los profesionales de la salud requieren herramientas más precisas para el seguimiento de sus pacientes.  
-- Se asume que los profesionales están dispuestos a adoptar herramientas digitales que mejoren la calidad del seguimiento nutricional.  
+- Se asume que los profesionales están dispuestos a contribuir al entrenamiento de modelos basados en datos. 
+- Se asume que la integración de conocimiento experto puede mejorar la precisión de sistemas de recomendación nutricional. 
 - Se asume que el mercado peruano presenta oportunidades para soluciones digitales en el ámbito de la salud y bienestar.  
 - Se asume que una solución basada en datos puede generar valor tanto para usuarios finales como para profesionales.  
 
@@ -341,8 +375,7 @@ Las siguientes suposiciones han sido definidas en base al entendimiento prelimin
 - Se asume que los usuarios valoran la facilidad de uso y la rapidez en el registro de información.  
 - Se asume que los usuarios están dispuestos a adoptar herramientas digitales si estas son intuitivas.  
 - Se asume que los usuarios desean mejorar sus hábitos alimenticios pero carecen de herramientas eficientes.  
-- Se asume que los profesionales de la salud necesitan datos confiables para brindar recomendaciones adecuadas.  
-- Se asume que los profesionales valoran herramientas que optimicen su tiempo y mejoren el seguimiento de pacientes.  
+- Se asume que los profesionales de la salud están dispuestos a aportar conocimiento experto para mejorar sistemas automatizados de recomendación.
 - Se asume que los usuarios prefieren soluciones que reduzcan el esfuerzo requerido para el monitoreo nutricional.  
 
 ##### 1.2.2.3. Lean UX Hypothesis Statements.
@@ -354,9 +387,9 @@ Creemos que los usuarios podrán tomar mejores decisiones sobre su alimentación
 
 Sabremos que esto es cierto cuando más del 60% de los usuarios indique que comprende mejor su alimentación y realiza cambios en sus hábitos.
 
-Creemos que los profesionales de la salud podrán mejorar la calidad de sus recomendaciones si cuentan con datos más precisos y actualizados sobre la ingesta nutricional de sus pacientes, lo que permitirá un seguimiento más efectivo.
+Creemos que las recomendaciones nutricionales generadas por el sistema serán más precisas y confiables si son entrenadas y validadas con conocimiento experto de nutricionistas.
 
-Sabremos que esto es cierto cuando al menos el 70% de los profesionales indique que la herramienta mejora su capacidad de análisis y toma de decisiones.
+Sabremos que esto es cierto cuando al menos el 65% de los usuarios perciba las recomendaciones como útiles y confiables y se observe una mayor adherencia a las sugerencias nutricionales.
 
 Creemos que los usuarios adoptarán la solución si esta ofrece una experiencia simple, rápida y accesible desde dispositivos móviles, lo que permitirá su uso continuo.
 
@@ -364,7 +397,7 @@ Sabremos que esto es cierto cuando la tasa de retención supere el 60% después 
 ##### 1.2.2.4. Lean UX Canvas.
 
 <p align="center">
-    <img src="assets/recursos/Lean UX Canvas-IoT.png" alt="Lean-UX-Canvas" width="400px"/>
+    <img src="assets/recursos/Lean UX Canvas-IoT (1).png" alt="Lean-UX-Canvas" width="400px"/>
 </p>
 
 Link: https://canva.link/55j2m2akga2iwr8
@@ -392,14 +425,14 @@ En el Perú, el acceso a tecnologías digitales ha crecido de manera significati
 
 | Aspectos demográficos | Aspectos geográficos | Aspectos psicográficos |
 |----------------------|--------------------|------------------------|
-| Sexo: Masculino y Femenino | Nacionalidad: Peruana | Motivaciones: Mejorar la calidad de atención y seguimiento de sus pacientes |
-| Edades: 25 – 60 años | Ubicación: Zonas urbanas con presencia de clínicas y consultorios (Lima, Arequipa, Trujillo) | Estilo de vida: Profesional orientado al servicio y bienestar de terceros |
-| Nivel socioeconómico: B y C | Acceso a tecnología: Alto acceso a herramientas digitales e internet | Preocupaciones: Falta de datos confiables y herramientas eficientes para el monitoreo de pacientes |
-| Ocupación: Nutricionistas, médicos generales, entrenadores, profesionales de salud | | Adaptación a la tecnología: Media-alta, con interés en herramientas que optimicen su trabajo |
-| Educación: Formación técnica o universitaria en salud o bienestar | | Interés por la personalización: Alto interés en soluciones que permitan seguimiento individualizado |
+| Sexo: Masculino y Femenino | Nacionalidad: Peruana | Motivaciones: Mejorar la calidad de las recomendaciones nutricionales mediante el uso de herramientas tecnológicas, contribuir con conocimiento experto al entrenamiento de sistemas inteligentes y apoyar la generación de recomendaciones basadas en evidencia|
+| Edades: 25 – 60 años | Ubicación: Zonas urbanas con presencia de clínicas y consultorios (Lima, Arequipa, Trujillo) | Estilo de vida: Profesional orientado al servicio, bienestar de terceros y generación de conocimiento en salud |
+| Nivel socioeconómico: B y C | Acceso a tecnología: Alto acceso a herramientas digitales e internet | Preocupaciones: Limitada participación en el desarrollo de soluciones tecnológicas que integren conocimiento nutricional validado y falta de herramientas que permitan transferir su expertise a sistemas digitales |
+| Ocupación: Nutricionistas, profesionales de salud | | Adaptación a la tecnología: Media-alta, con interés en herramientas que potencien el impacto de su conocimiento |
+| Educación: Formación técnica o universitaria en salud o bienestar | | Interés por la personalización: Alto interés en soluciones que permitan generar recomendaciones nutricionales más precisas y basadas en evidencia |
 
 **Sustento:**  
-El sector salud en el Perú viene experimentando un proceso de digitalización progresiva, impulsado por la necesidad de mejorar la eficiencia en la atención y el seguimiento de pacientes. En este contexto, los profesionales de la salud muestran una creciente apertura hacia el uso de herramientas tecnológicas que les permitan optimizar su práctica, especialmente en entornos urbanos con mayor acceso a infraestructura digital (INEI, 2023; OMS, 2025).
+El sector salud en el Perú viene experimentando un proceso de digitalización progresiva, impulsado por la necesidad de integrar conocimiento especializado en soluciones tecnológicas que mejoren la calidad de los servicios de salud. En este contexto, los profesionales de la salud muestran una creciente apertura hacia el uso de herramientas digitales que permitan trasladar su expertise a sistemas automatizados, contribuyendo al desarrollo de soluciones basadas en datos y evidencia (INEI, 2023; OMS, 2025).
 
 
 
@@ -455,7 +488,130 @@ La sección abarca el proceso de investigación de nuestros segmentos objetivos 
 
 #### 2.2.1. Diseño de entrevistas.
 
+### Segmento Objetivo #1: Usuarios finales (Enfoque en bienestar y nutrición)
+##### *Preguntas dirigidas a personas que buscan mejorar sus hábitos alimenticios, deportistas o quienes necesitan controlar su ingesta por salud.*
+
+**Características demográficas:**
+
+1. ¿Cuál es tu edad?
+
+2. ¿En qué ciudad resides actualmente?
+
+3. ¿Sigues actualmente algún plan nutricional específico o utilizas alguna herramienta de salud?
+
+**Preguntas Principales:**
+
+1. ¿Qué sueles hacer actualmente para llevar un control de lo que comes en el día?
+
+2. ¿Has intentado usar aplicaciones para contar calorías o macros antes? Si es así, ¿qué fue lo que más te costó o por qué dejaste de usarlas?
+
+3. ¿Cómo manejas el registro de tus comidas cuando comes fuera de casa o estás en un día muy ajetreado?
+
+4. ¿Qué tan preciso crees que es tu registro actual cuando lo haces de manera manual o por estimación?
+
+5. ¿Sientes que el tiempo que inviertes en registrar tus alimentos interfiere con tu disfrute de la comida o tu rutina diaria?
+
+6. 6. ¿Qué tan cómodo/a te sentirías si el registro de tu alimentación se realizara automáticamente mediante dispositivos inteligentes?
+
+**Preguntas sobre el Proyecto (JF Technologies):**
+
+1. ¿Qué te parecería una solución que registre tu ingesta nutricional de forma automática mediante dispositivos inteligentes, reduciendo la necesidad de ingresar datos manualmente?
+
+2. ¿Qué información considerarías indispensable ver en tu pantalla principal? (ej. calorías restantes, alertas de nutrientes, hidratación, progreso semanal).
+
+3. ¿Considerarías útil que estos datos se compartan automáticamente con tu nutricionista o entrenador para que él/ella ajuste tu plan en tiempo real?
+
+4. Si la aplicación te diera recomendaciones personalizadas basadas en inteligencia artificial, ¿qué nivel de confianza te generaría?
+
+5. ¿Estarías dispuesto/a a pagar una suscripción mensual si la herramienta te ahorra el 80% del tiempo que hoy dedicas a registrar tu alimentación?
+<br>
+
+### Segmento Objetivo #2: Profesionales de la Salud (Nutricionistas y Entrenadores)
+
+##### *Preguntas dirigidas a especialistas que requieren datos confiables de sus pacientes/clientes.*
+
+**Características demográficas:**
+
+1. ¿Cuál es tu especialidad y cuántos años de experiencia tienes?
+
+2. ¿En qué entorno trabajas principalmente (consulta privada, clínica, remoto)?
+
+3. ¿Cuántos pacientes o clientes manejas activamente al mes?
+
+**Preguntas Principales:**
+
+1. ¿Cómo verificas actualmente que tus pacientes están cumpliendo con el plan nutricional que les asignaste?
+
+2. ¿Qué tan confiables consideras que son los reportes manuales que te entregan tus pacientes (diarios de comida, excels, mensajes)?
+
+3. ¿Cuál es el mayor obstáculo que enfrentas al intentar ajustar un plan nutricional entre una cita y la siguiente?
+
+4. ¿Has detectado casos donde el paciente abandona el tratamiento debido a la dificultad de registrar sus hábitos?
+
+5. ¿Qué tipo de datos biométricos o nutricionales te gustaría tener "en vivo" para tomar mejores decisiones clínicas?
+
+6. ¿Qué herramientas digitales utilizas hoy para gestionar a tus pacientes y qué les falta para ser ideales?
+
+**Preguntas sobre el Proyecto (JF Technologies):**
+
+1. ¿Qué opinas de contar con un dashboard profesional que te muestre el comportamiento real de ingesta de tus pacientes sin que ellos tengan que llenar formularios tediosos?
+
+2. ¿Qué funcionalidades serían más valiosas para tu práctica? (ej. alertas de consumo excesivo de ciertos nutrientes, gráficos de adherencia semanal, exportación de reportes para historia clínica).
+
+3. ¿Cómo cambiaría tu forma de trabajar si pudieras ver fotos reales de lo que come tu paciente validadas por una IA nutricional?
+
+4. Respecto a la seguridad de la información: ¿Qué requisitos mínimos de privacidad de datos exigirías para vincular a tus pacientes a una plataforma así?
+
+5. ¿Estarías dispuesto/a a recomendar o incluir el costo de esta herramienta como parte de tus servicios profesionales?
+
 #### 2.2.2. Registro de entrevistas.
+
+### Segmento 1: 
+|Entrevistado 1 |  |
+| :------------- | :------------------------------------------------------------ |
+| Edad | 23 años |
+| Distrito/Ciudad | San Miguel, Lima |
+| Imagen | <p align="center"><img src="./assets/entrevistas/Entrevista1.png" width="200"/></p> |
+| Resumen | Giorgio Awad Vargas es un joven de 23 años residente en Lima que no sigue un plan nutricional ni utiliza actualmente herramientas de control, aunque intenta mantener una alimentación saludable. Ha usado aplicaciones de conteo de calorías, pero las abandonó por la incomodidad del registro manual y la falta de constancia, evidenciando preferencia por soluciones rápidas y automatizadas.<br><br>Su estilo de vida implica comer frecuentemente fuera de casa, lo que dificulta el seguimiento y reduce la precisión de su control. A nivel conductual, prioriza la practicidad y muestra baja tolerancia a procesos repetitivos, aunque reconoce la importancia de cuidar su alimentación.<br><br>En cuanto a tecnología, está familiarizado con apps móviles y muestra alta apertura a soluciones innovadoras como el registro automático mediante dispositivos inteligentes. Valora funcionalidades como alertas, notificaciones y visualización de progreso. Además, estaría dispuesto a compartir datos con una IA entrenada por nutricionistas y confía moderadamente en recomendaciones basadas en inteligencia artificial.<br><br>En síntesis, es un usuario interesado en mejorar sus hábitos, pero que requiere herramientas simples, automáticas y adaptadas a su rutina diaria. |
+| Duración | 00:00 – 05:16 min |
+
+| Entrevistado 2 |  |
+| :---- | :---- |
+| Edad | 20 años |
+| Distrito/Ciudad | San Miguel, Lima |
+| Imagen | <p align="center"><img src="./assets/entrevistas/Entrevista2.png" width="200"/></p> |
+| Resumen | Loreley Sarmiento Medina, de 20 años, es una joven que actualmente no sigue un plan nutricional estructurado ni mantiene un registro constante de su alimentación. Aunque anteriormente utilizó aplicaciones similares, dejó de usarlas debido a la falta de precisión en los datos y lo genérico de las estimaciones, lo cual le generaba frustración.<br><br>Uno de los principales problemas que enfrenta es la falta de constancia, especialmente en días ocupados o cuando come fuera de casa, lo que ocasiona que olvide registrar su consumo. <br><br>En cuanto a soluciones tecnológicas, muestra interés por herramientas automatizadas que utilicen sensores o telemetría para registrar datos sin intervención manual, siempre que sean accesibles económicamente. También valora funciones como visualización de progreso y alertas, las cuales podrían ayudarle a mantener la constancia.<br><br>Finalmente, presenta una actitud positiva hacia el uso de inteligencia artificial, siempre que esté respaldada por profesionales. Estaría dispuesta a compartir sus datos con nutricionistas y considerar un pago por el servicio, pero solo después de probar su efectividad de la aplicación previamente. |
+| Duración | 00:00 – 05:35 min |
+
+| Entrevistado 3 |   |
+| :---- | :---- |
+| Edad |  años |
+| Distrito/Ciudad |  |
+|   |  |
+| Timing: : – : min | [Entrevista 3 JF Technologies.mp4] |
+
+
+### Segmento 2: 
+| Entrevistado 4 |  |
+| :---- | :---- |
+| Edad |  años |
+| Distrito/Ciudad |  |
+| |   |
+| Timing: : – : min | [Entrevista 4 JF Technologies.mp4] |
+
+| Entrevistado 5 |  |
+| :---- | :---- |
+| Edad |  años |
+| Distrito/Ciudad |  |
+| |  |
+| Timing: : – : min | [Entrevista 5 JF Technologies.mp4] |
+
+| Entrevistado 6 |  |
+| :---- | :---- |
+| Edad |  años |
+| Distrito/Ciudad |  |
+|  |  |
+| Timing:: – : min | [Entrevista 6 JF Technologies.mp4] |
 
 #### 2.2.3. Análisis de entrevistas.
 
@@ -883,7 +1039,6 @@ natural de los procesos y cómo se relacionan entre sí.
 
 ---
 
-1. Bounded Context: Inicio y Registro de Sesión 
 
 Este flujo de eventos permite a los usuarios registrarse completando un formulario con sus
 datos personales y preferencias nutricionales, o iniciar sesión si ya tienen cuenta. También
@@ -894,7 +1049,6 @@ recuperar el acceso mediante el envío de un correo si la cuenta no existe.
 
 ---
 
-2. Bounded Context: Perfil de Usuario
 
 Este flujo de eventos permite al usuario visualizar toda su información personal y, si lo desea,
 habilitar la edición de datos sensibles como correo y contraseña. Para ello, primero debe
@@ -905,7 +1059,6 @@ un mensaje de confirmación que asegura que la actualización fue exitosa y segu
 
 ---
 
-3. Bounded Context: Gestión de Objetivos
 
 Este flujo de eventos está diseñado para permitir al usuario establecer y actualizar sus
 objetivos de salud. El usuario puede acceder a opciones para modificar su objetivo, peso,
@@ -919,7 +1072,6 @@ de retroalimentación claro.
 
 ---
 
-4. Bounded Context: Rutina Alimentaria
 
 Este flujo de eventos describe cómo el sistema gestiona la rutina alimentaria del usuario de manera completamente automática mediante dispositivos IoT, como la balanza y el bebedero inteligente. A partir de la captura de datos en tiempo real, el sistema registra el peso del alimento consumido y detecta automáticamente el tipo de alimento.
 
@@ -932,7 +1084,6 @@ Finalmente, el usuario puede visualizar su rutina alimentaria actualizada junto 
 
 ---
 
-5. Bounded Context: IA Nutricional
 
 Este flujo de eventos detalla el proceso de análisis inteligente de datos, donde la información nutricional cargada por el especialista es procesada por una IA para generar resúmenes automáticos y visualizaciones enriquecidas mediante gráficos avanzados. El sistema facilita la comunicación directa al enviar reportes detallados al paciente y mantener un historial de análisis actualizado, cerrando el ciclo con un reentrenamiento continuo del modelo basado en la nueva información recopilada para optimizar la precisión de futuras evaluaciones.
 
@@ -940,7 +1091,6 @@ Este flujo de eventos detalla el proceso de análisis inteligente de datos, dond
 
 ---
 
-6. Bounded Context: Gestión de Planes Alimenticios 
 
 Este flujo de eventos está diseñado para guiar al profesional de nutrición en la creación,
 categorización, asignación y publicación de planes alimenticios, de manera ordenada y
@@ -951,7 +1101,6 @@ eficiente.
 
 ---
 
-7. Bounded Context: Comunicación y Seguimiento
 
 Este flujo de eventos está diseñado para facilitar al nutricionista la visualización, incorporación y seguimiento de pacientes, asegurando una experiencia clara, ordenada y centrada en la interacción profesional. Cada paso permite mantener una comunicación efectiva y un control preciso del progreso nutricional.
 
@@ -959,7 +1108,6 @@ Este flujo de eventos está diseñado para facilitar al nutricionista la visuali
 
 ---
 
-8. Bounded Context: Pagos
 
 Este flujo de eventos describe el proceso integral de gestión de suscripciones y pagos, permitiendo a los usuarios seleccionar planes, procesar transacciones de manera segura y recibir confirmaciones automáticas sobre la activación o renovación de su servicio. El sistema integra un control detallado de estados que abarca desde la validación exitosa del pago hasta la gestión de errores y solicitudes de cancelación, garantizando que el usuario mantenga siempre visibilidad sobre su historial financiero y el estado actual de su membresía dentro de la plataforma.
 
@@ -968,36 +1116,27 @@ Este flujo de eventos describe el proceso integral de gestión de suscripciones 
 
 #### **Pivotal Points**
 
-1
 
 ![alt text](assets/TB1/P1.png)
 
-2
 
 ![alt text](assets/TB1/P2.png)
 
-3
 
 ![alt text](assets/TB1/P3.png)
 
-4
 
 ![alt text](assets/TB1/P5.jpg)
 
-5
 
 ![alt text](assets/TB1/I2.png)
 
-6
 
 ![alt text](assets/TB1/P6.png)
 
 
-7
-
 ![alt text](assets/TB1/IA.png)
 
-8
 
 ![alt text](assets/TB1/I1.png)
 
@@ -1011,7 +1150,6 @@ definidos previamente. A continuación, se presentan los comandos relevantes par
 dominio.
 
 ---
-1. Bounded Context: Inicio y Registro de Sesión
 
 El diagrama muestra un sistema que guía al usuario en tres procesos: registro de cuenta con
 definición de objetivos nutricionales, inicio de sesión con verificación de credenciales y
@@ -1022,7 +1160,6 @@ correo para restablecerla.
 
 ---
 
-2. Bounded Context: Perfil de Usuario
 
 El diagrama muestra el flujo donde el usuario, al acceder a su ícono, puede editar su perfil
 —visualizando y modificando correo y contraseña con confirmación de cambios— o cerrar
@@ -1032,7 +1169,6 @@ sesión, siendo redirigido al menú de inicio de sesión.
 
 ---
 
-3. Bounded Context: Gestión de Objetivos 
 
 El diagrama muestra cómo el usuario, desde su menú de objetivos, puede configurar su peso
 y calorías o ajustar su tipo de dieta y macros, recibiendo en ambos casos una confirmación al
@@ -1043,7 +1179,6 @@ guardar los cambios.
 
 ---
 
-4. Bounded Context: Rutina Alimentaria 
 
 El diagrama muestra cómo el sistema registra automáticamente los alimentos consumidos por el usuario mediante la interacción con un dispositivo IoT, el cual captura datos como el peso del alimento y los envía para su procesamiento. A partir de esta información, el sistema identifica el tipo de alimento y genera eventos como alimento detectado y peso registrado.
 
@@ -1054,7 +1189,6 @@ El flujo contempla el cálculo automático de la información nutricional, inclu
 
 ---
 
-5. Bounded Context: IA Nutricional 
 
 Este diagrama de flujo detalla el proceso mediante el cual un nutricionista gestiona el análisis de datos de sus pacientes, comenzando con la selección del usuario y la carga de su archivo nutricional para ser procesado por una IA especializada. El sistema guía al profesional a través de la solicitud de análisis y visualización de resultados, permitiendo generar resúmenes automáticos y gráficos enriquecidos que facilitan la interpretación de las métricas. Finalmente, el flujo concluye con el envío del reporte nutricional directamente al paciente y la actualización automática del historial de análisis, asegurando un seguimiento clínico organizado, eficiente y basado en datos precisos.
 
@@ -1063,7 +1197,6 @@ Este diagrama de flujo detalla el proceso mediante el cual un nutricionista gest
 
 ---
 
-6. Bounded Context: Gestión de Planes Alimenticios 
 
 El diagrama muestra cómo el nutricionista, desde su panel de gestión, puede crear nuevos
 planes alimenticios, organizarlos por categorías, asignarlos a usuarios y publicarlos, todo
@@ -1076,7 +1209,6 @@ aseguran una experiencia profesional eficiente.
 
 ---
 
-7. Bounded Context: Comunicación y Seguimiento
 
 El diagrama muestra cómo el nutricionista puede gestionar su relación con los pacientes, accediendo a información clave, comunicándose directamente y agregando nuevos usuarios a su lista. El flujo contempla tanto la interacción con pacientes ya asignados como el proceso de incorporación de nuevos, con confirmaciones inmediatas que refuerzan la experiencia profesional.
 
@@ -1084,7 +1216,6 @@ El diagrama muestra cómo el nutricionista puede gestionar su relación con los 
 
 ---
 
-8. Bounded Context: Pagos
 
 Este diagrama detalla el flujo de suscripción y gestión de pagos, el cual comienza cuando el usuario explora los planes disponibles y selecciona un método de pago para iniciar la validación de la transacción. El sistema gestiona de manera lógica dos vertientes: el éxito del pago, que deriva en la activación o renovación de la membresía y el envío de confirmaciones; y el escenario de pago fallido, que ofrece al usuario opciones inmediatas para reintentar la operación o cambiar el método de pago. Finalmente, el proceso asegura la integridad de la cuenta al actualizar el historial de pagos y permitir la gestión del ciclo de vida de la suscripción, incluyendo la solicitud de cancelación cuando sea necesario.
 
@@ -1119,7 +1250,7 @@ contexto evolucione de forma desacoplada y con responsabilidades bien definidas.
 
 #### **Bounded Context: Gestión de Planes Alimenticios**
 
-![alt text](assets/TB1/BO7.png)
+![alt text](assets/TB1/IOT.jpg)
 
 #### **Bounded Context: Comunicación y Seguimiento**
 
@@ -1527,44 +1658,96 @@ Este diagrama proporciona una visión general del sistema, mostrando cómo Jameo
 
 ##### 4.1.3.2. Software Architecture Container Level Diagrams.
 
-El Diagrama de Contenedores de JameoFit App muestra la descomposición del sistema en sus principales contenedores de software, así como la interacción entre estos, los actores del sistema y los servicios externos.
+El Diagrama de Contenedores de JameoFit App muestra la descomposición del sistema en múltiples contenedores de software distribuidos, siguiendo una arquitectura de microservicios. Este diagrama permite visualizar la interacción entre los actores, las aplicaciones cliente, los servicios backend y los sistemas externos.
 
 En este nivel, se identifican:
 
-● Landing Page: Portal web que permite el acceso al sistema, registro, autenticación y gestión de suscripciones por parte de los usuarios y nutricionistas.
+● Landing Page: Portal web orientado a marketing y acceso inicial, que permite el registro y redirección hacia la aplicación principal.
 
-● Mobile Application: Aplicación móvil que permite al usuario visualizar su rutina alimentaria, métricas nutricionales y recibir notificaciones en tiempo real.
+● Web Application: Aplicación web para usuarios autenticados (pacientes, nutricionistas y administradores), desde donde se gestionan perfiles, planes, seguimiento y métricas.
 
-● JameoFit Core: Backend central desarrollado en Spring Boot que procesa la lógica de negocio, gestiona APIs, integra procesamiento inteligente (IA) y orquesta la comunicación entre los diferentes componentes del sistema.
+● Mobile Application: Aplicación móvil que permite registrar la rutina alimentaria, visualizar métricas nutricionales y recibir notificaciones en tiempo real.
 
-● Database: Almacena información de usuarios, pacientes, métricas nutricionales, rutinas alimentarias y planes.
+● API Gateway: Punto de entrada único que enruta las solicitudes hacia los diferentes microservicios y valida los tokens de autenticación.
 
-● Módulos internos del backend:  
-○ Módulo de Seguimiento: Procesa métricas nutricionales y datos en tiempo real.  
-○ Módulo de Planes y Dietas: Gestiona la creación y asignación de planes personalizados.  
-○ Módulo de Usuarios: Administra autenticación, perfiles y roles.  
-○ Módulo de Logros: Gestiona metas, progreso e incentivos del usuario.  
+● Microservicios backend:
 
-● Sistemas externos:  
-○ Dispositivo IoT: Captura datos físicos del usuario y los envía al sistema en tiempo real.  
-○ Stripe API: Gestiona pagos, suscripciones y facturación.  
-○ Servicio de Notificaciones: Envía alertas y recordatorios en tiempo real.  
-○ Bases de Datos Nutricionales: Proveen información externa para validar y enriquecer los datos alimentarios.  
+User Service: Gestiona la autenticación (IAM), perfiles y roles de usuario.
 
-Este diagrama proporciona una visión técnica detallada del sistema, mostrando cómo los diferentes contenedores, dispositivos y servicios externos colaboran para cumplir los objetivos funcionales y no funcionales de la aplicación, destacando la integración con IoT y el procesamiento automatizado de información.
+Goal Service: Administra los objetivos nutricionales del usuario, como peso, calorías y macronutrientes.
+
+Meal Plan Service: Permite la creación y gestión de planes alimenticios personalizados.
+
+Tracking Service: Registra el consumo diario de alimentos, agua y métricas en tiempo real.
+
+AI Nutrition Service: Procesa datos, archivos y métricas para generar análisis e insights automatizados.
+
+Communication Service: Gestiona la comunicación entre pacientes y nutricionistas, así como el seguimiento del progreso.
+
+Payment Service: Administra suscripciones, pagos y acceso a funcionalidades premium.
+
+● Bases de datos:
+Cada microservicio cuenta con su propia base de datos, garantizando independencia, bajo acoplamiento y escalabilidad del sistema.
+
+● Sistemas externos:
+
+Dispositivo IoT: Captura datos físicos del usuario y los envía al Tracking Service.
+
+Stripe API: Gestiona pagos, suscripciones y facturación.
+
+Servicio de Notificaciones: Envía alertas y recordatorios en tiempo real.
+
+Bases de Datos Nutricionales: Proveen información externa para enriquecer el análisis nutricional.
+
+Este diagrama proporciona una visión técnica del sistema basada en microservicios, destacando la separación de responsabilidades, la escalabilidad y la integración con servicios externos e inteligencia artificial para el procesamiento avanzado de información.
+
+![Texto alternativo](assets/TB1/CONTA12.png)
 
 
 ##### 4.1.3.3. Software Architecture Deployment Diagrams.
 
-Los Deployment Diagrams (diagramas de despliegue) forman parte de la arquitectura de
-software y son esenciales para representar cómo los componentes del sistema se distribuyen
-físicamente en el entorno de ejecución. Estos diagramas muestran la disposición de hardware
-(nodos) y la manera en que los artefactos de software se instalan en ellos, permitiendo
-visualizar la infraestructura que soporta la aplicación. Su propósito principal es ilustrar la
-relación entre el software y el hardware, detallando aspectos como servidores, dispositivos de
-red, bases de datos, y cómo interactúan entre sí.
+El Deployment Diagram de JameoFit App representa la distribución física de los componentes del sistema dentro de una infraestructura cloud, mostrando cómo los diferentes contenedores de software se despliegan, comunican y escalan en un entorno distribuido.
 
+En este nivel, se identifican los siguientes elementos:
 
+● Clientes:
+Incluyen el navegador web y la aplicación móvil, desde donde los usuarios (pacientes, nutricionistas y administradores) interactúan con el sistema mediante solicitudes seguras a través de HTTPS.
+
+● Infraestructura Cloud:
+El sistema se despliega en un entorno cloud (AWS, Azure o GCP), utilizando contenedores Docker para garantizar portabilidad, escalabilidad y aislamiento de los servicios.
+
+● API Gateway:
+Actúa como punto de entrada único al sistema, gestionando el enrutamiento de solicitudes hacia los microservicios correspondientes y validando los tokens de autenticación.
+
+● Microservicios Backend:
+Cada funcionalidad principal del sistema se implementa como un microservicio independiente:
+
+User Service: Gestiona autenticación, perfiles y roles.
+
+Goal Service: Administra los objetivos nutricionales del usuario.
+
+Meal Plan Service: Gestiona los planes alimenticios personalizados.
+
+Tracking Service: Registra el consumo diario y métricas en tiempo real.
+
+Communication Service: Permite la interacción entre pacientes y nutricionistas.
+
+Payment Service: Maneja suscripciones y pagos.
+
+AI Nutrition Service: Procesa datos y genera análisis automatizados.
+
+● Bases de Datos:
+Cada microservicio cuenta con su propia base de datos, siguiendo el principio de “database per service”, lo que permite mantener independencia, reducir el acoplamiento y mejorar la escalabilidad del sistema.
+
+● Sistemas Externos:
+El sistema se integra con diversos servicios externos:
+
+Stripe API para la gestión de pagos.
+Dispositivo IoT (ESP32) para la captura de datos físicos.
+Servicio de Notificaciones para el envío de alertas en tiempo real.
+Bases de Datos Nutricionales para enriquecer el análisis de alimentos.
+
+![Texto alternativo](assets/TB1/DEPLO1.png)
 
 ### 4.2. Tactical-Level Domain-Driven Design
 
