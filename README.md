@@ -2394,6 +2394,295 @@ La estrategia de modelado para el contexto de Pagos se centra en la Trazabilidad
 
 ![Database Diagram](./assets/TB1/bc8_database_diagram.png)
 
+## Capítulo VI: Product Implementation & Validation
+
+### 6.1. Software Configuration Management
+
+#### 6.1.1. Software Development Environment Configuration
+
+**Android Studio:** Entorno de desarrollo integrado (IDE) oficial para aplicaciones Android, que ofrece herramientas para programar, depurar y probar de forma eficiente.
+
+![alt text](assets/TP/SD1.png)
+
+**WebStorm:** Entorno de desarrollo integrado (IDE) especializado en desarrollo web moderno, que ofrece herramientas avanzadas para trabajar con frameworks como Vue, facilitando la escritura, depuración y mantenimiento del código frontend.
+
+![alt text](assets/TP/SD10.png)
+
+**Vue.js:** Framework progresivo de JavaScript utilizado para construir interfaces de usuario dinámicas y reactivas, ideal para el desarrollo del frontend de aplicaciones web modernas.
+
+![alt text](assets/TP/SD9.png)
+
+
+**GitHub:** Plataforma de control de versiones y colaboración en la nube, ideal para gestionar repositorios y trabajar en equipo mediante Git.
+
+![alt text](assets/TP/SD2.png)
+
+**GitHub Pages:** Servicio de hosting estático que permite desplegar fácilmente sitios web directamente desde un repositorio, como por ejemplo una Landing Page.
+
+![alt text](assets/TP/SD3.png)
+
+**Vertabelo:** Plataforma en línea para el diseño y modelado colaborativo de bases de datos, con soporte para distintos motores de bases de datos.
+
+![alt text](assets/TP/SD4.png)
+
+**Visual Studio Code:** Editor de código ligero y multiplataforma, ampliamente usado para programación y tareas de desarrollo, incluyendo soporte para diseño y gestión de bases de datos mediante extensiones.
+
+![alt text](assets/TP/SD5.png)
+
+**Figma:** Herramienta de diseño colaborativo en línea que facilita la creación de wireframes, mockups y prototipos interactivos.
+
+![alt text](assets/TP/SD6.png)
+
+**Structurizr:** Herramienta para la creación y visualización de diagramas de arquitectura de software basados en el modelo C4, que facilita documentar sistemas de manera clara y estructurada.
+
+![alt text](assets/TP/SD7.png)
+
+**AWS (Amazon Web Services):** Plataforma en la nube de Amazon que permite desplegar, administrar y escalar aplicaciones de manera segura, flexible y altamente disponible.
+
+![alt text](assets/TP/SD8.png)
+
+#### 6.1.2. Source Code Management
+
+**Implementación de GitFlow:**
+
+Para nuestra estrategia de gestión de versiones con Git, nos hemos inspirado en el artículo "A successful Git branching model" de Vincent Driessen, adoptando el modelo de ramificación GitFlow. Este enfoque nos permite establecer claramente las convenciones de ramificación que aplicamos en nuestro proyecto.
+
+![alt text](assets/TP/S1.png)
+
+- Rama Principal (Main branch): Contiene el código en producción y se conoce como la Master branch o Main branch.
+
+  - Notación: main 
+
+- Rama de Desarrollo (Develop branch): Acumula las últimas actualizaciones y cambios para la próxima versión. Funciona como un entorno de integración y prueba continua. 
+
+  - Notación: develop
+
+- Rama de Lanzamiento (Release branch): Facilita la preparación de una nueva versión del producto, permitiendo correcciones de errores y recibiendo más actualizaciones de Develop. 
+
+  - Debe derivarse de: develop
+  - Debe fusionarse con: develop y master/main
+  - Notación: release
+
+- Rama de Características (Feature branch): Se utiliza para desarrollar nuevas funcionalidades para la siguiente versión o futuras iteraciones.
+
+  - Debe derivarse de: develop
+  - Debe fusionarse de vuelta a: develop
+  - Notación: feature
+
+- Rama de Corrección Rápida (Hotfix branch): Aborda errores críticos en producción, permitiendo la implementación rápida de soluciones.
+  - Debe derivarse de: master/main
+  - Debe fusionarse con: develop y master/main
+  - Notación: hotfix
+
+**Conventional Commits:** Adoptamos esta metodología para estructurar los mensajes de confirmación de cambios de manera estándar y semántica, lo que facilita la comunicación y la automatización de registros de cambios. 
+
+**Tipos de Commits Convencionales:**
+- feat: Nuevas características o funcionalidades. 
+- fix: Correcciones de errores. 
+- docs: Cambios o mejoras en la documentación. 
+- style: Cambios de formato que no afectan la funcionalidad.
+- refactor: Mejoras en la estructura o legibilidad del código. 
+- test: Adición o modificación de pruebas. 
+- chore: Cambios en el proceso de construcción o tareas de mantenimiento. 
+- perf: Mejoras de rendimiento en el código. 
+
+#### 6.1.3. Source Code Style Guide & Conventions
+
+**HTML**
+
+Lenguaje de marcado utilizado para estructurar el contenido de las páginas web. Su estilo busca claridad, semántica y consistencia para facilitar la lectura y el mantenimiento del código.
+
+| Regla | Ejemplo / Explicación |
+|------|----------------------|
+| Etiquetas y atributos en minúsculas | `<div class="container">`, `<img src="logo.png" alt="Logo">` |
+| Atributos ordenados lógicamente | class, id, name, type, value, etc |
+| Uso de comillas dobles | `<input type="text" name="username">` |
+| Indentación consistente (2 o 4 espacios) | No mezclar espacios con tabs |
+
+**CSS**
+
+Lenguaje de hojas de estilo que define la presentación de los documentos HTML. Una convención clara en nombres, propiedades e indentación permite mantener estilos organizados y escalables.
+
+| Regla | Ejemplo / Explicación |
+|------|----------------------|
+| Nombres de clases en kebab-case | `.main-header`, `.user-profile-card` |
+| Propiedades en minúsculas y ordenadas | `color: #333; font-size: 16px; margin-top: 20px;` |
+| Uso de comentarios | `/* Sección de estilos para el header */` |
+| Indentación consistente | 2 o 4 espacios, no usar tabs |
+
+**JavaScript**
+
+Lenguaje de programación interpretado que agrega interactividad y lógica a las páginas web. El uso de convenciones consistentes mejora la legibilidad, evita errores y facilita la colaboración entre desarrolladores.
+
+| Regla | Ejemplo / Explicación |
+|------|----------------------|
+| Variables y funciones en camelCase | `let userName = "Juan";`, `function getUserData() {}` |
+| Clases en PascalCase | `class UserProfile {}` |
+| Constantes en UPPER_SNAKE_CASE | `const API_URL = "https://api.example.com";` |
+| Uso de const y let | Evitar `var`, usar `const` por defecto y `let` si se necesita mutabilidad |
+| Punto y coma al final de líneas | `let nombre = "Carlos";` |
+| Indentación consistente (2 o 4 espacios) | Mantener el mismo estilo en todo el proyecto |
+
+**React**
+
+Biblioteca de JavaScript para construir interfaces de usuario dinámicas y declarativas. Permite dividir la aplicación en componentes reutilizables y manejar de forma eficiente el estado y el ciclo de vida. Su estilo busca claridad, modularidad y consistencia en el desarrollo de frontend moderno.
+
+| Regla | Ejemplo / Explicación |
+|------|----------------------|
+| Componentes en PascalCase | `const NavBar = () => { ... }` |
+| Hooks y funciones en camelCase | `useTranslation()`, `handleClick()` |
+| Un solo componente por archivo | `NavBar.jsx` debe contener únicamente el componente NavBar |
+| Uso de JSX legible y sangrado correcto | `{ condition && <Component /> }` con indentación clara |
+| Archivos con extensión .jsx o .tsx | Indica explícitamente que el archivo contiene JSX |
+| Uso de fragmentos <> </> | Para evitar `<div>` innecesarios |
+
+
+**Kotlin**
+
+Lenguaje moderno, estático y conciso que corre sobre la JVM. Se usa principalmente para desarrollo Android y backend, fomentando la inmutabilidad y un código más legible y seguro.
+
+| Regla | Ejemplo / Explicación |
+|------|----------------------|
+| Variables y funciones en camelCase | `val userName = "Juan"`, `fun getUserData() {}` |
+| Clases en PascalCase | `class UserProfile`, `object AppConfig` |
+| Constantes en UPPER_SNAKE_CASE | `const val MAX_USERS = 100` |
+| Archivos nombrados igual que la clase | `UserProfile.kt` |
+| Indentación con 4 espacios | No usar tabs |
+| Uso de val por defecto, var si mutable | Promueve inmutabilidad |
+| Expresiones lambda con it | `users.filter { it.isActive }` |
+
+**Vue**
+
+Framework progresivo de JavaScript para construir interfaces de usuario reactivas y basadas en componentes. Permite organizar el frontend de manera modular, facilitando la reutilización de código y el mantenimiento.
+
+| Regla                                         | Ejemplo / Explicación                                  |
+| --------------------------------------------- | ------------------------------------------------------ |
+| Componentes en PascalCase                     | `UserCard.vue`, `NavBar.vue`                           |
+| Uso de estructura SFC (Single File Component) | `<template>`, `<script>`, `<style>` en un solo archivo |
+| Variables y métodos en camelCase              | `userName`, `getUserData()`                            |
+| Props declaradas explícitamente               | `props: { title: String }`                             |
+| Uso de v-bind y v-on abreviados               | `:src="image"`, `@click="handleClick"`                 |
+| Computed properties para lógica derivada      | `computed: { fullName() { ... } }`                     |
+| Indentación consistente                       | 2 o 4 espacios, sin mezclar tabs                       |
+
+#### 6.1.4. Software Deployment Configuration
+
+### Deployment Landing Page:
+
+En esta sección, detallamos el proceso de implementación de nuestra landing page en la plataforma de GitHub.
+
+1. Se crea un repositorio en GitHub para alojar el código de nuestra landing page.
+
+![alt text](assets/TP/G1.png)
+
+2. Agregamos a los participantes:
+
+![alt text](assets/TP/G2.png)
+
+3. Habilitamos Github Pages para poder importar nuestro proyecto:
+
+![alt text](assets/TP/G3.png)
+
+4. Finalmente, se confirma el despliegue de nuestra página web después de completar todo el procedimiento.
+
+![alt text](assets/TP/G4.png)
+
+Este proceso garantiza el despliegue satisfactorio de nuestra landing page en la plataforma de Github Pages, siguiendo las especificaciones y requisitos de nuestro proyecto.
+
+Enlace de la Landing Page: https://g2-aplicaciones-moviles.github.io/Landing-Page/
+
+---
+
+### Deployment Backend:
+
+En esta sección, se detalla el proceso de implementación del backend del proyecto Jameofit utilizando los servicios de Amazon Web Services (AWS).
+
+A continuación, se describen los principales componentes y configuraciones involucradas en el despliegue.
+
+1. **Entorno Elastic Beanstalk**
+
+La aplicación backend se despliega mediante AWS Elastic Beanstalk, un servicio que permite administrar automáticamente la infraestructura necesaria para ejecutar aplicaciones web. En la primera captura se observa el entorno Jameofit-backend-env, cuyo estado se encuentra Ok, indicando un despliegue exitoso y una aplicación corriendo correctamente sobre la plataforma Corretto 21 (Java 17) en Amazon Linux 2023.
+
+![alt text](assets/TP/G5.png)
+
+2. **Base de Datos RDS (PostgreSQL)**
+
+El servicio Amazon RDS (Relational Database Service) se utiliza para la gestión de la base de datos del backend. En la segunda captura se muestra la instancia jameofit-db, configurada con el motor PostgreSQL y actualmente en estado Disponible. La instancia pertenece a la clase db.t3.micro, optimizada para entornos de desarrollo o pruebas, y está desplegada en la región us-east-2a.
+
+![alt text](assets/TP/G6.png)
+
+3. **Usuario IAM para Integración Continua (GitHub Actions)**
+
+Para automatizar el despliegue del backend desde GitHub, se creó un usuario IAM denominado github-actions-jameofit. Este usuario cuenta con credenciales de acceso programático y permisos asignados para permitir la comunicación entre GitHub Actions y AWS Elastic Beanstalk. De esta manera, cada vez que se ejecuta un flujo de CI/CD, el código actualizado se publica automáticamente en el entorno de AWS.
+
+![alt text](assets/TP/G7.png)
+
+4. **Roles IAM Asociados a los Servicios**
+
+Finalmente, se observan los roles IAM configurados para los diferentes servicios de AWS involucrados en el despliegue, como Elastic Beanstalk, EC2, Auto Scaling y RDS. Estos roles son fundamentales para que los servicios puedan interactuar entre sí de forma segura y automatizada, garantizando una gestión adecuada de recursos y permisos.
+
+![alt text](assets/TP/G8.png)
+
+Enlace del backend: http://jameofit-backend-env.eba-fzj57hq8.us-east-2.elasticbeanstalk.com/swagger-ui/index.html
+
+### Deployment Frontend:
+
+En esta sección se detalla el proceso de despliegue del frontend del proyecto Jameofit, desarrollado con Vue.js, utilizando la plataforma Vercel para lograr una implementación rápida, automática y escalable.
+
+A continuación, se describen los pasos principales:
+
+1. Preparación del Proyecto
+
+Antes del despliegue, se verifica que el proyecto funcione correctamente en entorno local ejecutando:
+
+npm install  
+npm run dev  
+
+Asimismo, se valida que el proyecto esté configurado correctamente para producción mediante:
+
+npm run build  
+
+2. Subida del Proyecto a GitHub
+
+El código fuente del frontend se sube a un repositorio en GitHub, lo cual permitirá la integración continua con Vercel.
+
+3. Importación del Proyecto en Vercel
+
+Se accede a la plataforma Vercel  
+Se selecciona la opción “Add New Project”  
+Se importa el repositorio desde GitHub  
+Vercel detecta automáticamente que se trata de un proyecto con Vue  
+
+4. Configuración del Proyecto
+
+Vercel configura automáticamente:
+
+Framework: Vue  
+Build Command: npm run build  
+Output Directory: dist  
+
+En caso sea necesario, estos valores pueden ajustarse manualmente.
+
+5. Variables de Entorno
+
+Se configura la URL del backend desplegado en AWS:
+
+VITE_API_URL=http://jameofit-backend-env.eba-fzj57hq8.us-east-2.elasticbeanstalk.com  
+
+Esto permite que el frontend consuma correctamente los servicios backend.
+
+6. Despliegue Automático
+
+Una vez configurado:
+
+Vercel ejecuta automáticamente el build del proyecto  
+Genera una URL pública (ej: https://jameofit.vercel.app)  
+Cada cambio enviado a GitHub genera un nuevo despliegue automático (CI/CD)  
+
+7. Acceso a la Aplicación
+
+El frontend queda disponible a través de la URL proporcionada por Vercel, con alta disponibilidad y distribución global mediante CDN.
+
 ### 4.3 Referencias Bibliográficas
 
 Organización Mundial de la Salud. (2025). Noncommunicable diseases.  
