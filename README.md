@@ -240,6 +240,27 @@ En esta sección se presentan los analíticos de colaboración y los commits rea
         - [4.2.8.6. Bounded Context Software Architecture Code Level Diagrams.](#4286-bounded-context-software-architecture-code-level-diagrams)
             - [4.2.8.6.1. Bounded Context Domain Layer Class Diagrams.](#42861-bounded-context-domain-layer-class-diagrams)
             - [4.2.8.6.2. Bounded Context Database Design Diagram.](#42862-bounded-context-database-design-diagram)
+  - [5.1. Style Guidelines.](#51-style-guidelines)
+   - [5.1.1. General Style Guidelines.](#511-general-style-guidelines)
+   - [5.1.2.  Web, Mobile and IoT Style Guidelines.](#512-web-mobile-and-iot-style-guidelines)
+  - [5.2. Information Architecture.](#52-information-architecture)
+   - [5.2.1. Organization Systems.](#521-organization-systems)
+   - [5.2.2. Labelling Systems.](#522-labelling-systems)
+   - [5.2.3. SEO Tags and Meta Tags.](#523-seo-tags-and-meta-tags)
+   - [5.2.4. Searching Systems.](#524-searching-systems)
+   - [5.2.5. Navigation Systems.](#525-navigation-systems)
+  - [5.3. Landing Page UI Design.](#53-landing-page-ui-design)
+   - [5.3.1. Landing Page Wireframe.](#531-landing-page-wireframe)
+   - [5.3.2. Landing Page Mock-Up.](#532-landing-page-mock-up)
+  - [5.4. Applications UX/UI Design.](#54-applications-ux-ui-design)
+   - [5.4.1. Application Wireframes.](#541-application-wireframes)
+   - [5.4.2. Application Wireflow Diagrams.](#542-application-wireflow-diagrams)
+   - [5.4.3. Application Mock-Ups.](#543-application-mock-ups)
+  - [5.5. Application Prototyping.](#55-application-prototyping)
+  - [5.6. IoT Device Design.](#56-iot-device-design)
+
+
+  
 
 ## Student Outcome
 
@@ -2393,6 +2414,69 @@ El diagrama de clases del dominio para Pagos representa la estructura conceptual
 La estrategia de modelado para el contexto de Pagos se centra en la Trazabilidad de Acceso. Se mantiene una réplica local ligera del estado de Stripe (stripe_subscription_id) para evitar latencias de red en cada validación de permisos de IA/IoT. Se implementan índices sobre user_id y status para optimizar los procesos de verificación de "Entitlement" que realizan otros microservicios antes de permitir el procesamiento de datos de los sensores.
 
 ![Database Diagram](./assets/TB1/bc8_database_diagram.png)
+
+
+## Capítulo V: Solution UI/UX Design
+
+### 5.1. Style Guidelines
+
+#### 5.1.1. General Style Guidelines
+
+En esta seccion, hemos decidido establecer ciertas directrices del estilo las cuales pueden garantizar coherencia visual y de comunicación en las aplicaciones.
+Para lograr esto, vamos a detallar 4 puntos clave, relacionados al branding, tipografía, colores, spacing y el tono de comunicación. 
+
+**Branding**
+El logotipo de nuestra marca está representado por el nombre de nuestro producto ¨JameoFit¨ en una tipografía moderna y limpia. La palabra “Jameo” está en verde, transmitiendo vitalidad, salud y conexión con la naturaleza, mientras que “Fit” está en azul, simbolizando confianza, tecnología y bienestar. Con esta combinación buscamos reflejar el propoósito de la marca, el cual es promover un estilo de vida mas saludable y equilibrado, mediante el uso de herramientas digitales confiables y sencillas de usar.
+
+![Logotipo](./assets/TP/logotipo-jameofit.png)
+
+**Lenguaje Aplicado**
+Al combinar el verde, que es una representación de salud y vitalidad, con el azul, que simboliza confianza, reflejamos el compromiso que tiene JameoFit con un estilo de vida saludable y accesible. Representamos un lenguaje cercano, motivador y bastante inclusivo, diseñado para inspirar hábitos sostenibles y transmitir confianza.
+
+**Paleta de Colores**
+La paleta de colores de JameoFit transmite salud, energía y confianza. El verde principal (#10B34C) simboliza vitalidad y bienestar, mientras que el azul (#099FE1) comunica tecnología y profesionalismo. El blanco (#FFFFFF) aporta equilibrio y claridad, haciendo que el contenido sea fácil de leer, y el gris claro (#D1D5DB) se utiliza para dar suavidad y orden a secciones secundarias, manteniendo una experiencia visual limpia y agradable.
+
+![Paleta de Colores](./assets/TP/paleta-colores-jameofit.png)
+
+**Tipografía**
+Nuestra tipografía principal es Poppins, elegida por su estética moderna, limpia y su legibilidad. Su diseño aporta profesionalismo y frescura, destacando sobre todo los titulos y encabezados, mientras que sus pesos más livianos permiten una cómoda lectura en textos mas largo. 
+
+- Para titulos 
+
+![Titulos de texto](./assets/TP/formato-titulos-texto.png)
+
+- Para cuerpo de texto
+
+![Cuerpo de texto](./assets/TP/formato-cuerpo-texto.png)
+
+- Espaciado
+Nos basamos principalmente en las recomendaciones de especialistas en el diseño de interfaces. Las principales sugerencias son que las lineas de los parrafos sean 1.5 veces del tamaño de la letra para que así los textos resulten faciles de leer.
+
+![Espaciado](./assets/TP/formato-espaciado.png)
+
+
+
+
+#### 5.1.2. Web, Mobile and IoT Style Guidelines
+
+### 5.2. Information Architecture
+
+#### 5.2.1. Organization Systems
+
+#### 5.2.2. Labelling Systems
+
+#### 5.2.3. SEO Tags and Meta Tags
+
+#### 5.2.4. Searching Systems
+
+#### 5.2.5. Navigation Systems
+
+### 5.3. Landing Page UI Design
+
+#### 5.3.1. Landing Page Wireframe
+
+#### 5.3.2. Landing Page Mock-Up
+
 
 ## Capítulo VI: Product Implementation & Validation
 
