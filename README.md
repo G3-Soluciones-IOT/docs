@@ -241,23 +241,23 @@ En esta sección se presentan los analíticos de colaboración y los commits rea
             - [4.2.8.6.1. Bounded Context Domain Layer Class Diagrams.](#42861-bounded-context-domain-layer-class-diagrams)
             - [4.2.8.6.2. Bounded Context Database Design Diagram.](#42862-bounded-context-database-design-diagram)
   - [5.1. Style Guidelines.](#51-style-guidelines)
-   - [5.1.1. General Style Guidelines.](#511-general-style-guidelines)
-   - [5.1.2.  Web, Mobile and IoT Style Guidelines.](#512-web-mobile-and-iot-style-guidelines)
+    - [5.1.1. General Style Guidelines.](#511-general-style-guidelines)
+    - [5.1.2.  Web, Mobile and IoT Style Guidelines.](#512-web-mobile-and-iot-style-guidelines)
   - [5.2. Information Architecture.](#52-information-architecture)
-   - [5.2.1. Organization Systems.](#521-organization-systems)
-   - [5.2.2. Labelling Systems.](#522-labelling-systems)
-   - [5.2.3. SEO Tags and Meta Tags.](#523-seo-tags-and-meta-tags)
-   - [5.2.4. Searching Systems.](#524-searching-systems)
-   - [5.2.5. Navigation Systems.](#525-navigation-systems)
+    - [5.2.1. Organization Systems.](#521-organization-systems)
+    - [5.2.2. Labelling Systems.](#522-labelling-systems)
+    - [5.2.3. SEO Tags and Meta Tags.](#523-seo-tags-and-meta-tags)
+    - [5.2.4. Searching Systems.](#524-searching-systems)
+    - [5.2.5. Navigation Systems.](#525-navigation-systems)
   - [5.3. Landing Page UI Design.](#53-landing-page-ui-design)
-   - [5.3.1. Landing Page Wireframe.](#531-landing-page-wireframe)
-   - [5.3.2. Landing Page Mock-Up.](#532-landing-page-mock-up)
+    - [5.3.1. Landing Page Wireframe.](#531-landing-page-wireframe)
+    - [5.3.2. Landing Page Mock-Up.](#532-landing-page-mock-up)
   - [5.4. Applications UX/UI Design.](#54-applications-ux-ui-design)
-   - [5.4.1. Application Wireframes.](#541-application-wireframes)
-   - [5.4.2. Application Wireflow Diagrams.](#542-application-wireflow-diagrams)
-   - [5.4.3. Application Mock-Ups.](#543-application-mock-ups)
-  - [5.5. Application Prototyping.](#55-application-prototyping)
-  - [5.6. IoT Device Design.](#56-iot-device-design)
+    - [5.4.1. Application Wireframes.](#541-application-wireframes)
+    - [5.4.2. Application Wireflow Diagrams.](#542-application-wireflow-diagrams)
+    - [5.4.3. Application Mock-Ups.](#543-application-mock-ups)
+   - [5.5. Application Prototyping.](#55-application-prototyping)
+   - [5.6. IoT Device Design.](#56-iot-device-design)
 
 
   
@@ -2461,21 +2461,150 @@ Nos basamos principalmente en las recomendaciones de especialistas en el diseño
 
 ### 5.2. Information Architecture
 
+La arquitectura de información de JameoFit se prioriza una experiencia directa y guiada: el usuario llega a la Home con accesos rápidos (Editar preferencias, Ver progreso, Registrar comida) y tarjetas a módulos clave (Plan de comidas, Recordatorios, Sugerencias, Snack del día, Actividad reciente). Se refuerzan métricas semanales (calorías, proteínas, grasas) y estados de progreso con mensajes motivacionales e insignias.
+
+En la Landing, se comunica nuestra propuesta de valor (“Eat Well, Live Better / Smart nutrition…”) con CTA primario (“Start for free today”) y secciones de “How does it work?”, beneficios y footer con enlaces legales y contacto.
+
+
 #### 5.2.1. Organization Systems
+
+Para JameoFit, se definieron distintos esquemas de organización según el tipo de contenido y la experiencia del usuario.
+
+**Jerárquica (Visual Hierarchy):** <br>
+En el Home, los módulos principales y accesos rápidos se presentan como tarjetas destacadas, como Plan de comidas, Recordatorios y Sugerencias. También se priorizan los indicadores de progreso semanal y la actividad reciente. En la Landing Page, la propuesta de valor y el CTA principal se ubican en la parte superior, luego se da la explicacion del funcionamiento del dispositivo IoT, seguidos de secciones como “What does Jameo Fit do for you?” y “How does it work?” organizadas según su relevancia.
+
+**Secuencial (Step-by-step):** <br>
+El onboarding se desarrolla en pasos consecutivos donde el usuario completa información personal como nombre, edad, peso, objetivo y nivel de actividad hasta finalizar el registro. Asimismo, la recuperación de contraseña sigue un flujo simple: ingreso de correo y confirmación de envío.
+
+**Por tópicos:** <br>
+La información se agrupa según funcionalidades específicas. Por ejemplo, el Plan de comidas incluye agenda semanal, menú diario, ingredientes, datos nutricionales y opciones como “Descargar receta” o “Generar nuevo”. Los módulos de Recordatorios, Preferencias y Sugerencias también se organizan por categorías relacionadas. Ademas, la hero section introduce el tópico del dispositivo IoT y el tracking automático.
+
+**Según audiencia (Personalización):** <br>
+La pantalla principal se adapta a cada usuario mostrando saludo personalizado, progreso, insignias y mensajes motivacionales basados en su actividad y objetivos.
 
 #### 5.2.2. Labelling Systems
 
+El sistema de etiquetado de JameoFit se enfoca en mantener una comunicación clara, directa y fácil de entender para el usuario. Las etiquetas fueron definidas utilizando términos simples y reconocibles dentro de la interfaz.
+
+**Acciones con verbos descriptivos:** <br>
+Se utilizan acciones concretas como Editar preferencias, Ver progreso, Registrar comida, Guardar cambios, Actualizar objetivos y Generar nuevo para desayuno, almuerzo o cena. También se incluyen opciones como Descargar receta o Descargar información en PDF. Por último, se consideran las acciones de Conectar dispositivo y Ver dispositos vinculados referente a la conexión IoT.
+
+**Categorías uniformes:** <br>
+Los módulos principales mantienen nombres consistentes dentro de toda la plataforma, como Plan de comidas, Recordatorios, Sugerencias, Actividad reciente, Smart Tracking, Dispositivos Conectados, Insignias ganadas y Resumen del día.
+
+**Mensajes y estados comprensibles:** <br>
+Se emplean mensajes simples y visibles para informar el estado del sistema, por ejemplo: Días sin registro, Alertas activadas Sí/No, Progreso semanal y placeholders como 0 kcal o porción 0g.
+
+**Contenido de la landing orientado al usuario:** <br>
+Los textos de la landing page están enfocados en explicar beneficios y funcionamiento de manera rápida mediante frases como What does Jameo Fit do for you?, How does it work? y Start for free today, aparte se consideran frases explicativas referentes al funcionamiento del dipositivo IoT, como con la frase: Monitor your nutrition automatically.
+
 #### 5.2.3. SEO Tags and Meta Tags
+
+Para mejorar la visibilidad de JameoFit en motores de búsqueda y en tiendas de aplicaciones, se han definido los siguientes valores de optimización:
+
+### **Landing:**
+- Title: JameoFit -- Smart nutrition tracking for individuals & professionals.
+- Meta Description: Platform that connects young adults with nutritionists, offering personalized plans, real-time tracking and simple, visual tools.
+- Connect IoT devices for automatic hydration and weight tracking
+- Primary CTA text (visible): Start for free today.
+### **App:**
+- Title: JameoFit
+- Subtitle: Smart nutrition & tracking
+- Short Keywords: nutrition, meal plan, tracking, smart device, IoT, tips, goals (alineadas a módulos: plan de comidas, recordatorios, sugerencias, objetivos).
+- Description: Connect with nutritionists, get adaptive meal plans, track weekly progress, receive tips and reminders.
+
 
 #### 5.2.4. Searching Systems
 
+JameoFit contará con Filtros/selección existentes (visibles): 
+
+- Posibilidad de elección de objetivos (Ganar músculo, Perder peso, etc.) 
+
+- Ajuste de frecuencia de recordatorios (Diario/Semanal/Personalizado).
+
+
 #### 5.2.5. Navigation Systems
+
+La navegación de JameoFit se basa en patrones simples e intuitivos tanto para la aplicación móvil como para la aplicación web, con el objetivo de reducir la curva de aprendizaje y facilitar el acceso a las funcionalidades principales:
+
+**Acceso desde Home a módulos clave mediante tarjetas:** En ambas plataformas, los usuarios pueden acceder a módulos clave mediante tarjetas o accesos visuales como Plan de comidas, Recordatorios, Sugerencias, Snack del día y Actividad reciente. En la versión web, estos módulos también pueden complementarse con un menú lateral de navegación para mejorar la accesibilidad.
+
+
+**Flujos guiados:** Onboarding paso a paso (Continuar), recuperación de contraseña con confirmación, flujos por comida (Desayuno/Almuerzo/Cena) con acciones claras (Generar nuevo, Descargar) y flujos de conexion de dispositivo(detectar dispositivo, autorizar, confirmar vinculación, redirigir a Home).
+
+
+**Navegación contextual en Plan de comidas:** Los usuarios pueden navegar desde una vista semanal hacia el menú diario y posteriormente acceder al detalle de cada comida, donde se muestran ingredientes, porciones y calorías. Además, se incluyen acciones para regenerar planes o descargar información.
+
+
+**Landing:** La landing mantiene una jerarquía lineal organizada en secciones: Hero principal con CTA, beneficios, explicación del funcionamiento, acceso a prueba gratuita y footer con enlaces como Contact, Terms, Privacy y selector de idioma.
+
+
 
 ### 5.3. Landing Page UI Design
 
 #### 5.3.1. Landing Page Wireframe
 
+### **Landing Page Wireframe Mobile**
+
+![Mobile-Landing-Wireframe-1](./assets/TP/landing-wireframe-mobile-1.png)
+
+![Mobile-Landing-Wireframe-2](./assets/TP/landing-wireframe-mobile-2.png)
+
+![Mobile-Landing-Wireframe-3](./assets/TP/landing-wireframe-mobile-3.png)
+
+![Mobile-Landing-Wireframe-4](./assets/TP/landing-wireframe-mobile-4.png)
+
+![Mobile-Landing-Wireframe-5](./assets/TP/landing-wireframe-mobile-5.png)
+
+![Mobile-Landing-Wireframe-6](./assets/TP/landing-wireframe-mobile-6.png)
+
+### **Landing Page Wireframe Web**
+
+![Web-Landing-Wireframe-1](./assets/TP/landing-wireframe-web-1.png)
+
+![Web-Landing-Wireframe-2](./assets/TP/landing-wireframe-web-2.png)
+
+![Web-Landing-Wireframe-3](./assets/TP/landing-wireframe-web-3.png)
+
+![Web-Landing-Wireframe-4](./assets/TP/landing-wireframe-web-4.png)
+
+![Web-Landing-Wireframe-5](./assets/TP/landing-wireframe-web-5.png)
+
+![Web-Landing-Wireframe-6](./assets/TP/landing-wireframe-web-6.png)
+
+<br>
+
 #### 5.3.2. Landing Page Mock-Up
+
+### **Landing Page Mock-Up Mobile**
+
+![Mobile-Landing-Mock-Up-1](./assets/TP/landing-mock-up-mobile-1.png)
+
+![Mobile-Landing-Mock-Up-2](./assets/TP/landing-mock-up-mobile-2.png)
+
+![Mobile-Landing-Mock-Up-3](./assets/TP/landing-mock-up-mobile-3.png)
+
+![Mobile-Landing-Mock-Up-4](./assets/TP/landing-mock-up-mobile-4.png)
+
+![Mobile-Landing-Mock-Up-5](./assets/TP/landing-mock-up-mobile-5.png)
+
+![Mobile-Landing-Mock-Up-6](./assets/TP/landing-mock-up-mobile-6.png)
+
+### **Landing Page Mock-Up Web**
+
+![Web-Landing-Mock-Up-1](./assets/TP/landing-mock-up-web-1.png)
+
+![Web-Landing-Mock-Up-2](./assets/TP/landing-mock-up-web-2.png)
+
+![Web-Landing-Mock-Up-3](./assets/TP/landing-mock-up-web-3.png)
+
+![Web-Landing-Mock-Up-4](./assets/TP/landing-mock-up-web-4.png)
+
+![Web-Landing-Mock-Up-5](./assets/TP/landing-mock-up-web-5.png)
+
+![Web-Landing-Mock-Up-6](./assets/TP/landing-mock-up-web-6.png)
+
+Figma: https://www.figma.com/design/9ozeTUfaBHSrUjMi132YiK/Wireframes-y-Mock-Ups-Landing-Page?node-id=0-1&t=d7F1zczXJZd26mhP-1
 
 
 ## Capítulo VI: Product Implementation & Validation
