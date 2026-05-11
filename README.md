@@ -252,10 +252,10 @@ En esta sección se presentan los analíticos de colaboración y los commits rea
   - [5.3. Landing Page UI Design.](#53-landing-page-ui-design)
     - [5.3.1. Landing Page Wireframe.](#531-landing-page-wireframe)
     - [5.3.2. Landing Page Mock-Up.](#532-landing-page-mock-up)
-  - [5.4. Applications UX/UI Design.](#54-applications-ux-ui-design)
-    - [5.4.1. Application Wireframes.](#541-application-wireframes)
-    - [5.4.2. Application Wireflow Diagrams.](#542-application-wireflow-diagrams)
-    - [5.4.3. Application Mock-Ups.](#543-application-mock-ups)
+  - [5.4. Applications UX/UI Design](#54-applications-uxui-design)
+    - [5.4.1. Applications Wireframes](#541-applications-wireframes)
+    - [5.4.2. Applications Wireflow Diagrams](#542-applications-wireflow-diagrams)
+    - [5.4.3. Applications Mock-Ups](#543-applications-mock-ups)
    - [5.5. Application Prototyping.](#55-application-prototyping)
    - [5.6. IoT Device Design.](#56-iot-device-design)
 
@@ -2605,6 +2605,19 @@ La navegación de JameoFit se basa en patrones simples e intuitivos tanto para l
 ![Web-Landing-Mock-Up-6](./assets/TP/landing-mock-up-web-6.png)
 
 Figma: https://www.figma.com/design/9ozeTUfaBHSrUjMi132YiK/Wireframes-y-Mock-Ups-Landing-Page?node-id=0-1&t=d7F1zczXJZd26mhP-1
+
+
+### 5.4. Applications UX/UI Design
+
+Figma Wireframes - Mockups: https://www.figma.com/design/Y9lQwA05Rs7sm3rJ883hfG/Wireframes-y-Mock-Ups---Web-y-Mobile?node-id=0-1&t=oxYcLOsQJhpIglLg-1
+
+
+#### 5.4.1. Applications Wireframes
+
+#### 5.4.2. Applications Wireflow Diagrams
+
+#### 5.4.3. Applications Mock-Ups
+
 
 
 ## Capítulo VI: Product Implementation & Validation
