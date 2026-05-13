@@ -240,6 +240,27 @@ En esta sección se presentan los analíticos de colaboración y los commits rea
         - [4.2.8.6. Bounded Context Software Architecture Code Level Diagrams.](#4286-bounded-context-software-architecture-code-level-diagrams)
             - [4.2.8.6.1. Bounded Context Domain Layer Class Diagrams.](#42861-bounded-context-domain-layer-class-diagrams)
             - [4.2.8.6.2. Bounded Context Database Design Diagram.](#42862-bounded-context-database-design-diagram)
+  - [5.1. Style Guidelines.](#51-style-guidelines)
+    - [5.1.1. General Style Guidelines.](#511-general-style-guidelines)
+    - [5.1.2.  Web, Mobile and IoT Style Guidelines.](#512-web-mobile-and-iot-style-guidelines)
+  - [5.2. Information Architecture.](#52-information-architecture)
+    - [5.2.1. Organization Systems.](#521-organization-systems)
+    - [5.2.2. Labelling Systems.](#522-labelling-systems)
+    - [5.2.3. SEO Tags and Meta Tags.](#523-seo-tags-and-meta-tags)
+    - [5.2.4. Searching Systems.](#524-searching-systems)
+    - [5.2.5. Navigation Systems.](#525-navigation-systems)
+  - [5.3. Landing Page UI Design.](#53-landing-page-ui-design)
+    - [5.3.1. Landing Page Wireframe.](#531-landing-page-wireframe)
+    - [5.3.2. Landing Page Mock-Up.](#532-landing-page-mock-up)
+  - [5.4. Applications UX/UI Design](#54-applications-uxui-design)
+    - [5.4.1. Applications Wireframes](#541-applications-wireframes)
+    - [5.4.2. Applications Wireflow Diagrams](#542-applications-wireflow-diagrams)
+    - [5.4.3. Applications Mock-Ups](#543-applications-mock-ups)
+   - [5.5. Application Prototyping.](#55-application-prototyping)
+   - [5.6. IoT Device Design.](#56-iot-device-design)
+
+
+  
 
 ## Student Outcome
 
@@ -567,54 +588,116 @@ La sección abarca el proceso de investigación de nuestros segmentos objetivos 
 #### 2.2.2. Registro de entrevistas.
 
 ### Segmento 1: 
-|Entrevistado 1 |  |
+|Entrevistado 1 | Giorgio Awad Vargas |
 | :------------- | :------------------------------------------------------------ |
 | Edad | 23 años |
 | Distrito/Ciudad | San Miguel, Lima |
 | Imagen | <p align="center"><img src="./assets/entrevistas/Entrevista1.png" width="200"/></p> |
 | Resumen | Giorgio Awad Vargas es un joven de 23 años residente en Lima que no sigue un plan nutricional ni utiliza actualmente herramientas de control, aunque intenta mantener una alimentación saludable. Ha usado aplicaciones de conteo de calorías, pero las abandonó por la incomodidad del registro manual y la falta de constancia, evidenciando preferencia por soluciones rápidas y automatizadas.<br><br>Su estilo de vida implica comer frecuentemente fuera de casa, lo que dificulta el seguimiento y reduce la precisión de su control. A nivel conductual, prioriza la practicidad y muestra baja tolerancia a procesos repetitivos, aunque reconoce la importancia de cuidar su alimentación.<br><br>En cuanto a tecnología, está familiarizado con apps móviles y muestra alta apertura a soluciones innovadoras como el registro automático mediante dispositivos inteligentes. Valora funcionalidades como alertas, notificaciones y visualización de progreso. Además, estaría dispuesto a compartir datos con una IA entrenada por nutricionistas y confía moderadamente en recomendaciones basadas en inteligencia artificial.<br><br>En síntesis, es un usuario interesado en mejorar sus hábitos, pero que requiere herramientas simples, automáticas y adaptadas a su rutina diaria. |
-| Duración | 00:00 – 05:16 min |
+| Duración | 00:00 – 06-10 min |
 
-| Entrevistado 2 |  |
+| Entrevistado 2 | Loreley Sarmiento Medina |
 | :---- | :---- |
 | Edad | 20 años |
 | Distrito/Ciudad | San Miguel, Lima |
 | Imagen | <p align="center"><img src="./assets/entrevistas/Entrevista2.png" width="200"/></p> |
 | Resumen | Loreley Sarmiento Medina, de 20 años, es una joven que actualmente no sigue un plan nutricional estructurado ni mantiene un registro constante de su alimentación. Aunque anteriormente utilizó aplicaciones similares, dejó de usarlas debido a la falta de precisión en los datos y lo genérico de las estimaciones, lo cual le generaba frustración.<br><br>Uno de los principales problemas que enfrenta es la falta de constancia, especialmente en días ocupados o cuando come fuera de casa, lo que ocasiona que olvide registrar su consumo. <br><br>En cuanto a soluciones tecnológicas, muestra interés por herramientas automatizadas que utilicen sensores o telemetría para registrar datos sin intervención manual, siempre que sean accesibles económicamente. También valora funciones como visualización de progreso y alertas, las cuales podrían ayudarle a mantener la constancia.<br><br>Finalmente, presenta una actitud positiva hacia el uso de inteligencia artificial, siempre que esté respaldada por profesionales. Estaría dispuesta a compartir sus datos con nutricionistas y considerar un pago por el servicio, pero solo después de probar su efectividad de la aplicación previamente. |
-| Duración | 00:00 – 05:35 min |
+| Duración | 06:15 – 11:50 min |
 
-| Entrevistado 3 |   |
+| Entrevistado 3 | Anyelo Alejos |
 | :---- | :---- |
 | Edad |  21 años |
 | Distrito/Ciudad | Independencia Lima, Lima  |
 |  Imagen  | <p align="center"><img src="./assets/entrevistas/Entrevista3.png" width="200"/></p> |
 | Resumen | Anyelo Alejos , de 21 años, es un joven que vive en Lima y mantiene un estilo de vida enfocado en el equilibrio entre alimentación y ejercicio por temas de salud. No sigue un plan nutricional estructurado ni registra constantemente su ingesta, ya que gestiona su alimentación de forma empírica basándose en su experiencia y en información de internet.<br><br>Anteriormente utilizó aplicaciones de conteo nutricional, pero dejó de usarlas debido a la incomodidad del registro manual y el tiempo que requería, lo que le generaba frustración y afectaba su constancia, especialmente en días ocupados o cuando repetía comidas.<br><br>Uno de sus principales problemas es la falta de seguimiento continuo, sobre todo cuando come fuera de casa o en horarios irregulares. Aunque puede estimar calorías en productos envasados, tiene dificultades para calcular con precisión lo que consume en comidas caseras o de restaurantes.<br><br>En cuanto a soluciones tecnológicas, muestra interés en herramientas automatizadas que eliminen el registro manual mediante sensores o telemetría. Valora funciones como monitoreo en tiempo real, alertas y visualización de progreso, siempre que sean prácticas y no invasivas.<br><br>Finalmente, tiene una actitud positiva hacia el uso de inteligencia artificial en nutrición, especialmente si está respaldada por profesionales. Estaría dispuesto a compartir sus datos con nutricionistas y pagar una suscripción, siempre que el servicio demuestre efectividad y justifique su valor. |
-| Duración | 00:00 – 11:52 min |
+| Duración | 11:55 – 24:05 min |
 
 
 ### Segmento 2: 
-| Entrevistado 4 |  |
+| Entrevistado 4 | Joaquín Reyna |
 | :---- | :---- |
-| Edad |  años |
-| Distrito/Ciudad |  |
-| |   |
-| Timing: : – : min | [Entrevista 4 JF Technologies.mp4] |
+| Edad | 28 años |
+| Distrito/Ciudad | Lima, Lima |
+| Imagen | <p align="center"><img src="./assets/entrevistas/Entrevista4.png" width="200"/></p> |
+| Resumen | Joaquín Reyna es un nutricionista clínico de 28 años que ejerce en Lima, principalmente en consulta privada y también de forma remota, atendiendo un alto volumen de pacientes mensualmente.<br><br>Actualmente, enfrenta dificultades en el seguimiento de sus pacientes debido a la dependencia de reportes manuales, los cuales considera poco confiables, incompletos y muchas veces inexactos. Esto limita su capacidad para evaluar correctamente la adherencia a los planes nutricionales.<br><br>Uno de los principales problemas que identifica es la falta de datos precisos entre consultas, lo que complica la toma de decisiones y el ajuste oportuno de los tratamientos. Además, ha observado que muchos pacientes abandonan el proceso debido al cansancio que genera registrar manualmente su alimentación y hábitos.<br><br>En cuanto a soluciones, muestra un alto interés en herramientas tecnológicas que automaticen la recolección y validación de datos, especialmente aquellas que ofrezcan métricas en tiempo real. Considera que funcionalidades como dashboards inteligentes, alertas de desviaciones y análisis automatizado mejorarían significativamente su eficiencia profesional.<br><br>Asimismo, valora positivamente el uso de inteligencia artificial como apoyo en la validación de datos, siempre que mantenga su rol como decisor final. Finalmente, destaca la importancia de la seguridad y confidencialidad de la información, y considera que una solución como JameoFit le permitiría escalar su atención a más pacientes sin comprometer la calidad del servicio. |
+| Duración | 24:15 – 29:50 min |
 
-| Entrevistado 5 |  |
-| :---- | :---- |
-| Edad |  años |
-| Distrito/Ciudad |  |
-| |  |
-| Timing: : – : min | [Entrevista 5 JF Technologies.mp4] |
+|Entrevistado 5 | Franco García |
+| :------------- | :------------------------------------------------------------ |
+| Edad | 30 años |
+| Distrito/Ciudad | Miraflores, Lima |
+| Imagen | <p align="center"><img src="assets/entrevistas/Entrevista5.png" width="200"/></p> |
+| Resumen | Franco García es un nutricionista con varios años de experiencia en consulta clínica y asesoría personalizada, que atiende a un volumen considerable de pacientes y busca optimizar su tiempo mediante herramientas más eficientes; actualmente depende de reportes manuales de sus pacientes, los cuales considera poco confiables por errores, omisiones y falta de constancia, lo que dificulta ajustar planes nutricionales entre consultas y tomar decisiones oportunas con información incompleta; además, ha identificado que muchos pacientes abandonan el seguimiento por la fatiga del registro manual, afectando directamente la adherencia y la efectividad del tratamiento; por ello, muestra un alto interés en soluciones tecnológicas que automaticen la recolección de datos, como sistemas con telemetría, métricas en tiempo real y dashboards inteligentes que filtren información relevante y alerten sobre anomalías, valorando especialmente aquellas que integren inteligencia artificial como apoyo para pre-validar datos sin reemplazar su criterio profesional; asimismo, considera fundamental que estas plataformas cumplan con altos estándares de privacidad y seguridad de la información, y ve en este tipo de soluciones una oportunidad para escalar su capacidad de atención sin comprometer la calidad clínica. |
+| Duración | 29:55 – 36:05 min |
 
-| Entrevistado 6 |  |
+| Entrevistado 6 | Joaquin Pedraza |
 | :---- | :---- |
-| Edad |  años |
-| Distrito/Ciudad |  |
-|  |  |
-| Timing:: – : min | [Entrevista 6 JF Technologies.mp4] |
+| Edad | 26 años |
+| Distrito/Ciudad | San Miguel, Lima |
+| Imagen | <p align="center"><img src="assets/entrevistas/Entrevista6.png" width="200"/></p> |
+| Resumen | Joaquin Pedraza, nutricionista deportivo, identifica el registro manual como la principal barrera para la adherencia del paciente debido a su falta de precisión y a la fatiga que genera. Muestra un alto interés en la telemetría IoT y la validación por IA para obtener datos objetivos en tiempo real, permitiéndole realizar ajustes proactivos entre consultas. Al automatizar la captura de datos, Joaquin busca evolucionar de supervisor de registros a un estratega nutricional, logrando escalar su capacidad de atención con una base científica sólida y garantizando la seguridad de la información clínica. |
+| Duración | 36:10 – 41:40 min |
+
+Enlace de las entrevistas en Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323270_upc_edu_pe/IQAzMzdoOqH1QY-ZOGX7dtb0AahI_ticCRpNbYTjgzQb0hc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=VcaDuu
 
 #### 2.2.3. Análisis de entrevistas.
+
+El análisis de entrevistas se realizó a partir de los registros y resúmenes obtenidos en la sección anterior. Para cada segmento objetivo se identificaron patrones comunes, tanto objetivos como subjetivos, considerando una muestra de tres entrevistados por segmento. Los porcentajes presentados se calcularon en función del total de entrevistados de cada segmento.
+
+### Segmento 1: Usuarios finales orientados a la mejora de su alimentación
+
+Este segmento está conformado por tres jóvenes adultos residentes en Lima: Giorgio Awad Vargas, Loreley Sarmiento Medina y Anyelo Alejos. Sus edades se encuentran entre los 20 y 23 años, lo que evidencia que el segmento entrevistado corresponde a usuarios jóvenes con familiaridad en el uso de aplicaciones móviles y apertura hacia soluciones digitales para el control nutricional.
+
+| Característica identificada | Tipo | Evidencia en entrevistas | Frecuencia | Porcentaje |
+|---|---|---|---:|---:|
+| Jóvenes adultos entre 20 y 23 años | Objetiva | Giorgio tiene 23 años, Loreley 20 años y Anyelo 21 años. | 3/3 | 100% |
+| Residentes en Lima | Objetiva | Los tres entrevistados residen en distritos de Lima: San Miguel e Independencia. | 3/3 | 100% |
+| No siguen un plan nutricional estructurado | Objetiva | Los tres entrevistados indican que no siguen actualmente un plan nutricional formal. | 3/3 | 100% |
+| Han tenido dificultades con aplicaciones de registro nutricional | Objetiva/Subjetiva | Giorgio, Loreley y Anyelo usaron o intentaron usar aplicaciones, pero las abandonaron por incomodidad, falta de precisión o tiempo requerido. | 3/3 | 100% |
+| Baja constancia en el registro de alimentos | Subjetiva | Los resúmenes mencionan falta de constancia, olvido del registro o abandono del seguimiento manual. | 3/3 | 100% |
+| Dificultad para registrar comidas fuera de casa o en días ocupados | Objetiva/Subjetiva | Los tres entrevistados señalan que comer fuera de casa, tener horarios irregulares o días ocupados afecta el seguimiento. | 3/3 | 100% |
+| Preferencia por soluciones rápidas y automatizadas | Subjetiva | Los entrevistados muestran interés por sensores, telemetría o registro automático para reducir la intervención manual. | 3/3 | 100% |
+| Valoración de alertas, notificaciones o visualización de progreso | Subjetiva | Giorgio valora alertas y progreso; Loreley menciona visualización de progreso y alertas; Anyelo valora monitoreo, alertas y progreso. | 3/3 | 100% |
+| Apertura hacia inteligencia artificial respaldada por profesionales | Subjetiva | Los tres entrevistados muestran una actitud positiva hacia IA si está respaldada por nutricionistas o profesionales. | 3/3 | 100% |
+| Disposición condicionada a pagar por la solución | Subjetiva | Loreley y Anyelo considerarían pagar si la solución demuestra efectividad o justifica su valor. En Giorgio no se registra una disposición explícita al pago. | 2/3 | 66.7% |
+
+A partir de estos resultados, se observa que el usuario representativo de este segmento es una persona joven, familiarizada con aplicaciones móviles, interesada en mejorar sus hábitos alimenticios, pero con dificultades para mantener un registro manual constante. El principal problema identificado es la fricción generada por el registro manual, especialmente cuando el usuario come fuera de casa o tiene una rutina ocupada.
+
+En términos subjetivos, el segmento muestra frustración frente a herramientas que demandan mucho tiempo o entregan datos poco precisos. Por ello, el arquetipo de este segmento debe reflejar a un usuario que valora la practicidad, la automatización, la visualización clara de progreso y las recomendaciones confiables. Asimismo, la confianza en inteligencia artificial depende de que esta sea percibida como una herramienta respaldada por profesionales, no como una fuente aislada de recomendaciones.
+
+### Segmento 2: Profesionales de la salud: nutricionistas y entrenadores
+
+Este segmento está conformado por tres profesionales de la nutrición: Joaquín Reyna, Franco García y Joaquin Pedraza. Sus edades se encuentran entre los 26 y 30 años, todos residentes en Lima. Los entrevistados ejercen en contextos de consulta clínica, asesoría personalizada, atención remota o nutrición deportiva, por lo que representan perfiles profesionales que requieren información confiable para tomar decisiones sobre sus pacientes.
+
+| Característica identificada | Tipo | Evidencia en entrevistas | Frecuencia | Porcentaje |
+|---|---|---|---:|---:|
+| Profesionales de nutrición entre 26 y 30 años | Objetiva | Joaquín Reyna tiene 28 años, Franco García 30 años y Joaquin Pedraza 26 años. | 3/3 | 100% |
+| Residentes o trabajadores en Lima | Objetiva | Los tres entrevistados se ubican en Lima, incluyendo Lima y Miraflores. | 3/3 | 100% |
+| Experiencia en atención nutricional personalizada | Objetiva | Los resúmenes indican consulta privada, asesoría personalizada, atención clínica, remota o nutrición deportiva. | 3/3 | 100% |
+| Dependencia actual de reportes manuales de pacientes | Objetiva | Joaquín Reyna y Franco García dependen de reportes manuales; Joaquin Pedraza identifica el registro manual como barrera principal. | 3/3 | 100% |
+| Baja confianza en la precisión de los reportes manuales | Subjetiva | Los tres entrevistados consideran que los registros manuales son poco confiables, incompletos, inexactos o imprecisos. | 3/3 | 100% |
+| Dificultad para ajustar planes entre consultas | Objetiva/Subjetiva | Joaquín Reyna y Franco García mencionan falta de datos precisos entre consultas; Joaquin Pedraza busca ajustes proactivos con datos en tiempo real. | 3/3 | 100% |
+| Identificación de abandono o baja adherencia por fatiga del registro | Subjetiva | Joaquín Reyna y Franco García mencionan abandono por cansancio del registro; Joaquin Pedraza identifica la fatiga del registro como barrera de adherencia. | 3/3 | 100% |
+| Alto interés en automatización, telemetría o datos en tiempo real | Subjetiva | Los tres entrevistados valoran herramientas que automaticen la recolección de datos y ofrezcan métricas en tiempo real. | 3/3 | 100% |
+| Valoración de dashboards, alertas o análisis automatizado | Subjetiva | Joaquín Reyna y Franco García mencionan dashboards inteligentes y alertas; Joaquin Pedraza destaca datos objetivos para ajustes proactivos. | 3/3 | 100% |
+| Aceptación de IA como apoyo, sin reemplazar el criterio profesional | Subjetiva | Joaquín Reyna y Franco García valoran IA como apoyo manteniendo al profesional como decisor; Joaquin Pedraza menciona validación por IA con base científica. | 3/3 | 100% |
+| Importancia de privacidad y seguridad de datos | Objetiva/Subjetiva | Los tres entrevistados resaltan la confidencialidad, seguridad o protección de información clínica. | 3/3 | 100% |
+| Interés en escalar la atención sin perder calidad | Subjetiva | Joaquín Reyna y Franco García mencionan escalar atención; Joaquin Pedraza busca evolucionar su rol y atender con base científica sólida. | 3/3 | 100% |
+
+El análisis evidencia que el profesional representativo de este segmento enfrenta una limitación crítica: la calidad de sus decisiones depende de información reportada manualmente por los pacientes, la cual suele ser incompleta, imprecisa o inconsistente. Esta situación afecta el seguimiento nutricional, dificulta los ajustes entre consultas y reduce la capacidad del profesional para intervenir oportunamente.
+
+Desde una perspectiva subjetiva, los entrevistados muestran alta valoración por herramientas que automaticen la recolección de datos y permitan visualizar información confiable mediante dashboards, alertas y métricas en tiempo real. Sin embargo, también establecen una condición importante: la inteligencia artificial debe funcionar como apoyo para validar o preprocesar información, pero no debe reemplazar el criterio profesional.
+
+Por ello, el arquetipo de este segmento debe representar a un nutricionista que busca mejorar la eficiencia de su práctica, reducir la dependencia de reportes manuales, tomar decisiones basadas en datos objetivos y escalar su atención sin comprometer la calidad clínica ni la seguridad de la información del paciente.
+
+### Conclusiones del análisis
+
+En ambos segmentos se identifica un problema común: el registro manual de alimentos genera fricción, imprecisión y pérdida de continuidad. En el Segmento 1, esta fricción se manifiesta como falta de constancia, abandono de aplicaciones y dificultad para registrar comidas en contextos cotidianos. En el Segmento 2, el mismo problema impacta en la calidad del seguimiento profesional, la toma de decisiones y la adherencia de los pacientes.
+
+Asimismo, ambos segmentos muestran una valoración positiva hacia la automatización, el uso de datos en tiempo real y la inteligencia artificial, siempre que esta sea confiable y esté respaldada por profesionales. Estos hallazgos sustentan la necesidad de construir arquetipos centrados en la practicidad, confiabilidad, automatización, visualización clara de datos y protección de la información.
+
+
+
 
 ### 2.3. Needfinding.
 
@@ -848,81 +931,71 @@ Interacciones Entre Segmentos
 ## Capítulo III: Requirements Specification
 
 ### 3.1. User Stories.
-En esta sección se detallan todas las **User Stories** identificadas para la aplicación JameoFit. Incluyen:  
 
-- Funcionalidades básicas de la app  
-- Integración con dispositivos IoT: bebedor inteligente y báscula inteligente  
-- IA tipo coach nutricional para recomendaciones guiadas  
+En esta sección se presentan las épicas y user stories del sistema. Cada historia incluye criterios de aceptación en formato Gherkin (Given–When–Then), redactados en tercera persona, tiempo presente y verificables. También se incluyen historias para la landing page (rol visitante) y technical stories (rol developer).
 
-Cada historia está estructurada para facilitar desarrollo ágil y validación iterativa.
-
----
-
-| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
-|-----------------|--------|-------------|------------------------|---------------------------|
-| US-01 | Registro de Usuario | Como visitante, quiero registrarme en la aplicación para empezar a gestionar mis necesidades alimenticias. | Escenario 01: Dado que soy un nuevo usuario, al completar registro, la app muestra sugerencias iniciales. <br> Escenario 02: Dado que completé datos después, la app actualiza las sugerencias automáticamente. | EP-01 |
-| US-02 | Recuperación de Contraseña | Como usuario, quiero recuperar mi contraseña en caso de olvidarla. | Escenario 01: La app envía correo con instrucciones. <br> Escenario 02: Permite reenviar correo si no se recibió. | EP-01 |
-| US-03 | Personalización de Perfil | Como usuario registrado, quiero completar y editar mis preferencias alimenticias. | Escenario 01: Al ingresar alergias o restricciones, se excluyen alimentos del plan. <br> Escenario 02: Al cambiar objetivo de salud, se ajusta plan automáticamente. | EP-01 |
-| US-04 | Plan Alimenticio Personalizado | Como usuario, quiero recibir un plan alimenticio personalizado. | Escenario 01: Genera plan adaptado al perfil del usuario. <br> Escenario 02: Al cambiar nivel de actividad, se genera nueva propuesta. | EP-02 |
-| US-05 | Edición de Plan Alimenticio | Como usuario, quiero modificar o sustituir comidas del plan. | Escenario 01: Sustituir comida no deseada con alternativas saludables. <br> Escenario 02: Actualizar plan tras registrar nuevas restricciones. | EP-02 |
-| US-06 | Registro Diario de Alimentos | Como usuario, quiero registrar lo que como diariamente. | Escenario 01: Guardar y analizar los registros diarios. <br> Escenario 02: Permitir editar registros pasados. | EP-03 |
-| US-07 | Recordatorios de Comidas | Como usuario, quiero recibir recordatorios de registro de comidas. | Escenario 01: Notificaciones según horarios seleccionados. <br> Escenario 02: Advertencias por registros faltantes. | EP-03 |
-| US-08 | Visualización del Progreso | Como usuario, quiero visualizar mi progreso nutricional. | Escenario 01: Mostrar estadísticas y tendencias. <br> Escenario 02: Indicar días sin registro. | EP-03 |
-| US-09 | Feedback Diario | Como usuario, quiero recibir comentarios diarios sobre alimentación. | Escenario 01: Mostrar resumen nutricional al final del día. <br> Escenario 02: Recomendar ajustes si se supera meta calórica. | EP-03 |
-| US-10 | Registro de Logros | Como usuario, quiero ver mis avances y logros. | Escenario 01: Mostrar insignias al cumplir objetivos. <br> Escenario 02: Resaltar progresos mensuales con mensajes motivacionales. | EP-04 |
-| US-11 | Alertas de Objetivos no Alcanzados | Como usuario, quiero recibir alertas de metas no cumplidas. | Escenario 01: Sincronización con dispositivos IoT. <br> Escenario 02: Al desvincular IoT, dejar de recibir datos. | EP-03 |
-| US-12 | Panel de Pacientes | Como nutricionista, quiero ver panel con estado de pacientes. | Escenario 01: Mostrar progreso incluyendo datos de IoT. <br> Escenario 02: Generar alertas ante cambios significativos. | EP-05 |
-| US-13 | Envío de Sugerencias | Como nutricionista, quiero enviar recomendaciones a usuarios. | Escenario 01: Enviar mensajes en tiempo real. <br> Escenario 02: Dejar mensaje si usuario no está disponible. | EP-05 |
-| US-14 | Personalización de Metas | Como usuario, quiero definir metas específicas. | Escenario 01: Confirmar ajustes de metas. <br> Escenario 02: Notificar cancelaciones y actualizar plan. | EP-02 |
-| US-15 | Visualización de Logros | Como usuario, quiero ver mis logros completados. | Escenario 01: Registrar nuevas metas y progreso. <br> Escenario 02: Felicitaciones al alcanzar objetivos. | EP-04 |
-| US-16 | Notificaciones de Actividad | Como usuario, quiero recibir notificaciones sobre novedades de la app y dispositivos IoT. | Escenario 01: Importar datos relevantes de IoT. <br> Escenario 02: Revocar acceso elimina datos sincronizados. | EP-05 |
-| US-17 | Soporte en Tiempo Real | Como usuario, quiero chatear con soporte técnico. | Escenario 01: Mostrar advertencias de exceso calórico/metas no cumplidas. <br> Escenario 02: Recomendar ajustes basados en datos de IoT. | EP-05 |
-| US-18 | Conocer la propuesta de valor | Como visitante, quiero entender cómo me beneficia la app. | Escenario 01: Mostrar resumen de estadísticas y sugerencias al abrir la app. | EP-06 |
-| US-19 | Acceder al registro o inicio de sesión | Como visitante, quiero iniciar sesión o registrarme desde la barra superior. | Escenario 01: Aplicar cambios de configuración inmediatamente. | EP-06 |
-| US-20 | Navegar entre secciones desde la barra | Como visitante, quiero usar la barra superior para explorar secciones. | Escenario 01: Mensajes y publicaciones visibles en secciones correspondientes. | EP-06 |
-| US-21 | Ver resumen de beneficios | Como visitante, quiero ver los beneficios que ofrece la app. | Escenario 01: Mostrar opciones de contacto y ayuda. | EP-06 |
-| US-22 | Navegar por los beneficios principales | Como visitante, quiero navegar por la sección de beneficios. | Escenario 01: Mostrar detalles de planes, beneficios y suscripciones. | EP-06 |
-| US-23 | Visualizar testimonios | Como visitante, quiero leer testimonios de usuarios. | Escenario 01: Mostrar testimonios verificados. | EP-06 |
-| US-24 | Navegar desde el footer | Como visitante, quiero que enlaces del footer funcionen correctamente. | Escenario 01: Mostrar información y transacciones correctamente. | EP-06 |
-| US-25 | Acceder desde distintos dispositivos | Como visitante, quiero que la landing page funcione en cualquier dispositivo. | Escenario 01: Datos sensibles guardados cifrados. <br> Escenario 02: Mostrar términos de privacidad actualizados. | EP-06 |
-| US-26 | Ver recetas preestablecidas | Como usuario, quiero ver recetas ya creadas para guardar las que me interesen. | Escenario 01: Sesión cierra por inactividad automáticamente. <br> Escenario 02: Solicita inicio de sesión para funciones protegidas. | EP-07 |
-| US-27 | Hacer tracking del plan | Como usuario, quiero saber si la app sigue mi plan. | Escenario 01: Datos locales offline disponibles. <br> Escenario 02: Sincronización automática al reconectar. | EP-07 |
-| US-28 | Ver recomendaciones | Como usuario, quiero que la app muestre recomendaciones durante el día. | Escenario 01: Encuesta semanal permite calificar experiencia. | EP-07 |
-| US-29 | Registro de Nutricionista | Como nutricionista, quiero registrarme con credenciales profesionales. | Escenario 01: Registro completo y seguro. | EP-08 |
-| US-30 | Perfil Detallado de Nutricionista | Como nutricionista, quiero gestionar mi perfil profesional detallado. | Escenario 01: Visualizar y actualizar información profesional. | EP-08 |
-| US-31 | Publicación de Consejos de Nutrición | Como nutricionista, quiero publicar artículos y consejos. | Escenario 01: Publicación visible para usuarios. | EP-09 |
-| US-32 | Gestión de Contenido Educativo | Como nutricionista, quiero organizar artículos por categorías y temáticas. | Escenario 01: Sincronización entre dispositivos y preservación de progreso. | EP-09 |
-| US-33 | Chat Directo con Usuarios | Como nutricionista, quiero chatear con usuarios. | Escenario 01: Mostrar solo recetas compatibles con preferencias. <br> Escenario 02: Actualizar sugerencias automáticamente. | EP-10 |
-| US-34 | Gestión de Consultas | Como nutricionista, quiero organizar consultas y conversaciones. | Escenario 01: Configurar recordatorios de agua/consumo IoT para pacientes. | EP-10 |
-| US-35 | Configuración de Suscripciones | Como nutricionista, quiero configurar suscripciones a mi contenido. | Escenario 01: Calcular métricas automáticamente según registros IoT. | EP-11 |
-| US-36 | Panel de Suscriptores | Como nutricionista, quiero ver un panel de mis suscriptores. | Escenario 01: Compartir o guardar logros de suscriptores. | EP-11 |
-| US-37 | Notificaciones de Actividad Profesional | Como nutricionista, quiero recibir notificaciones sobre actividad en mi perfil. | Escenario 01: Mantener idioma configurado tras reinicio. | EP-08 |
-| US-38 | Herramientas de Seguimiento de Pacientes | Como nutricionista, quiero herramientas para monitorear progreso de usuarios, incluyendo IoT. | Escenario 01: Mostrar historial mensual, semanal y datos de IoT. | EP-10 |
-| US-39 | Biblioteca de Recursos Profesionales | Como nutricionista, quiero acceder a recursos científicos actualizados. | Escenario 01: Mostrar artículos relacionados y contenido complementario. | EP-09 |
-| US-40 | Estadísticas y Analytics | Como nutricionista, quiero ver estadísticas detalladas de mi actividad en la plataforma. | Escenario 01: Sugerir metas progresivas según registros IoT y metas. | EP-11 |
-| US-41 | Registro de Hidratación por Bebedor Inteligente | Como usuario, quiero que el bebedor inteligente registre mi consumo de agua automáticamente. | Escenario 01: Sincronización automática con la app al beber agua. <br> Escenario 02: Mostrar alertas si consumo bajo o sobrepasa meta. | EP-12 |
-| US-42 | Registro de Peso por Balanza Inteligente | Como usuario, quiero que la balanza inteligente sincronice mi peso automáticamente. | Escenario 01: Sincronización automática al pesarse. <br> Escenario 02: Mostrar evolución semanal y mensual. | EP-12 |
-| US-43 | Recomendaciones automáticas de alimentación (IA) | Como usuario, quiero recibir recomendaciones automáticas basadas en mis registros diarios. | Escenario 01: La IA analiza historial y sugiere ajustes diarios. <br> Escenario 02: Las sugerencias se muestran resumidas. | EP-12 |
-| US-44 | Interacción con coach virtual | Como usuario, quiero interactuar con un coach virtual para obtener sugerencias guiadas. | Escenario 01: Responde solo dentro de opciones predefinidas. <br> Escenario 02: Máximo 1–2 interacciones/día. | EP-12 |
-| US-45 | Entrenamiento supervisado por nutricionista | Como nutricionista, quiero entrenar la IA con ejemplos de mis pacientes. | Escenario 01: IA ajusta recomendaciones con datasets supervisados. <br> Escenario 02: Aplicación incremental y controlada de mejoras. | EP-12 |
-| US-46 | Limitar interacción IA | Como usuario, quiero que la IA me envíe solo sugerencias resumidas y limitadas. | Escenario 01: Prioriza recomendaciones importantes. <br> Escenario 02: Máximo 1–2 alertas/día. | EP-12 |
-
----
-
-## Épicas
-
-- **EP-01: Registro y Gestión de Cuenta** – US-01 a US-03  
-- **EP-02: Personalización y Generación de Planes** – US-04, US-05, US-14  
-- **EP-03: Registro y Seguimiento** – US-06, US-07, US-08, US-09, US-11  
-- **EP-04: Comunidad y Motivación** – US-10, US-15  
-- **EP-05: Soporte y Experiencia del Usuario** – US-12, US-13, US-16, US-17  
-- **EP-06: Landing Page** – US-18 a US-25  
-- **EP-07: Visualización Detallada** – US-26 a US-28  
-- **EP-08: Registro y Gestión Profesional** – US-29, US-30, US-37  
-- **EP-09: Creación y Gestión de Contenido Educativo** – US-31, US-32, US-39  
-- **EP-10: Comunicación y Seguimiento de Usuarios** – US-33, US-34, US-38  
-- **EP-11: Monetización y Analytics** – US-35, US-36, US-40  
-- **EP-12: IA Coach Nutricional e IoT Integrado** – US-41 a US-46
+| Epic/Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+|---------------|--------|-------------|-------------------------|---------------------------|
+| EP-01 | Registro y Gestión de Cuenta | Gestión de registro, autenticación y perfil de usuario. | N/A | - |
+| US-01 | Registro de Usuario | Como visitante, quiere registrarse para usar el sistema. | Given datos válidos, When se registra, Then el sistema crea la cuenta. <br> Given perfil completo, When guarda datos, Then genera sugerencias. | EP-01 |
+| US-02 | Recuperación de Contraseña | Como usuario, quiere recuperar su contraseña. | Given solicitud válida, When ingresa correo, Then recibe instrucciones. <br> Given reenvío, When lo solicita, Then el sistema envía nuevamente. | EP-01 |
+| US-03 | Personalización de Perfil | Como usuario, quiere definir preferencias. | Given restricciones, When guarda, Then excluye alimentos. <br> Given objetivos, When actualiza, Then ajusta plan. | EP-01 |
+| TS-01 | API Autenticación | Como developer, quiere autenticar usuarios vía API. | Given credenciales válidas, When se envían, Then retorna token. <br> Given inválidas, When se envían, Then retorna error. | EP-01 |
+| EP-02 | Personalización de Planes | Generación y edición de planes alimenticios. | N/A | - |
+| US-04 | Plan Personalizado | Como usuario, quiere plan adaptado. | Given perfil completo, When solicita, Then genera plan. <br> Given cambios, When actualiza, Then ajusta plan. | EP-02 |
+| US-05 | Edición de Plan | Como usuario, quiere modificar comidas. | Given selección, When reemplaza, Then muestra alternativas. <br> Given cambios, When actualiza, Then el sistema guarda modificaciones. | EP-02 |
+| US-14 | Personalización de Metas | Como usuario, quiere definir metas. | Given metas nuevas, When guarda, Then el sistema confirma. <br> Given cancelación, When ejecuta acción, Then el sistema actualiza plan. | EP-02 |
+| TS-02 | API Planes | Como developer, quiere gestionar planes. | Given solicitud válida, When consulta, Then retorna datos. <br> Given solicitud inválida, When procesa, Then retorna error. | EP-02 |
+| EP-03 | Registro y Seguimiento | Seguimiento de hábitos y progreso. | N/A | - |
+| US-06 | Registro Diario | Como usuario, quiere registrar alimentos. | Given datos, When guarda, Then el sistema almacena información. <br> Given edición, When guarda cambios, Then actualiza registro. | EP-03 |
+| US-07 | Recordatorios | Como usuario, quiere recordatorios. | Given horarios configurados, When llega la hora, Then el sistema notifica. <br> Given registros faltantes, When termina el día, Then alerta. | EP-03 |
+| US-08 | Progreso | Como usuario, quiere ver progreso. | Given datos disponibles, When consulta, Then muestra estadísticas. <br> Given ausencia de datos, When consulta historial, Then indica faltantes. | EP-03 |
+| US-09 | Feedback Diario | Como usuario, quiere retroalimentación. | Given datos diarios, When finaliza el día, Then muestra resumen. <br> Given exceso calórico, When detecta, Then recomienda ajustes. | EP-03 |
+| US-11 | Alertas | Como usuario, quiere alertas de metas. | Given meta no cumplida, When detecta condición, Then alerta. <br> Given integración IoT, When recibe datos, Then los procesa. | EP-03 |
+| EP-04 | Comunidad y Motivación | Logros y motivación del usuario. | N/A | - |
+| US-10 | Logros | Como usuario, quiere ver logros. | Given objetivo cumplido, When valida, Then muestra logro. <br> Given progreso continuo, When analiza, Then resalta avances. | EP-04 |
+| US-15 | Visualización de Logros | Como usuario, quiere ver logros completos. | Given metas alcanzadas, When consulta, Then lista logros. <br> Given nuevo logro, When ocurre, Then notifica. | EP-04 |
+| EP-05 | Soporte y Experiencia | Comunicación y soporte. | N/A | - |
+| US-12 | Panel Pacientes | Como nutricionista, quiere ver pacientes. | Given datos disponibles, When consulta, Then muestra estado. <br> Given cambios relevantes, When detecta, Then alerta. | EP-05 |
+| US-13 | Sugerencias | Como nutricionista, quiere enviar recomendaciones. | Given usuario disponible, When envía mensaje, Then entrega. <br> Given usuario no disponible, When envía, Then almacena. | EP-05 |
+| US-16 | Notificaciones | Como usuario, quiere notificaciones. | Given evento relevante, When ocurre, Then notifica. <br> Given revocación, When ejecuta, Then elimina acceso. | EP-05 |
+| US-17 | Soporte | Como usuario, quiere soporte. | Given solicitud, When envía, Then registra caso. <br> Given seguimiento, When consulta, Then muestra estado. | EP-05 |
+| EP-06 | Landing Page | Sitio web informativo para visitantes. | N/A | - |
+| US-18 | Propuesta de Valor | Como visitante, quiere entender beneficios. | Given acceso, When navega, Then muestra propuesta de valor. | EP-06 |
+| US-19 | Acceso | Como visitante, quiere iniciar sesión. | Given acción, When ejecuta, Then redirige correctamente. | EP-06 |
+| US-20 | Navegación | Como visitante, quiere navegar secciones. | Given selección, When navega, Then muestra contenido. | EP-06 |
+| US-21 | Beneficios | Como visitante, quiere ver beneficios. | Given acceso, When consulta, Then muestra información. | EP-06 |
+| US-22 | Exploración | Como visitante, quiere explorar beneficios. | Given navegación, When interactúa, Then muestra detalles. | EP-06 |
+| US-23 | Testimonios | Como visitante, quiere ver testimonios. | Given acceso, When consulta, Then muestra testimonios. | EP-06 |
+| US-24 | Footer | Como visitante, quiere usar enlaces. | Given selección, When accede, Then redirige correctamente. | EP-06 |
+| US-25 | Responsive | Como visitante, quiere acceso multidispositivo. | Given dispositivo, When accede, Then adapta contenido. | EP-06 |
+| EP-07 | Visualización Detallada | Funciones avanzadas de visualización. | N/A | - |
+| US-26 | Recetas | Como usuario, quiere ver recetas. | Given acceso, When consulta, Then muestra recetas. <br> Given selección, When guarda, Then registra preferencia. | EP-07 |
+| US-27 | Tracking | Como usuario, quiere seguimiento. | Given datos, When consulta, Then muestra estado. | EP-07 |
+| US-28 | Recomendaciones | Como usuario, quiere recomendaciones. | Given actividad, When analiza, Then sugiere. | EP-07 |
+| EP-08 | Gestión Profesional | Registro de nutricionistas. | N/A | - |
+| US-29 | Registro Nutricionista | Como nutricionista, quiere registrarse. | Given datos válidos, When envía, Then crea cuenta. | EP-08 |
+| US-30 | Perfil Profesional | Como nutricionista, quiere gestionar perfil. | Given cambios, When guarda, Then actualiza perfil. | EP-08 |
+| US-37 | Notificaciones Profesionales | Como nutricionista, quiere notificaciones. | Given actividad, When ocurre, Then notifica. | EP-08 |
+| EP-09 | Contenido Educativo | Gestión de contenido. | N/A | - |
+| US-31 | Publicación | Como nutricionista, quiere publicar contenido. | Given contenido válido, When publica, Then es visible. | EP-09 |
+| US-32 | Gestión Contenido | Como nutricionista, quiere organizar contenido. | Given categorías, When asigna, Then clasifica contenido. | EP-09 |
+| US-39 | Biblioteca | Como nutricionista, quiere recursos. | Given búsqueda, When consulta, Then muestra resultados. | EP-09 |
+| EP-10 | Comunicación | Interacción usuario-nutricionista. | N/A | - |
+| US-33 | Chat | Como nutricionista, quiere comunicarse. | Given mensaje, When envía, Then entrega. | EP-10 |
+| US-34 | Gestión Consultas | Como nutricionista, quiere organizar consultas. | Given consulta, When gestiona, Then actualiza estado. | EP-10 |
+| US-38 | Seguimiento | Como nutricionista, quiere monitorear usuarios. | Given datos, When analiza, Then muestra progreso. | EP-10 |
+| EP-11 | Monetización | Suscripciones y analytics. | N/A | - |
+| US-35 | Suscripciones | Como nutricionista, quiere configurar planes. | Given configuración, When guarda, Then aplica cambios. | EP-11 |
+| US-36 | Suscriptores | Como nutricionista, quiere ver suscriptores. | Given datos, When consulta, Then muestra lista. | EP-11 |
+| US-40 | Analytics | Como nutricionista, quiere estadísticas. | Given datos, When consulta, Then muestra métricas. | EP-11 |
+| EP-12 | IA e IoT | Integración con IA y dispositivos. | N/A | - |
+| US-41 | Hidratación IoT | Como usuario, quiere registro automático. | Given consumo, When detecta, Then sincroniza. <br> Given bajo consumo, When evalúa, Then alerta. | EP-12 |
+| US-42 | Peso IoT | Como usuario, quiere registro de peso. | Given medición, When detecta, Then sincroniza. | EP-12 |
+| US-43 | IA Recomendaciones | Como usuario, quiere recomendaciones IA. | Given datos, When analiza, Then sugiere ajustes. | EP-12 |
+| US-44 | Coach Virtual | Como usuario, quiere guía. | Given consulta, When interactúa, Then responde. | EP-12 |
+| US-45 | Entrenamiento IA | Como nutricionista, quiere entrenar IA. | Given datos, When entrena, Then mejora modelo. | EP-12 |
+| US-46 | Límite IA | Como usuario, quiere control de IA. | Given límite alcanzado, When detecta, Then restringe interacción. | EP-12 |
 
 ### 3.2. Impact Mapping.
 El **Impact Map** es una herramienta visual que permite relacionar los objetivos de negocio con las personas involucradas, los impactos esperados, los entregables y las historias de usuario asociadas.  
@@ -2342,6 +2415,565 @@ La estrategia de modelado para el contexto de Pagos se centra en la Trazabilidad
 
 ![Database Diagram](./assets/TB1/bc8_database_diagram.png)
 
+
+## Capítulo V: Solution UI/UX Design
+
+### 5.1. Style Guidelines
+
+#### 5.1.1. General Style Guidelines
+
+En esta seccion, hemos decidido establecer ciertas directrices del estilo las cuales pueden garantizar coherencia visual y de comunicación en las aplicaciones.
+Para lograr esto, vamos a detallar 4 puntos clave, relacionados al branding, tipografía, colores, spacing y el tono de comunicación. 
+
+**Branding**
+El logotipo de nuestra marca está representado por el nombre de nuestro producto ¨JameoFit¨ en una tipografía moderna y limpia. La palabra “Jameo” está en verde, transmitiendo vitalidad, salud y conexión con la naturaleza, mientras que “Fit” está en azul, simbolizando confianza, tecnología y bienestar. Con esta combinación buscamos reflejar el propoósito de la marca, el cual es promover un estilo de vida mas saludable y equilibrado, mediante el uso de herramientas digitales confiables y sencillas de usar.
+
+![Logotipo](./assets/TP/logotipo-jameofit.png)
+
+**Lenguaje Aplicado**
+Al combinar el verde, que es una representación de salud y vitalidad, con el azul, que simboliza confianza, reflejamos el compromiso que tiene JameoFit con un estilo de vida saludable y accesible. Representamos un lenguaje cercano, motivador y bastante inclusivo, diseñado para inspirar hábitos sostenibles y transmitir confianza.
+
+**Paleta de Colores**
+La paleta de colores de JameoFit transmite salud, energía y confianza. El verde principal (#10B34C) simboliza vitalidad y bienestar, mientras que el azul (#099FE1) comunica tecnología y profesionalismo. El blanco (#FFFFFF) aporta equilibrio y claridad, haciendo que el contenido sea fácil de leer, y el gris claro (#D1D5DB) se utiliza para dar suavidad y orden a secciones secundarias, manteniendo una experiencia visual limpia y agradable.
+
+![Paleta de Colores](./assets/TP/paleta-colores-jameofit.png)
+
+**Tipografía**
+Nuestra tipografía principal es Poppins, elegida por su estética moderna, limpia y su legibilidad. Su diseño aporta profesionalismo y frescura, destacando sobre todo los titulos y encabezados, mientras que sus pesos más livianos permiten una cómoda lectura en textos mas largo. 
+
+- Para titulos 
+
+![Titulos de texto](./assets/TP/formato-titulos-texto.png)
+
+- Para cuerpo de texto
+
+![Cuerpo de texto](./assets/TP/formato-cuerpo-texto.png)
+
+- Espaciado
+Nos basamos principalmente en las recomendaciones de especialistas en el diseño de interfaces. Las principales sugerencias son que las lineas de los parrafos sean 1.5 veces del tamaño de la letra para que así los textos resulten faciles de leer.
+
+![Espaciado](./assets/TP/formato-espaciado.png)
+
+
+
+
+#### 5.1.2. Web, Mobile and IoT Style Guidelines
+
+### 5.2. Information Architecture
+
+La arquitectura de información de JameoFit se prioriza una experiencia directa y guiada: el usuario llega a la Home con accesos rápidos (Editar preferencias, Ver progreso, Registrar comida) y tarjetas a módulos clave (Plan de comidas, Recordatorios, Sugerencias, Snack del día, Actividad reciente). Se refuerzan métricas semanales (calorías, proteínas, grasas) y estados de progreso con mensajes motivacionales e insignias.
+
+En la Landing, se comunica nuestra propuesta de valor (“Eat Well, Live Better / Smart nutrition…”) con CTA primario (“Start for free today”) y secciones de “How does it work?”, beneficios y footer con enlaces legales y contacto.
+
+
+#### 5.2.1. Organization Systems
+
+Para JameoFit, se definieron distintos esquemas de organización según el tipo de contenido y la experiencia del usuario.
+
+**Jerárquica (Visual Hierarchy):** <br>
+En el Home, los módulos principales y accesos rápidos se presentan como tarjetas destacadas, como Plan de comidas, Recordatorios y Sugerencias. También se priorizan los indicadores de progreso semanal y la actividad reciente. En la Landing Page, la propuesta de valor y el CTA principal se ubican en la parte superior, luego se da la explicacion del funcionamiento del dispositivo IoT, seguidos de secciones como “What does Jameo Fit do for you?” y “How does it work?” organizadas según su relevancia.
+
+**Secuencial (Step-by-step):** <br>
+El onboarding se desarrolla en pasos consecutivos donde el usuario completa información personal como nombre, edad, peso, objetivo y nivel de actividad hasta finalizar el registro. Asimismo, la recuperación de contraseña sigue un flujo simple: ingreso de correo y confirmación de envío.
+
+**Por tópicos:** <br>
+La información se agrupa según funcionalidades específicas. Por ejemplo, el Plan de comidas incluye agenda semanal, menú diario, ingredientes, datos nutricionales y opciones como “Descargar receta” o “Generar nuevo”. Los módulos de Recordatorios, Preferencias y Sugerencias también se organizan por categorías relacionadas. Ademas, la hero section introduce el tópico del dispositivo IoT y el tracking automático.
+
+**Según audiencia (Personalización):** <br>
+La pantalla principal se adapta a cada usuario mostrando saludo personalizado, progreso, insignias y mensajes motivacionales basados en su actividad y objetivos.
+
+#### 5.2.2. Labelling Systems
+
+El sistema de etiquetado de JameoFit se enfoca en mantener una comunicación clara, directa y fácil de entender para el usuario. Las etiquetas fueron definidas utilizando términos simples y reconocibles dentro de la interfaz.
+
+**Acciones con verbos descriptivos:** <br>
+Se utilizan acciones concretas como Editar preferencias, Ver progreso, Registrar comida, Guardar cambios, Actualizar objetivos y Generar nuevo para desayuno, almuerzo o cena. También se incluyen opciones como Descargar receta o Descargar información en PDF. Por último, se consideran las acciones de Conectar dispositivo y Ver dispositos vinculados referente a la conexión IoT.
+
+**Categorías uniformes:** <br>
+Los módulos principales mantienen nombres consistentes dentro de toda la plataforma, como Plan de comidas, Recordatorios, Sugerencias, Actividad reciente, Smart Tracking, Dispositivos Conectados, Insignias ganadas y Resumen del día.
+
+**Mensajes y estados comprensibles:** <br>
+Se emplean mensajes simples y visibles para informar el estado del sistema, por ejemplo: Días sin registro, Alertas activadas Sí/No, Progreso semanal y placeholders como 0 kcal o porción 0g.
+
+**Contenido de la landing orientado al usuario:** <br>
+Los textos de la landing page están enfocados en explicar beneficios y funcionamiento de manera rápida mediante frases como What does Jameo Fit do for you?, How does it work? y Start for free today, aparte se consideran frases explicativas referentes al funcionamiento del dipositivo IoT, como con la frase: Monitor your nutrition automatically.
+
+#### 5.2.3. SEO Tags and Meta Tags
+
+Para mejorar la visibilidad de JameoFit en motores de búsqueda y en tiendas de aplicaciones, se han definido los siguientes valores de optimización:
+
+### **Landing:**
+- Title: JameoFit -- Smart nutrition tracking for individuals & professionals.
+- Meta Description: Platform that connects young adults with nutritionists, offering personalized plans, real-time tracking and simple, visual tools.
+- Connect IoT devices for automatic hydration and weight tracking
+- Primary CTA text (visible): Start for free today.
+### **App:**
+- Title: JameoFit
+- Subtitle: Smart nutrition & tracking
+- Short Keywords: nutrition, meal plan, tracking, smart device, IoT, tips, goals (alineadas a módulos: plan de comidas, recordatorios, sugerencias, objetivos).
+- Description: Connect with nutritionists, get adaptive meal plans, track weekly progress, receive tips and reminders.
+
+
+#### 5.2.4. Searching Systems
+
+JameoFit contará con Filtros/selección existentes (visibles): 
+
+- Posibilidad de elección de objetivos (Ganar músculo, Perder peso, etc.) 
+
+- Ajuste de frecuencia de recordatorios (Diario/Semanal/Personalizado).
+
+
+#### 5.2.5. Navigation Systems
+
+La navegación de JameoFit se basa en patrones simples e intuitivos tanto para la aplicación móvil como para la aplicación web, con el objetivo de reducir la curva de aprendizaje y facilitar el acceso a las funcionalidades principales:
+
+**Acceso desde Home a módulos clave mediante tarjetas:** En ambas plataformas, los usuarios pueden acceder a módulos clave mediante tarjetas o accesos visuales como Plan de comidas, Recordatorios, Sugerencias, Snack del día y Actividad reciente. En la versión web, estos módulos también pueden complementarse con un menú lateral de navegación para mejorar la accesibilidad.
+
+
+**Flujos guiados:** Onboarding paso a paso (Continuar), recuperación de contraseña con confirmación, flujos por comida (Desayuno/Almuerzo/Cena) con acciones claras (Generar nuevo, Descargar) y flujos de conexion de dispositivo(detectar dispositivo, autorizar, confirmar vinculación, redirigir a Home).
+
+
+**Navegación contextual en Plan de comidas:** Los usuarios pueden navegar desde una vista semanal hacia el menú diario y posteriormente acceder al detalle de cada comida, donde se muestran ingredientes, porciones y calorías. Además, se incluyen acciones para regenerar planes o descargar información.
+
+
+**Landing:** La landing mantiene una jerarquía lineal organizada en secciones: Hero principal con CTA, beneficios, explicación del funcionamiento, acceso a prueba gratuita y footer con enlaces como Contact, Terms, Privacy y selector de idioma.
+
+
+
+### 5.3. Landing Page UI Design
+
+#### 5.3.1. Landing Page Wireframe
+
+### **Landing Page Wireframe Mobile**
+
+![Mobile-Landing-Wireframe-1](./assets/TP/landing-wireframe-mobile-1.png)
+
+![Mobile-Landing-Wireframe-2](./assets/TP/landing-wireframe-mobile-2.png)
+
+![Mobile-Landing-Wireframe-3](./assets/TP/landing-wireframe-mobile-3.png)
+
+![Mobile-Landing-Wireframe-4](./assets/TP/landing-wireframe-mobile-4.png)
+
+![Mobile-Landing-Wireframe-5](./assets/TP/landing-wireframe-mobile-5.png)
+
+![Mobile-Landing-Wireframe-6](./assets/TP/landing-wireframe-mobile-6.png)
+
+### **Landing Page Wireframe Web**
+
+![Web-Landing-Wireframe-1](./assets/TP/landing-wireframe-web-1.png)
+
+![Web-Landing-Wireframe-2](./assets/TP/landing-wireframe-web-2.png)
+
+![Web-Landing-Wireframe-3](./assets/TP/landing-wireframe-web-3.png)
+
+![Web-Landing-Wireframe-4](./assets/TP/landing-wireframe-web-4.png)
+
+![Web-Landing-Wireframe-5](./assets/TP/landing-wireframe-web-5.png)
+
+![Web-Landing-Wireframe-6](./assets/TP/landing-wireframe-web-6.png)
+
+<br>
+
+#### 5.3.2. Landing Page Mock-Up
+
+### **Landing Page Mock-Up Mobile**
+
+![Mobile-Landing-Mock-Up-1](./assets/TP/landing-mock-up-mobile-1.png)
+
+![Mobile-Landing-Mock-Up-2](./assets/TP/landing-mock-up-mobile-2.png)
+
+![Mobile-Landing-Mock-Up-3](./assets/TP/landing-mock-up-mobile-3.png)
+
+![Mobile-Landing-Mock-Up-4](./assets/TP/landing-mock-up-mobile-4.png)
+
+![Mobile-Landing-Mock-Up-5](./assets/TP/landing-mock-up-mobile-5.png)
+
+![Mobile-Landing-Mock-Up-6](./assets/TP/landing-mock-up-mobile-6.png)
+
+### **Landing Page Mock-Up Web**
+
+![Web-Landing-Mock-Up-1](./assets/TP/landing-mock-up-web-1.png)
+
+![Web-Landing-Mock-Up-2](./assets/TP/landing-mock-up-web-2.png)
+
+![Web-Landing-Mock-Up-3](./assets/TP/landing-mock-up-web-3.png)
+
+![Web-Landing-Mock-Up-4](./assets/TP/landing-mock-up-web-4.png)
+
+![Web-Landing-Mock-Up-5](./assets/TP/landing-mock-up-web-5.png)
+
+![Web-Landing-Mock-Up-6](./assets/TP/landing-mock-up-web-6.png)
+
+Figma: https://www.figma.com/design/9ozeTUfaBHSrUjMi132YiK/Wireframes-y-Mock-Ups-Landing-Page?node-id=0-1&t=d7F1zczXJZd26mhP-1
+
+
+### 5.4. Applications UX/UI Design
+
+#### 5.4.1. Applications Wireframes
+
+![Web-App-Wireframe-1](./assets/TP/wireframes-web-1.png)
+
+![Web-App-Wireframe-2](./assets/TP/wireframes-web-2.png)
+
+![Web-App-Wireframe-3](./assets/TP/wireframes-web-3.png)
+
+![Web-App-Wireframe-4](./assets/TP/wireframes-web-4.png)
+
+![Web-App-Wireframe-5](./assets/TP/wireframes-web-5.png)
+
+![Web-App-Wireframe-6](./assets/TP/wireframes-web-6.png)
+
+![Web-App-Wireframe-7](./assets/TP/wireframes-web-7.png)
+
+![Web-App-Wireframe-8](./assets/TP/wireframes-web-8.png)
+
+![Web-App-Wireframe-9](./assets/TP/wireframes-web-9.png)
+
+![Web-App-Wireframe-10](./assets/TP/wireframes-web-10.png)
+
+![Web-App-Wireframe-11](./assets/TP/wireframes-web-11.png)
+
+![Web-App-Wireframe-12](./assets/TP/wireframes-web-12.png)
+
+![Web-App-Wireframe-13](./assets/TP/wireframes-web-13.png)
+
+![Web-App-Wireframe-14](./assets/TP/wireframes-web-14.png)
+
+![Web-App-Wireframe-15](./assets/TP/wireframes-web-15.png)
+
+![Web-App-Wireframe-16](./assets/TP/wireframes-web-16.png)
+
+
+
+#### 5.4.2. Applications Wireflow Diagrams
+
+#### 5.4.3. Applications Mock-Ups
+
+
+![Web-Page-Mock-Up-1](./assets/TP/mockup-web-1.png)
+
+![Web-Page-Mock-Up-2](./assets/TP/mockup-web-2.png)
+
+![Web-Page-Mock-Up-3](./assets/TP/mockup-web-3.png)
+
+![Web-Page-Mock-Up-4](./assets/TP/mockup-web-4.png)
+
+![Web-Page-Mock-Up-5](./assets/TP/mockup-web-5.png)
+
+![Web-Page-Mock-Up-6](./assets/TP/mockup-web-6.png)
+
+![Web-Page-Mock-Up-7](./assets/TP/mockup-web-7.png)
+
+![Web-Page-Mock-Up-8](./assets/TP/mockup-web-8.png)
+
+![Web-Page-Mock-Up-9](./assets/TP/mockup-web-9.png)
+
+![Web-Page-Mock-Up-10](./assets/TP/mockup-web-10.png)
+
+![Web-Page-Mock-Up-11](./assets/TP/mockup-web-11.png)
+
+![Web-Page-Mock-Up-12](./assets/TP/mockup-web-12.png)
+
+![Web-Page-Mock-Up-13](./assets/TP/mockup-web-13.png)
+
+![Web-Page-Mock-Up-14](./assets/TP/mockup-web-14.png)
+
+![Web-Page-Mock-Up-15](./assets/TP/mockup-web-15.png)
+
+
+
+Figma Diseño Web: https://www.figma.com/design/Y9lQwA05Rs7sm3rJ883hfG/Wireframes-y-Mock-Ups---Web-y-Mobile?node-id=24-48&t=RrVny1lvB3VhkVti-1
+
+
+## Capítulo VI: Product Implementation & Validation
+
+### 6.1. Software Configuration Management
+
+#### 6.1.1. Software Development Environment Configuration
+
+**Android Studio:** Entorno de desarrollo integrado (IDE) oficial para aplicaciones Android, que ofrece herramientas para programar, depurar y probar de forma eficiente.
+
+![alt text](assets/TP/SD1.png)
+
+**WebStorm:** Entorno de desarrollo integrado (IDE) especializado en desarrollo web moderno, que ofrece herramientas avanzadas para trabajar con frameworks como Vue, facilitando la escritura, depuración y mantenimiento del código frontend.
+
+![alt text](assets/TP/SD10.png)
+
+**Vue.js:** Framework progresivo de JavaScript utilizado para construir interfaces de usuario dinámicas y reactivas, ideal para el desarrollo del frontend de aplicaciones web modernas.
+
+![alt text](assets/TP/SD9.png)
+
+
+**GitHub:** Plataforma de control de versiones y colaboración en la nube, ideal para gestionar repositorios y trabajar en equipo mediante Git.
+
+![alt text](assets/TP/SD2.png)
+
+**GitHub Pages:** Servicio de hosting estático que permite desplegar fácilmente sitios web directamente desde un repositorio, como por ejemplo una Landing Page.
+
+![alt text](assets/TP/SD3.png)
+
+**Vertabelo:** Plataforma en línea para el diseño y modelado colaborativo de bases de datos, con soporte para distintos motores de bases de datos.
+
+![alt text](assets/TP/SD4.png)
+
+**Visual Studio Code:** Editor de código ligero y multiplataforma, ampliamente usado para programación y tareas de desarrollo, incluyendo soporte para diseño y gestión de bases de datos mediante extensiones.
+
+![alt text](assets/TP/SD5.png)
+
+**Figma:** Herramienta de diseño colaborativo en línea que facilita la creación de wireframes, mockups y prototipos interactivos.
+
+![alt text](assets/TP/SD6.png)
+
+**Structurizr:** Herramienta para la creación y visualización de diagramas de arquitectura de software basados en el modelo C4, que facilita documentar sistemas de manera clara y estructurada.
+
+![alt text](assets/TP/SD7.png)
+
+**AWS (Amazon Web Services):** Plataforma en la nube de Amazon que permite desplegar, administrar y escalar aplicaciones de manera segura, flexible y altamente disponible.
+
+![alt text](assets/TP/SD8.png)
+
+#### 6.1.2. Source Code Management
+
+**Implementación de GitFlow:**
+
+Para nuestra estrategia de gestión de versiones con Git, nos hemos inspirado en el artículo "A successful Git branching model" de Vincent Driessen, adoptando el modelo de ramificación GitFlow. Este enfoque nos permite establecer claramente las convenciones de ramificación que aplicamos en nuestro proyecto.
+
+![alt text](assets/TP/S1.png)
+
+- Rama Principal (Main branch): Contiene el código en producción y se conoce como la Master branch o Main branch.
+
+  - Notación: main 
+
+- Rama de Desarrollo (Develop branch): Acumula las últimas actualizaciones y cambios para la próxima versión. Funciona como un entorno de integración y prueba continua. 
+
+  - Notación: develop
+
+- Rama de Lanzamiento (Release branch): Facilita la preparación de una nueva versión del producto, permitiendo correcciones de errores y recibiendo más actualizaciones de Develop. 
+
+  - Debe derivarse de: develop
+  - Debe fusionarse con: develop y master/main
+  - Notación: release
+
+- Rama de Características (Feature branch): Se utiliza para desarrollar nuevas funcionalidades para la siguiente versión o futuras iteraciones.
+
+  - Debe derivarse de: develop
+  - Debe fusionarse de vuelta a: develop
+  - Notación: feature
+
+- Rama de Corrección Rápida (Hotfix branch): Aborda errores críticos en producción, permitiendo la implementación rápida de soluciones.
+  - Debe derivarse de: master/main
+  - Debe fusionarse con: develop y master/main
+  - Notación: hotfix
+
+**Conventional Commits:** Adoptamos esta metodología para estructurar los mensajes de confirmación de cambios de manera estándar y semántica, lo que facilita la comunicación y la automatización de registros de cambios. 
+
+**Tipos de Commits Convencionales:**
+- feat: Nuevas características o funcionalidades. 
+- fix: Correcciones de errores. 
+- docs: Cambios o mejoras en la documentación. 
+- style: Cambios de formato que no afectan la funcionalidad.
+- refactor: Mejoras en la estructura o legibilidad del código. 
+- test: Adición o modificación de pruebas. 
+- chore: Cambios en el proceso de construcción o tareas de mantenimiento. 
+- perf: Mejoras de rendimiento en el código. 
+
+#### 6.1.3. Source Code Style Guide & Conventions
+
+**HTML**
+
+Lenguaje de marcado utilizado para estructurar el contenido de las páginas web. Su estilo busca claridad, semántica y consistencia para facilitar la lectura y el mantenimiento del código.
+
+| Regla | Ejemplo / Explicación |
+|------|----------------------|
+| Etiquetas y atributos en minúsculas | `<div class="container">`, `<img src="logo.png" alt="Logo">` |
+| Atributos ordenados lógicamente | class, id, name, type, value, etc |
+| Uso de comillas dobles | `<input type="text" name="username">` |
+| Indentación consistente (2 o 4 espacios) | No mezclar espacios con tabs |
+
+**CSS**
+
+Lenguaje de hojas de estilo que define la presentación de los documentos HTML. Una convención clara en nombres, propiedades e indentación permite mantener estilos organizados y escalables.
+
+| Regla | Ejemplo / Explicación |
+|------|----------------------|
+| Nombres de clases en kebab-case | `.main-header`, `.user-profile-card` |
+| Propiedades en minúsculas y ordenadas | `color: #333; font-size: 16px; margin-top: 20px;` |
+| Uso de comentarios | `/* Sección de estilos para el header */` |
+| Indentación consistente | 2 o 4 espacios, no usar tabs |
+
+**JavaScript**
+
+Lenguaje de programación interpretado que agrega interactividad y lógica a las páginas web. El uso de convenciones consistentes mejora la legibilidad, evita errores y facilita la colaboración entre desarrolladores.
+
+| Regla | Ejemplo / Explicación |
+|------|----------------------|
+| Variables y funciones en camelCase | `let userName = "Juan";`, `function getUserData() {}` |
+| Clases en PascalCase | `class UserProfile {}` |
+| Constantes en UPPER_SNAKE_CASE | `const API_URL = "https://api.example.com";` |
+| Uso de const y let | Evitar `var`, usar `const` por defecto y `let` si se necesita mutabilidad |
+| Punto y coma al final de líneas | `let nombre = "Carlos";` |
+| Indentación consistente (2 o 4 espacios) | Mantener el mismo estilo en todo el proyecto |
+
+**React**
+
+Biblioteca de JavaScript para construir interfaces de usuario dinámicas y declarativas. Permite dividir la aplicación en componentes reutilizables y manejar de forma eficiente el estado y el ciclo de vida. Su estilo busca claridad, modularidad y consistencia en el desarrollo de frontend moderno.
+
+| Regla | Ejemplo / Explicación |
+|------|----------------------|
+| Componentes en PascalCase | `const NavBar = () => { ... }` |
+| Hooks y funciones en camelCase | `useTranslation()`, `handleClick()` |
+| Un solo componente por archivo | `NavBar.jsx` debe contener únicamente el componente NavBar |
+| Uso de JSX legible y sangrado correcto | `{ condition && <Component /> }` con indentación clara |
+| Archivos con extensión .jsx o .tsx | Indica explícitamente que el archivo contiene JSX |
+| Uso de fragmentos <> </> | Para evitar `<div>` innecesarios |
+
+
+**Kotlin**
+
+Lenguaje moderno, estático y conciso que corre sobre la JVM. Se usa principalmente para desarrollo Android y backend, fomentando la inmutabilidad y un código más legible y seguro.
+
+| Regla | Ejemplo / Explicación |
+|------|----------------------|
+| Variables y funciones en camelCase | `val userName = "Juan"`, `fun getUserData() {}` |
+| Clases en PascalCase | `class UserProfile`, `object AppConfig` |
+| Constantes en UPPER_SNAKE_CASE | `const val MAX_USERS = 100` |
+| Archivos nombrados igual que la clase | `UserProfile.kt` |
+| Indentación con 4 espacios | No usar tabs |
+| Uso de val por defecto, var si mutable | Promueve inmutabilidad |
+| Expresiones lambda con it | `users.filter { it.isActive }` |
+
+**Vue**
+
+Framework progresivo de JavaScript para construir interfaces de usuario reactivas y basadas en componentes. Permite organizar el frontend de manera modular, facilitando la reutilización de código y el mantenimiento.
+
+| Regla                                         | Ejemplo / Explicación                                  |
+| --------------------------------------------- | ------------------------------------------------------ |
+| Componentes en PascalCase                     | `UserCard.vue`, `NavBar.vue`                           |
+| Uso de estructura SFC (Single File Component) | `<template>`, `<script>`, `<style>` en un solo archivo |
+| Variables y métodos en camelCase              | `userName`, `getUserData()`                            |
+| Props declaradas explícitamente               | `props: { title: String }`                             |
+| Uso de v-bind y v-on abreviados               | `:src="image"`, `@click="handleClick"`                 |
+| Computed properties para lógica derivada      | `computed: { fullName() { ... } }`                     |
+| Indentación consistente                       | 2 o 4 espacios, sin mezclar tabs                       |
+
+#### 6.1.4. Software Deployment Configuration
+
+### Deployment Landing Page:
+
+En esta sección, detallamos el proceso de implementación de nuestra landing page en la plataforma de GitHub.
+
+1. Se crea un repositorio en GitHub para alojar el código de nuestra landing page.
+
+![alt text](assets/TP/G1.png)
+
+2. Agregamos a los participantes:
+
+![alt text](assets/TP/G2.png)
+
+3. Habilitamos Github Pages para poder importar nuestro proyecto:
+
+![alt text](assets/TP/G3.png)
+
+4. Finalmente, se confirma el despliegue de nuestra página web después de completar todo el procedimiento.
+
+![alt text](assets/TP/G4.png)
+
+Este proceso garantiza el despliegue satisfactorio de nuestra landing page en la plataforma de Github Pages, siguiendo las especificaciones y requisitos de nuestro proyecto.
+
+Enlace de la Landing Page: https://g2-aplicaciones-moviles.github.io/Landing-Page/
+
+---
+
+### Deployment Backend:
+
+En esta sección, se detalla el proceso de implementación del backend del proyecto Jameofit utilizando los servicios de Amazon Web Services (AWS).
+
+A continuación, se describen los principales componentes y configuraciones involucradas en el despliegue.
+
+1. **Entorno Elastic Beanstalk**
+
+La aplicación backend se despliega mediante AWS Elastic Beanstalk, un servicio que permite administrar automáticamente la infraestructura necesaria para ejecutar aplicaciones web. En la primera captura se observa el entorno Jameofit-backend-env, cuyo estado se encuentra Ok, indicando un despliegue exitoso y una aplicación corriendo correctamente sobre la plataforma Corretto 21 (Java 17) en Amazon Linux 2023.
+
+![alt text](assets/TP/G5.png)
+
+2. **Base de Datos RDS (PostgreSQL)**
+
+El servicio Amazon RDS (Relational Database Service) se utiliza para la gestión de la base de datos del backend. En la segunda captura se muestra la instancia jameofit-db, configurada con el motor PostgreSQL y actualmente en estado Disponible. La instancia pertenece a la clase db.t3.micro, optimizada para entornos de desarrollo o pruebas, y está desplegada en la región us-east-2a.
+
+![alt text](assets/TP/G6.png)
+
+3. **Usuario IAM para Integración Continua (GitHub Actions)**
+
+Para automatizar el despliegue del backend desde GitHub, se creó un usuario IAM denominado github-actions-jameofit. Este usuario cuenta con credenciales de acceso programático y permisos asignados para permitir la comunicación entre GitHub Actions y AWS Elastic Beanstalk. De esta manera, cada vez que se ejecuta un flujo de CI/CD, el código actualizado se publica automáticamente en el entorno de AWS.
+
+![alt text](assets/TP/G7.png)
+
+4. **Roles IAM Asociados a los Servicios**
+
+Finalmente, se observan los roles IAM configurados para los diferentes servicios de AWS involucrados en el despliegue, como Elastic Beanstalk, EC2, Auto Scaling y RDS. Estos roles son fundamentales para que los servicios puedan interactuar entre sí de forma segura y automatizada, garantizando una gestión adecuada de recursos y permisos.
+
+![alt text](assets/TP/G8.png)
+
+Enlace del backend: http://jameofit-backend-env.eba-fzj57hq8.us-east-2.elasticbeanstalk.com/swagger-ui/index.html
+
+### Deployment Frontend:
+
+En esta sección se detalla el proceso de despliegue del frontend del proyecto Jameofit, desarrollado con Vue.js, utilizando la plataforma Vercel para lograr una implementación rápida, automática y escalable.
+
+A continuación, se describen los pasos principales:
+
+1. Preparación del Proyecto
+
+Antes del despliegue, se verifica que el proyecto funcione correctamente en entorno local ejecutando:
+
+npm install  
+npm run dev  
+
+Asimismo, se valida que el proyecto esté configurado correctamente para producción mediante:
+
+npm run build  
+
+2. Subida del Proyecto a GitHub
+
+El código fuente del frontend se sube a un repositorio en GitHub, lo cual permitirá la integración continua con Vercel.
+
+3. Importación del Proyecto en Vercel
+
+Se accede a la plataforma Vercel  
+Se selecciona la opción “Add New Project”  
+Se importa el repositorio desde GitHub  
+Vercel detecta automáticamente que se trata de un proyecto con Vue  
+
+4. Configuración del Proyecto
+
+Vercel configura automáticamente:
+
+Framework: Vue  
+Build Command: npm run build  
+Output Directory: dist  
+
+En caso sea necesario, estos valores pueden ajustarse manualmente.
+
+5. Variables de Entorno
+
+Se configura la URL del backend desplegado en AWS:
+
+VITE_API_URL=http://jameofit-backend-env.eba-fzj57hq8.us-east-2.elasticbeanstalk.com  
+
+Esto permite que el frontend consuma correctamente los servicios backend.
+
+6. Despliegue Automático
+
+Una vez configurado:
+
+Vercel ejecuta automáticamente el build del proyecto  
+Genera una URL pública (ej: https://jameofit.vercel.app)  
+Cada cambio enviado a GitHub genera un nuevo despliegue automático (CI/CD)  
+
+7. Acceso a la Aplicación
+
+El frontend queda disponible a través de la URL proporcionada por Vercel, con alta disponibilidad y distribución global mediante CDN.
+
 ### 4.3 Referencias Bibliográficas
 
 Organización Mundial de la Salud. (2025). Noncommunicable diseases.  
@@ -2357,3 +2989,8 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10337248/
 Instituto Nacional de Estadística e Informática (INEI). (2023).  
 Las Tecnologías de Información y Comunicación en los Hogares: Oct-Nov-Dic 2023.  
 https://www.gob.pe/institucion/inei/informes-publicaciones/5408920-las-tecnologias-de 
+
+### Videos de Exposiciones
+
+AV1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323270_upc_edu_pe/IQA-8Ea3XJJ4SKV4BOhLQeF3AaoSDORI-u2m4FrHy1KFbKc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=r9G8pP
+
