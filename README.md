@@ -2609,15 +2609,80 @@ Figma: https://www.figma.com/design/9ozeTUfaBHSrUjMi132YiK/Wireframes-y-Mock-Ups
 
 ### 5.4. Applications UX/UI Design
 
-Figma Wireframes - Mockups: https://www.figma.com/design/Y9lQwA05Rs7sm3rJ883hfG/Wireframes-y-Mock-Ups---Web-y-Mobile?node-id=0-1&t=oxYcLOsQJhpIglLg-1
-
-
 #### 5.4.1. Applications Wireframes
+
+![Web-App-Wireframe-1](./assets/TP/wireframes-web-1.png)
+
+![Web-App-Wireframe-2](./assets/TP/wireframes-web-2.png)
+
+![Web-App-Wireframe-3](./assets/TP/wireframes-web-3.png)
+
+![Web-App-Wireframe-4](./assets/TP/wireframes-web-4.png)
+
+![Web-App-Wireframe-5](./assets/TP/wireframes-web-5.png)
+
+![Web-App-Wireframe-6](./assets/TP/wireframes-web-6.png)
+
+![Web-App-Wireframe-7](./assets/TP/wireframes-web-7.png)
+
+![Web-App-Wireframe-8](./assets/TP/wireframes-web-8.png)
+
+![Web-App-Wireframe-9](./assets/TP/wireframes-web-9.png)
+
+![Web-App-Wireframe-10](./assets/TP/wireframes-web-10.png)
+
+![Web-App-Wireframe-11](./assets/TP/wireframes-web-11.png)
+
+![Web-App-Wireframe-12](./assets/TP/wireframes-web-12.png)
+
+![Web-App-Wireframe-13](./assets/TP/wireframes-web-13.png)
+
+![Web-App-Wireframe-14](./assets/TP/wireframes-web-14.png)
+
+![Web-App-Wireframe-15](./assets/TP/wireframes-web-15.png)
+
+![Web-App-Wireframe-16](./assets/TP/wireframes-web-16.png)
+
+
 
 #### 5.4.2. Applications Wireflow Diagrams
 
 #### 5.4.3. Applications Mock-Ups
 
+
+![Web-Page-Mock-Up-1](./assets/TP/mockup-web-1.png)
+
+![Web-Page-Mock-Up-2](./assets/TP/mockup-web-2.png)
+
+![Web-Page-Mock-Up-3](./assets/TP/mockup-web-3.png)
+
+![Web-Page-Mock-Up-4](./assets/TP/mockup-web-4.png)
+
+![Web-Page-Mock-Up-5](./assets/TP/mockup-web-5.png)
+
+![Web-Page-Mock-Up-6](./assets/TP/mockup-web-6.png)
+
+![Web-Page-Mock-Up-7](./assets/TP/mockup-web-7.png)
+
+![Web-Page-Mock-Up-8](./assets/TP/mockup-web-8.png)
+
+![Web-Page-Mock-Up-9](./assets/TP/mockup-web-9.png)
+
+![Web-Page-Mock-Up-10](./assets/TP/mockup-web-10.png)
+
+![Web-Page-Mock-Up-11](./assets/TP/mockup-web-11.png)
+
+![Web-Page-Mock-Up-12](./assets/TP/mockup-web-12.png)
+
+![Web-Page-Mock-Up-13](./assets/TP/mockup-web-13.png)
+
+![Web-Page-Mock-Up-14](./assets/TP/mockup-web-14.png)
+
+![Web-Page-Mock-Up-15](./assets/TP/mockup-web-15.png)
+
+
+
+Figma Diseño Web: https://www.figma.com/design/Y9lQwA05Rs7sm3rJ883hfG/Wireframes-y-Mock-Ups---Web-y-Mobile?node-id=24-48&t=RrVny1lvB3VhkVti-1
 
 
 ## Capítulo VI: Product Implementation & Validation
