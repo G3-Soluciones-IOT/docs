@@ -2692,6 +2692,168 @@ Video Explicacion: https://1drv.ms/v/c/ECB2589242F127CD/IQCn_AjV8dDfR6RxtZpabpWt
 Figma Diseño Web: https://www.figma.com/design/Y9lQwA05Rs7sm3rJ883hfG/Wireframes-y-Mock-Ups---Web-y-Mobile?node-id=24-48&t=RrVny1lvB3VhkVti-1
 
 
+
+### 5.6. Iot Device Desing
+
+La propuesta de diseño de los dispositivos IoT de JameoFit se fundamenta en tres criterios principales: integración directa con el protocolo MQTT para transmisión de datos en tiempo real, bajo consumo energético para uso cotidiano sin interrupciones, y coherencia estética con la guía de estilos de la plataforma. Los dispositivos actúan como la primera capa de captura de datos objetivos, complementando la experiencia digital con información biométrica sin intervención manual del usuario.
+ 
+Ambos dispositivos se construyen sobre el microcontrolador **ESP32 DevKit V1**, que ofrece conectividad Wi-Fi integrada, suficiente capacidad de procesamiento para el firmware embebido en C++ y un amplio ecosistema de bibliotecas open-source. La comunicación con el backend se realiza mediante el protocolo **MQTT**, publicando eventos al broker configurado en **AWS IoT Core**, donde el microservicio de Tracking los consume y actualiza la rutina alimentaria en tiempo real.
+
+* **Microcontrolador:** ESP32 DevKit V1
+* **Protocolo:** MQTT sobre Wi-Fi
+* **Broker:** AWS IoT Core
+* **Firmware:** C++ (Arduino framework)
+* **Simulator:** Wokwi
+
+ **Dispositivo 01: Botella Inteligente (Smart Bottle)**
+ 
+#### Descripción y criterios de diseño
+ 
+La Botella Inteligente monitorea el consumo de agua del usuario en tiempo real mediante un sensor de flujo de efecto Hall **YF-S201**. Cuando el usuario bebe, el flujo de agua hace girar la turbina interna del sensor, generando pulsos digitales que el ESP32 cuenta y convierte en mililitros usando la fórmula de calibración `mL = pulsos / 7.5`. Los datos se publican vía MQTT al tópico `jameofit/hydration/{userId}` cada vez que se detecta ingesta, actualizando el dashboard de Gestión de Objetivos instantáneamente.
+ 
+
+El diseño físico sigue la guía de estilos IoT de JameoFit: carcasa compacta de plástico ABS mate, con el LED RGB visible en la tapa superior y la pantalla OLED en la franja lateral. La carga se realiza mediante USB-C a través del módulo TP4056 integrado en la base.
+
+**Componentes**
+
+| Componente | Función |
+| :--- | :--- |
+| **ESP32 DevKit V1** | MCU principal — Wi-Fi, MQTT, lógica de negocio. |
+| **YF-S201** | Sensor de flujo Hall Effect — 1–30 L/min. |
+| **OLED SSD1306 (128×64)** | Display I2C 0.96" — retroalimentación visual. |
+| **WS2812B RGB LED** | Indicador de estado de hidratación. |
+| **LiPo 3.7V 2000mAh** | Fuente de energía recargable portátil. |
+| **TP4056 (USB-C)** | Módulo de carga y protección de LiPo. |
+
+<p align="center">
+  <img src="assets/TP/botella_iot.png" alt=" Botella Inteligente" width="700"/>
+</p>
+
+**Simulación en Wokwi**
+
+<p align="center">
+  <img src="assets/TP/wokwi_botella.png" alt="Simulación Wokwi – Botella Inteligente" width="700"/>
+</p>
+
+ **Nota de simulación:** En Wokwi, el botón azul reemplaza al sensor YF-S201. Cada pulsación equivale a un sorbo de 200 mL. En hardware real, el sensor genera pulsos digitales en GPIO4 mediante interrupción; la fórmula de conversión es `mL = pulsos / 7.5` (factor de calibración estándar del YF-S201).
+
+**Flujo de interacción**
+1. El usuario bebe agua. La turbina interna del **YF-S201** gira, generando pulsos digitales en `GPIO4` a una frecuencia proporcional al caudal.
+2. El **ESP32** acumula los pulsos y calcula el volumen consumido aplicando la fórmula de calibración: `volumen_mL = totalPulses / 7.5` (factor estándar del YF-S201).
+3. Cada 5 segundos, si hay datos nuevos, el ESP32 serializa el payload JSON y lo publica al tópico MQTT `jameofit/hydration/{userId}` sobre Wi-Fi → AWS IoT Core.
+4. La pantalla **OLED SSD1306** se actualiza mostrando: volumen acumulado en mL, porcentaje respecto a la meta diaria, y hora del último registro.
+5. El **LED WS2812B** cambia de color según el nivel de cumplimiento: *verde* ≥ 80%, *ámbar* 40–79%, *rojo* < 40% (activado solo después del mediodía).
+
+
+link de la simulacion en wokwi : https://wokwi.com/projects/463883642035947521
+
+
+**Tabla de conexiones (Pinout)**
+| Componente | Pin componente | Pin ESP32 | Tipo de señal |
+| :--- | :--- | :--- | :--- |
+| YF-S201 | VCC | 5V | Alimentación 5V DC |
+| YF-S201 | GND | GND | Referencia de tierra |
+| YF-S201 | OUT (Signal) | GPIO4 | Pulsos digitales (Hall Effect) |
+| OLED SSD1306 | SDA | GPIO21 | I2C Data (400 kHz) |
+| OLED SSD1306 | SCL | GPIO22 | I2C Clock (400 kHz) |
+| OLED SSD1306 | VCC | 3.3V | Alimentación 3.3V DC |
+| OLED SSD1306 | GND | GND | Referencia de tierra |
+| WS2812B LED | DIN (Data In) | GPIO5 | Datos serie (800 kbps) |
+| WS2812B LED | VDD | 5V | Alimentación 5V DC |
+| WS2812B LED | GND | GND | Referencia de tierra |
+| TP4056 (Batería)| OUT+ / B+ | VIN | Alimentación batería 3.7V |
+| TP4056 (Batería)| OUT- / B- | GND | Referencia de tierra |
+
+---
+
+
+**Dispositivo 02: Balanza Inteligente (Smart Scale) — Versión económica**
+ 
+#### Descripción y criterios de diseño
+ 
+La Balanza Inteligente permite pesar las porciones de alimentos que el usuario consume. El amplificador de alta precisión **HX711** convierte la variación de resistencia de la celda de carga en un valor digital de 24 bits, que el ESP32 procesa y publica en gramos mediante MQTT al tópico `jameofit/weight/{userId}`. El Bounded Context de Rutina Alimentaria combina el peso con la detección de alimento por IA para calcular la información nutricional automáticamente.
+ 
+El diseño físico adopta un presupuesto mínimo: una sola celda de carga de 5 kg (en lugar de cuatro de 50 kg), el módulo HX711 y el display LCD 16×2 I2C. 
+
+
+ **Componentes**
+ 
+| Componente | Función | 
+|---|---|
+| ESP32 DevKit V1 | MCU principal — Wi-Fi, MQTT, lógica | 
+| HX711 module | Amplificador ADC 24-bit para celda de carga | 
+| Load Cell 5 kg (1 un.) | Celda de carga — medición de peso | 
+| LCD 16×2 I2C (PCF8574) | Display I2C — muestra peso y estado | 
+| Push button | Función de tara (reset a cero) |
+| Adaptador 5V USB-C | Alimentación principal | 
+ 
+<p align="center">
+  <img src="assets/TP/balanza_iot.png" alt="Balanza inteligente" width="700"/>
+</p>
+
+
+**Simulación en Wokwi**
+<p align="center">
+  <img src="assets/TP/wokwi_balanza.png" alt="Simulación Wokwi – Balanza Inteligente" width="700"/> </p>
+
+
+ **Nota de simulación:** En Wokwi, el potenciómetro reemplaza al HX711 + celda de carga. Girarlo cambia el valor de peso de 0 a 5000 g. El botón rojo cumple la función de tara. En hardware real, reemplazar `readWeight()` por `scale.get_units(5)` del HX711 y conectar la celda de carga a los pines DT (GPIO4) y SCK (GPIO5).
+
+
+link de la simulacion en wokwi : https://wokwi.com/projects/463886427977308161
+
+**Flujo de interacción del dispositivo**
+ 
+1. El usuario coloca el alimento sobre la balanza. La celda de carga se deforma mínimamente, variando su resistencia.
+2. El **HX711** amplifica y convierte la variación diferencial a un valor digital de 24 bits, que el ESP32 lee mediante comunicación serial `DT/SCK`.
+3. El ESP32 aplica el factor de calibración y calcula el peso en gramos. Si el usuario presiona **TARA** (GPIO15), el offset se resetea a cero.
+4. Cuando el peso se estabiliza (variación < 8 g durante 2 segundos), publica el payload JSON al tópico MQTT `jameofit/weight/{userId}`.
+5. El **LCD** muestra el peso neto, el peso bruto, el offset de tara y el estado del envío en tiempo real.
+
+
+**Tabla de conexiones (Pinout)**
+| Componente | Pin componente | Pin ESP32 | Tipo de señal |
+|---|---|---|---|
+| HX711 | DT (Data) | GPIO4 | Serial data 24-bit |
+| HX711 | SCK (Clock) | GPIO5 | Clock serial (1–80 Hz) |
+| HX711 | VCC | 3.3V | Alimentación |
+| HX711 | GND | GND | Tierra |
+| HX711 → Load Cell | E+, E-, A+, A- | Load cell wires | Puente Wheatstone |
+| LCD 16×2 I2C | SDA | GPIO21 | I2C Data (400 kHz) |
+| LCD 16×2 I2C | SCL | GPIO22 | I2C Clock (400 kHz) |
+| LCD 16×2 I2C | VCC | 5V | Alimentación 5V DC |
+| LCD 16×2 I2C | GND | GND | Tierra |
+| Push Button (Tara) | OUT | GPIO15 | Señal digital (pull-up interno) |
+| Push Button (Tara) | GND | GND | Tierra |
+| Adaptador 5V | VCC | VIN | Alimentación principal |
+
+
+**Arquitectura de comunicación MQTT**
+Los dispositivos se comunican con el backend a través del protocolo **MQTT sobre TLS**, publicando mensajes al broker **AWS IoT Core**. Los microservicios de Tracking y Gestión de Objetivos se suscriben a los tópicos correspondientes y actualizan el estado del usuario en tiempo real.
+
+<p align="center">
+  <img src="assets/TP/mqtt_flow_jameofit.png" alt="Arquitectura MQTT – JameoFit IoT" width="700"/>
+</p>
+
+| Dispositivo | Tópico MQTT | Microservicio suscriptor |
+|---|---|---|
+| Botella Inteligente | `jameofit/hydration/{userId}` | Goals Service (Gestión de Objetivos BC) |
+| Balanza Inteligente | `jameofit/weight/{userId}` | Tracking Service (Rutina Alimentaria BC) |
+ 
+La autenticación con AWS IoT Core se realiza mediante certificados X.509 por dispositivo. El protocolo utilizado es **MQTT 3.1.1 sobre TLS 1.2**, con un QoS nivel 1 para garantizar la entrega de cada medición.
+
+
+**Paleta de colores LED — Guía de estilos IoT JameoFit**
+ 
+| Color | Hex | Condición |
+|---|---|---|
+| Verde | `#1D9E75` | Meta de hidratación ≥ 80% |
+| Ámbar | `#EF9F27` | Progreso entre 40% y 79% |
+| Rojo | `#E24B4A` | Alerta: progreso < 40% |
+| Azul | `#378ADD` | Dispositivo conectando / sincronizando |
+| Gris | `#888780` | Dispositivo en espera (standby) |
+
+
 ## Capítulo VI: Product Implementation & Validation
 
 ### 6.1. Software Configuration Management
