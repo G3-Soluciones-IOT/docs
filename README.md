@@ -2909,6 +2909,1164 @@ Cada cambio enviado a GitHub genera un nuevo despliegue automático (CI/CD)
 
 El frontend queda disponible a través de la URL proporcionada por Vercel, con alta disponibilidad y distribución global mediante CDN.
 
+
+### 6.2. Landing Page, Service & Applications Implementation
+
+#### 6.2.1. Sprint 1
+
+#### 6.2.1.1. Sprint Planning 1
+
+En este Sprint Planning, el equipo definió los objetivos, alcance y actividades correspondientes al Sprint 1, priorizando las historias de usuario relacionadas con el desarrollo de la primera versión del Landing Page y de la aplicación web (Frontend). Asimismo, se establecieron las tareas para la implementación inicial del Backend y la integración entre ambos componentes, con el propósito de construir una base funcional y escalable para el desarrollo del proyecto en los siguientes sprints.
+
+| **Sprint #**                       | Sprint 1                       |
+|------------------------------------|--------------------------------|
+| **Sprint Planning Background**     |                                |
+| Date                               | 2026-05-05                     |
+| Time                               | 11:00 AM                       |
+| Location                           | Servidor del equipo en Discord |
+| Prepared By                        | Galvez Chambi, Jhon            |
+| Attendees (to planning meeting)    | Bueno Perales, Mathias Eduardo / Geronimo Quispe, Pablo Antonio / Guzmán Chávez, Ramiro Alexander / Luquillas Asto, Omar / Paredes Santos, Fabrizio Alberto / Sandoval Paiva,Valentino |
+| Sprint 0 Review Summary            | No aplica por ser Sprint 1     |
+| Sprint 0 Retrospective Summary     | No aplica por ser Sprint 1     |
+| **Sprint Goal & User Stories**     |                                |
+| Sprint 1 Goal                      | Nuestro enfoque es desarrollar la primera versión funcional del Landing Page y de la aplicación web, incluyendo la implementación base del Backend y la integración entre los componentes principales del sistema. Creemos que esto brindará a los usuarios y stakeholders una visión inicial clara de la plataforma, permitiendo validar la propuesta de valor y las funcionalidades core del producto desde etapas tempranas del desarrollo. Esto se confirmará cuando los usuarios puedan navegar correctamente por las vistas principales de la aplicación, interactuar con las funcionalidades esenciales implementadas y exista una comunicación funcional entre el Frontend y los servicios base del Backend. |
+| Sprint n Velocity                  | 97                             |
+| Sum of Story Points                | 97                             |
+
+
+#### 6.2.1.2. Aspect Leaders and Collaborators
+
+En esta sección se definen los líderes y colaboradores asignados a cada aspecto considerado dentro del alcance del Sprint. Esta organización permite distribuir responsabilidades de manera clara entre los miembros del equipo, facilitando la coordinación, comunicación y ejecución de las actividades relacionadas con el desarrollo del Landing Page, la aplicación web y los componentes base del Backend.
+
+| Team Member                           | Github Username       | Landing Page    | Frontend    | Backend    |
+|---------------------------------------|-----------------------|-----------------|-------------|------------|
+| Bueno Perales, Mathias Eduardo        | MathiasBueno          | (L)             | (C)         | (C)        |
+| Galvez Chambi, Jhon Alexander         | Chaomeum              | (C)             | (C)         | (L)        |
+| Geronimo Quispe, Pablo Antonio        | Phatogram             | (C)             | (C)         | (C)        |
+| Guzmán Chávez, Ramiro Alexander       | RamiroGuzmanCh        | (C)             | (C)         | (C)        |
+| Luquillas Asto, Omar                  | OmarLLA               | (C)             | (C)         | (C)        |
+| Paredes Santos, Fabrizio Alberto      | psfa29                | (C)             | (L)         | (C)        |
+| Sandoval Paiva, Valentino             | ValentinoSandovalP    | (C)             | (C)         | (C)        |
+
+
+#### 6.2.1.3. Sprint Backlog 1
+
+En esta sección se presenta el Sprint Backlog correspondiente al Sprint 1, el cual contiene las historias de usuario seleccionadas y las tareas definidas por el equipo para alcanzar el Sprint Goal establecido. Asimismo, se incluye el Board de trabajo utilizado para la gestión y seguimiento de las actividades del Sprint, permitiendo visualizar el estado de avance de cada tarea y la distribución del trabajo entre los integrantes del equipo durante el desarrollo de la primera versión funcional del Landing Page, la aplicación web y los componentes base del Backend.
+
+![Sprint Backlog 1](assets/TP/sprint_backlog1.png)
+
+Enlace público del Board en Trello: [https://trello.com/invite/b/6a03ab3700ddf15db193fcb5/ATTI41e742ebb29206941c936c5e253d139a307986B1/sprint-1](https://trello.com/invite/b/6a03ab3700ddf15db193fcb5/ATTI41e742ebb29206941c936c5e253d139a307986B1/sprint-1)
+
+<table>
+  <tr>
+    <td colspan="1"><strong>Sprint #</strong></td>
+    <td colspan="7"><strong>Sprint 1</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>User Story</strong></td>
+    <td colspan="6"><strong>Work-Item / Task</strong></td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Id</strong></td>
+    <td colspan="1"><strong>Title</strong></td>
+    <td colspan="1"><strong>Id</strong></td>
+    <td colspan="1"><strong>Title</strong></td>
+    <td colspan="1"><strong>Description</strong></td>
+    <td colspan="1"><strong>Estimation (Hours)</strong></td>
+    <td colspan="1"><strong>Assigned To</strong></td>
+    <td colspan="1"><strong>Status (To-do / In-Process / To-Review / Done)</strong></td>
+  </tr>
+  <tr>
+    <td rowspan="3">US-18</td>
+    <td rowspan="3">Propuesta de Valor</td>
+    <td>T-01</td>
+    <td>Diseñar sección Hero</td>
+    <td>Crear la sección principal de la landing con título, subtítulo y CTA principal</td>
+    <td>3</td>
+    <td>Mathias Eduardo Bueno Perales</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-02</td>
+    <td>Implementar contenido responsivo del encabezado</td>
+    <td>Asegurar que el texto y elementos del hero se ajusten en distintas pantallas</td>
+    <td>1</td>
+    <td>Mathias Eduardo Bueno Perales</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-03</td>
+    <td>Animaciones de entrada y transición</td>
+    <td>Añadir microanimaciones suaves al cargar la sección Hero</td>
+    <td>1</td>
+    <td>Mathias Eduardo Bueno Perales</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="3">US-19</td>
+    <td rowspan="3">Acceso</td>
+    <td>T-04</td>
+    <td>Implementar botones de acción en la barra superior</td>
+    <td>Crear botones visibles para "Iniciar sesión" y "Registrarse"</td>
+    <td>1</td>
+    <td>Valentino Sandoval Paiva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-05</td>
+    <td>Configurar navegación entre landing y app web</td>
+    <td>Conectar los botones a las rutas de login y registro de la aplicación web</td>
+    <td>1</td>
+    <td>Valentino Sandoval Paiva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-06</td>
+    <td>Validar interacción en distintos dispositivos</td>
+    <td>Probar que los botones sean accesibles desde móvil y desktop</td>
+    <td>1</td>
+    <td>Valentino Sandoval Paiva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US-20</td>
+    <td rowspan="2">Navegación</td>
+    <td>T-07</td>
+    <td>Desarrollar barra de navegación fija</td>
+    <td>Crear barra superior con enlaces ancla a secciones principales</td>
+    <td>1</td>
+    <td>Jhon Alexander Galvez Chambi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-08</td>
+    <td>Implementar desplazamiento suave (smooth scroll)</td>
+    <td>Añadir scroll animado al hacer clic en cada enlace de navegación</td>
+    <td>1</td>
+    <td>Jhon Alexander Galvez Chambi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US-21</td>
+    <td rowspan="2">Beneficios</td>
+    <td>T-09</td>
+    <td>Diseñar tarjetas de beneficios</td>
+    <td>Crear tarjetas visuales con ícono, título y descripción de cada beneficio</td>
+    <td>2</td>
+    <td>Jhon Alexander Galvez Chambi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-10</td>
+    <td>Configurar disposición responsiva</td>
+    <td>Ajustar grilla de tarjetas para móvil, tablet y desktop</td>
+    <td>2</td>
+    <td>Jhon Alexander Galvez Chambi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US-22</td>
+    <td rowspan="2">Exploración</td>
+    <td>T-11</td>
+    <td>Implementar estructura de secciones por bloques</td>
+    <td>Dividir la sección de beneficios en bloques temáticos</td>
+    <td>3</td>
+    <td>Jhon Alexander Galvez Chambi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-12</td>
+    <td>Agregar interacciones al hacer scroll</td>
+    <td>Añadir animaciones o cambios visuales en cada bloque al entrar en pantalla</td>
+    <td>1</td>
+    <td>Pablo Antonio Geronimo Quispe</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US-23</td>
+    <td rowspan="2">Testimonios</td>
+    <td>T-13</td>
+    <td>Diseñar carrusel de testimonios</td>
+    <td>Crear componente con nombre, foto y cita de usuarios</td>
+    <td>2</td>
+    <td>Pablo Antonio Geronimo Quispe</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-14</td>
+    <td>Implementar navegación automática y manual</td>
+    <td>Agregar autoplay y botones de navegación al carrusel</td>
+    <td>2</td>
+    <td>Pablo Antonio Geronimo Quispe</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US-24</td>
+    <td rowspan="2">Footer</td>
+    <td>T-15</td>
+    <td>Crear estructura del footer</td>
+    <td>Diseñar pie de página con enlaces a secciones internas y políticas</td>
+    <td>2</td>
+    <td>Jhon Alexander Galvez Chambi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-16</td>
+    <td>Configurar redirecciones y validaciones</td>
+    <td>Verificar que todos los enlaces del footer redirijan correctamente</td>
+    <td>2</td>
+    <td>Jhon Alexander Galvez Chambi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US-25</td>
+    <td rowspan="2">Responsive</td>
+    <td>T-17</td>
+    <td>Implementar diseño responsivo completo</td>
+    <td>Ajustar breakpoints y comportamiento adaptativo para desktop, tablet y móvil</td>
+    <td>4</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-18</td>
+    <td>Realizar pruebas de compatibilidad multiplataforma</td>
+    <td>Verificar visualización en distintos navegadores y resoluciones</td>
+    <td>2</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="5">US-01</td>
+    <td rowspan="5">Registro de Usuario</td>
+    <td>T-19</td>
+    <td>Diseñar interfaz de registro</td>
+    <td>Crear pantalla de registro con campos: nombre, email, contraseña, confirmación</td>
+    <td>3</td>
+    <td>Omar Luquillas Asto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-20</td>
+    <td>Implementar validaciones de campos</td>
+    <td>Validar formato de email, longitud de contraseña y campos obligatorios</td>
+    <td>2</td>
+    <td>Omar Luquillas Asto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-21</td>
+    <td>Conectar con API de registro</td>
+    <td>Integrar vista con backend para enviar datos y manejar respuestas</td>
+    <td>3</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-22</td>
+    <td>Implementar flujo post-registro</td>
+    <td>Configurar navegación hacia login o dashboard tras registro exitoso</td>
+    <td>2</td>
+    <td>Omar Luquillas Asto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-23</td>
+    <td>Pruebas funcionales y de error</td>
+    <td>Validar escenarios: email duplicado, conexión fallida, datos incompletos</td>
+    <td>2</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="4">US-02</td>
+    <td rowspan="4">Recuperación de Contraseña</td>
+    <td>T-24</td>
+    <td>Diseñar interfaz de recuperación</td>
+    <td>Crear vista con campo de correo y botón "Enviar enlace de recuperación"</td>
+    <td>2</td>
+    <td>Fabrizio Alberto Paredes Santos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-25</td>
+    <td>Implementar endpoint de recuperación</td>
+    <td>Conectar con API para solicitar envío de correo con enlace</td>
+    <td>3</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-26</td>
+    <td>Manejo de errores y reenvío</td>
+    <td>Mostrar mensajes si email no existe y permitir reenvío</td>
+    <td>2</td>
+    <td>Fabrizio Alberto Paredes Santos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-27</td>
+    <td>Diseño de confirmación de solicitud</td>
+    <td>Mostrar mensaje de éxito confirmando envío del correo</td>
+    <td>1</td>
+    <td>Fabrizio Alberto Paredes Santos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="5">US-03</td>
+    <td rowspan="5">Personalización de Perfil</td>
+    <td>T-28</td>
+    <td>Diseñar vista de edición de perfil</td>
+    <td>Crear interfaz para actualizar datos personales y preferencias alimenticias</td>
+    <td>3</td>
+    <td>Mathias Eduardo Bueno Perales</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-29</td>
+    <td>Implementar guardado de preferencias</td>
+    <td>Integrar con API para actualizar información del usuario</td>
+    <td>3</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-30</td>
+    <td>Sincronizar datos del onboarding</td>
+    <td>Vincular datos del perfil inicial para edición posterior</td>
+    <td>2</td>
+    <td>Mathias Eduardo Bueno Perales</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-31</td>
+    <td>Validaciones y restricciones de campos</td>
+    <td>Controlar peso, altura, edad, alergias, objetivos</td>
+    <td>2</td>
+    <td>Mathias Eduardo Bueno Perales</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-32</td>
+    <td>Actualización de vista tras guardado</td>
+    <td>Implementar retroalimentación visual (toast o mensaje de éxito)</td>
+    <td>1</td>
+    <td>Mathias Eduardo Bueno Perales</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="4">US-04</td>
+    <td rowspan="4">Plan Personalizado</td>
+    <td>T-33</td>
+    <td>Diseñar interfaz del plan alimenticio</td>
+    <td>Crear vista visual del plan con secciones para comidas diarias</td>
+    <td>3</td>
+    <td>Pablo Antonio Geronimo Quispe</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-34</td>
+    <td>Implementar lógica de generación de plan</td>
+    <td>Programar función que obtiene perfil y genera plan base</td>
+    <td>3</td>
+    <td>Pablo Antonio Geronimo Quispe</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-35</td>
+    <td>Integrar con backend</td>
+    <td>Conectar vista y lógica con endpoint de generación de plan</td>
+    <td>3</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-36</td>
+    <td>Mostrar plan y permitir recarga</td>
+    <td>Agregar función para refrescar plan al cambiar datos del perfil</td>
+    <td>2</td>
+    <td>Pablo Antonio Geronimo Quispe</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="3">US-14</td>
+    <td rowspan="3">Personalización de Metas</td>
+    <td>T-37</td>
+    <td>Diseñar formulario de metas personales</td>
+    <td>Crear interfaz para definir objetivos (peso, calorías, hidratación)</td>
+    <td>3</td>
+    <td>Fabrizio Alberto Paredes Santos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-38</td>
+    <td>Implementar guardado de metas</td>
+    <td>Conectar con backend para registrar metas personalizadas</td>
+    <td>3</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-39</td>
+    <td>Sincronizar cambios con el plan</td>
+    <td>Actualizar automáticamente el plan alimenticio al modificar metas</td>
+    <td>2</td>
+    <td>Fabrizio Alberto Paredes Santos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="4">US-06</td>
+    <td rowspan="4">Registro Diario</td>
+    <td>T-40</td>
+    <td>Diseñar vista de registro diario</td>
+    <td>Crear interfaz para registrar comidas del día (desayuno, almuerzo, cena, snacks)</td>
+    <td>3</td>
+    <td>Valentino Sandoval Paiva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-41</td>
+    <td>Implementar almacenamiento local temporal</td>
+    <td>Configurar persistencia local para registros antes de sincronizar</td>
+    <td>3</td>
+    <td>Valentino Sandoval Paiva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-42</td>
+    <td>Integrar con backend</td>
+    <td>Enviar registros al servidor mediante API</td>
+    <td>3</td>
+    <td>Omar Luquillas Asto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-43</td>
+    <td>Permitir edición de días anteriores</td>
+    <td>Agregar opción para modificar registros pasados</td>
+    <td>2</td>
+    <td>Valentino Sandoval Paiva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="4">US-08</td>
+    <td rowspan="4">Visualización de Progreso</td>
+    <td>T-44</td>
+    <td>Diseñar vista de progreso semanal</td>
+    <td>Implementar pantalla con gráficos o barras de progreso</td>
+    <td>4</td>
+    <td>Jhon Alexander Galvez Chambi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-45</td>
+    <td>Calcular estadísticas y métricas</td>
+    <td>Programar lógica que procese registros y calcule porcentajes de cumplimiento</td>
+    <td>4</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-46</td>
+    <td>Integrar con backend</td>
+    <td>Recuperar historial nutricional y progreso desde API</td>
+    <td>3</td>
+    <td>Jhon Alexander Galvez Chambi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-47</td>
+    <td>Mostrar indicadores visuales</td>
+    <td>Incorporar colores, íconos o badges que refuercen avances</td>
+    <td>2</td>
+    <td>Jhon Alexander Galvez Chambi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="4">US-09</td>
+    <td rowspan="4">Feedback Diario</td>
+    <td>T-48</td>
+    <td>Implementar lógica de generación de feedback</td>
+    <td>Analizar registros diarios y generar mensajes automáticos</td>
+    <td>3</td>
+    <td>Pablo Antonio Geronimo Quispe</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-49</td>
+    <td>Diseñar sección de resumen del día</td>
+    <td>Añadir vista con resumen nutricional (calorías, equilibrio, metas cumplidas)</td>
+    <td>3</td>
+    <td>Pablo Antonio Geronimo Quispe</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-50</td>
+    <td>Mostrar mensajes personalizados</td>
+    <td>Integrar retroalimentación visual con íconos o frases motivacionales</td>
+    <td>2</td>
+    <td>Pablo Antonio Geronimo Quispe</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-51</td>
+    <td>Sincronizar feedback con progreso semanal</td>
+    <td>Conectar resultados del feedback con pantalla de progreso</td>
+    <td>2</td>
+    <td>Jhon Alexander Galvez Chambi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="4">US-10</td>
+    <td rowspan="4">Registro de Logros</td>
+    <td>T-52</td>
+    <td>Implementar sistema de logros base</td>
+    <td>Definir estructura para hitos alcanzados (días consecutivos, metas cumplidas)</td>
+    <td>3</td>
+    <td>Mathias Eduardo Bueno Perales</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-53</td>
+    <td>Diseñar interfaz de logros</td>
+    <td>Crear pantalla con logros desbloqueados e insignias</td>
+    <td>3</td>
+    <td>Mathias Eduardo Bueno Perales</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-54</td>
+    <td>Vincular logros con progreso</td>
+    <td>Conectar logros al módulo de progreso y feedback diario</td>
+    <td>2</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-55</td>
+    <td>Implementar retroalimentación visual</td>
+    <td>Agregar animaciones al desbloquear un logro</td>
+    <td>2</td>
+    <td>Mathias Eduardo Bueno Perales</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="3">US-15</td>
+    <td rowspan="3">Visualización de Logros</td>
+    <td>T-56</td>
+    <td>Diseñar vista de insignias y recompensas</td>
+    <td>Crear sección visual con todas las insignias obtenidas</td>
+    <td>3</td>
+    <td>Fabrizio Alberto Paredes Santos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-57</td>
+    <td>Implementar filtros de logros</td>
+    <td>Permitir filtrar logros por tipo (diarios, semanales, metas completadas)</td>
+    <td>3</td>
+    <td>Fabrizio Alberto Paredes Santos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-58</td>
+    <td>Optimizar carga de imágenes y recursos</td>
+    <td>Asegurar que íconos y animaciones carguen eficientemente</td>
+    <td>2</td>
+    <td>Fabrizio Alberto Paredes Santos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="4">US-26</td>
+    <td rowspan="4">Ver recetas preestablecidas</td>
+    <td>T-59</td>
+    <td>Diseñar vista de recetas preestablecidas</td>
+    <td>Crear interfaz con lista de recetas recomendadas</td>
+    <td>3</td>
+    <td>Jhon Alexander Galvez Chambi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-60</td>
+    <td>Integrar listado con backend o fuente local</td>
+    <td>Cargar recetas desde API o JSON local</td>
+    <td>3</td>
+    <td>Omar Luquillas Asto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-61</td>
+    <td>Implementar función de "guardar receta"</td>
+    <td>Permitir marcar recetas favoritas</td>
+    <td>2</td>
+    <td>Jhon Alexander Galvez Chambi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-62</td>
+    <td>Mostrar detalles individuales de receta</td>
+    <td>Crear vista con ingredientes, pasos e información nutricional</td>
+    <td>2</td>
+    <td>Jhon Alexander Galvez Chambi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="4">US-27</td>
+    <td rowspan="4">Hacer tracking del plan</td>
+    <td>T-63</td>
+    <td>Implementar vista de seguimiento del plan</td>
+    <td>Crear interfaz para ver estado del plan y progreso</td>
+    <td>3</td>
+    <td>Valentino Sandoval Paiva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-64</td>
+    <td>Conectar vista con datos del plan</td>
+    <td>Integrar con plan personalizado y registrar avances diarios</td>
+    <td>3</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-65</td>
+    <td>Agregar opción para pausar o reiniciar tracking</td>
+    <td>Permitir desactivar temporalmente el seguimiento</td>
+    <td>2</td>
+    <td>Valentino Sandoval Paiva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-66</td>
+    <td>Sincronizar tracking con vista de progreso</td>
+    <td>Actualizar indicadores visuales del progreso semanal</td>
+    <td>2</td>
+    <td>Valentino Sandoval Paiva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="4">US-28</td>
+    <td rowspan="4">Ver recomendaciones</td>
+    <td>T-67</td>
+    <td>Diseñar vista de recomendaciones</td>
+    <td>Crear pantalla con consejos o tips diarios segmentados</td>
+    <td>3</td>
+    <td>Pablo Antonio Geronimo Quispe</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-68</td>
+    <td>Implementar sistema de filtrado por tipo</td>
+    <td>Permitir elegir qué tipo de tips visualizar</td>
+    <td>2</td>
+    <td>Pablo Antonio Geronimo Quispe</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-69</td>
+    <td>Función de "marcar como completado"</td>
+    <td>Agregar opción para marcar recomendaciones completadas</td>
+    <td>2</td>
+    <td>Pablo Antonio Geronimo Quispe</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-70</td>
+    <td>Integrar tips dinámicos desde backend</td>
+    <td>Cargar recomendaciones desde API o archivo local</td>
+    <td>3</td>
+    <td>Omar Luquillas Asto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">TS-01</td>
+    <td rowspan="2">API Autenticación</td>
+    <td>T-71</td>
+    <td>Endpoint registro</td>
+    <td>POST /api/register con validación y hash de contraseña</td>
+    <td>5</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-72</td>
+    <td>Endpoint login</td>
+    <td>POST /api/login que retorna JWT</td>
+    <td>5</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="4">TS-02</td>
+    <td rowspan="4">API Planes</td>
+    <td>T-73</td>
+    <td>Endpoint CRUD de registros diarios</td>
+    <td>GET, POST, DELETE para /api/daily-entries</td>
+    <td>6</td>
+    <td>Omar Luquillas Asto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-74</td>
+    <td>Endpoint para obtener/generar plan</td>
+    <td>GET /api/plan y POST /api/plan/generate</td>
+    <td>5</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-75</td>
+    <td>Endpoint de perfil de usuario</td>
+    <td>GET /api/profile y PUT /api/profile para actualizar datos</td>
+    <td>4</td>
+    <td>Omar Luquillas Asto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-76</td>
+    <td>Endpoint de recuperación de contraseña</td>
+    <td>POST /api/forgot-password y POST /api/reset-password</td>
+    <td>4</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+</table>
+
+
+#### 6.2.1.4. Development Evidence for Sprint Review
+
+En esta sección se presentan las evidencias de desarrollo correspondientes al Sprint 1, mostrando los principales avances realizados en la implementación del Landing Page, la aplicación web y los servicios Backend considerados dentro del alcance del Sprint. Asimismo, se incluyen los commits registrados en los repositorios del proyecto como evidencia del trabajo realizado y del progreso alcanzado por el equipo durante la iteración.
+
+**Landing Page:** [https://github.com/G3-Soluciones-IOT/landing-page](https://github.com/G3-Soluciones-IOT/landing-page)
+
+| **Repository**        | **Branch**      | **Commit Id**      | **Commit Message**      | **Commit Message Body**     | **Commited on (Date)**      |
+|-----------------------|-----------------|--------------------|-------------------------|-----------------------------|-----------------------------|
+| landing-page          | main            |                    | initial commit          | -                           |                             |
+
+**Web Application:** [https://github.com/G3-Soluciones-IOT/frontend](https://github.com/G3-Soluciones-IOT/frontend)
+
+| **Repository**        | **Branch**      | **Commit Id**      | **Commit Message**      | **Commit Message Body**     | **Commited on (Date)**      |
+|-----------------------|-----------------|--------------------|-------------------------|-----------------------------|-----------------------------|
+| frontend              | main            |                    | initial commit          | -                           |                             |
+
+**Backend Web Services:** [https://github.com/G3-Soluciones-IOT/backend](https://github.com/G3-Soluciones-IOT/backend)
+
+| **Repository**        | **Branch**      | **Commit Id**      | **Commit Message**      | **Commit Message Body**     | **Commited on (Date)**      |
+|-----------------------|-----------------|--------------------|-------------------------|-----------------------------|-----------------------------|
+| backend               | main            |                    | initial commit          | -                           |                             |
+
+
+#### 6.2.1.5. Testing Suite Evidence for Sprint Review
+
+Durante este sprint se implementó la estructura inicial de la suite de pruebas automatizadas utilizando el enfoque Behavior-Driven Development (BDD) y el lenguaje Gherkin para la definición de escenarios funcionales. Los archivos .feature elaborados corresponden a las historias de usuario priorizadas dentro del Sprint Backlog, permitiendo validar el comportamiento esperado de las funcionalidades principales desarrolladas durante esta iteración.
+
+Las pruebas fueron organizadas bajo la estructura Given–When–Then, considerando escenarios relacionados con la navegación del Landing Page, la interacción con las vistas principales de la aplicación web y la comunicación inicial entre el Frontend y los servicios base del Backend. Asimismo, se preparó la configuración inicial del entorno de testing y el repositorio destinado al versionamiento de los artefactos de prueba.
+
+Esta suite de pruebas permite mantener la trazabilidad entre las historias de usuario y sus criterios de aceptación, facilitar futuras automatizaciones de pruebas y proporcionar evidencia clara y verificable del avance funcional alcanzado durante el Sprint 1.
+
+![Testing Suite Evidence](assets/TP/testing_suite_evidence.png)
+
+**Testing:** [https://github.com/G3-Soluciones-IOT/testing](https://github.com/G3-Soluciones-IOT/testing)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Committed on (Date)** |
+|----------------|------------|----------------|----------------------|---------------------------|--------------------------|
+| Testing | main | 7fe5902 | Add feature for tracking meal plan activities | - | 12/05/2026 |
+| Testing | main | 8ab4731 | Add feature for multi-device accessibility | - | 12/05/2026 |
+| Testing | main | 8f40e0c | Add feature for navigation from the footer | - | 12/05/2026 |
+| Testing | main | 9b3d2a7 | Add feature for viewing user testimonials | - | 12/05/2026 |
+| Testing | main | 6c8e07a | Add feature for navigating benefits section | - | 12/05/2026 |
+| Testing | main | b5d32f0 | Add feature for viewing benefits summary | - | 12/05/2026 |
+| Testing | main | 2df4b8e | Add feature for navigation from the top bar | - | 12/05/2026 |
+| Testing | main | 3cf0a96 | Add feature for login and registration access | - | 12/05/2026 |
+| Testing | main | 4a77f12 | Add feature for understanding value proposition | - | 12/05/2026 |
+| Testing | main | 57b61da | Add feature for personalizing diet goals | - | 12/05/2026 |
+| Testing | main | 64ce9b3 | Create US-06: Registro Diario de Alimentos.feature | - | 12/05/2026 |
+| Testing | main | 715a2d4 | Create feature for personalized meal plan | - | 12/05/2026 |
+| Testing | main | 89bcf47 | Add feature for profile customization scenarios | - | 12/05/2026 |
+| Testing | main | 90ff5d2 | Add password recovery feature scenarios | - | 12/05/2026 |
+| Testing | main | a13e947 | Add feature for user registration and scenarios | - | 12/05/2026 |
+
+
+#### 6.2.1.6. Execution Evidence for Sprint Review
+
+En esta sección se presentan las evidencias de ejecución correspondientes al Sprint 1, mostrando las principales funcionalidades y vistas implementadas para el Landing Page y la aplicación web. Asimismo, se incluyen capturas de pantalla y material audiovisual que evidencian la navegación, interacción y funcionamiento general de los componentes desarrollados durante el sprint, permitiendo validar el cumplimiento de los objetivos establecidos para esta iteración.
+
+**Landing Page:**
+
+Sección Principal:
+
+![Execution Evidence](assets/TP/landing_execution_evidence1.png)
+
+Sección de Beneficios:
+
+![Execution Evidence](assets/TP/landing_execution_evidence2.png)
+
+Sección de Testimonios:
+
+![Execution Evidence](assets/TP/landing_execution_evidence3.png)
+
+Sección de Cómo Funciona:
+
+![Execution Evidence](assets/TP/landing_execution_evidence4.png)
+
+Secciones de CTA y Footer:
+
+![Execution Evidence](assets/TP/landing_execution_evidence5.png)
+
+**Demo Landing Page:** [Link](Link)
+
+**Web Application:**
+
+![Execution Evidence](assets/TP/web_execution_evidence1.png)
+![Execution Evidence](assets/TP/web_execution_evidence2.png)
+
+**Demo Web Application:** [Link](Link)
+
+
+#### 6.2.1.7. Services Documentation Evidence for Sprint Review
+
+En esta sección se presentan las evidencias de documentación de los servicios web desarrollados durante el Sprint 1, incluyendo la definición y documentación de los principales endpoints implementados para el sistema. Asimismo, se muestran las especificaciones elaboradas mediante OpenAPI, las acciones soportadas por cada servicio y ejemplos de interacción con los endpoints, permitiendo evidenciar el correcto diseño y documentación de la comunicación entre el Frontend y Backend del proyecto.
+
+**Meal Plan**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /meal-plan | Obtener todos los meal plans | GET | `/api/v1/meal-plan` | Ninguno | `{ "id": 0, "name": "string", "description": "string", "calories": 0.1, "carbs": 0.1, "proteins": 0.1, "fats": 0.1, "profileId": 0, "category": "string", "isCurrent": true, "entries": [{ "id": 0, "recipeId": 0, "mealPlanType": "string", "mealPlanId": 0 }], "tags": ["string"] }` | (URL Swagger/doc) |
+| /meal-plan | Crear un nuevo meal plan | POST | `/api/v1/meal-plan` | name, description, calories, carbs, proteins, fats, profileId, category, isCurrent, entries, tags | Igual que el response de GET | (URL Swagger/doc) |
+| /meal-plan/{id} | Obtener un meal plan por ID | GET | `/api/v1/meal-plan/{mealPlanId}` | mealPlanId (path) | Igual que el response de GET | (URL Swagger/doc) |
+| /meal-plan/{id} | Actualizar un meal plan por ID | PUT | `/api/v1/meal-plan/{mealPlanId}` | Todos los campos del objeto meal plan | Igual que el response de GET | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence1.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence2.png)
+
+**User Profiles**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /api/v1/user-profiles | Obtener todos los perfiles de usuario | GET | `/api/v1/user-profiles` | Ninguno | `{ "gender":"string", "height":0.1, "weight":0.1, "userScore":0, "activityLevelId":0, "objectiveId":0, "allergyIds":[0] }` | (URL Swagger/doc) |
+| /api/v1/user-profiles | Crear un nuevo perfil de usuario | POST | `/api/v1/user-profiles` | gender, height, weight, userScore, activityLevelId, objectiveId, allergyIds | Igual que el response de GET | (URL Swagger/doc) |
+| /api/v1/user-profiles/{id} | Obtener un perfil de usuario por ID | GET | `/api/v1/user-profiles/{id}` | id (path) | Igual que el response de GET | (URL Swagger/doc) |
+| /api/v1/user-profiles/{id} | Actualizar un perfil de usuario por ID | PUT | `/api/v1/user-profiles/{id}` | id, gender, height, weight, userScore, activityLevelId, objectiveId, allergyIds | Igual que el response de GET | (URL Swagger/doc) |
+| /api/v1/user-profiles/{id} | Eliminar un perfil de usuario por ID | DELETE | `/api/v1/user-profiles/{id}` | id (path) | `204 No Content` | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence3.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence4.png)
+
+**Objectives**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /api/v1/objectives | Obtener todos los objetivos | GET | `/api/v1/objectives` | Ninguno | `{ "id":0, "objectiveName":"string", "score":0, "description":"string" }` | (URL Swagger/doc) |
+| /api/v1/objectives | Crear un nuevo objetivo | POST | `/api/v1/objectives` | id, objectiveName, score, description | Igual que el response de GET | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence5.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence6.png)
+
+**Allergies**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /api/v1/allergies | Obtener todas las alergias | GET | `/api/v1/allergies` | Ninguno | `{ "id": 0, "name": "string", "relatedIngredients": [{ "name": "string" }] }` | (URL Swagger/doc) |
+| /api/v1/allergies | Crear una nueva alergia | POST | `/api/v1/allergies` | id, name, relatedIngredients | Igual que el response de GET | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence7.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence8.png)
+
+**Activity levels**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /api/v1/activity-levels | Obtener todos los niveles | GET | `/api/v1/activity-levels` | Ninguno | `{ "createdAt": "2025-06-23T22:41:41.417Z", "updatedAt": "2025-06-23T22:41:41.417Z", "id": 0, "name": "string", "description": "string", "activityFactor": 0.1 }` | (URL Swagger/doc) |
+| /api/v1/activity-levels | Crear un nuevo nivel de actividad | POST | `/api/v1/activity-levels` | createdAt, updatedAt, id, name, description, activityFactor | Igual que el response de GET | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence9.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence10.png)
+
+**Favorite Recipes**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /api/v1/favorite-recipes | Crear una receta favorita | POST | `/api/v1/favorite-recipes` | userId, recipeId | `{ "userId": 0, "recipeId": 0 }` | (URL Swagger/doc) |
+| /api/v1/favorite-recipes/{userId} | Obtener recetas favoritas por usuario | GET | `/api/v1/favorite-recipes/{userId}` | userId (path) | `[ { "id": 0, "userId": 0, "recipeId": 0, "recipeName": "string" } ]` | (URL Swagger/doc) |
+| /api/v1/favorite-recipes/{userId}/{recipeId} | Eliminar una receta favorita | DELETE | `/api/v1/favorite-recipes/{userId}/{recipeId}` | userId, recipeId | `204 No Content` | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence11.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence12.png)
+
+**Recipes & Related**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /api/v1/recipes | Crear una nueva receta | POST | `/api/v1/recipes` | name, description, preparationTime, difficulty, categoryId, recipeTypeId, userId | `{ "name": "string", ... }` | (URL Swagger/doc) |
+| /api/v1/recipes/{recipeId} | Obtener receta por ID | GET | `/api/v1/recipes/{recipeId}` | recipeId (path) | `{ "id": 0, "userId": 0, "name": "string", "description": "string", ... }` | (URL Swagger/doc) |
+| /api/v1/recipes/{recipeId}/ingredients/{ingredientId} | Añadir ingrediente a una receta | POST | `/api/v1/recipes/{recipeId}/ingredients/{ingredientId}` | recipeId, ingredientId | `204 No Content` | (URL Swagger/doc) |
+| /api/v1/ingredients | Crear un nuevo ingrediente | POST | `/api/v1/ingredients` | name, calories, carbohydrates, proteins, fats, macronutrientValuesId | `{ "name": "string", ... }` | (URL Swagger/doc) |
+| /api/v1/ingredients/{ingredientId} | Eliminar un ingrediente | DELETE | `/api/v1/ingredients/{ingredientId}` | ingredientId (path) | `204 No Content` | (URL Swagger/doc) |
+| /api/v1/categories | Crear una nueva categoría | POST | `/api/v1/categories` | name | `{ "name": "string" }` | (URL Swagger/doc) |
+| /api/v1/categories/{categoryId} | Obtener categoría por ID | GET | `/api/v1/categories/{categoryId}` | categoryId (path) | `{ "id": 0, "name": "string" }` | (URL Swagger/doc) |
+| /api/v1/recipe-types | Crear un nuevo tipo de receta | POST | `/api/v1/recipe-types` | name | `{ "name": "string" }` | (URL Swagger/doc) |
+| /api/v1/recipe-types/{recipeTypeId} | Obtener tipo de receta por ID | GET | `/api/v1/recipe-types/{recipeTypeId}` | recipeTypeId (path) | `{ "id": 0, "name": "string" }` | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence13.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence14.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence15.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence16.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence17.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence18.png)
+
+**Tracking & Goals**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /api/v1/tracking | Crear un nuevo tracking | POST | `/api/v1/tracking` | Body con datos de tracking | `{ "id": 0, "userId": 0, "startDate": "2025-06-23", "endDate": "2025-06-30" }` | (URL Swagger/doc) |
+| /api/v1/tracking/user/{userId} | Obtener tracking por ID de usuario | GET | `/api/v1/tracking/user/{userId}` | userId (path) | `{ "id": 0, "userId": 1, "startDate": "2025-06-23", "endDate": "2025-06-30" }` | (URL Swagger/doc) |
+| /api/v1/tracking/macronutrients/consumed/tracking/{trackingId} | Obtener macros consumidos por tracking | GET | `/api/v1/tracking/macronutrients/consumed/tracking/{trackingId}` | trackingId (path) | `{ "calories": 1200.0, "carbs": 150.0, "proteins": 80.0, "fats": 50.0 }` | (URL Swagger/doc) |
+| /api/v1/macronutrients/consumed/tracking/{trackingId} | Obtener valores de macronutrientes consumidos | GET | `/api/v1/macronutrients/consumed/tracking/{trackingId}` | trackingId (path) | Igual que el response anterior | (URL Swagger/doc) |
+| /api/v1/tracking-goals | Crear un nuevo Tracking Goal | POST | `/api/v1/tracking-goals` | Body con objetivos | `{ "id": 1, "userId": 1, "targetCalories": 2000.0, "targetCarbs": 250.0, "targetProteins": 100.0, "targetFats": 70.0 }` | (URL Swagger/doc) |
+| /api/v1/tracking-goals/{trackingGoalId}/target-macros | Obtener macros objetivos por ID de Tracking Goal | GET | `/api/v1/tracking-goals/{trackingGoalId}/target-macros` | trackingGoalId (path) | `{ "targetCalories": 2000.0, "targetCarbs": 250.0, "targetProteins": 100.0, "targetFats": 70.0 }` | (URL Swagger/doc) |
+| /api/v1/tracking-goals/user/{userId} | Obtener Tracking Goal por usuario | GET | `/api/v1/tracking-goals/user/{userId}` | userId (path) | Igual que el response de POST de tracking-goals | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence19.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence20.png)
+
+**Meal Plan Entries**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /api/v1/meal-plan-entries/{mealPlanEntryId} | Actualizar una entrada de meal plan | PUT | `/api/v1/meal-plan-entries/{mealPlanEntryId}` | mealPlanEntryId (path), body con datos a actualizar | `{ "id":1, "recipeId":10, "mealPlanType":"LUNCH", "mealPlanId":3 }` | (URL Swagger/doc) |
+| /api/v1/meal-plan-entries/tracking/{trackingId} | Añadir una nueva entrada de meal plan al tracking | POST | `/api/v1/meal-plan-entries/tracking/{trackingId}` | trackingId (path), body con recipeId, mealPlanType | `{ "id":1, "recipeId":10, "mealPlanType":"LUNCH", "mealPlanId":3 }` | (URL Swagger/doc) |
+| /api/v1/meal-plan-entries/tracking/{trackingId} | Obtener todas las entradas de meal plan por tracking | GET | `/api/v1/meal-plan-entries/tracking/{trackingId}` | trackingId (path) | `[ { "id":1, "recipeId":10, "mealPlanType":"BREAKFAST", "mealPlanId":3 }, ... ]` | (URL Swagger/doc) |
+| /api/v1/meal-plan-entries/tracking/{trackingId}/entry/{mealPlanEntryId} | Eliminar una entrada específica del meal plan | DELETE | `/api/v1/meal-plan-entries/tracking/{trackingId}/entry/{mealPlanEntryId}` | trackingId, mealPlanEntryId (path) | `204 No Content` | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence21.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence22.png)
+
+**Recommendation templates**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /api/v1/recommendation-templates | Obtener todos los templates | GET | `/api/v1/recommendation-templates` | Ninguno | `[ { "id":1, "title":"Plan nutricional para masa muscular", "content":"Incluye proteína magra, carbos complejos y grasas buenas", "recommendations":[] } ]` | (URL Swagger/doc) |
+| /api/v1/recommendation-templates | Crear un nuevo template | POST | `/api/v1/recommendation-templates` | title, content | `{ "id":2, "title":"Plan post-entreno", "content":"Incluye batidos con whey protein, avena y banana", "recommendations":[] }` | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence23.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence24.png)
+
+**Recommendations**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /api/v1/recommendations/user/{userId} | Obtener recomendaciones por usuario | GET | `/api/v1/recommendations/user/{userId}` | userId (path) | `[ { "id":5, "userId":{"value":1}, "templateId":2, "reason":"Fase de volumen", "notes":"Comidas densas en calorías", "timeOfDay":"MORNING", "score":9.1, "status":"ACTIVE", "assignedAt":"2025-06-23T04:49:59.728Z" } ]` | (URL Swagger/doc) |
+| /api/v1/recommendations | Asignar una recomendación a un usuario | POST | `/api/v1/recommendations` | userId, templateId, reason, notes, timeOfDay, score, status | `{ "id":6, "userId":{"value":2}, "templateId":3, "reason":"Recuperación post-lesión", "notes":"Alta proteína, omega 3 y antioxidantes", "timeOfDay":"EVENING", "score":8.3, "status":"ACTIVE", "assignedAt":"2025-06-23T04:49:59.728Z" }` | (URL Swagger/doc) |
+| /api/v1/recommendations/{id} | Actualizar una recomendación | PUT | `/api/v1/recommendations/{id}` | id, reason, notes, timeOfDay, score, status | `{ "id":6, "userId":{"value":2}, "templateId":3, "reason":"Actualización: aumento de actividad", "notes":"Agregar snack con frutos secos", "timeOfDay":"AFTERNOON", "score":9.0, "status":"ACTIVE", "assignedAt":"2025-06-23T04:49:59.728Z" }` | (URL Swagger/doc) |
+| /api/v1/recommendations/{id} | Eliminar una recomendación | DELETE | `/api/v1/recommendations/{id}` | id (path) | `204 No Content` | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence25.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence26.png)
+
+
+#### 6.2.1.8. Software Deployment Evidence for Sprint Review
+
+En esta sección se presentan las evidencias relacionadas con las actividades de despliegue realizadas durante el Sprint 1 para los diferentes componentes del proyecto, incluyendo el Landing Page, la aplicación web y los servicios Backend. Asimismo, se describen los procesos de configuración de entornos, integración con plataformas de despliegue y preparación de recursos necesarios para la publicación y ejecución de los productos desarrollados, acompañados de capturas y explicaciones de las actividades realizadas durante el sprint.
+
+**Actividades Realizadas para el despliegue del Landing Page**
+
+1. Instalación de la dependencia `gh-pages`
+
+Se instaló la dependencia necesaria para realizar el despliegue del proyecto mediante el siguiente comando:
+
+```bash
+npm install gh-pages --save-dev
+```
+
+2. Configuración de scripts de despliegue
+
+Posteriormente, se añadieron los scripts de despliegue dentro del bloque `scripts` del archivo `package.json`:
+
+```json
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+```
+
+Asimismo, se configuró la propiedad `homepage` con el nombre de usuario y repositorio correspondiente de GitHub Pages.
+
+3. Ejecución del despliegue
+
+Finalmente, para realizar el despliegue del Landing Page, se ejecutó el siguiente comando:
+
+```bash
+npm run deploy
+```
+
+Este proceso genera la carpeta de compilación del proyecto y publica su contenido en la rama `gh-pages` del repositorio.
+
+**URL del Landing Page desplegada:** [Link](Link)
+
+**Evidencias visuales:**
+
+![Software Deployment Evidence](assets/TP/landing_deployment_evidence.png)
+
+**Actividades Realizadas para el despliegue del Web Application**
+
+
+
+**Actividades Realizadas para el despliegue del Backend Web Services**
+
+El despliegue automático del Backend, desarrollado con Java Spring Boot 3.4.0 y Java 21, fue configurado mediante un flujo de integración y entrega continua (CI/CD), permitiendo desplegar automáticamente la rama `main` hacia AWS Elastic Beanstalk.
+
+1. Creación de la Base de Datos RDS PostgreSQL
+
+Se accedió a la consola de AWS para crear una instancia de Amazon RDS PostgreSQL destinada al entorno de producción utilizando la capa gratuita (Free Tier), con la siguiente configuración:
+
+- Motor: PostgreSQL 15
+- Plantilla: Free Tier
+- Clase de instancia: `db.t3.micro`
+- Almacenamiento: 20 GB SSD (`gp2`)
+- Identificador de instancia: `jameofit-db`
+- Usuario maestro: `jf_admin`
+- Base de datos inicial: `jameofit`
+- Acceso público: Habilitado
+- Puerto: `5432`
+
+2. Configuración de Security Groups
+
+Se configuraron los Security Groups para permitir la comunicación entre Elastic Beanstalk y la base de datos PostgreSQL.
+
+**Security Group de RDS**
+- Regla de entrada: PostgreSQL (`TCP`, puerto `5432`)
+- Origen: Security Group de Elastic Beanstalk (`sg-0e5e62185bcc4068a`)
+- Origen adicional: `0.0.0.0/0` para acceso temporal de desarrollo
+
+**Security Group de Elastic Beanstalk**
+- Reglas de salida: Permitir todo el tráfico para conexión con RDS
+
+3. Creación del Entorno Elastic Beanstalk
+
+Se creó un entorno en AWS Elastic Beanstalk para hospedar el backend con la siguiente configuración:
+
+- Nombre de la aplicación: `jameofit-backend`
+- Nombre del entorno: `Jameofit-backend-env`
+- Plataforma: Java 21 (Amazon Corretto 21 running on 64bit Amazon Linux 2023)
+- Configuración: Instancia única (Free Tier eligible)
+- Tipo de instancia: `t3.micro` o `t2.micro`
+- VPC: VPC por defecto
+- Subredes: `us-east-1a`, `us-east-1b`
+
+4. Configuración de Roles IAM
+
+Se crearon los roles IAM necesarios para el funcionamiento de Elastic Beanstalk.
+
+**Rol de servicio (`aws-elasticbeanstalk-service-role`)**
+- `AWSElasticBeanstalkEnhancedHealth`
+- `AWSElasticBeanstalkManagedUpdatesCustomerRolePolicy`
+
+**Perfil de instancia EC2 (`aws-elasticbeanstalk-ec2-role`)**
+- `AWSElasticBeanstalkWebTier`
+- `AWSElasticBeanstalkWorkerTier`
+- `AWSElasticBeanstalkMulticontainerDocker`
+
+5. Configuración de Variables de Entorno
+
+Dentro de Elastic Beanstalk, en la sección `Configuration → Software → Environment properties`, se configuraron las variables necesarias para la conexión entre Spring Boot y PostgreSQL.
+
+![Software Deployment Evidence](assets/TP/backend_deployment_evidence1.png)
+
+Asimismo, se configuraron las propiedades correspondientes en el archivo `application.properties`.
+
+![Software Deployment Evidence](assets/TP/backend_deployment_evidence2.png)
+
+6. Creación de Credenciales IAM para GitHub Actions
+
+Se creó un usuario IAM específico para automatizar el despliegue desde GitHub Actions:
+
+- Usuario: `github-actions-jameofit`
+
+Posteriormente, se generaron las credenciales:
+- `AWS_ACCESS_KEY_ID`
+- `AWS_SECRET_ACCESS_KEY`
+
+Estas credenciales fueron almacenadas como secretos dentro del repositorio Backend en GitHub.
+
+7. Implementación del flujo CI/CD con GitHub Actions
+
+Se implementó un workflow (`.github/workflows/aws-deploy.yml`) para automatizar la compilación y despliegue del backend cada vez que se realizan pushes sobre la rama `main`.
+
+```yaml
+name: Deploy Spring Boot JameoFit to AWS Elastic Beanstalk
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v4
+
+      - name: Set up Java 21
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+
+      - name: Build with Maven
+        run: mvn clean package -DskipTests
+
+      - name: Get timestamp
+        id: time
+        run: echo "timestamp=$(date +%Y%m%d_%H%M%S)" >> $GITHUB_OUTPUT
+
+      - name: Deploy to Elastic Beanstalk
+        uses: einaregilsson/beanstalk-deploy@v22
+        with:
+          aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          application_name: jameofit-backend
+          environment_name: Jameofit-backend-env
+          version_label: jameofit-${{ steps.time.outputs.timestamp }}
+          region: ${{ secrets.AWS_REGION }}
+          deployment_package: target/backendJameoFit-0.0.1-SNAPSHOT.jar
+```
+
+8. Despliegue automático exitoso
+
+Finalmente, tras configurar el workflow y las variables de entorno, se ejecutó correctamente el primer despliegue automático mediante GitHub Actions. El sistema compiló el backend, generó el archivo `.jar` y realizó el despliegue exitoso hacia AWS Elastic Beanstalk, quedando accesible mediante la URL pública generada por AWS.
+
+**Evidencias visuales:**
+
+![Software Deployment Evidence](assets/TP/backend_deployment_evidence3.png)
+![Software Deployment Evidence](assets/TP/backend_deployment_evidence4.png)
+![Software Deployment Evidence](assets/TP/backend_deployment_evidence5.png)
+![Software Deployment Evidence](assets/TP/backend_deployment_evidence6.png)
+![Software Deployment Evidence](assets/TP/backend_deployment_evidence7.png)
+![Software Deployment Evidence](assets/TP/backend_deployment_evidence8.png)
+
+
+#### 6.2.1.9. Team Collaboration Insights during Sprint
+
+En esta sección se analizan las evidencias de colaboración y coordinación del equipo durante el desarrollo del Sprint 1, considerando la participación de los integrantes en las actividades de implementación y control de versiones del proyecto. Para ello, se presentan métricas, capturas y analíticos obtenidos de GitHub, los cuales permiten visualizar la distribución del trabajo, el nivel de contribución de cada miembro y la interacción mantenida en el desarrollo del Landing Page, la aplicación web y los servicios Backend implementados durante el sprint.
+
+**Landing Page:**
+
+![Team Collaboration Insights](assets/TP/sprint1_landing_insights1.png)
+![Team Collaboration Insights](assets/TP/sprint1_landing_insights2.png)
+
+**Web Application:**
+
+![Team Collaboration Insights](assets/TP/sprint1_web_insights_1.png)
+![Team Collaboration Insights](assets/TP/sprint1_web_insights_2.png)
+
+**Backend Web Services:**
+
+![Team Collaboration Insights](assets/TP/sprint1_backend_insights1_.png)
+![Team Collaboration Insights](assets/TP/sprint1_backend_insights2.png)
+
+
 ### 4.3 Referencias Bibliográficas
 
 Organización Mundial de la Salud. (2025). Noncommunicable diseases.  
