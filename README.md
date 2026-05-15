@@ -4096,34 +4096,45 @@ Secciones de CTA y Footer:
 
 ![Execution Evidence](assets/TP/landing_execution_evidence5.png)
 
-**Demo Landing Page:** 
+**Demo Landing Page:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323270_upc_edu_pe/IQAAZpVUQfGHRJOSBooLgxm-AbhEkQ5rQzLaoCchwTCH0uY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Ee4kgX
+
+---
 
 **Web Application:**
 
-Vista de Registro
-![Execution Evidence](assets/TP/web_execution_evidence1.png)
+Vista de Registro:
+![Execution Evidence](assets/TP/frontend_register.png)
 
 Vista de Inicio de Sesion:
-![Execution Evidence](assets/TP/web_execution_evidence1.png)
+![Execution Evidence](assets/TP/frontend_login.png)
 
 Vista de Dashboard:
-![Execution Evidence](assets/TP/web_execution_evidence1.png)
+![Execution Evidence](assets/TP/frontend_dashboard.png)
 
-Vista de Perfil
+Vistas de Perfil:
+![Execution Evidence](assets/TP/frontend_profile_info.png)
+![Execution Evidence](assets/TP/frontend_profile_settings.png)
 
 Vistas de Pacientes:
-![Execution Evidence](assets/TP/web_execution_evidence2.png)
-![Execution Evidence](assets/TP/web_execution_evidence1.png)
-![Execution Evidence](assets/TP/web_execution_evidence1.png)
-![Execution Evidence](assets/TP/web_execution_evidence1.png)
+![Execution Evidence](assets/TP/frontend_patients_directory.png)
+![Execution Evidence](assets/TP/frontend_patients_detail.png)
+![Execution Evidence](assets/TP/frontend_patients_tracking.png)
+
+Vistas de Comunicacion:
+![Execution Evidence](assets/TP/frontend_communication_chat.png)
+![Execution Evidence](assets/TP/frontend_communication_consultation.png)
 
 Vista de Tips:
+![Execution Evidence](assets/TP/frontend_content_tips.png)
 
-Vista de Comunicacion:
+Vista de Notificaciones:
+![Execution Evidence](assets/TP/frontend_notifications.png)
 
-Vista de 
+Vista de Suscripciones:
+![Execution Evidence](assets/TP/frontend_subscriptions.png)
 
-**Demo Web Application:** [Link](Link)
+
+**Demo Web Application:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323270_upc_edu_pe/IQBkdUMDlBydSIw_rbnxEvXLAahQB6s2f2-dKfqVJFoUD0g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=uS2o8r
 
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review
@@ -4301,17 +4312,17 @@ Finalmente, se verificó que el Landing Page quedara publicado correctamente y a
 
 ![Software Deployment Evidence - Landing Published](assets/TP/G4.png)
 
-**URL del Landing Page desplegado:** [Pendiente colocar enlace final](Link)
+**URL del Landing Page desplegada:** [https://g3-soluciones-iot.github.io/landing-page/](https://g3-soluciones-iot.github.io/landing-page/)
 
-**Repositorio del Landing Page:** [Pendiente colocar enlace del repositorio](Link)
+---
 
 **Web Application Deployment**
 
-La aplicación web fue preparada para despliegue mediante Firebase Hosting, manteniendo la configuración necesaria para conectar el frontend con los servicios Backend publicados en AWS. Durante el Sprint se realizaron actividades de preparación del proyecto, configuración de entorno y validación de build.
+La aplicación web fue preparada y desplegada mediante Firebase Hosting, manteniendo la configuración necesaria para conectar el frontend con los servicios Backend publicados en AWS. Durante el Sprint se validó que las vistas implementadas pudieran ejecutarse correctamente, que el proyecto generara una versión de producción y que los principales flujos de la aplicación se mantuvieran disponibles para revisión.
 
 1. **Preparación del proyecto frontend**
 
-Se verificó la instalación de dependencias y la ejecución local del proyecto antes de generar una versión lista para producción.
+Se verificó la instalación de dependencias y la ejecución local del proyecto antes de generar una versión lista para producción. Esta validación permitió revisar las vistas de autenticación, dashboard, perfil, pacientes, comunicación, contenido, notificaciones y suscripciones.
 
 ```bash
 npm install
@@ -4326,7 +4337,7 @@ Se ejecutó el proceso de compilación del frontend para validar que la aplicaci
 npm run build
 ```
 
-3. **Configuración del proyecto en Firebase**
+3. **Configuración de Firebase Hosting**
 
 Se preparó el proyecto de Firebase Hosting para publicar la aplicación web desarrollada con React y servir el contenido generado en la carpeta `dist`.
 
@@ -4335,125 +4346,87 @@ firebase login
 firebase init hosting
 ```
 
-Este proceso genera la carpeta de compilación del proyecto y publica su contenido en la rama `gh-pages` del repositorio.
+4. **Publicación de la aplicación web**
 
-**URL del Landing Page desplegada:** [https://g3-soluciones-iot.github.io/landing-page/](https://g3-soluciones-iot.github.io/landing-page/)
+Después de validar el build, se publicó la aplicación web en Firebase Hosting para dejarla disponible mediante una URL pública.
 
-**Evidencias visuales:**
-
-![Software Deployment Evidence](assets/TP/landing_deployment_evidence1.png)
-![Software Deployment Evidence](assets/TP/landing_deployment_evidence2.png)
-
-**Actividades Realizadas para el despliegue del Web Application**
-
-
-
-**Actividades Realizadas para el despliegue del Backend Web Services**
-
-El Backend Web Services fue desplegado en AWS utilizando Elastic Beanstalk para hospedar la aplicación Spring Boot y Amazon RDS PostgreSQL para la persistencia de datos. Además, se configuró un flujo de integración y despliegue continuo con GitHub Actions para automatizar la publicación de cambios desde la rama principal del repositorio.
-
-1. **Creación de la base de datos RDS PostgreSQL**
-
-Se creó una instancia de Amazon RDS PostgreSQL destinada al entorno de producción del Backend, utilizando una configuración compatible con el alcance del Sprint y los recursos disponibles.
-
-| Configuración | Valor |
-|---|---|
-| Motor | PostgreSQL |
-| Plantilla | Free Tier |
-| Clase de instancia | `db.t3.micro` |
-| Almacenamiento | 20 GB SSD |
-| Identificador | `jameofit-db` |
-| Base de datos inicial | `jameofit` |
-| Puerto | `5432` |
-
-2. **Configuración de Security Groups**
-
-Se configuraron reglas de red para permitir la comunicación entre Elastic Beanstalk y PostgreSQL, manteniendo disponible el acceso necesario para el funcionamiento del Backend.
-
-3. **Creación del entorno Elastic Beanstalk**
-
-Se creó un entorno en AWS Elastic Beanstalk para ejecutar el Backend desarrollado con Spring Boot.
-
-| Configuración | Valor |
-|---|---|
-| Aplicación | `jameofit-backend` |
-| Entorno | `Jameofit-backend-env` |
-| Plataforma | Java / Amazon Corretto |
-| Tipo de entorno | Instancia única |
-| Tipo de instancia | `t3.micro` o `t2.micro` |
-
-4. **Configuración de roles IAM**
-
-Se configuraron los roles necesarios para que Elastic Beanstalk, EC2 y los servicios asociados puedan operar dentro de AWS.
-
-![Software Deployment Evidence - IAM Roles](assets/TP/G8.png)
-
-5. **Configuración de variables de entorno**
-
-Dentro de Elastic Beanstalk se configuraron las propiedades necesarias para conectar el Backend con la base de datos PostgreSQL y otros servicios requeridos por la aplicación.
-
-![Software Deployment Evidence - Environment Variables](assets/TP/backend_deployment_evidence1.png)
-
-Asimismo, se verificó la configuración correspondiente en el archivo de propiedades del proyecto Backend.
-
-![Software Deployment Evidence - Application Properties](assets/TP/backend_deployment_evidence2.png)
-
-6. **Creación de credenciales IAM para GitHub Actions**
-
-Se creó un usuario IAM para automatizar el despliegue desde GitHub Actions. Sus credenciales fueron registradas como secretos del repositorio Backend.
-
-![Software Deployment Evidence - IAM User](assets/TP/G7.png)
-
-7. **Implementación del flujo CI/CD con GitHub Actions**
-
-Se configuró un workflow para compilar el proyecto Backend y desplegar el artefacto generado hacia AWS Elastic Beanstalk cuando se actualiza la rama principal.
-
-```yaml
-name: Deploy Spring Boot JameoFit to AWS Elastic Beanstalk
-
-on:
-  push:
-    branches:
-      - main
-
-jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout source code
-        uses: actions/checkout@v4
-
-      - name: Set up Java 21
-        uses: actions/setup-java@v4
-
-      - name: Build with Maven
-        run: mvn clean package -DskipTests
-
-      - name: Deploy to Elastic Beanstalk
-        uses: einaregilsson/beanstalk-deploy@v22
+```bash
+firebase deploy
 ```
 
-8. **Verificación del despliegue**
+**URL del Web Application desplegada:** https://g3iotfrontend.web.app/
 
-Se verificó que el entorno de Elastic Beanstalk quedara activo y que la base de datos RDS estuviera disponible para el Backend.
+**Repositorio del Web Application:** https://github.com/G3-Soluciones-IOT/frontend
 
-![Software Deployment Evidence - Elastic Beanstalk](assets/TP/G5.png)
+**Evidencias visuales de la Web Application**
 
-![Software Deployment Evidence - RDS PostgreSQL](assets/TP/G6.png)
+Las siguientes capturas corresponden a las evidencias presentadas en la sección 6.2.1.6. Se adjuntan nuevamente en esta sección para sustentar que las vistas principales fueron ejecutadas y verificadas como parte del proceso de preparación y despliegue.
 
-**URL del Backend desplegado:** [Pendiente colocar enlace final del Swagger o API](Link)
+**Autenticación**
 
-**Repositorio del Backend:** [Pendiente colocar enlace del repositorio](Link)
+Vista de Registro:
 
-**Evidencias visuales adicionales:**
+![Software Deployment Evidence - Web Register](assets/TP/frontend_register.png)
 
-![Software Deployment Evidence](assets/TP/backend_deployment_evidence3.png)
-![Software Deployment Evidence](assets/TP/backend_deployment_evidence4.png)
-![Software Deployment Evidence](assets/TP/backend_deployment_evidence5.png)
-![Software Deployment Evidence](assets/TP/backend_deployment_evidence6.png)
-![Software Deployment Evidence](assets/TP/backend_deployment_evidence7.png)
-![Software Deployment Evidence](assets/TP/backend_deployment_evidence8.png)
+Vista de Inicio de Sesión:
+
+![Software Deployment Evidence - Web Login](assets/TP/frontend_login.png)
+
+**Dashboard**
+
+Vista de Dashboard:
+
+![Software Deployment Evidence - Web Dashboard](assets/TP/frontend_dashboard.png)
+
+**Perfil de Usuario**
+
+Vista de Información de Perfil:
+
+![Software Deployment Evidence - Web Profile Info](assets/TP/frontend_profile_info.png)
+
+Vista de Configuración de Perfil:
+
+![Software Deployment Evidence - Web Profile Settings](assets/TP/frontend_profile_settings.png)
+
+**Gestión de Pacientes**
+
+Vista de Directorio de Pacientes:
+
+![Software Deployment Evidence - Web Patients Directory](assets/TP/frontend_patients_directory.png)
+
+Vista de Detalle de Paciente:
+
+![Software Deployment Evidence - Web Patient Detail](assets/TP/frontend_patients_detail.png)
+
+Vista de Seguimiento de Paciente:
+
+![Software Deployment Evidence - Web Patient Tracking](assets/TP/frontend_patients_tracking.png)
+
+**Comunicación**
+
+Vista de Chat:
+
+![Software Deployment Evidence - Web Communication Chat](assets/TP/frontend_communication_chat.png)
+
+Vista de Consultas:
+
+![Software Deployment Evidence - Web Communication Consultation](assets/TP/frontend_communication_consultation.png)
+
+**Contenido y Gestión**
+
+Vista de Tips:
+
+![Software Deployment Evidence - Web Content Tips](assets/TP/frontend_content_tips.png)
+
+Vista de Notificaciones:
+
+![Software Deployment Evidence - Web Notifications](assets/TP/frontend_notifications.png)
+
+Vista de Suscripciones:
+
+![Software Deployment Evidence - Web Subscriptions](assets/TP/frontend_subscriptions.png)
+
+---
 
 **IoT Simulation and Device Deployment Evidence**
 
@@ -4465,7 +4438,7 @@ Se preparó la simulación del flujo de hidratación para validar la lectura de 
 
 ![Software Deployment Evidence - Smart Bottle Simulation](assets/TP/wokwi_botella.png)
 
-**URL de simulación Botella Inteligente:** [Pendiente colocar enlace final](Link)
+**URL de simulación Botella Inteligente:** https://wokwi.com/projects/463883642035947521
 
 2. **Simulación de Balanza Inteligente**
 
@@ -4473,17 +4446,7 @@ Se preparó la simulación de la balanza para validar la lectura de peso, tara y
 
 ![Software Deployment Evidence - Smart Scale Simulation](assets/TP/wokwi_balanza.png)
 
-**URL de simulación Balanza Inteligente:** [Pendiente colocar enlace final](Link)
-
-**Pendientes para completar la sección**
-
-- Agregar URL final del Landing Page desplegado.
-- Agregar URL final de la Web Application desplegada.
-- Agregar URL final del Backend o Swagger publicado.
-- Agregar enlaces de repositorios correspondientes a Landing Page, Web Application, Backend e IoT Devices.
-- Reemplazar las capturas pendientes de Firebase Hosting cuando estén disponibles.
-- Confirmar enlaces finales de simulaciones Wokwi para Smart Bottle y Smart Scale.
-
+**URL de simulación Balanza Inteligente:** https://wokwi.com/projects/463886427977308161
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint
 
@@ -4498,11 +4461,6 @@ En esta sección se analizan las evidencias de colaboración y coordinación del
 
 ![Team Collaboration Insights](assets/TP/sprint1_web_insights_1.png)
 ![Team Collaboration Insights](assets/TP/sprint1_web_insights_2.png)
-
-**Backend Web Services:**
-
-![Team Collaboration Insights](assets/TP/sprint1_backend_insights1_.png)
-![Team Collaboration Insights](assets/TP/sprint1_backend_insights2.png)
 
 
 ### Referencias Bibliográficas
@@ -4524,3 +4482,5 @@ https://www.gob.pe/institucion/inei/informes-publicaciones/5408920-las-tecnologi
 ### Videos de Exposiciones
 
 AV1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323270_upc_edu_pe/IQA-8Ea3XJJ4SKV4BOhLQeF3AaoSDORI-u2m4FrHy1KFbKc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=r9G8pP
+
+TB1: 
