@@ -3977,15 +3977,77 @@ En esta sección se presentan las evidencias de desarrollo correspondientes al S
 
 **Landing Page:** [https://github.com/G3-Soluciones-IOT/landing-page](https://github.com/G3-Soluciones-IOT/landing-page)
 
-| **Repository**        | **Branch**      | **Commit Id**      | **Commit Message**      | **Commit Message Body**     | **Commited on (Date)**      |
-|-----------------------|-----------------|--------------------|-------------------------|-----------------------------|-----------------------------|
-| landing-page          | main            |                    | initial commit          | -                           |                             |
+| **Repository** | **Branch** | **Commit Id** | **Commit Message**                                   | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|------------------------------------------------------|--------------------------|--------------------------|
+| landing-page   | main       | 5843067        | fix: fixing components appshowcase and homepage      | -                        | 11/05/2026               |
+| landing-page   | main       | d316fd8        | fix: fixing vite.config.js                           | -                        | 11/05/2026               |
+| landing-page   | main       | ce0a69d        | fix: fixing vite.config.js                           | -                        | 11/05/2026               |
+| landing-page   | main       | 4a1425b        | fix: fix package.json                                | -                        | 11/05/2026               |
+| landing-page   | main       | 79628d7        | feat: add new component and update i18n translations | -                        | 11/05/2026               |
+| landing-page   | main       | e5d3980        | Initial commit                                       | -                        | 11/05/2026               |
 
 **Web Application:** [https://github.com/G3-Soluciones-IOT/frontend](https://github.com/G3-Soluciones-IOT/frontend)
 
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| frontend | develop | ed96ca0 | feat: notificacions module and account settings shared page | - | 14/05/2026 |
+| frontend | develop | bd3b903 | feat(useTips): implement custom hook for fetching and managing tips | - | 14/05/2026 |
+| frontend | develop | 0e1f163 | feat(UpdateTip): add UpdateTipInput interface and updateTipUseCase for modifying tips | - | 14/05/2026 |
+| frontend | develop | b0d6592 | feat(TipsPage): add TipsPage component with styles, search, and modal functionality | - | 14/05/2026 |
+| frontend | develop | 6fb5bc4 | feat(TipsRoute): add TipsRoute component for rendering TipsPage with navigation | - | 14/05/2026 |
+| frontend | develop | 4399c34 | feat(tips.api): add API methods for managing tips and resources | - | 14/05/2026 |
+| frontend | develop | 6d0712d | feat(TipRow): add TipRow component for displaying individual tips with edit functionality | - | 14/05/2026 |
+| frontend | develop | 894656a | feat(Tip): add Tip and TipResource models, and TipRepository interface for managing tips and resources | - | 14/05/2026 |
+| frontend | develop | 70f543b | feat(ResourceCard): add ResourceCard component for displaying tip resources with metadata | - | 14/05/2026 |
+| frontend | develop | f6ae0e3 | feat(Placeholder): add placeholder.txt file for future content | - | 14/05/2026 |
+| frontend | develop | 509bbf6 | feat(Modal): add Modal component for displaying content with header, body, and footer | - | 14/05/2026 |
+| frontend | develop | e3e6a68 | feat(Tips): add ListTipsInput interface for listing tips with pagination and filters | - | 14/05/2026 |
+| frontend | develop | 3382577 | feat(Tips): add index file for domain, application, infrastructure, and presentation exports | - | 14/05/2026 |
+| frontend | develop | ba78f03 | feat(Tips): implement HttpTipRepository for managing tips data | - | 14/05/2026 |
+| frontend | develop | e40254b | feat(Tips): add use cases for listing tips and retrieving tip by ID | - | 14/05/2026 |
+| frontend | develop | 70fdac3 | feat(Tips): add EditTipModal component for editing tips | - | 14/05/2026 |
+| frontend | develop | 4de289e | feat(Tips): add deleteTipUseCase for removing tips | - | 14/05/2026 |
+| frontend | develop | 898254e | feat(Tips): implement CreateTipInput and CreateTipModal components | - | 14/05/2026 |
+| frontend | develop | 8d9324c | feat(App): add TipsRoute to handle navigation for tips content | - | 14/05/2026 |
+| frontend | develop | ce22bc3 | feat(payments): refactor PaymentsPage to use SharedLayout | - | 14/05/2026 |
+| frontend | develop | 77d1d8d | feat(payments): add payments page | - | 14/05/2026 |
+| frontend | develop | 7fcb56e | feat(SharedLayout): refactor layout and add Topbar component with logout functionality | - | 14/05/2026 |
+| frontend | develop | 3f86ee6 | feat(NutritionistProfile): rename NutritionistLayout.module.css to NutritionistProfile.module.css | - | 14/05/2026 |
+| frontend | develop | 74b8281 | feat(NutritionistProfilePage): update import to use NutritionistProfile.module.css | - | 14/05/2026 |
+| frontend | develop | e64ce0d | feat(NutritionistProfile): rename NutritionistLayout.module.css to NutritionistProfile.module.css | - | 14/05/2026 |
+| frontend | develop | ed5837c | feat(index): update exports to include Topbar and remove PatientsLayout | - | 14/05/2026 |
+| frontend | develop | ef2318c | feat(index): update exports to include Topbar and remove PatientsLayout | - | 14/05/2026 |
+| frontend | develop | 8b0df97 | feat(index): remove NutritionistLayout export from index file | - | 14/05/2026 |
+| frontend | develop | 448b2d5 | feat(index): export page components for chat, consultations, and recommendations | - | 14/05/2026 |
+| frontend | develop | 11491b8 | feat(index): export page components for chat, consultations, and recommendations | - | 14/05/2026 |
+| frontend | develop | 7dfd308 | feat(consultations): create ConsultationsPage component with SharedLayout integration | - | 14/05/2026 |
+| frontend | develop | e0c9881 | feat(communication): replace SharedLayout with individual page components for chat, consultations, and recommendations | - | 14/05/2026 |
+| frontend | develop | 65e61c6 | feat(chat): create ChatPage component with SharedLayout integration and navigation | - | 14/05/2026 |
+| frontend | develop | 4906d73 | feat(communication): update route handling to support all communication paths | - | 14/05/2026 |
+| frontend | develop | f8a0c9e | feat(layout): implement SharedLayout component with navigation and breadcrumbs | - | 14/05/2026 |
+| frontend | develop | b005f6c | feat(layout): add SharedLayout styles for responsive design and navigation | - | 14/05/2026 |
+| frontend | develop | 8bf2f14 | feat(patient): refactor PatientTrackingPage to use SharedLayout and integrate navigation configuration | - | 14/05/2026 |
+| frontend | develop | 5aca149 | feat(patients): refactor PatientsOverviewPage to use SharedLayout and integrate navigation configuration | - | 14/05/2026 |
+| frontend | develop | cae0d74 | feat(patients): refactor PatientsDirectoryPage to use SharedLayout and integrate navigation configuration | - | 14/05/2026 |
+| frontend | develop | adb5756 | feat(patient): refactor PatientDetailPage to use SharedLayout and integrate navigation configuration | - | 14/05/2026 |
+| frontend | develop | c39922f | feat(profile): refactor NutritionistProfilePage to use SharedLayout and manage form state with draft | - | 14/05/2026 |
+| frontend | develop | 7aeb297 | feat(nutritionist): add NutritionistShellRoute and update NutritionistProfileRoute with currentPath prop | - | 14/05/2026 |
+| frontend | develop | 5ee1c18 | feat(icons): add reusable navigation icons for dashboard, users, messages, files, charts, and screens | - | 14/05/2026 |
+| frontend | develop | e038b56 | feat(navigation): add role-based navigation configuration for nutritionist, patient, and admin | - | 14/05/2026 |
+| frontend | develop | 35d7677 | feat(layout): export SharedLayout and related types | - | 14/05/2026 |
+| frontend | develop | 3c0c93f | feat(communication): add communication route with shared layout and navigation | - | 14/05/2026 |
+| frontend | develop | 8bbbffd | feat(app): integrate communication route and enhance nutritionist profile navigation | - | 14/05/2026 |
+| frontend | develop | d334167 | feat(router): add patient routes to app navigation | - | 12/05/2026 |
+| frontend | develop | 8a145dd | feat(patients): add mock patient management views | - | 12/05/2026 |
+| frontend | develop | eeecbbc | feat: add nutritionist pages and route of application | - | 11/05/2026 |
+| frontend | develop | 3628b54 | feat: add IAM and Nutritionist bounded contexts | - | 11/05/2026 |
+| frontend | main | 35aa5fa | feat: initialize frontend project | - | 11/05/2026 |
+
+**Backend Web Services:** [https://github.com/G3-Soluciones-IOT/backend](https://github.com/G3-Soluciones-IOT/backend)
+
 | **Repository**        | **Branch**      | **Commit Id**      | **Commit Message**      | **Commit Message Body**     | **Commited on (Date)**      |
 |-----------------------|-----------------|--------------------|-------------------------|-----------------------------|-----------------------------|
-| frontend              | main            |                    | initial commit          | -                           |                             |
+| backend               | main            |                    | initial commit          | -                           |                             |
 
 
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review
@@ -4002,12 +4064,10 @@ Esta suite de pruebas permite mantener la trazabilidad entre las historias de us
 
 | **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Committed on (Date)** |
 |----------------|------------|----------------|----------------------|---------------------------|--------------------------|
-| testing | main | bdc81b3 | chore(test): configure cucumber-js test project | - | 15/05/2026 |
-| testing | main | 8ab4731 | Add feature for multi-device accessibility | - | 15/05/2026 |
-| testing | main | 8f40e0c | Add feature for navigation from the footer | - | 15/05/2026 |
-| testing | main | 9b3d2a7 | Add feature for viewing user testimonials | - | 15/05/2026 |
-| testing | main | 6c8e07a | Add feature for navigating benefits section | - | 15/05/2026 |
-| testing | main | 6c8e07a | Add feature for navigating benefits section | - | 15/05/2026 |
+| Testing | main | d7a7a65 | test(bdd): implement shared cucumber world and step definitions | - | 15/05/2026 |
+| Testing | main | 3c89b91 | test(bdd): add iot ai and landing page features | - | 15/05/2026 |
+| Testing | main | 05ec68e | test(bdd): add tracking professional and subscription features | - | 15/05/2026 |
+| Testing | main | 101a7c5 | test(bdd): add account profile and plan features | - | 15/05/2026 |
 
 
 #### 6.2.1.6. Execution Evidence for Sprint Review
@@ -4275,33 +4335,20 @@ firebase login
 firebase init hosting
 ```
 
-4. **Configuración de variables de entorno**
+Este proceso genera la carpeta de compilación del proyecto y publica su contenido en la rama `gh-pages` del repositorio.
 
-Se configuró la URL del Backend desplegado para que la aplicación web pueda consumir los servicios disponibles.
-
-```bash
-VITE_API_URL=[Pendiente colocar URL final del backend]
-```
-
-5. **Publicación en Firebase Hosting**
-
-El despliegue de la aplicación web se realiza mediante el comando de publicación de Firebase.
-
-```bash
-firebase deploy
-```
-
-**URL de la Web Application desplegada:** [Pendiente colocar enlace final](Link)
-
-**Repositorio de la Web Application:** [Pendiente colocar enlace del repositorio](Link)
+**URL del Landing Page desplegada:** [https://g3-soluciones-iot.github.io/landing-page/](https://g3-soluciones-iot.github.io/landing-page/)
 
 **Evidencias visuales:**
 
-> Espacio reservado para captura de Firebase Hosting: `assets/TP/frontend_deployment_evidence1.png`
+![Software Deployment Evidence](assets/TP/landing_deployment_evidence1.png)
+![Software Deployment Evidence](assets/TP/landing_deployment_evidence2.png)
 
-> Espacio reservado para captura del build o deploy ejecutado: `assets/TP/frontend_deployment_evidence2.png`
+**Actividades Realizadas para el despliegue del Web Application**
 
-**Backend Web Services Deployment**
+
+
+**Actividades Realizadas para el despliegue del Backend Web Services**
 
 El Backend Web Services fue desplegado en AWS utilizando Elastic Beanstalk para hospedar la aplicación Spring Boot y Amazon RDS PostgreSQL para la persistencia de datos. Además, se configuró un flujo de integración y despliegue continuo con GitHub Actions para automatizar la publicación de cambios desde la rama principal del repositorio.
 
