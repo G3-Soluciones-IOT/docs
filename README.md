@@ -62,7 +62,7 @@
 <br><br>
 
 <p align="center">
-  <strong>Abril, 2026</strong> <br>
+  <strong>Mayo, 2026</strong> <br>
   <strong>URL del proyecto:</strong>
   <a href="https://github.com/G3-Soluciones-IOT">
     https://github.com/G3-Soluciones-IOT
@@ -84,8 +84,14 @@
 | AV1     | 17/04/2026 | Jhon Alexander Galvez Chambi  | Desarrollo de secciones correspondientes a los Bounded Context: Rutina Alimentaria, Nutricionista, Gestion de Planes Alimenticios, Comunicacion y Pagos   |
 | AV1     | 17/04/2026   | Pablo Antonio Geronimo Quispe  |        Desarrollo del needfinding agregando los respectivos User Persona ,Empathy Map,JourneyMap y documentacion del Ubiquitous Language agregando       |         
 | AV1     | 25/04/2026   | Fabrizio Alberto Paredes Santos  |        Desarrollo de la entrevista del segmento 1, definición de la estructura de entrevistas y corrección del diseño de las mismas.     | 
-| TP1     | 10/05/2026   | Mathias Eduardo Bueno Perales  |        Desarrollo de los General Style Guidelines, asi como los Wireframes y Mockups para Landing Page y Web App, asi como el Wireflow     | 
-
+| TB1     | 05/05/2026   | Valentino Sandoval Paiva  | Desarrollo del Capítulo VI, sección 6.1 Software Configuration Management. |
+| TB1     | 10/05/2026   | Mathias Eduardo Bueno Perales  | Desarrollo de las secciones 5.1 Style Guidelines, 5.2 Information Architecture, 5.3 Landing Page UI Design, 5.4.2 Applications Wireflow Diagrams y 5.5 Application Prototyping. |
+| TB1     | 11/05/2026   | Omar Luquillas Asto  | Desarrollo del Capítulo VI, sección 6.2 Landing Page, Service & Applications Implementation, con énfasis en la documentación de avances y organización del sprint. |
+| TB1     | 12/05/2026   | Pablo Antonio Geronimo Quispe  | Desarrollo de la sección 5.6 IoT Device Design. |
+| TB1     | 13/05/2026   | Ramiro Alexander Guzmán Chávez  | Colaboración en la mejora continua de capítulos previamente desarrollados, revisando consistencia y alineación del informe. |
+| TB1     | 14/05/2026   | Jhon Alexander Galvez Chambi  | Desarrollo de la sección 5.4.3 Applications Mock-Ups y 5.4.4 Applications User Flow Diagrams |
+| TB1     | 14/05/2026   | Fabrizio Alberto Paredes Santos  | Colaboración en las secciones 5.4.2 Applications Wireflow Diagrams y 5.4.3 Applications Mock-Ups |
+| TB1     | 15/05/2026   | Jhon Alexander Galvez Chambi  | Revisión de calidad de la documentación e integración de avances | 
 
 ## Project Report Collaboration Insights
 
@@ -116,6 +122,31 @@ En esta sección se presentan los analíticos de colaboración y los commits rea
 
 - Report Network:
 ![Report Network](./assets/TB1/report_network.png)
+
+
+**TB1:**
+
+Para la elaboración de la entrega TB1 de este informe, el equipo se organizó mediante reuniones de coordinación a través de un canal de Discord. En estas reuniones se definió la distribución de actividades, se asignaron responsables por capítulo y se establecieron fechas de revisión periódica para asegurar el avance progresivo de cada integrante.
+
+| Integrante | Usuario Github | Detalle de avance |
+|------------|----------------|-------------------|
+| Valentino Sandoval Paiva | `ValentinoSandovalP` | Desarrollo del Capítulo VI, sección 6.1 Software Configuration Management. |
+| Mathias Eduardo Bueno Perales | `MathiasBueno` | Desarrollo de las secciones 5.1 Style Guidelines, 5.2 Information Architecture, 5.3 Landing Page UI Design, 5.4.2 Applications Wireflow Diagrams y 5.5 Application Prototyping. |
+| Omar Luquillas Asto | `OmarLLA` | Desarrollo del Capítulo VI, sección 6.2 Landing Page, Service & Applications Implementation, con énfasis en la documentación de avances y organización del sprint. |
+| Pablo Antonio Geronimo Quispe | `Phatogram` | Desarrollo de la sección 5.6 IoT Device Design. |
+| Ramiro Alexander Guzmán Chávez | `RamiroGuzmanCh` | Colaboración en la mejora continua de capítulos previamente desarrollados, revisando consistencia y alineación del informe. |
+| Jhon Alexander Galvez Chambi | `Chaomeum` | Desarrollo de la sección 5.4.3 Applications Mock-Ups y 5.4.4 Applications User Flow Diagrams; revisión de calidad de la documentación e integración de avances. |
+| Fabrizio Alberto Paredes Santos | `psfa29` | Colaboración en las secciones 5.4.2 Applications Wireflow Diagrams y 5.4.3 Applications Mock-Ups. |
+
+**Report Repository Insights:** 
+
+En esta sección se presentan los analíticos de colaboración y los commits realizados en GitHub por los miembros del equipo dentro del repositorio del informe durante la fase TB1. Esta evidencia permite visualizar la participación de los integrantes y la evolución del trabajo colaborativo a lo largo del desarrollo del reporte.
+
+- Report Contributors:
+![Report Contributors](./assets/TP/report_contributors.png)
+
+- Report Network:
+![Report Network](./assets/TP/report_network.png)
 
 ## Contenido
 
@@ -242,6 +273,7 @@ En esta sección se presentan los analíticos de colaboración y los commits rea
         - [4.2.8.6. Bounded Context Software Architecture Code Level Diagrams.](#4286-bounded-context-software-architecture-code-level-diagrams)
             - [4.2.8.6.1. Bounded Context Domain Layer Class Diagrams.](#42861-bounded-context-domain-layer-class-diagrams)
             - [4.2.8.6.2. Bounded Context Database Design Diagram.](#42862-bounded-context-database-design-diagram)
+- [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
   - [5.1. Style Guidelines.](#51-style-guidelines)
     - [5.1.1. General Style Guidelines.](#511-general-style-guidelines)
     - [5.1.2.  Web, Mobile and IoT Style Guidelines.](#512-web-mobile-and-iot-style-guidelines)
@@ -258,11 +290,27 @@ En esta sección se presentan los analíticos de colaboración y los commits rea
     - [5.4.1. Applications Wireframes](#541-applications-wireframes)
     - [5.4.2. Applications Wireflow Diagrams](#542-applications-wireflow-diagrams)
     - [5.4.3. Applications Mock-Ups](#543-applications-mock-ups)
-   - [5.5. Application Prototyping.](#55-application-prototyping)
-   - [5.6. IoT Device Design.](#56-iot-device-design)
-
-
-  
+    - [5.4.4. Applications User Flow Diagrams](#544-applications-user-flow-diagrams)
+  - [5.5. Application Prototyping.](#55-application-prototyping)
+  - [5.6. IoT Device Design.](#56-iot-device-desing)
+- [Capítulo VI: Product Implementation & Validation](#capítulo-vi-product-implementation--validation)
+  - [6.1. Software Configuration Management](#61-software-configuration-management)
+    - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
+    - [6.1.2. Source Code Management](#612-source-code-management)
+    - [6.1.3. Source Code Style Guide & Conventions](#613-source-code-style-guide--conventions)
+    - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
+  - [6.2. Landing Page, Service & Applications Implementation](#62-landing-page-service--applications-implementation)
+    - [6.2.1. Sprint 1](#621-sprint-1)
+      - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
+      - [6.2.1.2. Aspect Leaders and Collaborators](#6212-aspect-leaders-and-collaborators)
+      - [6.2.1.3. Sprint Backlog 1](#6213-sprint-backlog-1)
+      - [6.2.1.4. Development Evidence for Sprint Review](#6214-development-evidence-for-sprint-review)
+      - [6.2.1.5. Testing Suite Evidence for Sprint Review](#6215-testing-suite-evidence-for-sprint-review)
+      - [6.2.1.6. Execution Evidence for Sprint Review](#6216-execution-evidence-for-sprint-review)
+      - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
+      - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
+      - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
+- [Referencias Bibliográficas](#referencias-bibliográficas)
 
 ## Student Outcome
 
@@ -274,8 +322,8 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |----------------------|---------------------|--------------|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **AV1**<br><br> Bueno Perales, Mathias Eduardo: asumí el desarrollo del Capítulo II, específicamente las secciones 2.1 y 2.2, aportando al análisis inicial del problema, los competidores y el levantamiento de información base para el informe. <br><br> Galvez Chambi, Jhon Alexander: desarrollé las secciones 4.2.4 a 4.2.8 del Capítulo IV y también participé en la elaboración inicial de la carátula, la tabla de contenidos y la estructura general del informe. <br><br> Geronimo Quispe, Pablo Antonio: desarrollé las secciones 2.3, 2.4 y 2.5 del Capítulo II, incluyendo el needfinding, los user personas, el empathy map, el journey map y la documentación del ubiquitous language. <br><br> Guzmán Chávez, Ramiro Alexander: lideré el desarrollo del Capítulo III mediante la elaboración de user stories, product backlog e impact mapping, contribuyendo a la definición y organización de los requerimientos del producto. <br><br> Luquillas Asto, Omar: desarrollé las secciones 4.2.1 a 4.2.3 del Capítulo IV, correspondientes a los bounded contexts de Inicio y Registro de Sesión, Perfil de Usuario y Gestión de Objetivos. <br><br> Paredes Santos, Fabrizio Alberto: desarrollé el Capítulo I, aportando a la construcción del perfil de la startup, la introducción general y la base conceptual del informe. <br><br> Sandoval Paiva, Valentino: lideré el diseño estratégico del sistema mediante EventStorming, Candidate Context Discovery, Bounded Context Canvases, Context Mapping y diagramas de arquitectura de software como Landscape, Context, Container y Deployment. Además, aporté al análisis competitivo y a la formulación de historias de usuario.<br> <br>**TP**<br><br> Bueno Perales, Mathias Eduardo: Durante el desarrollo de las guías de estilo, arquitectura de información y diseños UX/UI, trabajé de manera colaborativa con el equipo, aportando ideas y coordinando actividades para mantener una visión conjunta del proyecto y fortalecer el liderazgo compartido en el proceso de diseño y desarrollo. <br> | **AV1**<br><br> Durante esta entrega, trabajamos de manera articulada para asumir responsabilidades complementarias dentro del informe. La distribución de capítulos, bounded contexts y artefactos de análisis permitió que cada integrante aportara desde un frente específico, combinando liderazgo en requerimientos, diseño estratégico, arquitectura, investigación y documentación. Como resultado, evidenciamos una participación conjunta en la que el liderazgo no recayó en una sola persona, sino que se manifestó de forma distribuida según las necesidades de cada sección del trabajo. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **AV1**<br><br> Bueno Perales, Mathias Eduardo: desarrollé las actividades asignadas para las secciones 2.1 y 2.2 dentro de la planificación establecida para el Capítulo II. <br><br> Galvez Chambi, Jhon Alexander: participé en la estructuración inicial del informe y luego desarrollé las secciones 4.2.4 a 4.2.8 del Capítulo IV, en concordancia con la distribución de tareas acordada por el equipo. <br><br> Geronimo Quispe, Pablo Antonio: ejecuté las actividades asignadas en las secciones 2.3, 2.4 y 2.5, desarrollando los artefactos de needfinding y lenguaje ubicuo definidos en la planificación grupal. <br><br> Guzmán Chávez, Ramiro Alexander: desarrollé el Capítulo III, enfocándome en artefactos clave para la especificación y priorización del trabajo, como user stories, impact mapping y product backlog. <br><br> Luquillas Asto, Omar: desarrollé los bounded contexts 4.2.1 a 4.2.3 del Capítulo IV, cumpliendo con la asignación establecida para la parte inicial del diseño táctico. <br><br> Paredes Santos, Fabrizio Alberto: avancé el Capítulo I de acuerdo con la distribución inicial de contenidos del informe. <br><br> Sandoval Paiva, Valentino: desarrollé los artefactos de diseño estratégico y arquitectura de software en coherencia con la estructura general del documento y con las metas trazadas para la entrega. <br> <br>**TP**<br><br> Bueno Perales, Mathias Eduardo: Durante el desarrollo de las guías de estilo, la arquitectura de información y los diseños UX/UI, colaboré activamente con el equipo, organizando tareas y manteniendo una comunicación constante para cumplir los objetivos planteados y contribuir a un entorno de trabajo colaborativo e inclusivo.  <br> | **AV1**<br><br> En esta entrega generamos un entorno de trabajo colaborativo mediante reuniones de coordinación en Discord, distribución explícita de actividades y revisiones periódicas de avance. Esta organización permitió establecer metas concretas por capítulo y por integrante, dar seguimiento al cumplimiento de tareas y sostener una dinámica ordenada de trabajo grupal. A partir de ello, logramos avanzar de manera progresiva en la construcción del informe, manteniendo coherencia entre los aportes individuales y el objetivo común de la entrega AV1. |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **AV1**<br><br> Bueno Perales, Mathias Eduardo: asumí el desarrollo del Capítulo II, específicamente las secciones 2.1 y 2.2, aportando al análisis inicial del problema, los competidores y el levantamiento de información base para el informe. <br><br> Galvez Chambi, Jhon Alexander: desarrollé las secciones 4.2.4 a 4.2.8 del Capítulo IV y también participé en la elaboración inicial de la carátula, la tabla de contenidos y la estructura general del informe. <br><br> Geronimo Quispe, Pablo Antonio: desarrollé las secciones 2.3, 2.4 y 2.5 del Capítulo II, incluyendo el needfinding, los user personas, el empathy map, el journey map y la documentación del ubiquitous language. <br><br> Guzmán Chávez, Ramiro Alexander: lideré el desarrollo del Capítulo III mediante la elaboración de user stories, product backlog e impact mapping, contribuyendo a la definición y organización de los requerimientos del producto. <br><br> Luquillas Asto, Omar: desarrollé las secciones 4.2.1 a 4.2.3 del Capítulo IV, correspondientes a los bounded contexts de Inicio y Registro de Sesión, Perfil de Usuario y Gestión de Objetivos. <br><br> Paredes Santos, Fabrizio Alberto: desarrollé el Capítulo I, aportando a la construcción del perfil de la startup, la introducción general y la base conceptual del informe. <br><br> Sandoval Paiva, Valentino: lideré el diseño estratégico del sistema mediante EventStorming, Candidate Context Discovery, Bounded Context Canvases, Context Mapping y diagramas de arquitectura de software como Landscape, Context, Container y Deployment. Además, aporté al análisis competitivo y a la formulación de historias de usuario.<br><br>**TB1**<br><br> Sandoval Paiva, Valentino: asumí el liderazgo de la documentación del Capítulo VI, sección 6.1, y tomé la iniciativa de organizar la arquitectura del código frontend mientras desarrollaba las vistas de layout, sidebar y tips para mantener una base ordenada de trabajo. <br><br> Luquillas Asto, Omar: lideré la documentación del Capítulo VI, sección 6.2, y aporté a la organización del sprint documentando los avances del equipo mientras desarrollaba la vista de subscriptions. <br><br> Bueno Perales, Mathias Eduardo: lideré el desarrollo documental de las secciones 5.1, 5.2, 5.3, 5.4.2 y 5.5, y tomé iniciativa en el desarrollo de interfaces y el prototipado de flujos para consolidar la experiencia de usuario. <br><br> Guzmán Chávez, Ramiro Alexander: colaboré en la mejora continua de capítulos previamente desarrollados y aporté liderazgo en el desarrollo de vistas frontend para pacientes y flujos core orientados al segmento de nutricionistas. <br><br> Geronimo Quispe, Pablo Antonio: desarrollé la sección 5.6 IoT Device Design y lideré la elaboración de simulaciones interactivas en Wokwi para Smart Bottle y Smart Scale, alojando el código en el repositorio correspondiente. <br><br> Paredes Santos, Fabrizio Alberto: colaboré en las secciones 5.4.2 Applications Wireflow Diagrams y 5.4.3 Applications Mock-Ups, además de asumir la iniciativa del despliegue de artefactos mediante el landing page y frontend web. <br><br> Galvez Chambi, Jhon Alexander: desarrollé los mockups de aplicación en la sección 5.4.3 y los Application User Flow Diagrams de la sección 5.4.4, integré los avances del equipo y organicé la delegación de responsabilidades para sostener la calidad de la documentación y del código. | **AV1**<br><br> Durante esta entrega, trabajamos de manera articulada para asumir responsabilidades complementarias dentro del informe. La distribución de capítulos, bounded contexts y artefactos de análisis permitió que cada integrante aportara desde un frente específico, combinando liderazgo en requerimientos, diseño estratégico, arquitectura, investigación y documentación. Como resultado, evidenciamos una participación conjunta en la que el liderazgo no recayó en una sola persona, sino que se manifestó de forma distribuida según las necesidades de cada sección del trabajo.<br><br>**TB1**<br><br> Durante esta versión, el liderazgo se distribuyó entre documentación, diseño UX/UI, implementación frontend, simulación IoT, despliegue e integración. Cada integrante asumió un frente concreto y, al mismo tiempo, coordinó con los demás para que los avances técnicos y documentales mantuvieran coherencia dentro del informe y de los repositorios relacionados. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **AV1**<br><br> Bueno Perales, Mathias Eduardo: desarrollé las actividades asignadas para las secciones 2.1 y 2.2 dentro de la planificación establecida para el Capítulo II. <br><br> Galvez Chambi, Jhon Alexander: participé en la estructuración inicial del informe y luego desarrollé las secciones 4.2.4 a 4.2.8 del Capítulo IV, en concordancia con la distribución de tareas acordada por el equipo. <br><br> Geronimo Quispe, Pablo Antonio: ejecuté las actividades asignadas en las secciones 2.3, 2.4 y 2.5, desarrollando los artefactos de needfinding y lenguaje ubicuo definidos en la planificación grupal. <br><br> Guzmán Chávez, Ramiro Alexander: desarrollé el Capítulo III, enfocándome en artefactos clave para la especificación y priorización del trabajo, como user stories, impact mapping y product backlog. <br><br> Luquillas Asto, Omar: desarrollé los bounded contexts 4.2.1 a 4.2.3 del Capítulo IV, cumpliendo con la asignación establecida para la parte inicial del diseño táctico. <br><br> Paredes Santos, Fabrizio Alberto: avancé el Capítulo I de acuerdo con la distribución inicial de contenidos del informe. <br><br> Sandoval Paiva, Valentino: desarrollé los artefactos de diseño estratégico y arquitectura de software en coherencia con la estructura general del documento y con las metas trazadas para la entrega.<br><br>**TB1**<br><br> Sandoval Paiva, Valentino: desarrollé la sección 6.1 del Capítulo VI y organicé tareas relacionadas con la arquitectura del frontend, estableciendo una base común para que las vistas de layout, sidebar y tips se integraran de forma consistente. <br><br> Luquillas Asto, Omar: desarrollé la sección 6.2 del Capítulo VI y contribuí a planificar el sprint mediante la documentación de avances, lo que permitió ordenar responsabilidades y evidencias de implementación. <br><br> Bueno Perales, Mathias Eduardo: desarrollé las secciones 5.1, 5.2, 5.3, 5.4.2 y 5.5 siguiendo la planificación del equipo, coordinando los entregables de diseño para que las interfaces y flujos mantuvieran continuidad. <br><br> Guzmán Chávez, Ramiro Alexander: colaboré en la mejora continua de capítulos previos y participé en el desarrollo de vistas frontend de pacientes y flujos core para nutricionistas, alineando mis avances con las necesidades de ambos segmentos. <br><br> Geronimo Quispe, Pablo Antonio: desarrollé la sección 5.6 y ejecuté las simulaciones en Wokwi para Smart Bottle y Smart Scale, manteniendo el código alojado en el repositorio correspondiente para facilitar la revisión del equipo. <br><br> Paredes Santos, Fabrizio Alberto: colaboré en las secciones 5.4.2 y 5.4.3, desarrollé vistas de autenticación, perfil de usuario y ajustes, y apoyé el despliegue del landing page y frontend web como parte de los objetivos de entrega. <br><br> Galvez Chambi, Jhon Alexander: desarrollé las secciones 5.4.3 y 5.4.4, implementé vistas de Dashboard y Communication, organicé la delegación de responsabilidades e integré los avances para verificar la calidad de la documentación y del código. | **AV1**<br><br> En esta entrega generamos un entorno de trabajo colaborativo mediante reuniones de coordinación en Discord, distribución explícita de actividades y revisiones periódicas de avance. Esta organización permitió establecer metas concretas por capítulo y por integrante, dar seguimiento al cumplimiento de tareas y sostener una dinámica ordenada de trabajo grupal. A partir de ello, logramos avanzar de manera progresiva en la construcción del informe, manteniendo coherencia entre los aportes individuales y el objetivo común de la entrega AV1.<br><br>**TB1**<br><br> En esta versión, el equipo consolidó un entorno colaborativo mediante la división de responsabilidades por documentación, frontend, simulación IoT, despliegue e integración. La planificación permitió que cada integrante cumpliera objetivos verificables y que los avances se integraran de forma ordenada, manteniendo trazabilidad entre las secciones del informe y los artefactos desarrollados en repositorios externos. |
 
 ## Capítulo I: Introducción
 
@@ -4301,7 +4349,7 @@ En esta sección se analizan las evidencias de colaboración y coordinación del
 ![Team Collaboration Insights](assets/TP/sprint1_backend_insights2.png)
 
 
-### 4.3 Referencias Bibliográficas
+### Referencias Bibliográficas
 
 Organización Mundial de la Salud. (2025). Noncommunicable diseases.  
 https://www.who.int/news-room/fact-sheets/detail/noncommunicable-diseases  
@@ -4320,4 +4368,3 @@ https://www.gob.pe/institucion/inei/informes-publicaciones/5408920-las-tecnologi
 ### Videos de Exposiciones
 
 AV1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323270_upc_edu_pe/IQA-8Ea3XJJ4SKV4BOhLQeF3AaoSDORI-u2m4FrHy1KFbKc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=r9G8pP
-
