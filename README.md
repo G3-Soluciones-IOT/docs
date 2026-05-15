@@ -2505,16 +2505,41 @@ Nos basamos principalmente en las recomendaciones de especialistas en el diseño
 ![Espaciado](./assets/TP/formato-espaciado.png)
 
 
-
-
 #### 5.1.2. Web, Mobile and IoT Style Guidelines
+
+La guía de estilos para Web, Mobile e IoT mantiene una identidad visual común basada en los lineamientos generales de JameoFit. En los tres entornos se conserva el uso del logotipo, la tipografía Poppins y la paleta principal definida para la marca, priorizando una experiencia clara, saludable y confiable. La diferencia entre plataformas no se plantea como un cambio de identidad, sino como una adaptación del mismo sistema visual a distintos contextos de uso: pantallas web de mayor densidad, interfaces móviles de consulta rápida y dispositivos IoT con retroalimentación física.
+
+**Web Style Guidelines**
+
+La aplicación web aplica la identidad visual de JameoFit mediante una composición limpia, con predominio de fondos blancos o claros, tarjetas de contenido con bordes suaves y acentos verdes para acciones principales. Como se observa en los mock-ups de la sección 5.4.3, el verde se utiliza para botones primarios, estados activos, indicadores de progreso y elementos relacionados con hábitos saludables; mientras que el azul se reserva para acciones secundarias, enlaces o elementos asociados a tecnología, sincronización e información complementaria.
+
+La tipografía utilizada en la interfaz web mantiene Poppins como fuente principal. Los títulos y encabezados emplean pesos más altos para reforzar la jerarquía visual, mientras que los textos descriptivos, etiquetas y valores de formularios usan pesos regulares para facilitar la lectura. Esta estructura se refleja en pantallas como Register, Login, Account Settings, Patient Detail Panel y módulos de seguimiento, donde la información se organiza con títulos claros, etiquetas breves y componentes visuales consistentes.
+
+En cuanto a estructura, la web prioriza layouts amplios y organizados. Las vistas internas utilizan navegación lateral, tarjetas informativas, formularios alineados y gráficos de progreso. Los botones principales mantienen alto contraste, color verde y bordes redondeados moderados, mientras que los campos de entrada utilizan fondos grises claros para diferenciar zonas editables sin saturar la pantalla. Los estados de progreso, métricas de hidratación, calorías y peso se representan mediante barras, tarjetas y gráficos que facilitan la interpretación rápida de datos nutricionales.
+
+**Mobile Style Guidelines**
+
+La guía mobile adapta los criterios definidos para la aplicación web a pantallas de menor tamaño. Se conserva la misma paleta de colores, tipografía, tono visual y jerarquía de acciones, pero se reorganiza la información para priorizar lectura vertical, navegación simple y acceso rápido a funciones frecuentes. Las acciones principales, como registrar información, consultar progreso o revisar recomendaciones, deben mantenerse visibles y fáciles de seleccionar mediante botones de tamaño adecuado para interacción táctil.
+
+En mobile, los componentes de la web se transforman en bloques apilados, reduciendo la densidad visual y evitando que varias métricas compitan en una misma línea. Las tarjetas de progreso, recordatorios, sugerencias y datos de dispositivos conectados deben conservar el mismo lenguaje visual de la versión web, pero con mayor separación vertical y textos más breves. De esta manera, el usuario mantiene continuidad entre plataformas y puede reconocer los mismos módulos sin aprender una interfaz distinta.
+
+La navegación móvil debe enfocarse en recorridos cortos y directos. Los formularios se presentan en una sola columna, los encabezados deben ser concisos y las acciones secundarias se ubican debajo de la acción principal para mantener claridad. El uso del verde sigue reservado para confirmaciones, progreso saludable y llamadas a la acción principales, mientras que el azul apoya enlaces, sincronización o información tecnológica.
+
+**IoT Style Guidelines**
+
+Los dispositivos IoT extienden la identidad de JameoFit hacia objetos físicos que capturan datos de hidratación y peso. Según la sección 5.6, la Botella Inteligente y la Balanza Inteligente mantienen una estética funcional, compacta y coherente con la plataforma digital. La carcasa y los componentes visibles deben priorizar claridad, bajo ruido visual y reconocimiento rápido del estado del dispositivo.
+
+La retroalimentación visual en IoT se apoya en pantallas pequeñas y luces LED. En la Botella Inteligente, la pantalla OLED muestra información resumida de hidratación, como volumen acumulado, porcentaje de avance y último registro. En la Balanza Inteligente, el LCD comunica peso, tara y estado de sincronización. Por esta razón, los textos en dispositivos deben ser breves, directos y orientados a datos operativos.
+
+La paleta LED definida para IoT complementa la paleta general de JameoFit. El verde indica cumplimiento adecuado de metas, el ámbar representa progreso intermedio, el rojo se utiliza para alertas, el azul comunica conexión o sincronización y el gris representa estado de espera. Esta codificación permite que el usuario interprete el estado del dispositivo sin depender completamente de la aplicación web o móvil.
+
+La relación visual entre IoT y las interfaces digitales debe mantenerse consistente: los datos capturados por la botella y la balanza se reflejan posteriormente en módulos de progreso, hidratación, peso y análisis inteligente dentro de la plataforma. Así, el estilo no solo cumple una función estética, sino que también refuerza la trazabilidad entre la captura física de datos y la experiencia digital de seguimiento nutricional.
 
 ### 5.2. Information Architecture
 
 La arquitectura de información de JameoFit se prioriza una experiencia directa y guiada: el usuario llega a la Home con accesos rápidos (Editar preferencias, Ver progreso, Registrar comida) y tarjetas a módulos clave (Plan de comidas, Recordatorios, Sugerencias, Snack del día, Actividad reciente). Se refuerzan métricas semanales (calorías, proteínas, grasas) y estados de progreso con mensajes motivacionales e insignias.
 
 En la Landing, se comunica nuestra propuesta de valor (“Eat Well, Live Better / Smart nutrition…”) con CTA primario (“Start for free today”) y secciones de “How does it work?”, beneficios y footer con enlaces legales y contacto.
-
 
 #### 5.2.1. Organization Systems
 
@@ -2697,13 +2722,9 @@ Figma: https://www.figma.com/design/9ozeTUfaBHSrUjMi132YiK/Wireframes-y-Mock-Ups
 
 #### 5.4.2. Applications Wireflow Diagrams
 
-![Wireflow-diagram](./assets/TP/wireflow-diagrams.png)
-
-Video Explicacion: https://1drv.ms/v/c/ECB2589242F127CD/IQCn_AjV8dDfR6RxtZpabpWtActKNmXtTdML6RftmFahiak?e=7hR0yp
 
 
 #### 5.4.3. Applications Mock-Ups
-
 
 ![Web-Page-Mock-Up-1](./assets/TP/mockup-web-1.png)
 
@@ -2736,10 +2757,17 @@ Video Explicacion: https://1drv.ms/v/c/ECB2589242F127CD/IQCn_AjV8dDfR6RxtZpabpWt
 ![Web-Page-Mock-Up-15](./assets/TP/mockup-web-15.png)
 
 
-
 Figma Diseño Web: https://www.figma.com/design/Y9lQwA05Rs7sm3rJ883hfG/Wireframes-y-Mock-Ups---Web-y-Mobile?node-id=24-48&t=RrVny1lvB3VhkVti-1
 
+#### 5.4.4. Application User Flow Diagrams
 
+
+
+### 5.5. Applications Prototyping
+
+![Applications Prototyping](./assets/TP/wireflow-diagrams.png)
+
+Video Explicacion: https://1drv.ms/v/c/ECB2589242F127CD/IQCn_AjV8dDfR6RxtZpabpWtActKNmXtTdML6RftmFahiak?e=7hR0yp
 
 ### 5.6. Iot Device Desing
 
@@ -2910,44 +2938,70 @@ La autenticación con AWS IoT Core se realiza mediante certificados X.509 por di
 
 **Android Studio:** Entorno de desarrollo integrado (IDE) oficial para aplicaciones Android, que ofrece herramientas para programar, depurar y probar de forma eficiente.
 
-![alt text](assets/TP/SD1.png)
+<p align="center">
+  <img src="assets/TP/SD1.png" alt="Android Studio" width="180"/>
+</p>
 
-**WebStorm:** Entorno de desarrollo integrado (IDE) especializado en desarrollo web moderno, que ofrece herramientas avanzadas para trabajar con frameworks como Vue, facilitando la escritura, depuración y mantenimiento del código frontend.
+**WebStorm:** Entorno de desarrollo integrado (IDE) especializado en desarrollo web moderno, que ofrece herramientas avanzadas para trabajar con frameworks como React, facilitando la escritura, depuración y mantenimiento del código frontend.
 
-![alt text](assets/TP/SD10.png)
+<p align="center">
+  <img src="assets/TP/SD10.png" alt="WebStorm" width="180"/>
+</p>
 
-**Vue.js:** Framework progresivo de JavaScript utilizado para construir interfaces de usuario dinámicas y reactivas, ideal para el desarrollo del frontend de aplicaciones web modernas.
+**React:** Biblioteca de JavaScript utilizada para construir interfaces de usuario dinámicas y reutilizables, ideal para el desarrollo del frontend de aplicaciones web modernas.
 
-![alt text](assets/TP/SD9.png)
+<p align="center">
+  <img src="assets/TP/SD11.png" alt="React" width="180"/>
+</p>
 
 
 **GitHub:** Plataforma de control de versiones y colaboración en la nube, ideal para gestionar repositorios y trabajar en equipo mediante Git.
 
-![alt text](assets/TP/SD2.png)
+<p align="center">
+  <img src="assets/TP/SD2.png" alt="GitHub" width="180"/>
+</p>
 
 **GitHub Pages:** Servicio de hosting estático que permite desplegar fácilmente sitios web directamente desde un repositorio, como por ejemplo una Landing Page.
 
-![alt text](assets/TP/SD3.png)
+<p align="center">
+  <img src="assets/TP/SD3.png" alt="GitHub Pages" width="180"/>
+</p>
+
+**Firebase:** Plataforma de Google utilizada para el despliegue y soporte de aplicaciones web y móviles, facilitando hosting, configuración de entornos y servicios asociados al ciclo de publicación.
+
+<p align="center">
+  <img src="assets/TP/SD12.png" alt="Firebase" width="180"/>
+</p>
 
 **Vertabelo:** Plataforma en línea para el diseño y modelado colaborativo de bases de datos, con soporte para distintos motores de bases de datos.
 
-![alt text](assets/TP/SD4.png)
+<p align="center">
+  <img src="assets/TP/SD4.png" alt="Vertabelo" width="180"/>
+</p>
 
 **Visual Studio Code:** Editor de código ligero y multiplataforma, ampliamente usado para programación y tareas de desarrollo, incluyendo soporte para diseño y gestión de bases de datos mediante extensiones.
 
-![alt text](assets/TP/SD5.png)
+<p align="center">
+  <img src="assets/TP/SD5.png" alt="Visual Studio Code" width="180"/>
+</p>
 
 **Figma:** Herramienta de diseño colaborativo en línea que facilita la creación de wireframes, mockups y prototipos interactivos.
 
-![alt text](assets/TP/SD6.png)
+<p align="center">
+  <img src="assets/TP/SD6.png" alt="Figma" width="180"/>
+</p>
 
 **Structurizr:** Herramienta para la creación y visualización de diagramas de arquitectura de software basados en el modelo C4, que facilita documentar sistemas de manera clara y estructurada.
 
-![alt text](assets/TP/SD7.png)
+<p align="center">
+  <img src="assets/TP/SD7.png" alt="Structurizr" width="180"/>
+</p>
 
 **AWS (Amazon Web Services):** Plataforma en la nube de Amazon que permite desplegar, administrar y escalar aplicaciones de manera segura, flexible y altamente disponible.
 
-![alt text](assets/TP/SD8.png)
+<p align="center">
+  <img src="assets/TP/SD8.png" alt="AWS" width="180"/>
+</p>
 
 #### 6.1.2. Source Code Management
 
@@ -3059,20 +3113,6 @@ Lenguaje moderno, estático y conciso que corre sobre la JVM. Se usa principalme
 | Uso de val por defecto, var si mutable | Promueve inmutabilidad |
 | Expresiones lambda con it | `users.filter { it.isActive }` |
 
-**Vue**
-
-Framework progresivo de JavaScript para construir interfaces de usuario reactivas y basadas en componentes. Permite organizar el frontend de manera modular, facilitando la reutilización de código y el mantenimiento.
-
-| Regla                                         | Ejemplo / Explicación                                  |
-| --------------------------------------------- | ------------------------------------------------------ |
-| Componentes en PascalCase                     | `UserCard.vue`, `NavBar.vue`                           |
-| Uso de estructura SFC (Single File Component) | `<template>`, `<script>`, `<style>` en un solo archivo |
-| Variables y métodos en camelCase              | `userName`, `getUserData()`                            |
-| Props declaradas explícitamente               | `props: { title: String }`                             |
-| Uso de v-bind y v-on abreviados               | `:src="image"`, `@click="handleClick"`                 |
-| Computed properties para lógica derivada      | `computed: { fullName() { ... } }`                     |
-| Indentación consistente                       | 2 o 4 espacios, sin mezclar tabs                       |
-
 #### 6.1.4. Software Deployment Configuration
 
 ### Deployment Landing Page:
@@ -3135,61 +3175,77 @@ Enlace del backend: http://jameofit-backend-env.eba-fzj57hq8.us-east-2.elasticbe
 
 ### Deployment Frontend:
 
-En esta sección se detalla el proceso de despliegue del frontend del proyecto Jameofit, desarrollado con Vue.js, utilizando la plataforma Vercel para lograr una implementación rápida, automática y escalable.
+En esta sección se detalla el proceso de despliegue del frontend del proyecto JameoFit, desarrollado con React, utilizando Firebase Hosting para publicar la aplicación web de forma rápida, segura y escalable.
 
 A continuación, se describen los pasos principales:
 
-1. Preparación del Proyecto
+1. **Preparación del Proyecto**
 
 Antes del despliegue, se verifica que el proyecto funcione correctamente en entorno local ejecutando:
 
+```bash
 npm install  
 npm run dev  
+```
 
 Asimismo, se valida que el proyecto esté configurado correctamente para producción mediante:
 
+```bash
 npm run build  
+```
 
-2. Subida del Proyecto a GitHub
+2. **Subida del Proyecto a GitHub**
 
-El código fuente del frontend se sube a un repositorio en GitHub, lo cual permitirá la integración continua con Vercel.
+El código fuente del frontend se sube a un repositorio en GitHub, lo cual permite mantener control de versiones y preparar el proyecto para despliegues posteriores desde Firebase.
 
-3. Importación del Proyecto en Vercel
+3. **Creación del Proyecto en Firebase**
 
-Se accede a la plataforma Vercel  
-Se selecciona la opción “Add New Project”  
-Se importa el repositorio desde GitHub  
-Vercel detecta automáticamente que se trata de un proyecto con Vue  
+Se accede a Firebase Console.  
+Se crea un nuevo proyecto para JameoFit.  
+Se habilita Firebase Hosting dentro del proyecto.  
+Se registra la aplicación web asociada al frontend desarrollado con React.  
 
-4. Configuración del Proyecto
+4. **Configuración de Firebase CLI**
 
-Vercel configura automáticamente:
+Para conectar el proyecto local con Firebase Hosting, se instala y configura Firebase CLI:
 
-Framework: Vue  
+```bash
+npm install -g firebase-tools
+firebase login
+firebase init hosting
+```
+
+Durante la inicialización se selecciona el proyecto Firebase correspondiente y se configura:
+
+Framework: React  
 Build Command: npm run build  
-Output Directory: dist  
+Public Directory: dist  
+Single-page app rewrite: Yes  
 
-En caso sea necesario, estos valores pueden ajustarse manualmente.
+5. **Variables de Entorno**
 
-5. Variables de Entorno
+Se configura la URL del backend desplegado en AWS dentro del archivo de variables de entorno del frontend:
 
-Se configura la URL del backend desplegado en AWS:
-
+```bash
 VITE_API_URL=http://jameofit-backend-env.eba-fzj57hq8.us-east-2.elasticbeanstalk.com  
+```
 
 Esto permite que el frontend consuma correctamente los servicios backend.
 
-6. Despliegue Automático
+6. **Despliegue en Firebase Hosting**
 
-Una vez configurado:
+Una vez generado el build de producción, se publica la aplicación en Firebase Hosting mediante:
 
-Vercel ejecuta automáticamente el build del proyecto  
-Genera una URL pública (ej: https://jameofit.vercel.app)  
-Cada cambio enviado a GitHub genera un nuevo despliegue automático (CI/CD)  
+```bash
+npm run build
+firebase deploy
+```
 
-7. Acceso a la Aplicación
+Firebase toma el contenido generado en la carpeta `dist` y lo publica en una URL pública del proyecto.
 
-El frontend queda disponible a través de la URL proporcionada por Vercel, con alta disponibilidad y distribución global mediante CDN.
+7. **Acceso a la Aplicación**
+
+El frontend queda disponible a través de la URL proporcionada por Firebase Hosting, con soporte para distribución global mediante CDN y configuración de dominio personalizado si el proyecto lo requiere.
 
 
 ### 6.2. Landing Page, Service & Applications Implementation
@@ -3931,12 +3987,6 @@ En esta sección se presentan las evidencias de desarrollo correspondientes al S
 |-----------------------|-----------------|--------------------|-------------------------|-----------------------------|-----------------------------|
 | frontend              | main            |                    | initial commit          | -                           |                             |
 
-**Backend Web Services:** [https://github.com/G3-Soluciones-IOT/backend](https://github.com/G3-Soluciones-IOT/backend)
-
-| **Repository**        | **Branch**      | **Commit Id**      | **Commit Message**      | **Commit Message Body**     | **Commited on (Date)**      |
-|-----------------------|-----------------|--------------------|-------------------------|-----------------------------|-----------------------------|
-| backend               | main            |                    | initial commit          | -                           |                             |
-
 
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review
 
@@ -3946,27 +3996,18 @@ Las pruebas fueron organizadas bajo la estructura Given–When–Then, considera
 
 Esta suite de pruebas permite mantener la trazabilidad entre las historias de usuario y sus criterios de aceptación, facilitar futuras automatizaciones de pruebas y proporcionar evidencia clara y verificable del avance funcional alcanzado durante el Sprint 1.
 
-![Testing Suite Evidence](assets/TP/testing_suite_evidence.png)
+![Testing Suite Evidence](assets/TP/testing_suite.png)
 
 **Testing:** [https://github.com/G3-Soluciones-IOT/testing](https://github.com/G3-Soluciones-IOT/testing)
 
 | **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Committed on (Date)** |
 |----------------|------------|----------------|----------------------|---------------------------|--------------------------|
-| Testing | main | 7fe5902 | Add feature for tracking meal plan activities | - | 12/05/2026 |
-| Testing | main | 8ab4731 | Add feature for multi-device accessibility | - | 12/05/2026 |
-| Testing | main | 8f40e0c | Add feature for navigation from the footer | - | 12/05/2026 |
-| Testing | main | 9b3d2a7 | Add feature for viewing user testimonials | - | 12/05/2026 |
-| Testing | main | 6c8e07a | Add feature for navigating benefits section | - | 12/05/2026 |
-| Testing | main | b5d32f0 | Add feature for viewing benefits summary | - | 12/05/2026 |
-| Testing | main | 2df4b8e | Add feature for navigation from the top bar | - | 12/05/2026 |
-| Testing | main | 3cf0a96 | Add feature for login and registration access | - | 12/05/2026 |
-| Testing | main | 4a77f12 | Add feature for understanding value proposition | - | 12/05/2026 |
-| Testing | main | 57b61da | Add feature for personalizing diet goals | - | 12/05/2026 |
-| Testing | main | 64ce9b3 | Create US-06: Registro Diario de Alimentos.feature | - | 12/05/2026 |
-| Testing | main | 715a2d4 | Create feature for personalized meal plan | - | 12/05/2026 |
-| Testing | main | 89bcf47 | Add feature for profile customization scenarios | - | 12/05/2026 |
-| Testing | main | 90ff5d2 | Add password recovery feature scenarios | - | 12/05/2026 |
-| Testing | main | a13e947 | Add feature for user registration and scenarios | - | 12/05/2026 |
+| testing | main | bdc81b3 | chore(test): configure cucumber-js test project | - | 15/05/2026 |
+| testing | main | 8ab4731 | Add feature for multi-device accessibility | - | 15/05/2026 |
+| testing | main | 8f40e0c | Add feature for navigation from the footer | - | 15/05/2026 |
+| testing | main | 9b3d2a7 | Add feature for viewing user testimonials | - | 15/05/2026 |
+| testing | main | 6c8e07a | Add feature for navigating benefits section | - | 15/05/2026 |
+| testing | main | 6c8e07a | Add feature for navigating benefits section | - | 15/05/2026 |
 
 
 #### 6.2.1.6. Execution Evidence for Sprint Review
@@ -3995,12 +4036,32 @@ Secciones de CTA y Footer:
 
 ![Execution Evidence](assets/TP/landing_execution_evidence5.png)
 
-**Demo Landing Page:** [Link](Link)
+**Demo Landing Page:** 
 
 **Web Application:**
 
+Vista de Registro
 ![Execution Evidence](assets/TP/web_execution_evidence1.png)
+
+Vista de Inicio de Sesion:
+![Execution Evidence](assets/TP/web_execution_evidence1.png)
+
+Vista de Dashboard:
+![Execution Evidence](assets/TP/web_execution_evidence1.png)
+
+Vista de Perfil
+
+Vistas de Pacientes:
 ![Execution Evidence](assets/TP/web_execution_evidence2.png)
+![Execution Evidence](assets/TP/web_execution_evidence1.png)
+![Execution Evidence](assets/TP/web_execution_evidence1.png)
+![Execution Evidence](assets/TP/web_execution_evidence1.png)
+
+Vista de Tips:
+
+Vista de Comunicacion:
+
+Vista de 
 
 **Demo Web Application:** [Link](Link)
 
@@ -4148,131 +4209,157 @@ En esta sección se presentan las evidencias de documentación de los servicios 
 
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review
 
-En esta sección se presentan las evidencias relacionadas con las actividades de despliegue realizadas durante el Sprint 1 para los diferentes componentes del proyecto, incluyendo el Landing Page, la aplicación web y los servicios Backend. Asimismo, se describen los procesos de configuración de entornos, integración con plataformas de despliegue y preparación de recursos necesarios para la publicación y ejecución de los productos desarrollados, acompañados de capturas y explicaciones de las actividades realizadas durante el sprint.
+En esta sección se resumen las actividades realizadas durante el Sprint 1 en relación con el despliegue de los productos digitales de JameoFit. El trabajo de deployment incluyó la publicación del Landing Page, la preparación del despliegue de la aplicación web, la configuración de servicios Backend en AWS y la organización de los recursos necesarios para que los componentes desarrollados puedan ejecutarse en entornos accesibles para revisión.
 
-**Actividades Realizadas para el despliegue del Landing Page**
+Durante este Sprint, el equipo trabajó en la creación y configuración de repositorios, habilitación de servicios de hosting, configuración de recursos cloud, preparación de variables de entorno, integración con herramientas de despliegue y documentación de evidencias visuales. Estas actividades permiten validar que los entregables desarrollados pueden ser publicados, revisados y conectados progresivamente dentro de la arquitectura distribuida del proyecto.
 
-1. Instalación de la dependencia `gh-pages`
+**Landing Page Deployment**
 
-Se instaló la dependencia necesaria para realizar el despliegue del proyecto mediante el siguiente comando:
+El Landing Page fue desplegado mediante GitHub Pages, siguiendo el proceso definido en la sección de configuración de deployment. Este despliegue permite publicar el sitio informativo del producto y dejarlo disponible para usuarios, stakeholders y revisión académica.
+
+1. **Creación del repositorio**
+
+Se creó un repositorio en GitHub para alojar el código fuente del Landing Page y mantener el control de versiones del producto.
+
+![Software Deployment Evidence - Landing Repository](assets/TP/G1.png)
+
+2. **Configuración de colaboradores**
+
+Se agregaron los integrantes del equipo al repositorio correspondiente para permitir colaboración, revisión y actualización del Landing Page durante el Sprint.
+
+![Software Deployment Evidence - Landing Collaborators](assets/TP/G2.png)
+
+3. **Habilitación de GitHub Pages**
+
+Se configuró GitHub Pages desde las opciones del repositorio para publicar el contenido del Landing Page en una URL pública.
+
+![Software Deployment Evidence - GitHub Pages Configuration](assets/TP/G3.png)
+
+4. **Verificación del despliegue**
+
+Finalmente, se verificó que el Landing Page quedara publicado correctamente y accesible desde el navegador.
+
+![Software Deployment Evidence - Landing Published](assets/TP/G4.png)
+
+**URL del Landing Page desplegado:** [Pendiente colocar enlace final](Link)
+
+**Repositorio del Landing Page:** [Pendiente colocar enlace del repositorio](Link)
+
+**Web Application Deployment**
+
+La aplicación web fue preparada para despliegue mediante Firebase Hosting, manteniendo la configuración necesaria para conectar el frontend con los servicios Backend publicados en AWS. Durante el Sprint se realizaron actividades de preparación del proyecto, configuración de entorno y validación de build.
+
+1. **Preparación del proyecto frontend**
+
+Se verificó la instalación de dependencias y la ejecución local del proyecto antes de generar una versión lista para producción.
 
 ```bash
-npm install gh-pages --save-dev
+npm install
+npm run dev
 ```
 
-2. Configuración de scripts de despliegue
+2. **Generación del build de producción**
 
-Posteriormente, se añadieron los scripts de despliegue dentro del bloque `scripts` del archivo `package.json`:
-
-```json
-"scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-}
-```
-
-Asimismo, se configuró la propiedad `homepage` con el nombre de usuario y repositorio correspondiente de GitHub Pages.
-
-3. Ejecución del despliegue
-
-Finalmente, para realizar el despliegue del Landing Page, se ejecutó el siguiente comando:
+Se ejecutó el proceso de compilación del frontend para validar que la aplicación pueda ser publicada en un servicio de hosting.
 
 ```bash
-npm run deploy
+npm run build
 ```
 
-Este proceso genera la carpeta de compilación del proyecto y publica su contenido en la rama `gh-pages` del repositorio.
+3. **Configuración del proyecto en Firebase**
 
-**URL del Landing Page desplegada:** [Link](Link)
+Se preparó el proyecto de Firebase Hosting para publicar la aplicación web desarrollada con React y servir el contenido generado en la carpeta `dist`.
+
+```bash
+firebase login
+firebase init hosting
+```
+
+4. **Configuración de variables de entorno**
+
+Se configuró la URL del Backend desplegado para que la aplicación web pueda consumir los servicios disponibles.
+
+```bash
+VITE_API_URL=[Pendiente colocar URL final del backend]
+```
+
+5. **Publicación en Firebase Hosting**
+
+El despliegue de la aplicación web se realiza mediante el comando de publicación de Firebase.
+
+```bash
+firebase deploy
+```
+
+**URL de la Web Application desplegada:** [Pendiente colocar enlace final](Link)
+
+**Repositorio de la Web Application:** [Pendiente colocar enlace del repositorio](Link)
 
 **Evidencias visuales:**
 
-![Software Deployment Evidence](assets/TP/landing_deployment_evidence.png)
+> Espacio reservado para captura de Firebase Hosting: `assets/TP/frontend_deployment_evidence1.png`
 
-**Actividades Realizadas para el despliegue del Web Application**
+> Espacio reservado para captura del build o deploy ejecutado: `assets/TP/frontend_deployment_evidence2.png`
 
+**Backend Web Services Deployment**
 
+El Backend Web Services fue desplegado en AWS utilizando Elastic Beanstalk para hospedar la aplicación Spring Boot y Amazon RDS PostgreSQL para la persistencia de datos. Además, se configuró un flujo de integración y despliegue continuo con GitHub Actions para automatizar la publicación de cambios desde la rama principal del repositorio.
 
-**Actividades Realizadas para el despliegue del Backend Web Services**
+1. **Creación de la base de datos RDS PostgreSQL**
 
-El despliegue automático del Backend, desarrollado con Java Spring Boot 3.4.0 y Java 21, fue configurado mediante un flujo de integración y entrega continua (CI/CD), permitiendo desplegar automáticamente la rama `main` hacia AWS Elastic Beanstalk.
+Se creó una instancia de Amazon RDS PostgreSQL destinada al entorno de producción del Backend, utilizando una configuración compatible con el alcance del Sprint y los recursos disponibles.
 
-1. Creación de la Base de Datos RDS PostgreSQL
+| Configuración | Valor |
+|---|---|
+| Motor | PostgreSQL |
+| Plantilla | Free Tier |
+| Clase de instancia | `db.t3.micro` |
+| Almacenamiento | 20 GB SSD |
+| Identificador | `jameofit-db` |
+| Base de datos inicial | `jameofit` |
+| Puerto | `5432` |
 
-Se accedió a la consola de AWS para crear una instancia de Amazon RDS PostgreSQL destinada al entorno de producción utilizando la capa gratuita (Free Tier), con la siguiente configuración:
+2. **Configuración de Security Groups**
 
-- Motor: PostgreSQL 15
-- Plantilla: Free Tier
-- Clase de instancia: `db.t3.micro`
-- Almacenamiento: 20 GB SSD (`gp2`)
-- Identificador de instancia: `jameofit-db`
-- Usuario maestro: `jf_admin`
-- Base de datos inicial: `jameofit`
-- Acceso público: Habilitado
-- Puerto: `5432`
+Se configuraron reglas de red para permitir la comunicación entre Elastic Beanstalk y PostgreSQL, manteniendo disponible el acceso necesario para el funcionamiento del Backend.
 
-2. Configuración de Security Groups
+3. **Creación del entorno Elastic Beanstalk**
 
-Se configuraron los Security Groups para permitir la comunicación entre Elastic Beanstalk y la base de datos PostgreSQL.
+Se creó un entorno en AWS Elastic Beanstalk para ejecutar el Backend desarrollado con Spring Boot.
 
-**Security Group de RDS**
-- Regla de entrada: PostgreSQL (`TCP`, puerto `5432`)
-- Origen: Security Group de Elastic Beanstalk (`sg-0e5e62185bcc4068a`)
-- Origen adicional: `0.0.0.0/0` para acceso temporal de desarrollo
+| Configuración | Valor |
+|---|---|
+| Aplicación | `jameofit-backend` |
+| Entorno | `Jameofit-backend-env` |
+| Plataforma | Java / Amazon Corretto |
+| Tipo de entorno | Instancia única |
+| Tipo de instancia | `t3.micro` o `t2.micro` |
 
-**Security Group de Elastic Beanstalk**
-- Reglas de salida: Permitir todo el tráfico para conexión con RDS
+4. **Configuración de roles IAM**
 
-3. Creación del Entorno Elastic Beanstalk
+Se configuraron los roles necesarios para que Elastic Beanstalk, EC2 y los servicios asociados puedan operar dentro de AWS.
 
-Se creó un entorno en AWS Elastic Beanstalk para hospedar el backend con la siguiente configuración:
+![Software Deployment Evidence - IAM Roles](assets/TP/G8.png)
 
-- Nombre de la aplicación: `jameofit-backend`
-- Nombre del entorno: `Jameofit-backend-env`
-- Plataforma: Java 21 (Amazon Corretto 21 running on 64bit Amazon Linux 2023)
-- Configuración: Instancia única (Free Tier eligible)
-- Tipo de instancia: `t3.micro` o `t2.micro`
-- VPC: VPC por defecto
-- Subredes: `us-east-1a`, `us-east-1b`
+5. **Configuración de variables de entorno**
 
-4. Configuración de Roles IAM
+Dentro de Elastic Beanstalk se configuraron las propiedades necesarias para conectar el Backend con la base de datos PostgreSQL y otros servicios requeridos por la aplicación.
 
-Se crearon los roles IAM necesarios para el funcionamiento de Elastic Beanstalk.
+![Software Deployment Evidence - Environment Variables](assets/TP/backend_deployment_evidence1.png)
 
-**Rol de servicio (`aws-elasticbeanstalk-service-role`)**
-- `AWSElasticBeanstalkEnhancedHealth`
-- `AWSElasticBeanstalkManagedUpdatesCustomerRolePolicy`
+Asimismo, se verificó la configuración correspondiente en el archivo de propiedades del proyecto Backend.
 
-**Perfil de instancia EC2 (`aws-elasticbeanstalk-ec2-role`)**
-- `AWSElasticBeanstalkWebTier`
-- `AWSElasticBeanstalkWorkerTier`
-- `AWSElasticBeanstalkMulticontainerDocker`
+![Software Deployment Evidence - Application Properties](assets/TP/backend_deployment_evidence2.png)
 
-5. Configuración de Variables de Entorno
+6. **Creación de credenciales IAM para GitHub Actions**
 
-Dentro de Elastic Beanstalk, en la sección `Configuration → Software → Environment properties`, se configuraron las variables necesarias para la conexión entre Spring Boot y PostgreSQL.
+Se creó un usuario IAM para automatizar el despliegue desde GitHub Actions. Sus credenciales fueron registradas como secretos del repositorio Backend.
 
-![Software Deployment Evidence](assets/TP/backend_deployment_evidence1.png)
+![Software Deployment Evidence - IAM User](assets/TP/G7.png)
 
-Asimismo, se configuraron las propiedades correspondientes en el archivo `application.properties`.
+7. **Implementación del flujo CI/CD con GitHub Actions**
 
-![Software Deployment Evidence](assets/TP/backend_deployment_evidence2.png)
-
-6. Creación de Credenciales IAM para GitHub Actions
-
-Se creó un usuario IAM específico para automatizar el despliegue desde GitHub Actions:
-
-- Usuario: `github-actions-jameofit`
-
-Posteriormente, se generaron las credenciales:
-- `AWS_ACCESS_KEY_ID`
-- `AWS_SECRET_ACCESS_KEY`
-
-Estas credenciales fueron almacenadas como secretos dentro del repositorio Backend en GitHub.
-
-7. Implementación del flujo CI/CD con GitHub Actions
-
-Se implementó un workflow (`.github/workflows/aws-deploy.yml`) para automatizar la compilación y despliegue del backend cada vez que se realizan pushes sobre la rama `main`.
+Se configuró un workflow para compilar el proyecto Backend y desplegar el artefacto generado hacia AWS Elastic Beanstalk cuando se actualiza la rama principal.
 
 ```yaml
 name: Deploy Spring Boot JameoFit to AWS Elastic Beanstalk
@@ -4292,34 +4379,27 @@ jobs:
 
       - name: Set up Java 21
         uses: actions/setup-java@v4
-        with:
-          distribution: 'temurin'
-          java-version: '21'
 
       - name: Build with Maven
         run: mvn clean package -DskipTests
 
-      - name: Get timestamp
-        id: time
-        run: echo "timestamp=$(date +%Y%m%d_%H%M%S)" >> $GITHUB_OUTPUT
-
       - name: Deploy to Elastic Beanstalk
         uses: einaregilsson/beanstalk-deploy@v22
-        with:
-          aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          application_name: jameofit-backend
-          environment_name: Jameofit-backend-env
-          version_label: jameofit-${{ steps.time.outputs.timestamp }}
-          region: ${{ secrets.AWS_REGION }}
-          deployment_package: target/backendJameoFit-0.0.1-SNAPSHOT.jar
 ```
 
-8. Despliegue automático exitoso
+8. **Verificación del despliegue**
 
-Finalmente, tras configurar el workflow y las variables de entorno, se ejecutó correctamente el primer despliegue automático mediante GitHub Actions. El sistema compiló el backend, generó el archivo `.jar` y realizó el despliegue exitoso hacia AWS Elastic Beanstalk, quedando accesible mediante la URL pública generada por AWS.
+Se verificó que el entorno de Elastic Beanstalk quedara activo y que la base de datos RDS estuviera disponible para el Backend.
 
-**Evidencias visuales:**
+![Software Deployment Evidence - Elastic Beanstalk](assets/TP/G5.png)
+
+![Software Deployment Evidence - RDS PostgreSQL](assets/TP/G6.png)
+
+**URL del Backend desplegado:** [Pendiente colocar enlace final del Swagger o API](Link)
+
+**Repositorio del Backend:** [Pendiente colocar enlace del repositorio](Link)
+
+**Evidencias visuales adicionales:**
 
 ![Software Deployment Evidence](assets/TP/backend_deployment_evidence3.png)
 ![Software Deployment Evidence](assets/TP/backend_deployment_evidence4.png)
@@ -4327,6 +4407,35 @@ Finalmente, tras configurar el workflow y las variables de entorno, se ejecutó 
 ![Software Deployment Evidence](assets/TP/backend_deployment_evidence6.png)
 ![Software Deployment Evidence](assets/TP/backend_deployment_evidence7.png)
 ![Software Deployment Evidence](assets/TP/backend_deployment_evidence8.png)
+
+**IoT Simulation and Device Deployment Evidence**
+
+Los dispositivos IoT no se despliegan como una aplicación web tradicional; sin embargo, durante el Sprint se prepararon evidencias de ejecución y simulación para validar su funcionamiento como parte del ecosistema distribuido de JameoFit. Estas evidencias permiten revisar la captura de datos, la comunicación mediante MQTT y la integración esperada con los servicios Backend.
+
+1. **Simulación de Botella Inteligente**
+
+Se preparó la simulación del flujo de hidratación para validar la lectura de consumo de agua y el envío de datos hacia el tópico MQTT correspondiente.
+
+![Software Deployment Evidence - Smart Bottle Simulation](assets/TP/wokwi_botella.png)
+
+**URL de simulación Botella Inteligente:** [Pendiente colocar enlace final](Link)
+
+2. **Simulación de Balanza Inteligente**
+
+Se preparó la simulación de la balanza para validar la lectura de peso, tara y envío de datos hacia el tópico MQTT correspondiente.
+
+![Software Deployment Evidence - Smart Scale Simulation](assets/TP/wokwi_balanza.png)
+
+**URL de simulación Balanza Inteligente:** [Pendiente colocar enlace final](Link)
+
+**Pendientes para completar la sección**
+
+- Agregar URL final del Landing Page desplegado.
+- Agregar URL final de la Web Application desplegada.
+- Agregar URL final del Backend o Swagger publicado.
+- Agregar enlaces de repositorios correspondientes a Landing Page, Web Application, Backend e IoT Devices.
+- Reemplazar las capturas pendientes de Firebase Hosting cuando estén disponibles.
+- Confirmar enlaces finales de simulaciones Wokwi para Smart Bottle y Smart Scale.
 
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint
