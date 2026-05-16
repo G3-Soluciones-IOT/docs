@@ -4632,3 +4632,15 @@ https://www.gob.pe/institucion/inei/informes-publicaciones/5408920-las-tecnologi
 AV1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323270_upc_edu_pe/IQA-8Ea3XJJ4SKV4BOhLQeF3AaoSDORI-u2m4FrHy1KFbKc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=r9G8pP
 
 TB1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323270_upc_edu_pe/IQAia2QpBf0jR5j33TCiA9hVAZq8QuueMiHI73hcuhcjYrU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=J4miBT
+
+## Anexos
+
+- URL Landing Page:
+  https://g3-soluciones-iot.github.io/landing-page/
+  
+- URL Frontend:
+  https://g3iotfrontend.web.app/
+  
+- URL Simulaciones Wokwi:
+  - Smart Bottle: https://wokwi.com/projects/463883642035947521
+  - Smart Scale: https://wokwi.com/projects/463886427977308161
