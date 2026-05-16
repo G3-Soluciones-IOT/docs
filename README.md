@@ -4593,18 +4593,14 @@ En esta sección se analizan las evidencias de colaboración y coordinación del
 **Landing Page:**
 
 ![Team Collaboration Insights](assets/TP/sprint1_landing_insights1.png)
-![Team Collaboration Insights](assets/TP/sprint1_landing_insights2.png)
 
 **Web Application:**
 
 ![Team Collaboration Insights](assets/TP/sprint1_web_insights_1.png)
-![Team Collaboration Insights](assets/TP/sprint1_web_insights_2.png)
 
 ## Conclusiones
 
 ### Conclusiones y Recomendaciones
-
-## Conclusiones y recomendaciones
 
 A partir del desarrollo del proyecto JameoFit, se concluye que el problema principal identificado se mantiene relevante para los segmentos analizados: los usuarios finales presentan dificultades para registrar y monitorear su ingesta nutricional de forma constante y precisa, mientras que los nutricionistas requieren información confiable para realizar seguimiento y emitir recomendaciones personalizadas. Los Problem Statements permitieron orientar la solución hacia la reducción de carga manual, la mejora de la calidad de los datos y el soporte a la toma de decisiones nutricionales.
 
