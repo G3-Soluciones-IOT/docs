@@ -310,7 +310,10 @@ En esta sección se presentan los analíticos de colaboración y los commits rea
       - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
       - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
       - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
+- [Conclusiones](#conclusiones)
+  - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
 - [Referencias Bibliográficas](#referencias-bibliográficas)
+- [Videos de Exposciones](#videos-de-exposiciones)
 
 ## Student Outcome
 
@@ -2722,7 +2725,35 @@ Figma: https://www.figma.com/design/9ozeTUfaBHSrUjMi132YiK/Wireframes-y-Mock-Ups
 
 #### 5.4.2. Applications Wireflow Diagrams
 
+**1. Wireflow 1: Nutritionist Registration and Login**
 
+User Persona: Nutritionist  
+User goal:
+El nutricionista quiere registrarse o iniciar sesión para acceder a la plataforma JameoFit y gestionar a sus pacientes.
+
+![Wireflow 1](./assets/TP/wireflow_1.png)
+
+Este flujo representa el acceso inicial del nutricionista a la aplicación web. El usuario puede crear una cuenta, iniciar sesión y luego ingresar al dashboard principal, desde donde accede a las funcionalidades de gestión de pacientes, seguimiento, comunicación y análisis.
+
+**2. Wireflow 2: Consultar directorio y detalle de paciente**
+
+User Persona: Nutritionist  
+User goal:
+El nutricionista quiere revisar la información general de sus pacientes para conocer su estado, objetivos y progreso.
+
+![Wireflow 2](./assets/TP/wireflow_2.png)
+
+Este flujo muestra cómo el nutricionista accede desde el dashboard al módulo de pacientes, revisa el directorio y selecciona un paciente específico para consultar información detallada como progresión de peso, hidratación y calorías diarias.
+
+**3. Wireflow 3: Monitorear seguimiento nutricional de un paciente**
+
+User Persona: Nutritionist  
+User goal:
+El nutricionista quiere analizar el seguimiento de salud de un paciente para tomar decisiones basadas en datos.
+
+![Wireflow 3](./assets/TP/wireflow_3.png)
+
+Este flujo representa la revisión del seguimiento individual de un paciente. El nutricionista parte del directorio, entra al detalle del paciente y luego accede a la vista de monitoreo, donde se presentan métricas, tabla de datos e insights generados por IA.
 
 #### 5.4.3. Applications Mock-Ups
 
@@ -2759,11 +2790,118 @@ Figma: https://www.figma.com/design/9ozeTUfaBHSrUjMi132YiK/Wireframes-y-Mock-Ups
 
 Figma Diseño Web: https://www.figma.com/design/Y9lQwA05Rs7sm3rJ883hfG/Wireframes-y-Mock-Ups---Web-y-Mobile?node-id=24-48&t=RrVny1lvB3VhkVti-1
 
-#### 5.4.4. Application User Flow Diagrams
+#### 5.4.4. Applications User Flow Diagrams
 
+**User Flow 1: Registro e Inicio de Sesión del Nutricionista**
 
+**User Persona:** Nutricionista  
+**User goal:** El nutricionista quiere acceder a JameoFit para gestionar sus pacientes y revisar información nutricional.
 
-### 5.5. Applications Prototyping
+**Pantallas base:**
+
+- Register
+- Login
+- Dashboard
+
+**Happy path:**
+
+1. Usuario abre JameoFit.
+2. Selecciona `Register` si no tiene cuenta.
+3. Ingresa email, contraseña, nombre, apellido y datos requeridos.
+4. Sistema valida los datos.
+5. Usuario es redirigido a `Login`.
+6. Ingresa email y contraseña.
+7. Sistema valida credenciales.
+8. Usuario accede al `Dashboard`.
+
+**Unhappy paths:**
+
+- Si el email ya existe: mostrar mensaje de error y mantener al usuario en Register.
+- Si faltan campos obligatorios: resaltar campos incompletos.
+- Si las credenciales son incorrectas: mostrar error en Login.
+- Si el usuario ya tiene cuenta: ir directamente de Register a Login mediante `I already have an account`.
+
+![User Flow 1](./assets/TP/user_flow_1.png)
+
+Este User Flow representa el proceso de acceso del nutricionista a la plataforma. El happy path considera el registro correcto, inicio de sesión exitoso y acceso al dashboard. Las rutas alternativas contemplan errores de validación, credenciales incorrectas o existencia previa de cuenta.
+
+---
+
+**User Flow 2: Revisión de Paciente y Seguimiento Nutricional**
+
+**User Persona:** Nutricionista  
+**User goal:** El nutricionista quiere revisar el progreso de un paciente para evaluar su estado nutricional y tomar decisiones basadas en datos.
+
+**Pantallas base:**
+
+- Dashboard
+- Patients Overview
+- Patient Directory
+- Patient Detail Panel
+- Patients Tracking
+
+**Happy path:**
+
+1. Nutricionista inicia en `Dashboard`.
+2. Hace clic en `Pacientes`.
+3. Accede a `Patients Overview`.
+4. Selecciona `Directory`.
+5. Visualiza `Patient Directory`.
+6. Selecciona un paciente.
+7. Accede a `Patient Detail Panel`.
+8. Hace clic en `Tracking`.
+9. Visualiza `Patients Tracking`.
+10. Revisa métricas, tabla de datos e insights de IA.
+
+**Unhappy paths:**
+
+- Si no hay pacientes registrados: mostrar estado vacío en Patient Directory.
+- Si el paciente no tiene datos recientes: mostrar mensaje de ausencia de registros.
+- Si los datos IoT no están sincronizados: mostrar alerta de sincronización.
+- Si los insights de IA no están disponibles: mostrar mensaje de carga o error.
+
+![User Flow 2](./assets/TP/user_flow_2.png)
+
+Este User Flow muestra cómo el nutricionista navega desde el dashboard hasta el seguimiento detallado de un paciente. El flujo principal permite revisar información general, métricas de salud, hidratación, calorías e insights generados por IA. Las rutas alternativas consideran escenarios donde no existen pacientes, no hay datos recientes o la sincronización con dispositivos IoT no está disponible.
+
+---
+
+**User Flow 3: Comunicación y Recomendación al Paciente**
+
+**User Persona:** Nutricionista  
+**User goal:** El nutricionista quiere comunicarse con un paciente y agregar una recomendación personalizada según su progreso.
+
+**Pantallas base:**
+
+- frontend_dashboard
+- frontend_communication_chat.png
+- frontend_patients_tracking.png
+
+**Happy path:**
+
+1. Nutricionista inicia en `Dashboard`.
+2. Hace clic en `Chat`.
+3. Accede a `Communication Chat`.
+4. Selecciona un paciente.
+5. Revisa la conversación.
+6. Revisa analytics del usuario.
+7. Escribe una recomendación en seccion Notas (Panel de detalles del chat, seccion inferior).
+8. Hace clic en `Agregar`.
+9. Sistema envia y registra la recomendación brindada por el chat.
+
+**Unhappy paths:**
+
+- Si no hay conversaciones activas: mostrar lista vacía.
+- Si el mensaje está vacío: bloquear envío o mostrar validación.
+- Si falla el envío del mensaje: mostrar error y permitir reintentar.
+- Si no se selecciona paciente para recomendación: impedir agregar recomendación.
+- Si la recomendación está vacía: mostrar validación.
+
+![User Flow 3](./assets/TP/user_flow_3.png)
+
+Este User Flow representa el proceso de comunicación entre nutricionista y paciente, complementado con la creación de recomendaciones personalizadas. El happy path considera la selección del paciente, envío de mensaje y registro de una recomendación. Las rutas alternativas contemplan errores por falta de selección, campos vacíos o fallos en el envío.
+
+### 5.5. Application Prototyping
 
 ![Applications Prototyping](./assets/TP/wireflow-diagrams.png)
 
@@ -4462,15 +4600,29 @@ En esta sección se analizan las evidencias de colaboración y coordinación del
 ![Team Collaboration Insights](assets/TP/sprint1_web_insights_1.png)
 ![Team Collaboration Insights](assets/TP/sprint1_web_insights_2.png)
 
+## Conclusiones
 
-### Referencias Bibliográficas
+### Conclusiones y Recomendaciones
+
+## Conclusiones y recomendaciones
+
+A partir del desarrollo del proyecto JameoFit, se concluye que el problema principal identificado se mantiene relevante para los segmentos analizados: los usuarios finales presentan dificultades para registrar y monitorear su ingesta nutricional de forma constante y precisa, mientras que los nutricionistas requieren información confiable para realizar seguimiento y emitir recomendaciones personalizadas. Los Problem Statements permitieron orientar la solución hacia la reducción de carga manual, la mejora de la calidad de los datos y el soporte a la toma de decisiones nutricionales.
+
+Durante el proceso Lean UX se plantearon assumptions relacionados con la disposición de los usuarios a adoptar herramientas digitales, el valor percibido de la automatización mediante IoT e IA, y el interés de los nutricionistas por contar con datos más estructurados sobre sus pacientes. Las validaciones realizadas mediante entrevistas, artefactos UX y prototipos permitieron contrastar estas suposiciones. Como resultado, se identificó que existe interés en una solución que simplifique el registro nutricional, siempre que la experiencia sea clara, rápida y no incremente la fricción del usuario. Asimismo, el segmento profesional valora la posibilidad de acceder a métricas, alertas e historial de seguimiento para mejorar sus decisiones.
+
+Las Hypotheses Statements planteadas se validan parcialmente: la automatización del monitoreo nutricional puede aportar valor, pero su adopción depende de la confianza del usuario en los datos generados, la facilidad de uso de los dispositivos y la claridad con la que la aplicación presenta los resultados. Los criterios de éxito definidos en el proceso Lean UX deben seguir evaluándose en próximas iteraciones mediante pruebas con usuarios, medición de adherencia, frecuencia de registro, comprensión de recomendaciones y utilidad percibida por nutricionistas.
+
+Como recomendación, el roadmap debería priorizar una primera versión funcional centrada en los flujos críticos: registro e inicio de sesión, gestión de perfil, definición de objetivos, monitoreo de ingesta, visualización de progreso y comunicación entre paciente y nutricionista. Posteriormente, se recomienda profundizar la integración IoT con la balanza inteligente y la botella inteligente, asegurando sincronización estable y retroalimentación clara para el usuario.
+
+También se recomienda validar progresivamente los módulos de IA antes de ampliar su alcance, evitando sobreautomatizar recomendaciones sin evidencia suficiente. En futuras iteraciones, el equipo debería realizar pruebas de usabilidad con los mock-ups y prototipos, recopilar feedback de nutricionistas sobre los dashboards e incorporar métricas de éxito medibles en cada sprint. Finalmente, se recomienda mantener la trazabilidad entre entrevistas, personas, journey maps, requerimientos, arquitectura y diseño UX/UI, para asegurar que cada nueva funcionalidad responda a una necesidad validada y no a supuestos no comprobados.
+
+## Referencias Bibliográficas
 
 Organización Mundial de la Salud. (2025). Noncommunicable diseases.  
 https://www.who.int/news-room/fact-sheets/detail/noncommunicable-diseases  
 
 Arefeen, A., et al. (2025). MealMeter: Using multimodal sensing and machine learning for automatically estimating nutrition intake.  
 https://arxiv.org/abs/2503.11683  
-
 
 Gioia, S., et al. (2023). Mobile apps for dietary and food timing assessment.  
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10337248/ 
@@ -4479,8 +4631,8 @@ Instituto Nacional de Estadística e Informática (INEI). (2023).
 Las Tecnologías de Información y Comunicación en los Hogares: Oct-Nov-Dic 2023.  
 https://www.gob.pe/institucion/inei/informes-publicaciones/5408920-las-tecnologias-de 
 
-### Videos de Exposiciones
+## Videos de Exposiciones
 
 AV1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323270_upc_edu_pe/IQA-8Ea3XJJ4SKV4BOhLQeF3AaoSDORI-u2m4FrHy1KFbKc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=r9G8pP
 
-TB1: 
+TB1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323270_upc_edu_pe/IQAia2QpBf0jR5j33TCiA9hVAZq8QuueMiHI73hcuhcjYrU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=J4miBT
