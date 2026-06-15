@@ -4640,6 +4640,56 @@ En esta sección se analizan las evidencias de colaboración y coordinación del
 
 #### 6.3.1. Diseño de Entrevistas
 
+## Segmento Objetivo #1: Usuarios finales (Enfoque en bienestar y nutrición)
+##### *Preguntas dirigidas a personas que buscan mejorar sus hábitos alimenticios, deportistas o quienes necesitan controlar su ingesta por salud.*
+
+
+1. ¿Qué fue lo primero que entendiste sobre el producto al ver la landing page?
+
+2. ¿Quedó claro para ti qué problema resuelve JameoFit?
+
+3. Al explorar la aplicación web, ¿encontraste fácilmente las secciones que esperabas? ¿Hubo algo que te resultó confuso?
+
+4. ¿Cómo describirías la experiencia de registrarte e iniciar sesión en la plataforma?
+
+5. ¿La vista de dashboard te da una idea clara de tu progreso nutricional? ¿Qué añadirías o quitarías?
+
+6. ¿Qué tan útil te parece la función de monitoreo de hidratación con la botella inteligente?
+
+7. ¿Usarías la balanza inteligente para registrar tu peso automáticamente? ¿Por qué?
+
+8. ¿La sección de comunicación con el nutricionista cubre lo que esperarías de una consulta digital?
+
+9. ¿Pagarías por una suscripción a esta plataforma? ¿Qué tendría que ofrecerte para que valga la pena?
+
+10. ¿Recomendarías JameoFit a alguien que quiere mejorar sus hábitos alimenticios? ¿Por qué?
+
+### Segmento Objetivo #2: Profesionales de la Salud (Nutricionistas y Entrenadores)
+
+##### *Preguntas dirigidas a especialistas que requieren datos confiables de sus pacientes/clientes.*
+
+1. Al ver la landing page, ¿percibiste que el producto también está orientado a profesionales de la salud?
+
+2. ¿La propuesta de valor te parece relevante para tu práctica profesional?
+
+3. Al revisar el directorio y detalle de pacientes, ¿consideras que la información presentada es suficiente para hacer seguimiento?
+
+4. ¿El panel de seguimiento de paciente refleja los datos que realmente necesitas en tu día a día?
+
+5. ¿Qué tan intuitiva te pareció la navegación entre las vistas de gestión de pacientes?
+
+6. ¿La integración con dispositivos IoT (balanza y botella) te genera confianza en los datos que recibirías de tus pacientes?
+
+7. ¿El módulo de comunicación (chat y consultas) sería suficiente para reemplazar o complementar tus canales actuales con pacientes?
+
+8. ¿Los tips de contenido nutricional que gestionas desde la plataforma te parecen una herramienta útil?
+
+9. ¿Qué funcionalidad que viste hoy incorporarías de inmediato a tu práctica?
+
+10. ¿Qué le faltaría a JameoFit para que lo consideraras una herramienta profesional confiable?
+
+<br>
+
 #### 6.3.2. Registro de Entrevistas 
 
 #### 6.3.3. Evaluaciones según heurísticas
