@@ -310,6 +310,22 @@ En esta sección se presentan los analíticos de colaboración y los commits rea
       - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
       - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
       - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
+    - [6.2.2. Sprint 2](#622-sprint-2)
+      - [6.2.2.1. Sprint Planning 2](#6221-sprint-planning-2)
+      - [6.2.2.2. Aspect Leaders and Collaborators](#6222-aspect-leaders-and-collaborators)
+      - [6.2.2.3. Sprint Backlog 2](#6223-sprint-backlog-2)
+      - [6.2.2.4. Development Evidence for Sprint Review](#6224-development-evidence-for-sprint-review)
+      - [6.2.2.5. Testing Suite Evidence for Sprint Review](#6225-testing-suite-evidence-for-sprint-review)
+      - [6.2.2.6. Execution Evidence for Sprint Review](#6226-execution-evidence-for-sprint-review)
+      - [6.2.2.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
+      - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
+      - [6.2.2.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
+  - [6.3. Validation Interviews](#63-valdiation-interviews)
+    - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
+    - [6.3.2. Registro de Entrevistas ](#632-registro-de-entrevistas)
+    - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
+  - [6.4. Video About-the-Product.](#64-video-about-the-product)
+
 - [Conclusiones](#conclusiones)
   - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
 - [Referencias Bibliográficas](#referencias-bibliográficas)
@@ -4593,18 +4609,46 @@ En esta sección se analizan las evidencias de colaboración y coordinación del
 **Landing Page:**
 
 ![Team Collaboration Insights](assets/TP/sprint1_landing_insights1.png)
-![Team Collaboration Insights](assets/TP/sprint1_landing_insights2.png)
 
 **Web Application:**
 
 ![Team Collaboration Insights](assets/TP/sprint1_web_insights_1.png)
-![Team Collaboration Insights](assets/TP/sprint1_web_insights_2.png)
+
+
+#### 6.2.2. Sprint 2
+
+#### 6.2.2.1. Sprint Planning 2
+
+#### 6.2.2.2. Aspect Leaders and Collaborators
+
+#### 6.2.2.3. Sprint Backlog 2
+
+#### 6.2.2.4. Development Evidence for Sprint Review
+
+#### 6.2.2.5. Testing Suite Evidence for Sprint Review
+
+#### 6.2.2.6. Execution Evidence for Sprint Review
+
+#### 6.2.2.7. Services Documentation Evidence for Sprint Review
+
+#### 6.2.2.8. Software Deployment Evidence for Sprint Review
+
+#### 6.2.2.9. Team Collaboration Insights during Sprint
+
+
+### 6.3. Validation Interviews
+
+#### 6.3.1. Diseño de Entrevistas
+
+#### 6.3.2. Registro de Entrevistas 
+
+#### 6.3.3. Evaluaciones según heurísticas
+
+### 6.4. Video About-the-Product
 
 ## Conclusiones
 
 ### Conclusiones y Recomendaciones
-
-## Conclusiones y recomendaciones
 
 A partir del desarrollo del proyecto JameoFit, se concluye que el problema principal identificado se mantiene relevante para los segmentos analizados: los usuarios finales presentan dificultades para registrar y monitorear su ingesta nutricional de forma constante y precisa, mientras que los nutricionistas requieren información confiable para realizar seguimiento y emitir recomendaciones personalizadas. Los Problem Statements permitieron orientar la solución hacia la reducción de carga manual, la mejora de la calidad de los datos y el soporte a la toma de decisiones nutricionales.
 
@@ -4636,3 +4680,15 @@ https://www.gob.pe/institucion/inei/informes-publicaciones/5408920-las-tecnologi
 AV1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323270_upc_edu_pe/IQA-8Ea3XJJ4SKV4BOhLQeF3AaoSDORI-u2m4FrHy1KFbKc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=r9G8pP
 
 TB1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323270_upc_edu_pe/IQAia2QpBf0jR5j33TCiA9hVAZq8QuueMiHI73hcuhcjYrU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=J4miBT
+
+## Anexos
+
+- URL Landing Page:
+  https://g3-soluciones-iot.github.io/landing-page/
+  
+- URL Frontend:
+  https://g3iotfrontend.web.app/
+  
+- URL Simulaciones Wokwi:
+  - Smart Bottle: https://wokwi.com/projects/463883642035947521
+  - Smart Scale: https://wokwi.com/projects/463886427977308161
