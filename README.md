@@ -62,7 +62,7 @@
 <br><br>
 
 <p align="center">
-  <strong>Abril, 2026</strong> <br>
+  <strong>Mayo, 2026</strong> <br>
   <strong>URL del proyecto:</strong>
   <a href="https://github.com/G3-Soluciones-IOT">
     https://github.com/G3-Soluciones-IOT
@@ -84,6 +84,24 @@
 | AV1     | 17/04/2026 | Jhon Alexander Galvez Chambi  | Desarrollo de secciones correspondientes a los Bounded Context: Rutina Alimentaria, Nutricionista, Gestion de Planes Alimenticios, Comunicacion y Pagos   |
 | AV1     | 17/04/2026   | Pablo Antonio Geronimo Quispe  |        Desarrollo del needfinding agregando los respectivos User Persona ,Empathy Map,JourneyMap y documentacion del Ubiquitous Language agregando       |         
 | AV1     | 25/04/2026   | Fabrizio Alberto Paredes Santos  |        Desarrollo de la entrevista del segmento 1, definición de la estructura de entrevistas y corrección del diseño de las mismas.     | 
+| TB1     | 05/05/2026   | Valentino Sandoval Paiva  | Desarrollo del Capítulo VI, sección 6.1 Software Configuration Management. |
+| TB1     | 10/05/2026   | Mathias Eduardo Bueno Perales  | Desarrollo de las secciones 5.1 Style Guidelines, 5.2 Information Architecture, 5.3 Landing Page UI Design, 5.4.2 Applications Wireflow Diagrams y 5.5 Application Prototyping. |
+| TB1     | 11/05/2026   | Omar Luquillas Asto  | Desarrollo del Capítulo VI, sección 6.2 Landing Page, Service & Applications Implementation, con énfasis en la documentación de avances y organización del sprint. |
+| TB1     | 12/05/2026   | Pablo Antonio Geronimo Quispe  | Desarrollo de la sección 5.6 IoT Device Design. |
+| TB1     | 13/05/2026   | Ramiro Alexander Guzmán Chávez  | Colaboración en la mejora continua de capítulos previamente desarrollados, revisando consistencia y alineación del informe. |
+| TB1     | 14/05/2026   | Jhon Alexander Galvez Chambi  | Desarrollo de la sección 5.4.3 Applications Mock-Ups y 5.4.4 Applications User Flow Diagrams |
+| TB1     | 14/05/2026   | Fabrizio Alberto Paredes Santos  | Colaboración en las secciones 5.4.2 Applications Wireflow Diagrams y 5.4.3 Applications Mock-Ups |
+| TB1     | 15/05/2026   | Jhon Alexander Galvez Chambi  | Revisión de calidad de la documentación e integración de avances | 
+| AV2     | 05/06/2026   | Jhon Alexander Galvez Chambi | Organización inicial de la entrega AV2: coordinación de actividades, asignación de responsables y definición de prioridades para la estabilización de microservicios, el despliegue del frontend y la integración IoT. |
+| AV2     | 07/06/2026   | Fabrizio Alberto Paredes Santos | Inicio de la redacción y estructuración de las evidencias del Sprint 2 en el Capítulo VI, incluyendo Sprint Planning y Product Backlog. |
+| AV2     | 09/06/2026   | Valentino Sandoval Paiva | Desarrollo de nuevas vistas para la aplicación frontend web (Desktop) e integración inicial con los microservicios del backend. |
+| AV2     | 11/06/2026   | Ramiro Alexander Guzmán Chávez | Desarrollo de vistas para la aplicación frontend móvil y conexión inicial para el consumo de datos desde el backend. |
+| AV2     | 13/06/2026   | Pablo Antonio Geronimo Quispe | Desarrollo de vistas frontend orientadas a la interacción con dispositivos e implementación del servicio IoT para la balanza inteligente. |
+| AV2     | 15/06/2026   | Mathias Eduardo Bueno Perales | Elaboración de *mockups* y completado de prototipos de las vistas faltantes para las aplicaciones Desktop y Móvil; colaboración en el desarrollo del frontend web. |
+| AV2     | 17/06/2026   | Omar Luquillas Asto | Desarrollo y documentación de la sección 6.3 de Validación mediante Entrevistas, incluyendo el diseño de entrevistas (6.3.1) y su registro (6.3.2); colaboración en vistas web Desktop. |
+| AV2     | 19/06/2026   | Fabrizio Alberto Paredes Santos | Consolidación de las evidencias de Testing y Execution del Sprint 2; colaboración en la estabilización de microservicios y en el desarrollo de vistas del frontend web. |
+| AV2     | 20/06/2026   | Jhon Alexander Galvez Chambi | Despliegue de servicios en infraestructura GCP y documentación de sus evidencias en el Capítulo VI; elaboración de la sección *Project Report Collaboration Insights*. |
+| AV2     | 21/06/2026   | Mathias Eduardo Bueno Perales | Redacción de la sección 6.3.3 de evaluaciones según heurísticas, grabación y edición del *Video About-The-Product* (6.4), e integración final de los avances de frontend. |
 
 ## Project Report Collaboration Insights
 
@@ -114,6 +132,54 @@ En esta sección se presentan los analíticos de colaboración y los commits rea
 
 - Report Network:
 ![Report Network](./assets/TB1/report_network.png)
+
+
+**TB1:**
+
+Para la elaboración de la entrega TB1 de este informe, el equipo se organizó mediante reuniones de coordinación a través de un canal de Discord. En estas reuniones se definió la distribución de actividades, se asignaron responsables por capítulo y se establecieron fechas de revisión periódica para asegurar el avance progresivo de cada integrante.
+
+| Integrante | Usuario Github | Detalle de avance |
+|------------|----------------|-------------------|
+| Valentino Sandoval Paiva | `ValentinoSandovalP` | Desarrollo del Capítulo VI, sección 6.1 Software Configuration Management. |
+| Mathias Eduardo Bueno Perales | `MathiasBueno` | Desarrollo de las secciones 5.1 Style Guidelines, 5.2 Information Architecture, 5.3 Landing Page UI Design, 5.4.2 Applications Wireflow Diagrams y 5.5 Application Prototyping. |
+| Omar Luquillas Asto | `OmarLLA` | Desarrollo del Capítulo VI, sección 6.2 Landing Page, Service & Applications Implementation, con énfasis en la documentación de avances y organización del sprint. |
+| Pablo Antonio Geronimo Quispe | `Phatogram` | Desarrollo de la sección 5.6 IoT Device Design. |
+| Ramiro Alexander Guzmán Chávez | `RamiroGuzmanCh` | Colaboración en la mejora continua de capítulos previamente desarrollados, revisando consistencia y alineación del informe. |
+| Jhon Alexander Galvez Chambi | `Chaomeum` | Desarrollo de la sección 5.4.3 Applications Mock-Ups y 5.4.4 Applications User Flow Diagrams; revisión de calidad de la documentación e integración de avances. |
+| Fabrizio Alberto Paredes Santos | `psfa29` | Colaboración en las secciones 5.4.2 Applications Wireflow Diagrams y 5.4.3 Applications Mock-Ups. |
+
+**Report Repository Insights:** 
+
+En esta sección se presentan los analíticos de colaboración y los commits realizados en GitHub por los miembros del equipo dentro del repositorio del informe durante la fase TB1. Esta evidencia permite visualizar la participación de los integrantes y la evolución del trabajo colaborativo a lo largo del desarrollo del reporte.
+
+- Report Contributors:
+![Report Contributors](./assets/TP/report_contributors.png)
+
+- Report Network:
+![Report Network](./assets/TP/report_network.png)
+
+
+**AV2:**
+
+Para la elaboración de la entrega AV2 (Sprint Review – Semana 12) de este informe, el equipo se organizó mediante reuniones de coordinación a través de un canal de Discord y herramientas de gestión ágil. En estas reuniones se definió la prioridad de desarrollo centrada en la estabilización de microservicios, el despliegue del frontend y la integración de la solución IoT. Se asignaron responsables por capítulo y se establecieron fechas de revisión periódica para asegurar el avance progresivo y la mejora continua del producto.
+
+| Integrante | Usuario Github | Detalle de avance |
+|------------|----------------|-------------------|
+| Valentino Sandoval Paiva | `ValentinoSandovalP` | Desarrollo de vistas de la aplicación frontend web (Desktop), integración con los microservicios del backend y apoyo técnico en la estabilización de *endpoints* adicionales requeridos para las nuevas interfaces. |
+| Mathias Eduardo Bueno Perales | `MathiasBueno` | Desarrollo de *mockups* y completado de prototipos para las vistas faltantes (Desktop y Móvil) como parte del plan de mejora continua. Redacción de la sección 6.3.3 (Evaluaciones según heurísticas), grabación y edición del *Video About-The-Product* (6.4), y colaboración en el desarrollo del frontend web. |
+| Omar Luquillas Asto | `OmarLLA` | Desarrollo y documentación de la sección de Validación mediante Entrevistas (6.3, 6.3.1 Diseño de Entrevistas y 6.3.2 Registro). Colaboración en la implementación de vistas para la aplicación frontend web (Desktop). |
+| Pablo Antonio Geronimo Quispe | `Phatogram` | Desarrollo de vistas en el frontend enfocadas en la interacción con dispositivos. Implementación del servicio de IoT y elaboración del prototipo físico para la balanza inteligente del ecosistema Cobox Smart Vision. |
+| Ramiro Alexander Guzmán Chávez | `RamiroGuzmanCh` | Desarrollo e implementación de vistas para la aplicación frontend móvil y su respectiva conexión e integración de consumo de datos con el backend. |
+| Jhon Alexander Galvez Chambi | `Chaomeum` | Despliegue de los servicios en la infraestructura de nube (GCP) y documentación de las evidencias correspondientes en el Capítulo VI. Gestión, organización de las actividades del equipo y elaboración de la sección de *Team Collaboration Insights*. |
+| Fabrizio Alberto Paredes Santos | `psfa29` | Redacción y estructuración de evidencias del Capítulo VI correspondientes al Sprint 2 (Sprint Planning, Backlog, Testing y Execution). Colaboración en la estabilización de microservicios en el backend y desarrollo de vistas para el frontend web (Desktop). |
+
+**Report Repository Insights:** En esta sección se presentan los analíticos de colaboración y los *commits* realizados en GitHub por los miembros del equipo dentro de nuestra organización y repositorio del informe durante la fase correspondiente al AV2. Esta evidencia permite visualizar la participación activa de los integrantes y la evolución del trabajo colaborativo a lo largo de este sprint.
+
+- Report Contributors:
+![Report Contributors](./assets/TB2/report_contributors.png)
+
+- Report Network:
+![Report Network](./assets/TB2/report_network.png)
 
 ## Contenido
 
@@ -240,6 +306,7 @@ En esta sección se presentan los analíticos de colaboración y los commits rea
         - [4.2.8.6. Bounded Context Software Architecture Code Level Diagrams.](#4286-bounded-context-software-architecture-code-level-diagrams)
             - [4.2.8.6.1. Bounded Context Domain Layer Class Diagrams.](#42861-bounded-context-domain-layer-class-diagrams)
             - [4.2.8.6.2. Bounded Context Database Design Diagram.](#42862-bounded-context-database-design-diagram)
+- [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
   - [5.1. Style Guidelines.](#51-style-guidelines)
     - [5.1.1. General Style Guidelines.](#511-general-style-guidelines)
     - [5.1.2.  Web, Mobile and IoT Style Guidelines.](#512-web-mobile-and-iot-style-guidelines)
@@ -256,11 +323,46 @@ En esta sección se presentan los analíticos de colaboración y los commits rea
     - [5.4.1. Applications Wireframes](#541-applications-wireframes)
     - [5.4.2. Applications Wireflow Diagrams](#542-applications-wireflow-diagrams)
     - [5.4.3. Applications Mock-Ups](#543-applications-mock-ups)
-   - [5.5. Application Prototyping.](#55-application-prototyping)
-   - [5.6. IoT Device Design.](#56-iot-device-design)
+    - [5.4.4. Applications User Flow Diagrams](#544-applications-user-flow-diagrams)
+  - [5.5. Application Prototyping.](#55-application-prototyping)
+  - [5.6. IoT Device Design.](#56-iot-device-desing)
+- [Capítulo VI: Product Implementation & Validation](#capítulo-vi-product-implementation--validation)
+  - [6.1. Software Configuration Management](#61-software-configuration-management)
+    - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
+    - [6.1.2. Source Code Management](#612-source-code-management)
+    - [6.1.3. Source Code Style Guide & Conventions](#613-source-code-style-guide--conventions)
+    - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
+  - [6.2. Landing Page, Service & Applications Implementation](#62-landing-page-service--applications-implementation)
+    - [6.2.1. Sprint 1](#621-sprint-1)
+      - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
+      - [6.2.1.2. Aspect Leaders and Collaborators](#6212-aspect-leaders-and-collaborators)
+      - [6.2.1.3. Sprint Backlog 1](#6213-sprint-backlog-1)
+      - [6.2.1.4. Development Evidence for Sprint Review](#6214-development-evidence-for-sprint-review)
+      - [6.2.1.5. Testing Suite Evidence for Sprint Review](#6215-testing-suite-evidence-for-sprint-review)
+      - [6.2.1.6. Execution Evidence for Sprint Review](#6216-execution-evidence-for-sprint-review)
+      - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
+      - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
+      - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
+    - [6.2.2. Sprint 2](#622-sprint-2)
+      - [6.2.2.1. Sprint Planning 2](#6221-sprint-planning-2)
+      - [6.2.2.2. Aspect Leaders and Collaborators](#6222-aspect-leaders-and-collaborators)
+      - [6.2.2.3. Sprint Backlog 2](#6223-sprint-backlog-2)
+      - [6.2.2.4. Development Evidence for Sprint Review](#6224-development-evidence-for-sprint-review)
+      - [6.2.2.5. Testing Suite Evidence for Sprint Review](#6225-testing-suite-evidence-for-sprint-review)
+      - [6.2.2.6. Execution Evidence for Sprint Review](#6226-execution-evidence-for-sprint-review)
+      - [6.2.2.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
+      - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
+      - [6.2.2.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
+  - [6.3. Validation Interviews](#63-valdiation-interviews)
+    - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
+    - [6.3.2. Registro de Entrevistas ](#632-registro-de-entrevistas)
+    - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
+  - [6.4. Video About-the-Product.](#64-video-about-the-product)
 
-
-  
+- [Conclusiones](#conclusiones)
+  - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
+- [Referencias Bibliográficas](#referencias-bibliográficas)
+- [Videos de Exposciones](#videos-de-exposiciones)
 
 ## Student Outcome
 
@@ -272,8 +374,8 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |----------------------|---------------------|--------------|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **AV1**<br><br> Bueno Perales, Mathias Eduardo: asumí el desarrollo del Capítulo II, específicamente las secciones 2.1 y 2.2, aportando al análisis inicial del problema, los competidores y el levantamiento de información base para el informe. <br><br> Galvez Chambi, Jhon Alexander: desarrollé las secciones 4.2.4 a 4.2.8 del Capítulo IV y también participé en la elaboración inicial de la carátula, la tabla de contenidos y la estructura general del informe. <br><br> Geronimo Quispe, Pablo Antonio: desarrollé las secciones 2.3, 2.4 y 2.5 del Capítulo II, incluyendo el needfinding, los user personas, el empathy map, el journey map y la documentación del ubiquitous language. <br><br> Guzmán Chávez, Ramiro Alexander: lideré el desarrollo del Capítulo III mediante la elaboración de user stories, product backlog e impact mapping, contribuyendo a la definición y organización de los requerimientos del producto. <br><br> Luquillas Asto, Omar: desarrollé las secciones 4.2.1 a 4.2.3 del Capítulo IV, correspondientes a los bounded contexts de Inicio y Registro de Sesión, Perfil de Usuario y Gestión de Objetivos. <br><br> Paredes Santos, Fabrizio Alberto: desarrollé el Capítulo I, aportando a la construcción del perfil de la startup, la introducción general y la base conceptual del informe. <br><br> Sandoval Paiva, Valentino: lideré el diseño estratégico del sistema mediante EventStorming, Candidate Context Discovery, Bounded Context Canvases, Context Mapping y diagramas de arquitectura de software como Landscape, Context, Container y Deployment. Además, aporté al análisis competitivo y a la formulación de historias de usuario. | **AV1**<br><br> Durante esta entrega, trabajamos de manera articulada para asumir responsabilidades complementarias dentro del informe. La distribución de capítulos, bounded contexts y artefactos de análisis permitió que cada integrante aportara desde un frente específico, combinando liderazgo en requerimientos, diseño estratégico, arquitectura, investigación y documentación. Como resultado, evidenciamos una participación conjunta en la que el liderazgo no recayó en una sola persona, sino que se manifestó de forma distribuida según las necesidades de cada sección del trabajo. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **AV1**<br><br> Bueno Perales, Mathias Eduardo: desarrollé las actividades asignadas para las secciones 2.1 y 2.2 dentro de la planificación establecida para el Capítulo II. <br><br> Galvez Chambi, Jhon Alexander: participé en la estructuración inicial del informe y luego desarrollé las secciones 4.2.4 a 4.2.8 del Capítulo IV, en concordancia con la distribución de tareas acordada por el equipo. <br><br> Geronimo Quispe, Pablo Antonio: ejecuté las actividades asignadas en las secciones 2.3, 2.4 y 2.5, desarrollando los artefactos de needfinding y lenguaje ubicuo definidos en la planificación grupal. <br><br> Guzmán Chávez, Ramiro Alexander: desarrollé el Capítulo III, enfocándome en artefactos clave para la especificación y priorización del trabajo, como user stories, impact mapping y product backlog. <br><br> Luquillas Asto, Omar: desarrollé los bounded contexts 4.2.1 a 4.2.3 del Capítulo IV, cumpliendo con la asignación establecida para la parte inicial del diseño táctico. <br><br> Paredes Santos, Fabrizio Alberto: avancé el Capítulo I de acuerdo con la distribución inicial de contenidos del informe. <br><br> Sandoval Paiva, Valentino: desarrollé los artefactos de diseño estratégico y arquitectura de software en coherencia con la estructura general del documento y con las metas trazadas para la entrega. | **AV1**<br><br> En esta entrega generamos un entorno de trabajo colaborativo mediante reuniones de coordinación en Discord, distribución explícita de actividades y revisiones periódicas de avance. Esta organización permitió establecer metas concretas por capítulo y por integrante, dar seguimiento al cumplimiento de tareas y sostener una dinámica ordenada de trabajo grupal. A partir de ello, logramos avanzar de manera progresiva en la construcción del informe, manteniendo coherencia entre los aportes individuales y el objetivo común de la entrega AV1. |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **AV1**<br><br> Bueno Perales, Mathias Eduardo: asumí el desarrollo del Capítulo II, específicamente las secciones 2.1 y 2.2, aportando al análisis inicial del problema, los competidores y el levantamiento de información base para el informe. <br><br> Galvez Chambi, Jhon Alexander: desarrollé las secciones 4.2.4 a 4.2.8 del Capítulo IV y también participé en la elaboración inicial de la carátula, la tabla de contenidos y la estructura general del informe. <br><br> Geronimo Quispe, Pablo Antonio: desarrollé las secciones 2.3, 2.4 y 2.5 del Capítulo II, incluyendo el needfinding, los user personas, el empathy map, el journey map y la documentación del ubiquitous language. <br><br> Guzmán Chávez, Ramiro Alexander: lideré el desarrollo del Capítulo III mediante la elaboración de user stories, product backlog e impact mapping, contribuyendo a la definición y organización de los requerimientos del producto. <br><br> Luquillas Asto, Omar: desarrollé las secciones 4.2.1 a 4.2.3 del Capítulo IV, correspondientes a los bounded contexts de Inicio y Registro de Sesión, Perfil de Usuario y Gestión de Objetivos. <br><br> Paredes Santos, Fabrizio Alberto: desarrollé el Capítulo I, aportando a la construcción del perfil de la startup, la introducción general y la base conceptual del informe. <br><br> Sandoval Paiva, Valentino: lideré el diseño estratégico del sistema mediante EventStorming, Candidate Context Discovery, Bounded Context Canvases, Context Mapping y diagramas de arquitectura de software como Landscape, Context, Container y Deployment. Además, aporté al análisis competitivo y a la formulación de historias de usuario.<br><br>**TB1**<br><br> Sandoval Paiva, Valentino: asumí el liderazgo de la documentación del Capítulo VI, sección 6.1, y tomé la iniciativa de organizar la arquitectura del código frontend mientras desarrollaba las vistas de layout, sidebar y tips para mantener una base ordenada de trabajo. <br><br> Luquillas Asto, Omar: lideré la documentación del Capítulo VI, sección 6.2, y aporté a la organización del sprint documentando los avances del equipo mientras desarrollaba la vista de subscriptions. <br><br> Bueno Perales, Mathias Eduardo: lideré el desarrollo documental de las secciones 5.1, 5.2, 5.3, 5.4.2 y 5.5, y tomé iniciativa en el desarrollo de interfaces y el prototipado de flujos para consolidar la experiencia de usuario. <br><br> Guzmán Chávez, Ramiro Alexander: colaboré en la mejora continua de capítulos previamente desarrollados y aporté liderazgo en el desarrollo de vistas frontend para pacientes y flujos core orientados al segmento de nutricionistas. <br><br> Geronimo Quispe, Pablo Antonio: desarrollé la sección 5.6 IoT Device Design y lideré la elaboración de simulaciones interactivas en Wokwi para Smart Bottle y Smart Scale, alojando el código en el repositorio correspondiente. <br><br> Paredes Santos, Fabrizio Alberto: colaboré en las secciones 5.4.2 Applications Wireflow Diagrams y 5.4.3 Applications Mock-Ups, además de asumir la iniciativa del despliegue de artefactos mediante el landing page y frontend web. <br><br> Galvez Chambi, Jhon Alexander: desarrollé los mockups de aplicación en la sección 5.4.3 y los Application User Flow Diagrams de la sección 5.4.4, integré los avances del equipo y organicé la delegación de responsabilidades para sostener la calidad de la documentación y del código.<br><br>**AV2**<br><br>Bueno Perales, Mathias Eduardo: asumí la elaboración de *mockups* y el completado de prototipos para las vistas faltantes Desktop y Móvil. También redacté la sección 6.3.3, participé en el Video About-The-Product y colaboré en el desarrollo del frontend web.<br><br>Galvez Chambi, Jhon Alexander: coordiné las actividades del equipo y documenté la colaboración del Sprint. Además, realicé el despliegue de los servicios en GCP y registré las evidencias correspondientes en el Capítulo VI.<br><br>Geronimo Quispe, Pablo Antonio: desarrollé vistas frontend para la interacción con dispositivos, implementé el servicio IoT y elaboré el prototipo físico de la balanza inteligente del ecosistema Cobox Smart Vision.<br><br>Guzmán Chávez, Ramiro Alexander: desarrollé e implementé las vistas de la aplicación móvil y realicé su conexión con el backend para el consumo de datos.<br><br>Luquillas Asto, Omar: desarrollé y documenté la validación mediante entrevistas en las secciones 6.3, 6.3.1 y 6.3.2; además, colaboré en la implementación de vistas para la aplicación web Desktop.<br><br>Paredes Santos, Fabrizio Alberto: estructuré las evidencias del Sprint 2 para Sprint Planning, Backlog, Testing y Execution. También colaboré en la estabilización de microservicios y en el desarrollo de vistas para el frontend web Desktop.<br><br>Sandoval Paiva, Valentino: desarrollé vistas para la aplicación web Desktop, las integré con los microservicios del backend y apoyé la estabilización de *endpoints* requeridos por las nuevas interfaces. | **AV1**<br><br> Durante esta entrega, trabajamos de manera articulada para asumir responsabilidades complementarias dentro del informe. La distribución de capítulos, bounded contexts y artefactos de análisis permitió que cada integrante aportara desde un frente específico, combinando liderazgo en requerimientos, diseño estratégico, arquitectura, investigación y documentación. Como resultado, evidenciamos una participación conjunta en la que el liderazgo no recayó en una sola persona, sino que se manifestó de forma distribuida según las necesidades de cada sección del trabajo.<br><br>**TB1**<br><br> Durante esta versión, el liderazgo se distribuyó entre documentación, diseño UX/UI, implementación frontend, simulación IoT, despliegue e integración. Cada integrante asumió un frente concreto y, al mismo tiempo, coordinó con los demás para que los avances técnicos y documentales mantuvieran coherencia dentro del informe y de los repositorios relacionados.<br><br>**AV2**<br><br>Durante AV2, el equipo ejerció un liderazgo distribuido mediante responsabilidades complementarias en despliegue cloud, documentación del Sprint, desarrollo web y móvil, validación, prototipado e integración IoT. La asignación de estos frentes permitió que cada integrante dirigiera su aporte especializado y que los resultados se integraran en una entrega común. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **AV1**<br><br> Bueno Perales, Mathias Eduardo: desarrollé las actividades asignadas para las secciones 2.1 y 2.2 dentro de la planificación establecida para el Capítulo II. <br><br> Galvez Chambi, Jhon Alexander: participé en la estructuración inicial del informe y luego desarrollé las secciones 4.2.4 a 4.2.8 del Capítulo IV, en concordancia con la distribución de tareas acordada por el equipo. <br><br> Geronimo Quispe, Pablo Antonio: ejecuté las actividades asignadas en las secciones 2.3, 2.4 y 2.5, desarrollando los artefactos de needfinding y lenguaje ubicuo definidos en la planificación grupal. <br><br> Guzmán Chávez, Ramiro Alexander: desarrollé el Capítulo III, enfocándome en artefactos clave para la especificación y priorización del trabajo, como user stories, impact mapping y product backlog. <br><br> Luquillas Asto, Omar: desarrollé los bounded contexts 4.2.1 a 4.2.3 del Capítulo IV, cumpliendo con la asignación establecida para la parte inicial del diseño táctico. <br><br> Paredes Santos, Fabrizio Alberto: avancé el Capítulo I de acuerdo con la distribución inicial de contenidos del informe. <br><br> Sandoval Paiva, Valentino: desarrollé los artefactos de diseño estratégico y arquitectura de software en coherencia con la estructura general del documento y con las metas trazadas para la entrega.<br><br>**TB1**<br><br> Sandoval Paiva, Valentino: desarrollé la sección 6.1 del Capítulo VI y organicé tareas relacionadas con la arquitectura del frontend, estableciendo una base común para que las vistas de layout, sidebar y tips se integraran de forma consistente. <br><br> Luquillas Asto, Omar: desarrollé la sección 6.2 del Capítulo VI y contribuí a planificar el sprint mediante la documentación de avances, lo que permitió ordenar responsabilidades y evidencias de implementación. <br><br> Bueno Perales, Mathias Eduardo: desarrollé las secciones 5.1, 5.2, 5.3, 5.4.2 y 5.5 siguiendo la planificación del equipo, coordinando los entregables de diseño para que las interfaces y flujos mantuvieran continuidad. <br><br> Guzmán Chávez, Ramiro Alexander: colaboré en la mejora continua de capítulos previos y participé en el desarrollo de vistas frontend de pacientes y flujos core para nutricionistas, alineando mis avances con las necesidades de ambos segmentos. <br><br> Geronimo Quispe, Pablo Antonio: desarrollé la sección 5.6 y ejecuté las simulaciones en Wokwi para Smart Bottle y Smart Scale, manteniendo el código alojado en el repositorio correspondiente para facilitar la revisión del equipo. <br><br> Paredes Santos, Fabrizio Alberto: colaboré en las secciones 5.4.2 y 5.4.3, desarrollé vistas de autenticación, perfil de usuario y ajustes, y apoyé el despliegue del landing page y frontend web como parte de los objetivos de entrega. <br><br> Galvez Chambi, Jhon Alexander: desarrollé las secciones 5.4.3 y 5.4.4, implementé vistas de Dashboard y Communication, organicé la delegación de responsabilidades e integré los avances para verificar la calidad de la documentación y del código.<br><br>**AV2**<br><br>Bueno Perales, Mathias Eduardo: desarrollé los prototipos y *mockups* asignados para completar las vistas Desktop y Móvil, y coordiné estos entregables con el desarrollo del frontend web y la documentación de las secciones 6.3.3 y 6.4.<br><br>Galvez Chambi, Jhon Alexander: organicé las actividades y responsabilidades del equipo para la entrega AV2, y documenté las evidencias del despliegue en GCP y de la colaboración durante el Sprint.<br><br>Geronimo Quispe, Pablo Antonio: desarrollé las vistas y el servicio IoT planificados para la interacción con dispositivos, y elaboré el prototipo físico de la balanza inteligente como evidencia de la integración propuesta.<br><br>Guzmán Chávez, Ramiro Alexander: implementé las vistas móviles asignadas y las conecté con el backend para que la aplicación móvil consumiera los datos requeridos por sus flujos.<br><br>Luquillas Asto, Omar: desarrollé las actividades asignadas de validación mediante entrevistas y documenté el diseño y registro de entrevistas; adicionalmente, colaboré en las vistas de la aplicación web Desktop.<br><br>Paredes Santos, Fabrizio Alberto: redacté y estructuré las evidencias planificadas del Sprint 2, incluyendo Testing y Execution, mientras colaboraba en la estabilización de microservicios y las vistas web Desktop.<br><br>Sandoval Paiva, Valentino: desarrollé las vistas web Desktop asignadas, realicé su integración con los microservicios y apoyé la estabilización de los *endpoints* necesarios para los nuevos flujos. | **AV1**<br><br> En esta entrega generamos un entorno de trabajo colaborativo mediante reuniones de coordinación en Discord, distribución explícita de actividades y revisiones periódicas de avance. Esta organización permitió establecer metas concretas por capítulo y por integrante, dar seguimiento al cumplimiento de tareas y sostener una dinámica ordenada de trabajo grupal. A partir de ello, logramos avanzar de manera progresiva en la construcción del informe, manteniendo coherencia entre los aportes individuales y el objetivo común de la entrega AV1.<br><br>**TB1**<br><br> En esta versión, el equipo consolidó un entorno colaborativo mediante la división de responsabilidades por documentación, frontend, simulación IoT, despliegue e integración. La planificación permitió que cada integrante cumpliera objetivos verificables y que los avances se integraran de forma ordenada, manteniendo trazabilidad entre las secciones del informe y los artefactos desarrollados en repositorios externos.<br><br>**AV2**<br><br>Durante AV2, el equipo mantuvo un entorno de trabajo colaborativo mediante reuniones de coordinación, distribución de responsabilidades y revisiones periódicas. La planificación articuló los objetivos de estabilización de microservicios, despliegue del frontend e integración IoT, permitiendo cumplir avances verificables de documentación, validación, desarrollo e infraestructura dentro del Sprint. |
 
 ## Capítulo I: Introducción
 
@@ -1788,7 +1890,7 @@ En este nivel, se identifican los siguientes elementos:
 Incluyen el navegador web y la aplicación móvil, desde donde los usuarios (pacientes, nutricionistas y administradores) interactúan con el sistema mediante solicitudes seguras a través de HTTPS.
 
 ● Infraestructura Cloud:
-El sistema se despliega en un entorno cloud (AWS, Azure o GCP), utilizando contenedores Docker para garantizar portabilidad, escalabilidad y aislamiento de los servicios.
+El sistema se despliega en un entorno cloud (GCP), utilizando contenedores Docker para garantizar portabilidad, escalabilidad y aislamiento de los servicios.
 
 ● API Gateway:
 Actúa como punto de entrada único al sistema, gestionando el enrutamiento de solicitudes hacia los microservicios correspondientes y validando los tokens de autenticación.
@@ -2455,16 +2557,41 @@ Nos basamos principalmente en las recomendaciones de especialistas en el diseño
 ![Espaciado](./assets/TP/formato-espaciado.png)
 
 
-
-
 #### 5.1.2. Web, Mobile and IoT Style Guidelines
+
+La guía de estilos para Web, Mobile e IoT mantiene una identidad visual común basada en los lineamientos generales de JameoFit. En los tres entornos se conserva el uso del logotipo, la tipografía Poppins y la paleta principal definida para la marca, priorizando una experiencia clara, saludable y confiable. La diferencia entre plataformas no se plantea como un cambio de identidad, sino como una adaptación del mismo sistema visual a distintos contextos de uso: pantallas web de mayor densidad, interfaces móviles de consulta rápida y dispositivos IoT con retroalimentación física.
+
+**Web Style Guidelines**
+
+La aplicación web aplica la identidad visual de JameoFit mediante una composición limpia, con predominio de fondos blancos o claros, tarjetas de contenido con bordes suaves y acentos verdes para acciones principales. Como se observa en los mock-ups de la sección 5.4.3, el verde se utiliza para botones primarios, estados activos, indicadores de progreso y elementos relacionados con hábitos saludables; mientras que el azul se reserva para acciones secundarias, enlaces o elementos asociados a tecnología, sincronización e información complementaria.
+
+La tipografía utilizada en la interfaz web mantiene Poppins como fuente principal. Los títulos y encabezados emplean pesos más altos para reforzar la jerarquía visual, mientras que los textos descriptivos, etiquetas y valores de formularios usan pesos regulares para facilitar la lectura. Esta estructura se refleja en pantallas como Register, Login, Account Settings, Patient Detail Panel y módulos de seguimiento, donde la información se organiza con títulos claros, etiquetas breves y componentes visuales consistentes.
+
+En cuanto a estructura, la web prioriza layouts amplios y organizados. Las vistas internas utilizan navegación lateral, tarjetas informativas, formularios alineados y gráficos de progreso. Los botones principales mantienen alto contraste, color verde y bordes redondeados moderados, mientras que los campos de entrada utilizan fondos grises claros para diferenciar zonas editables sin saturar la pantalla. Los estados de progreso, métricas de hidratación, calorías y peso se representan mediante barras, tarjetas y gráficos que facilitan la interpretación rápida de datos nutricionales.
+
+**Mobile Style Guidelines**
+
+La guía mobile adapta los criterios definidos para la aplicación web a pantallas de menor tamaño. Se conserva la misma paleta de colores, tipografía, tono visual y jerarquía de acciones, pero se reorganiza la información para priorizar lectura vertical, navegación simple y acceso rápido a funciones frecuentes. Las acciones principales, como registrar información, consultar progreso o revisar recomendaciones, deben mantenerse visibles y fáciles de seleccionar mediante botones de tamaño adecuado para interacción táctil.
+
+En mobile, los componentes de la web se transforman en bloques apilados, reduciendo la densidad visual y evitando que varias métricas compitan en una misma línea. Las tarjetas de progreso, recordatorios, sugerencias y datos de dispositivos conectados deben conservar el mismo lenguaje visual de la versión web, pero con mayor separación vertical y textos más breves. De esta manera, el usuario mantiene continuidad entre plataformas y puede reconocer los mismos módulos sin aprender una interfaz distinta.
+
+La navegación móvil debe enfocarse en recorridos cortos y directos. Los formularios se presentan en una sola columna, los encabezados deben ser concisos y las acciones secundarias se ubican debajo de la acción principal para mantener claridad. El uso del verde sigue reservado para confirmaciones, progreso saludable y llamadas a la acción principales, mientras que el azul apoya enlaces, sincronización o información tecnológica.
+
+**IoT Style Guidelines**
+
+Los dispositivos IoT extienden la identidad de JameoFit hacia objetos físicos que capturan datos de hidratación y peso. Según la sección 5.6, la Botella Inteligente y la Balanza Inteligente mantienen una estética funcional, compacta y coherente con la plataforma digital. La carcasa y los componentes visibles deben priorizar claridad, bajo ruido visual y reconocimiento rápido del estado del dispositivo.
+
+La retroalimentación visual en IoT se apoya en pantallas pequeñas y luces LED. En la Botella Inteligente, la pantalla OLED muestra información resumida de hidratación, como volumen acumulado, porcentaje de avance y último registro. En la Balanza Inteligente, el LCD comunica peso, tara y estado de sincronización. Por esta razón, los textos en dispositivos deben ser breves, directos y orientados a datos operativos.
+
+La paleta LED definida para IoT complementa la paleta general de JameoFit. El verde indica cumplimiento adecuado de metas, el ámbar representa progreso intermedio, el rojo se utiliza para alertas, el azul comunica conexión o sincronización y el gris representa estado de espera. Esta codificación permite que el usuario interprete el estado del dispositivo sin depender completamente de la aplicación web o móvil.
+
+La relación visual entre IoT y las interfaces digitales debe mantenerse consistente: los datos capturados por la botella y la balanza se reflejan posteriormente en módulos de progreso, hidratación, peso y análisis inteligente dentro de la plataforma. Así, el estilo no solo cumple una función estética, sino que también refuerza la trazabilidad entre la captura física de datos y la experiencia digital de seguimiento nutricional.
 
 ### 5.2. Information Architecture
 
 La arquitectura de información de JameoFit se prioriza una experiencia directa y guiada: el usuario llega a la Home con accesos rápidos (Editar preferencias, Ver progreso, Registrar comida) y tarjetas a módulos clave (Plan de comidas, Recordatorios, Sugerencias, Snack del día, Actividad reciente). Se refuerzan métricas semanales (calorías, proteínas, grasas) y estados de progreso con mensajes motivacionales e insignias.
 
 En la Landing, se comunica nuestra propuesta de valor (“Eat Well, Live Better / Smart nutrition…”) con CTA primario (“Start for free today”) y secciones de “How does it work?”, beneficios y footer con enlaces legales y contacto.
-
 
 #### 5.2.1. Organization Systems
 
@@ -2647,8 +2774,37 @@ Figma: https://www.figma.com/design/9ozeTUfaBHSrUjMi132YiK/Wireframes-y-Mock-Ups
 
 #### 5.4.2. Applications Wireflow Diagrams
 
-#### 5.4.3. Applications Mock-Ups
+**1. Wireflow 1: Nutritionist Registration and Login**
 
+User Persona: Nutritionist  
+User goal:
+El nutricionista quiere registrarse o iniciar sesión para acceder a la plataforma JameoFit y gestionar a sus pacientes.
+
+![Wireflow 1](./assets/TP/wireflow_1.png)
+
+Este flujo representa el acceso inicial del nutricionista a la aplicación web. El usuario puede crear una cuenta, iniciar sesión y luego ingresar al dashboard principal, desde donde accede a las funcionalidades de gestión de pacientes, seguimiento, comunicación y análisis.
+
+**2. Wireflow 2: Consultar directorio y detalle de paciente**
+
+User Persona: Nutritionist  
+User goal:
+El nutricionista quiere revisar la información general de sus pacientes para conocer su estado, objetivos y progreso.
+
+![Wireflow 2](./assets/TP/wireflow_2.png)
+
+Este flujo muestra cómo el nutricionista accede desde el dashboard al módulo de pacientes, revisa el directorio y selecciona un paciente específico para consultar información detallada como progresión de peso, hidratación y calorías diarias.
+
+**3. Wireflow 3: Monitorear seguimiento nutricional de un paciente**
+
+User Persona: Nutritionist  
+User goal:
+El nutricionista quiere analizar el seguimiento de salud de un paciente para tomar decisiones basadas en datos.
+
+![Wireflow 3](./assets/TP/wireflow_3.png)
+
+Este flujo representa la revisión del seguimiento individual de un paciente. El nutricionista parte del directorio, entra al detalle del paciente y luego accede a la vista de monitoreo, donde se presentan métricas, tabla de datos e insights generados por IA.
+
+#### 5.4.3. Applications Mock-Ups
 
 ![Web-Page-Mock-Up-1](./assets/TP/mockup-web-1.png)
 
@@ -2681,10 +2837,124 @@ Figma: https://www.figma.com/design/9ozeTUfaBHSrUjMi132YiK/Wireframes-y-Mock-Ups
 ![Web-Page-Mock-Up-15](./assets/TP/mockup-web-15.png)
 
 
-
 Figma Diseño Web: https://www.figma.com/design/Y9lQwA05Rs7sm3rJ883hfG/Wireframes-y-Mock-Ups---Web-y-Mobile?node-id=24-48&t=RrVny1lvB3VhkVti-1
 
+#### 5.4.4. Applications User Flow Diagrams
 
+**User Flow 1: Registro e Inicio de Sesión del Nutricionista**
+
+**User Persona:** Nutricionista  
+**User goal:** El nutricionista quiere acceder a JameoFit para gestionar sus pacientes y revisar información nutricional.
+
+**Pantallas base:**
+
+- Register
+- Login
+- Dashboard
+
+**Happy path:**
+
+1. Usuario abre JameoFit.
+2. Selecciona `Register` si no tiene cuenta.
+3. Ingresa email, contraseña, nombre, apellido y datos requeridos.
+4. Sistema valida los datos.
+5. Usuario es redirigido a `Login`.
+6. Ingresa email y contraseña.
+7. Sistema valida credenciales.
+8. Usuario accede al `Dashboard`.
+
+**Unhappy paths:**
+
+- Si el email ya existe: mostrar mensaje de error y mantener al usuario en Register.
+- Si faltan campos obligatorios: resaltar campos incompletos.
+- Si las credenciales son incorrectas: mostrar error en Login.
+- Si el usuario ya tiene cuenta: ir directamente de Register a Login mediante `I already have an account`.
+
+![User Flow 1](./assets/TP/user_flow_1.png)
+
+Este User Flow representa el proceso de acceso del nutricionista a la plataforma. El happy path considera el registro correcto, inicio de sesión exitoso y acceso al dashboard. Las rutas alternativas contemplan errores de validación, credenciales incorrectas o existencia previa de cuenta.
+
+---
+
+**User Flow 2: Revisión de Paciente y Seguimiento Nutricional**
+
+**User Persona:** Nutricionista  
+**User goal:** El nutricionista quiere revisar el progreso de un paciente para evaluar su estado nutricional y tomar decisiones basadas en datos.
+
+**Pantallas base:**
+
+- Dashboard
+- Patients Overview
+- Patient Directory
+- Patient Detail Panel
+- Patients Tracking
+
+**Happy path:**
+
+1. Nutricionista inicia en `Dashboard`.
+2. Hace clic en `Pacientes`.
+3. Accede a `Patients Overview`.
+4. Selecciona `Directory`.
+5. Visualiza `Patient Directory`.
+6. Selecciona un paciente.
+7. Accede a `Patient Detail Panel`.
+8. Hace clic en `Tracking`.
+9. Visualiza `Patients Tracking`.
+10. Revisa métricas, tabla de datos e insights de IA.
+
+**Unhappy paths:**
+
+- Si no hay pacientes registrados: mostrar estado vacío en Patient Directory.
+- Si el paciente no tiene datos recientes: mostrar mensaje de ausencia de registros.
+- Si los datos IoT no están sincronizados: mostrar alerta de sincronización.
+- Si los insights de IA no están disponibles: mostrar mensaje de carga o error.
+
+![User Flow 2](./assets/TP/user_flow_2.png)
+
+Este User Flow muestra cómo el nutricionista navega desde el dashboard hasta el seguimiento detallado de un paciente. El flujo principal permite revisar información general, métricas de salud, hidratación, calorías e insights generados por IA. Las rutas alternativas consideran escenarios donde no existen pacientes, no hay datos recientes o la sincronización con dispositivos IoT no está disponible.
+
+---
+
+**User Flow 3: Comunicación y Recomendación al Paciente**
+
+**User Persona:** Nutricionista  
+**User goal:** El nutricionista quiere comunicarse con un paciente y agregar una recomendación personalizada según su progreso.
+
+**Pantallas base:**
+
+- frontend_dashboard
+- frontend_communication_chat.png
+- frontend_patients_tracking.png
+
+**Happy path:**
+
+1. Nutricionista inicia en `Dashboard`.
+2. Hace clic en `Chat`.
+3. Accede a `Communication Chat`.
+4. Selecciona un paciente.
+5. Revisa la conversación.
+6. Revisa analytics del usuario.
+7. Escribe una recomendación en seccion Notas (Panel de detalles del chat, seccion inferior).
+8. Hace clic en `Agregar`.
+9. Sistema envia y registra la recomendación brindada por el chat.
+
+**Unhappy paths:**
+
+- Si no hay conversaciones activas: mostrar lista vacía.
+- Si el mensaje está vacío: bloquear envío o mostrar validación.
+- Si falla el envío del mensaje: mostrar error y permitir reintentar.
+- Si no se selecciona paciente para recomendación: impedir agregar recomendación.
+- Si la recomendación está vacía: mostrar validación.
+
+![User Flow 3](./assets/TP/user_flow_3.png)
+
+Este User Flow representa el proceso de comunicación entre nutricionista y paciente, complementado con la creación de recomendaciones personalizadas. El happy path considera la selección del paciente, envío de mensaje y registro de una recomendación. Las rutas alternativas contemplan errores por falta de selección, campos vacíos o fallos en el envío.
+
+### 5.5. Application Prototyping
+
+![Applications Prototyping](./assets/TP/wireflow-diagrams.png)
+
+Video Explicacion: https://1drv.ms/v/c/ECB2589242F127CD/IQCn_AjV8dDfR6RxtZpabpWtActKNmXtTdML6RftmFahiak?e=7hR0yp
 
 ### 5.6. Iot Device Desing
 
@@ -2855,44 +3125,70 @@ La autenticación con AWS IoT Core se realiza mediante certificados X.509 por di
 
 **Android Studio:** Entorno de desarrollo integrado (IDE) oficial para aplicaciones Android, que ofrece herramientas para programar, depurar y probar de forma eficiente.
 
-![alt text](assets/TP/SD1.png)
+<p align="center">
+  <img src="assets/TP/SD1.png" alt="Android Studio" width="180"/>
+</p>
 
-**WebStorm:** Entorno de desarrollo integrado (IDE) especializado en desarrollo web moderno, que ofrece herramientas avanzadas para trabajar con frameworks como Vue, facilitando la escritura, depuración y mantenimiento del código frontend.
+**WebStorm:** Entorno de desarrollo integrado (IDE) especializado en desarrollo web moderno, que ofrece herramientas avanzadas para trabajar con frameworks como React, facilitando la escritura, depuración y mantenimiento del código frontend.
 
-![alt text](assets/TP/SD10.png)
+<p align="center">
+  <img src="assets/TP/SD10.png" alt="WebStorm" width="180"/>
+</p>
 
-**Vue.js:** Framework progresivo de JavaScript utilizado para construir interfaces de usuario dinámicas y reactivas, ideal para el desarrollo del frontend de aplicaciones web modernas.
+**React:** Biblioteca de JavaScript utilizada para construir interfaces de usuario dinámicas y reutilizables, ideal para el desarrollo del frontend de aplicaciones web modernas.
 
-![alt text](assets/TP/SD9.png)
+<p align="center">
+  <img src="assets/TP/SD11.png" alt="React" width="180"/>
+</p>
 
 
 **GitHub:** Plataforma de control de versiones y colaboración en la nube, ideal para gestionar repositorios y trabajar en equipo mediante Git.
 
-![alt text](assets/TP/SD2.png)
+<p align="center">
+  <img src="assets/TP/SD2.png" alt="GitHub" width="180"/>
+</p>
 
 **GitHub Pages:** Servicio de hosting estático que permite desplegar fácilmente sitios web directamente desde un repositorio, como por ejemplo una Landing Page.
 
-![alt text](assets/TP/SD3.png)
+<p align="center">
+  <img src="assets/TP/SD3.png" alt="GitHub Pages" width="180"/>
+</p>
+
+**Firebase:** Plataforma de Google utilizada para el despliegue y soporte de aplicaciones web y móviles, facilitando hosting, configuración de entornos y servicios asociados al ciclo de publicación.
+
+<p align="center">
+  <img src="assets/TP/SD12.png" alt="Firebase" width="180"/>
+</p>
 
 **Vertabelo:** Plataforma en línea para el diseño y modelado colaborativo de bases de datos, con soporte para distintos motores de bases de datos.
 
-![alt text](assets/TP/SD4.png)
+<p align="center">
+  <img src="assets/TP/SD4.png" alt="Vertabelo" width="180"/>
+</p>
 
 **Visual Studio Code:** Editor de código ligero y multiplataforma, ampliamente usado para programación y tareas de desarrollo, incluyendo soporte para diseño y gestión de bases de datos mediante extensiones.
 
-![alt text](assets/TP/SD5.png)
+<p align="center">
+  <img src="assets/TP/SD5.png" alt="Visual Studio Code" width="180"/>
+</p>
 
 **Figma:** Herramienta de diseño colaborativo en línea que facilita la creación de wireframes, mockups y prototipos interactivos.
 
-![alt text](assets/TP/SD6.png)
+<p align="center">
+  <img src="assets/TP/SD6.png" alt="Figma" width="180"/>
+</p>
 
 **Structurizr:** Herramienta para la creación y visualización de diagramas de arquitectura de software basados en el modelo C4, que facilita documentar sistemas de manera clara y estructurada.
 
-![alt text](assets/TP/SD7.png)
+<p align="center">
+  <img src="assets/TP/SD7.png" alt="Structurizr" width="180"/>
+</p>
 
-**AWS (Amazon Web Services):** Plataforma en la nube de Amazon que permite desplegar, administrar y escalar aplicaciones de manera segura, flexible y altamente disponible.
+**GCP (Google Cloud Platform):** Plataforma en la nube de Amazon que permite desplegar, administrar y escalar aplicaciones de manera segura, flexible y altamente disponible.
 
-![alt text](assets/TP/SD8.png)
+<p align="center">
+  <img src="assets/TP/SD8.png" alt="GCP" width="180"/>
+</p>
 
 #### 6.1.2. Source Code Management
 
@@ -3004,20 +3300,6 @@ Lenguaje moderno, estático y conciso que corre sobre la JVM. Se usa principalme
 | Uso de val por defecto, var si mutable | Promueve inmutabilidad |
 | Expresiones lambda con it | `users.filter { it.isActive }` |
 
-**Vue**
-
-Framework progresivo de JavaScript para construir interfaces de usuario reactivas y basadas en componentes. Permite organizar el frontend de manera modular, facilitando la reutilización de código y el mantenimiento.
-
-| Regla                                         | Ejemplo / Explicación                                  |
-| --------------------------------------------- | ------------------------------------------------------ |
-| Componentes en PascalCase                     | `UserCard.vue`, `NavBar.vue`                           |
-| Uso de estructura SFC (Single File Component) | `<template>`, `<script>`, `<style>` en un solo archivo |
-| Variables y métodos en camelCase              | `userName`, `getUserData()`                            |
-| Props declaradas explícitamente               | `props: { title: String }`                             |
-| Uso de v-bind y v-on abreviados               | `:src="image"`, `@click="handleClick"`                 |
-| Computed properties para lógica derivada      | `computed: { fullName() { ... } }`                     |
-| Indentación consistente                       | 2 o 4 espacios, sin mezclar tabs                       |
-
 #### 6.1.4. Software Deployment Configuration
 
 ### Deployment Landing Page:
@@ -3048,102 +3330,2593 @@ Enlace de la Landing Page: https://g2-aplicaciones-moviles.github.io/Landing-Pag
 
 ### Deployment Backend:
 
-En esta sección, se detalla el proceso de implementación del backend del proyecto Jameofit utilizando los servicios de Amazon Web Services (AWS).
+El backend de JameoFit se despliega progresivamente sobre **Google Cloud Platform (GCP)**. La configuración se organiza para separar la construcción de imágenes, la persistencia de datos, la ejecución de los servicios y el acceso administrativo.
 
-A continuación, se describen los principales componentes y configuraciones involucradas en el despliegue.
+Los elementos principales de la configuración son:
 
-1. **Entorno Elastic Beanstalk**
+1. **Integración continua y artefactos:** GitHub Actions construye las imágenes Docker de los microservicios y las publica en Artifact Registry. La autenticación con GCP utiliza Workload Identity Federation, sin almacenar claves estáticas en los repositorios.
 
-La aplicación backend se despliega mediante AWS Elastic Beanstalk, un servicio que permite administrar automáticamente la infraestructura necesaria para ejecutar aplicaciones web. En la primera captura se observa el entorno Jameofit-backend-env, cuyo estado se encuentra Ok, indicando un despliegue exitoso y una aplicación corriendo correctamente sobre la plataforma Corretto 21 (Java 17) en Amazon Linux 2023.
+2. **Infraestructura privada:** una VPC privada conecta la máquina virtual de ejecución con Cloud SQL for PostgreSQL. La base de datos no cuenta con IP pública y sus credenciales se administran mediante Secret Manager.
 
-![alt text](assets/TP/G5.png)
+3. **Ejecución de servicios:** una máquina virtual privada de Compute Engine ejecuta la plataforma con Docker Compose y obtiene las imágenes desde Artifact Registry. Su cuenta de servicio dispone únicamente de los permisos necesarios para leer imágenes y secretos.
 
-2. **Base de Datos RDS (PostgreSQL)**
-
-El servicio Amazon RDS (Relational Database Service) se utiliza para la gestión de la base de datos del backend. En la segunda captura se muestra la instancia jameofit-db, configurada con el motor PostgreSQL y actualmente en estado Disponible. La instancia pertenece a la clase db.t3.micro, optimizada para entornos de desarrollo o pruebas, y está desplegada en la región us-east-2a.
-
-![alt text](assets/TP/G6.png)
-
-3. **Usuario IAM para Integración Continua (GitHub Actions)**
-
-Para automatizar el despliegue del backend desde GitHub, se creó un usuario IAM denominado github-actions-jameofit. Este usuario cuenta con credenciales de acceso programático y permisos asignados para permitir la comunicación entre GitHub Actions y AWS Elastic Beanstalk. De esta manera, cada vez que se ejecuta un flujo de CI/CD, el código actualizado se publica automáticamente en el entorno de AWS.
-
-![alt text](assets/TP/G7.png)
-
-4. **Roles IAM Asociados a los Servicios**
-
-Finalmente, se observan los roles IAM configurados para los diferentes servicios de AWS involucrados en el despliegue, como Elastic Beanstalk, EC2, Auto Scaling y RDS. Estos roles son fundamentales para que los servicios puedan interactuar entre sí de forma segura y automatizada, garantizando una gestión adecuada de recursos y permisos.
-
-![alt text](assets/TP/G8.png)
-
-Enlace del backend: http://jameofit-backend-env.eba-fzj57hq8.us-east-2.elasticbeanstalk.com/swagger-ui/index.html
+4. **Acceso y seguridad:** los servicios internos se revisan mediante IAP TCP forwarding, sin exponer directamente la máquina virtual ni componentes como Config Server, Eureka o Swagger a Internet. La exposición pública del Gateway se considera una fase posterior.
 
 ### Deployment Frontend:
 
-En esta sección se detalla el proceso de despliegue del frontend del proyecto Jameofit, desarrollado con Vue.js, utilizando la plataforma Vercel para lograr una implementación rápida, automática y escalable.
+En esta sección se detalla el proceso de despliegue del frontend del proyecto JameoFit, desarrollado con React, utilizando Firebase Hosting para publicar la aplicación web de forma rápida, segura y escalable.
 
 A continuación, se describen los pasos principales:
 
-1. Preparación del Proyecto
+1. **Preparación del Proyecto**
 
 Antes del despliegue, se verifica que el proyecto funcione correctamente en entorno local ejecutando:
 
+```bash
 npm install  
 npm run dev  
+```
 
 Asimismo, se valida que el proyecto esté configurado correctamente para producción mediante:
 
+```bash
 npm run build  
+```
 
-2. Subida del Proyecto a GitHub
+2. **Subida del Proyecto a GitHub**
 
-El código fuente del frontend se sube a un repositorio en GitHub, lo cual permitirá la integración continua con Vercel.
+El código fuente del frontend se sube a un repositorio en GitHub, lo cual permite mantener control de versiones y preparar el proyecto para despliegues posteriores desde Firebase.
 
-3. Importación del Proyecto en Vercel
+3. **Creación del Proyecto en Firebase**
 
-Se accede a la plataforma Vercel  
-Se selecciona la opción “Add New Project”  
-Se importa el repositorio desde GitHub  
-Vercel detecta automáticamente que se trata de un proyecto con Vue  
+Se accede a Firebase Console.  
+Se crea un nuevo proyecto para JameoFit.  
+Se habilita Firebase Hosting dentro del proyecto.  
+Se registra la aplicación web asociada al frontend desarrollado con React.  
 
-4. Configuración del Proyecto
+4. **Configuración de Firebase CLI**
 
-Vercel configura automáticamente:
+Para conectar el proyecto local con Firebase Hosting, se instala y configura Firebase CLI:
 
-Framework: Vue  
+```bash
+npm install -g firebase-tools
+firebase login
+firebase init hosting
+```
+
+Durante la inicialización se selecciona el proyecto Firebase correspondiente y se configura:
+
+Framework: React  
 Build Command: npm run build  
-Output Directory: dist  
+Public Directory: dist  
+Single-page app rewrite: Yes  
 
-En caso sea necesario, estos valores pueden ajustarse manualmente.
+5. **Variables de Entorno**
 
-5. Variables de Entorno
+Se configura la URL del backend desplegado en GCP dentro del archivo de variables de entorno del frontend:
 
-Se configura la URL del backend desplegado en AWS:
-
+```bash
 VITE_API_URL=http://jameofit-backend-env.eba-fzj57hq8.us-east-2.elasticbeanstalk.com  
+```
 
 Esto permite que el frontend consuma correctamente los servicios backend.
 
-6. Despliegue Automático
+6. **Despliegue en Firebase Hosting**
 
-Una vez configurado:
+Una vez generado el build de producción, se publica la aplicación en Firebase Hosting mediante:
 
-Vercel ejecuta automáticamente el build del proyecto  
-Genera una URL pública (ej: https://jameofit.vercel.app)  
-Cada cambio enviado a GitHub genera un nuevo despliegue automático (CI/CD)  
+```bash
+npm run build
+firebase deploy
+```
 
-7. Acceso a la Aplicación
+Firebase toma el contenido generado en la carpeta `dist` y lo publica en una URL pública del proyecto.
 
-El frontend queda disponible a través de la URL proporcionada por Vercel, con alta disponibilidad y distribución global mediante CDN.
+7. **Acceso a la Aplicación**
 
-### 4.3 Referencias Bibliográficas
+El frontend queda disponible a través de la URL proporcionada por Firebase Hosting, con soporte para distribución global mediante CDN y configuración de dominio personalizado si el proyecto lo requiere.
+
+
+### 6.2. Landing Page, Service & Applications Implementation
+
+#### 6.2.1. Sprint 1
+
+#### 6.2.1.1. Sprint Planning 1
+
+En este Sprint Planning, el equipo definió los objetivos, alcance y actividades correspondientes al Sprint 1, priorizando las historias de usuario relacionadas con el desarrollo de la primera versión del Landing Page y de la aplicación web (Frontend). Asimismo, se establecieron las tareas para la implementación inicial del Backend y la integración entre ambos componentes, con el propósito de construir una base funcional y escalable para el desarrollo del proyecto en los siguientes sprints.
+
+| **Sprint #**                       | Sprint 1                       |
+|------------------------------------|--------------------------------|
+| **Sprint Planning Background**     |                                |
+| Date                               | 2026-05-05                     |
+| Time                               | 11:00 AM                       |
+| Location                           | Servidor del equipo en Discord |
+| Prepared By                        | Galvez Chambi, Jhon            |
+| Attendees (to planning meeting)    | Bueno Perales, Mathias Eduardo / Geronimo Quispe, Pablo Antonio / Guzmán Chávez, Ramiro Alexander / Luquillas Asto, Omar / Paredes Santos, Fabrizio Alberto / Sandoval Paiva,Valentino |
+| Sprint 0 Review Summary            | No aplica por ser Sprint 1     |
+| Sprint 0 Retrospective Summary     | No aplica por ser Sprint 1     |
+| **Sprint Goal & User Stories**     |                                |
+| Sprint 1 Goal                      | Nuestro enfoque es desarrollar la primera versión funcional del Landing Page y de la aplicación web, incluyendo la implementación base del Backend y la integración entre los componentes principales del sistema. Creemos que esto brindará a los usuarios y stakeholders una visión inicial clara de la plataforma, permitiendo validar la propuesta de valor y las funcionalidades core del producto desde etapas tempranas del desarrollo. Esto se confirmará cuando los usuarios puedan navegar correctamente por las vistas principales de la aplicación, interactuar con las funcionalidades esenciales implementadas y exista una comunicación funcional entre el Frontend y los servicios base del Backend. |
+| Sprint n Velocity                  | 97                             |
+| Sum of Story Points                | 97                             |
+
+
+#### 6.2.1.2. Aspect Leaders and Collaborators
+
+En esta sección se definen los líderes y colaboradores asignados a cada aspecto considerado dentro del alcance del Sprint. Esta organización permite distribuir responsabilidades de manera clara entre los miembros del equipo, facilitando la coordinación, comunicación y ejecución de las actividades relacionadas con el desarrollo del Landing Page, la aplicación web y los componentes base del Backend.
+
+| Team Member                           | Github Username       | Landing Page    | Frontend    | Backend    |
+|---------------------------------------|-----------------------|-----------------|-------------|------------|
+| Bueno Perales, Mathias Eduardo        | MathiasBueno          | (L)             | (C)         | (C)        |
+| Galvez Chambi, Jhon Alexander         | Chaomeum              | (C)             | (C)         | (L)        |
+| Geronimo Quispe, Pablo Antonio        | Phatogram             | (C)             | (C)         | (C)        |
+| Guzmán Chávez, Ramiro Alexander       | RamiroGuzmanCh        | (C)             | (C)         | (C)        |
+| Luquillas Asto, Omar                  | OmarLLA               | (C)             | (C)         | (C)        |
+| Paredes Santos, Fabrizio Alberto      | psfa29                | (C)             | (L)         | (C)        |
+| Sandoval Paiva, Valentino             | ValentinoSandovalP    | (C)             | (C)         | (C)        |
+
+
+#### 6.2.1.3. Sprint Backlog 1
+
+En esta sección se presenta el Sprint Backlog correspondiente al Sprint 1, el cual contiene las historias de usuario seleccionadas y las tareas definidas por el equipo para alcanzar el Sprint Goal establecido. Asimismo, se incluye el Board de trabajo utilizado para la gestión y seguimiento de las actividades del Sprint, permitiendo visualizar el estado de avance de cada tarea y la distribución del trabajo entre los integrantes del equipo durante el desarrollo de la primera versión funcional del Landing Page, la aplicación web y los componentes base del Backend.
+
+![Sprint Backlog 1](assets/TP/sprint_backlog1.png)
+
+Enlace público del Board en Trello: [https://trello.com/invite/b/6a03ab3700ddf15db193fcb5/ATTI41e742ebb29206941c936c5e253d139a307986B1/sprint-1](https://trello.com/invite/b/6a03ab3700ddf15db193fcb5/ATTI41e742ebb29206941c936c5e253d139a307986B1/sprint-1)
+
+<table>
+  <tr>
+    <td colspan="1"><strong>Sprint #</strong></td>
+    <td colspan="7"><strong>Sprint 1</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>User Story</strong></td>
+    <td colspan="6"><strong>Work-Item / Task</strong></td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Id</strong></td>
+    <td colspan="1"><strong>Title</strong></td>
+    <td colspan="1"><strong>Id</strong></td>
+    <td colspan="1"><strong>Title</strong></td>
+    <td colspan="1"><strong>Description</strong></td>
+    <td colspan="1"><strong>Estimation (Hours)</strong></td>
+    <td colspan="1"><strong>Assigned To</strong></td>
+    <td colspan="1"><strong>Status (To-do / In-Process / To-Review / Done)</strong></td>
+  </tr>
+  <tr>
+    <td rowspan="3">US-18</td>
+    <td rowspan="3">Propuesta de Valor</td>
+    <td>T-01</td>
+    <td>Diseñar sección Hero</td>
+    <td>Crear la sección principal de la landing con título, subtítulo y CTA principal</td>
+    <td>3</td>
+    <td>Mathias Eduardo Bueno Perales</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-02</td>
+    <td>Implementar contenido responsivo del encabezado</td>
+    <td>Asegurar que el texto y elementos del hero se ajusten en distintas pantallas</td>
+    <td>1</td>
+    <td>Mathias Eduardo Bueno Perales</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-03</td>
+    <td>Animaciones de entrada y transición</td>
+    <td>Añadir microanimaciones suaves al cargar la sección Hero</td>
+    <td>1</td>
+    <td>Mathias Eduardo Bueno Perales</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="3">US-19</td>
+    <td rowspan="3">Acceso</td>
+    <td>T-04</td>
+    <td>Implementar botones de acción en la barra superior</td>
+    <td>Crear botones visibles para "Iniciar sesión" y "Registrarse"</td>
+    <td>1</td>
+    <td>Valentino Sandoval Paiva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-05</td>
+    <td>Configurar navegación entre landing y app web</td>
+    <td>Conectar los botones a las rutas de login y registro de la aplicación web</td>
+    <td>1</td>
+    <td>Valentino Sandoval Paiva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-06</td>
+    <td>Validar interacción en distintos dispositivos</td>
+    <td>Probar que los botones sean accesibles desde móvil y desktop</td>
+    <td>1</td>
+    <td>Valentino Sandoval Paiva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US-20</td>
+    <td rowspan="2">Navegación</td>
+    <td>T-07</td>
+    <td>Desarrollar barra de navegación fija</td>
+    <td>Crear barra superior con enlaces ancla a secciones principales</td>
+    <td>1</td>
+    <td>Jhon Alexander Galvez Chambi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-08</td>
+    <td>Implementar desplazamiento suave (smooth scroll)</td>
+    <td>Añadir scroll animado al hacer clic en cada enlace de navegación</td>
+    <td>1</td>
+    <td>Jhon Alexander Galvez Chambi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US-21</td>
+    <td rowspan="2">Beneficios</td>
+    <td>T-09</td>
+    <td>Diseñar tarjetas de beneficios</td>
+    <td>Crear tarjetas visuales con ícono, título y descripción de cada beneficio</td>
+    <td>2</td>
+    <td>Jhon Alexander Galvez Chambi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-10</td>
+    <td>Configurar disposición responsiva</td>
+    <td>Ajustar grilla de tarjetas para móvil, tablet y desktop</td>
+    <td>2</td>
+    <td>Jhon Alexander Galvez Chambi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US-22</td>
+    <td rowspan="2">Exploración</td>
+    <td>T-11</td>
+    <td>Implementar estructura de secciones por bloques</td>
+    <td>Dividir la sección de beneficios en bloques temáticos</td>
+    <td>3</td>
+    <td>Jhon Alexander Galvez Chambi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-12</td>
+    <td>Agregar interacciones al hacer scroll</td>
+    <td>Añadir animaciones o cambios visuales en cada bloque al entrar en pantalla</td>
+    <td>1</td>
+    <td>Pablo Antonio Geronimo Quispe</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US-23</td>
+    <td rowspan="2">Testimonios</td>
+    <td>T-13</td>
+    <td>Diseñar carrusel de testimonios</td>
+    <td>Crear componente con nombre, foto y cita de usuarios</td>
+    <td>2</td>
+    <td>Pablo Antonio Geronimo Quispe</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-14</td>
+    <td>Implementar navegación automática y manual</td>
+    <td>Agregar autoplay y botones de navegación al carrusel</td>
+    <td>2</td>
+    <td>Pablo Antonio Geronimo Quispe</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US-24</td>
+    <td rowspan="2">Footer</td>
+    <td>T-15</td>
+    <td>Crear estructura del footer</td>
+    <td>Diseñar pie de página con enlaces a secciones internas y políticas</td>
+    <td>2</td>
+    <td>Jhon Alexander Galvez Chambi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-16</td>
+    <td>Configurar redirecciones y validaciones</td>
+    <td>Verificar que todos los enlaces del footer redirijan correctamente</td>
+    <td>2</td>
+    <td>Jhon Alexander Galvez Chambi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US-25</td>
+    <td rowspan="2">Responsive</td>
+    <td>T-17</td>
+    <td>Implementar diseño responsivo completo</td>
+    <td>Ajustar breakpoints y comportamiento adaptativo para desktop, tablet y móvil</td>
+    <td>4</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-18</td>
+    <td>Realizar pruebas de compatibilidad multiplataforma</td>
+    <td>Verificar visualización en distintos navegadores y resoluciones</td>
+    <td>2</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="5">US-01</td>
+    <td rowspan="5">Registro de Usuario</td>
+    <td>T-19</td>
+    <td>Diseñar interfaz de registro</td>
+    <td>Crear pantalla de registro con campos: nombre, email, contraseña, confirmación</td>
+    <td>3</td>
+    <td>Omar Luquillas Asto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-20</td>
+    <td>Implementar validaciones de campos</td>
+    <td>Validar formato de email, longitud de contraseña y campos obligatorios</td>
+    <td>2</td>
+    <td>Omar Luquillas Asto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-21</td>
+    <td>Conectar con API de registro</td>
+    <td>Integrar vista con backend para enviar datos y manejar respuestas</td>
+    <td>3</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-22</td>
+    <td>Implementar flujo post-registro</td>
+    <td>Configurar navegación hacia login o dashboard tras registro exitoso</td>
+    <td>2</td>
+    <td>Omar Luquillas Asto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-23</td>
+    <td>Pruebas funcionales y de error</td>
+    <td>Validar escenarios: email duplicado, conexión fallida, datos incompletos</td>
+    <td>2</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="4">US-02</td>
+    <td rowspan="4">Recuperación de Contraseña</td>
+    <td>T-24</td>
+    <td>Diseñar interfaz de recuperación</td>
+    <td>Crear vista con campo de correo y botón "Enviar enlace de recuperación"</td>
+    <td>2</td>
+    <td>Fabrizio Alberto Paredes Santos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-25</td>
+    <td>Implementar endpoint de recuperación</td>
+    <td>Conectar con API para solicitar envío de correo con enlace</td>
+    <td>3</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-26</td>
+    <td>Manejo de errores y reenvío</td>
+    <td>Mostrar mensajes si email no existe y permitir reenvío</td>
+    <td>2</td>
+    <td>Fabrizio Alberto Paredes Santos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-27</td>
+    <td>Diseño de confirmación de solicitud</td>
+    <td>Mostrar mensaje de éxito confirmando envío del correo</td>
+    <td>1</td>
+    <td>Fabrizio Alberto Paredes Santos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="5">US-03</td>
+    <td rowspan="5">Personalización de Perfil</td>
+    <td>T-28</td>
+    <td>Diseñar vista de edición de perfil</td>
+    <td>Crear interfaz para actualizar datos personales y preferencias alimenticias</td>
+    <td>3</td>
+    <td>Mathias Eduardo Bueno Perales</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-29</td>
+    <td>Implementar guardado de preferencias</td>
+    <td>Integrar con API para actualizar información del usuario</td>
+    <td>3</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-30</td>
+    <td>Sincronizar datos del onboarding</td>
+    <td>Vincular datos del perfil inicial para edición posterior</td>
+    <td>2</td>
+    <td>Mathias Eduardo Bueno Perales</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-31</td>
+    <td>Validaciones y restricciones de campos</td>
+    <td>Controlar peso, altura, edad, alergias, objetivos</td>
+    <td>2</td>
+    <td>Mathias Eduardo Bueno Perales</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-32</td>
+    <td>Actualización de vista tras guardado</td>
+    <td>Implementar retroalimentación visual (toast o mensaje de éxito)</td>
+    <td>1</td>
+    <td>Mathias Eduardo Bueno Perales</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="4">US-04</td>
+    <td rowspan="4">Plan Personalizado</td>
+    <td>T-33</td>
+    <td>Diseñar interfaz del plan alimenticio</td>
+    <td>Crear vista visual del plan con secciones para comidas diarias</td>
+    <td>3</td>
+    <td>Pablo Antonio Geronimo Quispe</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-34</td>
+    <td>Implementar lógica de generación de plan</td>
+    <td>Programar función que obtiene perfil y genera plan base</td>
+    <td>3</td>
+    <td>Pablo Antonio Geronimo Quispe</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-35</td>
+    <td>Integrar con backend</td>
+    <td>Conectar vista y lógica con endpoint de generación de plan</td>
+    <td>3</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-36</td>
+    <td>Mostrar plan y permitir recarga</td>
+    <td>Agregar función para refrescar plan al cambiar datos del perfil</td>
+    <td>2</td>
+    <td>Pablo Antonio Geronimo Quispe</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="3">US-14</td>
+    <td rowspan="3">Personalización de Metas</td>
+    <td>T-37</td>
+    <td>Diseñar formulario de metas personales</td>
+    <td>Crear interfaz para definir objetivos (peso, calorías, hidratación)</td>
+    <td>3</td>
+    <td>Fabrizio Alberto Paredes Santos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-38</td>
+    <td>Implementar guardado de metas</td>
+    <td>Conectar con backend para registrar metas personalizadas</td>
+    <td>3</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-39</td>
+    <td>Sincronizar cambios con el plan</td>
+    <td>Actualizar automáticamente el plan alimenticio al modificar metas</td>
+    <td>2</td>
+    <td>Fabrizio Alberto Paredes Santos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="4">US-06</td>
+    <td rowspan="4">Registro Diario</td>
+    <td>T-40</td>
+    <td>Diseñar vista de registro diario</td>
+    <td>Crear interfaz para registrar comidas del día (desayuno, almuerzo, cena, snacks)</td>
+    <td>3</td>
+    <td>Valentino Sandoval Paiva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-41</td>
+    <td>Implementar almacenamiento local temporal</td>
+    <td>Configurar persistencia local para registros antes de sincronizar</td>
+    <td>3</td>
+    <td>Valentino Sandoval Paiva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-42</td>
+    <td>Integrar con backend</td>
+    <td>Enviar registros al servidor mediante API</td>
+    <td>3</td>
+    <td>Omar Luquillas Asto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-43</td>
+    <td>Permitir edición de días anteriores</td>
+    <td>Agregar opción para modificar registros pasados</td>
+    <td>2</td>
+    <td>Valentino Sandoval Paiva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="4">US-08</td>
+    <td rowspan="4">Visualización de Progreso</td>
+    <td>T-44</td>
+    <td>Diseñar vista de progreso semanal</td>
+    <td>Implementar pantalla con gráficos o barras de progreso</td>
+    <td>4</td>
+    <td>Jhon Alexander Galvez Chambi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-45</td>
+    <td>Calcular estadísticas y métricas</td>
+    <td>Programar lógica que procese registros y calcule porcentajes de cumplimiento</td>
+    <td>4</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-46</td>
+    <td>Integrar con backend</td>
+    <td>Recuperar historial nutricional y progreso desde API</td>
+    <td>3</td>
+    <td>Jhon Alexander Galvez Chambi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-47</td>
+    <td>Mostrar indicadores visuales</td>
+    <td>Incorporar colores, íconos o badges que refuercen avances</td>
+    <td>2</td>
+    <td>Jhon Alexander Galvez Chambi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="4">US-09</td>
+    <td rowspan="4">Feedback Diario</td>
+    <td>T-48</td>
+    <td>Implementar lógica de generación de feedback</td>
+    <td>Analizar registros diarios y generar mensajes automáticos</td>
+    <td>3</td>
+    <td>Pablo Antonio Geronimo Quispe</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-49</td>
+    <td>Diseñar sección de resumen del día</td>
+    <td>Añadir vista con resumen nutricional (calorías, equilibrio, metas cumplidas)</td>
+    <td>3</td>
+    <td>Pablo Antonio Geronimo Quispe</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-50</td>
+    <td>Mostrar mensajes personalizados</td>
+    <td>Integrar retroalimentación visual con íconos o frases motivacionales</td>
+    <td>2</td>
+    <td>Pablo Antonio Geronimo Quispe</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-51</td>
+    <td>Sincronizar feedback con progreso semanal</td>
+    <td>Conectar resultados del feedback con pantalla de progreso</td>
+    <td>2</td>
+    <td>Jhon Alexander Galvez Chambi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="4">US-10</td>
+    <td rowspan="4">Registro de Logros</td>
+    <td>T-52</td>
+    <td>Implementar sistema de logros base</td>
+    <td>Definir estructura para hitos alcanzados (días consecutivos, metas cumplidas)</td>
+    <td>3</td>
+    <td>Mathias Eduardo Bueno Perales</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-53</td>
+    <td>Diseñar interfaz de logros</td>
+    <td>Crear pantalla con logros desbloqueados e insignias</td>
+    <td>3</td>
+    <td>Mathias Eduardo Bueno Perales</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-54</td>
+    <td>Vincular logros con progreso</td>
+    <td>Conectar logros al módulo de progreso y feedback diario</td>
+    <td>2</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-55</td>
+    <td>Implementar retroalimentación visual</td>
+    <td>Agregar animaciones al desbloquear un logro</td>
+    <td>2</td>
+    <td>Mathias Eduardo Bueno Perales</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="3">US-15</td>
+    <td rowspan="3">Visualización de Logros</td>
+    <td>T-56</td>
+    <td>Diseñar vista de insignias y recompensas</td>
+    <td>Crear sección visual con todas las insignias obtenidas</td>
+    <td>3</td>
+    <td>Fabrizio Alberto Paredes Santos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-57</td>
+    <td>Implementar filtros de logros</td>
+    <td>Permitir filtrar logros por tipo (diarios, semanales, metas completadas)</td>
+    <td>3</td>
+    <td>Fabrizio Alberto Paredes Santos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-58</td>
+    <td>Optimizar carga de imágenes y recursos</td>
+    <td>Asegurar que íconos y animaciones carguen eficientemente</td>
+    <td>2</td>
+    <td>Fabrizio Alberto Paredes Santos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="4">US-26</td>
+    <td rowspan="4">Ver recetas preestablecidas</td>
+    <td>T-59</td>
+    <td>Diseñar vista de recetas preestablecidas</td>
+    <td>Crear interfaz con lista de recetas recomendadas</td>
+    <td>3</td>
+    <td>Jhon Alexander Galvez Chambi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-60</td>
+    <td>Integrar listado con backend o fuente local</td>
+    <td>Cargar recetas desde API o JSON local</td>
+    <td>3</td>
+    <td>Omar Luquillas Asto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-61</td>
+    <td>Implementar función de "guardar receta"</td>
+    <td>Permitir marcar recetas favoritas</td>
+    <td>2</td>
+    <td>Jhon Alexander Galvez Chambi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-62</td>
+    <td>Mostrar detalles individuales de receta</td>
+    <td>Crear vista con ingredientes, pasos e información nutricional</td>
+    <td>2</td>
+    <td>Jhon Alexander Galvez Chambi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="4">US-27</td>
+    <td rowspan="4">Hacer tracking del plan</td>
+    <td>T-63</td>
+    <td>Implementar vista de seguimiento del plan</td>
+    <td>Crear interfaz para ver estado del plan y progreso</td>
+    <td>3</td>
+    <td>Valentino Sandoval Paiva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-64</td>
+    <td>Conectar vista con datos del plan</td>
+    <td>Integrar con plan personalizado y registrar avances diarios</td>
+    <td>3</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-65</td>
+    <td>Agregar opción para pausar o reiniciar tracking</td>
+    <td>Permitir desactivar temporalmente el seguimiento</td>
+    <td>2</td>
+    <td>Valentino Sandoval Paiva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-66</td>
+    <td>Sincronizar tracking con vista de progreso</td>
+    <td>Actualizar indicadores visuales del progreso semanal</td>
+    <td>2</td>
+    <td>Valentino Sandoval Paiva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="4">US-28</td>
+    <td rowspan="4">Ver recomendaciones</td>
+    <td>T-67</td>
+    <td>Diseñar vista de recomendaciones</td>
+    <td>Crear pantalla con consejos o tips diarios segmentados</td>
+    <td>3</td>
+    <td>Pablo Antonio Geronimo Quispe</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-68</td>
+    <td>Implementar sistema de filtrado por tipo</td>
+    <td>Permitir elegir qué tipo de tips visualizar</td>
+    <td>2</td>
+    <td>Pablo Antonio Geronimo Quispe</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-69</td>
+    <td>Función de "marcar como completado"</td>
+    <td>Agregar opción para marcar recomendaciones completadas</td>
+    <td>2</td>
+    <td>Pablo Antonio Geronimo Quispe</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-70</td>
+    <td>Integrar tips dinámicos desde backend</td>
+    <td>Cargar recomendaciones desde API o archivo local</td>
+    <td>3</td>
+    <td>Omar Luquillas Asto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">TS-01</td>
+    <td rowspan="2">API Autenticación</td>
+    <td>T-71</td>
+    <td>Endpoint registro</td>
+    <td>POST /api/register con validación y hash de contraseña</td>
+    <td>5</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-72</td>
+    <td>Endpoint login</td>
+    <td>POST /api/login que retorna JWT</td>
+    <td>5</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="4">TS-02</td>
+    <td rowspan="4">API Planes</td>
+    <td>T-73</td>
+    <td>Endpoint CRUD de registros diarios</td>
+    <td>GET, POST, DELETE para /api/daily-entries</td>
+    <td>6</td>
+    <td>Omar Luquillas Asto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-74</td>
+    <td>Endpoint para obtener/generar plan</td>
+    <td>GET /api/plan y POST /api/plan/generate</td>
+    <td>5</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-75</td>
+    <td>Endpoint de perfil de usuario</td>
+    <td>GET /api/profile y PUT /api/profile para actualizar datos</td>
+    <td>4</td>
+    <td>Omar Luquillas Asto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-76</td>
+    <td>Endpoint de recuperación de contraseña</td>
+    <td>POST /api/forgot-password y POST /api/reset-password</td>
+    <td>4</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+</table>
+
+
+#### 6.2.1.4. Development Evidence for Sprint Review
+
+En esta sección se presentan las evidencias de desarrollo correspondientes al Sprint 1, mostrando los principales avances realizados en la implementación del Landing Page, la aplicación web y los servicios Backend considerados dentro del alcance del Sprint. Asimismo, se incluyen los commits registrados en los repositorios del proyecto como evidencia del trabajo realizado y del progreso alcanzado por el equipo durante la iteración.
+
+**Landing Page:** [https://github.com/G3-Soluciones-IOT/landing-page](https://github.com/G3-Soluciones-IOT/landing-page)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message**                                   | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|------------------------------------------------------|--------------------------|--------------------------|
+| landing-page   | main       | 5843067        | fix: fixing components appshowcase and homepage      | -                        | 11/05/2026               |
+| landing-page   | main       | d316fd8        | fix: fixing vite.config.js                           | -                        | 11/05/2026               |
+| landing-page   | main       | ce0a69d        | fix: fixing vite.config.js                           | -                        | 11/05/2026               |
+| landing-page   | main       | 4a1425b        | fix: fix package.json                                | -                        | 11/05/2026               |
+| landing-page   | main       | 79628d7        | feat: add new component and update i18n translations | -                        | 11/05/2026               |
+| landing-page   | main       | e5d3980        | Initial commit                                       | -                        | 11/05/2026               |
+
+**Web Application:** [https://github.com/G3-Soluciones-IOT/frontend](https://github.com/G3-Soluciones-IOT/frontend)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| frontend | develop | ed96ca0 | feat: notificacions module and account settings shared page | - | 14/05/2026 |
+| frontend | develop | bd3b903 | feat(useTips): implement custom hook for fetching and managing tips | - | 14/05/2026 |
+| frontend | develop | 0e1f163 | feat(UpdateTip): add UpdateTipInput interface and updateTipUseCase for modifying tips | - | 14/05/2026 |
+| frontend | develop | b0d6592 | feat(TipsPage): add TipsPage component with styles, search, and modal functionality | - | 14/05/2026 |
+| frontend | develop | 6fb5bc4 | feat(TipsRoute): add TipsRoute component for rendering TipsPage with navigation | - | 14/05/2026 |
+| frontend | develop | 4399c34 | feat(tips.api): add API methods for managing tips and resources | - | 14/05/2026 |
+| frontend | develop | 6d0712d | feat(TipRow): add TipRow component for displaying individual tips with edit functionality | - | 14/05/2026 |
+| frontend | develop | 894656a | feat(Tip): add Tip and TipResource models, and TipRepository interface for managing tips and resources | - | 14/05/2026 |
+| frontend | develop | 70f543b | feat(ResourceCard): add ResourceCard component for displaying tip resources with metadata | - | 14/05/2026 |
+| frontend | develop | f6ae0e3 | feat(Placeholder): add placeholder.txt file for future content | - | 14/05/2026 |
+| frontend | develop | 509bbf6 | feat(Modal): add Modal component for displaying content with header, body, and footer | - | 14/05/2026 |
+| frontend | develop | e3e6a68 | feat(Tips): add ListTipsInput interface for listing tips with pagination and filters | - | 14/05/2026 |
+| frontend | develop | 3382577 | feat(Tips): add index file for domain, application, infrastructure, and presentation exports | - | 14/05/2026 |
+| frontend | develop | ba78f03 | feat(Tips): implement HttpTipRepository for managing tips data | - | 14/05/2026 |
+| frontend | develop | e40254b | feat(Tips): add use cases for listing tips and retrieving tip by ID | - | 14/05/2026 |
+| frontend | develop | 70fdac3 | feat(Tips): add EditTipModal component for editing tips | - | 14/05/2026 |
+| frontend | develop | 4de289e | feat(Tips): add deleteTipUseCase for removing tips | - | 14/05/2026 |
+| frontend | develop | 898254e | feat(Tips): implement CreateTipInput and CreateTipModal components | - | 14/05/2026 |
+| frontend | develop | 8d9324c | feat(App): add TipsRoute to handle navigation for tips content | - | 14/05/2026 |
+| frontend | develop | ce22bc3 | feat(payments): refactor PaymentsPage to use SharedLayout | - | 14/05/2026 |
+| frontend | develop | 77d1d8d | feat(payments): add payments page | - | 14/05/2026 |
+| frontend | develop | 7fcb56e | feat(SharedLayout): refactor layout and add Topbar component with logout functionality | - | 14/05/2026 |
+| frontend | develop | 3f86ee6 | feat(NutritionistProfile): rename NutritionistLayout.module.css to NutritionistProfile.module.css | - | 14/05/2026 |
+| frontend | develop | 74b8281 | feat(NutritionistProfilePage): update import to use NutritionistProfile.module.css | - | 14/05/2026 |
+| frontend | develop | e64ce0d | feat(NutritionistProfile): rename NutritionistLayout.module.css to NutritionistProfile.module.css | - | 14/05/2026 |
+| frontend | develop | ed5837c | feat(index): update exports to include Topbar and remove PatientsLayout | - | 14/05/2026 |
+| frontend | develop | ef2318c | feat(index): update exports to include Topbar and remove PatientsLayout | - | 14/05/2026 |
+| frontend | develop | 8b0df97 | feat(index): remove NutritionistLayout export from index file | - | 14/05/2026 |
+| frontend | develop | 448b2d5 | feat(index): export page components for chat, consultations, and recommendations | - | 14/05/2026 |
+| frontend | develop | 11491b8 | feat(index): export page components for chat, consultations, and recommendations | - | 14/05/2026 |
+| frontend | develop | 7dfd308 | feat(consultations): create ConsultationsPage component with SharedLayout integration | - | 14/05/2026 |
+| frontend | develop | e0c9881 | feat(communication): replace SharedLayout with individual page components for chat, consultations, and recommendations | - | 14/05/2026 |
+| frontend | develop | 65e61c6 | feat(chat): create ChatPage component with SharedLayout integration and navigation | - | 14/05/2026 |
+| frontend | develop | 4906d73 | feat(communication): update route handling to support all communication paths | - | 14/05/2026 |
+| frontend | develop | f8a0c9e | feat(layout): implement SharedLayout component with navigation and breadcrumbs | - | 14/05/2026 |
+| frontend | develop | b005f6c | feat(layout): add SharedLayout styles for responsive design and navigation | - | 14/05/2026 |
+| frontend | develop | 8bf2f14 | feat(patient): refactor PatientTrackingPage to use SharedLayout and integrate navigation configuration | - | 14/05/2026 |
+| frontend | develop | 5aca149 | feat(patients): refactor PatientsOverviewPage to use SharedLayout and integrate navigation configuration | - | 14/05/2026 |
+| frontend | develop | cae0d74 | feat(patients): refactor PatientsDirectoryPage to use SharedLayout and integrate navigation configuration | - | 14/05/2026 |
+| frontend | develop | adb5756 | feat(patient): refactor PatientDetailPage to use SharedLayout and integrate navigation configuration | - | 14/05/2026 |
+| frontend | develop | c39922f | feat(profile): refactor NutritionistProfilePage to use SharedLayout and manage form state with draft | - | 14/05/2026 |
+| frontend | develop | 7aeb297 | feat(nutritionist): add NutritionistShellRoute and update NutritionistProfileRoute with currentPath prop | - | 14/05/2026 |
+| frontend | develop | 5ee1c18 | feat(icons): add reusable navigation icons for dashboard, users, messages, files, charts, and screens | - | 14/05/2026 |
+| frontend | develop | e038b56 | feat(navigation): add role-based navigation configuration for nutritionist, patient, and admin | - | 14/05/2026 |
+| frontend | develop | 35d7677 | feat(layout): export SharedLayout and related types | - | 14/05/2026 |
+| frontend | develop | 3c0c93f | feat(communication): add communication route with shared layout and navigation | - | 14/05/2026 |
+| frontend | develop | 8bbbffd | feat(app): integrate communication route and enhance nutritionist profile navigation | - | 14/05/2026 |
+| frontend | develop | d334167 | feat(router): add patient routes to app navigation | - | 12/05/2026 |
+| frontend | develop | 8a145dd | feat(patients): add mock patient management views | - | 12/05/2026 |
+| frontend | develop | eeecbbc | feat: add nutritionist pages and route of application | - | 11/05/2026 |
+| frontend | develop | 3628b54 | feat: add IAM and Nutritionist bounded contexts | - | 11/05/2026 |
+| frontend | main | 35aa5fa | feat: initialize frontend project | - | 11/05/2026 |
+
+**Backend Web Services:** [https://github.com/G3-Soluciones-IOT/backend](https://github.com/G3-Soluciones-IOT/backend)
+
+| **Repository**        | **Branch**      | **Commit Id**      | **Commit Message**      | **Commit Message Body**     | **Commited on (Date)**      |
+|-----------------------|-----------------|--------------------|-------------------------|-----------------------------|-----------------------------|
+| backend               | main            |                    | initial commit          | -                           |                             |
+
+
+#### 6.2.1.5. Testing Suite Evidence for Sprint Review
+
+Durante este sprint se implementó la estructura inicial de la suite de pruebas automatizadas utilizando el enfoque Behavior-Driven Development (BDD) y el lenguaje Gherkin para la definición de escenarios funcionales. Los archivos .feature elaborados corresponden a las historias de usuario priorizadas dentro del Sprint Backlog, permitiendo validar el comportamiento esperado de las funcionalidades principales desarrolladas durante esta iteración.
+
+Las pruebas fueron organizadas bajo la estructura Given–When–Then, considerando escenarios relacionados con la navegación del Landing Page, la interacción con las vistas principales de la aplicación web y la comunicación inicial entre el Frontend y los servicios base del Backend. Asimismo, se preparó la configuración inicial del entorno de testing y el repositorio destinado al versionamiento de los artefactos de prueba.
+
+Esta suite de pruebas permite mantener la trazabilidad entre las historias de usuario y sus criterios de aceptación, facilitar futuras automatizaciones de pruebas y proporcionar evidencia clara y verificable del avance funcional alcanzado durante el Sprint 1.
+
+![Testing Suite Evidence](assets/TP/testing_suite.png)
+
+**Testing:** [https://github.com/G3-Soluciones-IOT/testing](https://github.com/G3-Soluciones-IOT/testing)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Committed on (Date)** |
+|----------------|------------|----------------|----------------------|---------------------------|--------------------------|
+| Testing | main | d7a7a65 | test(bdd): implement shared cucumber world and step definitions | - | 15/05/2026 |
+| Testing | main | 3c89b91 | test(bdd): add iot ai and landing page features | - | 15/05/2026 |
+| Testing | main | 05ec68e | test(bdd): add tracking professional and subscription features | - | 15/05/2026 |
+| Testing | main | 101a7c5 | test(bdd): add account profile and plan features | - | 15/05/2026 |
+
+
+#### 6.2.1.6. Execution Evidence for Sprint Review
+
+En esta sección se presentan las evidencias de ejecución correspondientes al Sprint 1, mostrando las principales funcionalidades y vistas implementadas para el Landing Page y la aplicación web. Asimismo, se incluyen capturas de pantalla y material audiovisual que evidencian la navegación, interacción y funcionamiento general de los componentes desarrollados durante el sprint, permitiendo validar el cumplimiento de los objetivos establecidos para esta iteración.
+
+**Landing Page:**
+
+Sección Principal:
+
+![Execution Evidence](assets/TP/landing_execution_evidence1.png)
+
+Sección de Beneficios:
+
+![Execution Evidence](assets/TP/landing_execution_evidence2.png)
+
+Sección de Testimonios:
+
+![Execution Evidence](assets/TP/landing_execution_evidence3.png)
+
+Sección de Cómo Funciona:
+
+![Execution Evidence](assets/TP/landing_execution_evidence4.png)
+
+Secciones de CTA y Footer:
+
+![Execution Evidence](assets/TP/landing_execution_evidence5.png)
+
+**Demo Landing Page:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323270_upc_edu_pe/IQAAZpVUQfGHRJOSBooLgxm-AbhEkQ5rQzLaoCchwTCH0uY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Ee4kgX
+
+---
+
+**Web Application:**
+
+Vista de Registro:
+![Execution Evidence](assets/TP/frontend_register.png)
+
+Vista de Inicio de Sesion:
+![Execution Evidence](assets/TP/frontend_login.png)
+
+Vista de Dashboard:
+![Execution Evidence](assets/TP/frontend_dashboard.png)
+
+Vistas de Perfil:
+![Execution Evidence](assets/TP/frontend_profile_info.png)
+![Execution Evidence](assets/TP/frontend_profile_settings.png)
+
+Vistas de Pacientes:
+![Execution Evidence](assets/TP/frontend_patients_directory.png)
+![Execution Evidence](assets/TP/frontend_patients_detail.png)
+![Execution Evidence](assets/TP/frontend_patients_tracking.png)
+
+Vistas de Comunicacion:
+![Execution Evidence](assets/TP/frontend_communication_chat.png)
+![Execution Evidence](assets/TP/frontend_communication_consultation.png)
+
+Vista de Tips:
+![Execution Evidence](assets/TP/frontend_content_tips.png)
+
+Vista de Notificaciones:
+![Execution Evidence](assets/TP/frontend_notifications.png)
+
+Vista de Suscripciones:
+![Execution Evidence](assets/TP/frontend_subscriptions.png)
+
+
+**Demo Web Application:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323270_upc_edu_pe/IQBkdUMDlBydSIw_rbnxEvXLAahQB6s2f2-dKfqVJFoUD0g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=uS2o8r
+
+
+#### 6.2.1.7. Services Documentation Evidence for Sprint Review
+
+En esta sección se presentan las evidencias de documentación de los servicios web desarrollados durante el Sprint 1, incluyendo la definición y documentación de los principales endpoints implementados para el sistema. Asimismo, se muestran las especificaciones elaboradas mediante OpenAPI, las acciones soportadas por cada servicio y ejemplos de interacción con los endpoints, permitiendo evidenciar el correcto diseño y documentación de la comunicación entre el Frontend y Backend del proyecto.
+
+**Meal Plan**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /meal-plan | Obtener todos los meal plans | GET | `/api/v1/meal-plan` | Ninguno | `{ "id": 0, "name": "string", "description": "string", "calories": 0.1, "carbs": 0.1, "proteins": 0.1, "fats": 0.1, "profileId": 0, "category": "string", "isCurrent": true, "entries": [{ "id": 0, "recipeId": 0, "mealPlanType": "string", "mealPlanId": 0 }], "tags": ["string"] }` | (URL Swagger/doc) |
+| /meal-plan | Crear un nuevo meal plan | POST | `/api/v1/meal-plan` | name, description, calories, carbs, proteins, fats, profileId, category, isCurrent, entries, tags | Igual que el response de GET | (URL Swagger/doc) |
+| /meal-plan/{id} | Obtener un meal plan por ID | GET | `/api/v1/meal-plan/{mealPlanId}` | mealPlanId (path) | Igual que el response de GET | (URL Swagger/doc) |
+| /meal-plan/{id} | Actualizar un meal plan por ID | PUT | `/api/v1/meal-plan/{mealPlanId}` | Todos los campos del objeto meal plan | Igual que el response de GET | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence1.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence2.png)
+
+**User Profiles**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /api/v1/user-profiles | Obtener todos los perfiles de usuario | GET | `/api/v1/user-profiles` | Ninguno | `{ "gender":"string", "height":0.1, "weight":0.1, "userScore":0, "activityLevelId":0, "objectiveId":0, "allergyIds":[0] }` | (URL Swagger/doc) |
+| /api/v1/user-profiles | Crear un nuevo perfil de usuario | POST | `/api/v1/user-profiles` | gender, height, weight, userScore, activityLevelId, objectiveId, allergyIds | Igual que el response de GET | (URL Swagger/doc) |
+| /api/v1/user-profiles/{id} | Obtener un perfil de usuario por ID | GET | `/api/v1/user-profiles/{id}` | id (path) | Igual que el response de GET | (URL Swagger/doc) |
+| /api/v1/user-profiles/{id} | Actualizar un perfil de usuario por ID | PUT | `/api/v1/user-profiles/{id}` | id, gender, height, weight, userScore, activityLevelId, objectiveId, allergyIds | Igual que el response de GET | (URL Swagger/doc) |
+| /api/v1/user-profiles/{id} | Eliminar un perfil de usuario por ID | DELETE | `/api/v1/user-profiles/{id}` | id (path) | `204 No Content` | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence3.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence4.png)
+
+**Objectives**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /api/v1/objectives | Obtener todos los objetivos | GET | `/api/v1/objectives` | Ninguno | `{ "id":0, "objectiveName":"string", "score":0, "description":"string" }` | (URL Swagger/doc) |
+| /api/v1/objectives | Crear un nuevo objetivo | POST | `/api/v1/objectives` | id, objectiveName, score, description | Igual que el response de GET | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence5.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence6.png)
+
+**Allergies**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /api/v1/allergies | Obtener todas las alergias | GET | `/api/v1/allergies` | Ninguno | `{ "id": 0, "name": "string", "relatedIngredients": [{ "name": "string" }] }` | (URL Swagger/doc) |
+| /api/v1/allergies | Crear una nueva alergia | POST | `/api/v1/allergies` | id, name, relatedIngredients | Igual que el response de GET | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence7.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence8.png)
+
+**Activity levels**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /api/v1/activity-levels | Obtener todos los niveles | GET | `/api/v1/activity-levels` | Ninguno | `{ "createdAt": "2025-06-23T22:41:41.417Z", "updatedAt": "2025-06-23T22:41:41.417Z", "id": 0, "name": "string", "description": "string", "activityFactor": 0.1 }` | (URL Swagger/doc) |
+| /api/v1/activity-levels | Crear un nuevo nivel de actividad | POST | `/api/v1/activity-levels` | createdAt, updatedAt, id, name, description, activityFactor | Igual que el response de GET | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence9.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence10.png)
+
+**Favorite Recipes**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /api/v1/favorite-recipes | Crear una receta favorita | POST | `/api/v1/favorite-recipes` | userId, recipeId | `{ "userId": 0, "recipeId": 0 }` | (URL Swagger/doc) |
+| /api/v1/favorite-recipes/{userId} | Obtener recetas favoritas por usuario | GET | `/api/v1/favorite-recipes/{userId}` | userId (path) | `[ { "id": 0, "userId": 0, "recipeId": 0, "recipeName": "string" } ]` | (URL Swagger/doc) |
+| /api/v1/favorite-recipes/{userId}/{recipeId} | Eliminar una receta favorita | DELETE | `/api/v1/favorite-recipes/{userId}/{recipeId}` | userId, recipeId | `204 No Content` | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence11.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence12.png)
+
+**Recipes & Related**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /api/v1/recipes | Crear una nueva receta | POST | `/api/v1/recipes` | name, description, preparationTime, difficulty, categoryId, recipeTypeId, userId | `{ "name": "string", ... }` | (URL Swagger/doc) |
+| /api/v1/recipes/{recipeId} | Obtener receta por ID | GET | `/api/v1/recipes/{recipeId}` | recipeId (path) | `{ "id": 0, "userId": 0, "name": "string", "description": "string", ... }` | (URL Swagger/doc) |
+| /api/v1/recipes/{recipeId}/ingredients/{ingredientId} | Añadir ingrediente a una receta | POST | `/api/v1/recipes/{recipeId}/ingredients/{ingredientId}` | recipeId, ingredientId | `204 No Content` | (URL Swagger/doc) |
+| /api/v1/ingredients | Crear un nuevo ingrediente | POST | `/api/v1/ingredients` | name, calories, carbohydrates, proteins, fats, macronutrientValuesId | `{ "name": "string", ... }` | (URL Swagger/doc) |
+| /api/v1/ingredients/{ingredientId} | Eliminar un ingrediente | DELETE | `/api/v1/ingredients/{ingredientId}` | ingredientId (path) | `204 No Content` | (URL Swagger/doc) |
+| /api/v1/categories | Crear una nueva categoría | POST | `/api/v1/categories` | name | `{ "name": "string" }` | (URL Swagger/doc) |
+| /api/v1/categories/{categoryId} | Obtener categoría por ID | GET | `/api/v1/categories/{categoryId}` | categoryId (path) | `{ "id": 0, "name": "string" }` | (URL Swagger/doc) |
+| /api/v1/recipe-types | Crear un nuevo tipo de receta | POST | `/api/v1/recipe-types` | name | `{ "name": "string" }` | (URL Swagger/doc) |
+| /api/v1/recipe-types/{recipeTypeId} | Obtener tipo de receta por ID | GET | `/api/v1/recipe-types/{recipeTypeId}` | recipeTypeId (path) | `{ "id": 0, "name": "string" }` | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence13.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence14.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence15.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence16.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence17.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence18.png)
+
+**Tracking & Goals**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /api/v1/tracking | Crear un nuevo tracking | POST | `/api/v1/tracking` | Body con datos de tracking | `{ "id": 0, "userId": 0, "startDate": "2025-06-23", "endDate": "2025-06-30" }` | (URL Swagger/doc) |
+| /api/v1/tracking/user/{userId} | Obtener tracking por ID de usuario | GET | `/api/v1/tracking/user/{userId}` | userId (path) | `{ "id": 0, "userId": 1, "startDate": "2025-06-23", "endDate": "2025-06-30" }` | (URL Swagger/doc) |
+| /api/v1/tracking/macronutrients/consumed/tracking/{trackingId} | Obtener macros consumidos por tracking | GET | `/api/v1/tracking/macronutrients/consumed/tracking/{trackingId}` | trackingId (path) | `{ "calories": 1200.0, "carbs": 150.0, "proteins": 80.0, "fats": 50.0 }` | (URL Swagger/doc) |
+| /api/v1/macronutrients/consumed/tracking/{trackingId} | Obtener valores de macronutrientes consumidos | GET | `/api/v1/macronutrients/consumed/tracking/{trackingId}` | trackingId (path) | Igual que el response anterior | (URL Swagger/doc) |
+| /api/v1/tracking-goals | Crear un nuevo Tracking Goal | POST | `/api/v1/tracking-goals` | Body con objetivos | `{ "id": 1, "userId": 1, "targetCalories": 2000.0, "targetCarbs": 250.0, "targetProteins": 100.0, "targetFats": 70.0 }` | (URL Swagger/doc) |
+| /api/v1/tracking-goals/{trackingGoalId}/target-macros | Obtener macros objetivos por ID de Tracking Goal | GET | `/api/v1/tracking-goals/{trackingGoalId}/target-macros` | trackingGoalId (path) | `{ "targetCalories": 2000.0, "targetCarbs": 250.0, "targetProteins": 100.0, "targetFats": 70.0 }` | (URL Swagger/doc) |
+| /api/v1/tracking-goals/user/{userId} | Obtener Tracking Goal por usuario | GET | `/api/v1/tracking-goals/user/{userId}` | userId (path) | Igual que el response de POST de tracking-goals | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence19.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence20.png)
+
+**Meal Plan Entries**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /api/v1/meal-plan-entries/{mealPlanEntryId} | Actualizar una entrada de meal plan | PUT | `/api/v1/meal-plan-entries/{mealPlanEntryId}` | mealPlanEntryId (path), body con datos a actualizar | `{ "id":1, "recipeId":10, "mealPlanType":"LUNCH", "mealPlanId":3 }` | (URL Swagger/doc) |
+| /api/v1/meal-plan-entries/tracking/{trackingId} | Añadir una nueva entrada de meal plan al tracking | POST | `/api/v1/meal-plan-entries/tracking/{trackingId}` | trackingId (path), body con recipeId, mealPlanType | `{ "id":1, "recipeId":10, "mealPlanType":"LUNCH", "mealPlanId":3 }` | (URL Swagger/doc) |
+| /api/v1/meal-plan-entries/tracking/{trackingId} | Obtener todas las entradas de meal plan por tracking | GET | `/api/v1/meal-plan-entries/tracking/{trackingId}` | trackingId (path) | `[ { "id":1, "recipeId":10, "mealPlanType":"BREAKFAST", "mealPlanId":3 }, ... ]` | (URL Swagger/doc) |
+| /api/v1/meal-plan-entries/tracking/{trackingId}/entry/{mealPlanEntryId} | Eliminar una entrada específica del meal plan | DELETE | `/api/v1/meal-plan-entries/tracking/{trackingId}/entry/{mealPlanEntryId}` | trackingId, mealPlanEntryId (path) | `204 No Content` | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence21.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence22.png)
+
+**Recommendation templates**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /api/v1/recommendation-templates | Obtener todos los templates | GET | `/api/v1/recommendation-templates` | Ninguno | `[ { "id":1, "title":"Plan nutricional para masa muscular", "content":"Incluye proteína magra, carbos complejos y grasas buenas", "recommendations":[] } ]` | (URL Swagger/doc) |
+| /api/v1/recommendation-templates | Crear un nuevo template | POST | `/api/v1/recommendation-templates` | title, content | `{ "id":2, "title":"Plan post-entreno", "content":"Incluye batidos con whey protein, avena y banana", "recommendations":[] }` | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence23.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence24.png)
+
+**Recommendations**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /api/v1/recommendations/user/{userId} | Obtener recomendaciones por usuario | GET | `/api/v1/recommendations/user/{userId}` | userId (path) | `[ { "id":5, "userId":{"value":1}, "templateId":2, "reason":"Fase de volumen", "notes":"Comidas densas en calorías", "timeOfDay":"MORNING", "score":9.1, "status":"ACTIVE", "assignedAt":"2025-06-23T04:49:59.728Z" } ]` | (URL Swagger/doc) |
+| /api/v1/recommendations | Asignar una recomendación a un usuario | POST | `/api/v1/recommendations` | userId, templateId, reason, notes, timeOfDay, score, status | `{ "id":6, "userId":{"value":2}, "templateId":3, "reason":"Recuperación post-lesión", "notes":"Alta proteína, omega 3 y antioxidantes", "timeOfDay":"EVENING", "score":8.3, "status":"ACTIVE", "assignedAt":"2025-06-23T04:49:59.728Z" }` | (URL Swagger/doc) |
+| /api/v1/recommendations/{id} | Actualizar una recomendación | PUT | `/api/v1/recommendations/{id}` | id, reason, notes, timeOfDay, score, status | `{ "id":6, "userId":{"value":2}, "templateId":3, "reason":"Actualización: aumento de actividad", "notes":"Agregar snack con frutos secos", "timeOfDay":"AFTERNOON", "score":9.0, "status":"ACTIVE", "assignedAt":"2025-06-23T04:49:59.728Z" }` | (URL Swagger/doc) |
+| /api/v1/recommendations/{id} | Eliminar una recomendación | DELETE | `/api/v1/recommendations/{id}` | id (path) | `204 No Content` | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence25.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence26.png)
+
+
+#### 6.2.1.8. Software Deployment Evidence for Sprint Review
+
+En esta sección se resumen las actividades realizadas durante el Sprint 1 en relación con el despliegue de los productos digitales de JameoFit. El trabajo de deployment incluyó la publicación del Landing Page, la preparación del despliegue de la aplicación web y la organización de los recursos necesarios para que los componentes desarrollados puedan ejecutarse en entornos accesibles para revisión.
+
+Durante este Sprint, el equipo trabajó en la creación y configuración de repositorios, habilitación de servicios de hosting, configuración de recursos cloud, preparación de variables de entorno, integración con herramientas de despliegue y documentación de evidencias visuales. Estas actividades permiten validar que los entregables desarrollados pueden ser publicados, revisados y conectados progresivamente dentro de la arquitectura distribuida del proyecto.
+
+**Landing Page Deployment**
+
+El Landing Page fue desplegado mediante GitHub Pages, siguiendo el proceso definido en la sección de configuración de deployment. Este despliegue permite publicar el sitio informativo del producto y dejarlo disponible para usuarios, stakeholders y revisión académica.
+
+1. **Creación del repositorio**
+
+Se creó un repositorio en GitHub para alojar el código fuente del Landing Page y mantener el control de versiones del producto.
+
+![Software Deployment Evidence - Landing Repository](assets/TP/G1.png)
+
+2. **Configuración de colaboradores**
+
+Se agregaron los integrantes del equipo al repositorio correspondiente para permitir colaboración, revisión y actualización del Landing Page durante el Sprint.
+
+![Software Deployment Evidence - Landing Collaborators](assets/TP/G2.png)
+
+3. **Habilitación de GitHub Pages**
+
+Se configuró GitHub Pages desde las opciones del repositorio para publicar el contenido del Landing Page en una URL pública.
+
+![Software Deployment Evidence - GitHub Pages Configuration](assets/TP/G3.png)
+
+4. **Verificación del despliegue**
+
+Finalmente, se verificó que el Landing Page quedara publicado correctamente y accesible desde el navegador.
+
+![Software Deployment Evidence - Landing Published](assets/TP/G4.png)
+
+**URL del Landing Page desplegada:** [https://g3-soluciones-iot.github.io/landing-page/](https://g3-soluciones-iot.github.io/landing-page/)
+
+---
+
+**Web Application Deployment**
+
+La aplicación web fue preparada y desplegada mediante Firebase Hosting, manteniendo la configuración necesaria para conectar el frontend con los servicios Backend publicados en GCP. Durante el Sprint se validó que las vistas implementadas pudieran ejecutarse correctamente, que el proyecto generara una versión de producción y que los principales flujos de la aplicación se mantuvieran disponibles para revisión.
+
+1. **Preparación del proyecto frontend**
+
+Se verificó la instalación de dependencias y la ejecución local del proyecto antes de generar una versión lista para producción. Esta validación permitió revisar las vistas de autenticación, dashboard, perfil, pacientes, comunicación, contenido, notificaciones y suscripciones.
+
+```bash
+npm install
+npm run dev
+```
+
+2. **Generación del build de producción**
+
+Se ejecutó el proceso de compilación del frontend para validar que la aplicación pueda ser publicada en un servicio de hosting.
+
+```bash
+npm run build
+```
+
+3. **Configuración de Firebase Hosting**
+
+Se preparó el proyecto de Firebase Hosting para publicar la aplicación web desarrollada con React y servir el contenido generado en la carpeta `dist`.
+
+```bash
+firebase login
+firebase init hosting
+```
+
+4. **Publicación de la aplicación web**
+
+Después de validar el build, se publicó la aplicación web en Firebase Hosting para dejarla disponible mediante una URL pública.
+
+```bash
+firebase deploy
+```
+
+**URL del Web Application desplegada:** https://g3iotfrontend.web.app/
+
+**Repositorio del Web Application:** https://github.com/G3-Soluciones-IOT/frontend
+
+**Evidencias visuales de la Web Application**
+
+Las siguientes capturas corresponden a las evidencias presentadas en la sección 6.2.1.6. Se adjuntan nuevamente en esta sección para sustentar que las vistas principales fueron ejecutadas y verificadas como parte del proceso de preparación y despliegue.
+
+**Autenticación**
+
+Vista de Registro:
+
+![Software Deployment Evidence - Web Register](assets/TP/frontend_register.png)
+
+Vista de Inicio de Sesión:
+
+![Software Deployment Evidence - Web Login](assets/TP/frontend_login.png)
+
+**Dashboard**
+
+Vista de Dashboard:
+
+![Software Deployment Evidence - Web Dashboard](assets/TP/frontend_dashboard.png)
+
+**Perfil de Usuario**
+
+Vista de Información de Perfil:
+
+![Software Deployment Evidence - Web Profile Info](assets/TP/frontend_profile_info.png)
+
+Vista de Configuración de Perfil:
+
+![Software Deployment Evidence - Web Profile Settings](assets/TP/frontend_profile_settings.png)
+
+**Gestión de Pacientes**
+
+Vista de Directorio de Pacientes:
+
+![Software Deployment Evidence - Web Patients Directory](assets/TP/frontend_patients_directory.png)
+
+Vista de Detalle de Paciente:
+
+![Software Deployment Evidence - Web Patient Detail](assets/TP/frontend_patients_detail.png)
+
+Vista de Seguimiento de Paciente:
+
+![Software Deployment Evidence - Web Patient Tracking](assets/TP/frontend_patients_tracking.png)
+
+**Comunicación**
+
+Vista de Chat:
+
+![Software Deployment Evidence - Web Communication Chat](assets/TP/frontend_communication_chat.png)
+
+Vista de Consultas:
+
+![Software Deployment Evidence - Web Communication Consultation](assets/TP/frontend_communication_consultation.png)
+
+**Contenido y Gestión**
+
+Vista de Tips:
+
+![Software Deployment Evidence - Web Content Tips](assets/TP/frontend_content_tips.png)
+
+Vista de Notificaciones:
+
+![Software Deployment Evidence - Web Notifications](assets/TP/frontend_notifications.png)
+
+Vista de Suscripciones:
+
+![Software Deployment Evidence - Web Subscriptions](assets/TP/frontend_subscriptions.png)
+
+---
+
+**IoT Simulation and Device Deployment Evidence**
+
+Los dispositivos IoT no se despliegan como una aplicación web tradicional; sin embargo, durante el Sprint se prepararon evidencias de ejecución y simulación para validar su funcionamiento como parte del ecosistema distribuido de JameoFit. Estas evidencias permiten revisar la captura de datos, la comunicación mediante MQTT y la integración esperada con los servicios Backend.
+
+1. **Simulación de Botella Inteligente**
+
+Se preparó la simulación del flujo de hidratación para validar la lectura de consumo de agua y el envío de datos hacia el tópico MQTT correspondiente.
+
+![Software Deployment Evidence - Smart Bottle Simulation](assets/TP/wokwi_botella.png)
+
+**URL de simulación Botella Inteligente:** https://wokwi.com/projects/463883642035947521
+
+2. **Simulación de Balanza Inteligente**
+
+Se preparó la simulación de la balanza para validar la lectura de peso, tara y envío de datos hacia el tópico MQTT correspondiente.
+
+![Software Deployment Evidence - Smart Scale Simulation](assets/TP/wokwi_balanza.png)
+
+**URL de simulación Balanza Inteligente:** https://wokwi.com/projects/463886427977308161
+
+#### 6.2.1.9. Team Collaboration Insights during Sprint
+
+En esta sección se analizan las evidencias de colaboración y coordinación del equipo durante el desarrollo del Sprint 1, considerando la participación de los integrantes en las actividades de implementación y control de versiones del proyecto. Para ello, se presentan métricas, capturas y analíticos obtenidos de GitHub, los cuales permiten visualizar la distribución del trabajo, el nivel de contribución de cada miembro y la interacción mantenida en el desarrollo del Landing Page, la aplicación web y los servicios Backend implementados durante el sprint.
+
+**Landing Page:**
+
+![Team Collaboration Insights](assets/TP/sprint1_landing_insights1.png)
+
+**Web Application:**
+
+![Team Collaboration Insights](assets/TP/sprint1_web_insights_1.png)
+
+
+#### 6.2.2. Sprint 2
+
+#### 6.2.2.1. Sprint Planning 2
+
+En este Sprint Planning, el equipo definió los objetivos, alcance y actividades correspondientes al Sprint 2, priorizando las historias de usuario relacionadas con el fin del desarrollo del Frontend(Web), asi como el Mobile y un avance importante del Backend y el servicio IoT. Se hizo de esta forma para cumplir con el propósito de construir una base funcional y escalable para el desarrollo del proyecto en los siguientes sprints.
+
+| **Sprint #**                       | Sprint 2                       |
+|------------------------------------|--------------------------------|
+| **Sprint Planning Background**     |                                |
+| Date                               | 2026-06-05                     |
+| Time                               | 12:00 AM                       |
+| Location                           | Servidor del equipo en Discord |
+| Prepared By                        | Galvez Chambi, Jhon            |
+| Attendees (to planning meeting)    | Bueno Perales, Mathias Eduardo / Geronimo Quispe, Pablo Antonio / Guzmán Chávez, Ramiro Alexander / Luquillas Asto, Omar / Paredes Santos, Fabrizio Alberto / Sandoval Paiva,Valentino |
+| Sprint 1 Review Summary            | Revisamos nuestras metas de negocio (business goals), validamos la duración del Sprint (4 semanas), evaluamos los riesgos y dimos feedback entre los miembros. Se aclararon las historias seleccionadas, y se discutieron posibles bloqueos o dependencias técnicas.     |
+| Sprint 1 Retrospective Summary     | **Start**: Mejorar la comunicación interna. <br>Planificar las tareas colectivas con anticipación. <br> **Stop**: Dejar de esperar el último momento para comenzar tareas. <br> **Continue**: Hacer preguntas al Product Owner. <br> Realizar reuniones cortas y frecuentes para alinear avances.     |
+| **Sprint Goal & User Stories**     |                                |
+| Sprint 2 Goal                      | Nuestro enfoque es culminar el desarrollo de la aplicacion frontend como mobile, asimismo tambien tener un avance considerable del backend y del servicio iot. Creemos que esto brindará a los usuarios y stakeholders una vision clara de la plataforma, permitiendo validar la propuesta de valor y las funcionalidades core del producto. Esto se confirmará cuando los usuarios puedan navegar correctamente por las vistas principales de la aplicación, interactuar con las funcionalidades esenciales implementadas y exista una comunicación funcional entre el Frontend y los servicios base del Backend. |
+| Sprint n Velocity                  | 103                             |
+| Sum of Story Points                | 103                             |
+
+
+
+#### 6.2.2.2. Aspect Leaders and Collaborators
+
+En esta sección se definen los líderes y colaboradores asignados a cada aspecto considerado dentro del alcance del Sprint. Esta organización permite distribuir responsabilidades de manera clara entre los miembros del equipo, facilitando la coordinación, comunicación y ejecución de las actividades relacionadas con el desarrollo del Landing Page, la aplicación web y los componentes base del Backend.
+
+| Team Member                           | Github Username       | Frontend Web    | Frontend Mobile   | Backend    | IoT Service |
+|---------------------------------------|-----------------------|-----------------|-------------|------------|---------------|
+| Bueno Perales, Mathias Eduardo        | MathiasBueno          | (C)             | (C)         | (C)        |(C)        |
+| Galvez Chambi, Jhon Alexander         | Chaomeum              | (C)             | (C)         | (L)        |(C)        |
+| Geronimo Quispe, Pablo Antonio        | Phatogram             | (C)             | (C)         | (C)        |(L)        |
+| Guzmán Chávez, Ramiro Alexander       | RamiroGuzmanCh        | (C)             | (L)         | (C)        |(C)        |
+| Luquillas Asto, Omar                  | OmarLLA               | (C)             | (C)         | (C)        |(C)        |
+| Paredes Santos, Fabrizio Alberto      | psfa29                | (C)             | (C)         | (L)        |(C)        |
+| Sandoval Paiva, Valentino             | ValentinoSandovalP    | (L)             | (C)         | (C)        |(C)        |
+
+
+#### 6.2.2.3. Sprint Backlog 2
+
+En esta sección se presenta el Sprint Backlog correspondiente al Sprint 2, el cual contiene las historias de usuario seleccionadas y las tareas definidas por el equipo para alcanzar el Sprint Goal establecido. Asimismo, se incluye el Board de trabajo utilizado para la gestión y seguimiento de las actividades del Sprint, permitiendo visualizar el estado de avance de cada tarea y la distribución del trabajo entre los integrantes del equipo durante el desarrollo de la aplicacion web, mobile, backend e IoT service.
+
+![Sprint Backlog 2](assets/TP/sprint_backlog2.png)
+
+Enlace público del Board en Trello: []()
+
+
+#### 6.2.2.4. Development Evidence for Sprint Review
+
+En esta sección se presentan las evidencias de desarrollo correspondientes al Sprint 2, mostrando los principales avances realizados en la implementación de los productos requeridos, la aplicación web, mobile y los servicios Backend. Asimismo, se incluyen los commits registrados en los repositorios del proyecto como evidencia del trabajo realizado y del progreso alcanzado por el equipo durante la iteración.
+
+
+**Web Application:** [https://github.com/G3-Soluciones-IOT/frontend](https://github.com/G3-Soluciones-IOT/frontend)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| frontend | develop | 8820043 | feat(useTips): implement custom hook for fetching and managing tips | - | 18/06/2026 |
+| frontend | develop | 38f74bb | "feat(dashboard): integrate dashboard data from db.json" | - | 19/06/2026 |
+
+**Config Service:** [https://github.com/G3-Soluciones-IOT/config-service](https://github.com/G3-Soluciones-IOT/config-service)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| config-service | main | cb5d025 | feat(cd): add continuous deployment workflow for GCP Artifact Registry | - | 20/06/2026 |
+| config-service | main | 84e25a2 | refactor(test): enhance identity verification step and clarify repository access | - | 20/06/2026 |
+| config-service | main | 623eb17 | feat(gcp): add workflow for Google Cloud authentication testing | - | 20/06/2026 |
+| config-service | main | e794bcc | feat(ci): add Docker build workflow for continuous integration | - | 20/06/2026 |
+| config-service | main | 86ca6d6 | refactor(gateway): update gateway configuration structure and improve route definitions | - | 20/06/2026 |
+| config-service | main | 2c0b97f | feat(routes): add RewritePath filters for service routes in gateway configuration | - | 20/06/2026 |
+| config-service | main | b52cedf | feat(config): add base URLs for profiles and recipes services in tracking configuration | - | 20/06/2026 |
+| config-service | main | d173dde | fix(config): correct indentation in MongoDB URI configuration | - | 20/06/2026 |
+| config-service | main | 7de4796 | fix(config): update MongoDB configuration to use URI format | - | 20/06/2026 |
+| config-service | main | a235103 | refactor(routes): rename chat and mealplan service routes to communication and meal-plans services | - | 19/06/2026 |
+| config-service | main | 95f2704 | fix(docker): update Dockerfile to copy JAR files directly and modify .dockerignore | - | 19/06/2026 |
+| config-service | main | 6171b88 | feat(config): add configuration files for communication and meal plans services | - | 19/06/2026 |
+| config-service | main | ad20d93 | chore(maven): update Maven wrapper to version 3.9.16 and add .gitattributes for line endings | - | 19/06/2026 |
+| config-service | main | b9cb180 | develop to main | - | 07/06/2026 |
+| config-service | main | 1431bfd | fix(pom.xml): correct indentation in POM file for schemaLocation | - | 07/06/2026 |
+| config-service | main | e56b31c | feat(iam-service): update JWT key paths and expiration configuration to use environment variables | - | 07/06/2026 |
+| config-service | main | 1341185 | fix(eureka-service): set prefer-ip-address to false | - | 07/06/2026 |
+| config-service | main | 4d50b6a | feat(config-service): add config-service as standalone repository | - | 07/06/2026 |
+
+**Eureka Service:** [https://github.com/G3-Soluciones-IOT/eureka-service](https://github.com/G3-Soluciones-IOT/eureka-service)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| eureka-service | main | c432902 | feat(eureka-service): add eureka-service as standalone repository | - | 07/06/2026 |
+
+**Gateway Service:** [https://github.com/G3-Soluciones-IOT/gateway-service](https://github.com/G3-Soluciones-IOT/gateway-service)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| gateway-service | main | c3d3e13 | feat(ci): add Docker build workflow for continuous integration | - | 20/06/2026 |
+| gateway-service | main | 1ce40d0 | ci: update .gitattributes for consistent LF line endings and ensure Maven wrapper files are shell-safe | - | 19/06/2026 |
+| gateway-service | main | 0e6dd71 | ci(wrapper): escape url and enforce LF line endings for GitHub CI | - | 19/06/2026 |
+| gateway-service | main | b06049f | chore: update Maven Wrapper to 3.9.16 | - | 19/06/2026 |
+| gateway-service | main | f28b436 | feat(gateway-service): add gateway-service as standalone repository | - | 07/06/2026 |
+
+**IAM Service:** [https://github.com/G3-Soluciones-IOT/iam-service](https://github.com/G3-Soluciones-IOT/iam-service)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| iam-service | main | 7f8abfd | feat(ci): add Docker build workflow for continuous integration | - | 20/06/2026 |
+| iam-service | main | 87fba50 | chore: streamline CI configuration by using shared workflow for Java CI | - | 19/06/2026 |
+| iam-service | main | 8450c8f | refactor: simplify DaoAuthenticationProvider initialization | - | 19/06/2026 |
+| iam-service | main | fa94eaa | chore: update pom.xml for Spring Boot 4.0.7, dependency management, and build plugins | - | 19/06/2026 |
+| iam-service | main | 3191cb0 | chore: update Maven wrapper to version 3.9.16 and add .gitattributes for consistent line endings | - | 19/06/2026 |
+| iam-service | main | 8736f6c | feat(iam): adding passwordEncoder and Jwks | - | 08/06/2026 |
+| iam-service | main | c4705d1 | feat(iam-service): add iam-service as standalone repository | - | 07/06/2026 |
+
+**Profiles Service:** [https://github.com/G3-Soluciones-IOT/profiles-service](https://github.com/G3-Soluciones-IOT/profiles-service)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| profiles-service | main | 6e9df85 | feat(ci): add Docker build workflow for continuous integration | - | 20/06/2026 |
+| profiles-service | main | 6abd341 | chore: add load-balanced RestClient configuration and update service constructors | - | 20/06/2026 |
+| profiles-service | main | f13b2f6 | chore: add pluralization utility and implement custom naming strategy for JPA | - | 20/06/2026 |
+| profiles-service | main | 633507d | chore: refactor package structure for profiles-service | - | 20/06/2026 |
+| profiles-service | main | 8c94cb1 | chore: update CI configuration and dependencies for profiles-service | - | 20/06/2026 |
+| profiles-service | main | eeae133 | chore: update server port to 8086 in application.properties and Dockerfile | - | 20/06/2026 |
+| profiles-service | main | 8a896f8 | chore: update Maven wrapper to version 3.9.16 and add .gitattributes | - | 20/06/2026 |
+| profiles-service | main | 946f752 | feat: profiles-service added | - | 17/06/2026 |
+
+**Goals Service:** [https://github.com/G3-Soluciones-IOT/goals-service](https://github.com/G3-Soluciones-IOT/goals-service)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| goals-service | main | 0791f21 | feat(ci): add Docker build workflow for continuous integration | - | 20/06/2026 |
+| goals-service | main | bce4a0c | chore: update groupId and add pluralization dependency in pom.xml | - | 20/06/2026 |
+| goals-service | main | a2e9cf7 | chore: refactor package structure for goals service | - | 20/06/2026 |
+| goals-service | main | a76c966 | chore: update dependencies and plugins in pom.xml for Spring Boot 4 compatibility | - | 20/06/2026 |
+| goals-service | main | 10503cf | chore: refactor CI configuration to use shared workflow for Java CI | - | 20/06/2026 |
+| goals-service | main | edcd711 | chore: update Maven wrapper to version 3.9.16 and add .gitattributes | - | 19/06/2026 |
+| goals-service | main | 975a8af | feat: goals service added | - | 17/06/2026 |
+
+**Meal Plans Service:** [https://github.com/G3-Soluciones-IOT/meal-plans-service](https://github.com/G3-Soluciones-IOT/meal-plans-service)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| meal-plans-service | main | 13780cd | feat(ci): add Docker build workflow for continuous integration | - | 20/06/2026 |
+| meal-plans-service | main | 421020a | feat: add load-balanced RestClient configuration for external services | - | 20/06/2026 |
+| meal-plans-service | main | 8e26ac9 | feat: add pluralization strategy for table naming in JPA | - | 20/06/2026 |
+| meal-plans-service | main | da8a322 | chore: remove unused imports and update groupId in pom.xml | - | 20/06/2026 |
+| meal-plans-service | main | 12228de | chore: refactor package structure for meal plans service | - | 20/06/2026 |
+| meal-plans-service | main | 17bfd7c | feat: update CI configuration and dependencies for meal-plans-service | - | 20/06/2026 |
+| meal-plans-service | main | f3d8fce | feat: add Maven Wrapper for project setup | - | 20/06/2026 |
+| meal-plans-service | main | 1fc4c8f | feat: meal-plans-service added | - | 17/06/2026 |
+
+**Recipes Service:** [https://github.com/G3-Soluciones-IOT/recipes-service](https://github.com/G3-Soluciones-IOT/recipes-service)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| recipes-service | main | 39bda8e | feat(ci): add Docker build workflow for continuous integration | - | 20/06/2026 |
+| recipes-service | main | 713b15a | chore: update ExternalProfileAndTrackingService to use load-balanced RestClient | - | 20/06/2026 |
+| recipes-service | main | b053044 | chore: refactor package structure for recipes service | - | 20/06/2026 |
+| recipes-service | main | a79ea31 | chore: update CI configuration and dependencies in pom.xml for improved build process | - | 20/06/2026 |
+| recipes-service | main | 3c961cb | chore: update server port to 8087 in application.properties and Dockerfile | - | 20/06/2026 |
+| recipes-service | main | 7209a8f | chore: update Maven wrapper to version 3.9.16 and add .gitattributes | - | 20/06/2026 |
+| recipes-service | main | 6ee45b4 | feat: recipes-service added | - | 17/06/2026 |
+| recipes-service | main | 39a3afe | Initial commit | - | 17/06/2026 |
+
+**Tracking Service:** [https://github.com/G3-Soluciones-IOT/tracking-service](https://github.com/G3-Soluciones-IOT/tracking-service)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| tracking-service | main | 18fd47c | feat(ci): add Docker build workflow for continuous integration | - | 20/06/2026 |
+| tracking-service | main | 6e75c5b | feat: implement load-balanced RestClient configuration for external services | - | 20/06/2026 |
+| tracking-service | main | 399f17a | feat: add pluralization strategy for table naming in JPA | - | 20/06/2026 |
+| tracking-service | main | d295741 | fix: change main application location for tracking service | - | 20/06/2026 |
+| tracking-service | main | f05d883 | chore: refactor package structure for tracking service | - | 20/06/2026 |
+| tracking-service | main | b0423ee | chore: update CI configuration and dependencies for Spring Boot 4.0.7 | - | 20/06/2026 |
+| tracking-service | main | f2e27ad | chore: update server port to 8089 in application.properties and Dockerfile | - | 20/06/2026 |
+| tracking-service | main | 50c52f0 | chore: update Maven wrapper to version 3.9.16 and add .gitattributes | - | 20/06/2026 |
+| tracking-service | main | f50e79f | feat: tracking service added | - | 17/06/2026 |
+
+**Communication Service:** [https://github.com/G3-Soluciones-IOT/communication-service](https://github.com/G3-Soluciones-IOT/communication-service)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| communication-service | main | 81b298f | feat(ci): add Docker build workflow for continuous integration | - | 20/06/2026 |
+| communication-service | main | fb8f71f | feat(ci): add CI configuration for Java workflow | - | 20/06/2026 |
+| communication-service | main | 8fa2d13 | feat(communication-service): add communication-service as standalone repository | - | 20/06/2026 |
+
+#### 6.2.2.5. Testing Suite Evidence for Sprint Review
+
+Durante este sprint se implementó la estructura inicial de la suite de pruebas automatizadas utilizando el enfoque Behavior-Driven Development (BDD) y el lenguaje Gherkin para la definición de escenarios funcionales. Los archivos .feature elaborados corresponden a las historias de usuario priorizadas dentro del Sprint Backlog, permitiendo validar el comportamiento esperado de las funcionalidades principales desarrolladas durante esta iteración.
+
+Las pruebas fueron organizadas bajo la estructura Given–When–Then, considerando escenarios relacionados con la navegación del Landing Page, la interacción con las vistas principales de la aplicación web y la comunicación inicial entre el Frontend y los servicios base del Backend. Asimismo, se preparó la configuración inicial del entorno de testing y el repositorio destinado al versionamiento de los artefactos de prueba.
+
+Esta suite de pruebas permite mantener la trazabilidad entre las historias de usuario y sus criterios de aceptación, facilitar futuras automatizaciones de pruebas y proporcionar evidencia clara y verificable del avance funcional alcanzado durante el Sprint 1.
+
+![Testing Suite Evidence](assets/TP/testing_suite.png)
+
+**Testing:** [https://github.com/G3-Soluciones-IOT/testing](https://github.com/G3-Soluciones-IOT/testing)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Committed on (Date)** |
+|----------------|------------|----------------|----------------------|---------------------------|--------------------------|
+| Testing | main | d7a7a65 | test(bdd): implement shared cucumber world and step definitions | - | 15/05/2026 |
+| Testing | main | 3c89b91 | test(bdd): add iot ai and landing page features | - | 15/05/2026 |
+| Testing | main | 05ec68e | test(bdd): add tracking professional and subscription features | - | 15/05/2026 |
+| Testing | main | 101a7c5 | test(bdd): add account profile and plan features | - | 15/05/2026 |
+
+
+#### 6.2.2.6. Execution Evidence for Sprint Review
+
+En esta sección se presentan las evidencias de ejecución correspondientes al Sprint 2, mostrando las principales funcionalidades y vistas implementadas para la aplicación web y mobile. Asimismo, se incluyen capturas de pantalla y material audiovisual que evidencian la navegación, interacción y funcionamiento general de los componentes desarrollados durante el sprint, permitiendo validar el cumplimiento de los objetivos establecidos para esta iteración.
+
+
+**Landing Page:**
+
+Sección Principal:
+
+![Execution Evidence](assets/TP/landing_execution_evidence1.png)
+
+Sección de Beneficios:
+
+![Execution Evidence](assets/TP/landing_execution_evidence2.png)
+
+Sección de Testimonios:
+
+![Execution Evidence](assets/TP/landing_execution_evidence3.png)
+
+Sección de Cómo Funciona:
+
+![Execution Evidence](assets/TP/landing_execution_evidence4.png)
+
+Secciones de CTA y Footer:
+
+![Execution Evidence](assets/TP/landing_execution_evidence5.png)
+
+**Demo Landing Page:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323270_upc_edu_pe/IQAAZpVUQfGHRJOSBooLgxm-AbhEkQ5rQzLaoCchwTCH0uY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Ee4kgX
+
+---
+
+**Web Application:**
+
+Vista de Registro:
+![Execution Evidence](assets/TB2/RE1.png)
+![Execution Evidence](assets/TB2/RE2.png)
+
+Vista de Inicio de Sesion:
+![Execution Evidence](assets/TP/frontend_login.png)
+
+Vista de Dashboard:
+![Execution Evidence](assets/TB2/DASH1.jpeg)
+![Execution Evidence](assets/TB2/DASH2.jpeg)
+
+Vistas de Perfil:
+![Execution Evidence](assets/TP/frontend_profile_info.png)
+![Execution Evidence](assets/TP/frontend_profile_settings.png)
+
+Vistas de Pacientes:
+![Execution Evidence](assets/TB2/PA1.png)
+![Execution Evidence](assets/TP/frontend_patients_detail.png)
+![Execution Evidence](assets/TB2/PA2.png)
+![Execution Evidence](assets/TB2/PA3.png)
+![Execution Evidence](assets/TB2/PA4.png)
+
+Vistas de aceptación de Pacientes:
+
+![Execution Evidence](assets/TB2/PA6.png)
+![Execution Evidence](assets/TB2/PA5.png)
+
+Vistas de Comunicacion:
+![Execution Evidence](assets/TP/frontend_communication_chat.png)
+![Execution Evidence](assets/TP/frontend_communication_consultation.png)
+
+Vista de Tips:
+![Execution Evidence](assets/TP/frontend_content_tips.png)
+
+Vista de Notificaciones:
+![Execution Evidence](assets/TP/frontend_notifications.png)
+
+Vista de Suscripciones:
+![Execution Evidence](assets/TP/frontend_subscriptions.png)
+
+---
+
+**Mobile Application:**
+
+Vista de Smart Tracking IoT:
+![Execution Evidence](assets/TB2/SmartTracking.png)
+
+Vista de Historial IoT:
+![Execution Evidence](assets/TB2/HistorialIoT.png)
+
+Vista de Vincular Dispositivo IoT:
+![Execution Evidence](assets/TB2/VincularDispositivo.png)
+
+Vista de JaimitoFit IA:
+![Execution Evidence](assets/TB2/JaimitoFit.png)
+
+
+**Demo Web Application:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323270_upc_edu_pe/IQBkdUMDlBydSIw_rbnxEvXLAahQB6s2f2-dKfqVJFoUD0g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=uS2o8r
+
+
+
+#### 6.2.2.7. Services Documentation Evidence for Sprint Review
+
+En esta sección se presentan las evidencias de documentación de los servicios web desarrollados durante el Sprint 2, incluyendo la definición y documentación de los principales endpoints implementados para el sistema. Asimismo, se muestran las especificaciones elaboradas mediante OpenAPI, las acciones soportadas por cada servicio y ejemplos de interacción con los endpoints, permitiendo evidenciar el correcto diseño y documentación de la comunicación entre el Frontend y Backend del proyecto.
+
+**Meal Plan**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /meal-plan | Obtener todos los meal plans | GET | `/api/v1/meal-plan` | Ninguno | `{ "id": 0, "name": "string", "description": "string", "calories": 0.1, "carbs": 0.1, "proteins": 0.1, "fats": 0.1, "profileId": 0, "category": "string", "isCurrent": true, "entries": [{ "id": 0, "recipeId": 0, "mealPlanType": "string", "mealPlanId": 0 }], "tags": ["string"] }` | (URL Swagger/doc) |
+| /meal-plan | Crear un nuevo meal plan | POST | `/api/v1/meal-plan` | name, description, calories, carbs, proteins, fats, profileId, category, isCurrent, entries, tags | Igual que el response de GET | (URL Swagger/doc) |
+| /meal-plan/{id} | Obtener un meal plan por ID | GET | `/api/v1/meal-plan/{mealPlanId}` | mealPlanId (path) | Igual que el response de GET | (URL Swagger/doc) |
+| /meal-plan/{id} | Actualizar un meal plan por ID | PUT | `/api/v1/meal-plan/{mealPlanId}` | Todos los campos del objeto meal plan | Igual que el response de GET | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence1.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence2.png)
+
+**User Profiles**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /api/v1/user-profiles | Obtener todos los perfiles de usuario | GET | `/api/v1/user-profiles` | Ninguno | `{ "gender":"string", "height":0.1, "weight":0.1, "userScore":0, "activityLevelId":0, "objectiveId":0, "allergyIds":[0] }` | (URL Swagger/doc) |
+| /api/v1/user-profiles | Crear un nuevo perfil de usuario | POST | `/api/v1/user-profiles` | gender, height, weight, userScore, activityLevelId, objectiveId, allergyIds | Igual que el response de GET | (URL Swagger/doc) |
+| /api/v1/user-profiles/{id} | Obtener un perfil de usuario por ID | GET | `/api/v1/user-profiles/{id}` | id (path) | Igual que el response de GET | (URL Swagger/doc) |
+| /api/v1/user-profiles/{id} | Actualizar un perfil de usuario por ID | PUT | `/api/v1/user-profiles/{id}` | id, gender, height, weight, userScore, activityLevelId, objectiveId, allergyIds | Igual que el response de GET | (URL Swagger/doc) |
+| /api/v1/user-profiles/{id} | Eliminar un perfil de usuario por ID | DELETE | `/api/v1/user-profiles/{id}` | id (path) | `204 No Content` | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence3.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence4.png)
+
+**Objectives**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /api/v1/objectives | Obtener todos los objetivos | GET | `/api/v1/objectives` | Ninguno | `{ "id":0, "objectiveName":"string", "score":0, "description":"string" }` | (URL Swagger/doc) |
+| /api/v1/objectives | Crear un nuevo objetivo | POST | `/api/v1/objectives` | id, objectiveName, score, description | Igual que el response de GET | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence5.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence6.png)
+
+**Allergies**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /api/v1/allergies | Obtener todas las alergias | GET | `/api/v1/allergies` | Ninguno | `{ "id": 0, "name": "string", "relatedIngredients": [{ "name": "string" }] }` | (URL Swagger/doc) |
+| /api/v1/allergies | Crear una nueva alergia | POST | `/api/v1/allergies` | id, name, relatedIngredients | Igual que el response de GET | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence7.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence8.png)
+
+**Activity levels**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /api/v1/activity-levels | Obtener todos los niveles | GET | `/api/v1/activity-levels` | Ninguno | `{ "createdAt": "2025-06-23T22:41:41.417Z", "updatedAt": "2025-06-23T22:41:41.417Z", "id": 0, "name": "string", "description": "string", "activityFactor": 0.1 }` | (URL Swagger/doc) |
+| /api/v1/activity-levels | Crear un nuevo nivel de actividad | POST | `/api/v1/activity-levels` | createdAt, updatedAt, id, name, description, activityFactor | Igual que el response de GET | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence9.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence10.png)
+
+**Favorite Recipes**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /api/v1/favorite-recipes | Crear una receta favorita | POST | `/api/v1/favorite-recipes` | userId, recipeId | `{ "userId": 0, "recipeId": 0 }` | (URL Swagger/doc) |
+| /api/v1/favorite-recipes/{userId} | Obtener recetas favoritas por usuario | GET | `/api/v1/favorite-recipes/{userId}` | userId (path) | `[ { "id": 0, "userId": 0, "recipeId": 0, "recipeName": "string" } ]` | (URL Swagger/doc) |
+| /api/v1/favorite-recipes/{userId}/{recipeId} | Eliminar una receta favorita | DELETE | `/api/v1/favorite-recipes/{userId}/{recipeId}` | userId, recipeId | `204 No Content` | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence11.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence12.png)
+
+**Recipes & Related**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /api/v1/recipes | Crear una nueva receta | POST | `/api/v1/recipes` | name, description, preparationTime, difficulty, categoryId, recipeTypeId, userId | `{ "name": "string", ... }` | (URL Swagger/doc) |
+| /api/v1/recipes/{recipeId} | Obtener receta por ID | GET | `/api/v1/recipes/{recipeId}` | recipeId (path) | `{ "id": 0, "userId": 0, "name": "string", "description": "string", ... }` | (URL Swagger/doc) |
+| /api/v1/recipes/{recipeId}/ingredients/{ingredientId} | Añadir ingrediente a una receta | POST | `/api/v1/recipes/{recipeId}/ingredients/{ingredientId}` | recipeId, ingredientId | `204 No Content` | (URL Swagger/doc) |
+| /api/v1/ingredients | Crear un nuevo ingrediente | POST | `/api/v1/ingredients` | name, calories, carbohydrates, proteins, fats, macronutrientValuesId | `{ "name": "string", ... }` | (URL Swagger/doc) |
+| /api/v1/ingredients/{ingredientId} | Eliminar un ingrediente | DELETE | `/api/v1/ingredients/{ingredientId}` | ingredientId (path) | `204 No Content` | (URL Swagger/doc) |
+| /api/v1/categories | Crear una nueva categoría | POST | `/api/v1/categories` | name | `{ "name": "string" }` | (URL Swagger/doc) |
+| /api/v1/categories/{categoryId} | Obtener categoría por ID | GET | `/api/v1/categories/{categoryId}` | categoryId (path) | `{ "id": 0, "name": "string" }` | (URL Swagger/doc) |
+| /api/v1/recipe-types | Crear un nuevo tipo de receta | POST | `/api/v1/recipe-types` | name | `{ "name": "string" }` | (URL Swagger/doc) |
+| /api/v1/recipe-types/{recipeTypeId} | Obtener tipo de receta por ID | GET | `/api/v1/recipe-types/{recipeTypeId}` | recipeTypeId (path) | `{ "id": 0, "name": "string" }` | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence13.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence14.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence15.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence16.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence17.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence18.png)
+
+**Tracking & Goals**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /api/v1/tracking | Crear un nuevo tracking | POST | `/api/v1/tracking` | Body con datos de tracking | `{ "id": 0, "userId": 0, "startDate": "2025-06-23", "endDate": "2025-06-30" }` | (URL Swagger/doc) |
+| /api/v1/tracking/user/{userId} | Obtener tracking por ID de usuario | GET | `/api/v1/tracking/user/{userId}` | userId (path) | `{ "id": 0, "userId": 1, "startDate": "2025-06-23", "endDate": "2025-06-30" }` | (URL Swagger/doc) |
+| /api/v1/tracking/macronutrients/consumed/tracking/{trackingId} | Obtener macros consumidos por tracking | GET | `/api/v1/tracking/macronutrients/consumed/tracking/{trackingId}` | trackingId (path) | `{ "calories": 1200.0, "carbs": 150.0, "proteins": 80.0, "fats": 50.0 }` | (URL Swagger/doc) |
+| /api/v1/macronutrients/consumed/tracking/{trackingId} | Obtener valores de macronutrientes consumidos | GET | `/api/v1/macronutrients/consumed/tracking/{trackingId}` | trackingId (path) | Igual que el response anterior | (URL Swagger/doc) |
+| /api/v1/tracking-goals | Crear un nuevo Tracking Goal | POST | `/api/v1/tracking-goals` | Body con objetivos | `{ "id": 1, "userId": 1, "targetCalories": 2000.0, "targetCarbs": 250.0, "targetProteins": 100.0, "targetFats": 70.0 }` | (URL Swagger/doc) |
+| /api/v1/tracking-goals/{trackingGoalId}/target-macros | Obtener macros objetivos por ID de Tracking Goal | GET | `/api/v1/tracking-goals/{trackingGoalId}/target-macros` | trackingGoalId (path) | `{ "targetCalories": 2000.0, "targetCarbs": 250.0, "targetProteins": 100.0, "targetFats": 70.0 }` | (URL Swagger/doc) |
+| /api/v1/tracking-goals/user/{userId} | Obtener Tracking Goal por usuario | GET | `/api/v1/tracking-goals/user/{userId}` | userId (path) | Igual que el response de POST de tracking-goals | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence19.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence20.png)
+
+**Meal Plan Entries**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /api/v1/meal-plan-entries/{mealPlanEntryId} | Actualizar una entrada de meal plan | PUT | `/api/v1/meal-plan-entries/{mealPlanEntryId}` | mealPlanEntryId (path), body con datos a actualizar | `{ "id":1, "recipeId":10, "mealPlanType":"LUNCH", "mealPlanId":3 }` | (URL Swagger/doc) |
+| /api/v1/meal-plan-entries/tracking/{trackingId} | Añadir una nueva entrada de meal plan al tracking | POST | `/api/v1/meal-plan-entries/tracking/{trackingId}` | trackingId (path), body con recipeId, mealPlanType | `{ "id":1, "recipeId":10, "mealPlanType":"LUNCH", "mealPlanId":3 }` | (URL Swagger/doc) |
+| /api/v1/meal-plan-entries/tracking/{trackingId} | Obtener todas las entradas de meal plan por tracking | GET | `/api/v1/meal-plan-entries/tracking/{trackingId}` | trackingId (path) | `[ { "id":1, "recipeId":10, "mealPlanType":"BREAKFAST", "mealPlanId":3 }, ... ]` | (URL Swagger/doc) |
+| /api/v1/meal-plan-entries/tracking/{trackingId}/entry/{mealPlanEntryId} | Eliminar una entrada específica del meal plan | DELETE | `/api/v1/meal-plan-entries/tracking/{trackingId}/entry/{mealPlanEntryId}` | trackingId, mealPlanEntryId (path) | `204 No Content` | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence21.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence22.png)
+
+**Recommendation templates**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /api/v1/recommendation-templates | Obtener todos los templates | GET | `/api/v1/recommendation-templates` | Ninguno | `[ { "id":1, "title":"Plan nutricional para masa muscular", "content":"Incluye proteína magra, carbos complejos y grasas buenas", "recommendations":[] } ]` | (URL Swagger/doc) |
+| /api/v1/recommendation-templates | Crear un nuevo template | POST | `/api/v1/recommendation-templates` | title, content | `{ "id":2, "title":"Plan post-entreno", "content":"Incluye batidos con whey protein, avena y banana", "recommendations":[] }` | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence23.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence24.png)
+
+**Recommendations**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /api/v1/recommendations/user/{userId} | Obtener recomendaciones por usuario | GET | `/api/v1/recommendations/user/{userId}` | userId (path) | `[ { "id":5, "userId":{"value":1}, "templateId":2, "reason":"Fase de volumen", "notes":"Comidas densas en calorías", "timeOfDay":"MORNING", "score":9.1, "status":"ACTIVE", "assignedAt":"2025-06-23T04:49:59.728Z" } ]` | (URL Swagger/doc) |
+| /api/v1/recommendations | Asignar una recomendación a un usuario | POST | `/api/v1/recommendations` | userId, templateId, reason, notes, timeOfDay, score, status | `{ "id":6, "userId":{"value":2}, "templateId":3, "reason":"Recuperación post-lesión", "notes":"Alta proteína, omega 3 y antioxidantes", "timeOfDay":"EVENING", "score":8.3, "status":"ACTIVE", "assignedAt":"2025-06-23T04:49:59.728Z" }` | (URL Swagger/doc) |
+| /api/v1/recommendations/{id} | Actualizar una recomendación | PUT | `/api/v1/recommendations/{id}` | id, reason, notes, timeOfDay, score, status | `{ "id":6, "userId":{"value":2}, "templateId":3, "reason":"Actualización: aumento de actividad", "notes":"Agregar snack con frutos secos", "timeOfDay":"AFTERNOON", "score":9.0, "status":"ACTIVE", "assignedAt":"2025-06-23T04:49:59.728Z" }` | (URL Swagger/doc) |
+| /api/v1/recommendations/{id} | Eliminar una recomendación | DELETE | `/api/v1/recommendations/{id}` | id (path) | `204 No Content` | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence25.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence26.png)
+
+#### 6.2.2.8. Software Deployment Evidence for Sprint Review
+
+Durante el presente Sprint se avanzó en la configuración de la plataforma de despliegue del backend de **JameoFit** sobre **Google Cloud Platform (GCP)**. El objetivo principal fue preparar una infraestructura cloud mínima, segura y reproducible para soportar el despliegue progresivo de los microservicios del sistema, partiendo de una arquitectura previamente validada en entorno local con Docker Compose.
+
+El trabajo realizado incluyó la configuración del proyecto cloud, habilitación de APIs, creación del repositorio de imágenes Docker, configuración de autenticación federada entre GitHub Actions y GCP, publicación de imágenes en Artifact Registry, aprovisionamiento de red privada, creación de una base de datos administrada en Cloud SQL, gestión de secretos mediante Secret Manager y preparación de una máquina virtual privada en Compute Engine para ejecutar la plataforma mediante Docker Compose.
+
+A diferencia de un despliegue directo con credenciales estáticas, la estrategia adoptada prioriza buenas prácticas de seguridad y trazabilidad, evitando el uso de archivos JSON de Service Account y utilizando **Workload Identity Federation** para permitir que GitHub Actions se autentique contra GCP sin almacenar claves sensibles en los repositorios.
+
+---
+
+### **1. Configuración inicial del proyecto en Google Cloud Platform**
+
+Se creó y configuró el proyecto cloud **jameofit** como entorno principal de despliegue para el backend. Este proyecto funciona como el contenedor lógico de los recursos de infraestructura, IAM, networking, base de datos, almacenamiento de imágenes y secretos.
+
+La configuración base del proyecto quedó establecida con los siguientes valores:
+
+```text
+PROJECT_ID=jameofit
+PROJECT_NUMBER=809847807436
+REGION=southamerica-west1
+ZONE=southamerica-west1-a
+```
+
+La región seleccionada fue **southamerica-west1**, correspondiente a Santiago, con el propósito de mantener los recursos cloud más cercanos geográficamente al equipo y reducir latencia frente a alternativas ubicadas en Norteamérica.
+
+Asimismo, se habilitaron las APIs necesarias para soportar el flujo de deployment y operación de la plataforma:
+
+```text
+artifactregistry.googleapis.com
+iam.googleapis.com
+iamcredentials.googleapis.com
+sts.googleapis.com
+cloudresourcemanager.googleapis.com
+serviceusage.googleapis.com
+compute.googleapis.com
+secretmanager.googleapis.com
+sqladmin.googleapis.com
+logging.googleapis.com
+monitoring.googleapis.com
+servicenetworking.googleapis.com
+```
+
+Estas APIs permiten trabajar con Artifact Registry, IAM, Workload Identity Federation, Compute Engine, Secret Manager, Cloud SQL, monitoreo, logging y conectividad privada entre servicios.
+
+<div align="center">
+  <img src="assets/TB2/gcp_project_apis_enabled.png" alt="GCP APIs Enabled" width="75%">
+  <p><em>Habilitación de APIs necesarias para la plataforma backend de JameoFit en GCP</em></p>
+</div>
+
+---
+
+### **2. Creación de Artifact Registry para imágenes Docker**
+
+Se creó un repositorio Docker privado en **Google Artifact Registry**. Este repositorio se utiliza como destino oficial de las imágenes Docker generadas por los pipelines de GitHub Actions.
+
+La configuración del repositorio fue la siguiente:
+
+```text
+Repository: jameofit-docker
+Format: Docker
+Location: southamerica-west1
+Mode: Standard Repository
+Project: jameofit
+```
+
+El repositorio fue creado mediante el siguiente comando:
+
+```bash
+gcloud artifacts repositories create jameofit-docker \
+  --repository-format=docker \
+  --location=southamerica-west1 \
+  --description="Docker images for JameoFit backend services"
+```
+
+Con ello, las imágenes de los microservicios siguen el siguiente formato:
+
+```text
+southamerica-west1-docker.pkg.dev/jameofit/jameofit-docker/<service-name>:<tag>
+```
+
+<div align="center">
+  <img src="assets/TB2/gcp_artifact_registry_jameofit.png" alt="GCP Artifact Registry JameoFit" width="75%">
+  <p><em>Repositorio Docker jameofit-docker creado en Google Artifact Registry</em></p>
+</div>
+
+---
+
+### **3. Configuración de GitHub Actions con Workload Identity Federation**
+
+Para automatizar la publicación de imágenes Docker sin usar claves estáticas, se configuró **Workload Identity Federation** entre GitHub Actions y Google Cloud Platform.
+
+Se creó la Service Account:
+
+```text
+gha-artifact-writer@jameofit.iam.gserviceaccount.com
+```
+
+Esta cuenta recibió permisos limitados de escritura únicamente sobre el repositorio Docker `jameofit-docker` mediante el rol:
+
+```text
+roles/artifactregistry.writer
+```
+
+También se creó un Workload Identity Pool y un Provider OIDC para GitHub Actions:
+
+```text
+Workload Identity Pool: github-pool
+Provider: github-provider
+Issuer URI: https://token.actions.githubusercontent.com
+Repository owner allowed: G3-Soluciones-IOT
+```
+
+La configuración restringe la autenticación únicamente a workflows ejecutados desde repositorios pertenecientes a la organización:
+
+```text
+G3-Soluciones-IOT
+```
+
+El valor final utilizado por GitHub Actions fue:
+
+```text
+workload_identity_provider=projects/809847807436/locations/global/workloadIdentityPools/github-pool/providers/github-provider
+service_account=gha-artifact-writer@jameofit.iam.gserviceaccount.com
+```
+
+Se validó correctamente que GitHub Actions pueda autenticarse contra GCP como la Service Account configurada, sin utilizar archivos JSON de credenciales.
+
+<div align="center">
+  <img src="assets/TB2/github_actions_gcp_wif_auth.png" alt="GitHub Actions GCP Workload Identity Federation" width="75%">
+  <p><em>Validación de autenticación desde GitHub Actions hacia GCP mediante Workload Identity Federation</em></p>
+</div>
+
+---
+
+### **4. Automatización del build y push de imágenes Docker**
+
+El flujo de CI/CD fue organizado mediante workflows reutilizables en el repositorio:
+
+```text
+G3-Soluciones-IOT/shared-workflows
+```
+
+Se trabajó con los siguientes workflows base:
+
+```text
+java-ci.yml
+docker-build.yml
+gcp-artifact-registry-push.yml
+```
+
+El flujo de deployment fue ajustado para evitar depender de artefactos generados por otros workflows. Inicialmente, el workflow de CD intentaba construir imágenes Docker esperando que existiera un archivo `.jar` dentro de `target/`, pero se identificó que cada workflow de GitHub Actions se ejecuta en un runner limpio. Por ello, se adoptó un enfoque de **Dockerfile multi-stage**, en el cual cada imagen Docker compila internamente el servicio y genera su propio artefacto.
+
+El patrón aplicado permite que cada microservicio sea autosuficiente durante el build de imagen:
+
+```dockerfile
+FROM eclipse-temurin:25-jdk AS build
+WORKDIR /workspace
+
+COPY .mvn .mvn
+COPY mvnw pom.xml ./
+RUN chmod +x mvnw && ./mvnw -B -ntp dependency:go-offline
+
+COPY src src
+RUN ./mvnw -B -ntp package -DskipTests
+
+FROM eclipse-temurin:25-jre
+WORKDIR /app
+
+COPY --from=build /workspace/target/*.jar /app/app.jar
+
+ENTRYPOINT ["java", "-jar", "/app/app.jar"]
+```
+
+El flujo resultante para cada microservicio quedó organizado de la siguiente manera:
+
+```text
+Pull Request hacia main:
+  - java-ci
+  - docker-build validation
+
+Push a main:
+  - java-ci
+  - docker build multi-stage
+  - push a Artifact Registry
+```
+
+Cada imagen publicada utiliza tags trazables:
+
+```text
+sha-<short-commit-sha>
+main-latest
+```
+
+Ejemplo de imagen publicada:
+
+```text
+southamerica-west1-docker.pkg.dev/jameofit/jameofit-docker/config-service:main-latest
+southamerica-west1-docker.pkg.dev/jameofit/jameofit-docker/config-service:sha-xxxxxxx
+```
+
+Este enfoque permite reproducibilidad, trazabilidad y rollback más seguro en futuras fases de deployment.
+
+---
+
+### **5. Configuración de red privada para el backend**
+
+Se creó una red privada dedicada para la plataforma backend de JameoFit:
+
+```text
+VPC: jameofit-vpc
+Subnet: jameofit-subnet-saw1
+Subnet range: 10.10.0.0/24
+Region: southamerica-west1
+```
+
+La VPC fue configurada en modo custom para tener control explícito sobre las subredes y rangos utilizados.
+
+```bash
+gcloud compute networks create jameofit-vpc \
+  --subnet-mode=custom \
+  --description="JameoFit VPC for GCP backend platform"
+```
+
+Posteriormente, se creó la subred regional:
+
+```bash
+gcloud compute networks subnets create jameofit-subnet-saw1 \
+  --network=jameofit-vpc \
+  --region=southamerica-west1 \
+  --range=10.10.0.0/24 \
+  --description="JameoFit subnet for backend VM and internal connectivity"
+```
+
+Esta red será utilizada por la máquina virtual de backend y por la conectividad privada hacia Cloud SQL.
+
+<div align="center">
+  <img src="assets/TB2/gcp_vpc_subnet_jameofit.png" alt="GCP VPC and Subnet JameoFit" width="75%">
+  <p><em>VPC y subnet privadas creadas para la plataforma backend de JameoFit</em></p>
+</div>
+
+---
+
+### **6. Configuración de Cloud SQL para PostgreSQL**
+
+Para el entorno GCP se decidió utilizar **Cloud SQL for PostgreSQL** en lugar de ejecutar PostgreSQL dentro de un contenedor. De esta forma, PostgreSQL en contenedor queda reservado para el entorno local, mientras que la nube utiliza una base de datos administrada.
+
+La instancia creada fue:
+
+```text
+Instance: jameofit-postgres-dev
+Database engine: PostgreSQL 16
+Edition: Enterprise
+Tier: db-f1-micro
+Region: southamerica-west1
+Availability: Zonal
+Private IP: 10.20.0.3
+Public IP: disabled
+Database: jameofit_iam
+User: jameofit_app
+```
+
+Durante la creación de la instancia se configuró el acceso mediante **Private IP**, evitando exposición pública de la base de datos.
+
+Para habilitar la conectividad privada se creó primero un rango reservado para Private Service Access:
+
+```text
+PSA range: jameofit-psa-range
+Range: 10.20.0.0/24
+Purpose: VPC_PEERING
+```
+
+Luego, se configuró la conexión privada entre la VPC `jameofit-vpc` y `servicenetworking.googleapis.com`.
+
+```bash
+gcloud services vpc-peerings connect \
+  --service=servicenetworking.googleapis.com \
+  --ranges=jameofit-psa-range \
+  --network=jameofit-vpc
+```
+
+La instancia Cloud SQL fue creada sin IP pública:
+
+```bash
+gcloud sql instances create jameofit-postgres-dev \
+  --database-version=POSTGRES_16 \
+  --region=southamerica-west1 \
+  --edition=ENTERPRISE \
+  --tier=db-f1-micro \
+  --storage-size=10GB \
+  --storage-type=SSD \
+  --network=projects/jameofit/global/networks/jameofit-vpc \
+  --no-assign-ip \
+  --availability-type=ZONAL \
+  --backup-start-time=03:00 \
+  --maintenance-window-day=SUN \
+  --maintenance-window-hour=04 \
+  --deletion-protection
+```
+
+La cadena JDBC definida para el servicio IAM quedó de la siguiente manera:
+
+```text
+SPRING_DATASOURCE_URL=jdbc:postgresql://10.20.0.3:5432/jameofit_iam
+SPRING_DATASOURCE_USERNAME=jameofit_app
+SPRING_DATASOURCE_PASSWORD=<from Secret Manager>
+```
+
+<div align="center">
+  <img src="assets/TB2/gcp_cloud_sql_postgres_private_ip.png" alt="GCP Cloud SQL PostgreSQL Private IP" width="75%">
+  <p><em>Instancia Cloud SQL PostgreSQL creada con IP privada para el backend de JameoFit</em></p>
+</div>
+
+---
+
+### **7. Gestión de secretos con Secret Manager**
+
+Las credenciales y parámetros sensibles no fueron almacenados en repositorios ni archivos versionados. En su lugar, se configuró **Google Secret Manager** para gestionar los valores de conexión a Cloud SQL.
+
+Se crearon los siguientes secretos:
+
+```text
+jameofit-db-password
+jameofit-db-url
+jameofit-db-username
+```
+
+Cada secreto cuenta con una versión habilitada y será consumido por la máquina virtual mediante una Service Account de runtime.
+
+```bash
+gcloud secrets create jameofit-db-password --replication-policy="automatic"
+gcloud secrets create jameofit-db-url --replication-policy="automatic"
+gcloud secrets create jameofit-db-username --replication-policy="automatic"
+```
+
+Posteriormente, se creó la Service Account de runtime para la VM:
+
+```text
+jameofit-vm-runtime@jameofit.iam.gserviceaccount.com
+```
+
+Esta cuenta recibió permisos mínimos para:
+
+```text
+- Leer imágenes desde Artifact Registry.
+- Leer secretos específicos de base de datos desde Secret Manager.
+```
+
+Roles asignados:
+
+```text
+roles/artifactregistry.reader
+roles/secretmanager.secretAccessor
+```
+
+El permiso de `secretAccessor` fue asignado por secreto, evitando otorgar acceso amplio a todos los secretos del proyecto.
+
+<div align="center">
+  <img src="assets/TB2/gcp_secret_manager_db_secrets.png" alt="GCP Secret Manager DB Secrets" width="75%">
+  <p><em>Secretos de conexión a Cloud SQL almacenados en Google Secret Manager</em></p>
+</div>
+
+---
+
+### **8. Creación de máquina virtual privada en Compute Engine**
+
+Se creó una máquina virtual en **Google Compute Engine**. Esta VM será utilizada como host de ejecución para Docker Compose.
+
+La VM fue diseñada como un nodo privado, sin IP pública, siguiendo buenas prácticas de seguridad:
+
+```text
+VM: jameofit-backend-dev-vm
+Zone: southamerica-west1-a
+Network: jameofit-vpc
+Subnet: jameofit-subnet-saw1
+External IP: disabled
+Service Account: jameofit-vm-runtime@jameofit.iam.gserviceaccount.com
+Runtime: Docker + Docker Compose
+```
+
+La decisión de no asignar IP pública reduce la superficie de exposición de la plataforma. El acceso administrativo se realiza mediante **IAP TCP forwarding**, evitando abrir SSH directamente a internet.
+
+Se creó una regla de firewall para permitir SSH únicamente a través del rango de IAP:
+
+```text
+Firewall rule: allow-iap-ssh-jameofit
+Source range: 35.235.240.0/20
+Target tag: jameofit-backend
+Port: tcp:22
+```
+
+Además, para permitir que la VM privada pueda descargar actualizaciones, instalar Docker y acceder a repositorios externos sin tener IP pública, se configuró **Cloud NAT**:
+
+```text
+Cloud Router: jameofit-router
+Cloud NAT: jameofit-nat
+Network: jameofit-vpc
+Region: southamerica-west1
+NAT mode: all subnet IP ranges
+```
+
+Con Cloud NAT, la VM puede iniciar conexiones salientes a internet sin aceptar conexiones entrantes desde internet.
+
+<div align="center">
+  <img src="assets/TB2/gcp_compute_engine_private_vm.png" alt="GCP Compute Engine Private VM" width="75%">
+  <p><em>Máquina virtual privada creada para ejecutar Docker Compose en GCP</em></p>
+</div>
+
+<div align="center">
+  <img src="assets/TB2/gcp_cloud_nat_jameofit.png" alt="GCP Cloud NAT JameoFit" width="75%">
+  <p><em>Cloud NAT configurado para permitir salida a internet desde la VM privada</em></p>
+</div>
+
+---
+
+### **9. Preparación de Docker y Docker Compose en la VM**
+
+Una vez configurada la conectividad de salida mediante Cloud NAT, se instaló Docker en la VM privada. Esto permite ejecutar la plataforma backend mediante Docker Compose, manteniendo un enfoque similar al entorno local ya validado.
+
+Los pasos realizados incluyen:
+
+```bash
+sudo apt-get update
+sudo apt-get install -y ca-certificates curl gnupg git
+```
+
+Posteriormente, se configuró el repositorio oficial de Docker para Debian y se instalaron los paquetes:
+
+```text
+docker-ce
+docker-ce-cli
+containerd.io
+docker-buildx-plugin
+docker-compose-plugin
+```
+
+Se validó la instalación mediante:
+
+```bash
+docker --version
+docker compose version
+docker run hello-world
+```
+
+También se configuró Docker para autenticarse contra Artifact Registry:
+
+```bash
+gcloud auth configure-docker southamerica-west1-docker.pkg.dev --quiet
+```
+
+Con esto, la VM queda preparada para descargar imágenes desde:
+
+```text
+southamerica-west1-docker.pkg.dev/jameofit/jameofit-docker
+```
+
+---
+
+### **10. Configuración de platform-deploy para GCP**
+
+El repositorio `platform-deploy` fue preparado para centralizar la operación cloud de la plataforma. Este repositorio contiene los archivos necesarios para levantar el entorno GCP mediante Docker Compose, sin depender de comandos manuales aislados.
+
+La estructura propuesta para GCP es:
+
+```text
+platform-deploy/
+├── docker/
+│   └── docker-compose.gcp.yml
+├── env/
+│   └── gcp.env.example
+├── scripts/
+│   ├── gcp-load-secrets.sh
+│   ├── gcp-up.sh
+│   ├── gcp-down.sh
+│   └── gcp-healthcheck.sh
+└── README.md
+```
+
+El archivo `docker-compose.gcp.yml` no incluye PostgreSQL como contenedor, debido a que la persistencia se gestiona con Cloud SQL.
+
+La carga de secretos se realiza mediante el script:
+
+```bash
+./scripts/gcp-load-secrets.sh
+```
+
+Este script recupera los valores desde Secret Manager y genera el archivo `env/gcp.env` en la VM. Dicho archivo no debe versionarse.
+
+Flujo esperado de despliegue:
+
+```bash
+./scripts/gcp-load-secrets.sh
+./scripts/gcp-up.sh
+./scripts/gcp-healthcheck.sh
+```
+
+El archivo `gcp.env` contiene valores como:
+
+```text
+GCP_PROJECT_ID=jameofit
+GCP_REGION=southamerica-west1
+GAR_REPOSITORY=jameofit-docker
+IMAGE_TAG=main-latest
+SPRING_PROFILES_ACTIVE=gcp
+CONFIG_SERVER_URL=http://config-service:8888
+EUREKA_SERVER_URL=http://eureka-service:8761/eureka/
+SPRING_DATASOURCE_URL=jdbc:postgresql://10.20.0.3:5432/jameofit_iam
+SPRING_DATASOURCE_USERNAME=jameofit_app
+SPRING_DATASOURCE_PASSWORD=<from Secret Manager>
+```
+
+<div align="center">
+  <img src="assets/TB2/platform_deploy_gcp_compose_config.png" alt="platform-deploy GCP Docker Compose" width="75%">
+  <p><em>Configuración de platform-deploy para ejecutar la plataforma base en GCP</em></p>
+</div>
+
+---
+
+### **11. Estrategia de exposición y acceso a endpoints**
+
+Como la VM fue creada sin IP pública, los endpoints internos no quedan expuestos directamente en internet. Esto es una decisión de seguridad intencional.
+
+Para pruebas internas, documentación Swagger, Eureka Dashboard y validación de endpoints, se utilizará **IAP TCP forwarding**. Por ejemplo, para acceder al Gateway desde la máquina local del desarrollador:
+
+```bash
+gcloud compute start-iap-tunnel jameofit-backend-dev-vm 8080 \
+  --project=jameofit \
+  --zone=southamerica-west1-a \
+  --local-host-port=localhost:8080
+```
+
+Luego, desde el navegador local se podrá acceder a:
+
+```text
+http://localhost:8080
+```
+
+En caso de requerir acceso al dashboard de Eureka:
+
+```bash
+gcloud compute start-iap-tunnel jameofit-backend-dev-vm 8761 \
+  --project=jameofit \
+  --zone=southamerica-west1-a \
+  --local-host-port=localhost:8761
+```
+
+Y luego:
+
+```text
+http://localhost:8761
+```
+
+Esta estrategia permite validar la plataforma sin exponer públicamente servicios internos como Config Server, Eureka, Actuator o Swagger.
+
+Para una exposición pública del backend hacia el frontend, la alternativa recomendada para una fase posterior es configurar un **HTTPS Load Balancer** apuntando únicamente al `gateway-service`, manteniendo la VM privada y evitando exposición directa de los microservicios.
+
+<div align="center">
+  <img src="assets/TB2/gcp_iap_tunnel_gateway.png" alt="GCP IAP Tunnel Gateway" width="75%">
+  <p><em>Acceso privado al Gateway mediante IAP TCP forwarding para pruebas y revisión de endpoints</em></p>
+</div>
+
+---
+
+### **12. Alcance del despliegue durante el Sprint**
+
+El alcance del despliegue fue controlado intencionalmente para reducir riesgos.
+
+Servicios incluidos en la primera plataforma base:
+
+```text
+config-service
+eureka-service
+iam-service
+gateway-service
+goals-service
+meal-plans-service
+profiles-service
+recipes-service
+tracking-service
+communication-service
+```
+
+El servicio `communication-service` fue excluido del primer despliegue porque utiliza MongoDB, lo cual agregaría complejidad adicional a la primera validación cloud. Su despliegue se reservará para una fase posterior, una vez que la plataforma base en GCP haya sido validada correctamente.
+
+También se decidió no integrar Auth0 en esta etapa para evitar mezclar la validación de infraestructura cloud con un rediseño del modelo de autenticación.
+
+---
+
+### **13. Resultado final del Sprint**
+
+Como resultado del Sprint, se logró dejar preparada la base cloud para el despliegue controlado del backend de JameoFit en Google Cloud Platform.
+
+Los principales resultados alcanzados fueron:
+
+* Proyecto GCP configurado con región `southamerica-west1`.
+* Artifact Registry creado para almacenar imágenes Docker privadas.
+* Autenticación entre GitHub Actions y GCP configurada mediante Workload Identity Federation.
+* Service Account de CI/CD creada sin uso de claves JSON.
+* Workflows reutilizables preparados para build y push de imágenes Docker.
+* Imágenes base publicadas en Artifact Registry con tags trazables.
+* VPC privada creada para la plataforma backend.
+* Cloud SQL PostgreSQL configurado con IP privada.
+* Secret Manager configurado para credenciales de base de datos.
+* Service Account runtime creada para la VM.
+* Máquina virtual privada preparada para ejecutar Docker Compose.
+* Cloud NAT configurado para permitir salida a internet sin IP pública.
+* Estrategia de acceso privado mediante IAP TCP forwarding definida para pruebas internas.
+* `platform-deploy` adaptado para GCP y Cloud SQL.
+
+La arquitectura resultante permite que la plataforma evolucione hacia un despliegue más completo, manteniendo una separación clara entre construcción de imágenes, almacenamiento de artefactos, secretos, base de datos administrada, runtime y acceso seguro.
+
+<div align="center">
+  <img src="assets/TB2/gcp_deployment_summary_jameofit.png" alt="JameoFit GCP Deployment Summary" width="75%">
+  <p><em>Resumen de recursos configurados para el despliegue del backend de JameoFit en GCP</em></p>
+</div>
+
+#### 6.2.2.9. Team Collaboration Insights during Sprint
+
+En esta sección se analizan las evidencias de colaboración y coordinación del equipo durante el desarrollo del Sprint 2, considerando la participación de los integrantes en las actividades de implementación y control de versiones del proyecto. Para ello, se presentan métricas, capturas y analíticos obtenidos de GitHub, los cuales permiten visualizar la distribución del trabajo, el nivel de contribución de cada miembro y la interacción mantenida en el desarrollo del Landing Page, la aplicación web y los servicios Backend implementados durante el sprint.
+
+
+
+### 6.3. Validation Interviews
+
+#### 6.3.1. Diseño de Entrevistas
+
+## Segmento Objetivo #1: Usuarios finales (Enfoque en bienestar y nutrición)
+##### *Preguntas dirigidas a personas que buscan mejorar sus hábitos alimenticios, deportistas o quienes necesitan controlar su ingesta por salud.*
+
+
+1. ¿Qué fue lo primero que entendiste sobre el producto al ver la landing page?
+
+2. ¿Quedó claro para ti qué problema resuelve JameoFit?
+
+3. Al explorar la aplicación, ¿encontraste fácilmente las secciones que esperabas? ¿Hubo algo que te resultó confuso?
+
+4. ¿Cómo describirías la experiencia de registrarte e iniciar sesión en la plataforma?
+
+5. ¿La vista de dashboard te da una idea clara de tu progreso nutricional? ¿Qué añadirías o quitarías?
+
+6. ¿Qué tan útil te parece la función de monitoreo de hidratación con la botella inteligente?
+
+7. ¿Usarías la balanza inteligente para registrar peso automáticamente? ¿Por qué?
+
+8. ¿La sección de comunicación con el nutricionista cubre lo que esperarías de una consulta digital?
+
+9. ¿Pagarías por una suscripción a esta plataforma? ¿Qué tendría que ofrecerte para que valga la pena?
+
+10. ¿Recomendarías JameoFit a alguien que quiere mejorar sus hábitos alimenticios? ¿Por qué?
+
+### Segmento Objetivo #2: Profesionales de la Salud (Nutricionistas y Entrenadores)
+
+##### *Preguntas dirigidas a especialistas que requieren datos confiables de sus pacientes/clientes.*
+
+1. Al ver la landing page, ¿percibiste que el producto también está orientado a profesionales de la salud?
+
+2. ¿La propuesta de valor te parece relevante para tu práctica profesional?
+
+3. Al revisar el directorio y detalle de pacientes, ¿consideras que la información presentada es suficiente para hacer seguimiento?
+
+4. ¿El panel de seguimiento de paciente refleja los datos que realmente necesitas en tu día a día?
+
+5. ¿Qué tan intuitiva te pareció la navegación entre las vistas de gestión de pacientes?
+
+6. ¿La integración con dispositivos IoT (balanza y botella) te genera confianza en los datos que recibirías de tus pacientes?
+
+7. ¿El módulo de comunicación (chat y consultas) sería suficiente para reemplazar o complementar tus canales actuales con pacientes?
+
+8. ¿Los tips de contenido nutricional que gestionas desde la plataforma te parecen una herramienta útil?
+
+9. ¿Qué funcionalidad que viste hoy incorporarías de inmediato a tu práctica?
+
+10. ¿Qué le faltaría a JameoFit para que lo consideraras una herramienta profesional confiable?
+
+<br>
+
+#### 6.3.2. Registro de Entrevistas 
+
+### Segmento 1: Usuarios orientados a la mejora de su alimentación
+
+| Entrevistado 1 | Gabriel Perez |
+| :---- | :---- |
+| Edad | 23 años |
+| Distrito/Ciudad | Lima |
+|  <img src="assets/entrevistas/Entrevista-Validacion1.png" alt="PB" width="800" height = "200"> | Gabriel entendió que JameoFit es una plataforma orientada a mejorar los hábitos alimenticios y el bienestar personal mediante el seguimiento nutricional y la integración con dispositivos inteligentes. Consideró clara la propuesta de valor, destacando la centralización de información sobre alimentación, hidratación y progreso físico en un solo lugar. Valoró positivamente la navegación de la plataforma, señalando que es intuitiva y fácil de usar, aunque inicialmente requirió comprender mejor la relación entre los dispositivos IoT y el seguimiento nutricional. Destacó la simplicidad del proceso de registro e inicio de sesión, así como la claridad visual del dashboard. Sugirió incorporar gráficos comparativos semanales y metas personalizadas para enriquecer el seguimiento del progreso. Respecto a los dispositivos inteligentes, consideró muy útil el monitoreo de hidratación y valoró la balanza inteligente por automatizar el registro de datos y reducir errores. Sobre la comunicación con el nutricionista, indicó que cumple con las expectativas de una consulta digital, aunque recomendó incluir videollamadas o mensajería en tiempo real. Finalmente, manifestó que estaría dispuesto a pagar una suscripción si incorpora asesorías periódicas, planes personalizados y análisis detallados, concluyendo que recomendaría la plataforma por integrar monitoreo, seguimiento y orientación profesional en una sola herramienta. |
+| Timing: 00:12 – 08:47 min | [Entrevista 1 JammeoFit.mp4]() |
+
+
+| Entrevistado 2 | María Fernanda Peña |
+| :---- | :---- |
+| Edad | 22 años |
+| Distrito/Ciudad | Lima |
+|  <img src="assets/entrevistas/Entrevista-Validacion2.png" alt="PB" width="800" height = "200"> | María Fernanda percibió que JameoFit es una plataforma enfocada en mejorar la salud y la alimentación mediante el seguimiento nutricional apoyado por dispositivos IoT. Consideró clara la problemática que aborda, resaltando que ayuda a mantener hábitos saludables de manera práctica para personas con rutinas exigentes, como estudiantes y practicantes. Valoró positivamente la navegación de la aplicación por ser intuitiva y sencilla, aunque mencionó cierta dificultad inicial para comprender la sección relacionada con el peso y la búsqueda de nutricionistas. Destacó la facilidad del proceso de registro e inicio de sesión, así como la claridad de la información mostrada en el dashboard, sugiriendo añadir gráficos de progreso semanales o mensuales. Respecto a los dispositivos inteligentes, consideró especialmente útil el monitoreo de hidratación por ayudar a recordar el consumo de agua durante jornadas ocupadas, y valoró la balanza inteligente por facilitar el control del peso y generar mayor conciencia sobre los hábitos alimenticios. Sobre la comunicación con el nutricionista, indicó que cumple con lo esperado y sugirió incorporar videollamadas o programación de citas dentro de la plataforma. Finalmente, señaló que estaría dispuesta a pagar una suscripción siempre que el precio sea accesible y se ofrezcan planes personalizados e integración con otras aplicaciones, concluyendo que recomendaría JameoFit por reunir múltiples herramientas de seguimiento y orientación profesional en un solo lugar. |
+| Timing: 08:48 – 19:07 min | [Entrevista 2 JammeoFit.mp4]() |
+
+
+| Entrevistado 3 | Valeria Fernández |
+| :---- | :---- |
+| Edad | 26 años |
+| Distrito/Ciudad | Lima |
+|  <img src="assets/entrevistas/Entrevista-Validacion3.png" alt="PB" width="800" height = "200"> | Valeria entendió que JameoFit es una plataforma orientada a mejorar la alimentación y el bienestar mediante el seguimiento nutricional y la integración con dispositivos inteligentes. Consideró clara la propuesta de valor, destacando que ayuda a controlar los hábitos alimenticios, la hidratación y el progreso físico de manera organizada y automatizada. Valoró positivamente la navegación de la aplicación, señalando que las secciones principales son fáciles de encontrar, aunque inicialmente le tomó algo de tiempo ubicar los registros históricos. Destacó la simplicidad e intuición del proceso de registro e inicio de sesión, así como la claridad de la información presentada en el dashboard. Sugirió incorporar recomendaciones personalizadas basadas en los resultados obtenidos para potenciar el seguimiento nutricional. Respecto a los dispositivos inteligentes, calificó como muy útil la función de monitoreo de hidratación por automatizar el registro del consumo de agua, y valoró la balanza inteligente por ahorrar tiempo y mejorar la precisión de los datos registrados. Sobre la comunicación con el nutricionista, indicó que cumple adecuadamente con las necesidades de una consulta digital al facilitar la resolución de dudas y la orientación profesional. Finalmente, manifestó que estaría dispuesta a pagar una suscripción si incluye asesoría nutricional personalizada, análisis de progreso y sincronización con dispositivos inteligentes, concluyendo que recomendaría JameoFit por facilitar el seguimiento de hábitos saludables y promover la constancia en los objetivos de salud. |
+| Timing: 19:48 – 27:16 min | [Entrevista 3 JammeoFit.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313433_upc_edu_pe/IQBGv7yVvMkaTIoDEAMF-4HJAXr3jWKcg0OkKx6WgmTsOoY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lJZ2N2) |
+
+
+### Segmento 2: Profesionales de la salud (nutrición y bienestar)
+
+| Entrevistado 4 | Franck Panduro  |
+| :---- | :---- |
+| Edad | 23 años |
+| Distrito/Ciudad | Lima |
+|  <img src="assets/entrevistas/Entrevista-Validacion4.png" alt="PB" width="800" height = "200"> | Franck percibió que el producto está claramente orientado a profesionales de la salud, aunque sugirió agregar detalles visuales a la landing page, como una marca de agua con el logo o el nombre de HamioFit, para complementar el fondo blanco llano. Consideró relevante la propuesta de valor y valoró positivamente el directorio y panel de seguimiento, indicando que muestran la información diaria suficiente para los pacientes. Destacó que la navegación por la interfaz es muy intuitiva, llamativa y fácil de usar. Asimismo, la integración con los dispositivos IoT le generó confianza y seguridad debido al respaldo tecnológico. Finalmente, resaltó el chat de mensajería interna como la funcionalidad que incorporaría de inmediato a su práctica por ser una red de comunicación más directa, concluyendo que ve la herramienta bastante completa y profesional. |
+| Timing: 27:22 – 37:03 min | [Entrevista 4 JammeoFit.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313433_upc_edu_pe/IQBGv7yVvMkaTIoDEAMF-4HJAXr3jWKcg0OkKx6WgmTsOoY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lJZ2N2) |
+
+| Entrevistado 5 | Miguel Salas  |
+| :---- | :---- |
+| Edad | 21 años |
+| Distrito/Ciudad | Lima |
+|  <img src="assets/entrevistas/Entrevista-Validacion5.png" alt="PB" width="800" height = "200"> | Miguel destacó que la landing page y la plataforma están bastante optimizadas, didácticas y visualmente atractivas, señalando que la explicación le dejó muy claro el uso que los profesionales de la nutrición pueden darle. Consideró que la propuesta de valor es muy buena, innovadora y relevante para la práctica profesional, valorando positivamente el directorio y panel de seguimiento al reflejar datos completas y necesarios para el día a día que actualmente le hacen falta. Mencionó que la navegación por la interfaz es bastante intuitiva y fácil de usar. Respecto a la integración con dispositivos IoT, admitió que es una novedad que no conoce a fondo, pero afirmó que le genera total confianza en los datos que brinda. Sobre el módulo de comunicación, opinó que el chat no sería suficiente para reemplazar los canales actuales (como WhatsApp), pero sí funcionará como un excelente complemento. Finalmente, calificó los tips de contenido como una herramienta útil y concluyó que, puliendo algunos detalles de diseño al implementarse, la herramienta será completamente profesional, confiable y exitosa. |
+| Timing: 37:04 – 46:36 min | [Entrevista 5 JammeoFit.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313433_upc_edu_pe/IQBGv7yVvMkaTIoDEAMF-4HJAXr3jWKcg0OkKx6WgmTsOoY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lJZ2N2) |
+
+| Entrevistado 6 | Cristina Sihuas  |
+| :---- | :---- |
+| Edad | 21 años |
+| Distrito/Ciudad | Lima |
+|  <img src="assets/entrevistas/Entrevista-Validacion6.png" alt="PB" width="800" height = "200"> | Cristina percibió que el producto está correctamente orientado a profesionales de la salud, señalando que centraliza el seguimiento nutricional, organiza el tiempo de atención y facilita la comunicación con los pacientes. Consideró relevante la propuesta de valor por la capacidad de consolidar la atención en un solo lugar y valoró el panel de seguimiento al reflejar indicadores diarios esenciales como el peso y la alimentación. Destacó que la navegación por la interfaz es intuitiva, fácil de comprender y organizada de forma lógica. Con respecto a la integración con dispositivos IoT, mencionó que le genera confianza siempre que estén bien calibrados y sincronizados, destacando que la captura automática reduce errores manuales. Sobre el módulo de comunicación y la sección de tips, los calificó como herramientas complementarias y valiosas para registrar interacciones y reforzar la educación nutricional de forma constante. Finalmente, sugirió que para considerarla una herramienta profesional y confiable, sería importante incorporar historias clínicas nutricionales más completas, reportes de evolución personalizados, recordatorios automáticos, integración con más dispositivos de salud y garantías claras sobre la seguridad y privacidad de los datos. |
+| Timing: 46:36 – 56:43 min | [Entrevista 6 JammeoFit.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313433_upc_edu_pe/IQBGv7yVvMkaTIoDEAMF-4HJAXr3jWKcg0OkKx6WgmTsOoY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lJZ2N2) |
+
+
+<br>
+
+ENLACE ENTREVISTAS DE VALIDACION: http://bit.ly/4gysoqS 
+
+<br>
+
+#### 6.3.3. Evaluaciones según heurísticas
+
+##### SITE o APP A EVALUAR: JameoFit
+
+##### TAREAS A EVALUAR:
+
+- Exploración y comprensión de la landing page
+
+- Registro y acceso a la plataforma (roles de usuario y nutricionista)
+
+- Monitoreo automatizado y sincronización con dispositivos IoT (balanza e hidratación inteligente)
+
+- Visualización y gestión del dashboard profesional para nutricionistas
+
+- Acceso y navegación entre secciones (overview, directorio, tracking, contenido)
+
+- Gestión y carga de recursos educativos o tips nutricionales (PDFs, videos)
+
+- Interacción y seguimiento entre paciente y profesional a través de mensajería interna
+
+- Recepción y visualización de alertas críticas o desviaciones nutricionales en tiempo real
+
+- Visualización de planes de suscripción y configuración de perfil profesional
+
+<br>
+
+#### ESCALA DE SEVERIDAD
+
+| Nivel | Descripción                                                                                   |
+| ----- | --------------------------------------------------------------------------------------------- |
+| 1     | Problema superficial: fácilmente superado o poco frecuente. No requiere corrección inmediata. |
+| 2     | Problema menor: puede dificultar algo la experiencia. Se recomienda corregir pronto.          |
+| 3     | Problema mayor: frecuente o difícil de superar. Debe corregirse con prioridad.                |
+| 4     | Problema muy grave: impide el uso normal. Requiere solución inmediata.                        |
+
+<br>
+
+#### TABLA RESUMEN DE HALLAZGOS HEURISTICOS
+
+| #  | Problema                                                                         | Severidad | Heurística violada                                            |
+| -- | -------------------------------------------------------------------------------- | --------- | ------------------------------------------------------------- |
+| 1 | Insuficiencia de datos históricos, evolución y antecedentes clínicos en el perfil inicial del paciente.                     | 3         | Flexibilidad y eficiencia de uso (Nielsen #7)                      |
+| 2  | Dependencia crítica de la calibración externa y falta de visibilidad del estado de sincronización de los dispositivos IoT.                     | 3        | Visibilidad del estado del sistema (Nielsen #1)                 |
+| 3  | Diseño visual de la landing page excesivamente plano o simple que carece de identidad de marca en el fondo.       | 2         | Diseño estético y minimalista (Nielsen #8)               |
+| 4  | Falta de funcionalidades automatizadas avanzadas en el ecosistema (recordatorios al paciente e historias clínicas completas).                                  | 2         | Ayuda y documentación / Eficiencia (Nielsen #10)                       |
+| 5  | Incertidumbre sobre los protocolos de seguridad, privacidad y viabilidad legal de los datos de salud expuestos.          | 2         | Reconocimiento antes que recuerdo / Consistencia (Nielsen #6)             |
+
+<br>
+
+#### PROBLEMA #1: Insuficiencia de datos históricos, evolución y antecedentes clínicos en el perfil inicial del paciente <br>
+- Severidad: 3 <br>
+
+- Heurística violada: Flexibilidad y eficiencia de uso (Nielsen #7) <br>
+
+- Descripción: La nutricionista Cristina Siguaz señaló que, aunque los datos mostrados en el directorio son un buen punto de partida, resultan insuficientes para un seguimiento clínico profesional profundo. Falta integrar de manera estructurada la historia nutricional previa, reportes personalizados de evolución a largo plazo y el complemento de recomendaciones anteriores. <br>
+
+- Recomendación: Diseñar una sección expandible dentro del perfil de cada paciente dedicada exclusivamente a la "Historia Clínica Nutricional", permitiendo al profesional contrastar los datos automáticos del IoT con el historial médico del usuario. <br>
+
+#### PROBLEMA #2: Dependencia crítica de la calibración externa y falta de visibilidad del estado de sincronización de los dispositivos IoT <br>
+- Severidad: 3 <br>
+
+- Heurística violada: Visibilidad del estado del sistema (Nielsen #1) <br>
+
+- Descripción: Basado en las observaciones de Miguel Sayas y Cristina Siguaz, la confianza del profesional en los datos depende enteramente de que la balanza y la botella inteligente estén correctamente calibradas y sincronizadas. La interfaz actual no muestra activamente si un dispositivo ha perdido conexión, está descalibrado o si los datos mostrados están desactualizados. <br>
+
+- Recomendación: Implementar un indicador visual de "Estado del Dispositivo" (por ejemplo: color verde para sincronizado/calibrado, amarillo para requiere atención y rojo para desconectado) en el panel de monitorización del paciente. <br>
+
+#### PROBLEMA #3: Diseño visual de la landing page excesivamente plano o simple que carece de identidad de marca en el fondo <br>
+- Severidad: 2 <br>
+
+- Heurística violada: Diseño estético y minimalista (Nielsen #8) <br>
+
+- Descripción: El nutricionista Fran Panduro identificó que el fondo de la landing page es un "blanco llano" que puede percibirse como demasiado simple o vacío. Mencionó que se requiere añadir elementos de identidad sutiles para que el entorno se sienta más profesional y alineado con la marca médica desde el primer vistazo. <br> 
+
+- Recomendación: Incorporar marcas de agua estéticas con el logotipo estilizado de HamioFit o texturas corporativas tenues en el fondo de la página de destino para mejorar la estética sin sobrecargar la lectura del texto. <br>
+
+#### PROBLEMA #4: Falta de funcionalidades automatizadas avanzadas en el ecosistema (recordatorios al paciente e historias clínicas completas) <br>
+- Severidad: 2 <br>
+
+- Heurística violada: Ayuda y documentación / Eficiencia (Nielsen #10) <br>
+
+- Descripción: De acuerdo con las entrevistas (Cristina y Fran), el sistema delega manualmente en el nutricionista la tarea de redactar mensajes si un paciente olvida hacer su registro (logging). No existen disparadores automáticos que ayuden al paciente a mantener la adherencia ni herramientas integradas para automatizar alertas rutinarias. <br>
+
+- Recomendación: Crear un módulo de "Recordatorios Automáticos" configurables donde la plataforma envíe notificaciones push al móvil del paciente cuando el sistema IoT detecte falta de actividad (por ejemplo, baja hidratación), reduciendo la carga operativa del nutricionista. <br>
+
+#### PROBLEMA #5: Incertidumbre sobre los protocolos de seguridad, privacidad y viabilidad legal de los datos de salud expuestos <br>
+- Severidad: 2 <br>
+
+- Heurística violada: Reconocimiento antes que recuerdo / Credibilidad (Nielsen #6) <br>
+
+- Descripción: Cristina Siguaz enfatizó que para validar a HamioFit como una herramienta verdaderamente confiable y profesional en el ámbito médico, es mandatorio que la plataforma ofrezca garantías claras y explícitas sobre la seguridad, encriptación y privacidad de los datos sensibles de salud de los pacientes. <br>
+
+- Recomendación: Incluir una sección visible o un sello de cumplimiento de normativas de protección de datos de salud en el pie de página de la plataforma y en el apartado de registro del profesional, asegurando la transparencia legal del tratamiento de los datos capturados por el IoT. <br>
+
+### 6.4. Video About-the-Product
+
+## Conclusiones
+
+### Conclusiones y Recomendaciones
+
+A partir del desarrollo del proyecto JameoFit, se concluye que el problema principal identificado se mantiene relevante para los segmentos analizados: los usuarios finales presentan dificultades para registrar y monitorear su ingesta nutricional de forma constante y precisa, mientras que los nutricionistas requieren información confiable para realizar seguimiento y emitir recomendaciones personalizadas. Los Problem Statements permitieron orientar la solución hacia la reducción de carga manual, la mejora de la calidad de los datos y el soporte a la toma de decisiones nutricionales.
+
+Durante el proceso Lean UX se plantearon assumptions relacionados con la disposición de los usuarios a adoptar herramientas digitales, el valor percibido de la automatización mediante IoT e IA, y el interés de los nutricionistas por contar con datos más estructurados sobre sus pacientes. Las validaciones realizadas mediante entrevistas, artefactos UX y prototipos permitieron contrastar estas suposiciones. Como resultado, se identificó que existe interés en una solución que simplifique el registro nutricional, siempre que la experiencia sea clara, rápida y no incremente la fricción del usuario. Asimismo, el segmento profesional valora la posibilidad de acceder a métricas, alertas e historial de seguimiento para mejorar sus decisiones.
+
+Las Hypotheses Statements planteadas se validan parcialmente: la automatización del monitoreo nutricional puede aportar valor, pero su adopción depende de la confianza del usuario en los datos generados, la facilidad de uso de los dispositivos y la claridad con la que la aplicación presenta los resultados. Los criterios de éxito definidos en el proceso Lean UX deben seguir evaluándose en próximas iteraciones mediante pruebas con usuarios, medición de adherencia, frecuencia de registro, comprensión de recomendaciones y utilidad percibida por nutricionistas.
+
+Como recomendación, el roadmap debería priorizar una primera versión funcional centrada en los flujos críticos: registro e inicio de sesión, gestión de perfil, definición de objetivos, monitoreo de ingesta, visualización de progreso y comunicación entre paciente y nutricionista. Posteriormente, se recomienda profundizar la integración IoT con la balanza inteligente y la botella inteligente, asegurando sincronización estable y retroalimentación clara para el usuario.
+
+También se recomienda validar progresivamente los módulos de IA antes de ampliar su alcance, evitando sobreautomatizar recomendaciones sin evidencia suficiente. En futuras iteraciones, el equipo debería realizar pruebas de usabilidad con los mock-ups y prototipos, recopilar feedback de nutricionistas sobre los dashboards e incorporar métricas de éxito medibles en cada sprint. Finalmente, se recomienda mantener la trazabilidad entre entrevistas, personas, journey maps, requerimientos, arquitectura y diseño UX/UI, para asegurar que cada nueva funcionalidad responda a una necesidad validada y no a supuestos no comprobados.
+
+## Referencias Bibliográficas
 
 Organización Mundial de la Salud. (2025). Noncommunicable diseases.  
 https://www.who.int/news-room/fact-sheets/detail/noncommunicable-diseases  
 
 Arefeen, A., et al. (2025). MealMeter: Using multimodal sensing and machine learning for automatically estimating nutrition intake.  
 https://arxiv.org/abs/2503.11683  
-
 
 Gioia, S., et al. (2023). Mobile apps for dietary and food timing assessment.  
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10337248/ 
@@ -3152,7 +5925,20 @@ Instituto Nacional de Estadística e Informática (INEI). (2023).
 Las Tecnologías de Información y Comunicación en los Hogares: Oct-Nov-Dic 2023.  
 https://www.gob.pe/institucion/inei/informes-publicaciones/5408920-las-tecnologias-de 
 
-### Videos de Exposiciones
+## Videos de Exposiciones
 
 AV1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323270_upc_edu_pe/IQA-8Ea3XJJ4SKV4BOhLQeF3AaoSDORI-u2m4FrHy1KFbKc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=r9G8pP
 
+TB1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323270_upc_edu_pe/IQAia2QpBf0jR5j33TCiA9hVAZq8QuueMiHI73hcuhcjYrU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=J4miBT
+
+## Anexos
+
+- URL Landing Page:
+  https://g3-soluciones-iot.github.io/landing-page/
+  
+- URL Frontend:
+  https://g3iotfrontend.web.app/
+  
+- URL Simulaciones Wokwi:
+  - Smart Bottle: https://wokwi.com/projects/463883642035947521
+  - Smart Scale: https://wokwi.com/projects/463886427977308161
