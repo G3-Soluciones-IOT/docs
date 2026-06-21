@@ -1857,7 +1857,7 @@ En este nivel, se identifican los siguientes elementos:
 Incluyen el navegador web y la aplicación móvil, desde donde los usuarios (pacientes, nutricionistas y administradores) interactúan con el sistema mediante solicitudes seguras a través de HTTPS.
 
 ● Infraestructura Cloud:
-El sistema se despliega en un entorno cloud (AWS, Azure o GCP), utilizando contenedores Docker para garantizar portabilidad, escalabilidad y aislamiento de los servicios.
+El sistema se despliega en un entorno cloud (GCP), utilizando contenedores Docker para garantizar portabilidad, escalabilidad y aislamiento de los servicios.
 
 ● API Gateway:
 Actúa como punto de entrada único al sistema, gestionando el enrutamiento de solicitudes hacia los microservicios correspondientes y validando los tokens de autenticación.
@@ -3151,10 +3151,10 @@ La autenticación con AWS IoT Core se realiza mediante certificados X.509 por di
   <img src="assets/TP/SD7.png" alt="Structurizr" width="180"/>
 </p>
 
-**AWS (Amazon Web Services):** Plataforma en la nube de Amazon que permite desplegar, administrar y escalar aplicaciones de manera segura, flexible y altamente disponible.
+**GCP (Google Cloud Platform):** Plataforma en la nube de Amazon que permite desplegar, administrar y escalar aplicaciones de manera segura, flexible y altamente disponible.
 
 <p align="center">
-  <img src="assets/TP/SD8.png" alt="AWS" width="180"/>
+  <img src="assets/TP/SD8.png" alt="GCP" width="180"/>
 </p>
 
 #### 6.1.2. Source Code Management
@@ -3297,35 +3297,17 @@ Enlace de la Landing Page: https://g2-aplicaciones-moviles.github.io/Landing-Pag
 
 ### Deployment Backend:
 
-En esta sección, se detalla el proceso de implementación del backend del proyecto Jameofit utilizando los servicios de Amazon Web Services (AWS).
+El backend de JameoFit se despliega progresivamente sobre **Google Cloud Platform (GCP)**. La configuración se organiza para separar la construcción de imágenes, la persistencia de datos, la ejecución de los servicios y el acceso administrativo.
 
-A continuación, se describen los principales componentes y configuraciones involucradas en el despliegue.
+Los elementos principales de la configuración son:
 
-1. **Entorno Elastic Beanstalk**
+1. **Integración continua y artefactos:** GitHub Actions construye las imágenes Docker de los microservicios y las publica en Artifact Registry. La autenticación con GCP utiliza Workload Identity Federation, sin almacenar claves estáticas en los repositorios.
 
-La aplicación backend se despliega mediante AWS Elastic Beanstalk, un servicio que permite administrar automáticamente la infraestructura necesaria para ejecutar aplicaciones web. En la primera captura se observa el entorno Jameofit-backend-env, cuyo estado se encuentra Ok, indicando un despliegue exitoso y una aplicación corriendo correctamente sobre la plataforma Corretto 21 (Java 17) en Amazon Linux 2023.
+2. **Infraestructura privada:** una VPC privada conecta la máquina virtual de ejecución con Cloud SQL for PostgreSQL. La base de datos no cuenta con IP pública y sus credenciales se administran mediante Secret Manager.
 
-![alt text](assets/TP/G5.png)
+3. **Ejecución de servicios:** una máquina virtual privada de Compute Engine ejecuta la plataforma con Docker Compose y obtiene las imágenes desde Artifact Registry. Su cuenta de servicio dispone únicamente de los permisos necesarios para leer imágenes y secretos.
 
-2. **Base de Datos RDS (PostgreSQL)**
-
-El servicio Amazon RDS (Relational Database Service) se utiliza para la gestión de la base de datos del backend. En la segunda captura se muestra la instancia jameofit-db, configurada con el motor PostgreSQL y actualmente en estado Disponible. La instancia pertenece a la clase db.t3.micro, optimizada para entornos de desarrollo o pruebas, y está desplegada en la región us-east-2a.
-
-![alt text](assets/TP/G6.png)
-
-3. **Usuario IAM para Integración Continua (GitHub Actions)**
-
-Para automatizar el despliegue del backend desde GitHub, se creó un usuario IAM denominado github-actions-jameofit. Este usuario cuenta con credenciales de acceso programático y permisos asignados para permitir la comunicación entre GitHub Actions y AWS Elastic Beanstalk. De esta manera, cada vez que se ejecuta un flujo de CI/CD, el código actualizado se publica automáticamente en el entorno de AWS.
-
-![alt text](assets/TP/G7.png)
-
-4. **Roles IAM Asociados a los Servicios**
-
-Finalmente, se observan los roles IAM configurados para los diferentes servicios de AWS involucrados en el despliegue, como Elastic Beanstalk, EC2, Auto Scaling y RDS. Estos roles son fundamentales para que los servicios puedan interactuar entre sí de forma segura y automatizada, garantizando una gestión adecuada de recursos y permisos.
-
-![alt text](assets/TP/G8.png)
-
-Enlace del backend: http://jameofit-backend-env.eba-fzj57hq8.us-east-2.elasticbeanstalk.com/swagger-ui/index.html
+4. **Acceso y seguridad:** los servicios internos se revisan mediante IAP TCP forwarding, sin exponer directamente la máquina virtual ni componentes como Config Server, Eureka o Swagger a Internet. La exposición pública del Gateway se considera una fase posterior.
 
 ### Deployment Frontend:
 
@@ -3378,7 +3360,7 @@ Single-page app rewrite: Yes
 
 5. **Variables de Entorno**
 
-Se configura la URL del backend desplegado en AWS dentro del archivo de variables de entorno del frontend:
+Se configura la URL del backend desplegado en GCP dentro del archivo de variables de entorno del frontend:
 
 ```bash
 VITE_API_URL=http://jameofit-backend-env.eba-fzj57hq8.us-east-2.elasticbeanstalk.com  
@@ -4434,7 +4416,7 @@ En esta sección se presentan las evidencias de documentación de los servicios 
 
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review
 
-En esta sección se resumen las actividades realizadas durante el Sprint 1 en relación con el despliegue de los productos digitales de JameoFit. El trabajo de deployment incluyó la publicación del Landing Page, la preparación del despliegue de la aplicación web, la configuración de servicios Backend en AWS y la organización de los recursos necesarios para que los componentes desarrollados puedan ejecutarse en entornos accesibles para revisión.
+En esta sección se resumen las actividades realizadas durante el Sprint 1 en relación con el despliegue de los productos digitales de JameoFit. El trabajo de deployment incluyó la publicación del Landing Page, la preparación del despliegue de la aplicación web y la organización de los recursos necesarios para que los componentes desarrollados puedan ejecutarse en entornos accesibles para revisión.
 
 Durante este Sprint, el equipo trabajó en la creación y configuración de repositorios, habilitación de servicios de hosting, configuración de recursos cloud, preparación de variables de entorno, integración con herramientas de despliegue y documentación de evidencias visuales. Estas actividades permiten validar que los entregables desarrollados pueden ser publicados, revisados y conectados progresivamente dentro de la arquitectura distribuida del proyecto.
 
@@ -4472,7 +4454,7 @@ Finalmente, se verificó que el Landing Page quedara publicado correctamente y a
 
 **Web Application Deployment**
 
-La aplicación web fue preparada y desplegada mediante Firebase Hosting, manteniendo la configuración necesaria para conectar el frontend con los servicios Backend publicados en AWS. Durante el Sprint se validó que las vistas implementadas pudieran ejecutarse correctamente, que el proyecto generara una versión de producción y que los principales flujos de la aplicación se mantuvieran disponibles para revisión.
+La aplicación web fue preparada y desplegada mediante Firebase Hosting, manteniendo la configuración necesaria para conectar el frontend con los servicios Backend publicados en GCP. Durante el Sprint se validó que las vistas implementadas pudieran ejecutarse correctamente, que el proyecto generara una versión de producción y que los principales flujos de la aplicación se mantuvieran disponibles para revisión.
 
 1. **Preparación del proyecto frontend**
 
@@ -4687,6 +4669,629 @@ En esta sección se presentan las evidencias de ejecución correspondientes al S
 En esta sección se presentan las evidencias de documentación de los servicios web desarrollados durante el Sprint 2, incluyendo la definición y documentación de los principales endpoints implementados para el sistema. Asimismo, se muestran las especificaciones elaboradas mediante OpenAPI, las acciones soportadas por cada servicio y ejemplos de interacción con los endpoints, permitiendo evidenciar el correcto diseño y documentación de la comunicación entre el Frontend y Backend del proyecto.
 
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review
+
+Durante el presente Sprint se avanzó en la configuración de la plataforma de despliegue del backend de **JameoFit** sobre **Google Cloud Platform (GCP)**. El objetivo principal fue preparar una infraestructura cloud mínima, segura y reproducible para soportar el despliegue progresivo de los microservicios del sistema, partiendo de una arquitectura previamente validada en entorno local con Docker Compose.
+
+El trabajo realizado incluyó la configuración del proyecto cloud, habilitación de APIs, creación del repositorio de imágenes Docker, configuración de autenticación federada entre GitHub Actions y GCP, publicación de imágenes en Artifact Registry, aprovisionamiento de red privada, creación de una base de datos administrada en Cloud SQL, gestión de secretos mediante Secret Manager y preparación de una máquina virtual privada en Compute Engine para ejecutar la plataforma mediante Docker Compose.
+
+A diferencia de un despliegue directo con credenciales estáticas, la estrategia adoptada prioriza buenas prácticas de seguridad y trazabilidad, evitando el uso de archivos JSON de Service Account y utilizando **Workload Identity Federation** para permitir que GitHub Actions se autentique contra GCP sin almacenar claves sensibles en los repositorios.
+
+---
+
+### **1. Configuración inicial del proyecto en Google Cloud Platform**
+
+Se creó y configuró el proyecto cloud **jameofit** como entorno principal de despliegue para el backend. Este proyecto funciona como el contenedor lógico de los recursos de infraestructura, IAM, networking, base de datos, almacenamiento de imágenes y secretos.
+
+La configuración base del proyecto quedó establecida con los siguientes valores:
+
+```text
+PROJECT_ID=jameofit
+PROJECT_NUMBER=809847807436
+REGION=southamerica-west1
+ZONE=southamerica-west1-a
+```
+
+La región seleccionada fue **southamerica-west1**, correspondiente a Santiago, con el propósito de mantener los recursos cloud más cercanos geográficamente al equipo y reducir latencia frente a alternativas ubicadas en Norteamérica.
+
+Asimismo, se habilitaron las APIs necesarias para soportar el flujo de deployment y operación de la plataforma:
+
+```text
+artifactregistry.googleapis.com
+iam.googleapis.com
+iamcredentials.googleapis.com
+sts.googleapis.com
+cloudresourcemanager.googleapis.com
+serviceusage.googleapis.com
+compute.googleapis.com
+secretmanager.googleapis.com
+sqladmin.googleapis.com
+logging.googleapis.com
+monitoring.googleapis.com
+servicenetworking.googleapis.com
+```
+
+Estas APIs permiten trabajar con Artifact Registry, IAM, Workload Identity Federation, Compute Engine, Secret Manager, Cloud SQL, monitoreo, logging y conectividad privada entre servicios.
+
+<div align="center">
+  <img src="assets/TB2/gcp_project_apis_enabled.png" alt="GCP APIs Enabled" width="75%">
+  <p><em>Habilitación de APIs necesarias para la plataforma backend de JameoFit en GCP</em></p>
+</div>
+
+---
+
+### **2. Creación de Artifact Registry para imágenes Docker**
+
+Se creó un repositorio Docker privado en **Google Artifact Registry**. Este repositorio se utiliza como destino oficial de las imágenes Docker generadas por los pipelines de GitHub Actions.
+
+La configuración del repositorio fue la siguiente:
+
+```text
+Repository: jameofit-docker
+Format: Docker
+Location: southamerica-west1
+Mode: Standard Repository
+Project: jameofit
+```
+
+El repositorio fue creado mediante el siguiente comando:
+
+```bash
+gcloud artifacts repositories create jameofit-docker \
+  --repository-format=docker \
+  --location=southamerica-west1 \
+  --description="Docker images for JameoFit backend services"
+```
+
+Con ello, las imágenes de los microservicios siguen el siguiente formato:
+
+```text
+southamerica-west1-docker.pkg.dev/jameofit/jameofit-docker/<service-name>:<tag>
+```
+
+<div align="center">
+  <img src="assets/gcp_artifact_registry_jameofit.png" alt="GCP Artifact Registry JameoFit" width="75%">
+  <p><em>Repositorio Docker jameofit-docker creado en Google Artifact Registry</em></p>
+</div>
+
+---
+
+### **3. Configuración de GitHub Actions con Workload Identity Federation**
+
+Para automatizar la publicación de imágenes Docker sin usar claves estáticas, se configuró **Workload Identity Federation** entre GitHub Actions y Google Cloud Platform.
+
+Se creó la Service Account:
+
+```text
+gha-artifact-writer@jameofit.iam.gserviceaccount.com
+```
+
+Esta cuenta recibió permisos limitados de escritura únicamente sobre el repositorio Docker `jameofit-docker` mediante el rol:
+
+```text
+roles/artifactregistry.writer
+```
+
+También se creó un Workload Identity Pool y un Provider OIDC para GitHub Actions:
+
+```text
+Workload Identity Pool: github-pool
+Provider: github-provider
+Issuer URI: https://token.actions.githubusercontent.com
+Repository owner allowed: G3-Soluciones-IOT
+```
+
+La configuración restringe la autenticación únicamente a workflows ejecutados desde repositorios pertenecientes a la organización:
+
+```text
+G3-Soluciones-IOT
+```
+
+El valor final utilizado por GitHub Actions fue:
+
+```text
+workload_identity_provider=projects/809847807436/locations/global/workloadIdentityPools/github-pool/providers/github-provider
+service_account=gha-artifact-writer@jameofit.iam.gserviceaccount.com
+```
+
+Se validó correctamente que GitHub Actions pueda autenticarse contra GCP como la Service Account configurada, sin utilizar archivos JSON de credenciales.
+
+<div align="center">
+  <img src="assets/github_actions_gcp_wif_auth.png" alt="GitHub Actions GCP Workload Identity Federation" width="75%">
+  <p><em>Validación de autenticación desde GitHub Actions hacia GCP mediante Workload Identity Federation</em></p>
+</div>
+
+---
+
+### **4. Automatización del build y push de imágenes Docker**
+
+El flujo de CI/CD fue organizado mediante workflows reutilizables en el repositorio:
+
+```text
+G3-Soluciones-IOT/shared-workflows
+```
+
+Se trabajó con los siguientes workflows base:
+
+```text
+java-ci.yml
+docker-build.yml
+gcp-artifact-registry-push.yml
+```
+
+El flujo de deployment fue ajustado para evitar depender de artefactos generados por otros workflows. Inicialmente, el workflow de CD intentaba construir imágenes Docker esperando que existiera un archivo `.jar` dentro de `target/`, pero se identificó que cada workflow de GitHub Actions se ejecuta en un runner limpio. Por ello, se adoptó un enfoque de **Dockerfile multi-stage**, en el cual cada imagen Docker compila internamente el servicio y genera su propio artefacto.
+
+El patrón aplicado permite que cada microservicio sea autosuficiente durante el build de imagen:
+
+```dockerfile
+FROM eclipse-temurin:25-jdk AS build
+WORKDIR /workspace
+
+COPY .mvn .mvn
+COPY mvnw pom.xml ./
+RUN chmod +x mvnw && ./mvnw -B -ntp dependency:go-offline
+
+COPY src src
+RUN ./mvnw -B -ntp package -DskipTests
+
+FROM eclipse-temurin:25-jre
+WORKDIR /app
+
+COPY --from=build /workspace/target/*.jar /app/app.jar
+
+ENTRYPOINT ["java", "-jar", "/app/app.jar"]
+```
+
+El flujo resultante para cada microservicio quedó organizado de la siguiente manera:
+
+```text
+Pull Request hacia main:
+  - java-ci
+  - docker-build validation
+
+Push a main:
+  - java-ci
+  - docker build multi-stage
+  - push a Artifact Registry
+```
+
+Cada imagen publicada utiliza tags trazables:
+
+```text
+sha-<short-commit-sha>
+main-latest
+```
+
+Ejemplo de imagen publicada:
+
+```text
+southamerica-west1-docker.pkg.dev/jameofit/jameofit-docker/config-service:main-latest
+southamerica-west1-docker.pkg.dev/jameofit/jameofit-docker/config-service:sha-xxxxxxx
+```
+
+Este enfoque permite reproducibilidad, trazabilidad y rollback más seguro en futuras fases de deployment.
+
+<div align="center">
+  <img src="assets/github_actions_gcp_artifact_push.png" alt="GitHub Actions Artifact Registry Push" width="75%">
+  <p><em>Workflow de GitHub Actions para build y publicación de imágenes Docker en Artifact Registry</em></p>
+</div>
+
+---
+
+### **5. Configuración de red privada para el backend**
+
+Se creó una red privada dedicada para la plataforma backend de JameoFit:
+
+```text
+VPC: jameofit-vpc
+Subnet: jameofit-subnet-saw1
+Subnet range: 10.10.0.0/24
+Region: southamerica-west1
+```
+
+La VPC fue configurada en modo custom para tener control explícito sobre las subredes y rangos utilizados.
+
+```bash
+gcloud compute networks create jameofit-vpc \
+  --subnet-mode=custom \
+  --description="JameoFit VPC for GCP backend platform"
+```
+
+Posteriormente, se creó la subred regional:
+
+```bash
+gcloud compute networks subnets create jameofit-subnet-saw1 \
+  --network=jameofit-vpc \
+  --region=southamerica-west1 \
+  --range=10.10.0.0/24 \
+  --description="JameoFit subnet for backend VM and internal connectivity"
+```
+
+Esta red será utilizada por la máquina virtual de backend y por la conectividad privada hacia Cloud SQL.
+
+<div align="center">
+  <img src="assets/gcp_vpc_subnet_jameofit.png" alt="GCP VPC and Subnet JameoFit" width="75%">
+  <p><em>VPC y subnet privadas creadas para la plataforma backend de JameoFit</em></p>
+</div>
+
+---
+
+### **6. Configuración de Cloud SQL para PostgreSQL**
+
+Para el entorno GCP se decidió utilizar **Cloud SQL for PostgreSQL** en lugar de ejecutar PostgreSQL dentro de un contenedor. De esta forma, PostgreSQL en contenedor queda reservado para el entorno local, mientras que la nube utiliza una base de datos administrada.
+
+La instancia creada fue:
+
+```text
+Instance: jameofit-postgres-dev
+Database engine: PostgreSQL 16
+Edition: Enterprise
+Tier: db-f1-micro
+Region: southamerica-west1
+Availability: Zonal
+Private IP: 10.20.0.3
+Public IP: disabled
+Database: jameofit_iam
+User: jameofit_app
+```
+
+Durante la creación de la instancia se configuró el acceso mediante **Private IP**, evitando exposición pública de la base de datos.
+
+Para habilitar la conectividad privada se creó primero un rango reservado para Private Service Access:
+
+```text
+PSA range: jameofit-psa-range
+Range: 10.20.0.0/24
+Purpose: VPC_PEERING
+```
+
+Luego, se configuró la conexión privada entre la VPC `jameofit-vpc` y `servicenetworking.googleapis.com`.
+
+```bash
+gcloud services vpc-peerings connect \
+  --service=servicenetworking.googleapis.com \
+  --ranges=jameofit-psa-range \
+  --network=jameofit-vpc
+```
+
+La instancia Cloud SQL fue creada sin IP pública:
+
+```bash
+gcloud sql instances create jameofit-postgres-dev \
+  --database-version=POSTGRES_16 \
+  --region=southamerica-west1 \
+  --edition=ENTERPRISE \
+  --tier=db-f1-micro \
+  --storage-size=10GB \
+  --storage-type=SSD \
+  --network=projects/jameofit/global/networks/jameofit-vpc \
+  --no-assign-ip \
+  --availability-type=ZONAL \
+  --backup-start-time=03:00 \
+  --maintenance-window-day=SUN \
+  --maintenance-window-hour=04 \
+  --deletion-protection
+```
+
+La cadena JDBC definida para el servicio IAM quedó de la siguiente manera:
+
+```text
+SPRING_DATASOURCE_URL=jdbc:postgresql://10.20.0.3:5432/jameofit_iam
+SPRING_DATASOURCE_USERNAME=jameofit_app
+SPRING_DATASOURCE_PASSWORD=<from Secret Manager>
+```
+
+<div align="center">
+  <img src="assets/gcp_cloud_sql_postgres_private_ip.png" alt="GCP Cloud SQL PostgreSQL Private IP" width="75%">
+  <p><em>Instancia Cloud SQL PostgreSQL creada con IP privada para el backend de JameoFit</em></p>
+</div>
+
+---
+
+### **7. Gestión de secretos con Secret Manager**
+
+Las credenciales y parámetros sensibles no fueron almacenados en repositorios ni archivos versionados. En su lugar, se configuró **Google Secret Manager** para gestionar los valores de conexión a Cloud SQL.
+
+Se crearon los siguientes secretos:
+
+```text
+jameofit-db-password
+jameofit-db-url
+jameofit-db-username
+```
+
+Cada secreto cuenta con una versión habilitada y será consumido por la máquina virtual mediante una Service Account de runtime.
+
+```bash
+gcloud secrets create jameofit-db-password --replication-policy="automatic"
+gcloud secrets create jameofit-db-url --replication-policy="automatic"
+gcloud secrets create jameofit-db-username --replication-policy="automatic"
+```
+
+Posteriormente, se creó la Service Account de runtime para la VM:
+
+```text
+jameofit-vm-runtime@jameofit.iam.gserviceaccount.com
+```
+
+Esta cuenta recibió permisos mínimos para:
+
+```text
+- Leer imágenes desde Artifact Registry.
+- Leer secretos específicos de base de datos desde Secret Manager.
+```
+
+Roles asignados:
+
+```text
+roles/artifactregistry.reader
+roles/secretmanager.secretAccessor
+```
+
+El permiso de `secretAccessor` fue asignado por secreto, evitando otorgar acceso amplio a todos los secretos del proyecto.
+
+<div align="center">
+  <img src="assets/gcp_secret_manager_db_secrets.png" alt="GCP Secret Manager DB Secrets" width="75%">
+  <p><em>Secretos de conexión a Cloud SQL almacenados en Google Secret Manager</em></p>
+</div>
+
+---
+
+### **8. Creación de máquina virtual privada en Compute Engine**
+
+Se creó una máquina virtual en **Google Compute Engine**. Esta VM será utilizada como host de ejecución para Docker Compose.
+
+La VM fue diseñada como un nodo privado, sin IP pública, siguiendo buenas prácticas de seguridad:
+
+```text
+VM: jameofit-backend-dev-vm
+Zone: southamerica-west1-a
+Network: jameofit-vpc
+Subnet: jameofit-subnet-saw1
+External IP: disabled
+Service Account: jameofit-vm-runtime@jameofit.iam.gserviceaccount.com
+Runtime: Docker + Docker Compose
+```
+
+La decisión de no asignar IP pública reduce la superficie de exposición de la plataforma. El acceso administrativo se realiza mediante **IAP TCP forwarding**, evitando abrir SSH directamente a internet.
+
+Se creó una regla de firewall para permitir SSH únicamente a través del rango de IAP:
+
+```text
+Firewall rule: allow-iap-ssh-jameofit
+Source range: 35.235.240.0/20
+Target tag: jameofit-backend
+Port: tcp:22
+```
+
+Además, para permitir que la VM privada pueda descargar actualizaciones, instalar Docker y acceder a repositorios externos sin tener IP pública, se configuró **Cloud NAT**:
+
+```text
+Cloud Router: jameofit-router
+Cloud NAT: jameofit-nat
+Network: jameofit-vpc
+Region: southamerica-west1
+NAT mode: all subnet IP ranges
+```
+
+Con Cloud NAT, la VM puede iniciar conexiones salientes a internet sin aceptar conexiones entrantes desde internet.
+
+<div align="center">
+  <img src="assets/gcp_compute_engine_private_vm.png" alt="GCP Compute Engine Private VM" width="75%">
+  <p><em>Máquina virtual privada creada para ejecutar Docker Compose en GCP</em></p>
+</div>
+
+<div align="center">
+  <img src="assets/gcp_cloud_nat_jameofit.png" alt="GCP Cloud NAT JameoFit" width="75%">
+  <p><em>Cloud NAT configurado para permitir salida a internet desde la VM privada</em></p>
+</div>
+
+---
+
+### **9. Preparación de Docker y Docker Compose en la VM**
+
+Una vez configurada la conectividad de salida mediante Cloud NAT, se instaló Docker en la VM privada. Esto permite ejecutar la plataforma backend mediante Docker Compose, manteniendo un enfoque similar al entorno local ya validado.
+
+Los pasos realizados incluyen:
+
+```bash
+sudo apt-get update
+sudo apt-get install -y ca-certificates curl gnupg git
+```
+
+Posteriormente, se configuró el repositorio oficial de Docker para Debian y se instalaron los paquetes:
+
+```text
+docker-ce
+docker-ce-cli
+containerd.io
+docker-buildx-plugin
+docker-compose-plugin
+```
+
+Se validó la instalación mediante:
+
+```bash
+docker --version
+docker compose version
+docker run hello-world
+```
+
+También se configuró Docker para autenticarse contra Artifact Registry:
+
+```bash
+gcloud auth configure-docker southamerica-west1-docker.pkg.dev --quiet
+```
+
+Con esto, la VM queda preparada para descargar imágenes desde:
+
+```text
+southamerica-west1-docker.pkg.dev/jameofit/jameofit-docker
+```
+
+<div align="center">
+  <img src="assets/gcp_vm_docker_installation.png" alt="Docker Installation on GCP VM" width="75%">
+  <p><em>Instalación y validación de Docker y Docker Compose en la VM privada</em></p>
+</div>
+
+---
+
+### **10. Configuración de platform-deploy para GCP**
+
+El repositorio `platform-deploy` fue preparado para centralizar la operación cloud de la plataforma. Este repositorio contiene los archivos necesarios para levantar el entorno GCP mediante Docker Compose, sin depender de comandos manuales aislados.
+
+La estructura propuesta para GCP es:
+
+```text
+platform-deploy/
+├── docker/
+│   └── docker-compose.gcp.yml
+├── env/
+│   └── gcp.env.example
+├── scripts/
+│   ├── gcp-load-secrets.sh
+│   ├── gcp-up.sh
+│   ├── gcp-down.sh
+│   └── gcp-healthcheck.sh
+└── README.md
+```
+
+El archivo `docker-compose.gcp.yml` no incluye PostgreSQL como contenedor, debido a que la persistencia se gestiona con Cloud SQL.
+
+La carga de secretos se realiza mediante el script:
+
+```bash
+./scripts/gcp-load-secrets.sh
+```
+
+Este script recupera los valores desde Secret Manager y genera el archivo `env/gcp.env` en la VM. Dicho archivo no debe versionarse.
+
+Flujo esperado de despliegue:
+
+```bash
+./scripts/gcp-load-secrets.sh
+./scripts/gcp-up.sh
+./scripts/gcp-healthcheck.sh
+```
+
+El archivo `gcp.env` contiene valores como:
+
+```text
+GCP_PROJECT_ID=jameofit
+GCP_REGION=southamerica-west1
+GAR_REPOSITORY=jameofit-docker
+IMAGE_TAG=main-latest
+SPRING_PROFILES_ACTIVE=gcp
+CONFIG_SERVER_URL=http://config-service:8888
+EUREKA_SERVER_URL=http://eureka-service:8761/eureka/
+SPRING_DATASOURCE_URL=jdbc:postgresql://10.20.0.3:5432/jameofit_iam
+SPRING_DATASOURCE_USERNAME=jameofit_app
+SPRING_DATASOURCE_PASSWORD=<from Secret Manager>
+```
+
+<div align="center">
+  <img src="assets/platform_deploy_gcp_compose_config.png" alt="platform-deploy GCP Docker Compose" width="75%">
+  <p><em>Configuración de platform-deploy para ejecutar la plataforma base en GCP</em></p>
+</div>
+
+---
+
+### **11. Estrategia de exposición y acceso a endpoints**
+
+Como la VM fue creada sin IP pública, los endpoints internos no quedan expuestos directamente en internet. Esto es una decisión de seguridad intencional.
+
+Para pruebas internas, documentación Swagger, Eureka Dashboard y validación de endpoints, se utilizará **IAP TCP forwarding**. Por ejemplo, para acceder al Gateway desde la máquina local del desarrollador:
+
+```bash
+gcloud compute start-iap-tunnel jameofit-backend-dev-vm 8080 \
+  --project=jameofit \
+  --zone=southamerica-west1-a \
+  --local-host-port=localhost:8080
+```
+
+Luego, desde el navegador local se podrá acceder a:
+
+```text
+http://localhost:8080
+```
+
+En caso de requerir acceso al dashboard de Eureka:
+
+```bash
+gcloud compute start-iap-tunnel jameofit-backend-dev-vm 8761 \
+  --project=jameofit \
+  --zone=southamerica-west1-a \
+  --local-host-port=localhost:8761
+```
+
+Y luego:
+
+```text
+http://localhost:8761
+```
+
+Esta estrategia permite validar la plataforma sin exponer públicamente servicios internos como Config Server, Eureka, Actuator o Swagger.
+
+Para una exposición pública del backend hacia el frontend, la alternativa recomendada para una fase posterior es configurar un **HTTPS Load Balancer** apuntando únicamente al `gateway-service`, manteniendo la VM privada y evitando exposición directa de los microservicios.
+
+<div align="center">
+  <img src="assets/gcp_iap_tunnel_gateway.png" alt="GCP IAP Tunnel Gateway" width="75%">
+  <p><em>Acceso privado al Gateway mediante IAP TCP forwarding para pruebas y revisión de endpoints</em></p>
+</div>
+
+---
+
+### **12. Alcance del despliegue durante el Sprint**
+
+El alcance del despliegue fue controlado intencionalmente para reducir riesgos.
+
+Servicios incluidos en la primera plataforma base:
+
+```text
+config-service
+eureka-service
+iam-service
+gateway-service
+goals-service
+meal-plans-service
+profiles-service
+recipes-service
+tracking-service
+communication-service
+```
+
+El servicio `communication-service` fue excluido del primer despliegue porque utiliza MongoDB, lo cual agregaría complejidad adicional a la primera validación cloud. Su despliegue se reservará para una fase posterior, una vez que la plataforma base en GCP haya sido validada correctamente.
+
+También se decidió no integrar Auth0 en esta etapa para evitar mezclar la validación de infraestructura cloud con un rediseño del modelo de autenticación.
+
+---
+
+### **13. Resultado final del Sprint**
+
+Como resultado del Sprint, se logró dejar preparada la base cloud para el despliegue controlado del backend de JameoFit en Google Cloud Platform.
+
+Los principales resultados alcanzados fueron:
+
+* Proyecto GCP configurado con región `southamerica-west1`.
+* Artifact Registry creado para almacenar imágenes Docker privadas.
+* Autenticación entre GitHub Actions y GCP configurada mediante Workload Identity Federation.
+* Service Account de CI/CD creada sin uso de claves JSON.
+* Workflows reutilizables preparados para build y push de imágenes Docker.
+* Imágenes base publicadas en Artifact Registry con tags trazables.
+* VPC privada creada para la plataforma backend.
+* Cloud SQL PostgreSQL configurado con IP privada.
+* Secret Manager configurado para credenciales de base de datos.
+* Service Account runtime creada para la VM.
+* Máquina virtual privada preparada para ejecutar Docker Compose.
+* Cloud NAT configurado para permitir salida a internet sin IP pública.
+* Estrategia de acceso privado mediante IAP TCP forwarding definida para pruebas internas.
+* `platform-deploy` adaptado para GCP y Cloud SQL.
+
+La arquitectura resultante permite que la plataforma evolucione hacia un despliegue más completo, manteniendo una separación clara entre construcción de imágenes, almacenamiento de artefactos, secretos, base de datos administrada, runtime y acceso seguro.
+
+<div align="center">
+  <img src="assets/gcp_deployment_summary_jameofit.png" alt="JameoFit GCP Deployment Summary" width="75%">
+  <p><em>Resumen de recursos configurados para el despliegue del backend de JameoFit en GCP</em></p>
+</div>
 
 #### 6.2.2.9. Team Collaboration Insights during Sprint
 
