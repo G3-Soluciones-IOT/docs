@@ -4302,6 +4302,10 @@ Vista de Notificaciones:
 Vista de Suscripciones:
 ![Execution Evidence](assets/TP/frontend_subscriptions.png)
 
+Vista de Dispositivos IoT:
+![Execution Evidence](assets/TP/frontend_devicesiot.png) 
+![Execution Evidence](assets/TP/frontend_bottle.png) 
+![Execution Evidence](assets/TP/frontend_scale.png) 
 
 **Demo Web Application:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323270_upc_edu_pe/IQBkdUMDlBydSIw_rbnxEvXLAahQB6s2f2-dKfqVJFoUD0g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=uS2o8r
 
