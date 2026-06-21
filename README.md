@@ -4689,8 +4689,149 @@ En esta sección se presentan las evidencias de desarrollo correspondientes al S
 | frontend | develop | 8820043 | feat(useTips): implement custom hook for fetching and managing tips | - | 18/06/2026 |
 | frontend | develop | 38f74bb | "feat(dashboard): integrate dashboard data from db.json" | - | 19/06/2026 |
 
+**Config Service:** [https://github.com/G3-Soluciones-IOT/config-service](https://github.com/G3-Soluciones-IOT/config-service)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| config-service | main | cb5d025 | feat(cd): add continuous deployment workflow for GCP Artifact Registry | - | 20/06/2026 |
+| config-service | main | 84e25a2 | refactor(test): enhance identity verification step and clarify repository access | - | 20/06/2026 |
+| config-service | main | 623eb17 | feat(gcp): add workflow for Google Cloud authentication testing | - | 20/06/2026 |
+| config-service | main | e794bcc | feat(ci): add Docker build workflow for continuous integration | - | 20/06/2026 |
+| config-service | main | 86ca6d6 | refactor(gateway): update gateway configuration structure and improve route definitions | - | 20/06/2026 |
+| config-service | main | 2c0b97f | feat(routes): add RewritePath filters for service routes in gateway configuration | - | 20/06/2026 |
+| config-service | main | b52cedf | feat(config): add base URLs for profiles and recipes services in tracking configuration | - | 20/06/2026 |
+| config-service | main | d173dde | fix(config): correct indentation in MongoDB URI configuration | - | 20/06/2026 |
+| config-service | main | 7de4796 | fix(config): update MongoDB configuration to use URI format | - | 20/06/2026 |
+| config-service | main | a235103 | refactor(routes): rename chat and mealplan service routes to communication and meal-plans services | - | 19/06/2026 |
+| config-service | main | 95f2704 | fix(docker): update Dockerfile to copy JAR files directly and modify .dockerignore | - | 19/06/2026 |
+| config-service | main | 6171b88 | feat(config): add configuration files for communication and meal plans services | - | 19/06/2026 |
+| config-service | main | ad20d93 | chore(maven): update Maven wrapper to version 3.9.16 and add .gitattributes for line endings | - | 19/06/2026 |
+| config-service | main | b9cb180 | develop to main | - | 07/06/2026 |
+| config-service | main | 1431bfd | fix(pom.xml): correct indentation in POM file for schemaLocation | - | 07/06/2026 |
+| config-service | main | e56b31c | feat(iam-service): update JWT key paths and expiration configuration to use environment variables | - | 07/06/2026 |
+| config-service | main | 1341185 | fix(eureka-service): set prefer-ip-address to false | - | 07/06/2026 |
+| config-service | main | 4d50b6a | feat(config-service): add config-service as standalone repository | - | 07/06/2026 |
+
+**Eureka Service:** [https://github.com/G3-Soluciones-IOT/eureka-service](https://github.com/G3-Soluciones-IOT/eureka-service)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| eureka-service | main | c432902 | feat(eureka-service): add eureka-service as standalone repository | - | 07/06/2026 |
+
+**Gateway Service:** [https://github.com/G3-Soluciones-IOT/gateway-service](https://github.com/G3-Soluciones-IOT/gateway-service)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| gateway-service | main | c3d3e13 | feat(ci): add Docker build workflow for continuous integration | - | 20/06/2026 |
+| gateway-service | main | 1ce40d0 | ci: update .gitattributes for consistent LF line endings and ensure Maven wrapper files are shell-safe | - | 19/06/2026 |
+| gateway-service | main | 0e6dd71 | ci(wrapper): escape url and enforce LF line endings for GitHub CI | - | 19/06/2026 |
+| gateway-service | main | b06049f | chore: update Maven Wrapper to 3.9.16 | - | 19/06/2026 |
+| gateway-service | main | f28b436 | feat(gateway-service): add gateway-service as standalone repository | - | 07/06/2026 |
+
+**IAM Service:** [https://github.com/G3-Soluciones-IOT/iam-service](https://github.com/G3-Soluciones-IOT/iam-service)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| iam-service | main | 7f8abfd | feat(ci): add Docker build workflow for continuous integration | - | 20/06/2026 |
+| iam-service | main | 87fba50 | chore: streamline CI configuration by using shared workflow for Java CI | - | 19/06/2026 |
+| iam-service | main | 8450c8f | refactor: simplify DaoAuthenticationProvider initialization | - | 19/06/2026 |
+| iam-service | main | fa94eaa | chore: update pom.xml for Spring Boot 4.0.7, dependency management, and build plugins | - | 19/06/2026 |
+| iam-service | main | 3191cb0 | chore: update Maven wrapper to version 3.9.16 and add .gitattributes for consistent line endings | - | 19/06/2026 |
+| iam-service | main | 8736f6c | feat(iam): adding passwordEncoder and Jwks | - | 08/06/2026 |
+| iam-service | main | c4705d1 | feat(iam-service): add iam-service as standalone repository | - | 07/06/2026 |
+
+**Profiles Service:** [https://github.com/G3-Soluciones-IOT/profiles-service](https://github.com/G3-Soluciones-IOT/profiles-service)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| profiles-service | main | 6e9df85 | feat(ci): add Docker build workflow for continuous integration | - | 20/06/2026 |
+| profiles-service | main | 6abd341 | chore: add load-balanced RestClient configuration and update service constructors | - | 20/06/2026 |
+| profiles-service | main | f13b2f6 | chore: add pluralization utility and implement custom naming strategy for JPA | - | 20/06/2026 |
+| profiles-service | main | 633507d | chore: refactor package structure for profiles-service | - | 20/06/2026 |
+| profiles-service | main | 8c94cb1 | chore: update CI configuration and dependencies for profiles-service | - | 20/06/2026 |
+| profiles-service | main | eeae133 | chore: update server port to 8086 in application.properties and Dockerfile | - | 20/06/2026 |
+| profiles-service | main | 8a896f8 | chore: update Maven wrapper to version 3.9.16 and add .gitattributes | - | 20/06/2026 |
+| profiles-service | main | 946f752 | feat: profiles-service added | - | 17/06/2026 |
+
+**Goals Service:** [https://github.com/G3-Soluciones-IOT/goals-service](https://github.com/G3-Soluciones-IOT/goals-service)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| goals-service | main | 0791f21 | feat(ci): add Docker build workflow for continuous integration | - | 20/06/2026 |
+| goals-service | main | bce4a0c | chore: update groupId and add pluralization dependency in pom.xml | - | 20/06/2026 |
+| goals-service | main | a2e9cf7 | chore: refactor package structure for goals service | - | 20/06/2026 |
+| goals-service | main | a76c966 | chore: update dependencies and plugins in pom.xml for Spring Boot 4 compatibility | - | 20/06/2026 |
+| goals-service | main | 10503cf | chore: refactor CI configuration to use shared workflow for Java CI | - | 20/06/2026 |
+| goals-service | main | edcd711 | chore: update Maven wrapper to version 3.9.16 and add .gitattributes | - | 19/06/2026 |
+| goals-service | main | 975a8af | feat: goals service added | - | 17/06/2026 |
+
+**Meal Plans Service:** [https://github.com/G3-Soluciones-IOT/meal-plans-service](https://github.com/G3-Soluciones-IOT/meal-plans-service)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| meal-plans-service | main | 13780cd | feat(ci): add Docker build workflow for continuous integration | - | 20/06/2026 |
+| meal-plans-service | main | 421020a | feat: add load-balanced RestClient configuration for external services | - | 20/06/2026 |
+| meal-plans-service | main | 8e26ac9 | feat: add pluralization strategy for table naming in JPA | - | 20/06/2026 |
+| meal-plans-service | main | da8a322 | chore: remove unused imports and update groupId in pom.xml | - | 20/06/2026 |
+| meal-plans-service | main | 12228de | chore: refactor package structure for meal plans service | - | 20/06/2026 |
+| meal-plans-service | main | 17bfd7c | feat: update CI configuration and dependencies for meal-plans-service | - | 20/06/2026 |
+| meal-plans-service | main | f3d8fce | feat: add Maven Wrapper for project setup | - | 20/06/2026 |
+| meal-plans-service | main | 1fc4c8f | feat: meal-plans-service added | - | 17/06/2026 |
+
+**Recipes Service:** [https://github.com/G3-Soluciones-IOT/recipes-service](https://github.com/G3-Soluciones-IOT/recipes-service)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| recipes-service | main | 39bda8e | feat(ci): add Docker build workflow for continuous integration | - | 20/06/2026 |
+| recipes-service | main | 713b15a | chore: update ExternalProfileAndTrackingService to use load-balanced RestClient | - | 20/06/2026 |
+| recipes-service | main | b053044 | chore: refactor package structure for recipes service | - | 20/06/2026 |
+| recipes-service | main | a79ea31 | chore: update CI configuration and dependencies in pom.xml for improved build process | - | 20/06/2026 |
+| recipes-service | main | 3c961cb | chore: update server port to 8087 in application.properties and Dockerfile | - | 20/06/2026 |
+| recipes-service | main | 7209a8f | chore: update Maven wrapper to version 3.9.16 and add .gitattributes | - | 20/06/2026 |
+| recipes-service | main | 6ee45b4 | feat: recipes-service added | - | 17/06/2026 |
+| recipes-service | main | 39a3afe | Initial commit | - | 17/06/2026 |
+
+**Tracking Service:** [https://github.com/G3-Soluciones-IOT/tracking-service](https://github.com/G3-Soluciones-IOT/tracking-service)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| tracking-service | main | 18fd47c | feat(ci): add Docker build workflow for continuous integration | - | 20/06/2026 |
+| tracking-service | main | 6e75c5b | feat: implement load-balanced RestClient configuration for external services | - | 20/06/2026 |
+| tracking-service | main | 399f17a | feat: add pluralization strategy for table naming in JPA | - | 20/06/2026 |
+| tracking-service | main | d295741 | fix: change main application location for tracking service | - | 20/06/2026 |
+| tracking-service | main | f05d883 | chore: refactor package structure for tracking service | - | 20/06/2026 |
+| tracking-service | main | b0423ee | chore: update CI configuration and dependencies for Spring Boot 4.0.7 | - | 20/06/2026 |
+| tracking-service | main | f2e27ad | chore: update server port to 8089 in application.properties and Dockerfile | - | 20/06/2026 |
+| tracking-service | main | 50c52f0 | chore: update Maven wrapper to version 3.9.16 and add .gitattributes | - | 20/06/2026 |
+| tracking-service | main | f50e79f | feat: tracking service added | - | 17/06/2026 |
+
+**Communication Service:** [https://github.com/G3-Soluciones-IOT/communication-service](https://github.com/G3-Soluciones-IOT/communication-service)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| communication-service | main | 81b298f | feat(ci): add Docker build workflow for continuous integration | - | 20/06/2026 |
+| communication-service | main | fb8f71f | feat(ci): add CI configuration for Java workflow | - | 20/06/2026 |
+| communication-service | main | 8fa2d13 | feat(communication-service): add communication-service as standalone repository | - | 20/06/2026 |
 
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review
+
+Durante este sprint se implementó la estructura inicial de la suite de pruebas automatizadas utilizando el enfoque Behavior-Driven Development (BDD) y el lenguaje Gherkin para la definición de escenarios funcionales. Los archivos .feature elaborados corresponden a las historias de usuario priorizadas dentro del Sprint Backlog, permitiendo validar el comportamiento esperado de las funcionalidades principales desarrolladas durante esta iteración.
+
+Las pruebas fueron organizadas bajo la estructura Given–When–Then, considerando escenarios relacionados con la navegación del Landing Page, la interacción con las vistas principales de la aplicación web y la comunicación inicial entre el Frontend y los servicios base del Backend. Asimismo, se preparó la configuración inicial del entorno de testing y el repositorio destinado al versionamiento de los artefactos de prueba.
+
+Esta suite de pruebas permite mantener la trazabilidad entre las historias de usuario y sus criterios de aceptación, facilitar futuras automatizaciones de pruebas y proporcionar evidencia clara y verificable del avance funcional alcanzado durante el Sprint 1.
+
+![Testing Suite Evidence](assets/TP/testing_suite.png)
+
+**Testing:** [https://github.com/G3-Soluciones-IOT/testing](https://github.com/G3-Soluciones-IOT/testing)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Committed on (Date)** |
+|----------------|------------|----------------|----------------------|---------------------------|--------------------------|
+| Testing | main | d7a7a65 | test(bdd): implement shared cucumber world and step definitions | - | 15/05/2026 |
+| Testing | main | 3c89b91 | test(bdd): add iot ai and landing page features | - | 15/05/2026 |
+| Testing | main | 05ec68e | test(bdd): add tracking professional and subscription features | - | 15/05/2026 |
+| Testing | main | 101a7c5 | test(bdd): add account profile and plan features | - | 15/05/2026 |
+
 
 #### 6.2.2.6. Execution Evidence for Sprint Review
 
@@ -4700,6 +4841,142 @@ En esta sección se presentan las evidencias de ejecución correspondientes al S
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review
 
 En esta sección se presentan las evidencias de documentación de los servicios web desarrollados durante el Sprint 2, incluyendo la definición y documentación de los principales endpoints implementados para el sistema. Asimismo, se muestran las especificaciones elaboradas mediante OpenAPI, las acciones soportadas por cada servicio y ejemplos de interacción con los endpoints, permitiendo evidenciar el correcto diseño y documentación de la comunicación entre el Frontend y Backend del proyecto.
+
+**Meal Plan**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /meal-plan | Obtener todos los meal plans | GET | `/api/v1/meal-plan` | Ninguno | `{ "id": 0, "name": "string", "description": "string", "calories": 0.1, "carbs": 0.1, "proteins": 0.1, "fats": 0.1, "profileId": 0, "category": "string", "isCurrent": true, "entries": [{ "id": 0, "recipeId": 0, "mealPlanType": "string", "mealPlanId": 0 }], "tags": ["string"] }` | (URL Swagger/doc) |
+| /meal-plan | Crear un nuevo meal plan | POST | `/api/v1/meal-plan` | name, description, calories, carbs, proteins, fats, profileId, category, isCurrent, entries, tags | Igual que el response de GET | (URL Swagger/doc) |
+| /meal-plan/{id} | Obtener un meal plan por ID | GET | `/api/v1/meal-plan/{mealPlanId}` | mealPlanId (path) | Igual que el response de GET | (URL Swagger/doc) |
+| /meal-plan/{id} | Actualizar un meal plan por ID | PUT | `/api/v1/meal-plan/{mealPlanId}` | Todos los campos del objeto meal plan | Igual que el response de GET | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence1.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence2.png)
+
+**User Profiles**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /api/v1/user-profiles | Obtener todos los perfiles de usuario | GET | `/api/v1/user-profiles` | Ninguno | `{ "gender":"string", "height":0.1, "weight":0.1, "userScore":0, "activityLevelId":0, "objectiveId":0, "allergyIds":[0] }` | (URL Swagger/doc) |
+| /api/v1/user-profiles | Crear un nuevo perfil de usuario | POST | `/api/v1/user-profiles` | gender, height, weight, userScore, activityLevelId, objectiveId, allergyIds | Igual que el response de GET | (URL Swagger/doc) |
+| /api/v1/user-profiles/{id} | Obtener un perfil de usuario por ID | GET | `/api/v1/user-profiles/{id}` | id (path) | Igual que el response de GET | (URL Swagger/doc) |
+| /api/v1/user-profiles/{id} | Actualizar un perfil de usuario por ID | PUT | `/api/v1/user-profiles/{id}` | id, gender, height, weight, userScore, activityLevelId, objectiveId, allergyIds | Igual que el response de GET | (URL Swagger/doc) |
+| /api/v1/user-profiles/{id} | Eliminar un perfil de usuario por ID | DELETE | `/api/v1/user-profiles/{id}` | id (path) | `204 No Content` | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence3.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence4.png)
+
+**Objectives**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /api/v1/objectives | Obtener todos los objetivos | GET | `/api/v1/objectives` | Ninguno | `{ "id":0, "objectiveName":"string", "score":0, "description":"string" }` | (URL Swagger/doc) |
+| /api/v1/objectives | Crear un nuevo objetivo | POST | `/api/v1/objectives` | id, objectiveName, score, description | Igual que el response de GET | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence5.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence6.png)
+
+**Allergies**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /api/v1/allergies | Obtener todas las alergias | GET | `/api/v1/allergies` | Ninguno | `{ "id": 0, "name": "string", "relatedIngredients": [{ "name": "string" }] }` | (URL Swagger/doc) |
+| /api/v1/allergies | Crear una nueva alergia | POST | `/api/v1/allergies` | id, name, relatedIngredients | Igual que el response de GET | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence7.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence8.png)
+
+**Activity levels**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /api/v1/activity-levels | Obtener todos los niveles | GET | `/api/v1/activity-levels` | Ninguno | `{ "createdAt": "2025-06-23T22:41:41.417Z", "updatedAt": "2025-06-23T22:41:41.417Z", "id": 0, "name": "string", "description": "string", "activityFactor": 0.1 }` | (URL Swagger/doc) |
+| /api/v1/activity-levels | Crear un nuevo nivel de actividad | POST | `/api/v1/activity-levels` | createdAt, updatedAt, id, name, description, activityFactor | Igual que el response de GET | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence9.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence10.png)
+
+**Favorite Recipes**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /api/v1/favorite-recipes | Crear una receta favorita | POST | `/api/v1/favorite-recipes` | userId, recipeId | `{ "userId": 0, "recipeId": 0 }` | (URL Swagger/doc) |
+| /api/v1/favorite-recipes/{userId} | Obtener recetas favoritas por usuario | GET | `/api/v1/favorite-recipes/{userId}` | userId (path) | `[ { "id": 0, "userId": 0, "recipeId": 0, "recipeName": "string" } ]` | (URL Swagger/doc) |
+| /api/v1/favorite-recipes/{userId}/{recipeId} | Eliminar una receta favorita | DELETE | `/api/v1/favorite-recipes/{userId}/{recipeId}` | userId, recipeId | `204 No Content` | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence11.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence12.png)
+
+**Recipes & Related**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /api/v1/recipes | Crear una nueva receta | POST | `/api/v1/recipes` | name, description, preparationTime, difficulty, categoryId, recipeTypeId, userId | `{ "name": "string", ... }` | (URL Swagger/doc) |
+| /api/v1/recipes/{recipeId} | Obtener receta por ID | GET | `/api/v1/recipes/{recipeId}` | recipeId (path) | `{ "id": 0, "userId": 0, "name": "string", "description": "string", ... }` | (URL Swagger/doc) |
+| /api/v1/recipes/{recipeId}/ingredients/{ingredientId} | Añadir ingrediente a una receta | POST | `/api/v1/recipes/{recipeId}/ingredients/{ingredientId}` | recipeId, ingredientId | `204 No Content` | (URL Swagger/doc) |
+| /api/v1/ingredients | Crear un nuevo ingrediente | POST | `/api/v1/ingredients` | name, calories, carbohydrates, proteins, fats, macronutrientValuesId | `{ "name": "string", ... }` | (URL Swagger/doc) |
+| /api/v1/ingredients/{ingredientId} | Eliminar un ingrediente | DELETE | `/api/v1/ingredients/{ingredientId}` | ingredientId (path) | `204 No Content` | (URL Swagger/doc) |
+| /api/v1/categories | Crear una nueva categoría | POST | `/api/v1/categories` | name | `{ "name": "string" }` | (URL Swagger/doc) |
+| /api/v1/categories/{categoryId} | Obtener categoría por ID | GET | `/api/v1/categories/{categoryId}` | categoryId (path) | `{ "id": 0, "name": "string" }` | (URL Swagger/doc) |
+| /api/v1/recipe-types | Crear un nuevo tipo de receta | POST | `/api/v1/recipe-types` | name | `{ "name": "string" }` | (URL Swagger/doc) |
+| /api/v1/recipe-types/{recipeTypeId} | Obtener tipo de receta por ID | GET | `/api/v1/recipe-types/{recipeTypeId}` | recipeTypeId (path) | `{ "id": 0, "name": "string" }` | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence13.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence14.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence15.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence16.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence17.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence18.png)
+
+**Tracking & Goals**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /api/v1/tracking | Crear un nuevo tracking | POST | `/api/v1/tracking` | Body con datos de tracking | `{ "id": 0, "userId": 0, "startDate": "2025-06-23", "endDate": "2025-06-30" }` | (URL Swagger/doc) |
+| /api/v1/tracking/user/{userId} | Obtener tracking por ID de usuario | GET | `/api/v1/tracking/user/{userId}` | userId (path) | `{ "id": 0, "userId": 1, "startDate": "2025-06-23", "endDate": "2025-06-30" }` | (URL Swagger/doc) |
+| /api/v1/tracking/macronutrients/consumed/tracking/{trackingId} | Obtener macros consumidos por tracking | GET | `/api/v1/tracking/macronutrients/consumed/tracking/{trackingId}` | trackingId (path) | `{ "calories": 1200.0, "carbs": 150.0, "proteins": 80.0, "fats": 50.0 }` | (URL Swagger/doc) |
+| /api/v1/macronutrients/consumed/tracking/{trackingId} | Obtener valores de macronutrientes consumidos | GET | `/api/v1/macronutrients/consumed/tracking/{trackingId}` | trackingId (path) | Igual que el response anterior | (URL Swagger/doc) |
+| /api/v1/tracking-goals | Crear un nuevo Tracking Goal | POST | `/api/v1/tracking-goals` | Body con objetivos | `{ "id": 1, "userId": 1, "targetCalories": 2000.0, "targetCarbs": 250.0, "targetProteins": 100.0, "targetFats": 70.0 }` | (URL Swagger/doc) |
+| /api/v1/tracking-goals/{trackingGoalId}/target-macros | Obtener macros objetivos por ID de Tracking Goal | GET | `/api/v1/tracking-goals/{trackingGoalId}/target-macros` | trackingGoalId (path) | `{ "targetCalories": 2000.0, "targetCarbs": 250.0, "targetProteins": 100.0, "targetFats": 70.0 }` | (URL Swagger/doc) |
+| /api/v1/tracking-goals/user/{userId} | Obtener Tracking Goal por usuario | GET | `/api/v1/tracking-goals/user/{userId}` | userId (path) | Igual que el response de POST de tracking-goals | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence19.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence20.png)
+
+**Meal Plan Entries**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /api/v1/meal-plan-entries/{mealPlanEntryId} | Actualizar una entrada de meal plan | PUT | `/api/v1/meal-plan-entries/{mealPlanEntryId}` | mealPlanEntryId (path), body con datos a actualizar | `{ "id":1, "recipeId":10, "mealPlanType":"LUNCH", "mealPlanId":3 }` | (URL Swagger/doc) |
+| /api/v1/meal-plan-entries/tracking/{trackingId} | Añadir una nueva entrada de meal plan al tracking | POST | `/api/v1/meal-plan-entries/tracking/{trackingId}` | trackingId (path), body con recipeId, mealPlanType | `{ "id":1, "recipeId":10, "mealPlanType":"LUNCH", "mealPlanId":3 }` | (URL Swagger/doc) |
+| /api/v1/meal-plan-entries/tracking/{trackingId} | Obtener todas las entradas de meal plan por tracking | GET | `/api/v1/meal-plan-entries/tracking/{trackingId}` | trackingId (path) | `[ { "id":1, "recipeId":10, "mealPlanType":"BREAKFAST", "mealPlanId":3 }, ... ]` | (URL Swagger/doc) |
+| /api/v1/meal-plan-entries/tracking/{trackingId}/entry/{mealPlanEntryId} | Eliminar una entrada específica del meal plan | DELETE | `/api/v1/meal-plan-entries/tracking/{trackingId}/entry/{mealPlanEntryId}` | trackingId, mealPlanEntryId (path) | `204 No Content` | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence21.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence22.png)
+
+**Recommendation templates**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /api/v1/recommendation-templates | Obtener todos los templates | GET | `/api/v1/recommendation-templates` | Ninguno | `[ { "id":1, "title":"Plan nutricional para masa muscular", "content":"Incluye proteína magra, carbos complejos y grasas buenas", "recommendations":[] } ]` | (URL Swagger/doc) |
+| /api/v1/recommendation-templates | Crear un nuevo template | POST | `/api/v1/recommendation-templates` | title, content | `{ "id":2, "title":"Plan post-entreno", "content":"Incluye batidos con whey protein, avena y banana", "recommendations":[] }` | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence23.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence24.png)
+
+**Recommendations**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------------|
+| /api/v1/recommendations/user/{userId} | Obtener recomendaciones por usuario | GET | `/api/v1/recommendations/user/{userId}` | userId (path) | `[ { "id":5, "userId":{"value":1}, "templateId":2, "reason":"Fase de volumen", "notes":"Comidas densas en calorías", "timeOfDay":"MORNING", "score":9.1, "status":"ACTIVE", "assignedAt":"2025-06-23T04:49:59.728Z" } ]` | (URL Swagger/doc) |
+| /api/v1/recommendations | Asignar una recomendación a un usuario | POST | `/api/v1/recommendations` | userId, templateId, reason, notes, timeOfDay, score, status | `{ "id":6, "userId":{"value":2}, "templateId":3, "reason":"Recuperación post-lesión", "notes":"Alta proteína, omega 3 y antioxidantes", "timeOfDay":"EVENING", "score":8.3, "status":"ACTIVE", "assignedAt":"2025-06-23T04:49:59.728Z" }` | (URL Swagger/doc) |
+| /api/v1/recommendations/{id} | Actualizar una recomendación | PUT | `/api/v1/recommendations/{id}` | id, reason, notes, timeOfDay, score, status | `{ "id":6, "userId":{"value":2}, "templateId":3, "reason":"Actualización: aumento de actividad", "notes":"Agregar snack con frutos secos", "timeOfDay":"AFTERNOON", "score":9.0, "status":"ACTIVE", "assignedAt":"2025-06-23T04:49:59.728Z" }` | (URL Swagger/doc) |
+| /api/v1/recommendations/{id} | Eliminar una recomendación | DELETE | `/api/v1/recommendations/{id}` | id (path) | `204 No Content` | (URL Swagger/doc) |
+
+![Services Documentation Evidence](assets/TP/services_documentation_evidence25.png)
+![Services Documentation Evidence](assets/TP/services_documentation_evidence26.png)
 
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review
 
