@@ -5611,7 +5611,7 @@ En esta sección se analizan las evidencias de colaboración y coordinación del
 
 2. ¿Quedó claro para ti qué problema resuelve JameoFit?
 
-3. Al explorar la aplicación web, ¿encontraste fácilmente las secciones que esperabas? ¿Hubo algo que te resultó confuso?
+3. Al explorar la aplicación, ¿encontraste fácilmente las secciones que esperabas? ¿Hubo algo que te resultó confuso?
 
 4. ¿Cómo describirías la experiencia de registrarte e iniciar sesión en la plataforma?
 
@@ -5619,7 +5619,7 @@ En esta sección se analizan las evidencias de colaboración y coordinación del
 
 6. ¿Qué tan útil te parece la función de monitoreo de hidratación con la botella inteligente?
 
-7. ¿Usarías la balanza inteligente para registrar tu peso automáticamente? ¿Por qué?
+7. ¿Usarías la balanza inteligente para registrar peso automáticamente? ¿Por qué?
 
 8. ¿La sección de comunicación con el nutricionista cubre lo que esperarías de una consulta digital?
 
