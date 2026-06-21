@@ -4838,6 +4838,79 @@ Esta suite de pruebas permite mantener la trazabilidad entre las historias de us
 En esta sección se presentan las evidencias de ejecución correspondientes al Sprint 2, mostrando las principales funcionalidades y vistas implementadas para la aplicación web y mobile. Asimismo, se incluyen capturas de pantalla y material audiovisual que evidencian la navegación, interacción y funcionamiento general de los componentes desarrollados durante el sprint, permitiendo validar el cumplimiento de los objetivos establecidos para esta iteración.
 
 
+**Landing Page:**
+
+Sección Principal:
+
+![Execution Evidence](assets/TP/landing_execution_evidence1.png)
+
+Sección de Beneficios:
+
+![Execution Evidence](assets/TP/landing_execution_evidence2.png)
+
+Sección de Testimonios:
+
+![Execution Evidence](assets/TP/landing_execution_evidence3.png)
+
+Sección de Cómo Funciona:
+
+![Execution Evidence](assets/TP/landing_execution_evidence4.png)
+
+Secciones de CTA y Footer:
+
+![Execution Evidence](assets/TP/landing_execution_evidence5.png)
+
+**Demo Landing Page:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323270_upc_edu_pe/IQAAZpVUQfGHRJOSBooLgxm-AbhEkQ5rQzLaoCchwTCH0uY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Ee4kgX
+
+---
+
+**Web Application:**
+
+Vista de Registro:
+![Execution Evidence](assets/TB2/RE1.png)
+![Execution Evidence](assets/TB2/RE2.png)
+
+Vista de Inicio de Sesion:
+![Execution Evidence](assets/TP/frontend_login.png)
+
+Vista de Dashboard:
+![Execution Evidence](assets/TB2/DASH1.jpeg)
+![Execution Evidence](assets/TB2/DASH2.jpeg)
+
+Vistas de Perfil:
+![Execution Evidence](assets/TP/frontend_profile_info.png)
+![Execution Evidence](assets/TP/frontend_profile_settings.png)
+
+Vistas de Pacientes:
+![Execution Evidence](assets/TB2/PA1.png)
+![Execution Evidence](assets/TP/frontend_patients_detail.png)
+![Execution Evidence](assets/TB2/PA2.png)
+![Execution Evidence](assets/TB2/PA3.png)
+![Execution Evidence](assets/TB2/PA4.png)
+
+Vistas de aceptación de Pacientes:
+
+![Execution Evidence](assets/TB2/PA6.png)
+![Execution Evidence](assets/TB2/PA5.png)
+
+Vistas de Comunicacion:
+![Execution Evidence](assets/TP/frontend_communication_chat.png)
+![Execution Evidence](assets/TP/frontend_communication_consultation.png)
+
+Vista de Tips:
+![Execution Evidence](assets/TP/frontend_content_tips.png)
+
+Vista de Notificaciones:
+![Execution Evidence](assets/TP/frontend_notifications.png)
+
+Vista de Suscripciones:
+![Execution Evidence](assets/TP/frontend_subscriptions.png)
+
+
+**Demo Web Application:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323270_upc_edu_pe/IQBkdUMDlBydSIw_rbnxEvXLAahQB6s2f2-dKfqVJFoUD0g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=uS2o8r
+
+
+
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review
 
 En esta sección se presentan las evidencias de documentación de los servicios web desarrollados durante el Sprint 2, incluyendo la definición y documentación de los principales endpoints implementados para el sistema. Asimismo, se muestran las especificaciones elaboradas mediante OpenAPI, las acciones soportadas por cada servicio y ejemplos de interacción con los endpoints, permitiendo evidenciar el correcto diseño y documentación de la comunicación entre el Frontend y Backend del proyecto.
@@ -5683,11 +5756,11 @@ En esta sección se analizan las evidencias de colaboración y coordinación del
 | Timing: 00:10 – : min | [Entrevista 2 JammeoFit.mp4]() |
 
 
-| Entrevistado 3 |   |
+| Entrevistado 3 | Valeria Fernández |
 | :---- | :---- |
-| Edad | años |
-| Distrito/Ciudad |  |
-|  <img src="" alt="PB" width="800" height = "200"> |  |
+| Edad | 26 años |
+| Distrito/Ciudad | Lima |
+|  <img src="assets/entrevistas/Entrevista-Validacion3.png" alt="PB" width="800" height = "200"> | Valeria entendió que JameoFit es una plataforma orientada a mejorar la alimentación y el bienestar mediante el seguimiento nutricional y la integración con dispositivos inteligentes. Consideró clara la propuesta de valor, destacando que ayuda a controlar los hábitos alimenticios, la hidratación y el progreso físico de manera organizada y automatizada. Valoró positivamente la navegación de la aplicación, señalando que las secciones principales son fáciles de encontrar, aunque inicialmente le tomó algo de tiempo ubicar los registros históricos. Destacó la simplicidad e intuición del proceso de registro e inicio de sesión, así como la claridad de la información presentada en el dashboard. Sugirió incorporar recomendaciones personalizadas basadas en los resultados obtenidos para potenciar el seguimiento nutricional. Respecto a los dispositivos inteligentes, calificó como muy útil la función de monitoreo de hidratación por automatizar el registro del consumo de agua, y valoró la balanza inteligente por ahorrar tiempo y mejorar la precisión de los datos registrados. Sobre la comunicación con el nutricionista, indicó que cumple adecuadamente con las necesidades de una consulta digital al facilitar la resolución de dudas y la orientación profesional. Finalmente, manifestó que estaría dispuesta a pagar una suscripción si incluye asesoría nutricional personalizada, análisis de progreso y sincronización con dispositivos inteligentes, concluyendo que recomendaría JameoFit por facilitar el seguimiento de hábitos saludables y promover la constancia en los objetivos de salud. |
 | Timing: 00:10 – : min | [Entrevista 3 JammeoFit.mp4]() |
 
 
