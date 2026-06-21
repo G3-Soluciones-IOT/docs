@@ -5794,6 +5794,12 @@ En esta sección se analizan las evidencias de colaboración y coordinación del
 | Timing: 46:36 – 56:43 min | [Entrevista 6 JammeoFit.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313433_upc_edu_pe/IQBGv7yVvMkaTIoDEAMF-4HJAXr3jWKcg0OkKx6WgmTsOoY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lJZ2N2) |
 
 
+<br>
+
+ENLACE ENTREVISTAS DE VALIDACION: http://bit.ly/4gysoqS 
+
+<br>
+
 #### 6.3.3. Evaluaciones según heurísticas
 
 ##### SITE o APP A EVALUAR: JameoFit
