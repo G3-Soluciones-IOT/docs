@@ -5900,6 +5900,15 @@ ENLACE ENTREVISTAS DE VALIDACION: http://bit.ly/4gysoqS
 
 ### 6.4. Video About-the-Product
 
+
+En esta sección se presenta el Video About-the-Product de JF Technologies, un material orientado a los visitantes del Landing Page y a los usuarios de la aplicación que desean comprender de manera rápida y visual el modelo de negocio, las funcionalidades clave y el valor que ofrece nuestra solución. El video resume cómo JameoFit integra dispositivos IoT, elaboracion de pkanes de comida y acompañamiento profesional para transformar la experiencia de bienestar nutricional. A través del testimonio de nuestro equipo, se explica el funcionamiento del producto, su impacto, los elementos innovadores de su tecnología y la propuesta que lo diferencia dentro del ecosistema de salud nutricional.
+
+**Figura** <br>
+*Screenshot del Video About the product*
+<br>
+<img src="assets/TB2/video_about_the_product.png" alt="PB" width="800" height = "200">
+*Nota.* Elaboración propia. Obtenido de https://www.youtube.com/watch?v=Eb4BcZKlQi4
+
 ## Conclusiones
 
 ### Conclusiones y Recomendaciones
