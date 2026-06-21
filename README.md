@@ -5683,11 +5683,11 @@ En esta sección se analizan las evidencias de colaboración y coordinación del
 | Timing: 00:10 – : min | [Entrevista 2 JammeoFit.mp4]() |
 
 
-| Entrevistado 3 |   |
+| Entrevistado 3 | Valeria Fernández |
 | :---- | :---- |
-| Edad | años |
-| Distrito/Ciudad |  |
-|  <img src="" alt="PB" width="800" height = "200"> |  |
+| Edad | 26 años |
+| Distrito/Ciudad | Lima |
+|  <img src="assets/entrevistas/Entrevista-Validacion3.png" alt="PB" width="800" height = "200"> | Valeria entendió que JameoFit es una plataforma orientada a mejorar la alimentación y el bienestar mediante el seguimiento nutricional y la integración con dispositivos inteligentes. Consideró clara la propuesta de valor, destacando que ayuda a controlar los hábitos alimenticios, la hidratación y el progreso físico de manera organizada y automatizada. Valoró positivamente la navegación de la aplicación, señalando que las secciones principales son fáciles de encontrar, aunque inicialmente le tomó algo de tiempo ubicar los registros históricos. Destacó la simplicidad e intuición del proceso de registro e inicio de sesión, así como la claridad de la información presentada en el dashboard. Sugirió incorporar recomendaciones personalizadas basadas en los resultados obtenidos para potenciar el seguimiento nutricional. Respecto a los dispositivos inteligentes, calificó como muy útil la función de monitoreo de hidratación por automatizar el registro del consumo de agua, y valoró la balanza inteligente por ahorrar tiempo y mejorar la precisión de los datos registrados. Sobre la comunicación con el nutricionista, indicó que cumple adecuadamente con las necesidades de una consulta digital al facilitar la resolución de dudas y la orientación profesional. Finalmente, manifestó que estaría dispuesta a pagar una suscripción si incluye asesoría nutricional personalizada, análisis de progreso y sincronización con dispositivos inteligentes, concluyendo que recomendaría JameoFit por facilitar el seguimiento de hábitos saludables y promover la constancia en los objetivos de salud. |
 | Timing: 00:10 – : min | [Entrevista 3 JammeoFit.mp4]() |
 
 
