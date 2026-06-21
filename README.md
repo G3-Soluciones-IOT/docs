@@ -4619,21 +4619,79 @@ En esta sección se analizan las evidencias de colaboración y coordinación del
 
 #### 6.2.2.1. Sprint Planning 2
 
+En este Sprint Planning, el equipo definió los objetivos, alcance y actividades correspondientes al Sprint 2, priorizando las historias de usuario relacionadas con el fin del desarrollo del Frontend(Web), asi como el Mobile y un avance importante del Backend y el servicio IoT. Se hizo de esta forma para cumplir con el propósito de construir una base funcional y escalable para el desarrollo del proyecto en los siguientes sprints.
+
+| **Sprint #**                       | Sprint 2                       |
+|------------------------------------|--------------------------------|
+| **Sprint Planning Background**     |                                |
+| Date                               | 2026-06-05                     |
+| Time                               | 12:00 AM                       |
+| Location                           | Servidor del equipo en Discord |
+| Prepared By                        | Galvez Chambi, Jhon            |
+| Attendees (to planning meeting)    | Bueno Perales, Mathias Eduardo / Geronimo Quispe, Pablo Antonio / Guzmán Chávez, Ramiro Alexander / Luquillas Asto, Omar / Paredes Santos, Fabrizio Alberto / Sandoval Paiva,Valentino |
+| Sprint 1 Review Summary            | Revisamos nuestras metas de negocio (business goals), validamos la duración del Sprint (4 semanas), evaluamos los riesgos y dimos feedback entre los miembros. Se aclararon las historias seleccionadas, y se discutieron posibles bloqueos o dependencias técnicas.     |
+| Sprint 1 Retrospective Summary     | **Start**: Mejorar la comunicación interna. <br>Planificar las tareas colectivas con anticipación. <br> **Stop**: Dejar de esperar el último momento para comenzar tareas. <br> **Continue**: Hacer preguntas al Product Owner. <br> Realizar reuniones cortas y frecuentes para alinear avances.     |
+| **Sprint Goal & User Stories**     |                                |
+| Sprint 2 Goal                      | Nuestro enfoque es culminar el desarrollo de la aplicacion frontend como mobile, asimismo tambien tener un avance considerable del backend y del servicio iot. Creemos que esto brindará a los usuarios y stakeholders una vision clara de la plataforma, permitiendo validar la propuesta de valor y las funcionalidades core del producto. Esto se confirmará cuando los usuarios puedan navegar correctamente por las vistas principales de la aplicación, interactuar con las funcionalidades esenciales implementadas y exista una comunicación funcional entre el Frontend y los servicios base del Backend. |
+| Sprint n Velocity                  | 103                             |
+| Sum of Story Points                | 103                             |
+
+
+
 #### 6.2.2.2. Aspect Leaders and Collaborators
+
+En esta sección se definen los líderes y colaboradores asignados a cada aspecto considerado dentro del alcance del Sprint. Esta organización permite distribuir responsabilidades de manera clara entre los miembros del equipo, facilitando la coordinación, comunicación y ejecución de las actividades relacionadas con el desarrollo del Landing Page, la aplicación web y los componentes base del Backend.
+
+| Team Member                           | Github Username       | Frontend Web    | Frontend Mobile   | Backend    | IoT Service |
+|---------------------------------------|-----------------------|-----------------|-------------|------------|---------------|
+| Bueno Perales, Mathias Eduardo        | MathiasBueno          | (C)             | (C)         | (C)        |(C)        |
+| Galvez Chambi, Jhon Alexander         | Chaomeum              | (C)             | (C)         | (L)        |(C)        |
+| Geronimo Quispe, Pablo Antonio        | Phatogram             | (C)             | (C)         | (C)        |(L)        |
+| Guzmán Chávez, Ramiro Alexander       | RamiroGuzmanCh        | (C)             | (L)         | (C)        |(C)        |
+| Luquillas Asto, Omar                  | OmarLLA               | (C)             | (C)         | (C)        |(C)        |
+| Paredes Santos, Fabrizio Alberto      | psfa29                | (C)             | (C)         | (L)        |(C)        |
+| Sandoval Paiva, Valentino             | ValentinoSandovalP    | (L)             | (C)         | (C)        |(C)        |
+
 
 #### 6.2.2.3. Sprint Backlog 2
 
+En esta sección se presenta el Sprint Backlog correspondiente al Sprint 2, el cual contiene las historias de usuario seleccionadas y las tareas definidas por el equipo para alcanzar el Sprint Goal establecido. Asimismo, se incluye el Board de trabajo utilizado para la gestión y seguimiento de las actividades del Sprint, permitiendo visualizar el estado de avance de cada tarea y la distribución del trabajo entre los integrantes del equipo durante el desarrollo de la aplicacion web, mobile, backend e IoT service.
+
+![Sprint Backlog 2](assets/TP/sprint_backlog2.png)
+
+Enlace público del Board en Trello: []()
+
+
 #### 6.2.2.4. Development Evidence for Sprint Review
+
+En esta sección se presentan las evidencias de desarrollo correspondientes al Sprint 2, mostrando los principales avances realizados en la implementación de los productos requeridos, la aplicación web, mobile y los servicios Backend. Asimismo, se incluyen los commits registrados en los repositorios del proyecto como evidencia del trabajo realizado y del progreso alcanzado por el equipo durante la iteración.
+
+
+**Web Application:** [https://github.com/G3-Soluciones-IOT/frontend](https://github.com/G3-Soluciones-IOT/frontend)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| frontend | develop | 8820043 | feat(useTips): implement custom hook for fetching and managing tips | - | 18/06/2026 |
+| frontend | develop | 38f74bb | "feat(dashboard): integrate dashboard data from db.json" | - | 19/06/2026 |
+
 
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review
 
 #### 6.2.2.6. Execution Evidence for Sprint Review
 
+En esta sección se presentan las evidencias de ejecución correspondientes al Sprint 2, mostrando las principales funcionalidades y vistas implementadas para la aplicación web y mobile. Asimismo, se incluyen capturas de pantalla y material audiovisual que evidencian la navegación, interacción y funcionamiento general de los componentes desarrollados durante el sprint, permitiendo validar el cumplimiento de los objetivos establecidos para esta iteración.
+
+
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review
+
+En esta sección se presentan las evidencias de documentación de los servicios web desarrollados durante el Sprint 2, incluyendo la definición y documentación de los principales endpoints implementados para el sistema. Asimismo, se muestran las especificaciones elaboradas mediante OpenAPI, las acciones soportadas por cada servicio y ejemplos de interacción con los endpoints, permitiendo evidenciar el correcto diseño y documentación de la comunicación entre el Frontend y Backend del proyecto.
 
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review
 
 #### 6.2.2.9. Team Collaboration Insights during Sprint
+
+En esta sección se analizan las evidencias de colaboración y coordinación del equipo durante el desarrollo del Sprint 2, considerando la participación de los integrantes en las actividades de implementación y control de versiones del proyecto. Para ello, se presentan métricas, capturas y analíticos obtenidos de GitHub, los cuales permiten visualizar la distribución del trabajo, el nivel de contribución de cada miembro y la interacción mantenida en el desarrollo del Landing Page, la aplicación web y los servicios Backend implementados durante el sprint.
+
 
 
 ### 6.3. Validation Interviews
@@ -4692,7 +4750,149 @@ En esta sección se analizan las evidencias de colaboración y coordinación del
 
 #### 6.3.2. Registro de Entrevistas 
 
+### Segmento 1: Usuarios orientados a la mejora de su alimentación
+
+| Entrevistado 1 |   |
+| :---- | :---- |
+| Edad | años |
+| Distrito/Ciudad |  |
+|  <img src="" alt="PB" width="800" height = "200"> |  |
+| Timing: 00:10 – : min | [Entrevista 1 JammeoFit.mp4]() |
+
+
+| Entrevistado 2 |   |
+| :---- | :---- |
+| Edad | años |
+| Distrito/Ciudad |  |
+|  <img src="" alt="PB" width="800" height = "200"> |  |
+| Timing: 00:10 – : min | [Entrevista 2 JammeoFit.mp4]() |
+
+
+| Entrevistado 3 |   |
+| :---- | :---- |
+| Edad | años |
+| Distrito/Ciudad |  |
+|  <img src="" alt="PB" width="800" height = "200"> |  |
+| Timing: 00:10 – : min | [Entrevista 3 JammeoFit.mp4]() |
+
+
+### Segmento 2: Profesionales de la salud (nutrición y bienestar)
+
+| Entrevistado 4 | Franck Panduro  |
+| :---- | :---- |
+| Edad | 23 años |
+| Distrito/Ciudad | Lima |
+|  <img src="assets/entrevistas/Entrevista-Validacion4.png" alt="PB" width="800" height = "200"> | Franck percibió que el producto está claramente orientado a profesionales de la salud, aunque sugirió agregar detalles visuales a la landing page, como una marca de agua con el logo o el nombre de HamioFit, para complementar el fondo blanco llano. Consideró relevante la propuesta de valor y valoró positivamente el directorio y panel de seguimiento, indicando que muestran la información diaria suficiente para los pacientes. Destacó que la navegación por la interfaz es muy intuitiva, llamativa y fácil de usar. Asimismo, la integración con los dispositivos IoT le generó confianza y seguridad debido al respaldo tecnológico. Finalmente, resaltó el chat de mensajería interna como la funcionalidad que incorporaría de inmediato a su práctica por ser una red de comunicación más directa, concluyendo que ve la herramienta bastante completa y profesional. |
+| Timing: 00:10 – : min | [Entrevista 4 JammeoFit.mp4]() |
+
+| Entrevistado 5 | Miguel Salas  |
+| :---- | :---- |
+| Edad | 21 años |
+| Distrito/Ciudad | Lima |
+|  <img src="assets/entrevistas/Entrevista-Validacion5.png" alt="PB" width="800" height = "200"> | Miguel destacó que la landing page y la plataforma están bastante optimizadas, didácticas y visualmente atractivas, señalando que la explicación le dejó muy claro el uso que los profesionales de la nutrición pueden darle. Consideró que la propuesta de valor es muy buena, innovadora y relevante para la práctica profesional, valorando positivamente el directorio y panel de seguimiento al reflejar datos completas y necesarios para el día a día que actualmente le hacen falta. Mencionó que la navegación por la interfaz es bastante intuitiva y fácil de usar. Respecto a la integración con dispositivos IoT, admitió que es una novedad que no conoce a fondo, pero afirmó que le genera total confianza en los datos que brinda. Sobre el módulo de comunicación, opinó que el chat no sería suficiente para reemplazar los canales actuales (como WhatsApp), pero sí funcionará como un excelente complemento. Finalmente, calificó los tips de contenido como una herramienta útil y concluyó que, puliendo algunos detalles de diseño al implementarse, la herramienta será completamente profesional, confiable y exitosa. |
+| Timing: 00:10 – : min | [Entrevista 5 JammeoFit.mp4]() |
+
+| Entrevistado 6 | Cristina Sihuas  |
+| :---- | :---- |
+| Edad | 21 años |
+| Distrito/Ciudad | Lima |
+|  <img src="assets/entrevistas/Entrevista-Validacion6.png" alt="PB" width="800" height = "200"> | Cristina percibió que el producto está correctamente orientado a profesionales de la salud, señalando que centraliza el seguimiento nutricional, organiza el tiempo de atención y facilita la comunicación con los pacientes. Consideró relevante la propuesta de valor por la capacidad de consolidar la atención en un solo lugar y valoró el panel de seguimiento al reflejar indicadores diarios esenciales como el peso y la alimentación. Destacó que la navegación por la interfaz es intuitiva, fácil de comprender y organizada de forma lógica. Con respecto a la integración con dispositivos IoT, mencionó que le genera confianza siempre que estén bien calibrados y sincronizados, destacando que la captura automática reduce errores manuales. Sobre el módulo de comunicación y la sección de tips, los calificó como herramientas complementarias y valiosas para registrar interacciones y reforzar la educación nutricional de forma constante. Finalmente, sugirió que para considerarla una herramienta profesional y confiable, sería importante incorporar historias clínicas nutricionales más completas, reportes de evolución personalizados, recordatorios automáticos, integración con más dispositivos de salud y garantías claras sobre la seguridad y privacidad de los datos. |
+| Timing: 00:10 – : min | [Entrevista 6 JammeoFit.mp4]() |
+
+
 #### 6.3.3. Evaluaciones según heurísticas
+
+##### SITE o APP A EVALUAR: JameoFit
+
+##### TAREAS A EVALUAR:
+
+- Exploración y comprensión de la landing page
+
+- Registro y acceso a la plataforma (roles de usuario y nutricionista)
+
+- Monitoreo automatizado y sincronización con dispositivos IoT (balanza e hidratación inteligente)
+
+- Visualización y gestión del dashboard profesional para nutricionistas
+
+- Acceso y navegación entre secciones (overview, directorio, tracking, contenido)
+
+- Gestión y carga de recursos educativos o tips nutricionales (PDFs, videos)
+
+- Interacción y seguimiento entre paciente y profesional a través de mensajería interna
+
+- Recepción y visualización de alertas críticas o desviaciones nutricionales en tiempo real
+
+- Visualización de planes de suscripción y configuración de perfil profesional
+
+<br>
+
+#### ESCALA DE SEVERIDAD
+
+| Nivel | Descripción                                                                                   |
+| ----- | --------------------------------------------------------------------------------------------- |
+| 1     | Problema superficial: fácilmente superado o poco frecuente. No requiere corrección inmediata. |
+| 2     | Problema menor: puede dificultar algo la experiencia. Se recomienda corregir pronto.          |
+| 3     | Problema mayor: frecuente o difícil de superar. Debe corregirse con prioridad.                |
+| 4     | Problema muy grave: impide el uso normal. Requiere solución inmediata.                        |
+
+<br>
+
+#### TABLA RESUMEN DE HALLAZGOS HEURISTICOS
+
+| #  | Problema                                                                         | Severidad | Heurística violada                                            |
+| -- | -------------------------------------------------------------------------------- | --------- | ------------------------------------------------------------- |
+| 1 | Insuficiencia de datos históricos, evolución y antecedentes clínicos en el perfil inicial del paciente.                     | 3         | Flexibilidad y eficiencia de uso (Nielsen #7)                      |
+| 2  | Dependencia crítica de la calibración externa y falta de visibilidad del estado de sincronización de los dispositivos IoT.                     | 3        | Visibilidad del estado del sistema (Nielsen #1)                 |
+| 3  | Diseño visual de la landing page excesivamente plano o simple que carece de identidad de marca en el fondo.       | 2         | Diseño estético y minimalista (Nielsen #8)               |
+| 4  | Falta de funcionalidades automatizadas avanzadas en el ecosistema (recordatorios al paciente e historias clínicas completas).                                  | 2         | Ayuda y documentación / Eficiencia (Nielsen #10)                       |
+| 5  | Incertidumbre sobre los protocolos de seguridad, privacidad y viabilidad legal de los datos de salud expuestos.          | 2         | Reconocimiento antes que recuerdo / Consistencia (Nielsen #6)             |
+
+<br>
+
+#### PROBLEMA #1: Insuficiencia de datos históricos, evolución y antecedentes clínicos en el perfil inicial del paciente <br>
+- Severidad: 3 <br>
+
+- Heurística violada: Flexibilidad y eficiencia de uso (Nielsen #7) <br>
+
+- Descripción: La nutricionista Cristina Siguaz señaló que, aunque los datos mostrados en el directorio son un buen punto de partida, resultan insuficientes para un seguimiento clínico profesional profundo. Falta integrar de manera estructurada la historia nutricional previa, reportes personalizados de evolución a largo plazo y el complemento de recomendaciones anteriores. <br>
+
+- Recomendación: Diseñar una sección expandible dentro del perfil de cada paciente dedicada exclusivamente a la "Historia Clínica Nutricional", permitiendo al profesional contrastar los datos automáticos del IoT con el historial médico del usuario. <br>
+
+#### PROBLEMA #2: Dependencia crítica de la calibración externa y falta de visibilidad del estado de sincronización de los dispositivos IoT <br>
+- Severidad: 3 <br>
+
+- Heurística violada: Visibilidad del estado del sistema (Nielsen #1) <br>
+
+- Descripción: Basado en las observaciones de Miguel Sayas y Cristina Siguaz, la confianza del profesional en los datos depende enteramente de que la balanza y la botella inteligente estén correctamente calibradas y sincronizadas. La interfaz actual no muestra activamente si un dispositivo ha perdido conexión, está descalibrado o si los datos mostrados están desactualizados. <br>
+
+- Recomendación: Implementar un indicador visual de "Estado del Dispositivo" (por ejemplo: color verde para sincronizado/calibrado, amarillo para requiere atención y rojo para desconectado) en el panel de monitorización del paciente. <br>
+
+#### PROBLEMA #3: Diseño visual de la landing page excesivamente plano o simple que carece de identidad de marca en el fondo <br>
+- Severidad: 2 <br>
+
+- Heurística violada: Diseño estético y minimalista (Nielsen #8) <br>
+
+- Descripción: El nutricionista Fran Panduro identificó que el fondo de la landing page es un "blanco llano" que puede percibirse como demasiado simple o vacío. Mencionó que se requiere añadir elementos de identidad sutiles para que el entorno se sienta más profesional y alineado con la marca médica desde el primer vistazo. <br> 
+
+- Recomendación: Incorporar marcas de agua estéticas con el logotipo estilizado de HamioFit o texturas corporativas tenues en el fondo de la página de destino para mejorar la estética sin sobrecargar la lectura del texto. <br>
+
+#### PROBLEMA #4: Falta de funcionalidades automatizadas avanzadas en el ecosistema (recordatorios al paciente e historias clínicas completas) <br>
+- Severidad: 2 <br>
+
+- Heurística violada: Ayuda y documentación / Eficiencia (Nielsen #10) <br>
+
+- Descripción: De acuerdo con las entrevistas (Cristina y Fran), el sistema delega manualmente en el nutricionista la tarea de redactar mensajes si un paciente olvida hacer su registro (logging). No existen disparadores automáticos que ayuden al paciente a mantener la adherencia ni herramientas integradas para automatizar alertas rutinarias. <br>
+
+- Recomendación: Crear un módulo de "Recordatorios Automáticos" configurables donde la plataforma envíe notificaciones push al móvil del paciente cuando el sistema IoT detecte falta de actividad (por ejemplo, baja hidratación), reduciendo la carga operativa del nutricionista. <br>
+
+#### PROBLEMA #5: Incertidumbre sobre los protocolos de seguridad, privacidad y viabilidad legal de los datos de salud expuestos <br>
+- Severidad: 2 <br>
+
+- Heurística violada: Reconocimiento antes que recuerdo / Credibilidad (Nielsen #6) <br>
+
+- Descripción: Cristina Siguaz enfatizó que para validar a HamioFit como una herramienta verdaderamente confiable y profesional en el ámbito médico, es mandatorio que la plataforma ofrezca garantías claras y explícitas sobre la seguridad, encriptación y privacidad de los datos sensibles de salud de los pacientes. <br>
+
+- Recomendación: Incluir una sección visible o un sello de cumplimiento de normativas de protección de datos de salud en el pie de página de la plataforma y en el apartado de registro del profesional, asegurando la transparencia legal del tratamiento de los datos capturados por el IoT. <br>
 
 ### 6.4. Video About-the-Product
 
