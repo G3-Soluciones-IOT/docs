@@ -92,6 +92,16 @@
 | TB1     | 14/05/2026   | Jhon Alexander Galvez Chambi  | Desarrollo de la sección 5.4.3 Applications Mock-Ups y 5.4.4 Applications User Flow Diagrams |
 | TB1     | 14/05/2026   | Fabrizio Alberto Paredes Santos  | Colaboración en las secciones 5.4.2 Applications Wireflow Diagrams y 5.4.3 Applications Mock-Ups |
 | TB1     | 15/05/2026   | Jhon Alexander Galvez Chambi  | Revisión de calidad de la documentación e integración de avances | 
+| AV2     | 05/06/2026   | Jhon Alexander Galvez Chambi | Organización inicial de la entrega AV2: coordinación de actividades, asignación de responsables y definición de prioridades para la estabilización de microservicios, el despliegue del frontend y la integración IoT. |
+| AV2     | 07/06/2026   | Fabrizio Alberto Paredes Santos | Inicio de la redacción y estructuración de las evidencias del Sprint 2 en el Capítulo VI, incluyendo Sprint Planning y Product Backlog. |
+| AV2     | 09/06/2026   | Valentino Sandoval Paiva | Desarrollo de nuevas vistas para la aplicación frontend web (Desktop) e integración inicial con los microservicios del backend. |
+| AV2     | 11/06/2026   | Ramiro Alexander Guzmán Chávez | Desarrollo de vistas para la aplicación frontend móvil y conexión inicial para el consumo de datos desde el backend. |
+| AV2     | 13/06/2026   | Pablo Antonio Geronimo Quispe | Desarrollo de vistas frontend orientadas a la interacción con dispositivos e implementación del servicio IoT para la balanza inteligente. |
+| AV2     | 15/06/2026   | Mathias Eduardo Bueno Perales | Elaboración de *mockups* y completado de prototipos de las vistas faltantes para las aplicaciones Desktop y Móvil; colaboración en el desarrollo del frontend web. |
+| AV2     | 17/06/2026   | Omar Luquillas Asto | Desarrollo y documentación de la sección 6.3 de Validación mediante Entrevistas, incluyendo el diseño de entrevistas (6.3.1) y su registro (6.3.2); colaboración en vistas web Desktop. |
+| AV2     | 19/06/2026   | Fabrizio Alberto Paredes Santos | Consolidación de las evidencias de Testing y Execution del Sprint 2; colaboración en la estabilización de microservicios y en el desarrollo de vistas del frontend web. |
+| AV2     | 20/06/2026   | Jhon Alexander Galvez Chambi | Despliegue de servicios en infraestructura GCP y documentación de sus evidencias en el Capítulo VI; elaboración de la sección *Project Report Collaboration Insights*. |
+| AV2     | 21/06/2026   | Mathias Eduardo Bueno Perales | Redacción de la sección 6.3.3 de evaluaciones según heurísticas, grabación y edición del *Video About-The-Product* (6.4), e integración final de los avances de frontend. |
 
 ## Project Report Collaboration Insights
 
@@ -147,6 +157,29 @@ En esta sección se presentan los analíticos de colaboración y los commits rea
 
 - Report Network:
 ![Report Network](./assets/TP/report_network.png)
+
+
+**AV2:**
+
+Para la elaboración de la entrega AV2 (Sprint Review – Semana 12) de este informe, el equipo se organizó mediante reuniones de coordinación a través de un canal de Discord y herramientas de gestión ágil. En estas reuniones se definió la prioridad de desarrollo centrada en la estabilización de microservicios, el despliegue del frontend y la integración de la solución IoT. Se asignaron responsables por capítulo y se establecieron fechas de revisión periódica para asegurar el avance progresivo y la mejora continua del producto.
+
+| Integrante | Usuario Github | Detalle de avance |
+|------------|----------------|-------------------|
+| Valentino Sandoval Paiva | `ValentinoSandovalP` | Desarrollo de vistas de la aplicación frontend web (Desktop), integración con los microservicios del backend y apoyo técnico en la estabilización de *endpoints* adicionales requeridos para las nuevas interfaces. |
+| Mathias Eduardo Bueno Perales | `MathiasBueno` | Desarrollo de *mockups* y completado de prototipos para las vistas faltantes (Desktop y Móvil) como parte del plan de mejora continua. Redacción de la sección 6.3.3 (Evaluaciones según heurísticas), grabación y edición del *Video About-The-Product* (6.4), y colaboración en el desarrollo del frontend web. |
+| Omar Luquillas Asto | `OmarLLA` | Desarrollo y documentación de la sección de Validación mediante Entrevistas (6.3, 6.3.1 Diseño de Entrevistas y 6.3.2 Registro). Colaboración en la implementación de vistas para la aplicación frontend web (Desktop). |
+| Pablo Antonio Geronimo Quispe | `Phatogram` | Desarrollo de vistas en el frontend enfocadas en la interacción con dispositivos. Implementación del servicio de IoT y elaboración del prototipo físico para la balanza inteligente del ecosistema Cobox Smart Vision. |
+| Ramiro Alexander Guzmán Chávez | `RamiroGuzmanCh` | Desarrollo e implementación de vistas para la aplicación frontend móvil y su respectiva conexión e integración de consumo de datos con el backend. |
+| Jhon Alexander Galvez Chambi | `Chaomeum` | Despliegue de los servicios en la infraestructura de nube (GCP) y documentación de las evidencias correspondientes en el Capítulo VI. Gestión, organización de las actividades del equipo y elaboración de la sección de *Team Collaboration Insights*. |
+| Fabrizio Alberto Paredes Santos | `psfa29` | Redacción y estructuración de evidencias del Capítulo VI correspondientes al Sprint 2 (Sprint Planning, Backlog, Testing y Execution). Colaboración en la estabilización de microservicios en el backend y desarrollo de vistas para el frontend web (Desktop). |
+
+**Report Repository Insights:** En esta sección se presentan los analíticos de colaboración y los *commits* realizados en GitHub por los miembros del equipo dentro de nuestra organización y repositorio del informe durante la fase correspondiente al AV2. Esta evidencia permite visualizar la participación activa de los integrantes y la evolución del trabajo colaborativo a lo largo de este sprint.
+
+- Report Contributors:
+![Report Contributors](./assets/TB2/report_contributors.png)
+
+- Report Network:
+![Report Network](./assets/TB2/report_network.png)
 
 ## Contenido
 
@@ -310,6 +343,22 @@ En esta sección se presentan los analíticos de colaboración y los commits rea
       - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
       - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
       - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
+    - [6.2.2. Sprint 2](#622-sprint-2)
+      - [6.2.2.1. Sprint Planning 2](#6221-sprint-planning-2)
+      - [6.2.2.2. Aspect Leaders and Collaborators](#6222-aspect-leaders-and-collaborators)
+      - [6.2.2.3. Sprint Backlog 2](#6223-sprint-backlog-2)
+      - [6.2.2.4. Development Evidence for Sprint Review](#6224-development-evidence-for-sprint-review)
+      - [6.2.2.5. Testing Suite Evidence for Sprint Review](#6225-testing-suite-evidence-for-sprint-review)
+      - [6.2.2.6. Execution Evidence for Sprint Review](#6226-execution-evidence-for-sprint-review)
+      - [6.2.2.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
+      - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
+      - [6.2.2.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
+  - [6.3. Validation Interviews](#63-valdiation-interviews)
+    - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
+    - [6.3.2. Registro de Entrevistas ](#632-registro-de-entrevistas)
+    - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
+  - [6.4. Video About-the-Product.](#64-video-about-the-product)
+
 - [Conclusiones](#conclusiones)
   - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
 - [Referencias Bibliográficas](#referencias-bibliográficas)
@@ -325,8 +374,8 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |----------------------|---------------------|--------------|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **AV1**<br><br> Bueno Perales, Mathias Eduardo: asumí el desarrollo del Capítulo II, específicamente las secciones 2.1 y 2.2, aportando al análisis inicial del problema, los competidores y el levantamiento de información base para el informe. <br><br> Galvez Chambi, Jhon Alexander: desarrollé las secciones 4.2.4 a 4.2.8 del Capítulo IV y también participé en la elaboración inicial de la carátula, la tabla de contenidos y la estructura general del informe. <br><br> Geronimo Quispe, Pablo Antonio: desarrollé las secciones 2.3, 2.4 y 2.5 del Capítulo II, incluyendo el needfinding, los user personas, el empathy map, el journey map y la documentación del ubiquitous language. <br><br> Guzmán Chávez, Ramiro Alexander: lideré el desarrollo del Capítulo III mediante la elaboración de user stories, product backlog e impact mapping, contribuyendo a la definición y organización de los requerimientos del producto. <br><br> Luquillas Asto, Omar: desarrollé las secciones 4.2.1 a 4.2.3 del Capítulo IV, correspondientes a los bounded contexts de Inicio y Registro de Sesión, Perfil de Usuario y Gestión de Objetivos. <br><br> Paredes Santos, Fabrizio Alberto: desarrollé el Capítulo I, aportando a la construcción del perfil de la startup, la introducción general y la base conceptual del informe. <br><br> Sandoval Paiva, Valentino: lideré el diseño estratégico del sistema mediante EventStorming, Candidate Context Discovery, Bounded Context Canvases, Context Mapping y diagramas de arquitectura de software como Landscape, Context, Container y Deployment. Además, aporté al análisis competitivo y a la formulación de historias de usuario.<br><br>**TB1**<br><br> Sandoval Paiva, Valentino: asumí el liderazgo de la documentación del Capítulo VI, sección 6.1, y tomé la iniciativa de organizar la arquitectura del código frontend mientras desarrollaba las vistas de layout, sidebar y tips para mantener una base ordenada de trabajo. <br><br> Luquillas Asto, Omar: lideré la documentación del Capítulo VI, sección 6.2, y aporté a la organización del sprint documentando los avances del equipo mientras desarrollaba la vista de subscriptions. <br><br> Bueno Perales, Mathias Eduardo: lideré el desarrollo documental de las secciones 5.1, 5.2, 5.3, 5.4.2 y 5.5, y tomé iniciativa en el desarrollo de interfaces y el prototipado de flujos para consolidar la experiencia de usuario. <br><br> Guzmán Chávez, Ramiro Alexander: colaboré en la mejora continua de capítulos previamente desarrollados y aporté liderazgo en el desarrollo de vistas frontend para pacientes y flujos core orientados al segmento de nutricionistas. <br><br> Geronimo Quispe, Pablo Antonio: desarrollé la sección 5.6 IoT Device Design y lideré la elaboración de simulaciones interactivas en Wokwi para Smart Bottle y Smart Scale, alojando el código en el repositorio correspondiente. <br><br> Paredes Santos, Fabrizio Alberto: colaboré en las secciones 5.4.2 Applications Wireflow Diagrams y 5.4.3 Applications Mock-Ups, además de asumir la iniciativa del despliegue de artefactos mediante el landing page y frontend web. <br><br> Galvez Chambi, Jhon Alexander: desarrollé los mockups de aplicación en la sección 5.4.3 y los Application User Flow Diagrams de la sección 5.4.4, integré los avances del equipo y organicé la delegación de responsabilidades para sostener la calidad de la documentación y del código. | **AV1**<br><br> Durante esta entrega, trabajamos de manera articulada para asumir responsabilidades complementarias dentro del informe. La distribución de capítulos, bounded contexts y artefactos de análisis permitió que cada integrante aportara desde un frente específico, combinando liderazgo en requerimientos, diseño estratégico, arquitectura, investigación y documentación. Como resultado, evidenciamos una participación conjunta en la que el liderazgo no recayó en una sola persona, sino que se manifestó de forma distribuida según las necesidades de cada sección del trabajo.<br><br>**TB1**<br><br> Durante esta versión, el liderazgo se distribuyó entre documentación, diseño UX/UI, implementación frontend, simulación IoT, despliegue e integración. Cada integrante asumió un frente concreto y, al mismo tiempo, coordinó con los demás para que los avances técnicos y documentales mantuvieran coherencia dentro del informe y de los repositorios relacionados. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **AV1**<br><br> Bueno Perales, Mathias Eduardo: desarrollé las actividades asignadas para las secciones 2.1 y 2.2 dentro de la planificación establecida para el Capítulo II. <br><br> Galvez Chambi, Jhon Alexander: participé en la estructuración inicial del informe y luego desarrollé las secciones 4.2.4 a 4.2.8 del Capítulo IV, en concordancia con la distribución de tareas acordada por el equipo. <br><br> Geronimo Quispe, Pablo Antonio: ejecuté las actividades asignadas en las secciones 2.3, 2.4 y 2.5, desarrollando los artefactos de needfinding y lenguaje ubicuo definidos en la planificación grupal. <br><br> Guzmán Chávez, Ramiro Alexander: desarrollé el Capítulo III, enfocándome en artefactos clave para la especificación y priorización del trabajo, como user stories, impact mapping y product backlog. <br><br> Luquillas Asto, Omar: desarrollé los bounded contexts 4.2.1 a 4.2.3 del Capítulo IV, cumpliendo con la asignación establecida para la parte inicial del diseño táctico. <br><br> Paredes Santos, Fabrizio Alberto: avancé el Capítulo I de acuerdo con la distribución inicial de contenidos del informe. <br><br> Sandoval Paiva, Valentino: desarrollé los artefactos de diseño estratégico y arquitectura de software en coherencia con la estructura general del documento y con las metas trazadas para la entrega.<br><br>**TB1**<br><br> Sandoval Paiva, Valentino: desarrollé la sección 6.1 del Capítulo VI y organicé tareas relacionadas con la arquitectura del frontend, estableciendo una base común para que las vistas de layout, sidebar y tips se integraran de forma consistente. <br><br> Luquillas Asto, Omar: desarrollé la sección 6.2 del Capítulo VI y contribuí a planificar el sprint mediante la documentación de avances, lo que permitió ordenar responsabilidades y evidencias de implementación. <br><br> Bueno Perales, Mathias Eduardo: desarrollé las secciones 5.1, 5.2, 5.3, 5.4.2 y 5.5 siguiendo la planificación del equipo, coordinando los entregables de diseño para que las interfaces y flujos mantuvieran continuidad. <br><br> Guzmán Chávez, Ramiro Alexander: colaboré en la mejora continua de capítulos previos y participé en el desarrollo de vistas frontend de pacientes y flujos core para nutricionistas, alineando mis avances con las necesidades de ambos segmentos. <br><br> Geronimo Quispe, Pablo Antonio: desarrollé la sección 5.6 y ejecuté las simulaciones en Wokwi para Smart Bottle y Smart Scale, manteniendo el código alojado en el repositorio correspondiente para facilitar la revisión del equipo. <br><br> Paredes Santos, Fabrizio Alberto: colaboré en las secciones 5.4.2 y 5.4.3, desarrollé vistas de autenticación, perfil de usuario y ajustes, y apoyé el despliegue del landing page y frontend web como parte de los objetivos de entrega. <br><br> Galvez Chambi, Jhon Alexander: desarrollé las secciones 5.4.3 y 5.4.4, implementé vistas de Dashboard y Communication, organicé la delegación de responsabilidades e integré los avances para verificar la calidad de la documentación y del código. | **AV1**<br><br> En esta entrega generamos un entorno de trabajo colaborativo mediante reuniones de coordinación en Discord, distribución explícita de actividades y revisiones periódicas de avance. Esta organización permitió establecer metas concretas por capítulo y por integrante, dar seguimiento al cumplimiento de tareas y sostener una dinámica ordenada de trabajo grupal. A partir de ello, logramos avanzar de manera progresiva en la construcción del informe, manteniendo coherencia entre los aportes individuales y el objetivo común de la entrega AV1.<br><br>**TB1**<br><br> En esta versión, el equipo consolidó un entorno colaborativo mediante la división de responsabilidades por documentación, frontend, simulación IoT, despliegue e integración. La planificación permitió que cada integrante cumpliera objetivos verificables y que los avances se integraran de forma ordenada, manteniendo trazabilidad entre las secciones del informe y los artefactos desarrollados en repositorios externos. |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **AV1**<br><br> Bueno Perales, Mathias Eduardo: asumí el desarrollo del Capítulo II, específicamente las secciones 2.1 y 2.2, aportando al análisis inicial del problema, los competidores y el levantamiento de información base para el informe. <br><br> Galvez Chambi, Jhon Alexander: desarrollé las secciones 4.2.4 a 4.2.8 del Capítulo IV y también participé en la elaboración inicial de la carátula, la tabla de contenidos y la estructura general del informe. <br><br> Geronimo Quispe, Pablo Antonio: desarrollé las secciones 2.3, 2.4 y 2.5 del Capítulo II, incluyendo el needfinding, los user personas, el empathy map, el journey map y la documentación del ubiquitous language. <br><br> Guzmán Chávez, Ramiro Alexander: lideré el desarrollo del Capítulo III mediante la elaboración de user stories, product backlog e impact mapping, contribuyendo a la definición y organización de los requerimientos del producto. <br><br> Luquillas Asto, Omar: desarrollé las secciones 4.2.1 a 4.2.3 del Capítulo IV, correspondientes a los bounded contexts de Inicio y Registro de Sesión, Perfil de Usuario y Gestión de Objetivos. <br><br> Paredes Santos, Fabrizio Alberto: desarrollé el Capítulo I, aportando a la construcción del perfil de la startup, la introducción general y la base conceptual del informe. <br><br> Sandoval Paiva, Valentino: lideré el diseño estratégico del sistema mediante EventStorming, Candidate Context Discovery, Bounded Context Canvases, Context Mapping y diagramas de arquitectura de software como Landscape, Context, Container y Deployment. Además, aporté al análisis competitivo y a la formulación de historias de usuario.<br><br>**TB1**<br><br> Sandoval Paiva, Valentino: asumí el liderazgo de la documentación del Capítulo VI, sección 6.1, y tomé la iniciativa de organizar la arquitectura del código frontend mientras desarrollaba las vistas de layout, sidebar y tips para mantener una base ordenada de trabajo. <br><br> Luquillas Asto, Omar: lideré la documentación del Capítulo VI, sección 6.2, y aporté a la organización del sprint documentando los avances del equipo mientras desarrollaba la vista de subscriptions. <br><br> Bueno Perales, Mathias Eduardo: lideré el desarrollo documental de las secciones 5.1, 5.2, 5.3, 5.4.2 y 5.5, y tomé iniciativa en el desarrollo de interfaces y el prototipado de flujos para consolidar la experiencia de usuario. <br><br> Guzmán Chávez, Ramiro Alexander: colaboré en la mejora continua de capítulos previamente desarrollados y aporté liderazgo en el desarrollo de vistas frontend para pacientes y flujos core orientados al segmento de nutricionistas. <br><br> Geronimo Quispe, Pablo Antonio: desarrollé la sección 5.6 IoT Device Design y lideré la elaboración de simulaciones interactivas en Wokwi para Smart Bottle y Smart Scale, alojando el código en el repositorio correspondiente. <br><br> Paredes Santos, Fabrizio Alberto: colaboré en las secciones 5.4.2 Applications Wireflow Diagrams y 5.4.3 Applications Mock-Ups, además de asumir la iniciativa del despliegue de artefactos mediante el landing page y frontend web. <br><br> Galvez Chambi, Jhon Alexander: desarrollé los mockups de aplicación en la sección 5.4.3 y los Application User Flow Diagrams de la sección 5.4.4, integré los avances del equipo y organicé la delegación de responsabilidades para sostener la calidad de la documentación y del código.<br><br>**AV2**<br><br>Bueno Perales, Mathias Eduardo: asumí la elaboración de *mockups* y el completado de prototipos para las vistas faltantes Desktop y Móvil. También redacté la sección 6.3.3, participé en el Video About-The-Product y colaboré en el desarrollo del frontend web.<br><br>Galvez Chambi, Jhon Alexander: coordiné las actividades del equipo y documenté la colaboración del Sprint. Además, realicé el despliegue de los servicios en GCP y registré las evidencias correspondientes en el Capítulo VI.<br><br>Geronimo Quispe, Pablo Antonio: desarrollé vistas frontend para la interacción con dispositivos, implementé el servicio IoT y elaboré el prototipo físico de la balanza inteligente del ecosistema Cobox Smart Vision.<br><br>Guzmán Chávez, Ramiro Alexander: desarrollé e implementé las vistas de la aplicación móvil y realicé su conexión con el backend para el consumo de datos.<br><br>Luquillas Asto, Omar: desarrollé y documenté la validación mediante entrevistas en las secciones 6.3, 6.3.1 y 6.3.2; además, colaboré en la implementación de vistas para la aplicación web Desktop.<br><br>Paredes Santos, Fabrizio Alberto: estructuré las evidencias del Sprint 2 para Sprint Planning, Backlog, Testing y Execution. También colaboré en la estabilización de microservicios y en el desarrollo de vistas para el frontend web Desktop.<br><br>Sandoval Paiva, Valentino: desarrollé vistas para la aplicación web Desktop, las integré con los microservicios del backend y apoyé la estabilización de *endpoints* requeridos por las nuevas interfaces. | **AV1**<br><br> Durante esta entrega, trabajamos de manera articulada para asumir responsabilidades complementarias dentro del informe. La distribución de capítulos, bounded contexts y artefactos de análisis permitió que cada integrante aportara desde un frente específico, combinando liderazgo en requerimientos, diseño estratégico, arquitectura, investigación y documentación. Como resultado, evidenciamos una participación conjunta en la que el liderazgo no recayó en una sola persona, sino que se manifestó de forma distribuida según las necesidades de cada sección del trabajo.<br><br>**TB1**<br><br> Durante esta versión, el liderazgo se distribuyó entre documentación, diseño UX/UI, implementación frontend, simulación IoT, despliegue e integración. Cada integrante asumió un frente concreto y, al mismo tiempo, coordinó con los demás para que los avances técnicos y documentales mantuvieran coherencia dentro del informe y de los repositorios relacionados.<br><br>**AV2**<br><br>Durante AV2, el equipo ejerció un liderazgo distribuido mediante responsabilidades complementarias en despliegue cloud, documentación del Sprint, desarrollo web y móvil, validación, prototipado e integración IoT. La asignación de estos frentes permitió que cada integrante dirigiera su aporte especializado y que los resultados se integraran en una entrega común. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **AV1**<br><br> Bueno Perales, Mathias Eduardo: desarrollé las actividades asignadas para las secciones 2.1 y 2.2 dentro de la planificación establecida para el Capítulo II. <br><br> Galvez Chambi, Jhon Alexander: participé en la estructuración inicial del informe y luego desarrollé las secciones 4.2.4 a 4.2.8 del Capítulo IV, en concordancia con la distribución de tareas acordada por el equipo. <br><br> Geronimo Quispe, Pablo Antonio: ejecuté las actividades asignadas en las secciones 2.3, 2.4 y 2.5, desarrollando los artefactos de needfinding y lenguaje ubicuo definidos en la planificación grupal. <br><br> Guzmán Chávez, Ramiro Alexander: desarrollé el Capítulo III, enfocándome en artefactos clave para la especificación y priorización del trabajo, como user stories, impact mapping y product backlog. <br><br> Luquillas Asto, Omar: desarrollé los bounded contexts 4.2.1 a 4.2.3 del Capítulo IV, cumpliendo con la asignación establecida para la parte inicial del diseño táctico. <br><br> Paredes Santos, Fabrizio Alberto: avancé el Capítulo I de acuerdo con la distribución inicial de contenidos del informe. <br><br> Sandoval Paiva, Valentino: desarrollé los artefactos de diseño estratégico y arquitectura de software en coherencia con la estructura general del documento y con las metas trazadas para la entrega.<br><br>**TB1**<br><br> Sandoval Paiva, Valentino: desarrollé la sección 6.1 del Capítulo VI y organicé tareas relacionadas con la arquitectura del frontend, estableciendo una base común para que las vistas de layout, sidebar y tips se integraran de forma consistente. <br><br> Luquillas Asto, Omar: desarrollé la sección 6.2 del Capítulo VI y contribuí a planificar el sprint mediante la documentación de avances, lo que permitió ordenar responsabilidades y evidencias de implementación. <br><br> Bueno Perales, Mathias Eduardo: desarrollé las secciones 5.1, 5.2, 5.3, 5.4.2 y 5.5 siguiendo la planificación del equipo, coordinando los entregables de diseño para que las interfaces y flujos mantuvieran continuidad. <br><br> Guzmán Chávez, Ramiro Alexander: colaboré en la mejora continua de capítulos previos y participé en el desarrollo de vistas frontend de pacientes y flujos core para nutricionistas, alineando mis avances con las necesidades de ambos segmentos. <br><br> Geronimo Quispe, Pablo Antonio: desarrollé la sección 5.6 y ejecuté las simulaciones en Wokwi para Smart Bottle y Smart Scale, manteniendo el código alojado en el repositorio correspondiente para facilitar la revisión del equipo. <br><br> Paredes Santos, Fabrizio Alberto: colaboré en las secciones 5.4.2 y 5.4.3, desarrollé vistas de autenticación, perfil de usuario y ajustes, y apoyé el despliegue del landing page y frontend web como parte de los objetivos de entrega. <br><br> Galvez Chambi, Jhon Alexander: desarrollé las secciones 5.4.3 y 5.4.4, implementé vistas de Dashboard y Communication, organicé la delegación de responsabilidades e integré los avances para verificar la calidad de la documentación y del código.<br><br>**AV2**<br><br>Bueno Perales, Mathias Eduardo: desarrollé los prototipos y *mockups* asignados para completar las vistas Desktop y Móvil, y coordiné estos entregables con el desarrollo del frontend web y la documentación de las secciones 6.3.3 y 6.4.<br><br>Galvez Chambi, Jhon Alexander: organicé las actividades y responsabilidades del equipo para la entrega AV2, y documenté las evidencias del despliegue en GCP y de la colaboración durante el Sprint.<br><br>Geronimo Quispe, Pablo Antonio: desarrollé las vistas y el servicio IoT planificados para la interacción con dispositivos, y elaboré el prototipo físico de la balanza inteligente como evidencia de la integración propuesta.<br><br>Guzmán Chávez, Ramiro Alexander: implementé las vistas móviles asignadas y las conecté con el backend para que la aplicación móvil consumiera los datos requeridos por sus flujos.<br><br>Luquillas Asto, Omar: desarrollé las actividades asignadas de validación mediante entrevistas y documenté el diseño y registro de entrevistas; adicionalmente, colaboré en las vistas de la aplicación web Desktop.<br><br>Paredes Santos, Fabrizio Alberto: redacté y estructuré las evidencias planificadas del Sprint 2, incluyendo Testing y Execution, mientras colaboraba en la estabilización de microservicios y las vistas web Desktop.<br><br>Sandoval Paiva, Valentino: desarrollé las vistas web Desktop asignadas, realicé su integración con los microservicios y apoyé la estabilización de los *endpoints* necesarios para los nuevos flujos. | **AV1**<br><br> En esta entrega generamos un entorno de trabajo colaborativo mediante reuniones de coordinación en Discord, distribución explícita de actividades y revisiones periódicas de avance. Esta organización permitió establecer metas concretas por capítulo y por integrante, dar seguimiento al cumplimiento de tareas y sostener una dinámica ordenada de trabajo grupal. A partir de ello, logramos avanzar de manera progresiva en la construcción del informe, manteniendo coherencia entre los aportes individuales y el objetivo común de la entrega AV1.<br><br>**TB1**<br><br> En esta versión, el equipo consolidó un entorno colaborativo mediante la división de responsabilidades por documentación, frontend, simulación IoT, despliegue e integración. La planificación permitió que cada integrante cumpliera objetivos verificables y que los avances se integraran de forma ordenada, manteniendo trazabilidad entre las secciones del informe y los artefactos desarrollados en repositorios externos.<br><br>**AV2**<br><br>Durante AV2, el equipo mantuvo un entorno de trabajo colaborativo mediante reuniones de coordinación, distribución de responsabilidades y revisiones periódicas. La planificación articuló los objetivos de estabilización de microservicios, despliegue del frontend e integración IoT, permitiendo cumplir avances verificables de documentación, validación, desarrollo e infraestructura dentro del Sprint. |
 
 ## Capítulo I: Introducción
 
@@ -1841,7 +1890,7 @@ En este nivel, se identifican los siguientes elementos:
 Incluyen el navegador web y la aplicación móvil, desde donde los usuarios (pacientes, nutricionistas y administradores) interactúan con el sistema mediante solicitudes seguras a través de HTTPS.
 
 ● Infraestructura Cloud:
-El sistema se despliega en un entorno cloud (AWS, Azure o GCP), utilizando contenedores Docker para garantizar portabilidad, escalabilidad y aislamiento de los servicios.
+El sistema se despliega en un entorno cloud (GCP), utilizando contenedores Docker para garantizar portabilidad, escalabilidad y aislamiento de los servicios.
 
 ● API Gateway:
 Actúa como punto de entrada único al sistema, gestionando el enrutamiento de solicitudes hacia los microservicios correspondientes y validando los tokens de autenticación.
@@ -3135,10 +3184,10 @@ La autenticación con AWS IoT Core se realiza mediante certificados X.509 por di
   <img src="assets/TP/SD7.png" alt="Structurizr" width="180"/>
 </p>
 
-**AWS (Amazon Web Services):** Plataforma en la nube de Amazon que permite desplegar, administrar y escalar aplicaciones de manera segura, flexible y altamente disponible.
+**GCP (Google Cloud Platform):** Plataforma en la nube de Amazon que permite desplegar, administrar y escalar aplicaciones de manera segura, flexible y altamente disponible.
 
 <p align="center">
-  <img src="assets/TP/SD8.png" alt="AWS" width="180"/>
+  <img src="assets/TP/SD8.png" alt="GCP" width="180"/>
 </p>
 
 #### 6.1.2. Source Code Management
@@ -3281,35 +3330,17 @@ Enlace de la Landing Page: https://g2-aplicaciones-moviles.github.io/Landing-Pag
 
 ### Deployment Backend:
 
-En esta sección, se detalla el proceso de implementación del backend del proyecto Jameofit utilizando los servicios de Amazon Web Services (AWS).
+El backend de JameoFit se despliega progresivamente sobre **Google Cloud Platform (GCP)**. La configuración se organiza para separar la construcción de imágenes, la persistencia de datos, la ejecución de los servicios y el acceso administrativo.
 
-A continuación, se describen los principales componentes y configuraciones involucradas en el despliegue.
+Los elementos principales de la configuración son:
 
-1. **Entorno Elastic Beanstalk**
+1. **Integración continua y artefactos:** GitHub Actions construye las imágenes Docker de los microservicios y las publica en Artifact Registry. La autenticación con GCP utiliza Workload Identity Federation, sin almacenar claves estáticas en los repositorios.
 
-La aplicación backend se despliega mediante AWS Elastic Beanstalk, un servicio que permite administrar automáticamente la infraestructura necesaria para ejecutar aplicaciones web. En la primera captura se observa el entorno Jameofit-backend-env, cuyo estado se encuentra Ok, indicando un despliegue exitoso y una aplicación corriendo correctamente sobre la plataforma Corretto 21 (Java 17) en Amazon Linux 2023.
+2. **Infraestructura privada:** una VPC privada conecta la máquina virtual de ejecución con Cloud SQL for PostgreSQL. La base de datos no cuenta con IP pública y sus credenciales se administran mediante Secret Manager.
 
-![alt text](assets/TP/G5.png)
+3. **Ejecución de servicios:** una máquina virtual privada de Compute Engine ejecuta la plataforma con Docker Compose y obtiene las imágenes desde Artifact Registry. Su cuenta de servicio dispone únicamente de los permisos necesarios para leer imágenes y secretos.
 
-2. **Base de Datos RDS (PostgreSQL)**
-
-El servicio Amazon RDS (Relational Database Service) se utiliza para la gestión de la base de datos del backend. En la segunda captura se muestra la instancia jameofit-db, configurada con el motor PostgreSQL y actualmente en estado Disponible. La instancia pertenece a la clase db.t3.micro, optimizada para entornos de desarrollo o pruebas, y está desplegada en la región us-east-2a.
-
-![alt text](assets/TP/G6.png)
-
-3. **Usuario IAM para Integración Continua (GitHub Actions)**
-
-Para automatizar el despliegue del backend desde GitHub, se creó un usuario IAM denominado github-actions-jameofit. Este usuario cuenta con credenciales de acceso programático y permisos asignados para permitir la comunicación entre GitHub Actions y AWS Elastic Beanstalk. De esta manera, cada vez que se ejecuta un flujo de CI/CD, el código actualizado se publica automáticamente en el entorno de AWS.
-
-![alt text](assets/TP/G7.png)
-
-4. **Roles IAM Asociados a los Servicios**
-
-Finalmente, se observan los roles IAM configurados para los diferentes servicios de AWS involucrados en el despliegue, como Elastic Beanstalk, EC2, Auto Scaling y RDS. Estos roles son fundamentales para que los servicios puedan interactuar entre sí de forma segura y automatizada, garantizando una gestión adecuada de recursos y permisos.
-
-![alt text](assets/TP/G8.png)
-
-Enlace del backend: http://jameofit-backend-env.eba-fzj57hq8.us-east-2.elasticbeanstalk.com/swagger-ui/index.html
+4. **Acceso y seguridad:** los servicios internos se revisan mediante IAP TCP forwarding, sin exponer directamente la máquina virtual ni componentes como Config Server, Eureka o Swagger a Internet. La exposición pública del Gateway se considera una fase posterior.
 
 ### Deployment Frontend:
 
@@ -3362,7 +3393,7 @@ Single-page app rewrite: Yes
 
 5. **Variables de Entorno**
 
-Se configura la URL del backend desplegado en AWS dentro del archivo de variables de entorno del frontend:
+Se configura la URL del backend desplegado en GCP dentro del archivo de variables de entorno del frontend:
 
 ```bash
 VITE_API_URL=http://jameofit-backend-env.eba-fzj57hq8.us-east-2.elasticbeanstalk.com  
@@ -4418,7 +4449,7 @@ En esta sección se presentan las evidencias de documentación de los servicios 
 
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review
 
-En esta sección se resumen las actividades realizadas durante el Sprint 1 en relación con el despliegue de los productos digitales de JameoFit. El trabajo de deployment incluyó la publicación del Landing Page, la preparación del despliegue de la aplicación web, la configuración de servicios Backend en AWS y la organización de los recursos necesarios para que los componentes desarrollados puedan ejecutarse en entornos accesibles para revisión.
+En esta sección se resumen las actividades realizadas durante el Sprint 1 en relación con el despliegue de los productos digitales de JameoFit. El trabajo de deployment incluyó la publicación del Landing Page, la preparación del despliegue de la aplicación web y la organización de los recursos necesarios para que los componentes desarrollados puedan ejecutarse en entornos accesibles para revisión.
 
 Durante este Sprint, el equipo trabajó en la creación y configuración de repositorios, habilitación de servicios de hosting, configuración de recursos cloud, preparación de variables de entorno, integración con herramientas de despliegue y documentación de evidencias visuales. Estas actividades permiten validar que los entregables desarrollados pueden ser publicados, revisados y conectados progresivamente dentro de la arquitectura distribuida del proyecto.
 
@@ -4456,7 +4487,7 @@ Finalmente, se verificó que el Landing Page quedara publicado correctamente y a
 
 **Web Application Deployment**
 
-La aplicación web fue preparada y desplegada mediante Firebase Hosting, manteniendo la configuración necesaria para conectar el frontend con los servicios Backend publicados en AWS. Durante el Sprint se validó que las vistas implementadas pudieran ejecutarse correctamente, que el proyecto generara una versión de producción y que los principales flujos de la aplicación se mantuvieran disponibles para revisión.
+La aplicación web fue preparada y desplegada mediante Firebase Hosting, manteniendo la configuración necesaria para conectar el frontend con los servicios Backend publicados en GCP. Durante el Sprint se validó que las vistas implementadas pudieran ejecutarse correctamente, que el proyecto generara una versión de producción y que los principales flujos de la aplicación se mantuvieran disponibles para revisión.
 
 1. **Preparación del proyecto frontend**
 
@@ -4597,6 +4628,911 @@ En esta sección se analizan las evidencias de colaboración y coordinación del
 **Web Application:**
 
 ![Team Collaboration Insights](assets/TP/sprint1_web_insights_1.png)
+
+
+#### 6.2.2. Sprint 2
+
+#### 6.2.2.1. Sprint Planning 2
+
+En este Sprint Planning, el equipo definió los objetivos, alcance y actividades correspondientes al Sprint 2, priorizando las historias de usuario relacionadas con el fin del desarrollo del Frontend(Web), asi como el Mobile y un avance importante del Backend y el servicio IoT. Se hizo de esta forma para cumplir con el propósito de construir una base funcional y escalable para el desarrollo del proyecto en los siguientes sprints.
+
+| **Sprint #**                       | Sprint 2                       |
+|------------------------------------|--------------------------------|
+| **Sprint Planning Background**     |                                |
+| Date                               | 2026-06-05                     |
+| Time                               | 12:00 AM                       |
+| Location                           | Servidor del equipo en Discord |
+| Prepared By                        | Galvez Chambi, Jhon            |
+| Attendees (to planning meeting)    | Bueno Perales, Mathias Eduardo / Geronimo Quispe, Pablo Antonio / Guzmán Chávez, Ramiro Alexander / Luquillas Asto, Omar / Paredes Santos, Fabrizio Alberto / Sandoval Paiva,Valentino |
+| Sprint 1 Review Summary            | Revisamos nuestras metas de negocio (business goals), validamos la duración del Sprint (4 semanas), evaluamos los riesgos y dimos feedback entre los miembros. Se aclararon las historias seleccionadas, y se discutieron posibles bloqueos o dependencias técnicas.     |
+| Sprint 1 Retrospective Summary     | **Start**: Mejorar la comunicación interna. <br>Planificar las tareas colectivas con anticipación. <br> **Stop**: Dejar de esperar el último momento para comenzar tareas. <br> **Continue**: Hacer preguntas al Product Owner. <br> Realizar reuniones cortas y frecuentes para alinear avances.     |
+| **Sprint Goal & User Stories**     |                                |
+| Sprint 2 Goal                      | Nuestro enfoque es culminar el desarrollo de la aplicacion frontend como mobile, asimismo tambien tener un avance considerable del backend y del servicio iot. Creemos que esto brindará a los usuarios y stakeholders una vision clara de la plataforma, permitiendo validar la propuesta de valor y las funcionalidades core del producto. Esto se confirmará cuando los usuarios puedan navegar correctamente por las vistas principales de la aplicación, interactuar con las funcionalidades esenciales implementadas y exista una comunicación funcional entre el Frontend y los servicios base del Backend. |
+| Sprint n Velocity                  | 103                             |
+| Sum of Story Points                | 103                             |
+
+
+
+#### 6.2.2.2. Aspect Leaders and Collaborators
+
+En esta sección se definen los líderes y colaboradores asignados a cada aspecto considerado dentro del alcance del Sprint. Esta organización permite distribuir responsabilidades de manera clara entre los miembros del equipo, facilitando la coordinación, comunicación y ejecución de las actividades relacionadas con el desarrollo del Landing Page, la aplicación web y los componentes base del Backend.
+
+| Team Member                           | Github Username       | Frontend Web    | Frontend Mobile   | Backend    | IoT Service |
+|---------------------------------------|-----------------------|-----------------|-------------|------------|---------------|
+| Bueno Perales, Mathias Eduardo        | MathiasBueno          | (C)             | (C)         | (C)        |(C)        |
+| Galvez Chambi, Jhon Alexander         | Chaomeum              | (C)             | (C)         | (L)        |(C)        |
+| Geronimo Quispe, Pablo Antonio        | Phatogram             | (C)             | (C)         | (C)        |(L)        |
+| Guzmán Chávez, Ramiro Alexander       | RamiroGuzmanCh        | (C)             | (L)         | (C)        |(C)        |
+| Luquillas Asto, Omar                  | OmarLLA               | (C)             | (C)         | (C)        |(C)        |
+| Paredes Santos, Fabrizio Alberto      | psfa29                | (C)             | (C)         | (L)        |(C)        |
+| Sandoval Paiva, Valentino             | ValentinoSandovalP    | (L)             | (C)         | (C)        |(C)        |
+
+
+#### 6.2.2.3. Sprint Backlog 2
+
+En esta sección se presenta el Sprint Backlog correspondiente al Sprint 2, el cual contiene las historias de usuario seleccionadas y las tareas definidas por el equipo para alcanzar el Sprint Goal establecido. Asimismo, se incluye el Board de trabajo utilizado para la gestión y seguimiento de las actividades del Sprint, permitiendo visualizar el estado de avance de cada tarea y la distribución del trabajo entre los integrantes del equipo durante el desarrollo de la aplicacion web, mobile, backend e IoT service.
+
+![Sprint Backlog 2](assets/TP/sprint_backlog2.png)
+
+Enlace público del Board en Trello: []()
+
+
+#### 6.2.2.4. Development Evidence for Sprint Review
+
+En esta sección se presentan las evidencias de desarrollo correspondientes al Sprint 2, mostrando los principales avances realizados en la implementación de los productos requeridos, la aplicación web, mobile y los servicios Backend. Asimismo, se incluyen los commits registrados en los repositorios del proyecto como evidencia del trabajo realizado y del progreso alcanzado por el equipo durante la iteración.
+
+
+**Web Application:** [https://github.com/G3-Soluciones-IOT/frontend](https://github.com/G3-Soluciones-IOT/frontend)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| frontend | develop | 8820043 | feat(useTips): implement custom hook for fetching and managing tips | - | 18/06/2026 |
+| frontend | develop | 38f74bb | "feat(dashboard): integrate dashboard data from db.json" | - | 19/06/2026 |
+
+
+#### 6.2.2.5. Testing Suite Evidence for Sprint Review
+
+#### 6.2.2.6. Execution Evidence for Sprint Review
+
+En esta sección se presentan las evidencias de ejecución correspondientes al Sprint 2, mostrando las principales funcionalidades y vistas implementadas para la aplicación web y mobile. Asimismo, se incluyen capturas de pantalla y material audiovisual que evidencian la navegación, interacción y funcionamiento general de los componentes desarrollados durante el sprint, permitiendo validar el cumplimiento de los objetivos establecidos para esta iteración.
+
+
+#### 6.2.2.7. Services Documentation Evidence for Sprint Review
+
+En esta sección se presentan las evidencias de documentación de los servicios web desarrollados durante el Sprint 2, incluyendo la definición y documentación de los principales endpoints implementados para el sistema. Asimismo, se muestran las especificaciones elaboradas mediante OpenAPI, las acciones soportadas por cada servicio y ejemplos de interacción con los endpoints, permitiendo evidenciar el correcto diseño y documentación de la comunicación entre el Frontend y Backend del proyecto.
+
+#### 6.2.2.8. Software Deployment Evidence for Sprint Review
+
+Durante el presente Sprint se avanzó en la configuración de la plataforma de despliegue del backend de **JameoFit** sobre **Google Cloud Platform (GCP)**. El objetivo principal fue preparar una infraestructura cloud mínima, segura y reproducible para soportar el despliegue progresivo de los microservicios del sistema, partiendo de una arquitectura previamente validada en entorno local con Docker Compose.
+
+El trabajo realizado incluyó la configuración del proyecto cloud, habilitación de APIs, creación del repositorio de imágenes Docker, configuración de autenticación federada entre GitHub Actions y GCP, publicación de imágenes en Artifact Registry, aprovisionamiento de red privada, creación de una base de datos administrada en Cloud SQL, gestión de secretos mediante Secret Manager y preparación de una máquina virtual privada en Compute Engine para ejecutar la plataforma mediante Docker Compose.
+
+A diferencia de un despliegue directo con credenciales estáticas, la estrategia adoptada prioriza buenas prácticas de seguridad y trazabilidad, evitando el uso de archivos JSON de Service Account y utilizando **Workload Identity Federation** para permitir que GitHub Actions se autentique contra GCP sin almacenar claves sensibles en los repositorios.
+
+---
+
+### **1. Configuración inicial del proyecto en Google Cloud Platform**
+
+Se creó y configuró el proyecto cloud **jameofit** como entorno principal de despliegue para el backend. Este proyecto funciona como el contenedor lógico de los recursos de infraestructura, IAM, networking, base de datos, almacenamiento de imágenes y secretos.
+
+La configuración base del proyecto quedó establecida con los siguientes valores:
+
+```text
+PROJECT_ID=jameofit
+PROJECT_NUMBER=809847807436
+REGION=southamerica-west1
+ZONE=southamerica-west1-a
+```
+
+La región seleccionada fue **southamerica-west1**, correspondiente a Santiago, con el propósito de mantener los recursos cloud más cercanos geográficamente al equipo y reducir latencia frente a alternativas ubicadas en Norteamérica.
+
+Asimismo, se habilitaron las APIs necesarias para soportar el flujo de deployment y operación de la plataforma:
+
+```text
+artifactregistry.googleapis.com
+iam.googleapis.com
+iamcredentials.googleapis.com
+sts.googleapis.com
+cloudresourcemanager.googleapis.com
+serviceusage.googleapis.com
+compute.googleapis.com
+secretmanager.googleapis.com
+sqladmin.googleapis.com
+logging.googleapis.com
+monitoring.googleapis.com
+servicenetworking.googleapis.com
+```
+
+Estas APIs permiten trabajar con Artifact Registry, IAM, Workload Identity Federation, Compute Engine, Secret Manager, Cloud SQL, monitoreo, logging y conectividad privada entre servicios.
+
+<div align="center">
+  <img src="assets/TB2/gcp_project_apis_enabled.png" alt="GCP APIs Enabled" width="75%">
+  <p><em>Habilitación de APIs necesarias para la plataforma backend de JameoFit en GCP</em></p>
+</div>
+
+---
+
+### **2. Creación de Artifact Registry para imágenes Docker**
+
+Se creó un repositorio Docker privado en **Google Artifact Registry**. Este repositorio se utiliza como destino oficial de las imágenes Docker generadas por los pipelines de GitHub Actions.
+
+La configuración del repositorio fue la siguiente:
+
+```text
+Repository: jameofit-docker
+Format: Docker
+Location: southamerica-west1
+Mode: Standard Repository
+Project: jameofit
+```
+
+El repositorio fue creado mediante el siguiente comando:
+
+```bash
+gcloud artifacts repositories create jameofit-docker \
+  --repository-format=docker \
+  --location=southamerica-west1 \
+  --description="Docker images for JameoFit backend services"
+```
+
+Con ello, las imágenes de los microservicios siguen el siguiente formato:
+
+```text
+southamerica-west1-docker.pkg.dev/jameofit/jameofit-docker/<service-name>:<tag>
+```
+
+<div align="center">
+  <img src="assets/gcp_artifact_registry_jameofit.png" alt="GCP Artifact Registry JameoFit" width="75%">
+  <p><em>Repositorio Docker jameofit-docker creado en Google Artifact Registry</em></p>
+</div>
+
+---
+
+### **3. Configuración de GitHub Actions con Workload Identity Federation**
+
+Para automatizar la publicación de imágenes Docker sin usar claves estáticas, se configuró **Workload Identity Federation** entre GitHub Actions y Google Cloud Platform.
+
+Se creó la Service Account:
+
+```text
+gha-artifact-writer@jameofit.iam.gserviceaccount.com
+```
+
+Esta cuenta recibió permisos limitados de escritura únicamente sobre el repositorio Docker `jameofit-docker` mediante el rol:
+
+```text
+roles/artifactregistry.writer
+```
+
+También se creó un Workload Identity Pool y un Provider OIDC para GitHub Actions:
+
+```text
+Workload Identity Pool: github-pool
+Provider: github-provider
+Issuer URI: https://token.actions.githubusercontent.com
+Repository owner allowed: G3-Soluciones-IOT
+```
+
+La configuración restringe la autenticación únicamente a workflows ejecutados desde repositorios pertenecientes a la organización:
+
+```text
+G3-Soluciones-IOT
+```
+
+El valor final utilizado por GitHub Actions fue:
+
+```text
+workload_identity_provider=projects/809847807436/locations/global/workloadIdentityPools/github-pool/providers/github-provider
+service_account=gha-artifact-writer@jameofit.iam.gserviceaccount.com
+```
+
+Se validó correctamente que GitHub Actions pueda autenticarse contra GCP como la Service Account configurada, sin utilizar archivos JSON de credenciales.
+
+<div align="center">
+  <img src="assets/github_actions_gcp_wif_auth.png" alt="GitHub Actions GCP Workload Identity Federation" width="75%">
+  <p><em>Validación de autenticación desde GitHub Actions hacia GCP mediante Workload Identity Federation</em></p>
+</div>
+
+---
+
+### **4. Automatización del build y push de imágenes Docker**
+
+El flujo de CI/CD fue organizado mediante workflows reutilizables en el repositorio:
+
+```text
+G3-Soluciones-IOT/shared-workflows
+```
+
+Se trabajó con los siguientes workflows base:
+
+```text
+java-ci.yml
+docker-build.yml
+gcp-artifact-registry-push.yml
+```
+
+El flujo de deployment fue ajustado para evitar depender de artefactos generados por otros workflows. Inicialmente, el workflow de CD intentaba construir imágenes Docker esperando que existiera un archivo `.jar` dentro de `target/`, pero se identificó que cada workflow de GitHub Actions se ejecuta en un runner limpio. Por ello, se adoptó un enfoque de **Dockerfile multi-stage**, en el cual cada imagen Docker compila internamente el servicio y genera su propio artefacto.
+
+El patrón aplicado permite que cada microservicio sea autosuficiente durante el build de imagen:
+
+```dockerfile
+FROM eclipse-temurin:25-jdk AS build
+WORKDIR /workspace
+
+COPY .mvn .mvn
+COPY mvnw pom.xml ./
+RUN chmod +x mvnw && ./mvnw -B -ntp dependency:go-offline
+
+COPY src src
+RUN ./mvnw -B -ntp package -DskipTests
+
+FROM eclipse-temurin:25-jre
+WORKDIR /app
+
+COPY --from=build /workspace/target/*.jar /app/app.jar
+
+ENTRYPOINT ["java", "-jar", "/app/app.jar"]
+```
+
+El flujo resultante para cada microservicio quedó organizado de la siguiente manera:
+
+```text
+Pull Request hacia main:
+  - java-ci
+  - docker-build validation
+
+Push a main:
+  - java-ci
+  - docker build multi-stage
+  - push a Artifact Registry
+```
+
+Cada imagen publicada utiliza tags trazables:
+
+```text
+sha-<short-commit-sha>
+main-latest
+```
+
+Ejemplo de imagen publicada:
+
+```text
+southamerica-west1-docker.pkg.dev/jameofit/jameofit-docker/config-service:main-latest
+southamerica-west1-docker.pkg.dev/jameofit/jameofit-docker/config-service:sha-xxxxxxx
+```
+
+Este enfoque permite reproducibilidad, trazabilidad y rollback más seguro en futuras fases de deployment.
+
+<div align="center">
+  <img src="assets/github_actions_gcp_artifact_push.png" alt="GitHub Actions Artifact Registry Push" width="75%">
+  <p><em>Workflow de GitHub Actions para build y publicación de imágenes Docker en Artifact Registry</em></p>
+</div>
+
+---
+
+### **5. Configuración de red privada para el backend**
+
+Se creó una red privada dedicada para la plataforma backend de JameoFit:
+
+```text
+VPC: jameofit-vpc
+Subnet: jameofit-subnet-saw1
+Subnet range: 10.10.0.0/24
+Region: southamerica-west1
+```
+
+La VPC fue configurada en modo custom para tener control explícito sobre las subredes y rangos utilizados.
+
+```bash
+gcloud compute networks create jameofit-vpc \
+  --subnet-mode=custom \
+  --description="JameoFit VPC for GCP backend platform"
+```
+
+Posteriormente, se creó la subred regional:
+
+```bash
+gcloud compute networks subnets create jameofit-subnet-saw1 \
+  --network=jameofit-vpc \
+  --region=southamerica-west1 \
+  --range=10.10.0.0/24 \
+  --description="JameoFit subnet for backend VM and internal connectivity"
+```
+
+Esta red será utilizada por la máquina virtual de backend y por la conectividad privada hacia Cloud SQL.
+
+<div align="center">
+  <img src="assets/gcp_vpc_subnet_jameofit.png" alt="GCP VPC and Subnet JameoFit" width="75%">
+  <p><em>VPC y subnet privadas creadas para la plataforma backend de JameoFit</em></p>
+</div>
+
+---
+
+### **6. Configuración de Cloud SQL para PostgreSQL**
+
+Para el entorno GCP se decidió utilizar **Cloud SQL for PostgreSQL** en lugar de ejecutar PostgreSQL dentro de un contenedor. De esta forma, PostgreSQL en contenedor queda reservado para el entorno local, mientras que la nube utiliza una base de datos administrada.
+
+La instancia creada fue:
+
+```text
+Instance: jameofit-postgres-dev
+Database engine: PostgreSQL 16
+Edition: Enterprise
+Tier: db-f1-micro
+Region: southamerica-west1
+Availability: Zonal
+Private IP: 10.20.0.3
+Public IP: disabled
+Database: jameofit_iam
+User: jameofit_app
+```
+
+Durante la creación de la instancia se configuró el acceso mediante **Private IP**, evitando exposición pública de la base de datos.
+
+Para habilitar la conectividad privada se creó primero un rango reservado para Private Service Access:
+
+```text
+PSA range: jameofit-psa-range
+Range: 10.20.0.0/24
+Purpose: VPC_PEERING
+```
+
+Luego, se configuró la conexión privada entre la VPC `jameofit-vpc` y `servicenetworking.googleapis.com`.
+
+```bash
+gcloud services vpc-peerings connect \
+  --service=servicenetworking.googleapis.com \
+  --ranges=jameofit-psa-range \
+  --network=jameofit-vpc
+```
+
+La instancia Cloud SQL fue creada sin IP pública:
+
+```bash
+gcloud sql instances create jameofit-postgres-dev \
+  --database-version=POSTGRES_16 \
+  --region=southamerica-west1 \
+  --edition=ENTERPRISE \
+  --tier=db-f1-micro \
+  --storage-size=10GB \
+  --storage-type=SSD \
+  --network=projects/jameofit/global/networks/jameofit-vpc \
+  --no-assign-ip \
+  --availability-type=ZONAL \
+  --backup-start-time=03:00 \
+  --maintenance-window-day=SUN \
+  --maintenance-window-hour=04 \
+  --deletion-protection
+```
+
+La cadena JDBC definida para el servicio IAM quedó de la siguiente manera:
+
+```text
+SPRING_DATASOURCE_URL=jdbc:postgresql://10.20.0.3:5432/jameofit_iam
+SPRING_DATASOURCE_USERNAME=jameofit_app
+SPRING_DATASOURCE_PASSWORD=<from Secret Manager>
+```
+
+<div align="center">
+  <img src="assets/gcp_cloud_sql_postgres_private_ip.png" alt="GCP Cloud SQL PostgreSQL Private IP" width="75%">
+  <p><em>Instancia Cloud SQL PostgreSQL creada con IP privada para el backend de JameoFit</em></p>
+</div>
+
+---
+
+### **7. Gestión de secretos con Secret Manager**
+
+Las credenciales y parámetros sensibles no fueron almacenados en repositorios ni archivos versionados. En su lugar, se configuró **Google Secret Manager** para gestionar los valores de conexión a Cloud SQL.
+
+Se crearon los siguientes secretos:
+
+```text
+jameofit-db-password
+jameofit-db-url
+jameofit-db-username
+```
+
+Cada secreto cuenta con una versión habilitada y será consumido por la máquina virtual mediante una Service Account de runtime.
+
+```bash
+gcloud secrets create jameofit-db-password --replication-policy="automatic"
+gcloud secrets create jameofit-db-url --replication-policy="automatic"
+gcloud secrets create jameofit-db-username --replication-policy="automatic"
+```
+
+Posteriormente, se creó la Service Account de runtime para la VM:
+
+```text
+jameofit-vm-runtime@jameofit.iam.gserviceaccount.com
+```
+
+Esta cuenta recibió permisos mínimos para:
+
+```text
+- Leer imágenes desde Artifact Registry.
+- Leer secretos específicos de base de datos desde Secret Manager.
+```
+
+Roles asignados:
+
+```text
+roles/artifactregistry.reader
+roles/secretmanager.secretAccessor
+```
+
+El permiso de `secretAccessor` fue asignado por secreto, evitando otorgar acceso amplio a todos los secretos del proyecto.
+
+<div align="center">
+  <img src="assets/gcp_secret_manager_db_secrets.png" alt="GCP Secret Manager DB Secrets" width="75%">
+  <p><em>Secretos de conexión a Cloud SQL almacenados en Google Secret Manager</em></p>
+</div>
+
+---
+
+### **8. Creación de máquina virtual privada en Compute Engine**
+
+Se creó una máquina virtual en **Google Compute Engine**. Esta VM será utilizada como host de ejecución para Docker Compose.
+
+La VM fue diseñada como un nodo privado, sin IP pública, siguiendo buenas prácticas de seguridad:
+
+```text
+VM: jameofit-backend-dev-vm
+Zone: southamerica-west1-a
+Network: jameofit-vpc
+Subnet: jameofit-subnet-saw1
+External IP: disabled
+Service Account: jameofit-vm-runtime@jameofit.iam.gserviceaccount.com
+Runtime: Docker + Docker Compose
+```
+
+La decisión de no asignar IP pública reduce la superficie de exposición de la plataforma. El acceso administrativo se realiza mediante **IAP TCP forwarding**, evitando abrir SSH directamente a internet.
+
+Se creó una regla de firewall para permitir SSH únicamente a través del rango de IAP:
+
+```text
+Firewall rule: allow-iap-ssh-jameofit
+Source range: 35.235.240.0/20
+Target tag: jameofit-backend
+Port: tcp:22
+```
+
+Además, para permitir que la VM privada pueda descargar actualizaciones, instalar Docker y acceder a repositorios externos sin tener IP pública, se configuró **Cloud NAT**:
+
+```text
+Cloud Router: jameofit-router
+Cloud NAT: jameofit-nat
+Network: jameofit-vpc
+Region: southamerica-west1
+NAT mode: all subnet IP ranges
+```
+
+Con Cloud NAT, la VM puede iniciar conexiones salientes a internet sin aceptar conexiones entrantes desde internet.
+
+<div align="center">
+  <img src="assets/gcp_compute_engine_private_vm.png" alt="GCP Compute Engine Private VM" width="75%">
+  <p><em>Máquina virtual privada creada para ejecutar Docker Compose en GCP</em></p>
+</div>
+
+<div align="center">
+  <img src="assets/gcp_cloud_nat_jameofit.png" alt="GCP Cloud NAT JameoFit" width="75%">
+  <p><em>Cloud NAT configurado para permitir salida a internet desde la VM privada</em></p>
+</div>
+
+---
+
+### **9. Preparación de Docker y Docker Compose en la VM**
+
+Una vez configurada la conectividad de salida mediante Cloud NAT, se instaló Docker en la VM privada. Esto permite ejecutar la plataforma backend mediante Docker Compose, manteniendo un enfoque similar al entorno local ya validado.
+
+Los pasos realizados incluyen:
+
+```bash
+sudo apt-get update
+sudo apt-get install -y ca-certificates curl gnupg git
+```
+
+Posteriormente, se configuró el repositorio oficial de Docker para Debian y se instalaron los paquetes:
+
+```text
+docker-ce
+docker-ce-cli
+containerd.io
+docker-buildx-plugin
+docker-compose-plugin
+```
+
+Se validó la instalación mediante:
+
+```bash
+docker --version
+docker compose version
+docker run hello-world
+```
+
+También se configuró Docker para autenticarse contra Artifact Registry:
+
+```bash
+gcloud auth configure-docker southamerica-west1-docker.pkg.dev --quiet
+```
+
+Con esto, la VM queda preparada para descargar imágenes desde:
+
+```text
+southamerica-west1-docker.pkg.dev/jameofit/jameofit-docker
+```
+
+<div align="center">
+  <img src="assets/gcp_vm_docker_installation.png" alt="Docker Installation on GCP VM" width="75%">
+  <p><em>Instalación y validación de Docker y Docker Compose en la VM privada</em></p>
+</div>
+
+---
+
+### **10. Configuración de platform-deploy para GCP**
+
+El repositorio `platform-deploy` fue preparado para centralizar la operación cloud de la plataforma. Este repositorio contiene los archivos necesarios para levantar el entorno GCP mediante Docker Compose, sin depender de comandos manuales aislados.
+
+La estructura propuesta para GCP es:
+
+```text
+platform-deploy/
+├── docker/
+│   └── docker-compose.gcp.yml
+├── env/
+│   └── gcp.env.example
+├── scripts/
+│   ├── gcp-load-secrets.sh
+│   ├── gcp-up.sh
+│   ├── gcp-down.sh
+│   └── gcp-healthcheck.sh
+└── README.md
+```
+
+El archivo `docker-compose.gcp.yml` no incluye PostgreSQL como contenedor, debido a que la persistencia se gestiona con Cloud SQL.
+
+La carga de secretos se realiza mediante el script:
+
+```bash
+./scripts/gcp-load-secrets.sh
+```
+
+Este script recupera los valores desde Secret Manager y genera el archivo `env/gcp.env` en la VM. Dicho archivo no debe versionarse.
+
+Flujo esperado de despliegue:
+
+```bash
+./scripts/gcp-load-secrets.sh
+./scripts/gcp-up.sh
+./scripts/gcp-healthcheck.sh
+```
+
+El archivo `gcp.env` contiene valores como:
+
+```text
+GCP_PROJECT_ID=jameofit
+GCP_REGION=southamerica-west1
+GAR_REPOSITORY=jameofit-docker
+IMAGE_TAG=main-latest
+SPRING_PROFILES_ACTIVE=gcp
+CONFIG_SERVER_URL=http://config-service:8888
+EUREKA_SERVER_URL=http://eureka-service:8761/eureka/
+SPRING_DATASOURCE_URL=jdbc:postgresql://10.20.0.3:5432/jameofit_iam
+SPRING_DATASOURCE_USERNAME=jameofit_app
+SPRING_DATASOURCE_PASSWORD=<from Secret Manager>
+```
+
+<div align="center">
+  <img src="assets/platform_deploy_gcp_compose_config.png" alt="platform-deploy GCP Docker Compose" width="75%">
+  <p><em>Configuración de platform-deploy para ejecutar la plataforma base en GCP</em></p>
+</div>
+
+---
+
+### **11. Estrategia de exposición y acceso a endpoints**
+
+Como la VM fue creada sin IP pública, los endpoints internos no quedan expuestos directamente en internet. Esto es una decisión de seguridad intencional.
+
+Para pruebas internas, documentación Swagger, Eureka Dashboard y validación de endpoints, se utilizará **IAP TCP forwarding**. Por ejemplo, para acceder al Gateway desde la máquina local del desarrollador:
+
+```bash
+gcloud compute start-iap-tunnel jameofit-backend-dev-vm 8080 \
+  --project=jameofit \
+  --zone=southamerica-west1-a \
+  --local-host-port=localhost:8080
+```
+
+Luego, desde el navegador local se podrá acceder a:
+
+```text
+http://localhost:8080
+```
+
+En caso de requerir acceso al dashboard de Eureka:
+
+```bash
+gcloud compute start-iap-tunnel jameofit-backend-dev-vm 8761 \
+  --project=jameofit \
+  --zone=southamerica-west1-a \
+  --local-host-port=localhost:8761
+```
+
+Y luego:
+
+```text
+http://localhost:8761
+```
+
+Esta estrategia permite validar la plataforma sin exponer públicamente servicios internos como Config Server, Eureka, Actuator o Swagger.
+
+Para una exposición pública del backend hacia el frontend, la alternativa recomendada para una fase posterior es configurar un **HTTPS Load Balancer** apuntando únicamente al `gateway-service`, manteniendo la VM privada y evitando exposición directa de los microservicios.
+
+<div align="center">
+  <img src="assets/gcp_iap_tunnel_gateway.png" alt="GCP IAP Tunnel Gateway" width="75%">
+  <p><em>Acceso privado al Gateway mediante IAP TCP forwarding para pruebas y revisión de endpoints</em></p>
+</div>
+
+---
+
+### **12. Alcance del despliegue durante el Sprint**
+
+El alcance del despliegue fue controlado intencionalmente para reducir riesgos.
+
+Servicios incluidos en la primera plataforma base:
+
+```text
+config-service
+eureka-service
+iam-service
+gateway-service
+goals-service
+meal-plans-service
+profiles-service
+recipes-service
+tracking-service
+communication-service
+```
+
+El servicio `communication-service` fue excluido del primer despliegue porque utiliza MongoDB, lo cual agregaría complejidad adicional a la primera validación cloud. Su despliegue se reservará para una fase posterior, una vez que la plataforma base en GCP haya sido validada correctamente.
+
+También se decidió no integrar Auth0 en esta etapa para evitar mezclar la validación de infraestructura cloud con un rediseño del modelo de autenticación.
+
+---
+
+### **13. Resultado final del Sprint**
+
+Como resultado del Sprint, se logró dejar preparada la base cloud para el despliegue controlado del backend de JameoFit en Google Cloud Platform.
+
+Los principales resultados alcanzados fueron:
+
+* Proyecto GCP configurado con región `southamerica-west1`.
+* Artifact Registry creado para almacenar imágenes Docker privadas.
+* Autenticación entre GitHub Actions y GCP configurada mediante Workload Identity Federation.
+* Service Account de CI/CD creada sin uso de claves JSON.
+* Workflows reutilizables preparados para build y push de imágenes Docker.
+* Imágenes base publicadas en Artifact Registry con tags trazables.
+* VPC privada creada para la plataforma backend.
+* Cloud SQL PostgreSQL configurado con IP privada.
+* Secret Manager configurado para credenciales de base de datos.
+* Service Account runtime creada para la VM.
+* Máquina virtual privada preparada para ejecutar Docker Compose.
+* Cloud NAT configurado para permitir salida a internet sin IP pública.
+* Estrategia de acceso privado mediante IAP TCP forwarding definida para pruebas internas.
+* `platform-deploy` adaptado para GCP y Cloud SQL.
+
+La arquitectura resultante permite que la plataforma evolucione hacia un despliegue más completo, manteniendo una separación clara entre construcción de imágenes, almacenamiento de artefactos, secretos, base de datos administrada, runtime y acceso seguro.
+
+<div align="center">
+  <img src="assets/gcp_deployment_summary_jameofit.png" alt="JameoFit GCP Deployment Summary" width="75%">
+  <p><em>Resumen de recursos configurados para el despliegue del backend de JameoFit en GCP</em></p>
+</div>
+
+#### 6.2.2.9. Team Collaboration Insights during Sprint
+
+En esta sección se analizan las evidencias de colaboración y coordinación del equipo durante el desarrollo del Sprint 2, considerando la participación de los integrantes en las actividades de implementación y control de versiones del proyecto. Para ello, se presentan métricas, capturas y analíticos obtenidos de GitHub, los cuales permiten visualizar la distribución del trabajo, el nivel de contribución de cada miembro y la interacción mantenida en el desarrollo del Landing Page, la aplicación web y los servicios Backend implementados durante el sprint.
+
+
+
+### 6.3. Validation Interviews
+
+#### 6.3.1. Diseño de Entrevistas
+
+## Segmento Objetivo #1: Usuarios finales (Enfoque en bienestar y nutrición)
+##### *Preguntas dirigidas a personas que buscan mejorar sus hábitos alimenticios, deportistas o quienes necesitan controlar su ingesta por salud.*
+
+
+1. ¿Qué fue lo primero que entendiste sobre el producto al ver la landing page?
+
+2. ¿Quedó claro para ti qué problema resuelve JameoFit?
+
+3. Al explorar la aplicación web, ¿encontraste fácilmente las secciones que esperabas? ¿Hubo algo que te resultó confuso?
+
+4. ¿Cómo describirías la experiencia de registrarte e iniciar sesión en la plataforma?
+
+5. ¿La vista de dashboard te da una idea clara de tu progreso nutricional? ¿Qué añadirías o quitarías?
+
+6. ¿Qué tan útil te parece la función de monitoreo de hidratación con la botella inteligente?
+
+7. ¿Usarías la balanza inteligente para registrar tu peso automáticamente? ¿Por qué?
+
+8. ¿La sección de comunicación con el nutricionista cubre lo que esperarías de una consulta digital?
+
+9. ¿Pagarías por una suscripción a esta plataforma? ¿Qué tendría que ofrecerte para que valga la pena?
+
+10. ¿Recomendarías JameoFit a alguien que quiere mejorar sus hábitos alimenticios? ¿Por qué?
+
+### Segmento Objetivo #2: Profesionales de la Salud (Nutricionistas y Entrenadores)
+
+##### *Preguntas dirigidas a especialistas que requieren datos confiables de sus pacientes/clientes.*
+
+1. Al ver la landing page, ¿percibiste que el producto también está orientado a profesionales de la salud?
+
+2. ¿La propuesta de valor te parece relevante para tu práctica profesional?
+
+3. Al revisar el directorio y detalle de pacientes, ¿consideras que la información presentada es suficiente para hacer seguimiento?
+
+4. ¿El panel de seguimiento de paciente refleja los datos que realmente necesitas en tu día a día?
+
+5. ¿Qué tan intuitiva te pareció la navegación entre las vistas de gestión de pacientes?
+
+6. ¿La integración con dispositivos IoT (balanza y botella) te genera confianza en los datos que recibirías de tus pacientes?
+
+7. ¿El módulo de comunicación (chat y consultas) sería suficiente para reemplazar o complementar tus canales actuales con pacientes?
+
+8. ¿Los tips de contenido nutricional que gestionas desde la plataforma te parecen una herramienta útil?
+
+9. ¿Qué funcionalidad que viste hoy incorporarías de inmediato a tu práctica?
+
+10. ¿Qué le faltaría a JameoFit para que lo consideraras una herramienta profesional confiable?
+
+<br>
+
+#### 6.3.2. Registro de Entrevistas 
+
+### Segmento 1: Usuarios orientados a la mejora de su alimentación
+
+| Entrevistado 1 | Gabriel Perez |
+| :---- | :---- |
+| Edad | 23 años |
+| Distrito/Ciudad | Lima |
+|  <img src="assets/entrevistas/Entrevista-Validacion1.png" alt="PB" width="800" height = "200"> | Gabriel entendió que JameoFit es una plataforma orientada a mejorar los hábitos alimenticios y el bienestar personal mediante el seguimiento nutricional y la integración con dispositivos inteligentes. Consideró clara la propuesta de valor, destacando la centralización de información sobre alimentación, hidratación y progreso físico en un solo lugar. Valoró positivamente la navegación de la plataforma, señalando que es intuitiva y fácil de usar, aunque inicialmente requirió comprender mejor la relación entre los dispositivos IoT y el seguimiento nutricional. Destacó la simplicidad del proceso de registro e inicio de sesión, así como la claridad visual del dashboard. Sugirió incorporar gráficos comparativos semanales y metas personalizadas para enriquecer el seguimiento del progreso. Respecto a los dispositivos inteligentes, consideró muy útil el monitoreo de hidratación y valoró la balanza inteligente por automatizar el registro de datos y reducir errores. Sobre la comunicación con el nutricionista, indicó que cumple con las expectativas de una consulta digital, aunque recomendó incluir videollamadas o mensajería en tiempo real. Finalmente, manifestó que estaría dispuesto a pagar una suscripción si incorpora asesorías periódicas, planes personalizados y análisis detallados, concluyendo que recomendaría la plataforma por integrar monitoreo, seguimiento y orientación profesional en una sola herramienta. |
+| Timing: 00:10 – : min | [Entrevista 1 JammeoFit.mp4]() |
+
+
+| Entrevistado 2 | María Fernanda Peña |
+| :---- | :---- |
+| Edad | 22 años |
+| Distrito/Ciudad | Lima |
+|  <img src="assets/entrevistas/Entrevista-Validacion2.png" alt="PB" width="800" height = "200"> | María Fernanda percibió que JameoFit es una plataforma enfocada en mejorar la salud y la alimentación mediante el seguimiento nutricional apoyado por dispositivos IoT. Consideró clara la problemática que aborda, resaltando que ayuda a mantener hábitos saludables de manera práctica para personas con rutinas exigentes, como estudiantes y practicantes. Valoró positivamente la navegación de la aplicación por ser intuitiva y sencilla, aunque mencionó cierta dificultad inicial para comprender la sección relacionada con el peso y la búsqueda de nutricionistas. Destacó la facilidad del proceso de registro e inicio de sesión, así como la claridad de la información mostrada en el dashboard, sugiriendo añadir gráficos de progreso semanales o mensuales. Respecto a los dispositivos inteligentes, consideró especialmente útil el monitoreo de hidratación por ayudar a recordar el consumo de agua durante jornadas ocupadas, y valoró la balanza inteligente por facilitar el control del peso y generar mayor conciencia sobre los hábitos alimenticios. Sobre la comunicación con el nutricionista, indicó que cumple con lo esperado y sugirió incorporar videollamadas o programación de citas dentro de la plataforma. Finalmente, señaló que estaría dispuesta a pagar una suscripción siempre que el precio sea accesible y se ofrezcan planes personalizados e integración con otras aplicaciones, concluyendo que recomendaría JameoFit por reunir múltiples herramientas de seguimiento y orientación profesional en un solo lugar. |
+| Timing: 00:10 – : min | [Entrevista 2 JammeoFit.mp4]() |
+
+
+| Entrevistado 3 |   |
+| :---- | :---- |
+| Edad | años |
+| Distrito/Ciudad |  |
+|  <img src="" alt="PB" width="800" height = "200"> |  |
+| Timing: 00:10 – : min | [Entrevista 3 JammeoFit.mp4]() |
+
+
+### Segmento 2: Profesionales de la salud (nutrición y bienestar)
+
+| Entrevistado 4 | Franck Panduro  |
+| :---- | :---- |
+| Edad | 23 años |
+| Distrito/Ciudad | Lima |
+|  <img src="assets/entrevistas/Entrevista-Validacion4.png" alt="PB" width="800" height = "200"> | Franck percibió que el producto está claramente orientado a profesionales de la salud, aunque sugirió agregar detalles visuales a la landing page, como una marca de agua con el logo o el nombre de HamioFit, para complementar el fondo blanco llano. Consideró relevante la propuesta de valor y valoró positivamente el directorio y panel de seguimiento, indicando que muestran la información diaria suficiente para los pacientes. Destacó que la navegación por la interfaz es muy intuitiva, llamativa y fácil de usar. Asimismo, la integración con los dispositivos IoT le generó confianza y seguridad debido al respaldo tecnológico. Finalmente, resaltó el chat de mensajería interna como la funcionalidad que incorporaría de inmediato a su práctica por ser una red de comunicación más directa, concluyendo que ve la herramienta bastante completa y profesional. |
+| Timing: 00:10 – : min | [Entrevista 4 JammeoFit.mp4]() |
+
+| Entrevistado 5 | Miguel Salas  |
+| :---- | :---- |
+| Edad | 21 años |
+| Distrito/Ciudad | Lima |
+|  <img src="assets/entrevistas/Entrevista-Validacion5.png" alt="PB" width="800" height = "200"> | Miguel destacó que la landing page y la plataforma están bastante optimizadas, didácticas y visualmente atractivas, señalando que la explicación le dejó muy claro el uso que los profesionales de la nutrición pueden darle. Consideró que la propuesta de valor es muy buena, innovadora y relevante para la práctica profesional, valorando positivamente el directorio y panel de seguimiento al reflejar datos completas y necesarios para el día a día que actualmente le hacen falta. Mencionó que la navegación por la interfaz es bastante intuitiva y fácil de usar. Respecto a la integración con dispositivos IoT, admitió que es una novedad que no conoce a fondo, pero afirmó que le genera total confianza en los datos que brinda. Sobre el módulo de comunicación, opinó que el chat no sería suficiente para reemplazar los canales actuales (como WhatsApp), pero sí funcionará como un excelente complemento. Finalmente, calificó los tips de contenido como una herramienta útil y concluyó que, puliendo algunos detalles de diseño al implementarse, la herramienta será completamente profesional, confiable y exitosa. |
+| Timing: 00:10 – : min | [Entrevista 5 JammeoFit.mp4]() |
+
+| Entrevistado 6 | Cristina Sihuas  |
+| :---- | :---- |
+| Edad | 21 años |
+| Distrito/Ciudad | Lima |
+|  <img src="assets/entrevistas/Entrevista-Validacion6.png" alt="PB" width="800" height = "200"> | Cristina percibió que el producto está correctamente orientado a profesionales de la salud, señalando que centraliza el seguimiento nutricional, organiza el tiempo de atención y facilita la comunicación con los pacientes. Consideró relevante la propuesta de valor por la capacidad de consolidar la atención en un solo lugar y valoró el panel de seguimiento al reflejar indicadores diarios esenciales como el peso y la alimentación. Destacó que la navegación por la interfaz es intuitiva, fácil de comprender y organizada de forma lógica. Con respecto a la integración con dispositivos IoT, mencionó que le genera confianza siempre que estén bien calibrados y sincronizados, destacando que la captura automática reduce errores manuales. Sobre el módulo de comunicación y la sección de tips, los calificó como herramientas complementarias y valiosas para registrar interacciones y reforzar la educación nutricional de forma constante. Finalmente, sugirió que para considerarla una herramienta profesional y confiable, sería importante incorporar historias clínicas nutricionales más completas, reportes de evolución personalizados, recordatorios automáticos, integración con más dispositivos de salud y garantías claras sobre la seguridad y privacidad de los datos. |
+| Timing: 00:10 – : min | [Entrevista 6 JammeoFit.mp4]() |
+
+
+#### 6.3.3. Evaluaciones según heurísticas
+
+##### SITE o APP A EVALUAR: JameoFit
+
+##### TAREAS A EVALUAR:
+
+- Exploración y comprensión de la landing page
+
+- Registro y acceso a la plataforma (roles de usuario y nutricionista)
+
+- Monitoreo automatizado y sincronización con dispositivos IoT (balanza e hidratación inteligente)
+
+- Visualización y gestión del dashboard profesional para nutricionistas
+
+- Acceso y navegación entre secciones (overview, directorio, tracking, contenido)
+
+- Gestión y carga de recursos educativos o tips nutricionales (PDFs, videos)
+
+- Interacción y seguimiento entre paciente y profesional a través de mensajería interna
+
+- Recepción y visualización de alertas críticas o desviaciones nutricionales en tiempo real
+
+- Visualización de planes de suscripción y configuración de perfil profesional
+
+<br>
+
+#### ESCALA DE SEVERIDAD
+
+| Nivel | Descripción                                                                                   |
+| ----- | --------------------------------------------------------------------------------------------- |
+| 1     | Problema superficial: fácilmente superado o poco frecuente. No requiere corrección inmediata. |
+| 2     | Problema menor: puede dificultar algo la experiencia. Se recomienda corregir pronto.          |
+| 3     | Problema mayor: frecuente o difícil de superar. Debe corregirse con prioridad.                |
+| 4     | Problema muy grave: impide el uso normal. Requiere solución inmediata.                        |
+
+<br>
+
+#### TABLA RESUMEN DE HALLAZGOS HEURISTICOS
+
+| #  | Problema                                                                         | Severidad | Heurística violada                                            |
+| -- | -------------------------------------------------------------------------------- | --------- | ------------------------------------------------------------- |
+| 1 | Insuficiencia de datos históricos, evolución y antecedentes clínicos en el perfil inicial del paciente.                     | 3         | Flexibilidad y eficiencia de uso (Nielsen #7)                      |
+| 2  | Dependencia crítica de la calibración externa y falta de visibilidad del estado de sincronización de los dispositivos IoT.                     | 3        | Visibilidad del estado del sistema (Nielsen #1)                 |
+| 3  | Diseño visual de la landing page excesivamente plano o simple que carece de identidad de marca en el fondo.       | 2         | Diseño estético y minimalista (Nielsen #8)               |
+| 4  | Falta de funcionalidades automatizadas avanzadas en el ecosistema (recordatorios al paciente e historias clínicas completas).                                  | 2         | Ayuda y documentación / Eficiencia (Nielsen #10)                       |
+| 5  | Incertidumbre sobre los protocolos de seguridad, privacidad y viabilidad legal de los datos de salud expuestos.          | 2         | Reconocimiento antes que recuerdo / Consistencia (Nielsen #6)             |
+
+<br>
+
+#### PROBLEMA #1: Insuficiencia de datos históricos, evolución y antecedentes clínicos en el perfil inicial del paciente <br>
+- Severidad: 3 <br>
+
+- Heurística violada: Flexibilidad y eficiencia de uso (Nielsen #7) <br>
+
+- Descripción: La nutricionista Cristina Siguaz señaló que, aunque los datos mostrados en el directorio son un buen punto de partida, resultan insuficientes para un seguimiento clínico profesional profundo. Falta integrar de manera estructurada la historia nutricional previa, reportes personalizados de evolución a largo plazo y el complemento de recomendaciones anteriores. <br>
+
+- Recomendación: Diseñar una sección expandible dentro del perfil de cada paciente dedicada exclusivamente a la "Historia Clínica Nutricional", permitiendo al profesional contrastar los datos automáticos del IoT con el historial médico del usuario. <br>
+
+#### PROBLEMA #2: Dependencia crítica de la calibración externa y falta de visibilidad del estado de sincronización de los dispositivos IoT <br>
+- Severidad: 3 <br>
+
+- Heurística violada: Visibilidad del estado del sistema (Nielsen #1) <br>
+
+- Descripción: Basado en las observaciones de Miguel Sayas y Cristina Siguaz, la confianza del profesional en los datos depende enteramente de que la balanza y la botella inteligente estén correctamente calibradas y sincronizadas. La interfaz actual no muestra activamente si un dispositivo ha perdido conexión, está descalibrado o si los datos mostrados están desactualizados. <br>
+
+- Recomendación: Implementar un indicador visual de "Estado del Dispositivo" (por ejemplo: color verde para sincronizado/calibrado, amarillo para requiere atención y rojo para desconectado) en el panel de monitorización del paciente. <br>
+
+#### PROBLEMA #3: Diseño visual de la landing page excesivamente plano o simple que carece de identidad de marca en el fondo <br>
+- Severidad: 2 <br>
+
+- Heurística violada: Diseño estético y minimalista (Nielsen #8) <br>
+
+- Descripción: El nutricionista Fran Panduro identificó que el fondo de la landing page es un "blanco llano" que puede percibirse como demasiado simple o vacío. Mencionó que se requiere añadir elementos de identidad sutiles para que el entorno se sienta más profesional y alineado con la marca médica desde el primer vistazo. <br> 
+
+- Recomendación: Incorporar marcas de agua estéticas con el logotipo estilizado de HamioFit o texturas corporativas tenues en el fondo de la página de destino para mejorar la estética sin sobrecargar la lectura del texto. <br>
+
+#### PROBLEMA #4: Falta de funcionalidades automatizadas avanzadas en el ecosistema (recordatorios al paciente e historias clínicas completas) <br>
+- Severidad: 2 <br>
+
+- Heurística violada: Ayuda y documentación / Eficiencia (Nielsen #10) <br>
+
+- Descripción: De acuerdo con las entrevistas (Cristina y Fran), el sistema delega manualmente en el nutricionista la tarea de redactar mensajes si un paciente olvida hacer su registro (logging). No existen disparadores automáticos que ayuden al paciente a mantener la adherencia ni herramientas integradas para automatizar alertas rutinarias. <br>
+
+- Recomendación: Crear un módulo de "Recordatorios Automáticos" configurables donde la plataforma envíe notificaciones push al móvil del paciente cuando el sistema IoT detecte falta de actividad (por ejemplo, baja hidratación), reduciendo la carga operativa del nutricionista. <br>
+
+#### PROBLEMA #5: Incertidumbre sobre los protocolos de seguridad, privacidad y viabilidad legal de los datos de salud expuestos <br>
+- Severidad: 2 <br>
+
+- Heurística violada: Reconocimiento antes que recuerdo / Credibilidad (Nielsen #6) <br>
+
+- Descripción: Cristina Siguaz enfatizó que para validar a HamioFit como una herramienta verdaderamente confiable y profesional en el ámbito médico, es mandatorio que la plataforma ofrezca garantías claras y explícitas sobre la seguridad, encriptación y privacidad de los datos sensibles de salud de los pacientes. <br>
+
+- Recomendación: Incluir una sección visible o un sello de cumplimiento de normativas de protección de datos de salud en el pie de página de la plataforma y en el apartado de registro del profesional, asegurando la transparencia legal del tratamiento de los datos capturados por el IoT. <br>
+
+### 6.4. Video About-the-Product
 
 ## Conclusiones
 
