@@ -4302,6 +4302,10 @@ Vista de Notificaciones:
 Vista de Suscripciones:
 ![Execution Evidence](assets/TP/frontend_subscriptions.png)
 
+Vista de Dispositivos IoT:
+![Execution Evidence](assets/TP/frontend_devicesiot.png) 
+![Execution Evidence](assets/TP/frontend_bottle.png) 
+![Execution Evidence](assets/TP/frontend_scale.png) 
 
 **Demo Web Application:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323270_upc_edu_pe/IQBkdUMDlBydSIw_rbnxEvXLAahQB6s2f2-dKfqVJFoUD0g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=uS2o8r
 
@@ -5854,7 +5858,7 @@ ENLACE ENTREVISTAS DE VALIDACION: http://bit.ly/4gysoqS
 
 - Heurística violada: Flexibilidad y eficiencia de uso (Nielsen #7) <br>
 
-- Descripción: La nutricionista Cristina Siguaz señaló que, aunque los datos mostrados en el directorio son un buen punto de partida, resultan insuficientes para un seguimiento clínico profesional profundo. Falta integrar de manera estructurada la historia nutricional previa, reportes personalizados de evolución a largo plazo y el complemento de recomendaciones anteriores. <br>
+- Descripción: La nutricionista Cristina Sihuas señaló que, aunque los datos mostrados en el directorio son un buen punto de partida, resultan insuficientes para un seguimiento clínico profesional profundo. Falta integrar de manera estructurada la historia nutricional previa, reportes personalizados de evolución a largo plazo y el complemento de recomendaciones anteriores. <br>
 
 - Recomendación: Diseñar una sección expandible dentro del perfil de cada paciente dedicada exclusivamente a la "Historia Clínica Nutricional", permitiendo al profesional contrastar los datos automáticos del IoT con el historial médico del usuario. <br>
 
@@ -5863,7 +5867,7 @@ ENLACE ENTREVISTAS DE VALIDACION: http://bit.ly/4gysoqS
 
 - Heurística violada: Visibilidad del estado del sistema (Nielsen #1) <br>
 
-- Descripción: Basado en las observaciones de Miguel Sayas y Cristina Siguaz, la confianza del profesional en los datos depende enteramente de que la balanza y la botella inteligente estén correctamente calibradas y sincronizadas. La interfaz actual no muestra activamente si un dispositivo ha perdido conexión, está descalibrado o si los datos mostrados están desactualizados. <br>
+- Descripción: Basado en las observaciones de Miguel Salas y Cristina Sihuas, la confianza del profesional en los datos depende enteramente de que la balanza y la botella inteligente estén correctamente calibradas y sincronizadas. La interfaz actual no muestra activamente si un dispositivo ha perdido conexión, está descalibrado o si los datos mostrados están desactualizados. <br>
 
 - Recomendación: Implementar un indicador visual de "Estado del Dispositivo" (por ejemplo: color verde para sincronizado/calibrado, amarillo para requiere atención y rojo para desconectado) en el panel de monitorización del paciente. <br>
 
@@ -5872,16 +5876,16 @@ ENLACE ENTREVISTAS DE VALIDACION: http://bit.ly/4gysoqS
 
 - Heurística violada: Diseño estético y minimalista (Nielsen #8) <br>
 
-- Descripción: El nutricionista Fran Panduro identificó que el fondo de la landing page es un "blanco llano" que puede percibirse como demasiado simple o vacío. Mencionó que se requiere añadir elementos de identidad sutiles para que el entorno se sienta más profesional y alineado con la marca médica desde el primer vistazo. <br> 
+- Descripción: El nutricionista Franck Panduro identificó que el fondo de la landing page es un "blanco llano" que puede percibirse como demasiado simple o vacío. Mencionó que se requiere añadir elementos de identidad sutiles para que el entorno se sienta más profesional y alineado con la marca médica desde el primer vistazo. <br> 
 
-- Recomendación: Incorporar marcas de agua estéticas con el logotipo estilizado de HamioFit o texturas corporativas tenues en el fondo de la página de destino para mejorar la estética sin sobrecargar la lectura del texto. <br>
+- Recomendación: Incorporar marcas de agua estéticas con el logotipo estilizado de JameoFit o texturas corporativas tenues en el fondo de la página de destino para mejorar la estética sin sobrecargar la lectura del texto. <br>
 
 #### PROBLEMA #4: Falta de funcionalidades automatizadas avanzadas en el ecosistema (recordatorios al paciente e historias clínicas completas) <br>
 - Severidad: 2 <br>
 
 - Heurística violada: Ayuda y documentación / Eficiencia (Nielsen #10) <br>
 
-- Descripción: De acuerdo con las entrevistas (Cristina y Fran), el sistema delega manualmente en el nutricionista la tarea de redactar mensajes si un paciente olvida hacer su registro (logging). No existen disparadores automáticos que ayuden al paciente a mantener la adherencia ni herramientas integradas para automatizar alertas rutinarias. <br>
+- Descripción: De acuerdo con las entrevistas (Cristina y Franck), el sistema delega manualmente en el nutricionista la tarea de redactar mensajes si un paciente olvida hacer su registro (logging). No existen disparadores automáticos que ayuden al paciente a mantener la adherencia ni herramientas integradas para automatizar alertas rutinarias. <br>
 
 - Recomendación: Crear un módulo de "Recordatorios Automáticos" configurables donde la plataforma envíe notificaciones push al móvil del paciente cuando el sistema IoT detecte falta de actividad (por ejemplo, baja hidratación), reduciendo la carga operativa del nutricionista. <br>
 
@@ -5890,11 +5894,20 @@ ENLACE ENTREVISTAS DE VALIDACION: http://bit.ly/4gysoqS
 
 - Heurística violada: Reconocimiento antes que recuerdo / Credibilidad (Nielsen #6) <br>
 
-- Descripción: Cristina Siguaz enfatizó que para validar a HamioFit como una herramienta verdaderamente confiable y profesional en el ámbito médico, es mandatorio que la plataforma ofrezca garantías claras y explícitas sobre la seguridad, encriptación y privacidad de los datos sensibles de salud de los pacientes. <br>
+- Descripción: Cristina Sihuas enfatizó que para validar a JameoFit como una herramienta verdaderamente confiable y profesional en el ámbito médico, es mandatorio que la plataforma ofrezca garantías claras y explícitas sobre la seguridad, encriptación y privacidad de los datos sensibles de salud de los pacientes. <br>
 
 - Recomendación: Incluir una sección visible o un sello de cumplimiento de normativas de protección de datos de salud en el pie de página de la plataforma y en el apartado de registro del profesional, asegurando la transparencia legal del tratamiento de los datos capturados por el IoT. <br>
 
 ### 6.4. Video About-the-Product
+
+
+En esta sección se presenta el Video About-the-Product de JF Technologies, un material orientado a los visitantes del Landing Page y a los usuarios de la aplicación que desean comprender de manera rápida y visual el modelo de negocio, las funcionalidades clave y el valor que ofrece nuestra solución. El video resume cómo JameoFit integra dispositivos IoT, elaboracion de pkanes de comida y acompañamiento profesional para transformar la experiencia de bienestar nutricional. A través del testimonio de nuestro equipo, se explica el funcionamiento del producto, su impacto, los elementos innovadores de su tecnología y la propuesta que lo diferencia dentro del ecosistema de salud nutricional.
+
+**Figura** <br>
+*Screenshot del Video About the product*
+<br>
+<img src="assets/TB2/video_about_the_product.png" alt="PB" width="800" height = "200">
+*Nota.* Elaboración propia. Obtenido de https://www.youtube.com/watch?v=Eb4BcZKlQi4
 
 ## Conclusiones
 
