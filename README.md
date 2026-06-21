@@ -5132,7 +5132,7 @@ southamerica-west1-docker.pkg.dev/jameofit/jameofit-docker/<service-name>:<tag>
 ```
 
 <div align="center">
-  <img src="assets/gcp_artifact_registry_jameofit.png" alt="GCP Artifact Registry JameoFit" width="75%">
+  <img src="assets/TB2/gcp_artifact_registry_jameofit.png" alt="GCP Artifact Registry JameoFit" width="75%">
   <p><em>Repositorio Docker jameofit-docker creado en Google Artifact Registry</em></p>
 </div>
 
@@ -5179,7 +5179,7 @@ service_account=gha-artifact-writer@jameofit.iam.gserviceaccount.com
 Se validó correctamente que GitHub Actions pueda autenticarse contra GCP como la Service Account configurada, sin utilizar archivos JSON de credenciales.
 
 <div align="center">
-  <img src="assets/github_actions_gcp_wif_auth.png" alt="GitHub Actions GCP Workload Identity Federation" width="75%">
+  <img src="assets/TB2/github_actions_gcp_wif_auth.png" alt="GitHub Actions GCP Workload Identity Federation" width="75%">
   <p><em>Validación de autenticación desde GitHub Actions hacia GCP mediante Workload Identity Federation</em></p>
 </div>
 
@@ -5253,11 +5253,6 @@ southamerica-west1-docker.pkg.dev/jameofit/jameofit-docker/config-service:sha-xx
 
 Este enfoque permite reproducibilidad, trazabilidad y rollback más seguro en futuras fases de deployment.
 
-<div align="center">
-  <img src="assets/github_actions_gcp_artifact_push.png" alt="GitHub Actions Artifact Registry Push" width="75%">
-  <p><em>Workflow de GitHub Actions para build y publicación de imágenes Docker en Artifact Registry</em></p>
-</div>
-
 ---
 
 ### **5. Configuración de red privada para el backend**
@@ -5292,7 +5287,7 @@ gcloud compute networks subnets create jameofit-subnet-saw1 \
 Esta red será utilizada por la máquina virtual de backend y por la conectividad privada hacia Cloud SQL.
 
 <div align="center">
-  <img src="assets/gcp_vpc_subnet_jameofit.png" alt="GCP VPC and Subnet JameoFit" width="75%">
+  <img src="assets/TB2/gcp_vpc_subnet_jameofit.png" alt="GCP VPC and Subnet JameoFit" width="75%">
   <p><em>VPC y subnet privadas creadas para la plataforma backend de JameoFit</em></p>
 </div>
 
@@ -5364,7 +5359,7 @@ SPRING_DATASOURCE_PASSWORD=<from Secret Manager>
 ```
 
 <div align="center">
-  <img src="assets/gcp_cloud_sql_postgres_private_ip.png" alt="GCP Cloud SQL PostgreSQL Private IP" width="75%">
+  <img src="assets/TB2/gcp_cloud_sql_postgres_private_ip.png" alt="GCP Cloud SQL PostgreSQL Private IP" width="75%">
   <p><em>Instancia Cloud SQL PostgreSQL creada con IP privada para el backend de JameoFit</em></p>
 </div>
 
@@ -5413,7 +5408,7 @@ roles/secretmanager.secretAccessor
 El permiso de `secretAccessor` fue asignado por secreto, evitando otorgar acceso amplio a todos los secretos del proyecto.
 
 <div align="center">
-  <img src="assets/gcp_secret_manager_db_secrets.png" alt="GCP Secret Manager DB Secrets" width="75%">
+  <img src="assets/TB2/gcp_secret_manager_db_secrets.png" alt="GCP Secret Manager DB Secrets" width="75%">
   <p><em>Secretos de conexión a Cloud SQL almacenados en Google Secret Manager</em></p>
 </div>
 
@@ -5459,12 +5454,12 @@ NAT mode: all subnet IP ranges
 Con Cloud NAT, la VM puede iniciar conexiones salientes a internet sin aceptar conexiones entrantes desde internet.
 
 <div align="center">
-  <img src="assets/gcp_compute_engine_private_vm.png" alt="GCP Compute Engine Private VM" width="75%">
+  <img src="assets/TB2/gcp_compute_engine_private_vm.png" alt="GCP Compute Engine Private VM" width="75%">
   <p><em>Máquina virtual privada creada para ejecutar Docker Compose en GCP</em></p>
 </div>
 
 <div align="center">
-  <img src="assets/gcp_cloud_nat_jameofit.png" alt="GCP Cloud NAT JameoFit" width="75%">
+  <img src="assets/TB2/gcp_cloud_nat_jameofit.png" alt="GCP Cloud NAT JameoFit" width="75%">
   <p><em>Cloud NAT configurado para permitir salida a internet desde la VM privada</em></p>
 </div>
 
@@ -5510,11 +5505,6 @@ Con esto, la VM queda preparada para descargar imágenes desde:
 ```text
 southamerica-west1-docker.pkg.dev/jameofit/jameofit-docker
 ```
-
-<div align="center">
-  <img src="assets/gcp_vm_docker_installation.png" alt="Docker Installation on GCP VM" width="75%">
-  <p><em>Instalación y validación de Docker y Docker Compose en la VM privada</em></p>
-</div>
 
 ---
 
@@ -5572,7 +5562,7 @@ SPRING_DATASOURCE_PASSWORD=<from Secret Manager>
 ```
 
 <div align="center">
-  <img src="assets/platform_deploy_gcp_compose_config.png" alt="platform-deploy GCP Docker Compose" width="75%">
+  <img src="assets/TB2/platform_deploy_gcp_compose_config.png" alt="platform-deploy GCP Docker Compose" width="75%">
   <p><em>Configuración de platform-deploy para ejecutar la plataforma base en GCP</em></p>
 </div>
 
@@ -5617,7 +5607,7 @@ Esta estrategia permite validar la plataforma sin exponer públicamente servicio
 Para una exposición pública del backend hacia el frontend, la alternativa recomendada para una fase posterior es configurar un **HTTPS Load Balancer** apuntando únicamente al `gateway-service`, manteniendo la VM privada y evitando exposición directa de los microservicios.
 
 <div align="center">
-  <img src="assets/gcp_iap_tunnel_gateway.png" alt="GCP IAP Tunnel Gateway" width="75%">
+  <img src="assets/TB2/gcp_iap_tunnel_gateway.png" alt="GCP IAP Tunnel Gateway" width="75%">
   <p><em>Acceso privado al Gateway mediante IAP TCP forwarding para pruebas y revisión de endpoints</em></p>
 </div>
 
@@ -5672,7 +5662,7 @@ Los principales resultados alcanzados fueron:
 La arquitectura resultante permite que la plataforma evolucione hacia un despliegue más completo, manteniendo una separación clara entre construcción de imágenes, almacenamiento de artefactos, secretos, base de datos administrada, runtime y acceso seguro.
 
 <div align="center">
-  <img src="assets/gcp_deployment_summary_jameofit.png" alt="JameoFit GCP Deployment Summary" width="75%">
+  <img src="assets/TB2/gcp_deployment_summary_jameofit.png" alt="JameoFit GCP Deployment Summary" width="75%">
   <p><em>Resumen de recursos configurados para el despliegue del backend de JameoFit en GCP</em></p>
 </div>
 
@@ -5694,7 +5684,7 @@ En esta sección se analizan las evidencias de colaboración y coordinación del
 
 2. ¿Quedó claro para ti qué problema resuelve JameoFit?
 
-3. Al explorar la aplicación web, ¿encontraste fácilmente las secciones que esperabas? ¿Hubo algo que te resultó confuso?
+3. Al explorar la aplicación, ¿encontraste fácilmente las secciones que esperabas? ¿Hubo algo que te resultó confuso?
 
 4. ¿Cómo describirías la experiencia de registrarte e iniciar sesión en la plataforma?
 
@@ -5702,7 +5692,7 @@ En esta sección se analizan las evidencias de colaboración y coordinación del
 
 6. ¿Qué tan útil te parece la función de monitoreo de hidratación con la botella inteligente?
 
-7. ¿Usarías la balanza inteligente para registrar tu peso automáticamente? ¿Por qué?
+7. ¿Usarías la balanza inteligente para registrar peso automáticamente? ¿Por qué?
 
 8. ¿La sección de comunicación con el nutricionista cubre lo que esperarías de una consulta digital?
 
