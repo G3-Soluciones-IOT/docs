@@ -5013,9 +5013,27 @@ Vista de JaimitoFit IA:
 
 **Web Services Application**
 
-Servicios desarrollados
+Servicios desplegados:
 
+- IAM Service:
+![IAM Service](assets/TB2/iam_service_documentation.png)
 
+- Profiles Service:
+![Profiles Service](assets/TB2/profiles_service_documentation.png)
+
+- Goals Service:
+![Goals Service](assets/TB2/goals_service_documentation.png)
+
+- Recipes Service:
+![Recipes Service](assets/TB2/recipes_service_documentation.png)
+
+- Meal Plans Service:
+![Meal Plans Service](assets/TB2/meal_plans_service_documentation.png)
+
+- Tracking Service:
+![Tracking Service](assets/TB2/tracking_service_documentation.png)
+
+Enlace a la Documnetacion OpenAPI: https://jameofit.duckdns.org/webjars/swagger-ui/index.html?urls.primaryName=iam-service
 
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review
 
@@ -5856,11 +5874,27 @@ La arquitectura resultante separa construcción de imágenes, almacenamiento de 
 En esta sección se analizan las evidencias de colaboración y coordinación del equipo durante el desarrollo del Sprint 2, considerando la participación de los integrantes en las actividades de implementación y control de versiones del proyecto. Para ello, se presentan métricas, capturas y analíticos obtenidos de GitHub, los cuales permiten visualizar la distribución del trabajo, el nivel de contribución de cada miembro y la interacción mantenida en el desarrollo del Landing Page, la aplicación web y los servicios Backend implementados durante el sprint.
 
 - Landing Page:
+<div align="center">
+  <img src="assets/TB2/landing_sprint_2.png" alt="GCP Load Balancer" width="75%">  
+</div>
+
 
 - Web Application:
+<div align="center">
+  <img src="assets/TB2/frontend_sprint_2.png" alt="GCP Load Balancer" width="75%">  
+</div>
 
--
 
+- Application Web Services:
+<div align="center">
+  <img src="assets/TB2/backend_sprint_2.png" alt="GCP Load Balancer" width="75%">  
+</div>
+
+
+- Mobile Application:
+<div align="center">
+  <img src="assets/TB2/mobile_sprint_2.png" alt="GCP Load Balancer" width="75%">  
+</div>
 
 ### 6.3. Validation Interviews
 
@@ -6114,7 +6148,7 @@ AV1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323270_upc_edu_pe/IQA
 
 TB1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323270_upc_edu_pe/IQAia2QpBf0jR5j33TCiA9hVAZq8QuueMiHI73hcuhcjYrU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=J4miBT
 
-AV2: 
+AV2: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323270_upc_edu_pe/IQAK0rx-_x3BRJ2FY18X_CFtAfHxRLjNGG3xFmSDNyL-qL0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=OM2djt
 
 ## Anexos
 
