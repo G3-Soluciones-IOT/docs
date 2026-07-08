@@ -353,6 +353,16 @@ Para la elaboración de la entrega AV2 (Sprint Review – Semana 12) de este inf
       - [6.2.2.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
       - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
       - [6.2.2.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
+    - [6.2.3. Sprint 3](#622-sprint-3)
+      - [6.2.3.1. Sprint Planning 3](#6231-sprint-planning-3)
+      - [6.2.3.2. Aspect Leaders and Collaborators](#6232-aspect-leaders-and-collaborators)
+      - [6.2.3.3. Sprint Backlog 2](#6233-sprint-backlog-3)
+      - [6.2.3.4. Development Evidence for Sprint Review](#6234-development-evidence-for-sprint-review)
+      - [6.2.3.5. Testing Suite Evidence for Sprint Review](#6235-testing-suite-evidence-for-sprint-review)
+      - [6.2.3.6. Execution Evidence for Sprint Review](#6226-execution-evidence-for-sprint-review)
+      - [6.2.3.7. Services Documentation Evidence for Sprint Review](#6237-services-documentation-evidence-for-sprint-review)
+      - [6.2.3.8. Software Deployment Evidence for Sprint Review](#6238-software-deployment-evidence-for-sprint-review)
+      - [6.2.3.9. Team Collaboration Insights during Sprint](#6239-team-collaboration-insights-during-sprint)
   - [6.3. Validation Interviews](#63-valdiation-interviews)
     - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
     - [6.3.2. Registro de Entrevistas ](#632-registro-de-entrevistas)
@@ -4676,10 +4686,90 @@ En esta sección se definen los líderes y colaboradores asignados a cada aspect
 
 En esta sección se presenta el Sprint Backlog correspondiente al Sprint 2, el cual contiene las historias de usuario seleccionadas y las tareas definidas por el equipo para alcanzar el Sprint Goal establecido. Asimismo, se incluye el Board de trabajo utilizado para la gestión y seguimiento de las actividades del Sprint, permitiendo visualizar el estado de avance de cada tarea y la distribución del trabajo entre los integrantes del equipo durante el desarrollo de la aplicacion web, mobile, backend e IoT service.
 
-![Sprint Backlog 2](assets/TP/sprint_backlog2.png)
+![Sprint Backlog 2](assets/TB2/trello_board.png)
 
-Enlace público del Board en Trello: []()
+Enlace público del Board en Trello: [https://trello.com/b/4FndhzUq/product-backlog-jameofit-iot](https://trello.com/b/4FndhzUq/product-backlog-jameofit-iot)
 
+<table>
+  <tr>
+    <td colspan="1"><strong>Sprint #</strong></td>
+    <td colspan="7"><strong>Sprint 2</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>User Story</strong></td>
+    <td colspan="6"><strong>Work-Item / Task</strong></td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Id</strong></td>
+    <td colspan="1"><strong>Title</strong></td>
+    <td colspan="1"><strong>Id</strong></td>
+    <td colspan="1"><strong>Title</strong></td>
+    <td colspan="1"><strong>Description</strong></td>
+    <td colspan="1"><strong>Estimation (Story Points)</strong></td>
+    <td colspan="1"><strong>Assigned To</strong></td>
+    <td colspan="1"><strong>Status (To-do / In-Process / To-Review / Done)</strong></td>
+  </tr>
+  <tr>
+    <td>US-12</td>
+    <td>Panel de Pacientes</td>
+    <td>T-77</td>
+    <td>Implementar vistas de pacientes</td>
+    <td>Incorporar las vistas de directorio, detalle, seguimiento y aceptación de pacientes para consultar su estado.</td>
+    <td>5</td>
+    <td>Valentino Sandoval Paiva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-16</td>
+    <td>Notificaciones de Actividad</td>
+    <td>T-78</td>
+    <td>Implementar vista de notificaciones</td>
+    <td>Incorporar la vista de notificaciones sobre novedades de la aplicación y de los dispositivos IoT.</td>
+    <td>2</td>
+    <td>Valentino Sandoval Paiva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-33</td>
+    <td>Chat Directo con Usuarios</td>
+    <td>T-79</td>
+    <td>Implementar vista de chat</td>
+    <td>Incorporar la vista de comunicación para el intercambio directo entre nutricionista y usuario.</td>
+    <td>5</td>
+    <td>Valentino Sandoval Paiva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-34</td>
+    <td>Gestión de Consultas</td>
+    <td>T-80</td>
+    <td>Implementar vista de consultas</td>
+    <td>Incorporar la vista para organizar consultas y conversaciones dentro del módulo de comunicación.</td>
+    <td>5</td>
+    <td>Valentino Sandoval Paiva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-38</td>
+    <td>Herramientas de Seguimiento de Pacientes</td>
+    <td>T-81</td>
+    <td>Implementar seguimiento móvil e integración IoT</td>
+    <td>Incorporar las vistas de Smart Tracking IoT, historial IoT y vinculación de dispositivos para el monitoreo de usuarios.</td>
+    <td>8</td>
+    <td>Ramiro Alexander Guzmán Chávez / Pablo Antonio Geronimo Quispe</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US-42</td>
+    <td>Registro de Peso por Balanza Inteligente</td>
+    <td>T-82</td>
+    <td>Implementar servicio IoT y prototipo de balanza inteligente</td>
+    <td>Desarrollar el servicio IoT y el prototipo físico de la balanza para registrar y sincronizar mediciones de peso.</td>
+    <td>5</td>
+    <td>Pablo Antonio Geronimo Quispe</td>
+    <td>Done</td>
+  </tr>
+</table>
 
 #### 6.2.2.4. Development Evidence for Sprint Review
 
@@ -4910,6 +5000,8 @@ Vista de Notificaciones:
 Vista de Suscripciones:
 ![Execution Evidence](assets/TP/frontend_subscriptions.png)
 
+**Demo Web Application:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323270_upc_edu_pe/IQBkdUMDlBydSIw_rbnxEvXLAahQB6s2f2-dKfqVJFoUD0g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=uS2o8r
+
 ---
 
 **Mobile Application:**
@@ -4927,9 +5019,31 @@ Vista de JaimitoFit IA:
 ![Execution Evidence](assets/TB2/JaimitoFit.png)
 
 
-**Demo Web Application:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323270_upc_edu_pe/IQBkdUMDlBydSIw_rbnxEvXLAahQB6s2f2-dKfqVJFoUD0g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=uS2o8r
+---
 
+**Web Services Application**
 
+Servicios desplegados:
+
+- IAM Service:
+![IAM Service](assets/TB2/iam_service_documentation.png)
+
+- Profiles Service:
+![Profiles Service](assets/TB2/profiles_service_documentation.png)
+
+- Goals Service:
+![Goals Service](assets/TB2/goals_service_documentation.png)
+
+- Recipes Service:
+![Recipes Service](assets/TB2/recipes_service_documentation.png)
+
+- Meal Plans Service:
+![Meal Plans Service](assets/TB2/meal_plans_service_documentation.png)
+
+- Tracking Service:
+![Tracking Service](assets/TB2/tracking_service_documentation.png)
+
+Enlace a la Documnetacion OpenAPI: https://jameofit.duckdns.org/webjars/swagger-ui/index.html?urls.primaryName=iam-service
 
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review
 
@@ -5073,19 +5187,17 @@ En esta sección se presentan las evidencias de documentación de los servicios 
 
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review
 
-Durante el presente Sprint se avanzó en la configuración de la plataforma de despliegue del backend de **JameoFit** sobre **Google Cloud Platform (GCP)**. El objetivo principal fue preparar una infraestructura cloud mínima, segura y reproducible para soportar el despliegue progresivo de los microservicios del sistema, partiendo de una arquitectura previamente validada en entorno local con Docker Compose.
+Durante el presente Sprint se configuró, desplegó y validó la plataforma backend de **JameoFit** sobre **Google Cloud Platform (GCP)**. El objetivo principal fue disponer de un entorno cloud funcional, seguro y reproducible para ejecutar los microservicios del sistema mediante Docker Compose, utilizando imágenes publicadas en Artifact Registry, bases de datos administradas en Cloud SQL y exposición pública controlada mediante un Load Balancer HTTPS.
 
-El trabajo realizado incluyó la configuración del proyecto cloud, habilitación de APIs, creación del repositorio de imágenes Docker, configuración de autenticación federada entre GitHub Actions y GCP, publicación de imágenes en Artifact Registry, aprovisionamiento de red privada, creación de una base de datos administrada en Cloud SQL, gestión de secretos mediante Secret Manager y preparación de una máquina virtual privada en Compute Engine para ejecutar la plataforma mediante Docker Compose.
-
-A diferencia de un despliegue directo con credenciales estáticas, la estrategia adoptada prioriza buenas prácticas de seguridad y trazabilidad, evitando el uso de archivos JSON de Service Account y utilizando **Workload Identity Federation** para permitir que GitHub Actions se autentique contra GCP sin almacenar claves sensibles en los repositorios.
+El despliegue se diseñó priorizando buenas prácticas de seguridad: la máquina virtual no cuenta con IP pública, el acceso administrativo se realiza mediante IAP TCP forwarding, las imágenes Docker se descargan desde Artifact Registry, las credenciales sensibles se gestionan con Secret Manager y los workflows de GitHub Actions se autentican en GCP mediante Workload Identity Federation, sin utilizar archivos JSON de Service Account.
 
 ---
 
 ### **1. Configuración inicial del proyecto en Google Cloud Platform**
 
-Se creó y configuró el proyecto cloud **jameofit** como entorno principal de despliegue para el backend. Este proyecto funciona como el contenedor lógico de los recursos de infraestructura, IAM, networking, base de datos, almacenamiento de imágenes y secretos.
+Se creó y configuró el proyecto cloud **jameofit** como entorno principal de despliegue del backend. Este proyecto centraliza los recursos de infraestructura, IAM, red, bases de datos, almacenamiento de imágenes, secretos, monitoreo y balanceo de carga.
 
-La configuración base del proyecto quedó establecida con los siguientes valores:
+La configuración base quedó establecida de la siguiente manera:
 
 ```text
 PROJECT_ID=jameofit
@@ -5094,7 +5206,7 @@ REGION=southamerica-west1
 ZONE=southamerica-west1-a
 ```
 
-La región seleccionada fue **southamerica-west1**, correspondiente a Santiago, con el propósito de mantener los recursos cloud más cercanos geográficamente al equipo y reducir latencia frente a alternativas ubicadas en Norteamérica.
+La región **southamerica-west1** fue seleccionada por su cercanía geográfica con el equipo de desarrollo y por su adecuación para reducir latencia frente a regiones ubicadas en Norteamérica.
 
 Asimismo, se habilitaron las APIs necesarias para soportar el flujo de deployment y operación de la plataforma:
 
@@ -5113,7 +5225,7 @@ monitoring.googleapis.com
 servicenetworking.googleapis.com
 ```
 
-Estas APIs permiten trabajar con Artifact Registry, IAM, Workload Identity Federation, Compute Engine, Secret Manager, Cloud SQL, monitoreo, logging y conectividad privada entre servicios.
+Estas APIs permiten trabajar con Artifact Registry, IAM, Workload Identity Federation, Compute Engine, Secret Manager, Cloud SQL, logging, monitoring y conectividad privada entre servicios.
 
 <div align="center">
   <img src="assets/TB2/gcp_project_apis_enabled.png" alt="GCP APIs Enabled" width="75%">
@@ -5124,9 +5236,9 @@ Estas APIs permiten trabajar con Artifact Registry, IAM, Workload Identity Feder
 
 ### **2. Creación de Artifact Registry para imágenes Docker**
 
-Se creó un repositorio Docker privado en **Google Artifact Registry**. Este repositorio se utiliza como destino oficial de las imágenes Docker generadas por los pipelines de GitHub Actions.
+Se creó un repositorio Docker privado en **Google Artifact Registry**, utilizado como destino oficial de las imágenes generadas por los pipelines de GitHub Actions.
 
-La configuración del repositorio fue la siguiente:
+La configuración del repositorio fue:
 
 ```text
 Repository: jameofit-docker
@@ -5145,11 +5257,33 @@ gcloud artifacts repositories create jameofit-docker \
   --description="Docker images for JameoFit backend services"
 ```
 
-Con ello, las imágenes de los microservicios siguen el siguiente formato:
+Las imágenes publicadas siguen el siguiente formato:
 
 ```text
 southamerica-west1-docker.pkg.dev/jameofit/jameofit-docker/<service-name>:<tag>
 ```
+
+Durante el Sprint se publicaron imágenes para los servicios incluidos en el despliegue GCP:
+
+```text
+config-service
+eureka-service
+iam-service
+gateway-service
+goals-service
+meal-plans-service
+profiles-service
+recipes-service
+tracking-service
+```
+
+Cada imagen utiliza un tag inmutable basado en el commit corto del repositorio correspondiente:
+
+```text
+sha-<short-commit-sha>
+```
+
+Debido a que el backend fue migrado a una estructura **multirrepo**, cada servicio utiliza su propio tag SHA. Por esta razón, el despliegue no emplea un `IMAGE_TAG` global.
 
 <div align="center">
   <img src="assets/TB2/gcp_artifact_registry_jameofit.png" alt="GCP Artifact Registry JameoFit" width="75%">
@@ -5160,7 +5294,7 @@ southamerica-west1-docker.pkg.dev/jameofit/jameofit-docker/<service-name>:<tag>
 
 ### **3. Configuración de GitHub Actions con Workload Identity Federation**
 
-Para automatizar la publicación de imágenes Docker sin usar claves estáticas, se configuró **Workload Identity Federation** entre GitHub Actions y Google Cloud Platform.
+Para automatizar la publicación de imágenes Docker sin almacenar credenciales estáticas, se configuró **Workload Identity Federation** entre GitHub Actions y GCP.
 
 Se creó la Service Account:
 
@@ -5168,13 +5302,13 @@ Se creó la Service Account:
 gha-artifact-writer@jameofit.iam.gserviceaccount.com
 ```
 
-Esta cuenta recibió permisos limitados de escritura únicamente sobre el repositorio Docker `jameofit-docker` mediante el rol:
+Esta cuenta recibió permisos de escritura únicamente sobre el repositorio `jameofit-docker` mediante el rol:
 
 ```text
 roles/artifactregistry.writer
 ```
 
-También se creó un Workload Identity Pool y un Provider OIDC para GitHub Actions:
+También se configuró un Workload Identity Pool y un Provider OIDC para GitHub Actions:
 
 ```text
 Workload Identity Pool: github-pool
@@ -5183,20 +5317,14 @@ Issuer URI: https://token.actions.githubusercontent.com
 Repository owner allowed: G3-Soluciones-IOT
 ```
 
-La configuración restringe la autenticación únicamente a workflows ejecutados desde repositorios pertenecientes a la organización:
-
-```text
-G3-Soluciones-IOT
-```
-
-El valor final utilizado por GitHub Actions fue:
+El valor utilizado por los workflows fue:
 
 ```text
 workload_identity_provider=projects/809847807436/locations/global/workloadIdentityPools/github-pool/providers/github-provider
 service_account=gha-artifact-writer@jameofit.iam.gserviceaccount.com
 ```
 
-Se validó correctamente que GitHub Actions pueda autenticarse contra GCP como la Service Account configurada, sin utilizar archivos JSON de credenciales.
+Con esta configuración, los workflows pueden autenticarse contra GCP sin utilizar archivos JSON de Service Account.
 
 <div align="center">
   <img src="assets/TB2/github_actions_gcp_wif_auth.png" alt="GitHub Actions GCP Workload Identity Federation" width="75%">
@@ -5207,13 +5335,13 @@ Se validó correctamente que GitHub Actions pueda autenticarse contra GCP como l
 
 ### **4. Automatización del build y push de imágenes Docker**
 
-El flujo de CI/CD fue organizado mediante workflows reutilizables en el repositorio:
+El flujo de CI/CD se organizó mediante workflows reutilizables en el repositorio:
 
 ```text
 G3-Soluciones-IOT/shared-workflows
 ```
 
-Se trabajó con los siguientes workflows base:
+Los workflows principales son:
 
 ```text
 java-ci.yml
@@ -5221,9 +5349,9 @@ docker-build.yml
 gcp-artifact-registry-push.yml
 ```
 
-El flujo de deployment fue ajustado para evitar depender de artefactos generados por otros workflows. Inicialmente, el workflow de CD intentaba construir imágenes Docker esperando que existiera un archivo `.jar` dentro de `target/`, pero se identificó que cada workflow de GitHub Actions se ejecuta en un runner limpio. Por ello, se adoptó un enfoque de **Dockerfile multi-stage**, en el cual cada imagen Docker compila internamente el servicio y genera su propio artefacto.
+El flujo de deployment fue ajustado para no depender de artefactos locales ni de la carpeta `target/`. Para ello, los servicios adoptaron Dockerfiles **multi-stage**, donde cada imagen compila internamente el microservicio y genera su propio `.jar`.
 
-El patrón aplicado permite que cada microservicio sea autosuficiente durante el build de imagen:
+Patrón general aplicado:
 
 ```dockerfile
 FROM eclipse-temurin:25-jdk AS build
@@ -5244,7 +5372,7 @@ COPY --from=build /workspace/target/*.jar /app/app.jar
 ENTRYPOINT ["java", "-jar", "/app/app.jar"]
 ```
 
-El flujo resultante para cada microservicio quedó organizado de la siguiente manera:
+El flujo final quedó organizado así:
 
 ```text
 Pull Request hacia main:
@@ -5254,24 +5382,16 @@ Pull Request hacia main:
 Push a main:
   - java-ci
   - docker build multi-stage
-  - push a Artifact Registry
-```
-
-Cada imagen publicada utiliza tags trazables:
-
-```text
-sha-<short-commit-sha>
-main-latest
+  - push a Artifact Registry con tag sha-<short-commit-sha>
 ```
 
 Ejemplo de imagen publicada:
 
 ```text
-southamerica-west1-docker.pkg.dev/jameofit/jameofit-docker/config-service:main-latest
-southamerica-west1-docker.pkg.dev/jameofit/jameofit-docker/config-service:sha-xxxxxxx
+southamerica-west1-docker.pkg.dev/jameofit/jameofit-docker/config-service:sha-a8724d4
 ```
 
-Este enfoque permite reproducibilidad, trazabilidad y rollback más seguro en futuras fases de deployment.
+Esta decisión mejora la trazabilidad del release, facilita rollback y evita ambigüedad entre versiones de servicios independientes.
 
 ---
 
@@ -5286,7 +5406,7 @@ Subnet range: 10.10.0.0/24
 Region: southamerica-west1
 ```
 
-La VPC fue configurada en modo custom para tener control explícito sobre las subredes y rangos utilizados.
+La VPC fue creada en modo custom para mantener control explícito sobre subredes y rangos:
 
 ```bash
 gcloud compute networks create jameofit-vpc \
@@ -5294,7 +5414,7 @@ gcloud compute networks create jameofit-vpc \
   --description="JameoFit VPC for GCP backend platform"
 ```
 
-Posteriormente, se creó la subred regional:
+La subred regional fue creada con:
 
 ```bash
 gcloud compute networks subnets create jameofit-subnet-saw1 \
@@ -5304,7 +5424,7 @@ gcloud compute networks subnets create jameofit-subnet-saw1 \
   --description="JameoFit subnet for backend VM and internal connectivity"
 ```
 
-Esta red será utilizada por la máquina virtual de backend y por la conectividad privada hacia Cloud SQL.
+Esta red es utilizada por la VM privada, la conectividad hacia Cloud SQL, las reglas de firewall de IAP y la conexión desde el Load Balancer hacia el Gateway.
 
 <div align="center">
   <img src="assets/TB2/gcp_vpc_subnet_jameofit.png" alt="GCP VPC and Subnet JameoFit" width="75%">
@@ -5315,7 +5435,7 @@ Esta red será utilizada por la máquina virtual de backend y por la conectivida
 
 ### **6. Configuración de Cloud SQL para PostgreSQL**
 
-Para el entorno GCP se decidió utilizar **Cloud SQL for PostgreSQL** en lugar de ejecutar PostgreSQL dentro de un contenedor. De esta forma, PostgreSQL en contenedor queda reservado para el entorno local, mientras que la nube utiliza una base de datos administrada.
+Para el entorno GCP se decidió utilizar **Cloud SQL for PostgreSQL** en lugar de ejecutar PostgreSQL como contenedor. De esta forma, la base de datos queda administrada por GCP y PostgreSQL en contenedor se reserva únicamente para el entorno local.
 
 La instancia creada fue:
 
@@ -5328,13 +5448,9 @@ Region: southamerica-west1
 Availability: Zonal
 Private IP: 10.20.0.3
 Public IP: disabled
-Database: jameofit_iam
-User: jameofit_app
 ```
 
-Durante la creación de la instancia se configuró el acceso mediante **Private IP**, evitando exposición pública de la base de datos.
-
-Para habilitar la conectividad privada se creó primero un rango reservado para Private Service Access:
+La instancia fue creada sin IP pública y conectada a la VPC mediante Private Service Access:
 
 ```text
 PSA range: jameofit-psa-range
@@ -5342,40 +5458,25 @@ Range: 10.20.0.0/24
 Purpose: VPC_PEERING
 ```
 
-Luego, se configuró la conexión privada entre la VPC `jameofit-vpc` y `servicenetworking.googleapis.com`.
-
-```bash
-gcloud services vpc-peerings connect \
-  --service=servicenetworking.googleapis.com \
-  --ranges=jameofit-psa-range \
-  --network=jameofit-vpc
-```
-
-La instancia Cloud SQL fue creada sin IP pública:
-
-```bash
-gcloud sql instances create jameofit-postgres-dev \
-  --database-version=POSTGRES_16 \
-  --region=southamerica-west1 \
-  --edition=ENTERPRISE \
-  --tier=db-f1-micro \
-  --storage-size=10GB \
-  --storage-type=SSD \
-  --network=projects/jameofit/global/networks/jameofit-vpc \
-  --no-assign-ip \
-  --availability-type=ZONAL \
-  --backup-start-time=03:00 \
-  --maintenance-window-day=SUN \
-  --maintenance-window-hour=04 \
-  --deletion-protection
-```
-
-La cadena JDBC definida para el servicio IAM quedó de la siguiente manera:
+Posteriormente, se crearon bases de datos y usuarios separados para los servicios que requieren PostgreSQL:
 
 ```text
-SPRING_DATASOURCE_URL=jdbc:postgresql://10.20.0.3:5432/jameofit_iam
-SPRING_DATASOURCE_USERNAME=jameofit_app
-SPRING_DATASOURCE_PASSWORD=<from Secret Manager>
+Database: jameofit_iam          User: jameofit_iam_app
+Database: jameofit_goals        User: jameofit_goals_app
+Database: jameofit_meal_plans   User: jameofit_meal_plans_app
+Database: jameofit_profiles     User: jameofit_profiles_app
+Database: jameofit_recipes      User: jameofit_recipes_app
+Database: jameofit_tracking     User: jameofit_tracking_app
+```
+
+Este diseño evita que todos los servicios compartan una única base de datos y permite una separación más clara por contexto funcional.
+
+Ejemplo de variables generadas para un servicio:
+
+```text
+IAM_SPRING_DATASOURCE_URL=jdbc:postgresql://10.20.0.3:5432/jameofit_iam
+IAM_SPRING_DATASOURCE_USERNAME=jameofit_iam_app
+IAM_SPRING_DATASOURCE_PASSWORD=<from Secret Manager>
 ```
 
 <div align="center">
@@ -5387,45 +5488,50 @@ SPRING_DATASOURCE_PASSWORD=<from Secret Manager>
 
 ### **7. Gestión de secretos con Secret Manager**
 
-Las credenciales y parámetros sensibles no fueron almacenados en repositorios ni archivos versionados. En su lugar, se configuró **Google Secret Manager** para gestionar los valores de conexión a Cloud SQL.
+Las credenciales y parámetros sensibles no fueron almacenados en repositorios ni archivos versionados. En su lugar, se utilizó **Google Secret Manager** para gestionar los valores de conexión a Cloud SQL.
 
-Se crearon los siguientes secretos:
+El despliegue final utiliza secretos separados por servicio:
 
 ```text
-jameofit-db-password
-jameofit-db-url
-jameofit-db-username
+jameofit-iam-db-url
+jameofit-iam-db-username
+jameofit-iam-db-password
+
+jameofit-goals-db-url
+jameofit-goals-db-username
+jameofit-goals-db-password
+
+jameofit-meal-plans-db-url
+jameofit-meal-plans-db-username
+jameofit-meal-plans-db-password
+
+jameofit-profiles-db-url
+jameofit-profiles-db-username
+jameofit-profiles-db-password
+
+jameofit-recipes-db-url
+jameofit-recipes-db-username
+jameofit-recipes-db-password
+
+jameofit-tracking-db-url
+jameofit-tracking-db-username
+jameofit-tracking-db-password
 ```
 
-Cada secreto cuenta con una versión habilitada y será consumido por la máquina virtual mediante una Service Account de runtime.
-
-```bash
-gcloud secrets create jameofit-db-password --replication-policy="automatic"
-gcloud secrets create jameofit-db-url --replication-policy="automatic"
-gcloud secrets create jameofit-db-username --replication-policy="automatic"
-```
-
-Posteriormente, se creó la Service Account de runtime para la VM:
+La Service Account de runtime de la VM fue:
 
 ```text
 jameofit-vm-runtime@jameofit.iam.gserviceaccount.com
 ```
 
-Esta cuenta recibió permisos mínimos para:
-
-```text
-- Leer imágenes desde Artifact Registry.
-- Leer secretos específicos de base de datos desde Secret Manager.
-```
-
-Roles asignados:
+Esta cuenta recibió permisos mínimos para leer imágenes desde Artifact Registry y acceder únicamente a los secretos requeridos por el despliegue:
 
 ```text
 roles/artifactregistry.reader
 roles/secretmanager.secretAccessor
 ```
 
-El permiso de `secretAccessor` fue asignado por secreto, evitando otorgar acceso amplio a todos los secretos del proyecto.
+El permiso `secretAccessor` fue asignado por secreto, evitando acceso amplio innecesario sobre Secret Manager.
 
 <div align="center">
   <img src="assets/TB2/gcp_secret_manager_db_secrets.png" alt="GCP Secret Manager DB Secrets" width="75%">
@@ -5436,9 +5542,7 @@ El permiso de `secretAccessor` fue asignado por secreto, evitando otorgar acceso
 
 ### **8. Creación de máquina virtual privada en Compute Engine**
 
-Se creó una máquina virtual en **Google Compute Engine**. Esta VM será utilizada como host de ejecución para Docker Compose.
-
-La VM fue diseñada como un nodo privado, sin IP pública, siguiendo buenas prácticas de seguridad:
+Se creó una máquina virtual en **Google Compute Engine** para ejecutar Docker Compose. La VM fue diseñada como un nodo privado, sin IP pública, siguiendo buenas prácticas de seguridad:
 
 ```text
 VM: jameofit-backend-dev-vm
@@ -5450,9 +5554,7 @@ Service Account: jameofit-vm-runtime@jameofit.iam.gserviceaccount.com
 Runtime: Docker + Docker Compose
 ```
 
-La decisión de no asignar IP pública reduce la superficie de exposición de la plataforma. El acceso administrativo se realiza mediante **IAP TCP forwarding**, evitando abrir SSH directamente a internet.
-
-Se creó una regla de firewall para permitir SSH únicamente a través del rango de IAP:
+El acceso administrativo se realiza mediante **IAP TCP forwarding**, evitando abrir SSH directamente a internet. Para ello, se creó una regla de firewall que permite SSH únicamente desde el rango de IAP:
 
 ```text
 Firewall rule: allow-iap-ssh-jameofit
@@ -5461,7 +5563,7 @@ Target tag: jameofit-backend
 Port: tcp:22
 ```
 
-Además, para permitir que la VM privada pueda descargar actualizaciones, instalar Docker y acceder a repositorios externos sin tener IP pública, se configuró **Cloud NAT**:
+Para que la VM pueda descargar actualizaciones, instalar Docker y acceder a Artifact Registry sin IP pública, se configuró **Cloud NAT**:
 
 ```text
 Cloud Router: jameofit-router
@@ -5471,7 +5573,7 @@ Region: southamerica-west1
 NAT mode: all subnet IP ranges
 ```
 
-Con Cloud NAT, la VM puede iniciar conexiones salientes a internet sin aceptar conexiones entrantes desde internet.
+Durante la validación inicial se identificó que una VM con aproximadamente 2 GiB de RAM no era suficiente para ejecutar nueve servicios Spring Boot simultáneamente. Por ello, se incrementó el tipo de máquina, alcanzando aproximadamente 7.8 GiB de memoria total. Tras este ajuste, Docker respondió correctamente y los contenedores pudieron mantenerse activos.
 
 <div align="center">
   <img src="assets/TB2/gcp_compute_engine_private_vm.png" alt="GCP Compute Engine Private VM" width="75%">
@@ -5487,16 +5589,14 @@ Con Cloud NAT, la VM puede iniciar conexiones salientes a internet sin aceptar c
 
 ### **9. Preparación de Docker y Docker Compose en la VM**
 
-Una vez configurada la conectividad de salida mediante Cloud NAT, se instaló Docker en la VM privada. Esto permite ejecutar la plataforma backend mediante Docker Compose, manteniendo un enfoque similar al entorno local ya validado.
-
-Los pasos realizados incluyen:
+Con la conectividad de salida habilitada mediante Cloud NAT, se instaló Docker en la VM privada:
 
 ```bash
 sudo apt-get update
 sudo apt-get install -y ca-certificates curl gnupg git
 ```
 
-Posteriormente, se configuró el repositorio oficial de Docker para Debian y se instalaron los paquetes:
+Posteriormente, se configuró el repositorio oficial de Docker para Debian y se instalaron los paquetes necesarios:
 
 ```text
 docker-ce
@@ -5506,7 +5606,7 @@ docker-buildx-plugin
 docker-compose-plugin
 ```
 
-Se validó la instalación mediante:
+La instalación fue validada mediante:
 
 ```bash
 docker --version
@@ -5520,7 +5620,7 @@ También se configuró Docker para autenticarse contra Artifact Registry:
 gcloud auth configure-docker southamerica-west1-docker.pkg.dev --quiet
 ```
 
-Con esto, la VM queda preparada para descargar imágenes desde:
+Con esto, la VM quedó preparada para descargar imágenes desde:
 
 ```text
 southamerica-west1-docker.pkg.dev/jameofit/jameofit-docker
@@ -5530,9 +5630,9 @@ southamerica-west1-docker.pkg.dev/jameofit/jameofit-docker
 
 ### **10. Configuración de platform-deploy para GCP**
 
-El repositorio `platform-deploy` fue preparado para centralizar la operación cloud de la plataforma. Este repositorio contiene los archivos necesarios para levantar el entorno GCP mediante Docker Compose, sin depender de comandos manuales aislados.
+El repositorio `platform-deploy` centraliza la operación cloud de la plataforma. Contiene los archivos necesarios para levantar el entorno GCP mediante Docker Compose.
 
-La estructura propuesta para GCP es:
+La estructura preparada para GCP es:
 
 ```text
 platform-deploy/
@@ -5545,54 +5645,64 @@ platform-deploy/
 │   ├── gcp-up.sh
 │   ├── gcp-down.sh
 │   └── gcp-healthcheck.sh
-└── README.md
+└── docs/
+    └── gcp-deployment.md
 ```
 
-El archivo `docker-compose.gcp.yml` no incluye PostgreSQL como contenedor, debido a que la persistencia se gestiona con Cloud SQL.
+El archivo `docker-compose.gcp.yml` no incluye PostgreSQL ni MongoDB como contenedores. PostgreSQL se gestiona mediante Cloud SQL y `communication-service` se mantiene fuera del despliegue actual porque requiere MongoDB.
 
-La carga de secretos se realiza mediante el script:
-
-```bash
-./scripts/gcp-load-secrets.sh
-```
-
-Este script recupera los valores desde Secret Manager y genera el archivo `env/gcp.env` en la VM. Dicho archivo no debe versionarse.
-
-Flujo esperado de despliegue:
+El flujo operativo de despliegue es:
 
 ```bash
+export CONFIG_SERVICE_IMAGE_TAG=sha-a8724d4
+export EUREKA_SERVICE_IMAGE_TAG=sha-7039454
+export IAM_SERVICE_IMAGE_TAG=sha-0805f23
+export GATEWAY_SERVICE_IMAGE_TAG=sha-e98b935
+export GOALS_SERVICE_IMAGE_TAG=sha-e4ebeb5
+export MEAL_PLANS_SERVICE_IMAGE_TAG=sha-597b29f
+export PROFILES_SERVICE_IMAGE_TAG=sha-34e5c83
+export RECIPES_SERVICE_IMAGE_TAG=sha-fcf2f93
+export TRACKING_SERVICE_IMAGE_TAG=sha-326e0c0
+
 ./scripts/gcp-load-secrets.sh
 ./scripts/gcp-up.sh
 ./scripts/gcp-healthcheck.sh
 ```
 
-El archivo `gcp.env` contiene valores como:
+El script `gcp-load-secrets.sh` carga las credenciales desde Secret Manager y genera el archivo `env/gcp.env` con permisos restringidos. Este archivo no debe versionarse.
+
+El script `gcp-up.sh` valida los tags SHA, configura Docker contra Artifact Registry, descarga las imágenes y ejecuta `docker compose up -d`.
+
+El script `gcp-healthcheck.sh` valida los endpoints principales:
+
+```bash
+curl -fsS http://localhost:8888/actuator/health
+curl -fsS http://localhost:8761/actuator/health
+curl -fsS http://localhost:8080/actuator/health
+curl -fsS http://localhost:8080/api/v1/jwks/.well-known/jwks.json
+```
+
+La validación obtenida fue:
 
 ```text
-GCP_PROJECT_ID=jameofit
-GCP_REGION=southamerica-west1
-GAR_REPOSITORY=jameofit-docker
-IMAGE_TAG=main-latest
-SPRING_PROFILES_ACTIVE=gcp
-CONFIG_SERVER_URL=http://config-service:8888
-EUREKA_SERVER_URL=http://eureka-service:8761/eureka/
-SPRING_DATASOURCE_URL=jdbc:postgresql://10.20.0.3:5432/jameofit_iam
-SPRING_DATASOURCE_USERNAME=jameofit_app
-SPRING_DATASOURCE_PASSWORD=<from Secret Manager>
+config-service: UP
+eureka-service: UP
+gateway-service: UP
+IAM JWKS vía Gateway: OK
 ```
 
 <div align="center">
   <img src="assets/TB2/platform_deploy_gcp_compose_config.png" alt="platform-deploy GCP Docker Compose" width="75%">
-  <p><em>Configuración de platform-deploy para ejecutar la plataforma base en GCP</em></p>
+  <p><em>Configuración de platform-deploy para ejecutar la plataforma en GCP</em></p>
 </div>
 
 ---
 
 ### **11. Estrategia de exposición y acceso a endpoints**
 
-Como la VM fue creada sin IP pública, los endpoints internos no quedan expuestos directamente en internet. Esto es una decisión de seguridad intencional.
+Como la VM fue creada sin IP pública, los endpoints internos no quedan expuestos directamente en internet. Para pruebas internas, documentación Swagger, Eureka Dashboard y validación privada, se puede utilizar **IAP TCP forwarding**.
 
-Para pruebas internas, documentación Swagger, Eureka Dashboard y validación de endpoints, se utilizará **IAP TCP forwarding**. Por ejemplo, para acceder al Gateway desde la máquina local del desarrollador:
+Ejemplo para acceder al Gateway desde la máquina local del desarrollador:
 
 ```bash
 gcloud compute start-iap-tunnel jameofit-backend-dev-vm 8080 \
@@ -5601,7 +5711,7 @@ gcloud compute start-iap-tunnel jameofit-backend-dev-vm 8080 \
   --local-host-port=localhost:8080
 ```
 
-Luego, desde el navegador local se podrá acceder a:
+Luego, desde el navegador local se puede acceder a:
 
 ```text
 http://localhost:8080
@@ -5616,15 +5726,9 @@ gcloud compute start-iap-tunnel jameofit-backend-dev-vm 8761 \
   --local-host-port=localhost:8761
 ```
 
-Y luego:
+Esta estrategia permite validar la plataforma sin exponer públicamente servicios internos como Config Server, Eureka, bases de datos o endpoints administrativos.
 
-```text
-http://localhost:8761
-```
-
-Esta estrategia permite validar la plataforma sin exponer públicamente servicios internos como Config Server, Eureka, Actuator o Swagger.
-
-Para una exposición pública del backend hacia el frontend, la alternativa recomendada para una fase posterior es configurar un **HTTPS Load Balancer** apuntando únicamente al `gateway-service`, manteniendo la VM privada y evitando exposición directa de los microservicios.
+Para la exposición pública hacia el frontend, se implementó un **External HTTP(S) Load Balancer** apuntando únicamente al `gateway-service`.
 
 <div align="center">
   <img src="assets/TB2/gcp_iap_tunnel_gateway.png" alt="GCP IAP Tunnel Gateway" width="75%">
@@ -5633,34 +5737,120 @@ Para una exposición pública del backend hacia el frontend, la alternativa reco
 
 ---
 
-### **12. Alcance del despliegue durante el Sprint**
+### **12. Exposición pública mediante HTTP(S) Load Balancer**
 
-El alcance del despliegue fue controlado intencionalmente para reducir riesgos.
+Para permitir que el frontend consuma el backend de manera pública y segura, se configuró un **External HTTP(S) Load Balancer**. Este balanceador actúa como punto público de entrada y redirige el tráfico hacia el `gateway-service` ejecutado en la VM privada.
 
-Servicios incluidos en la primera plataforma base:
+La arquitectura de exposición quedó definida así:
 
 ```text
-config-service
-eureka-service
-iam-service
-gateway-service
-goals-service
-meal-plans-service
-profiles-service
-recipes-service
-tracking-service
-communication-service
+Frontend público
+  ↓ HTTPS
+External HTTP(S) Load Balancer
+  ↓ HTTP interno :8080
+VM privada sin IP pública
+  ↓ Docker Compose
+gateway-service:8080
+  ↓
+microservicios internos
 ```
 
-El servicio `communication-service` fue excluido del primer despliegue porque utiliza MongoDB, lo cual agregaría complejidad adicional a la primera validación cloud. Su despliegue se reservará para una fase posterior, una vez que la plataforma base en GCP haya sido validada correctamente.
+Para conectar el Load Balancer con la VM existente, se creó un unmanaged instance group:
 
-También se decidió no integrar Auth0 en esta etapa para evitar mezclar la validación de infraestructura cloud con un rediseño del modelo de autenticación.
+```text
+Instance Group: jameofit-backend-uig
+VM asociada: jameofit-backend-dev-vm
+Named port: http:8080
+```
+
+También se configuró un health check contra el Gateway:
+
+```text
+Health Check: jameofit-gateway-health-check
+Port: 8080
+Path: /actuator/health
+```
+
+La regla de firewall asociada permite el tráfico del Load Balancer y sus health checks hacia el puerto 8080 de la VM:
+
+```text
+Firewall rule: allow-lb-to-gateway-8080-jameofit
+Port: tcp:8080
+Source ranges:
+  - 130.211.0.0/22
+  - 35.191.0.0/16
+Target tag: jameofit-backend
+```
+
+Los recursos principales configurados fueron:
+
+```text
+Backend Service: jameofit-gateway-backend
+URL Map: jameofit-url-map
+HTTP Proxy: jameofit-http-proxy
+HTTPS Proxy: jameofit-https-proxy
+Global Static IP: jameofit-lb-ip
+HTTP Forwarding Rule: jameofit-http-forwarding-rule
+HTTPS Forwarding Rule: jameofit-https-forwarding-rule
+```
+
+Inicialmente se validó el acceso por HTTP hacia el endpoint de salud:
+
+```bash
+curl -i "http://<LB_IP>/actuator/health"
+```
+
+Después, se configuró un dominio DuckDNS apuntando a la IP pública global del Load Balancer:
+
+```text
+<domain>.duckdns.org → Global Load Balancer IP
+```
+
+Con el dominio resolviendo correctamente, se creó y validó un certificado SSL administrado por Google:
+
+```text
+SSL Certificate: jameofit-managed-cert
+Type: Google-managed
+Domain: <domain>.duckdns.org
+Status: ACTIVE
+```
+
+Finalmente, se habilitó HTTPS y se configuró redirección HTTP hacia HTTPS mediante un URL map dedicado:
+
+```text
+URL Map: jameofit-http-redirect-url-map
+Redirect: HTTP → HTTPS
+Response code: MOVED_PERMANENTLY_DEFAULT
+```
+
+Validación esperada de la redirección:
+
+```bash
+curl -I "http://<domain>.duckdns.org/actuator/health"
+```
+
+```text
+HTTP/1.1 301 Moved Permanently
+Location: https://<domain>.duckdns.org/actuator/health
+```
+
+La URL pública que debe consumir el frontend queda definida como:
+
+```text
+https://<domain>.duckdns.org
+```
+
+Esta estrategia evita asignar IP pública a la VM, delega la terminación TLS al Load Balancer y mantiene los microservicios internos fuera de internet.
+
+<div align="center">
+  <img src="assets/TB2/gcp_https_load_balancer.png" alt="GCP Load Balancer" width="75%">  
+</div>
 
 ---
 
 ### **13. Resultado final del Sprint**
 
-Como resultado del Sprint, se logró dejar preparada la base cloud para el despliegue controlado del backend de JameoFit en Google Cloud Platform.
+Como resultado del Sprint, se logró desplegar y exponer de manera pública y segura la plataforma backend de JameoFit en Google Cloud Platform.
 
 Los principales resultados alcanzados fueron:
 
@@ -5669,27 +5859,122 @@ Los principales resultados alcanzados fueron:
 * Autenticación entre GitHub Actions y GCP configurada mediante Workload Identity Federation.
 * Service Account de CI/CD creada sin uso de claves JSON.
 * Workflows reutilizables preparados para build y push de imágenes Docker.
-* Imágenes base publicadas en Artifact Registry con tags trazables.
+* Imágenes de microservicios publicadas en Artifact Registry con tags SHA inmutables.
 * VPC privada creada para la plataforma backend.
 * Cloud SQL PostgreSQL configurado con IP privada.
+* Bases de datos, usuarios y secretos separados por servicio PostgreSQL.
 * Secret Manager configurado para credenciales de base de datos.
 * Service Account runtime creada para la VM.
 * Máquina virtual privada preparada para ejecutar Docker Compose.
 * Cloud NAT configurado para permitir salida a internet sin IP pública.
-* Estrategia de acceso privado mediante IAP TCP forwarding definida para pruebas internas.
-* `platform-deploy` adaptado para GCP y Cloud SQL.
+* Docker y Docker Compose configurados en la VM.
+* `platform-deploy` adaptado para GCP, Cloud SQL, Secret Manager y tags por servicio.
+* Despliegue de nueve servicios mediante Docker Compose.
+* Validación de healthcheck para Config Server, Eureka, Gateway e IAM vía Gateway.
+* Load Balancer HTTP(S) configurado para exponer únicamente el Gateway.
+* Dominio DuckDNS apuntando a la IP global del Load Balancer.
+* Certificado SSL administrado por Google configurado y validado.
+* Redirección HTTP hacia HTTPS configurada.
+* Estrategia de acceso privado mediante IAP TCP forwarding mantenida para administración y pruebas internas.
 
-La arquitectura resultante permite que la plataforma evolucione hacia un despliegue más completo, manteniendo una separación clara entre construcción de imágenes, almacenamiento de artefactos, secretos, base de datos administrada, runtime y acceso seguro.
-
-<div align="center">
-  <img src="assets/TB2/gcp_deployment_summary_jameofit.png" alt="JameoFit GCP Deployment Summary" width="75%">
-  <p><em>Resumen de recursos configurados para el despliegue del backend de JameoFit en GCP</em></p>
-</div>
+La arquitectura resultante separa construcción de imágenes, almacenamiento de artefactos, gestión de secretos, base de datos administrada, runtime privado y exposición pública segura. Además, permite que el frontend consuma el backend mediante una URL HTTPS pública sin exponer directamente la VM ni los microservicios internos.
 
 #### 6.2.2.9. Team Collaboration Insights during Sprint
 
 En esta sección se analizan las evidencias de colaboración y coordinación del equipo durante el desarrollo del Sprint 2, considerando la participación de los integrantes en las actividades de implementación y control de versiones del proyecto. Para ello, se presentan métricas, capturas y analíticos obtenidos de GitHub, los cuales permiten visualizar la distribución del trabajo, el nivel de contribución de cada miembro y la interacción mantenida en el desarrollo del Landing Page, la aplicación web y los servicios Backend implementados durante el sprint.
 
+- Landing Page:
+<div align="center">
+  <img src="assets/TB2/landing_sprint_2.png" alt="GCP Load Balancer" width="75%">  
+</div>
+
+
+- Web Application:
+<div align="center">
+  <img src="assets/TB2/frontend_sprint_2.png" alt="GCP Load Balancer" width="75%">  
+</div>
+
+
+- Application Web Services:
+<div align="center">
+  <img src="assets/TB2/backend_sprint_2.png" alt="GCP Load Balancer" width="75%">  
+</div>
+
+
+- Mobile Application:
+<div align="center">
+  <img src="assets/TB2/mobile_sprint_2.png" alt="GCP Load Balancer" width="75%">  
+</div>
+
+
+#### 6.2.3. Sprint 3
+
+#### 6.2.3.1. Sprint Planning 3
+
+En este Sprint Planning, el equipo definió los objetivos, alcance y actividades correspondientes al Sprint 3, priorizando las historias de usuario relacionadas con el fin del desarrollo del Frontend, tanto web como mobile y la integracion con el backend y el servicio IoT. De esta forma culminamos el desarrollo de forma exitosa y coherente con lo establecido
+
+| **Sprint #**                       | Sprint 3                       |
+|------------------------------------|--------------------------------|
+| **Sprint Planning Background**     |                                |
+| Date                               | 2026-07-03                     |
+| Time                               | 23:00 PM                       |
+| Location                           | Servidor del equipo en Discord |
+| Prepared By                        | Galvez Chambi, Jhon            |
+| Attendees (to planning meeting)    | Bueno Perales, Mathias Eduardo / Geronimo Quispe, Pablo Antonio / Guzmán Chávez, Ramiro Alexander / Luquillas Asto, Omar / Paredes Santos, Fabrizio Alberto / Sandoval Paiva,Valentino |
+| Sprint 2 Review Summary            | Revisamos nuestras metas de negocio (business goals), validamos la duración del Sprint (4 semanas), evaluamos los riesgos y dimos feedback entre los miembros. Se aclararon las historias seleccionadas, y se discutieron posibles bloqueos o dependencias técnicas.     |
+| Sprint 2 Retrospective Summary     | **Start**: Mejorar la comunicación interna. <br>Planificar las tareas colectivas con anticipación. <br> **Stop**: Dejar de esperar el último momento para comenzar tareas. <br> **Continue**: Hacer preguntas al Product Owner. <br> Realizar reuniones cortas y frecuentes para alinear avances.     |
+| **Sprint Goal & User Stories**     |                                |
+| Sprint 2 Goal                      | Nuestro enfoque es culminar el desarrollo total de las aplicaciones y hacer una conexion correcta con el backend y el servicio IoT. Creemos que esto brindará a los usuarios y stakeholders un producto de calidad que cumple con lo establecido en nuestra meta. Esto se confirmará cuando los usuarios puedan navegar correctamente por las vistas principales de la aplicación, interactuar con las funcionalidades esenciales implementadas y exista una comunicación funcional entre el Frontend y los servicios. |
+| Sprint 3 Velocity                  | 120                             |
+| Sum of Story Points                | 120                             |
+
+#### 6.2.3.2. Aspect Leaders and Collaborators
+
+En esta sección se definen los líderes y colaboradores asignados a cada aspecto considerado dentro del alcance del Sprint. Esta organización permite distribuir responsabilidades de manera clara entre los miembros del equipo, facilitando la coordinación, comunicación y ejecución de las actividades relacionadas con el desarrollo del Frontend Web, Frontend Mobile, Backend y IoT Service.
+
+| Team Member                           | Github Username       | Frontend Web    | Frontend Mobile   | Backend    | IoT Service |
+|---------------------------------------|-----------------------|-----------------|-------------|------------|---------------|
+| Bueno Perales, Mathias Eduardo        | MathiasBueno          | (C)             | (C)         | (C)        |(C)        |
+| Galvez Chambi, Jhon Alexander         | Chaomeum              | (C)             | (C)         | (L)        |(C)        |
+| Geronimo Quispe, Pablo Antonio        | Phatogram             | (C)             | (C)         | (C)        |(L)        |
+| Guzmán Chávez, Ramiro Alexander       | RamiroGuzmanCh        | (C)             | (L)         | (C)        |(C)        |
+| Luquillas Asto, Omar                  | OmarLLA               | (C)             | (C)         | (C)        |(C)        |
+| Paredes Santos, Fabrizio Alberto      | psfa29                | (C)             | (C)         | (L)        |(C)        |
+| Sandoval Paiva, Valentino             | ValentinoSandovalP    | (L)             | (C)         | (C)        |(C)        |
+
+
+#### 6.2.3.3. Sprint Backlog 3
+
+En esta sección se presenta el Sprint Backlog correspondiente al Sprint 3, el cual contiene las historias de usuario seleccionadas y las tareas definidas por el equipo para alcanzar el Sprint Goal establecido. Asimismo, se incluye el Board de trabajo utilizado para la gestión y seguimiento de las actividades del Sprint, permitiendo visualizar el estado de avance de cada tarea y la distribución del trabajo entre los integrantes del equipo durante el desarrollo de la aplicacion web, mobile, backend e IoT service.
+
+![Sprint Backlog 3]()
+
+Enlace público del Board en Trello: [https://trello.com/b/4FndhzUq/product-backlog-jameofit-iot](https://trello.com/b/4FndhzUq/product-backlog-jameofit-iot)
+
+
+#### 6.2.3.4. Development Evidence for Sprint Review
+
+En esta sección se presentan las evidencias de desarrollo correspondientes al Sprint 3, mostrando los principales avances realizados en la implementación de los productos requeridos, la aplicación web, mobile y los servicios. Asimismo, se incluyen los commits registrados en los repositorios del proyecto como evidencia del trabajo realizado y del progreso alcanzado por el equipo durante la iteración.
+
+
+#### 6.2.3.5. Testing Suite Evidence for Sprint Review
+
+
+#### 6.2.3.6. Execution Evidence for Sprint Review
+
+En esta sección se presentan las evidencias de ejecución correspondientes al Sprint 3, mostrando las  funcionalidades y vistas finales para la aplicación web y mobile. Asimismo, se incluyen capturas de pantalla y material audiovisual que evidencian la navegación, interacción y funcionamiento general de los componentes desarrollados durante el sprint, permitiendo validar el cumplimiento de los objetivos establecidos durante el proyecto.
+
+
+#### 6.2.3.7. Services Documentation Evidence for Sprint Review
+
+En esta sección se presentan las evidencias de documentación de los servicios web desarrollados durante el Sprint 3, incluyendo la definición y documentación de los principales endpoints implementados para el sistema. Asimismo, se muestran las especificaciones elaboradas mediante OpenAPI, las acciones soportadas por cada servicio y ejemplos de interacción con los endpoints, permitiendo evidenciar el correcto diseño y documentación de la comunicación entre el Frontend y Backend del proyecto.
+
+#### 6.2.3.8. Software Deployment Evidence for Sprint Review
+
+
+#### 6.2.3.9. Team Collaboration Insights during Sprint
+
+En esta sección se analizan las evidencias de colaboración y coordinación del equipo durante el desarrollo del Sprint 3, considerando la participación de los integrantes en las actividades de implementación y control de versiones del proyecto. Para ello, se presentan métricas, capturas y analíticos obtenidos de GitHub, los cuales permiten visualizar la distribución del trabajo, el nivel de contribución de cada miembro y la interacción mantenida en el desarrollo del Landing Page, la aplicación web y los servicios Backend implementados durante el sprint.
 
 
 ### 6.3. Validation Interviews
@@ -5944,6 +6229,8 @@ AV1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323270_upc_edu_pe/IQA
 
 TB1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323270_upc_edu_pe/IQAia2QpBf0jR5j33TCiA9hVAZq8QuueMiHI73hcuhcjYrU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=J4miBT
 
+AV2: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323270_upc_edu_pe/IQAK0rx-_x3BRJ2FY18X_CFtAfHxRLjNGG3xFmSDNyL-qL0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=OM2djt
+
 ## Anexos
 
 - URL Landing Page:
@@ -5951,7 +6238,13 @@ TB1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202323270_upc_edu_pe/IQA
   
 - URL Frontend:
   https://g3iotfrontend.web.app/
+
+- URL Frontend Mobile
+  https://g3-soluciones-iot.github.io/mobile/
   
+- URL Backend:
+  https://jameofit.duckdns.org/webjars/swagger-ui/index.html?urls.primaryName=iam-service
+
 - URL Simulaciones Wokwi:
   - Smart Bottle: https://wokwi.com/projects/463883642035947521
   - Smart Scale: https://wokwi.com/projects/463886427977308161
