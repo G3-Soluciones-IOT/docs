@@ -5964,6 +5964,82 @@ En esta sección se presentan las evidencias de desarrollo correspondientes al S
 
 En esta sección se presentan las evidencias de ejecución correspondientes al Sprint 3, mostrando las  funcionalidades y vistas finales para la aplicación web y mobile. Asimismo, se incluyen capturas de pantalla y material audiovisual que evidencian la navegación, interacción y funcionamiento general de los componentes desarrollados durante el sprint, permitiendo validar el cumplimiento de los objetivos establecidos durante el proyecto.
 
+WEB APPLICATION - VISTA NUTRICIONISTA
+
+VISTA DE REGISTRO:
+
+![Execution Evidence](assets/TF/FRON1.png)
+
+![Execution Evidence](assets/TF/FRON2.png)
+
+VISTA DE INICIO DE SESION: 
+
+![Execution Evidence](assets/TF/FRON3.png)
+
+CUENTA NUTRICIONISTA
+
+![Execution Evidence](assets/TF/FRON4.jpeg)
+
+CONFIGURACIÓN DE CUENTA
+
+![Execution Evidence](assets/TF/FRON5.jpeg)
+
+DASHBOARD
+
+![Execution Evidence](assets/TF/FRON6.jpeg)
+
+![Execution Evidence](assets/TF/FRON7.jpeg)
+
+INFORMACION DE PACIENTES
+
+![Execution Evidence](assets/TF/FRON8.jpeg)
+
+![Execution Evidence](assets/TF/FRON9.jpeg)
+
+![Execution Evidence](assets/TF/FRON10.jpeg)
+
+![Execution Evidence](assets/TF/FRON11.jpeg)
+
+![Execution Evidence](assets/TF/FRON12.jpeg)
+
+![Execution Evidence](assets/TF/FRON13.jpeg)
+
+![Execution Evidence](assets/TF/FRON14.jpeg)
+
+![Execution Evidence](assets/TF/FRON15.jpeg)
+
+VISTA DE SOLICITUDES PENDIENTES
+
+![Execution Evidence](assets/TF/FRON16.jpeg)
+
+VISTA DE COMUNICACIONES
+
+![Execution Evidence](assets/TF/FRON17.jpeg)
+
+![Execution Evidence](assets/TF/FRON18.jpeg)
+
+VISTA DE RECETAS
+
+![Execution Evidence](assets/TF/FRON19.jpeg)
+
+![Execution Evidence](assets/TF/FRON20.jpeg)
+
+![Execution Evidence](assets/TF/FRON21.jpeg)
+
+VISTA DE PLANES
+
+![Execution Evidence](assets/TF/FRON22.jpeg)
+
+![Execution Evidence](assets/TF/FRON23.jpeg)
+
+![Execution Evidence](assets/TF/FRON24.jpeg)
+
+VISTA DE ANALITICAS
+
+![Execution Evidence](assets/TF/FRON25.jpeg)
+
+
+
 
 #### 6.2.3.7. Services Documentation Evidence for Sprint Review
 
