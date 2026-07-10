@@ -6494,7 +6494,7 @@ Esta suite de pruebas permite mantener la trazabilidad entre las historias de us
 
 En esta sección se presentan las evidencias de ejecución correspondientes al Sprint 3, mostrando las  funcionalidades y vistas finales para la aplicación web y mobile. Asimismo, se incluyen capturas de pantalla y material audiovisual que evidencian la navegación, interacción y funcionamiento general de los componentes desarrollados durante el sprint, permitiendo validar el cumplimiento de los objetivos establecidos durante el proyecto.
 
-WEB APPLICATION - VISTA NUTRICIONISTA
+**WEB APPLICATION - VISTA NUTRICIONISTA**
 
 VISTA DE REGISTRO:
 
@@ -6569,6 +6569,31 @@ VISTA DE ANALITICAS
 ![Execution Evidence](assets/TF/FRON25.jpeg)
 
 
+**WEB APPLICATION - VISTA ADMIN**
+
+VISTA DE GESTIÓN
+
+![Execution Evidence](assets/TF/FRON26.jpeg)
+
+![Execution Evidence](assets/TF/FRON27.jpeg)
+
+![Execution Evidence](assets/TF/FRON28.jpeg)
+
+VISTA DE RECETAS
+
+![Execution Evidence](assets/TF/FRON29.jpeg)
+
+![Execution Evidence](assets/TF/FRON30.jpeg)
+
+VISTA DE PLANES
+
+![Execution Evidence](assets/TF/FRON31.jpeg)
+
+![Execution Evidence](assets/TF/FRON32.jpeg)
+
+VISTA DE INGREDIENTES
+
+![Execution Evidence](assets/TF/FRON33.jpeg)
 
 
 #### 6.2.3.7. Services Documentation Evidence for Sprint Review
@@ -7337,7 +7362,7 @@ En esta sección se analizan las evidencias de colaboración y coordinación del
 | Edad | 23 años |
 | Distrito/Ciudad | Lima |
 |  <img src="assets/entrevistas/Entrevista-Validacion1.png" alt="PB" width="800" height = "200"> | Gabriel entendió que JameoFit es una plataforma orientada a mejorar los hábitos alimenticios y el bienestar personal mediante el seguimiento nutricional y la integración con dispositivos inteligentes. Consideró clara la propuesta de valor, destacando la centralización de información sobre alimentación, hidratación y progreso físico en un solo lugar. Valoró positivamente la navegación de la plataforma, señalando que es intuitiva y fácil de usar, aunque inicialmente requirió comprender mejor la relación entre los dispositivos IoT y el seguimiento nutricional. Destacó la simplicidad del proceso de registro e inicio de sesión, así como la claridad visual del dashboard. Sugirió incorporar gráficos comparativos semanales y metas personalizadas para enriquecer el seguimiento del progreso. Respecto a los dispositivos inteligentes, consideró muy útil el monitoreo de hidratación y valoró la balanza inteligente por automatizar el registro de datos y reducir errores. Sobre la comunicación con el nutricionista, indicó que cumple con las expectativas de una consulta digital, aunque recomendó incluir videollamadas o mensajería en tiempo real. Finalmente, manifestó que estaría dispuesto a pagar una suscripción si incorpora asesorías periódicas, planes personalizados y análisis detallados, concluyendo que recomendaría la plataforma por integrar monitoreo, seguimiento y orientación profesional en una sola herramienta. |
-| Timing: 00:12 – 08:47 min | [Entrevista 1 JammeoFit.mp4]() |
+| Timing: 00:12 – 08:47 min | [Entrevista 1 JammeoFit.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313433_upc_edu_pe/IQBGv7yVvMkaTIoDEAMF-4HJAXr3jWKcg0OkKx6WgmTsOoY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lJZ2N2) |
 
 
 | Entrevistado 2 | María Fernanda Peña |
@@ -7345,7 +7370,7 @@ En esta sección se analizan las evidencias de colaboración y coordinación del
 | Edad | 22 años |
 | Distrito/Ciudad | Lima |
 |  <img src="assets/entrevistas/Entrevista-Validacion2.png" alt="PB" width="800" height = "200"> | María Fernanda percibió que JameoFit es una plataforma enfocada en mejorar la salud y la alimentación mediante el seguimiento nutricional apoyado por dispositivos IoT. Consideró clara la problemática que aborda, resaltando que ayuda a mantener hábitos saludables de manera práctica para personas con rutinas exigentes, como estudiantes y practicantes. Valoró positivamente la navegación de la aplicación por ser intuitiva y sencilla, aunque mencionó cierta dificultad inicial para comprender la sección relacionada con el peso y la búsqueda de nutricionistas. Destacó la facilidad del proceso de registro e inicio de sesión, así como la claridad de la información mostrada en el dashboard, sugiriendo añadir gráficos de progreso semanales o mensuales. Respecto a los dispositivos inteligentes, consideró especialmente útil el monitoreo de hidratación por ayudar a recordar el consumo de agua durante jornadas ocupadas, y valoró la balanza inteligente por facilitar el control del peso y generar mayor conciencia sobre los hábitos alimenticios. Sobre la comunicación con el nutricionista, indicó que cumple con lo esperado y sugirió incorporar videollamadas o programación de citas dentro de la plataforma. Finalmente, señaló que estaría dispuesta a pagar una suscripción siempre que el precio sea accesible y se ofrezcan planes personalizados e integración con otras aplicaciones, concluyendo que recomendaría JameoFit por reunir múltiples herramientas de seguimiento y orientación profesional en un solo lugar. |
-| Timing: 08:48 – 19:07 min | [Entrevista 2 JammeoFit.mp4]() |
+| Timing: 08:48 – 19:07 min | [Entrevista 2 JammeoFit.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313433_upc_edu_pe/IQBGv7yVvMkaTIoDEAMF-4HJAXr3jWKcg0OkKx6WgmTsOoY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lJZ2N2) |
 
 
 | Entrevistado 3 | Valeria Fernández |
