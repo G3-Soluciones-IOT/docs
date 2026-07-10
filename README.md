@@ -5924,7 +5924,7 @@ En este Sprint Planning, el equipo definió los objetivos, alcance y actividades
 | Sprint 2 Review Summary            | Revisamos nuestras metas de negocio (business goals), validamos la duración del Sprint (4 semanas), evaluamos los riesgos y dimos feedback entre los miembros. Se aclararon las historias seleccionadas, y se discutieron posibles bloqueos o dependencias técnicas.     |
 | Sprint 2 Retrospective Summary     | **Start**: Mejorar la comunicación interna. <br>Planificar las tareas colectivas con anticipación. <br> **Stop**: Dejar de esperar el último momento para comenzar tareas. <br> **Continue**: Hacer preguntas al Product Owner. <br> Realizar reuniones cortas y frecuentes para alinear avances.     |
 | **Sprint Goal & User Stories**     |                                |
-| Sprint 2 Goal                      | Nuestro enfoque es culminar el desarrollo total de las aplicaciones y hacer una conexion correcta con el backend y el servicio IoT. Creemos que esto brindará a los usuarios y stakeholders un producto de calidad que cumple con lo establecido en nuestra meta. Esto se confirmará cuando los usuarios puedan navegar correctamente por las vistas principales de la aplicación, interactuar con las funcionalidades esenciales implementadas y exista una comunicación funcional entre el Frontend y los servicios. |
+| Sprint 3 Goal                      | Nuestro enfoque es culminar el desarrollo total de las aplicaciones y hacer una conexion correcta con el backend y el servicio IoT. Creemos que esto brindará a los usuarios y stakeholders un producto de calidad que cumple con lo establecido en nuestra meta. Esto se confirmará cuando los usuarios puedan navegar correctamente por las vistas principales de la aplicación, interactuar con las funcionalidades esenciales implementadas y exista una comunicación funcional entre el Frontend y los servicios. |
 | Sprint 3 Velocity                  | 120                             |
 | Sum of Story Points                | 120                             |
 
@@ -5947,18 +5947,548 @@ En esta sección se definen los líderes y colaboradores asignados a cada aspect
 
 En esta sección se presenta el Sprint Backlog correspondiente al Sprint 3, el cual contiene las historias de usuario seleccionadas y las tareas definidas por el equipo para alcanzar el Sprint Goal establecido. Asimismo, se incluye el Board de trabajo utilizado para la gestión y seguimiento de las actividades del Sprint, permitiendo visualizar el estado de avance de cada tarea y la distribución del trabajo entre los integrantes del equipo durante el desarrollo de la aplicacion web, mobile, backend e IoT service.
 
-![Sprint Backlog 3]()
+![Sprint Backlog 3](assets/TB2/trello_board.png)
 
 Enlace público del Board en Trello: [https://trello.com/b/4FndhzUq/product-backlog-jameofit-iot](https://trello.com/b/4FndhzUq/product-backlog-jameofit-iot)
 
+<table>
+  <tr>
+    <td colspan="1"><strong>Sprint #</strong></td>
+    <td colspan="7"><strong>Sprint 3</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>User Story</strong></td>
+    <td colspan="6"><strong>Work-Item / Task</strong></td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Id</strong></td>
+    <td colspan="1"><strong>Title</strong></td>
+    <td colspan="1"><strong>Id</strong></td>
+    <td colspan="1"><strong>Title</strong></td>
+    <td colspan="1"><strong>Description</strong></td>
+    <td colspan="1"><strong>Estimation (Hours)</strong></td>
+    <td colspan="1"><strong>Assigned To</strong></td>
+    <td colspan="1"><strong>Status (To-do / In-Process / To-Review / Done)</strong></td>
+  </tr>
+  <tr>
+    <td rowspan="4">US-41</td>
+    <td rowspan="4">Hidratación IoT</td>
+    <td>T-83</td>
+    <td>Diseñar UI de hidratación</td>
+    <td>Crear widget en dashboard para mostrar consumo de agua sincronizado con IoT</td>
+    <td>3</td>
+    <td>Valentino Sandoval Paiva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-84</td>
+    <td>Implementar servicio de sincronización IoT</td>
+    <td>Desarrollar servicio que recibe datos del dispositivo IoT de hidratación</td>
+    <td>5</td>
+    <td>Pablo Antonio Geronimo Quispe</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-85</td>
+    <td>Conectar UI con servicio IoT</td>
+    <td>Integrar frontend para mostrar datos en tiempo real o por intervalos</td>
+    <td>3</td>
+    <td>Valentino Sandoval Paiva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-86</td>
+    <td>Pruebas de integración y alertas</td>
+    <td>Probar recepción de datos y lógica de alertas por bajo consumo</td>
+    <td>2</td>
+    <td>Pablo Antonio Geronimo Quispe</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="3">US-43</td>
+    <td rowspan="3">IA Recomendaciones</td>
+    <td>T-87</td>
+    <td>Crear interfaz de recomendaciones IA</td>
+    <td>Diseñar vista donde se muestran sugerencias personalizadas</td>
+    <td>3</td>
+    <td>Mathias Eduardo Bueno Perales</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-88</td>
+    <td>Implementar lógica de consumo de API IA</td>
+    <td>Desarrollar función que envía datos al backend y recibe recomendaciones</td>
+    <td>5</td>
+    <td>Jhon Alexander Galvez Chambi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-89</td>
+    <td>Mostrar recomendaciones y permitir feedback</td>
+    <td>Mostrar sugerencias y permitir "Me gusta" o "No me gusta"</td>
+    <td>2</td>
+    <td>Mathias Eduardo Bueno Perales</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="3">US-44</td>
+    <td rowspan="3">Coach Virtual</td>
+    <td>T-90</td>
+    <td>Diseñar interfaz de chat/coach</td>
+    <td>Crear vista similar a chat para interactuar con coach virtual</td>
+    <td>5</td>
+    <td>Valentino Sandoval Paiva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-91</td>
+    <td>Implementar conexión con API del coach</td>
+    <td>Desarrollar servicio que envía mensajes al backend y recibe respuestas</td>
+    <td>5</td>
+    <td>Fabrizio Alberto Paredes Santos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-92</td>
+    <td>Gestionar respuestas y flujo de conversación</td>
+    <td>Implementar lógica para manejar estado de la conversación</td>
+    <td>3</td>
+    <td>Valentino Sandoval Paiva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US-45</td>
+    <td rowspan="2">Entrenamiento IA</td>
+    <td>T-93</td>
+    <td>Diseñar vista de entrenamiento para nutriólogo</td>
+    <td>Crear interfaz donde nutriólogo pueda subir datos para entrenar modelo</td>
+    <td>3</td>
+    <td>Fabrizio Alberto Paredes Santos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-94</td>
+    <td>Implementar lógica de entrenamiento</td>
+    <td>Desarrollar función que envía datos al backend para reentrenamiento</td>
+    <td>5</td>
+    <td>Jhon Alexander Galvez Chambi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US-46</td>
+    <td rowspan="2">Límite IA</td>
+    <td>T-95</td>
+    <td>Configurar límite de consultas</td>
+    <td>Implementar en frontend contador de consultas y lógica de límite</td>
+    <td>3</td>
+    <td>Omar Luquillas Asto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-96</td>
+    <td>Notificar al usuario al alcanzar el límite</td>
+    <td>Mostrar mensaje claro cuando se alcance el límite de consultas</td>
+    <td>2</td>
+    <td>Omar Luquillas Asto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="3">US-35</td>
+    <td rowspan="3">Suscripciones</td>
+    <td>T-97</td>
+    <td>Diseñar UI de configuración de suscripciones</td>
+    <td>Crear vista donde nutriólogo crea y gestiona planes</td>
+    <td>3</td>
+    <td>Mathias Eduardo Bueno Perales</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-98</td>
+    <td>Implementar CRUD de planes de suscripción</td>
+    <td>Desarrollar frontend para crear, leer, actualizar y eliminar planes</td>
+    <td>5</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-99</td>
+    <td>Conectar con API de pagos (Mock)</td>
+    <td>Simular integración con gateway de pagos para gestionar suscripciones</td>
+    <td>3</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US-36</td>
+    <td rowspan="2">Suscriptores</td>
+    <td>T-100</td>
+    <td>Diseñar vista de lista de suscriptores</td>
+    <td>Crear tabla o lista para visualizar suscriptores activos</td>
+    <td>3</td>
+    <td>Jhon Alexander Galvez Chambi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-101</td>
+    <td>Implementar filtros y búsqueda de suscriptores</td>
+    <td>Agregar funcionalidad para buscar y filtrar por estado</td>
+    <td>3</td>
+    <td>Jhon Alexander Galvez Chambi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US-40</td>
+    <td rowspan="2">Analytics</td>
+    <td>T-102</td>
+    <td>Diseñar dashboard de analíticas</td>
+    <td>Crear vista con gráficos y métricas clave para nutriólogo</td>
+    <td>5</td>
+    <td>Fabrizio Alberto Paredes Santos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-103</td>
+    <td>Conectar con API de analytics</td>
+    <td>Obtener y procesar datos necesarios para los gráficos</td>
+    <td>5</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US-29</td>
+    <td rowspan="2">Registro Nutricionista</td>
+    <td>T-104</td>
+    <td>Implementar UI de registro para nutriólogo</td>
+    <td>Adaptar flujo de registro actual para incluir datos profesionales</td>
+    <td>3</td>
+    <td>Omar Luquillas Asto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-105</td>
+    <td>Conectar con API de registro de nutriólogo</td>
+    <td>Extender endpoint de registro para manejar rol de "nutricionista"</td>
+    <td>3</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US-30</td>
+    <td rowspan="2">Perfil Profesional</td>
+    <td>T-106</td>
+    <td>Diseñar UI de perfil para nutriólogo</td>
+    <td>Crear vista de edición de perfil específica para profesionales</td>
+    <td>3</td>
+    <td>Mathias Eduardo Bueno Perales</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-107</td>
+    <td>Implementar guardado de datos profesionales</td>
+    <td>Conectar UI con backend para actualizar perfil</td>
+    <td>3</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US-37</td>
+    <td rowspan="2">Notificaciones Profesionales</td>
+    <td>T-108</td>
+    <td>Implementar centro de notificaciones</td>
+    <td>Crear vista unificada para que nutriólogo vea todas sus notificaciones</td>
+    <td>3</td>
+    <td>Valentino Sandoval Paiva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-109</td>
+    <td>Configurar tipos de notificación</td>
+    <td>Definir y gestionar diferentes tipos (nueva consulta, meta de paciente)</td>
+    <td>3</td>
+    <td>Valentino Sandoval Paiva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US-31</td>
+    <td rowspan="2">Publicación</td>
+    <td>T-110</td>
+    <td>Diseñar UI de creación de contenido</td>
+    <td>Crear editor para que nutriólogo publique artículos o consejos</td>
+    <td>5</td>
+    <td>Pablo Antonio Geronimo Quispe</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-111</td>
+    <td>Implementar envío de contenido a API</td>
+    <td>Desarrollar función para guardar contenido en backend</td>
+    <td>3</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US-32</td>
+    <td rowspan="2">Gestión Contenido</td>
+    <td>T-112</td>
+    <td>Implementar UI de categorías</td>
+    <td>Crear interfaz para que nutriólogo cree y gestione categorías</td>
+    <td>3</td>
+    <td>Fabrizio Alberto Paredes Santos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-113</td>
+    <td>Conectar categorías con el contenido</td>
+    <td>Asegurar que contenido se pueda etiquetar y filtrar por categoría</td>
+    <td>2</td>
+    <td>Fabrizio Alberto Paredes Santos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US-39</td>
+    <td rowspan="2">Biblioteca</td>
+    <td>T-114</td>
+    <td>Diseñar UI de biblioteca de recursos</td>
+    <td>Crear vista para que nutriólogo gestione recursos (PDFs, videos)</td>
+    <td>3</td>
+    <td>Mathias Eduardo Bueno Perales</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-115</td>
+    <td>Implementar subida y organización de recursos</td>
+    <td>Desarrollar lógica para subir archivos y organizarlos en biblioteca</td>
+    <td>5</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US-13</td>
+    <td rowspan="2">Sugerencias</td>
+    <td>T-116</td>
+    <td>Implementar envío de recomendaciones</td>
+    <td>Crear funcionalidad para que nutriólogo envíe mensajes a pacientes</td>
+    <td>3</td>
+    <td>Pablo Antonio Geronimo Quispe</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-117</td>
+    <td>Mostrar sugerencias al usuario</td>
+    <td>Asegurar que sugerencias lleguen al usuario en su vista correspondiente</td>
+    <td>3</td>
+    <td>Pablo Antonio Geronimo Quispe</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US-17</td>
+    <td rowspan="2">Soporte</td>
+    <td>T-118</td>
+    <td>Diseñar UI de solicitud de soporte</td>
+    <td>Crear formulario para que usuarios envíen consultas</td>
+    <td>2</td>
+    <td>Omar Luquillas Asto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-119</td>
+    <td>Implementar envío y seguimiento de tickets</td>
+    <td>Desarrollar lógica para crear y dar seguimiento a tickets de soporte</td>
+    <td>5</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US-07</td>
+    <td rowspan="2">Recordatorios</td>
+    <td>T-120</td>
+    <td>Implementar lógica de recordatorios</td>
+    <td>Configurar servicio de notificaciones push o correo para hábitos</td>
+    <td>5</td>
+    <td>Jhon Alexander Galvez Chambi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-121</td>
+    <td>Diseñar UI de configuración de recordatorios</td>
+    <td>Crear vista para que usuario active/desactive recordatorios</td>
+    <td>3</td>
+    <td>Valentino Sandoval Paiva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US-11</td>
+    <td rowspan="2">Alertas</td>
+    <td>T-122</td>
+    <td>Implementar lógica de alertas de metas</td>
+    <td>Crear servicio que monitorea metas y genera alertas</td>
+    <td>5</td>
+    <td>Jhon Alexander Galvez Chambi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-123</td>
+    <td>Mostrar alertas en la UI</td>
+    <td>Asegurar que alertas se muestren en dashboard del usuario</td>
+    <td>3</td>
+    <td>Jhon Alexander Galvez Chambi</td>
+    <td>Done</td>
+  </tr>
+</table>
 
 #### 6.2.3.4. Development Evidence for Sprint Review
 
 En esta sección se presentan las evidencias de desarrollo correspondientes al Sprint 3, mostrando los principales avances realizados en la implementación de los productos requeridos, la aplicación web, mobile y los servicios. Asimismo, se incluyen los commits registrados en los repositorios del proyecto como evidencia del trabajo realizado y del progreso alcanzado por el equipo durante la iteración.
 
+**Web Application:** [https://github.com/G3-Soluciones-IOT/frontend](https://github.com/G3-Soluciones-IOT/frontend)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| frontend | develop | 8820043 | feat(useTips): implement custom hook for fetching and managing tips | - | 18/06/2026 |
+| frontend | develop | 38f74bb | "feat(dashboard): integrate dashboard data from db.json" | - | 19/06/2026 |
+
+**Config Service:** [https://github.com/G3-Soluciones-IOT/config-service](https://github.com/G3-Soluciones-IOT/config-service)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| config-service | main | cb5d025 | feat(cd): add continuous deployment workflow for GCP Artifact Registry | - | 20/06/2026 |
+| config-service | main | 84e25a2 | refactor(test): enhance identity verification step and clarify repository access | - | 20/06/2026 |
+| config-service | main | 623eb17 | feat(gcp): add workflow for Google Cloud authentication testing | - | 20/06/2026 |
+| config-service | main | e794bcc | feat(ci): add Docker build workflow for continuous integration | - | 20/06/2026 |
+| config-service | main | 86ca6d6 | refactor(gateway): update gateway configuration structure and improve route definitions | - | 20/06/2026 |
+| config-service | main | 2c0b97f | feat(routes): add RewritePath filters for service routes in gateway configuration | - | 20/06/2026 |
+| config-service | main | b52cedf | feat(config): add base URLs for profiles and recipes services in tracking configuration | - | 20/06/2026 |
+| config-service | main | d173dde | fix(config): correct indentation in MongoDB URI configuration | - | 20/06/2026 |
+| config-service | main | 7de4796 | fix(config): update MongoDB configuration to use URI format | - | 20/06/2026 |
+| config-service | main | a235103 | refactor(routes): rename chat and mealplan service routes to communication and meal-plans services | - | 19/06/2026 |
+| config-service | main | 95f2704 | fix(docker): update Dockerfile to copy JAR files directly and modify .dockerignore | - | 19/06/2026 |
+| config-service | main | 6171b88 | feat(config): add configuration files for communication and meal plans services | - | 19/06/2026 |
+| config-service | main | ad20d93 | chore(maven): update Maven wrapper to version 3.9.16 and add .gitattributes for line endings | - | 19/06/2026 |
+| config-service | main | b9cb180 | develop to main | - | 07/06/2026 |
+| config-service | main | 1431bfd | fix(pom.xml): correct indentation in POM file for schemaLocation | - | 07/06/2026 |
+| config-service | main | e56b31c | feat(iam-service): update JWT key paths and expiration configuration to use environment variables | - | 07/06/2026 |
+| config-service | main | 1341185 | fix(eureka-service): set prefer-ip-address to false | - | 07/06/2026 |
+| config-service | main | 4d50b6a | feat(config-service): add config-service as standalone repository | - | 07/06/2026 |
+
+**Eureka Service:** [https://github.com/G3-Soluciones-IOT/eureka-service](https://github.com/G3-Soluciones-IOT/eureka-service)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| eureka-service | main | c432902 | feat(eureka-service): add eureka-service as standalone repository | - | 07/06/2026 |
+
+**Gateway Service:** [https://github.com/G3-Soluciones-IOT/gateway-service](https://github.com/G3-Soluciones-IOT/gateway-service)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| gateway-service | main | c3d3e13 | feat(ci): add Docker build workflow for continuous integration | - | 20/06/2026 |
+| gateway-service | main | 1ce40d0 | ci: update .gitattributes for consistent LF line endings and ensure Maven wrapper files are shell-safe | - | 19/06/2026 |
+| gateway-service | main | 0e6dd71 | ci(wrapper): escape url and enforce LF line endings for GitHub CI | - | 19/06/2026 |
+| gateway-service | main | b06049f | chore: update Maven Wrapper to 3.9.16 | - | 19/06/2026 |
+| gateway-service | main | f28b436 | feat(gateway-service): add gateway-service as standalone repository | - | 07/06/2026 |
+
+**IAM Service:** [https://github.com/G3-Soluciones-IOT/iam-service](https://github.com/G3-Soluciones-IOT/iam-service)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| iam-service | main | 7f8abfd | feat(ci): add Docker build workflow for continuous integration | - | 20/06/2026 |
+| iam-service | main | 87fba50 | chore: streamline CI configuration by using shared workflow for Java CI | - | 19/06/2026 |
+| iam-service | main | 8450c8f | refactor: simplify DaoAuthenticationProvider initialization | - | 19/06/2026 |
+| iam-service | main | fa94eaa | chore: update pom.xml for Spring Boot 4.0.7, dependency management, and build plugins | - | 19/06/2026 |
+| iam-service | main | 3191cb0 | chore: update Maven wrapper to version 3.9.16 and add .gitattributes for consistent line endings | - | 19/06/2026 |
+| iam-service | main | 8736f6c | feat(iam): adding passwordEncoder and Jwks | - | 08/06/2026 |
+| iam-service | main | c4705d1 | feat(iam-service): add iam-service as standalone repository | - | 07/06/2026 |
+
+**Profiles Service:** [https://github.com/G3-Soluciones-IOT/profiles-service](https://github.com/G3-Soluciones-IOT/profiles-service)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| profiles-service | main | 6e9df85 | feat(ci): add Docker build workflow for continuous integration | - | 20/06/2026 |
+| profiles-service | main | 6abd341 | chore: add load-balanced RestClient configuration and update service constructors | - | 20/06/2026 |
+| profiles-service | main | f13b2f6 | chore: add pluralization utility and implement custom naming strategy for JPA | - | 20/06/2026 |
+| profiles-service | main | 633507d | chore: refactor package structure for profiles-service | - | 20/06/2026 |
+| profiles-service | main | 8c94cb1 | chore: update CI configuration and dependencies for profiles-service | - | 20/06/2026 |
+| profiles-service | main | eeae133 | chore: update server port to 8086 in application.properties and Dockerfile | - | 20/06/2026 |
+| profiles-service | main | 8a896f8 | chore: update Maven wrapper to version 3.9.16 and add .gitattributes | - | 20/06/2026 |
+| profiles-service | main | 946f752 | feat: profiles-service added | - | 17/06/2026 |
+
+**Goals Service:** [https://github.com/G3-Soluciones-IOT/goals-service](https://github.com/G3-Soluciones-IOT/goals-service)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| goals-service | main | 0791f21 | feat(ci): add Docker build workflow for continuous integration | - | 20/06/2026 |
+| goals-service | main | bce4a0c | chore: update groupId and add pluralization dependency in pom.xml | - | 20/06/2026 |
+| goals-service | main | a2e9cf7 | chore: refactor package structure for goals service | - | 20/06/2026 |
+| goals-service | main | a76c966 | chore: update dependencies and plugins in pom.xml for Spring Boot 4 compatibility | - | 20/06/2026 |
+| goals-service | main | 10503cf | chore: refactor CI configuration to use shared workflow for Java CI | - | 20/06/2026 |
+| goals-service | main | edcd711 | chore: update Maven wrapper to version 3.9.16 and add .gitattributes | - | 19/06/2026 |
+| goals-service | main | 975a8af | feat: goals service added | - | 17/06/2026 |
+
+**Meal Plans Service:** [https://github.com/G3-Soluciones-IOT/meal-plans-service](https://github.com/G3-Soluciones-IOT/meal-plans-service)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| meal-plans-service | main | 13780cd | feat(ci): add Docker build workflow for continuous integration | - | 20/06/2026 |
+| meal-plans-service | main | 421020a | feat: add load-balanced RestClient configuration for external services | - | 20/06/2026 |
+| meal-plans-service | main | 8e26ac9 | feat: add pluralization strategy for table naming in JPA | - | 20/06/2026 |
+| meal-plans-service | main | da8a322 | chore: remove unused imports and update groupId in pom.xml | - | 20/06/2026 |
+| meal-plans-service | main | 12228de | chore: refactor package structure for meal plans service | - | 20/06/2026 |
+| meal-plans-service | main | 17bfd7c | feat: update CI configuration and dependencies for meal-plans-service | - | 20/06/2026 |
+| meal-plans-service | main | f3d8fce | feat: add Maven Wrapper for project setup | - | 20/06/2026 |
+| meal-plans-service | main | 1fc4c8f | feat: meal-plans-service added | - | 17/06/2026 |
+
+**Recipes Service:** [https://github.com/G3-Soluciones-IOT/recipes-service](https://github.com/G3-Soluciones-IOT/recipes-service)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| recipes-service | main | 39bda8e | feat(ci): add Docker build workflow for continuous integration | - | 20/06/2026 |
+| recipes-service | main | 713b15a | chore: update ExternalProfileAndTrackingService to use load-balanced RestClient | - | 20/06/2026 |
+| recipes-service | main | b053044 | chore: refactor package structure for recipes service | - | 20/06/2026 |
+| recipes-service | main | a79ea31 | chore: update CI configuration and dependencies in pom.xml for improved build process | - | 20/06/2026 |
+| recipes-service | main | 3c961cb | chore: update server port to 8087 in application.properties and Dockerfile | - | 20/06/2026 |
+| recipes-service | main | 7209a8f | chore: update Maven wrapper to version 3.9.16 and add .gitattributes | - | 20/06/2026 |
+| recipes-service | main | 6ee45b4 | feat: recipes-service added | - | 17/06/2026 |
+| recipes-service | main | 39a3afe | Initial commit | - | 17/06/2026 |
+
+**Tracking Service:** [https://github.com/G3-Soluciones-IOT/tracking-service](https://github.com/G3-Soluciones-IOT/tracking-service)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| tracking-service | main | 18fd47c | feat(ci): add Docker build workflow for continuous integration | - | 20/06/2026 |
+| tracking-service | main | 6e75c5b | feat: implement load-balanced RestClient configuration for external services | - | 20/06/2026 |
+| tracking-service | main | 399f17a | feat: add pluralization strategy for table naming in JPA | - | 20/06/2026 |
+| tracking-service | main | d295741 | fix: change main application location for tracking service | - | 20/06/2026 |
+| tracking-service | main | f05d883 | chore: refactor package structure for tracking service | - | 20/06/2026 |
+| tracking-service | main | b0423ee | chore: update CI configuration and dependencies for Spring Boot 4.0.7 | - | 20/06/2026 |
+| tracking-service | main | f2e27ad | chore: update server port to 8089 in application.properties and Dockerfile | - | 20/06/2026 |
+| tracking-service | main | 50c52f0 | chore: update Maven wrapper to version 3.9.16 and add .gitattributes | - | 20/06/2026 |
+| tracking-service | main | f50e79f | feat: tracking service added | - | 17/06/2026 |
+
+**Communication Service:** [https://github.com/G3-Soluciones-IOT/communication-service](https://github.com/G3-Soluciones-IOT/communication-service)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| communication-service | main | 81b298f | feat(ci): add Docker build workflow for continuous integration | - | 20/06/2026 |
+| communication-service | main | fb8f71f | feat(ci): add CI configuration for Java workflow | - | 20/06/2026 |
+| communication-service | main | 8fa2d13 | feat(communication-service): add communication-service as standalone repository | - | 20/06/2026 |
 
 #### 6.2.3.5. Testing Suite Evidence for Sprint Review
 
+Durante este sprint se completó la suite de pruebas automatizadas utilizando el enfoque Behavior-Driven Development (BDD) y el lenguaje Gherkin para la definición de escenarios funcionales. Los archivos .feature elaborados corresponden a todas las historias de usuario priorizadas dentro del Sprint Backlog 3, permitiendo validar el comportamiento esperado de las funcionalidades desarrolladas durante esta iteración final.
+
+Las pruebas fueron organizadas bajo la estructura Given–When–Then, considerando escenarios relacionados con la integración del servicio IoT (hidratación y peso), las recomendaciones basadas en IA, el coach virtual, la gestión de suscripciones y analytics, el registro y perfil de nutricionistas, la publicación y gestión de contenido educativo, el sistema de soporte, recordatorios y alertas de metas. Asimismo, se completó la configuración del entorno de testing y se actualizó el repositorio destinado al versionamiento de los artefactos de prueba.
+
+Esta suite de pruebas permite mantener la trazabilidad entre las historias de usuario y sus criterios de aceptación, facilitar futuras automatizaciones de pruebas y proporcionar evidencia clara y verificable del avance funcional alcanzado durante el Sprint 3, asegurando la calidad del producto final entregado.
+
+![Testing Suite Evidence](assets/TP/testing_suite.png)
+
+**Testing:** [https://github.com/G3-Soluciones-IOT/testing](https://github.com/G3-Soluciones-IOT/testing)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Committed on (Date)** |
+|----------------|------------|----------------|----------------------|---------------------------|--------------------------|
+| Testing | main | d7a7a65 | test(bdd): implement shared cucumber world and step definitions | - | 15/05/2026 |
+| Testing | main | 3c89b91 | test(bdd): add iot ai and landing page features | - | 15/05/2026 |
+| Testing | main | 05ec68e | test(bdd): add tracking professional and subscription features | - | 15/05/2026 |
+| Testing | main | 101a7c5 | test(bdd): add account profile and plan features | - | 15/05/2026 |
 
 #### 6.2.3.6. Execution Evidence for Sprint Review
 
