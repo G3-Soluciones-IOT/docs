@@ -6369,6 +6369,7 @@ En esta sección se presentan las evidencias de desarrollo correspondientes al S
 | config-service | main | e56b31c | feat(iam-service): update JWT key paths and expiration configuration to use environment variables | - | 07/06/2026 |
 | config-service | main | 1341185 | fix(eureka-service): set prefer-ip-address to false | - | 07/06/2026 |
 | config-service | main | 4d50b6a | feat(config-service): add config-service as standalone repository | - | 07/06/2026 |
+| config-service | main | fe2ce68 | feat(deploy): add payments service to local and GCP deployment | - | 10/06/2026 |
 
 **Eureka Service:** [https://github.com/G3-Soluciones-IOT/eureka-service](https://github.com/G3-Soluciones-IOT/eureka-service)
 
@@ -6470,6 +6471,27 @@ En esta sección se presentan las evidencias de desarrollo correspondientes al S
 | communication-service | main | 81b298f | feat(ci): add Docker build workflow for continuous integration | - | 20/06/2026 |
 | communication-service | main | fb8f71f | feat(ci): add CI configuration for Java workflow | - | 20/06/2026 |
 | communication-service | main | 8fa2d13 | feat(communication-service): add communication-service as standalone repository | - | 20/06/2026 |
+
+**Nutritionist Service:** [https://github.com/G3-Soluciones-IOT/nutritionist-service](https://github.com/G3-Soluciones-IOT/nutritionist-service)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| nutritionist-service | main | e7cbf30 | Initial commit | - | 09/07/2026 |
+| nutritionist-service | main | 65ec4ad | feat: add nutrionist-service | - | 09/07/2026 |
+
+
+**Nutrition AI Service:** [https://github.com/G3-Soluciones-IOT/nutrition-ai-service](https://github.com/G3-Soluciones-IOT/nutrition-ai-service)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| nutrition-ai-service | main | 0b13d2b | Initial commit  | - | 21/06/2026 |
+| nutrition-ai-service | main | a9a3a66 | feat:nutritionAIService added  | - | 21/06/2026 |
+| nutrition-ai-service | main | 20cda04 | feat: implement JWT authentication and authorization configuration  | - | 05/07/2026 |
+| nutrition-ai-service | main | 06d21b3 | feat(nutrition-ai): improve Gemini tip generation and cloud deployment setup  | - | 05/07/2026 |
+| nutrition-ai-service | main | 6251691 |  feat(nutrition-ai): require premium subscription for AI tips | - | 10/07/2026 |
+
+
+
 
 #### 6.2.3.5. Testing Suite Evidence for Sprint Review
 
@@ -6599,6 +6621,60 @@ VISTA DE INGREDIENTES
 #### 6.2.3.7. Services Documentation Evidence for Sprint Review
 
 En esta sección se presentan las evidencias de documentación de los servicios web desarrollados durante el Sprint 3, incluyendo la definición y documentación de los principales endpoints implementados para el sistema. Asimismo, se muestran las especificaciones elaboradas mediante OpenAPI, las acciones soportadas por cada servicio y ejemplos de interacción con los endpoints, permitiendo evidenciar el correcto diseño y documentación de la comunicación entre el Frontend y Backend del proyecto.
+
+**Communication**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|-----------|-------------|
+| /api/v1/chat/contacts/{userId} | Obtener contactos habilitados para chat | GET | `/api/v1/chat/contacts/{userId}` | userId (path) | `[1, 2, 3, ...]` (array de IDs) | (URL Swagger/doc) |
+| /api/v1/chat/validate | Validar acceso de chat | GET | `/api/v1/chat/validate?userId1=1&userId2=2` | userId1, userId2 (query params) | `{ "canChat": true/false }` | (URL Swagger/doc) |
+| /api/v1/chat/users/{userId}/exists | Verificar existencia de usuario | GET | `/api/v1/chat/users/{userId}/exists` | userId (path) | `{ "exists": true/false }` | (URL Swagger/doc) |
+
+### UserController & ChatController
+
+| Endpoint | Acción | Método HTTP/WebSocket | Sintaxis de llamada | Parámetros | Respuesta | URL Documentación |
+|----------|--------|----------------------|---------------------|------------|-----------|-------------|
+| /user.addUser | Conectar usuario | STOMP `/user.addUser` | Send a `/user.addUser` | User (nombre, email, estado) | `User { ... }` | (URL Swagger/doc) |
+| /user.disconnectUser | Desconectar usuario | STOMP `/user.disconnectUser` | Send a `/user.disconnectUser` | User (id, estado) | `User { ... }` | (URL Swagger/doc) |
+| /users | Obtener usuarios conectados | GET | `/users` | N/A | `[User, User, ...]` | (URL Swagger/doc) |
+| /chat | Procesar y enviar mensaje | STOMP `/chat` | Send a `/chat` | ChatMessage (senderId, recipientId, content) | `ChatNotification { id, senderId, recipientId, content }` | (URL Swagger/doc) |
+| /messages/{senderId}/{recipientId} | Obtener historial de chat | GET | `/messages/{senderId}/{recipientId}` | senderId, recipientId (path) | `[ChatMessage, ChatMessage, ...]` | (URL Swagger/doc) |
+
+
+![Services Documentation Evidence](assets/TF/)
+
+![Services Documentation Evidence](assets/TF/)
+
+**Nutrition AI Service**
+
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response |  URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------------|
+| /api/v1/ai/home-tip/{userId} | Obtener último tip por usuario | GET | /api/v1/ai/home-tip/{userId} | userId (path) | { "id": 0, "userId": 0, "content": "string", ... } |  (URL Swagger/doc) |
+| /internal/api/v1/ai/proactive-tips/run | Generar tips para todos los usuarios | POST | /internal/api/v1/ai/proactive-tips/run | period (query), X-Internal-Token (header) | 202 Accepted |  (URL Swagger/doc) |
+
+
+![Services Documentation Evidence](assets/TF/)
+
+![Services Documentation Evidence](assets/TF/)
+
+**Nutrionists**
+
+| Endpoint | Acción | Método HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Response | URL Documentación |
+|----------|--------|-------------|---------------------|------------|---------------------|-------|
+| /api/v1/nutritionists | Obtener todos los nutricionistas | GET | /api/v1/nutritionists | - | { "id": 0, "userId": 0, "firstName": "string", "lastName": "string", ... } | (URL Swagger/doc) |
+| /api/v1/nutritionists/by-user | Obtener nutricionista por ID de usuario | GET | /api/v1/nutritionists/by-user?userId=1 | userId (query param) | { "id": 0, "userId": 0, "firstName": "string", "lastName": "string", ... } | (URL Swagger/doc) |
+| /api/v1/nutritionists | Crear un nuevo nutricionista | POST | /api/v1/nutritionists | firstName, lastName, specialty, licenseNumber, userId | { "id": 0, "userId": 0, "firstName": "string", "lastName": "string", ... } | (URL Swagger/doc) |
+| /api/v1/nutritionists/{id} | Actualizar nutricionista | PUT | /api/v1/nutritionists/{id} | id (path), firstName, lastName, specialty, licenseNumber | { "id": 0, "userId": 0, "firstName": "string", "lastName": "string", ... } | (URL Swagger/doc) |
+| /api/v1/nutritionist-patients | Crear relación nutricionista-paciente | POST | /api/v1/nutritionist-patients | nutritionistId, patientId | { "id": 0, "nutritionistId": 0, "patientId": 0, "status": "PENDING", ... } | (URL Swagger/doc) |
+| /api/v1/nutritionist-patients/{id}/approve | Aprobar relación nutricionista-paciente | PUT | /api/v1/nutritionist-patients/{id}/approve | id (path) | { "id": 0, "nutritionistId": 0, "patientId": 0, "status": "APPROVED", ... } | (URL Swagger/doc) |
+| /api/v1/nutritionist-patients/nutritionist/{id} | Obtener pacientes de un nutricionista | GET | /api/v1/nutritionist-patients/nutritionist/{id} | id (path - nutritionistId) | [{ "id": 0, "nutritionistId": 0, "patientId": 0, "status": "string" }] | (URL Swagger/doc) |
+| /api/v1/nutritionist-patients/patient/{id} | Obtener nutricionistas de un paciente | GET | /api/v1/nutritionist-patients/patient/{id} | id (path - patientId) | [{ "id": 0, "nutritionistId": 0, "patientId": 0, "status": "string" }] | (URL Swagger/doc) |
+
+
+![Services Documentation Evidence](assets/TF/)
+
+![Services Documentation Evidence](assets/TF/)
 
 #### 6.2.3.8. Software Deployment Evidence for Sprint Review
 
@@ -7297,6 +7373,36 @@ La arquitectura resultante separa construcción de imágenes, almacenamiento de 
 #### 6.2.3.9. Team Collaboration Insights during Sprint
 
 En esta sección se analizan las evidencias de colaboración y coordinación del equipo durante el desarrollo del Sprint 3, considerando la participación de los integrantes en las actividades de implementación y control de versiones del proyecto. Para ello, se presentan métricas, capturas y analíticos obtenidos de GitHub, los cuales permiten visualizar la distribución del trabajo, el nivel de contribución de cada miembro y la interacción mantenida en el desarrollo de la aplicación web, la aplicacion nativa mobile, los servicios Backend implementados durante el sprint y la integracion con el servicio IoT.
+
+- Web Application:
+<div align="center">
+  <img src="assets/TB2/frontend_sprint_2.png" alt="GCP Load Balancer" width="75%">  
+</div>
+
+
+- Application Web Services:
+<div align="center">
+  <img src="assets/TF/backend_sprint_3-1.png" alt="GCP Load Balancer" width="75%">  
+</div>
+
+<br>
+
+<div align="center">
+  <img src="assets/TF/backend_sprint3-2.png" alt="GCP Load Balancer" width="75%">  
+</div>
+
+<br>
+
+<div align="center">
+  <img src="assets/TF/backend_sprint_3-3.png" alt="GCP Load Balancer" width="75%">  
+</div>
+
+
+
+- Mobile Application:
+<div align="center">
+  <img src="assets/TB2/mobile_sprint_2.png" alt="GCP Load Balancer" width="75%">  
+</div>
 
 
 ### 6.3. Validation Interviews
