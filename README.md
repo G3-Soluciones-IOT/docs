@@ -353,6 +353,16 @@ Para la elaboración de la entrega AV2 (Sprint Review – Semana 12) de este inf
       - [6.2.2.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
       - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
       - [6.2.2.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
+    - [6.2.3. Sprint 3](#622-sprint-3)
+      - [6.2.3.1. Sprint Planning 3](#6231-sprint-planning-3)
+      - [6.2.3.2. Aspect Leaders and Collaborators](#6232-aspect-leaders-and-collaborators)
+      - [6.2.3.3. Sprint Backlog 2](#6233-sprint-backlog-3)
+      - [6.2.3.4. Development Evidence for Sprint Review](#6234-development-evidence-for-sprint-review)
+      - [6.2.3.5. Testing Suite Evidence for Sprint Review](#6235-testing-suite-evidence-for-sprint-review)
+      - [6.2.3.6. Execution Evidence for Sprint Review](#6226-execution-evidence-for-sprint-review)
+      - [6.2.3.7. Services Documentation Evidence for Sprint Review](#6237-services-documentation-evidence-for-sprint-review)
+      - [6.2.3.8. Software Deployment Evidence for Sprint Review](#6238-software-deployment-evidence-for-sprint-review)
+      - [6.2.3.9. Team Collaboration Insights during Sprint](#6239-team-collaboration-insights-during-sprint)
   - [6.3. Validation Interviews](#63-valdiation-interviews)
     - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
     - [6.3.2. Registro de Entrevistas ](#632-registro-de-entrevistas)
@@ -5896,6 +5906,1399 @@ En esta sección se analizan las evidencias de colaboración y coordinación del
   <img src="assets/TB2/mobile_sprint_2.png" alt="GCP Load Balancer" width="75%">  
 </div>
 
+
+#### 6.2.3. Sprint 3
+
+#### 6.2.3.1. Sprint Planning 3
+
+En este Sprint Planning, el equipo definió los objetivos, alcance y actividades correspondientes al Sprint 3, priorizando las historias de usuario relacionadas con el fin del desarrollo del Frontend, tanto web como mobile y la integracion con el backend y el servicio IoT. De esta forma culminamos el desarrollo de forma exitosa y coherente con lo establecido
+
+| **Sprint #**                       | Sprint 3                       |
+|------------------------------------|--------------------------------|
+| **Sprint Planning Background**     |                                |
+| Date                               | 2026-07-03                     |
+| Time                               | 23:00 PM                       |
+| Location                           | Servidor del equipo en Discord |
+| Prepared By                        | Galvez Chambi, Jhon            |
+| Attendees (to planning meeting)    | Bueno Perales, Mathias Eduardo / Geronimo Quispe, Pablo Antonio / Guzmán Chávez, Ramiro Alexander / Luquillas Asto, Omar / Paredes Santos, Fabrizio Alberto / Sandoval Paiva,Valentino |
+| Sprint 2 Review Summary            | Revisamos nuestras metas de negocio (business goals), validamos la duración del Sprint (4 semanas), evaluamos los riesgos y dimos feedback entre los miembros. Se aclararon las historias seleccionadas, y se discutieron posibles bloqueos o dependencias técnicas.     |
+| Sprint 2 Retrospective Summary     | **Start**: Mejorar la comunicación interna. <br>Planificar las tareas colectivas con anticipación. <br> **Stop**: Dejar de esperar el último momento para comenzar tareas. <br> **Continue**: Hacer preguntas al Product Owner. <br> Realizar reuniones cortas y frecuentes para alinear avances.     |
+| **Sprint Goal & User Stories**     |                                |
+| Sprint 3 Goal                      | Nuestro enfoque es culminar el desarrollo total de las aplicaciones y hacer una conexion correcta con el backend y el servicio IoT. Creemos que esto brindará a los usuarios y stakeholders un producto de calidad que cumple con lo establecido en nuestra meta. Esto se confirmará cuando los usuarios puedan navegar correctamente por las vistas principales de la aplicación, interactuar con las funcionalidades esenciales implementadas y exista una comunicación funcional entre el Frontend y los servicios. |
+| Sprint 3 Velocity                  | 120                             |
+| Sum of Story Points                | 120                             |
+
+#### 6.2.3.2. Aspect Leaders and Collaborators
+
+En esta sección se definen los líderes y colaboradores asignados a cada aspecto considerado dentro del alcance del Sprint. Esta organización permite distribuir responsabilidades de manera clara entre los miembros del equipo, facilitando la coordinación, comunicación y ejecución de las actividades relacionadas con el desarrollo del Frontend Web, Frontend Mobile, Backend y IoT Service.
+
+| Team Member                           | Github Username       | Frontend Web    | Frontend Mobile   | Backend    | IoT Service |
+|---------------------------------------|-----------------------|-----------------|-------------|------------|---------------|
+| Bueno Perales, Mathias Eduardo        | MathiasBueno          | (C)             | (C)         | (C)        |(C)        |
+| Galvez Chambi, Jhon Alexander         | Chaomeum              | (C)             | (C)         | (L)        |(C)        |
+| Geronimo Quispe, Pablo Antonio        | Phatogram             | (C)             | (C)         | (C)        |(L)        |
+| Guzmán Chávez, Ramiro Alexander       | RamiroGuzmanCh        | (C)             | (L)         | (C)        |(C)        |
+| Luquillas Asto, Omar                  | OmarLLA               | (C)             | (C)         | (C)        |(C)        |
+| Paredes Santos, Fabrizio Alberto      | psfa29                | (C)             | (C)         | (L)        |(C)        |
+| Sandoval Paiva, Valentino             | ValentinoSandovalP    | (L)             | (C)         | (C)        |(C)        |
+
+
+#### 6.2.3.3. Sprint Backlog 3
+
+En esta sección se presenta el Sprint Backlog correspondiente al Sprint 3, el cual contiene las historias de usuario seleccionadas y las tareas definidas por el equipo para alcanzar el Sprint Goal establecido. Asimismo, se incluye el Board de trabajo utilizado para la gestión y seguimiento de las actividades del Sprint, permitiendo visualizar el estado de avance de cada tarea y la distribución del trabajo entre los integrantes del equipo durante el desarrollo de la aplicacion web, mobile, backend e IoT service.
+
+![Sprint Backlog 3](assets/TB2/trello_board.png)
+
+Enlace público del Board en Trello: [https://trello.com/b/4FndhzUq/product-backlog-jameofit-iot](https://trello.com/b/4FndhzUq/product-backlog-jameofit-iot)
+
+<table>
+  <tr>
+    <td colspan="1"><strong>Sprint #</strong></td>
+    <td colspan="7"><strong>Sprint 3</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>User Story</strong></td>
+    <td colspan="6"><strong>Work-Item / Task</strong></td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Id</strong></td>
+    <td colspan="1"><strong>Title</strong></td>
+    <td colspan="1"><strong>Id</strong></td>
+    <td colspan="1"><strong>Title</strong></td>
+    <td colspan="1"><strong>Description</strong></td>
+    <td colspan="1"><strong>Estimation (Hours)</strong></td>
+    <td colspan="1"><strong>Assigned To</strong></td>
+    <td colspan="1"><strong>Status (To-do / In-Process / To-Review / Done)</strong></td>
+  </tr>
+  <tr>
+    <td rowspan="4">US-41</td>
+    <td rowspan="4">Hidratación IoT</td>
+    <td>T-83</td>
+    <td>Diseñar UI de hidratación</td>
+    <td>Crear widget en dashboard para mostrar consumo de agua sincronizado con IoT</td>
+    <td>3</td>
+    <td>Valentino Sandoval Paiva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-84</td>
+    <td>Implementar servicio de sincronización IoT</td>
+    <td>Desarrollar servicio que recibe datos del dispositivo IoT de hidratación</td>
+    <td>5</td>
+    <td>Pablo Antonio Geronimo Quispe</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-85</td>
+    <td>Conectar UI con servicio IoT</td>
+    <td>Integrar frontend para mostrar datos en tiempo real o por intervalos</td>
+    <td>3</td>
+    <td>Valentino Sandoval Paiva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-86</td>
+    <td>Pruebas de integración y alertas</td>
+    <td>Probar recepción de datos y lógica de alertas por bajo consumo</td>
+    <td>2</td>
+    <td>Pablo Antonio Geronimo Quispe</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="3">US-43</td>
+    <td rowspan="3">IA Recomendaciones</td>
+    <td>T-87</td>
+    <td>Crear interfaz de recomendaciones IA</td>
+    <td>Diseñar vista donde se muestran sugerencias personalizadas</td>
+    <td>3</td>
+    <td>Mathias Eduardo Bueno Perales</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-88</td>
+    <td>Implementar lógica de consumo de API IA</td>
+    <td>Desarrollar función que envía datos al backend y recibe recomendaciones</td>
+    <td>5</td>
+    <td>Jhon Alexander Galvez Chambi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-89</td>
+    <td>Mostrar recomendaciones y permitir feedback</td>
+    <td>Mostrar sugerencias y permitir "Me gusta" o "No me gusta"</td>
+    <td>2</td>
+    <td>Mathias Eduardo Bueno Perales</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="3">US-44</td>
+    <td rowspan="3">Coach Virtual</td>
+    <td>T-90</td>
+    <td>Diseñar interfaz de chat/coach</td>
+    <td>Crear vista similar a chat para interactuar con coach virtual</td>
+    <td>5</td>
+    <td>Valentino Sandoval Paiva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-91</td>
+    <td>Implementar conexión con API del coach</td>
+    <td>Desarrollar servicio que envía mensajes al backend y recibe respuestas</td>
+    <td>5</td>
+    <td>Fabrizio Alberto Paredes Santos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-92</td>
+    <td>Gestionar respuestas y flujo de conversación</td>
+    <td>Implementar lógica para manejar estado de la conversación</td>
+    <td>3</td>
+    <td>Valentino Sandoval Paiva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US-45</td>
+    <td rowspan="2">Entrenamiento IA</td>
+    <td>T-93</td>
+    <td>Diseñar vista de entrenamiento para nutriólogo</td>
+    <td>Crear interfaz donde nutriólogo pueda subir datos para entrenar modelo</td>
+    <td>3</td>
+    <td>Fabrizio Alberto Paredes Santos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-94</td>
+    <td>Implementar lógica de entrenamiento</td>
+    <td>Desarrollar función que envía datos al backend para reentrenamiento</td>
+    <td>5</td>
+    <td>Jhon Alexander Galvez Chambi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US-46</td>
+    <td rowspan="2">Límite IA</td>
+    <td>T-95</td>
+    <td>Configurar límite de consultas</td>
+    <td>Implementar en frontend contador de consultas y lógica de límite</td>
+    <td>3</td>
+    <td>Omar Luquillas Asto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-96</td>
+    <td>Notificar al usuario al alcanzar el límite</td>
+    <td>Mostrar mensaje claro cuando se alcance el límite de consultas</td>
+    <td>2</td>
+    <td>Omar Luquillas Asto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="3">US-35</td>
+    <td rowspan="3">Suscripciones</td>
+    <td>T-97</td>
+    <td>Diseñar UI de configuración de suscripciones</td>
+    <td>Crear vista donde nutriólogo crea y gestiona planes</td>
+    <td>3</td>
+    <td>Mathias Eduardo Bueno Perales</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-98</td>
+    <td>Implementar CRUD de planes de suscripción</td>
+    <td>Desarrollar frontend para crear, leer, actualizar y eliminar planes</td>
+    <td>5</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-99</td>
+    <td>Conectar con API de pagos (Mock)</td>
+    <td>Simular integración con gateway de pagos para gestionar suscripciones</td>
+    <td>3</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US-36</td>
+    <td rowspan="2">Suscriptores</td>
+    <td>T-100</td>
+    <td>Diseñar vista de lista de suscriptores</td>
+    <td>Crear tabla o lista para visualizar suscriptores activos</td>
+    <td>3</td>
+    <td>Jhon Alexander Galvez Chambi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-101</td>
+    <td>Implementar filtros y búsqueda de suscriptores</td>
+    <td>Agregar funcionalidad para buscar y filtrar por estado</td>
+    <td>3</td>
+    <td>Jhon Alexander Galvez Chambi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US-40</td>
+    <td rowspan="2">Analytics</td>
+    <td>T-102</td>
+    <td>Diseñar dashboard de analíticas</td>
+    <td>Crear vista con gráficos y métricas clave para nutriólogo</td>
+    <td>5</td>
+    <td>Fabrizio Alberto Paredes Santos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-103</td>
+    <td>Conectar con API de analytics</td>
+    <td>Obtener y procesar datos necesarios para los gráficos</td>
+    <td>5</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US-29</td>
+    <td rowspan="2">Registro Nutricionista</td>
+    <td>T-104</td>
+    <td>Implementar UI de registro para nutriólogo</td>
+    <td>Adaptar flujo de registro actual para incluir datos profesionales</td>
+    <td>3</td>
+    <td>Omar Luquillas Asto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-105</td>
+    <td>Conectar con API de registro de nutriólogo</td>
+    <td>Extender endpoint de registro para manejar rol de "nutricionista"</td>
+    <td>3</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US-30</td>
+    <td rowspan="2">Perfil Profesional</td>
+    <td>T-106</td>
+    <td>Diseñar UI de perfil para nutriólogo</td>
+    <td>Crear vista de edición de perfil específica para profesionales</td>
+    <td>3</td>
+    <td>Mathias Eduardo Bueno Perales</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-107</td>
+    <td>Implementar guardado de datos profesionales</td>
+    <td>Conectar UI con backend para actualizar perfil</td>
+    <td>3</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US-37</td>
+    <td rowspan="2">Notificaciones Profesionales</td>
+    <td>T-108</td>
+    <td>Implementar centro de notificaciones</td>
+    <td>Crear vista unificada para que nutriólogo vea todas sus notificaciones</td>
+    <td>3</td>
+    <td>Valentino Sandoval Paiva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-109</td>
+    <td>Configurar tipos de notificación</td>
+    <td>Definir y gestionar diferentes tipos (nueva consulta, meta de paciente)</td>
+    <td>3</td>
+    <td>Valentino Sandoval Paiva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US-31</td>
+    <td rowspan="2">Publicación</td>
+    <td>T-110</td>
+    <td>Diseñar UI de creación de contenido</td>
+    <td>Crear editor para que nutriólogo publique artículos o consejos</td>
+    <td>5</td>
+    <td>Pablo Antonio Geronimo Quispe</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-111</td>
+    <td>Implementar envío de contenido a API</td>
+    <td>Desarrollar función para guardar contenido en backend</td>
+    <td>3</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US-32</td>
+    <td rowspan="2">Gestión Contenido</td>
+    <td>T-112</td>
+    <td>Implementar UI de categorías</td>
+    <td>Crear interfaz para que nutriólogo cree y gestione categorías</td>
+    <td>3</td>
+    <td>Fabrizio Alberto Paredes Santos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-113</td>
+    <td>Conectar categorías con el contenido</td>
+    <td>Asegurar que contenido se pueda etiquetar y filtrar por categoría</td>
+    <td>2</td>
+    <td>Fabrizio Alberto Paredes Santos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US-39</td>
+    <td rowspan="2">Biblioteca</td>
+    <td>T-114</td>
+    <td>Diseñar UI de biblioteca de recursos</td>
+    <td>Crear vista para que nutriólogo gestione recursos (PDFs, videos)</td>
+    <td>3</td>
+    <td>Mathias Eduardo Bueno Perales</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-115</td>
+    <td>Implementar subida y organización de recursos</td>
+    <td>Desarrollar lógica para subir archivos y organizarlos en biblioteca</td>
+    <td>5</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US-13</td>
+    <td rowspan="2">Sugerencias</td>
+    <td>T-116</td>
+    <td>Implementar envío de recomendaciones</td>
+    <td>Crear funcionalidad para que nutriólogo envíe mensajes a pacientes</td>
+    <td>3</td>
+    <td>Pablo Antonio Geronimo Quispe</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-117</td>
+    <td>Mostrar sugerencias al usuario</td>
+    <td>Asegurar que sugerencias lleguen al usuario en su vista correspondiente</td>
+    <td>3</td>
+    <td>Pablo Antonio Geronimo Quispe</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US-17</td>
+    <td rowspan="2">Soporte</td>
+    <td>T-118</td>
+    <td>Diseñar UI de solicitud de soporte</td>
+    <td>Crear formulario para que usuarios envíen consultas</td>
+    <td>2</td>
+    <td>Omar Luquillas Asto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-119</td>
+    <td>Implementar envío y seguimiento de tickets</td>
+    <td>Desarrollar lógica para crear y dar seguimiento a tickets de soporte</td>
+    <td>5</td>
+    <td>Ramiro Alexander Guzmán Chávez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US-07</td>
+    <td rowspan="2">Recordatorios</td>
+    <td>T-120</td>
+    <td>Implementar lógica de recordatorios</td>
+    <td>Configurar servicio de notificaciones push o correo para hábitos</td>
+    <td>5</td>
+    <td>Jhon Alexander Galvez Chambi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-121</td>
+    <td>Diseñar UI de configuración de recordatorios</td>
+    <td>Crear vista para que usuario active/desactive recordatorios</td>
+    <td>3</td>
+    <td>Valentino Sandoval Paiva</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US-11</td>
+    <td rowspan="2">Alertas</td>
+    <td>T-122</td>
+    <td>Implementar lógica de alertas de metas</td>
+    <td>Crear servicio que monitorea metas y genera alertas</td>
+    <td>5</td>
+    <td>Jhon Alexander Galvez Chambi</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T-123</td>
+    <td>Mostrar alertas en la UI</td>
+    <td>Asegurar que alertas se muestren en dashboard del usuario</td>
+    <td>3</td>
+    <td>Jhon Alexander Galvez Chambi</td>
+    <td>Done</td>
+  </tr>
+</table>
+
+#### 6.2.3.4. Development Evidence for Sprint Review
+
+En esta sección se presentan las evidencias de desarrollo correspondientes al Sprint 3, mostrando los principales avances realizados en la implementación de los productos requeridos, la aplicación web, mobile y los servicios. Asimismo, se incluyen los commits registrados en los repositorios del proyecto como evidencia del trabajo realizado y del progreso alcanzado por el equipo durante la iteración.
+
+**Web Application:** [https://github.com/G3-Soluciones-IOT/frontend](https://github.com/G3-Soluciones-IOT/frontend)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| frontend | develop | 8820043 | feat(useTips): implement custom hook for fetching and managing tips | - | 18/06/2026 |
+| frontend | develop | 38f74bb | "feat(dashboard): integrate dashboard data from db.json" | - | 19/06/2026 |
+
+**Config Service:** [https://github.com/G3-Soluciones-IOT/config-service](https://github.com/G3-Soluciones-IOT/config-service)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| config-service | main | cb5d025 | feat(cd): add continuous deployment workflow for GCP Artifact Registry | - | 20/06/2026 |
+| config-service | main | 84e25a2 | refactor(test): enhance identity verification step and clarify repository access | - | 20/06/2026 |
+| config-service | main | 623eb17 | feat(gcp): add workflow for Google Cloud authentication testing | - | 20/06/2026 |
+| config-service | main | e794bcc | feat(ci): add Docker build workflow for continuous integration | - | 20/06/2026 |
+| config-service | main | 86ca6d6 | refactor(gateway): update gateway configuration structure and improve route definitions | - | 20/06/2026 |
+| config-service | main | 2c0b97f | feat(routes): add RewritePath filters for service routes in gateway configuration | - | 20/06/2026 |
+| config-service | main | b52cedf | feat(config): add base URLs for profiles and recipes services in tracking configuration | - | 20/06/2026 |
+| config-service | main | d173dde | fix(config): correct indentation in MongoDB URI configuration | - | 20/06/2026 |
+| config-service | main | 7de4796 | fix(config): update MongoDB configuration to use URI format | - | 20/06/2026 |
+| config-service | main | a235103 | refactor(routes): rename chat and mealplan service routes to communication and meal-plans services | - | 19/06/2026 |
+| config-service | main | 95f2704 | fix(docker): update Dockerfile to copy JAR files directly and modify .dockerignore | - | 19/06/2026 |
+| config-service | main | 6171b88 | feat(config): add configuration files for communication and meal plans services | - | 19/06/2026 |
+| config-service | main | ad20d93 | chore(maven): update Maven wrapper to version 3.9.16 and add .gitattributes for line endings | - | 19/06/2026 |
+| config-service | main | b9cb180 | develop to main | - | 07/06/2026 |
+| config-service | main | 1431bfd | fix(pom.xml): correct indentation in POM file for schemaLocation | - | 07/06/2026 |
+| config-service | main | e56b31c | feat(iam-service): update JWT key paths and expiration configuration to use environment variables | - | 07/06/2026 |
+| config-service | main | 1341185 | fix(eureka-service): set prefer-ip-address to false | - | 07/06/2026 |
+| config-service | main | 4d50b6a | feat(config-service): add config-service as standalone repository | - | 07/06/2026 |
+
+**Eureka Service:** [https://github.com/G3-Soluciones-IOT/eureka-service](https://github.com/G3-Soluciones-IOT/eureka-service)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| eureka-service | main | c432902 | feat(eureka-service): add eureka-service as standalone repository | - | 07/06/2026 |
+
+**Gateway Service:** [https://github.com/G3-Soluciones-IOT/gateway-service](https://github.com/G3-Soluciones-IOT/gateway-service)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| gateway-service | main | c3d3e13 | feat(ci): add Docker build workflow for continuous integration | - | 20/06/2026 |
+| gateway-service | main | 1ce40d0 | ci: update .gitattributes for consistent LF line endings and ensure Maven wrapper files are shell-safe | - | 19/06/2026 |
+| gateway-service | main | 0e6dd71 | ci(wrapper): escape url and enforce LF line endings for GitHub CI | - | 19/06/2026 |
+| gateway-service | main | b06049f | chore: update Maven Wrapper to 3.9.16 | - | 19/06/2026 |
+| gateway-service | main | f28b436 | feat(gateway-service): add gateway-service as standalone repository | - | 07/06/2026 |
+
+**IAM Service:** [https://github.com/G3-Soluciones-IOT/iam-service](https://github.com/G3-Soluciones-IOT/iam-service)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| iam-service | main | 7f8abfd | feat(ci): add Docker build workflow for continuous integration | - | 20/06/2026 |
+| iam-service | main | 87fba50 | chore: streamline CI configuration by using shared workflow for Java CI | - | 19/06/2026 |
+| iam-service | main | 8450c8f | refactor: simplify DaoAuthenticationProvider initialization | - | 19/06/2026 |
+| iam-service | main | fa94eaa | chore: update pom.xml for Spring Boot 4.0.7, dependency management, and build plugins | - | 19/06/2026 |
+| iam-service | main | 3191cb0 | chore: update Maven wrapper to version 3.9.16 and add .gitattributes for consistent line endings | - | 19/06/2026 |
+| iam-service | main | 8736f6c | feat(iam): adding passwordEncoder and Jwks | - | 08/06/2026 |
+| iam-service | main | c4705d1 | feat(iam-service): add iam-service as standalone repository | - | 07/06/2026 |
+
+**Profiles Service:** [https://github.com/G3-Soluciones-IOT/profiles-service](https://github.com/G3-Soluciones-IOT/profiles-service)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| profiles-service | main | 6e9df85 | feat(ci): add Docker build workflow for continuous integration | - | 20/06/2026 |
+| profiles-service | main | 6abd341 | chore: add load-balanced RestClient configuration and update service constructors | - | 20/06/2026 |
+| profiles-service | main | f13b2f6 | chore: add pluralization utility and implement custom naming strategy for JPA | - | 20/06/2026 |
+| profiles-service | main | 633507d | chore: refactor package structure for profiles-service | - | 20/06/2026 |
+| profiles-service | main | 8c94cb1 | chore: update CI configuration and dependencies for profiles-service | - | 20/06/2026 |
+| profiles-service | main | eeae133 | chore: update server port to 8086 in application.properties and Dockerfile | - | 20/06/2026 |
+| profiles-service | main | 8a896f8 | chore: update Maven wrapper to version 3.9.16 and add .gitattributes | - | 20/06/2026 |
+| profiles-service | main | 946f752 | feat: profiles-service added | - | 17/06/2026 |
+
+**Goals Service:** [https://github.com/G3-Soluciones-IOT/goals-service](https://github.com/G3-Soluciones-IOT/goals-service)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| goals-service | main | 0791f21 | feat(ci): add Docker build workflow for continuous integration | - | 20/06/2026 |
+| goals-service | main | bce4a0c | chore: update groupId and add pluralization dependency in pom.xml | - | 20/06/2026 |
+| goals-service | main | a2e9cf7 | chore: refactor package structure for goals service | - | 20/06/2026 |
+| goals-service | main | a76c966 | chore: update dependencies and plugins in pom.xml for Spring Boot 4 compatibility | - | 20/06/2026 |
+| goals-service | main | 10503cf | chore: refactor CI configuration to use shared workflow for Java CI | - | 20/06/2026 |
+| goals-service | main | edcd711 | chore: update Maven wrapper to version 3.9.16 and add .gitattributes | - | 19/06/2026 |
+| goals-service | main | 975a8af | feat: goals service added | - | 17/06/2026 |
+
+**Meal Plans Service:** [https://github.com/G3-Soluciones-IOT/meal-plans-service](https://github.com/G3-Soluciones-IOT/meal-plans-service)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| meal-plans-service | main | 13780cd | feat(ci): add Docker build workflow for continuous integration | - | 20/06/2026 |
+| meal-plans-service | main | 421020a | feat: add load-balanced RestClient configuration for external services | - | 20/06/2026 |
+| meal-plans-service | main | 8e26ac9 | feat: add pluralization strategy for table naming in JPA | - | 20/06/2026 |
+| meal-plans-service | main | da8a322 | chore: remove unused imports and update groupId in pom.xml | - | 20/06/2026 |
+| meal-plans-service | main | 12228de | chore: refactor package structure for meal plans service | - | 20/06/2026 |
+| meal-plans-service | main | 17bfd7c | feat: update CI configuration and dependencies for meal-plans-service | - | 20/06/2026 |
+| meal-plans-service | main | f3d8fce | feat: add Maven Wrapper for project setup | - | 20/06/2026 |
+| meal-plans-service | main | 1fc4c8f | feat: meal-plans-service added | - | 17/06/2026 |
+
+**Recipes Service:** [https://github.com/G3-Soluciones-IOT/recipes-service](https://github.com/G3-Soluciones-IOT/recipes-service)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| recipes-service | main | 39bda8e | feat(ci): add Docker build workflow for continuous integration | - | 20/06/2026 |
+| recipes-service | main | 713b15a | chore: update ExternalProfileAndTrackingService to use load-balanced RestClient | - | 20/06/2026 |
+| recipes-service | main | b053044 | chore: refactor package structure for recipes service | - | 20/06/2026 |
+| recipes-service | main | a79ea31 | chore: update CI configuration and dependencies in pom.xml for improved build process | - | 20/06/2026 |
+| recipes-service | main | 3c961cb | chore: update server port to 8087 in application.properties and Dockerfile | - | 20/06/2026 |
+| recipes-service | main | 7209a8f | chore: update Maven wrapper to version 3.9.16 and add .gitattributes | - | 20/06/2026 |
+| recipes-service | main | 6ee45b4 | feat: recipes-service added | - | 17/06/2026 |
+| recipes-service | main | 39a3afe | Initial commit | - | 17/06/2026 |
+
+**Tracking Service:** [https://github.com/G3-Soluciones-IOT/tracking-service](https://github.com/G3-Soluciones-IOT/tracking-service)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| tracking-service | main | 18fd47c | feat(ci): add Docker build workflow for continuous integration | - | 20/06/2026 |
+| tracking-service | main | 6e75c5b | feat: implement load-balanced RestClient configuration for external services | - | 20/06/2026 |
+| tracking-service | main | 399f17a | feat: add pluralization strategy for table naming in JPA | - | 20/06/2026 |
+| tracking-service | main | d295741 | fix: change main application location for tracking service | - | 20/06/2026 |
+| tracking-service | main | f05d883 | chore: refactor package structure for tracking service | - | 20/06/2026 |
+| tracking-service | main | b0423ee | chore: update CI configuration and dependencies for Spring Boot 4.0.7 | - | 20/06/2026 |
+| tracking-service | main | f2e27ad | chore: update server port to 8089 in application.properties and Dockerfile | - | 20/06/2026 |
+| tracking-service | main | 50c52f0 | chore: update Maven wrapper to version 3.9.16 and add .gitattributes | - | 20/06/2026 |
+| tracking-service | main | f50e79f | feat: tracking service added | - | 17/06/2026 |
+
+**Communication Service:** [https://github.com/G3-Soluciones-IOT/communication-service](https://github.com/G3-Soluciones-IOT/communication-service)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------|------------|----------------|---------------------|--------------------------|--------------------------|
+| communication-service | main | 81b298f | feat(ci): add Docker build workflow for continuous integration | - | 20/06/2026 |
+| communication-service | main | fb8f71f | feat(ci): add CI configuration for Java workflow | - | 20/06/2026 |
+| communication-service | main | 8fa2d13 | feat(communication-service): add communication-service as standalone repository | - | 20/06/2026 |
+
+#### 6.2.3.5. Testing Suite Evidence for Sprint Review
+
+Durante este sprint se completó la suite de pruebas automatizadas utilizando el enfoque Behavior-Driven Development (BDD) y el lenguaje Gherkin para la definición de escenarios funcionales. Los archivos .feature elaborados corresponden a todas las historias de usuario priorizadas dentro del Sprint Backlog 3, permitiendo validar el comportamiento esperado de las funcionalidades desarrolladas durante esta iteración final.
+
+Las pruebas fueron organizadas bajo la estructura Given–When–Then, considerando escenarios relacionados con la integración del servicio IoT (hidratación y peso), las recomendaciones basadas en IA, el coach virtual, la gestión de suscripciones y analytics, el registro y perfil de nutricionistas, la publicación y gestión de contenido educativo, el sistema de soporte, recordatorios y alertas de metas. Asimismo, se completó la configuración del entorno de testing y se actualizó el repositorio destinado al versionamiento de los artefactos de prueba.
+
+Esta suite de pruebas permite mantener la trazabilidad entre las historias de usuario y sus criterios de aceptación, facilitar futuras automatizaciones de pruebas y proporcionar evidencia clara y verificable del avance funcional alcanzado durante el Sprint 3, asegurando la calidad del producto final entregado.
+
+![Testing Suite Evidence](assets/TP/testing_suite.png)
+
+**Testing:** [https://github.com/G3-Soluciones-IOT/testing](https://github.com/G3-Soluciones-IOT/testing)
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Committed on (Date)** |
+|----------------|------------|----------------|----------------------|---------------------------|--------------------------|
+| Testing | main | d7a7a65 | test(bdd): implement shared cucumber world and step definitions | - | 15/05/2026 |
+| Testing | main | 3c89b91 | test(bdd): add iot ai and landing page features | - | 15/05/2026 |
+| Testing | main | 05ec68e | test(bdd): add tracking professional and subscription features | - | 15/05/2026 |
+| Testing | main | 101a7c5 | test(bdd): add account profile and plan features | - | 15/05/2026 |
+
+#### 6.2.3.6. Execution Evidence for Sprint Review
+
+En esta sección se presentan las evidencias de ejecución correspondientes al Sprint 3, mostrando las  funcionalidades y vistas finales para la aplicación web y mobile. Asimismo, se incluyen capturas de pantalla y material audiovisual que evidencian la navegación, interacción y funcionamiento general de los componentes desarrollados durante el sprint, permitiendo validar el cumplimiento de los objetivos establecidos durante el proyecto.
+
+**WEB APPLICATION - VISTA NUTRICIONISTA**
+
+VISTA DE REGISTRO:
+
+![Execution Evidence](assets/TF/FRON1.png)
+
+![Execution Evidence](assets/TF/FRON2.png)
+
+VISTA DE INICIO DE SESION: 
+
+![Execution Evidence](assets/TF/FRON3.png)
+
+CUENTA NUTRICIONISTA
+
+![Execution Evidence](assets/TF/FRON4.jpeg)
+
+CONFIGURACIÓN DE CUENTA
+
+![Execution Evidence](assets/TF/FRON5.jpeg)
+
+DASHBOARD
+
+![Execution Evidence](assets/TF/FRON6.jpeg)
+
+![Execution Evidence](assets/TF/FRON7.jpeg)
+
+INFORMACION DE PACIENTES
+
+![Execution Evidence](assets/TF/FRON8.jpeg)
+
+![Execution Evidence](assets/TF/FRON9.jpeg)
+
+![Execution Evidence](assets/TF/FRON10.jpeg)
+
+![Execution Evidence](assets/TF/FRON11.jpeg)
+
+![Execution Evidence](assets/TF/FRON12.jpeg)
+
+![Execution Evidence](assets/TF/FRON13.jpeg)
+
+![Execution Evidence](assets/TF/FRON14.jpeg)
+
+![Execution Evidence](assets/TF/FRON15.jpeg)
+
+VISTA DE SOLICITUDES PENDIENTES
+
+![Execution Evidence](assets/TF/FRON16.jpeg)
+
+VISTA DE COMUNICACIONES
+
+![Execution Evidence](assets/TF/FRON17.jpeg)
+
+![Execution Evidence](assets/TF/FRON18.jpeg)
+
+VISTA DE RECETAS
+
+![Execution Evidence](assets/TF/FRON19.jpeg)
+
+![Execution Evidence](assets/TF/FRON20.jpeg)
+
+![Execution Evidence](assets/TF/FRON21.jpeg)
+
+VISTA DE PLANES
+
+![Execution Evidence](assets/TF/FRON22.jpeg)
+
+![Execution Evidence](assets/TF/FRON23.jpeg)
+
+![Execution Evidence](assets/TF/FRON24.jpeg)
+
+VISTA DE ANALITICAS
+
+![Execution Evidence](assets/TF/FRON25.jpeg)
+
+
+**WEB APPLICATION - VISTA ADMIN**
+
+VISTA DE GESTIÓN
+
+![Execution Evidence](assets/TF/FRON26.jpeg)
+
+![Execution Evidence](assets/TF/FRON27.jpeg)
+
+![Execution Evidence](assets/TF/FRON28.jpeg)
+
+VISTA DE RECETAS
+
+![Execution Evidence](assets/TF/FRON29.jpeg)
+
+![Execution Evidence](assets/TF/FRON30.jpeg)
+
+VISTA DE PLANES
+
+![Execution Evidence](assets/TF/FRON31.jpeg)
+
+![Execution Evidence](assets/TF/FRON32.jpeg)
+
+VISTA DE INGREDIENTES
+
+![Execution Evidence](assets/TF/FRON33.jpeg)
+
+
+#### 6.2.3.7. Services Documentation Evidence for Sprint Review
+
+En esta sección se presentan las evidencias de documentación de los servicios web desarrollados durante el Sprint 3, incluyendo la definición y documentación de los principales endpoints implementados para el sistema. Asimismo, se muestran las especificaciones elaboradas mediante OpenAPI, las acciones soportadas por cada servicio y ejemplos de interacción con los endpoints, permitiendo evidenciar el correcto diseño y documentación de la comunicación entre el Frontend y Backend del proyecto.
+
+#### 6.2.3.8. Software Deployment Evidence for Sprint Review
+
+Durante el presente Sprint se configuró, desplegó y validó la plataforma backend de **JameoFit** sobre **Google Cloud Platform (GCP)**. El objetivo principal fue disponer de un entorno cloud funcional, seguro y reproducible para ejecutar los microservicios del sistema mediante Docker Compose, utilizando imágenes publicadas en Artifact Registry, bases de datos administradas en Cloud SQL y exposición pública controlada mediante un Load Balancer HTTPS.
+
+El despliegue se diseñó priorizando buenas prácticas de seguridad: la máquina virtual no cuenta con IP pública, el acceso administrativo se realiza mediante IAP TCP forwarding, las imágenes Docker se descargan desde Artifact Registry, las credenciales sensibles se gestionan con Secret Manager y los workflows de GitHub Actions se autentican en GCP mediante Workload Identity Federation, sin utilizar archivos JSON de Service Account.
+
+---
+
+### **1. Configuración inicial del proyecto en Google Cloud Platform**
+
+Se creó y configuró el proyecto cloud **jameofit** como entorno principal de despliegue del backend. Este proyecto centraliza los recursos de infraestructura, IAM, red, bases de datos, almacenamiento de imágenes, secretos, monitoreo y balanceo de carga.
+
+La configuración base quedó establecida de la siguiente manera:
+
+```text
+PROJECT_ID=jameofit
+PROJECT_NUMBER=809847807436
+REGION=southamerica-west1
+ZONE=southamerica-west1-a
+```
+
+La región **southamerica-west1** fue seleccionada por su cercanía geográfica con el equipo de desarrollo y por su adecuación para reducir latencia frente a regiones ubicadas en Norteamérica.
+
+Asimismo, se habilitaron las APIs necesarias para soportar el flujo de deployment y operación de la plataforma:
+
+```text
+artifactregistry.googleapis.com
+iam.googleapis.com
+iamcredentials.googleapis.com
+sts.googleapis.com
+cloudresourcemanager.googleapis.com
+serviceusage.googleapis.com
+compute.googleapis.com
+secretmanager.googleapis.com
+sqladmin.googleapis.com
+logging.googleapis.com
+monitoring.googleapis.com
+servicenetworking.googleapis.com
+```
+
+Estas APIs permiten trabajar con Artifact Registry, IAM, Workload Identity Federation, Compute Engine, Secret Manager, Cloud SQL, logging, monitoring y conectividad privada entre servicios.
+
+<div align="center">
+  <img src="assets/TB2/gcp_project_apis_enabled.png" alt="GCP APIs Enabled" width="75%">
+  <p><em>Habilitación de APIs necesarias para la plataforma backend de JameoFit en GCP</em></p>
+</div>
+
+---
+
+### **2. Creación de Artifact Registry para imágenes Docker**
+
+Se creó un repositorio Docker privado en **Google Artifact Registry**, utilizado como destino oficial de las imágenes generadas por los pipelines de GitHub Actions.
+
+La configuración del repositorio fue:
+
+```text
+Repository: jameofit-docker
+Format: Docker
+Location: southamerica-west1
+Mode: Standard Repository
+Project: jameofit
+```
+
+El repositorio fue creado mediante el siguiente comando:
+
+```bash
+gcloud artifacts repositories create jameofit-docker \
+  --repository-format=docker \
+  --location=southamerica-west1 \
+  --description="Docker images for JameoFit backend services"
+```
+
+Las imágenes publicadas siguen el siguiente formato:
+
+```text
+southamerica-west1-docker.pkg.dev/jameofit/jameofit-docker/<service-name>:<tag>
+```
+
+Durante el Sprint se publicaron imágenes para los servicios incluidos en el despliegue GCP:
+
+```text
+config-service
+eureka-service
+iam-service
+gateway-service
+goals-service
+meal-plans-service
+profiles-service
+recipes-service
+tracking-service
+```
+
+Cada imagen utiliza un tag inmutable basado en el commit corto del repositorio correspondiente:
+
+```text
+sha-<short-commit-sha>
+```
+
+Debido a que el backend fue migrado a una estructura **multirrepo**, cada servicio utiliza su propio tag SHA. Por esta razón, el despliegue no emplea un `IMAGE_TAG` global.
+
+<div align="center">
+  <img src="assets/TB2/gcp_artifact_registry_jameofit.png" alt="GCP Artifact Registry JameoFit" width="75%">
+  <p><em>Repositorio Docker jameofit-docker creado en Google Artifact Registry</em></p>
+</div>
+
+---
+
+### **3. Configuración de GitHub Actions con Workload Identity Federation**
+
+Para automatizar la publicación de imágenes Docker sin almacenar credenciales estáticas, se configuró **Workload Identity Federation** entre GitHub Actions y GCP.
+
+Se creó la Service Account:
+
+```text
+gha-artifact-writer@jameofit.iam.gserviceaccount.com
+```
+
+Esta cuenta recibió permisos de escritura únicamente sobre el repositorio `jameofit-docker` mediante el rol:
+
+```text
+roles/artifactregistry.writer
+```
+
+También se configuró un Workload Identity Pool y un Provider OIDC para GitHub Actions:
+
+```text
+Workload Identity Pool: github-pool
+Provider: github-provider
+Issuer URI: https://token.actions.githubusercontent.com
+Repository owner allowed: G3-Soluciones-IOT
+```
+
+El valor utilizado por los workflows fue:
+
+```text
+workload_identity_provider=projects/809847807436/locations/global/workloadIdentityPools/github-pool/providers/github-provider
+service_account=gha-artifact-writer@jameofit.iam.gserviceaccount.com
+```
+
+Con esta configuración, los workflows pueden autenticarse contra GCP sin utilizar archivos JSON de Service Account.
+
+<div align="center">
+  <img src="assets/TB2/github_actions_gcp_wif_auth.png" alt="GitHub Actions GCP Workload Identity Federation" width="75%">
+  <p><em>Validación de autenticación desde GitHub Actions hacia GCP mediante Workload Identity Federation</em></p>
+</div>
+
+---
+
+### **4. Automatización del build y push de imágenes Docker**
+
+El flujo de CI/CD se organizó mediante workflows reutilizables en el repositorio:
+
+```text
+G3-Soluciones-IOT/shared-workflows
+```
+
+Los workflows principales son:
+
+```text
+java-ci.yml
+docker-build.yml
+gcp-artifact-registry-push.yml
+```
+
+El flujo de deployment fue ajustado para no depender de artefactos locales ni de la carpeta `target/`. Para ello, los servicios adoptaron Dockerfiles **multi-stage**, donde cada imagen compila internamente el microservicio y genera su propio `.jar`.
+
+Patrón general aplicado:
+
+```dockerfile
+FROM eclipse-temurin:25-jdk AS build
+WORKDIR /workspace
+
+COPY .mvn .mvn
+COPY mvnw pom.xml ./
+RUN chmod +x mvnw && ./mvnw -B -ntp dependency:go-offline
+
+COPY src src
+RUN ./mvnw -B -ntp package -DskipTests
+
+FROM eclipse-temurin:25-jre
+WORKDIR /app
+
+COPY --from=build /workspace/target/*.jar /app/app.jar
+
+ENTRYPOINT ["java", "-jar", "/app/app.jar"]
+```
+
+El flujo final quedó organizado así:
+
+```text
+Pull Request hacia main:
+  - java-ci
+  - docker-build validation
+
+Push a main:
+  - java-ci
+  - docker build multi-stage
+  - push a Artifact Registry con tag sha-<short-commit-sha>
+```
+
+Ejemplo de imagen publicada:
+
+```text
+southamerica-west1-docker.pkg.dev/jameofit/jameofit-docker/config-service:sha-a8724d4
+```
+
+Esta decisión mejora la trazabilidad del release, facilita rollback y evita ambigüedad entre versiones de servicios independientes.
+
+---
+
+### **5. Configuración de red privada para el backend**
+
+Se creó una red privada dedicada para la plataforma backend de JameoFit:
+
+```text
+VPC: jameofit-vpc
+Subnet: jameofit-subnet-saw1
+Subnet range: 10.10.0.0/24
+Region: southamerica-west1
+```
+
+La VPC fue creada en modo custom para mantener control explícito sobre subredes y rangos:
+
+```bash
+gcloud compute networks create jameofit-vpc \
+  --subnet-mode=custom \
+  --description="JameoFit VPC for GCP backend platform"
+```
+
+La subred regional fue creada con:
+
+```bash
+gcloud compute networks subnets create jameofit-subnet-saw1 \
+  --network=jameofit-vpc \
+  --region=southamerica-west1 \
+  --range=10.10.0.0/24 \
+  --description="JameoFit subnet for backend VM and internal connectivity"
+```
+
+Esta red es utilizada por la VM privada, la conectividad hacia Cloud SQL, las reglas de firewall de IAP y la conexión desde el Load Balancer hacia el Gateway.
+
+<div align="center">
+  <img src="assets/TB2/gcp_vpc_subnet_jameofit.png" alt="GCP VPC and Subnet JameoFit" width="75%">
+  <p><em>VPC y subnet privadas creadas para la plataforma backend de JameoFit</em></p>
+</div>
+
+---
+
+### **6. Configuración de Cloud SQL para PostgreSQL**
+
+Para el entorno GCP se decidió utilizar **Cloud SQL for PostgreSQL** en lugar de ejecutar PostgreSQL como contenedor. De esta forma, la base de datos queda administrada por GCP y PostgreSQL en contenedor se reserva únicamente para el entorno local.
+
+La instancia creada fue:
+
+```text
+Instance: jameofit-postgres-dev
+Database engine: PostgreSQL 16
+Edition: Enterprise
+Tier: db-f1-micro
+Region: southamerica-west1
+Availability: Zonal
+Private IP: 10.20.0.3
+Public IP: disabled
+```
+
+La instancia fue creada sin IP pública y conectada a la VPC mediante Private Service Access:
+
+```text
+PSA range: jameofit-psa-range
+Range: 10.20.0.0/24
+Purpose: VPC_PEERING
+```
+
+Posteriormente, se crearon bases de datos y usuarios separados para los servicios que requieren PostgreSQL:
+
+```text
+Database: jameofit_iam          User: jameofit_iam_app
+Database: jameofit_goals        User: jameofit_goals_app
+Database: jameofit_meal_plans   User: jameofit_meal_plans_app
+Database: jameofit_profiles     User: jameofit_profiles_app
+Database: jameofit_recipes      User: jameofit_recipes_app
+Database: jameofit_tracking     User: jameofit_tracking_app
+```
+
+Este diseño evita que todos los servicios compartan una única base de datos y permite una separación más clara por contexto funcional.
+
+Ejemplo de variables generadas para un servicio:
+
+```text
+IAM_SPRING_DATASOURCE_URL=jdbc:postgresql://10.20.0.3:5432/jameofit_iam
+IAM_SPRING_DATASOURCE_USERNAME=jameofit_iam_app
+IAM_SPRING_DATASOURCE_PASSWORD=<from Secret Manager>
+```
+
+<div align="center">
+  <img src="assets/TB2/gcp_cloud_sql_postgres_private_ip.png" alt="GCP Cloud SQL PostgreSQL Private IP" width="75%">
+  <p><em>Instancia Cloud SQL PostgreSQL creada con IP privada para el backend de JameoFit</em></p>
+</div>
+
+---
+
+### **7. Gestión de secretos con Secret Manager**
+
+Las credenciales y parámetros sensibles no fueron almacenados en repositorios ni archivos versionados. En su lugar, se utilizó **Google Secret Manager** para gestionar los valores de conexión a Cloud SQL.
+
+El despliegue final utiliza secretos separados por servicio:
+
+```text
+jameofit-iam-db-url
+jameofit-iam-db-username
+jameofit-iam-db-password
+
+jameofit-goals-db-url
+jameofit-goals-db-username
+jameofit-goals-db-password
+
+jameofit-meal-plans-db-url
+jameofit-meal-plans-db-username
+jameofit-meal-plans-db-password
+
+jameofit-profiles-db-url
+jameofit-profiles-db-username
+jameofit-profiles-db-password
+
+jameofit-recipes-db-url
+jameofit-recipes-db-username
+jameofit-recipes-db-password
+
+jameofit-tracking-db-url
+jameofit-tracking-db-username
+jameofit-tracking-db-password
+```
+
+La Service Account de runtime de la VM fue:
+
+```text
+jameofit-vm-runtime@jameofit.iam.gserviceaccount.com
+```
+
+Esta cuenta recibió permisos mínimos para leer imágenes desde Artifact Registry y acceder únicamente a los secretos requeridos por el despliegue:
+
+```text
+roles/artifactregistry.reader
+roles/secretmanager.secretAccessor
+```
+
+El permiso `secretAccessor` fue asignado por secreto, evitando acceso amplio innecesario sobre Secret Manager.
+
+<div align="center">
+  <img src="assets/TB2/gcp_secret_manager_db_secrets.png" alt="GCP Secret Manager DB Secrets" width="75%">
+  <p><em>Secretos de conexión a Cloud SQL almacenados en Google Secret Manager</em></p>
+</div>
+
+---
+
+### **8. Creación de máquina virtual privada en Compute Engine**
+
+Se creó una máquina virtual en **Google Compute Engine** para ejecutar Docker Compose. La VM fue diseñada como un nodo privado, sin IP pública, siguiendo buenas prácticas de seguridad:
+
+```text
+VM: jameofit-backend-dev-vm
+Zone: southamerica-west1-a
+Network: jameofit-vpc
+Subnet: jameofit-subnet-saw1
+External IP: disabled
+Service Account: jameofit-vm-runtime@jameofit.iam.gserviceaccount.com
+Runtime: Docker + Docker Compose
+```
+
+El acceso administrativo se realiza mediante **IAP TCP forwarding**, evitando abrir SSH directamente a internet. Para ello, se creó una regla de firewall que permite SSH únicamente desde el rango de IAP:
+
+```text
+Firewall rule: allow-iap-ssh-jameofit
+Source range: 35.235.240.0/20
+Target tag: jameofit-backend
+Port: tcp:22
+```
+
+Para que la VM pueda descargar actualizaciones, instalar Docker y acceder a Artifact Registry sin IP pública, se configuró **Cloud NAT**:
+
+```text
+Cloud Router: jameofit-router
+Cloud NAT: jameofit-nat
+Network: jameofit-vpc
+Region: southamerica-west1
+NAT mode: all subnet IP ranges
+```
+
+Durante la validación inicial se identificó que una VM con aproximadamente 2 GiB de RAM no era suficiente para ejecutar nueve servicios Spring Boot simultáneamente. Por ello, se incrementó el tipo de máquina, alcanzando aproximadamente 7.8 GiB de memoria total. Tras este ajuste, Docker respondió correctamente y los contenedores pudieron mantenerse activos.
+
+<div align="center">
+  <img src="assets/TB2/gcp_compute_engine_private_vm.png" alt="GCP Compute Engine Private VM" width="75%">
+  <p><em>Máquina virtual privada creada para ejecutar Docker Compose en GCP</em></p>
+</div>
+
+<div align="center">
+  <img src="assets/TB2/gcp_cloud_nat_jameofit.png" alt="GCP Cloud NAT JameoFit" width="75%">
+  <p><em>Cloud NAT configurado para permitir salida a internet desde la VM privada</em></p>
+</div>
+
+---
+
+### **9. Preparación de Docker y Docker Compose en la VM**
+
+Con la conectividad de salida habilitada mediante Cloud NAT, se instaló Docker en la VM privada:
+
+```bash
+sudo apt-get update
+sudo apt-get install -y ca-certificates curl gnupg git
+```
+
+Posteriormente, se configuró el repositorio oficial de Docker para Debian y se instalaron los paquetes necesarios:
+
+```text
+docker-ce
+docker-ce-cli
+containerd.io
+docker-buildx-plugin
+docker-compose-plugin
+```
+
+La instalación fue validada mediante:
+
+```bash
+docker --version
+docker compose version
+docker run hello-world
+```
+
+También se configuró Docker para autenticarse contra Artifact Registry:
+
+```bash
+gcloud auth configure-docker southamerica-west1-docker.pkg.dev --quiet
+```
+
+Con esto, la VM quedó preparada para descargar imágenes desde:
+
+```text
+southamerica-west1-docker.pkg.dev/jameofit/jameofit-docker
+```
+
+---
+
+### **10. Configuración de platform-deploy para GCP**
+
+El repositorio `platform-deploy` centraliza la operación cloud de la plataforma. Contiene los archivos necesarios para levantar el entorno GCP mediante Docker Compose.
+
+La estructura preparada para GCP es:
+
+```text
+platform-deploy/
+├── docker/
+│   └── docker-compose.gcp.yml
+├── env/
+│   └── gcp.env.example
+├── scripts/
+│   ├── gcp-load-secrets.sh
+│   ├── gcp-up.sh
+│   ├── gcp-down.sh
+│   └── gcp-healthcheck.sh
+└── docs/
+    └── gcp-deployment.md
+```
+
+El archivo `docker-compose.gcp.yml` no incluye PostgreSQL ni MongoDB como contenedores. PostgreSQL se gestiona mediante Cloud SQL y `communication-service` se mantiene fuera del despliegue actual porque requiere MongoDB.
+
+El flujo operativo de despliegue es:
+
+```bash
+export CONFIG_SERVICE_IMAGE_TAG=sha-a8724d4
+export EUREKA_SERVICE_IMAGE_TAG=sha-7039454
+export IAM_SERVICE_IMAGE_TAG=sha-0805f23
+export GATEWAY_SERVICE_IMAGE_TAG=sha-e98b935
+export GOALS_SERVICE_IMAGE_TAG=sha-e4ebeb5
+export MEAL_PLANS_SERVICE_IMAGE_TAG=sha-597b29f
+export PROFILES_SERVICE_IMAGE_TAG=sha-34e5c83
+export RECIPES_SERVICE_IMAGE_TAG=sha-fcf2f93
+export TRACKING_SERVICE_IMAGE_TAG=sha-326e0c0
+
+./scripts/gcp-load-secrets.sh
+./scripts/gcp-up.sh
+./scripts/gcp-healthcheck.sh
+```
+
+El script `gcp-load-secrets.sh` carga las credenciales desde Secret Manager y genera el archivo `env/gcp.env` con permisos restringidos. Este archivo no debe versionarse.
+
+El script `gcp-up.sh` valida los tags SHA, configura Docker contra Artifact Registry, descarga las imágenes y ejecuta `docker compose up -d`.
+
+El script `gcp-healthcheck.sh` valida los endpoints principales:
+
+```bash
+curl -fsS http://localhost:8888/actuator/health
+curl -fsS http://localhost:8761/actuator/health
+curl -fsS http://localhost:8080/actuator/health
+curl -fsS http://localhost:8080/api/v1/jwks/.well-known/jwks.json
+```
+
+La validación obtenida fue:
+
+```text
+config-service: UP
+eureka-service: UP
+gateway-service: UP
+IAM JWKS vía Gateway: OK
+```
+
+<div align="center">
+  <img src="assets/TB2/platform_deploy_gcp_compose_config.png" alt="platform-deploy GCP Docker Compose" width="75%">
+  <p><em>Configuración de platform-deploy para ejecutar la plataforma en GCP</em></p>
+</div>
+
+---
+
+### **11. Estrategia de exposición y acceso a endpoints**
+
+Como la VM fue creada sin IP pública, los endpoints internos no quedan expuestos directamente en internet. Para pruebas internas, documentación Swagger, Eureka Dashboard y validación privada, se puede utilizar **IAP TCP forwarding**.
+
+Ejemplo para acceder al Gateway desde la máquina local del desarrollador:
+
+```bash
+gcloud compute start-iap-tunnel jameofit-backend-dev-vm 8080 \
+  --project=jameofit \
+  --zone=southamerica-west1-a \
+  --local-host-port=localhost:8080
+```
+
+Luego, desde el navegador local se puede acceder a:
+
+```text
+http://localhost:8080
+```
+
+En caso de requerir acceso al dashboard de Eureka:
+
+```bash
+gcloud compute start-iap-tunnel jameofit-backend-dev-vm 8761 \
+  --project=jameofit \
+  --zone=southamerica-west1-a \
+  --local-host-port=localhost:8761
+```
+
+Esta estrategia permite validar la plataforma sin exponer públicamente servicios internos como Config Server, Eureka, bases de datos o endpoints administrativos.
+
+Para la exposición pública hacia el frontend, se implementó un **External HTTP(S) Load Balancer** apuntando únicamente al `gateway-service`.
+
+<div align="center">
+  <img src="assets/TB2/gcp_iap_tunnel_gateway.png" alt="GCP IAP Tunnel Gateway" width="75%">
+  <p><em>Acceso privado al Gateway mediante IAP TCP forwarding para pruebas y revisión de endpoints</em></p>
+</div>
+
+---
+
+### **12. Exposición pública mediante HTTP(S) Load Balancer**
+
+Para permitir que el frontend consuma el backend de manera pública y segura, se configuró un **External HTTP(S) Load Balancer**. Este balanceador actúa como punto público de entrada y redirige el tráfico hacia el `gateway-service` ejecutado en la VM privada.
+
+La arquitectura de exposición quedó definida así:
+
+```text
+Frontend público
+  ↓ HTTPS
+External HTTP(S) Load Balancer
+  ↓ HTTP interno :8080
+VM privada sin IP pública
+  ↓ Docker Compose
+gateway-service:8080
+  ↓
+microservicios internos
+```
+
+Para conectar el Load Balancer con la VM existente, se creó un unmanaged instance group:
+
+```text
+Instance Group: jameofit-backend-uig
+VM asociada: jameofit-backend-dev-vm
+Named port: http:8080
+```
+
+También se configuró un health check contra el Gateway:
+
+```text
+Health Check: jameofit-gateway-health-check
+Port: 8080
+Path: /actuator/health
+```
+
+La regla de firewall asociada permite el tráfico del Load Balancer y sus health checks hacia el puerto 8080 de la VM:
+
+```text
+Firewall rule: allow-lb-to-gateway-8080-jameofit
+Port: tcp:8080
+Source ranges:
+  - 130.211.0.0/22
+  - 35.191.0.0/16
+Target tag: jameofit-backend
+```
+
+Los recursos principales configurados fueron:
+
+```text
+Backend Service: jameofit-gateway-backend
+URL Map: jameofit-url-map
+HTTP Proxy: jameofit-http-proxy
+HTTPS Proxy: jameofit-https-proxy
+Global Static IP: jameofit-lb-ip
+HTTP Forwarding Rule: jameofit-http-forwarding-rule
+HTTPS Forwarding Rule: jameofit-https-forwarding-rule
+```
+
+Inicialmente se validó el acceso por HTTP hacia el endpoint de salud:
+
+```bash
+curl -i "http://<LB_IP>/actuator/health"
+```
+
+Después, se configuró un dominio DuckDNS apuntando a la IP pública global del Load Balancer:
+
+```text
+<domain>.duckdns.org → Global Load Balancer IP
+```
+
+Con el dominio resolviendo correctamente, se creó y validó un certificado SSL administrado por Google:
+
+```text
+SSL Certificate: jameofit-managed-cert
+Type: Google-managed
+Domain: <domain>.duckdns.org
+Status: ACTIVE
+```
+
+Finalmente, se habilitó HTTPS y se configuró redirección HTTP hacia HTTPS mediante un URL map dedicado:
+
+```text
+URL Map: jameofit-http-redirect-url-map
+Redirect: HTTP → HTTPS
+Response code: MOVED_PERMANENTLY_DEFAULT
+```
+
+Validación esperada de la redirección:
+
+```bash
+curl -I "http://<domain>.duckdns.org/actuator/health"
+```
+
+```text
+HTTP/1.1 301 Moved Permanently
+Location: https://<domain>.duckdns.org/actuator/health
+```
+
+La URL pública que debe consumir el frontend queda definida como:
+
+```text
+https://<domain>.duckdns.org
+```
+
+Esta estrategia evita asignar IP pública a la VM, delega la terminación TLS al Load Balancer y mantiene los microservicios internos fuera de internet.
+
+<div align="center">
+  <img src="assets/TB2/gcp_https_load_balancer.png" alt="GCP Load Balancer" width="75%">  
+</div>
+
+---
+
+### **13. Resultado final del Sprint**
+
+Como resultado del Sprint, se logró desplegar y exponer de manera pública y segura la plataforma backend de JameoFit en Google Cloud Platform.
+
+Los principales resultados alcanzados fueron:
+
+* Proyecto GCP configurado con región `southamerica-west1`.
+* Artifact Registry creado para almacenar imágenes Docker privadas.
+* Autenticación entre GitHub Actions y GCP configurada mediante Workload Identity Federation.
+* Service Account de CI/CD creada sin uso de claves JSON.
+* Workflows reutilizables preparados para build y push de imágenes Docker.
+* Imágenes de microservicios publicadas en Artifact Registry con tags SHA inmutables.
+* VPC privada creada para la plataforma backend.
+* Cloud SQL PostgreSQL configurado con IP privada.
+* Bases de datos, usuarios y secretos separados por servicio PostgreSQL.
+* Secret Manager configurado para credenciales de base de datos.
+* Service Account runtime creada para la VM.
+* Máquina virtual privada preparada para ejecutar Docker Compose.
+* Cloud NAT configurado para permitir salida a internet sin IP pública.
+* Docker y Docker Compose configurados en la VM.
+* `platform-deploy` adaptado para GCP, Cloud SQL, Secret Manager y tags por servicio.
+* Despliegue de nueve servicios mediante Docker Compose.
+* Validación de healthcheck para Config Server, Eureka, Gateway e IAM vía Gateway.
+* Load Balancer HTTP(S) configurado para exponer únicamente el Gateway.
+* Dominio DuckDNS apuntando a la IP global del Load Balancer.
+* Certificado SSL administrado por Google configurado y validado.
+* Redirección HTTP hacia HTTPS configurada.
+* Estrategia de acceso privado mediante IAP TCP forwarding mantenida para administración y pruebas internas.
+
+La arquitectura resultante separa construcción de imágenes, almacenamiento de artefactos, gestión de secretos, base de datos administrada, runtime privado y exposición pública segura. Además, permite que el frontend consuma el backend mediante una URL HTTPS pública sin exponer directamente la VM ni los microservicios internos.
+
+#### 6.2.3.9. Team Collaboration Insights during Sprint
+
+En esta sección se analizan las evidencias de colaboración y coordinación del equipo durante el desarrollo del Sprint 3, considerando la participación de los integrantes en las actividades de implementación y control de versiones del proyecto. Para ello, se presentan métricas, capturas y analíticos obtenidos de GitHub, los cuales permiten visualizar la distribución del trabajo, el nivel de contribución de cada miembro y la interacción mantenida en el desarrollo de la aplicación web, la aplicacion nativa mobile, los servicios Backend implementados durante el sprint y la integracion con el servicio IoT.
+
+
 ### 6.3. Validation Interviews
 
 #### 6.3.1. Diseño de Entrevistas
@@ -5959,7 +7362,7 @@ En esta sección se analizan las evidencias de colaboración y coordinación del
 | Edad | 23 años |
 | Distrito/Ciudad | Lima |
 |  <img src="assets/entrevistas/Entrevista-Validacion1.png" alt="PB" width="800" height = "200"> | Gabriel entendió que JameoFit es una plataforma orientada a mejorar los hábitos alimenticios y el bienestar personal mediante el seguimiento nutricional y la integración con dispositivos inteligentes. Consideró clara la propuesta de valor, destacando la centralización de información sobre alimentación, hidratación y progreso físico en un solo lugar. Valoró positivamente la navegación de la plataforma, señalando que es intuitiva y fácil de usar, aunque inicialmente requirió comprender mejor la relación entre los dispositivos IoT y el seguimiento nutricional. Destacó la simplicidad del proceso de registro e inicio de sesión, así como la claridad visual del dashboard. Sugirió incorporar gráficos comparativos semanales y metas personalizadas para enriquecer el seguimiento del progreso. Respecto a los dispositivos inteligentes, consideró muy útil el monitoreo de hidratación y valoró la balanza inteligente por automatizar el registro de datos y reducir errores. Sobre la comunicación con el nutricionista, indicó que cumple con las expectativas de una consulta digital, aunque recomendó incluir videollamadas o mensajería en tiempo real. Finalmente, manifestó que estaría dispuesto a pagar una suscripción si incorpora asesorías periódicas, planes personalizados y análisis detallados, concluyendo que recomendaría la plataforma por integrar monitoreo, seguimiento y orientación profesional en una sola herramienta. |
-| Timing: 00:12 – 08:47 min | [Entrevista 1 JammeoFit.mp4]() |
+| Timing: 00:12 – 08:47 min | [Entrevista 1 JammeoFit.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313433_upc_edu_pe/IQBGv7yVvMkaTIoDEAMF-4HJAXr3jWKcg0OkKx6WgmTsOoY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lJZ2N2) |
 
 
 | Entrevistado 2 | María Fernanda Peña |
@@ -5967,7 +7370,7 @@ En esta sección se analizan las evidencias de colaboración y coordinación del
 | Edad | 22 años |
 | Distrito/Ciudad | Lima |
 |  <img src="assets/entrevistas/Entrevista-Validacion2.png" alt="PB" width="800" height = "200"> | María Fernanda percibió que JameoFit es una plataforma enfocada en mejorar la salud y la alimentación mediante el seguimiento nutricional apoyado por dispositivos IoT. Consideró clara la problemática que aborda, resaltando que ayuda a mantener hábitos saludables de manera práctica para personas con rutinas exigentes, como estudiantes y practicantes. Valoró positivamente la navegación de la aplicación por ser intuitiva y sencilla, aunque mencionó cierta dificultad inicial para comprender la sección relacionada con el peso y la búsqueda de nutricionistas. Destacó la facilidad del proceso de registro e inicio de sesión, así como la claridad de la información mostrada en el dashboard, sugiriendo añadir gráficos de progreso semanales o mensuales. Respecto a los dispositivos inteligentes, consideró especialmente útil el monitoreo de hidratación por ayudar a recordar el consumo de agua durante jornadas ocupadas, y valoró la balanza inteligente por facilitar el control del peso y generar mayor conciencia sobre los hábitos alimenticios. Sobre la comunicación con el nutricionista, indicó que cumple con lo esperado y sugirió incorporar videollamadas o programación de citas dentro de la plataforma. Finalmente, señaló que estaría dispuesta a pagar una suscripción siempre que el precio sea accesible y se ofrezcan planes personalizados e integración con otras aplicaciones, concluyendo que recomendaría JameoFit por reunir múltiples herramientas de seguimiento y orientación profesional en un solo lugar. |
-| Timing: 08:48 – 19:07 min | [Entrevista 2 JammeoFit.mp4]() |
+| Timing: 08:48 – 19:07 min | [Entrevista 2 JammeoFit.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313433_upc_edu_pe/IQBGv7yVvMkaTIoDEAMF-4HJAXr3jWKcg0OkKx6WgmTsOoY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lJZ2N2) |
 
 
 | Entrevistado 3 | Valeria Fernández |
