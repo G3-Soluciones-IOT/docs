@@ -102,6 +102,14 @@
 | AV2     | 19/06/2026   | Fabrizio Alberto Paredes Santos | Consolidación de las evidencias de Testing y Execution del Sprint 2; colaboración en la estabilización de microservicios y en el desarrollo de vistas del frontend web. |
 | AV2     | 20/06/2026   | Jhon Alexander Galvez Chambi | Despliegue de servicios en infraestructura GCP y documentación de sus evidencias en el Capítulo VI; elaboración de la sección *Project Report Collaboration Insights*. |
 | AV2     | 21/06/2026   | Mathias Eduardo Bueno Perales | Redacción de la sección 6.3.3 de evaluaciones según heurísticas, grabación y edición del *Video About-The-Product* (6.4), e integración final de los avances de frontend. |
+| TB2     | //2026   | Pablo Antonio Geronimo Quispe | |
+| TB2     | //2026   | Mathias Eduardo Bueno Perales |  |
+| TB2     | //2026   | Omar Luquillas Asto |  |
+| TB2     | //2026   | Fabrizio Alberto Paredes Santos |  |
+| TB2     | //2026   | Jhon Alexander Galvez Chambi |  |
+| TB2     | //2026   | Valentino Sandoval Paiva |  |
+| TB2     | //2026   | Ramiro Alexander Gúzman Chávez |  |
+
 
 ## Project Report Collaboration Insights
 
@@ -377,13 +385,13 @@ Para la elaboración de la entrega TB2 (Sprint Review – Semana 15) de este inf
       - [6.2.2.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
       - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
       - [6.2.2.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
-    - [6.2.3. Sprint 3](#622-sprint-3)
+    - [6.2.3. Sprint 3](#623-sprint-3)
       - [6.2.3.1. Sprint Planning 3](#6231-sprint-planning-3)
       - [6.2.3.2. Aspect Leaders and Collaborators](#6232-aspect-leaders-and-collaborators)
       - [6.2.3.3. Sprint Backlog 2](#6233-sprint-backlog-3)
       - [6.2.3.4. Development Evidence for Sprint Review](#6234-development-evidence-for-sprint-review)
       - [6.2.3.5. Testing Suite Evidence for Sprint Review](#6235-testing-suite-evidence-for-sprint-review)
-      - [6.2.3.6. Execution Evidence for Sprint Review](#6226-execution-evidence-for-sprint-review)
+      - [6.2.3.6. Execution Evidence for Sprint Review](#6236-execution-evidence-for-sprint-review)
       - [6.2.3.7. Services Documentation Evidence for Sprint Review](#6237-services-documentation-evidence-for-sprint-review)
       - [6.2.3.8. Software Deployment Evidence for Sprint Review](#6238-software-deployment-evidence-for-sprint-review)
       - [6.2.3.9. Team Collaboration Insights during Sprint](#6239-team-collaboration-insights-during-sprint)
